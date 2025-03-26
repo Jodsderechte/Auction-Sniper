@@ -12,7 +12,7 @@ HOURLY_LIMIT_STATUS = {429}
 
 # Endpoints and namespaces for item requests
 OAUTH_TOKEN_URL = "https://eu.battle.net/oauth/token"
-ITEM_API_URL_TEMPLATE = "https://us.api.blizzard.com/data/wow/item/{item_id}?namespace=static-eu&locale=en_US"
+ITEM_API_URL_TEMPLATE = "https://eu.api.blizzard.com/data/wow/item/{item_id}?namespace=static-eu&locale=en_US"
 
 # File paths
 AUCTIONS_DIR = os.path.join("data", "auctions") # Auctions files named like data/realm_{realm_id}.json
