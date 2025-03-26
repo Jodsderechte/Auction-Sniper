@@ -208,7 +208,8 @@ async def main():
 
     # Update encountered items file (only add items that were successfully processed)
     final_encountered = list(old_items.union(processed_new_items))
-    save_json(final_encountered, ENCOUNTERED_ITEMS_FILE)
+    sorted_data = sorted(final_encountered)
+    save_json(sorted_data, ENCOUNTERED_ITEMS_FILE)
     print(f"Encountered items file updated with {len(final_encountered)} items.")
 
 
