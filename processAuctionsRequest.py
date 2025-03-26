@@ -4,11 +4,32 @@ import json
 import asyncio
 import aiohttp
 from glob import glob
+from collections import deque
+import random
+
+class RateLimiter:
+    def __init__(self, rate):
+        self.rate = rate
+        self.timestamps = deque()
+        self.lock = asyncio.Lock()
+
+    async def acquire(self):
+        async with self.lock:
+            now = asyncio.get_event_loop().time()
+            while self.timestamps and now - self.timestamps[0] > 1:
+                self.timestamps.popleft()
+            if len(self.timestamps) >= self.rate:
+                sleep_time = 1 - (now - self.timestamps[0])
+                await asyncio.sleep(sleep_time)
+            self.timestamps.append(asyncio.get_event_loop().time())
 
 # --- Configuration Constants ---
 REQUESTS_PER_SECOND = 90
 DELAY = 1.0 / REQUESTS_PER_SECOND  # Delay based on rate limit
 MAX_RETRIES = 5
+
+# Create a global instance of RateLimiter:
+rate_limiter = RateLimiter(REQUESTS_PER_SECOND)
 
 # Endpoints and namespaces for item requests
 OAUTH_TOKEN_URL = "https://eu.battle.net/oauth/token"
@@ -79,13 +100,13 @@ async def fetch_data(session, url, headers, retries=MAX_RETRIES, delay=DELAY):
     """
     for attempt in range(1, retries + 1):
         try:
-            # Wait a base delay before making the request
-            await asyncio.sleep(delay)
+            # Rate limit requests
+            await rate_limiter.acquire()
             async with session.get(url, headers=headers) as resp:
                 if resp.status == 429:
                     # 429: Too many requests for this second
                     if attempt < retries:
-                        await asyncio.sleep(1)
+                        await asyncio.sleep(random.uniform(1, 10))
                         continue
                     else:
                         raise aiohttp.ClientResponseError(
