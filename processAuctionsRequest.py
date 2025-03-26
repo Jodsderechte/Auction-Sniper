@@ -41,7 +41,7 @@ def load_auctions_item_ids():
     """
     item_ids = set()
     # Assume auctions files match the pattern "realm_*.json"
-    for filepath in glob(os.path.join(AUCTIONS_DIR, "realm_*.json")):
+    for filepath in glob(os.path.join(AUCTIONS_DIR, "*.json")):
         try:
             with open(filepath, "r") as f:
                 data = json.load(f)
