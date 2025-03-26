@@ -7,6 +7,7 @@ import re
 BASE_URL = "https://eu.api.blizzard.com"
 NAMESPACE = "dynamic-eu"
 OAUTH_TOKEN_URL = "https://eu.battle.net/oauth/token"
+SAVE_FOLDER = "data/auctions/"
 
 def get_oauth_token(client_id, client_secret):
     """
@@ -83,7 +84,7 @@ def main():
         if realm_id:
             print(f"Processing realm: {realm_id}")
             auctions_data = get_auctions_for_realm(realm_id, headers)
-            filename = f"data/realm_{realm_id}.json"
+            filename = f"{SAVE_FOLDER}{realm_id}.json"
             save_json(auctions_data, filename)
             print(f"Saved auctions data for realm {realm_id} to {filename}")
         else:
