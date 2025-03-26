@@ -2,12 +2,27 @@ import os
 import json
 import asyncio
 import aiohttp
-import math
-
+from collections import deque
 # Configuration constants
 REQUESTS_PER_SECOND = 90
 DELAY = 1.0 / REQUESTS_PER_SECOND  # Dynamic delay between requests
 
+class RateLimiter:
+    def __init__(self, rate):
+        self.rate = rate
+        self.timestamps = deque()
+        self.lock = asyncio.Lock()
+
+    async def acquire(self):
+        async with self.lock:
+            now = asyncio.get_event_loop().time()
+            while self.timestamps and now - self.timestamps[0] > 1:
+                self.timestamps.popleft()
+            if len(self.timestamps) >= self.rate:
+                sleep_time = 1 - (now - self.timestamps[0])
+                await asyncio.sleep(sleep_time)
+            self.timestamps.append(asyncio.get_event_loop().time())
+rate_limiter = RateLimiter(REQUESTS_PER_SECOND)
 # API Endpoints and Parameters
 OAUTH_TOKEN_URL = "https://eu.battle.net/oauth/token"
 # For items, we use the US domain and static namespace
@@ -35,7 +50,7 @@ async def fetch_item_data(session, item_id, headers):
     """
     Fetch the item data for a given item ID.
     """
-    await asyncio.sleep(DELAY)
+    await rate_limiter.acquire()
     url = ITEM_API_URL_TEMPLATE.format(item_id=item_id)
     async with session.get(url, headers=headers) as resp:
         resp.raise_for_status()
@@ -45,7 +60,7 @@ async def fetch_media_data(session, media_url, headers):
     """
     Fetch the media data from the provided media URL.
     """
-    await asyncio.sleep(DELAY)
+    await rate_limiter.acquire()
     async with session.get(media_url, headers=headers) as resp:
         resp.raise_for_status()
         return await resp.json()
