@@ -15,7 +15,7 @@ OAUTH_TOKEN_URL = "https://eu.battle.net/oauth/token"
 ITEM_API_URL_TEMPLATE = "https://us.api.blizzard.com/data/wow/item/{item_id}?namespace=static-eu&locale=en_US"
 
 # File paths
-AUCTIONS_DIR = "data"  # Auctions files named like data/realm_{realm_id}.json
+AUCTIONS_DIR = os.path.join("data", "auctions") # Auctions files named like data/realm_{realm_id}.json
 ENCOUNTERED_ITEMS_FILE = os.path.join("data", "encountered_items.json")
 ITEMS_SAVE_DIR = os.path.join("data", "items")
 MEDIA_SAVE_DIR = os.path.join("data", "media")
@@ -40,7 +40,7 @@ def load_auctions_item_ids():
     """
     item_ids = set()
     # Assume auctions files match the pattern "realm_*.json"
-    for filepath in glob(os.path.join(AUCTIONS_DIR, "realm_*.json")):
+    for filepath in glob(os.path.join(AUCTIONS_DIR, "*.json")):
         try:
             with open(filepath, "r") as f:
                 data = json.load(f)
