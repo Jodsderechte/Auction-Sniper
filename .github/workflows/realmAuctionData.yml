@@ -2,7 +2,7 @@ name: Blizzard Data Gathering
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour; adjust as needed.
+    - cron: '0 1 1 1 1' 
   workflow_dispatch:
 
 jobs:
