@@ -1,0 +1,222 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://eu.api.blizzard.com/data/wow/item/19695?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "id": 19695,
+  "name": "Darksoul Shoulders",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 29,
+  "required_level": 25,
+  "media": {
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/19695?namespace=static-11.1.0_59095-eu"
+    },
+    "id": 19695
+  },
+  "item_class": {
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 42195,
+  "sell_price": 8439,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item/19695?namespace=static-11.1.0_59095-eu"
+      },
+      "id": 19695
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Darksoul Shoulders",
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/19695?namespace=static-11.1.0_59095-eu"
+      },
+      "id": 19695
+    },
+    "item_class": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": "Binds when equipped"
+    },
+    "armor": {
+      "value": 10,
+      "display": {
+        "display_string": "10 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1.0
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 4,
+        "display": {
+          "display_string": "+4 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1.0
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 3,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+3 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1.0
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 126,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "1",
+        "copper": "26"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 25,
+        "display_string": "Requires Level 25"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/444?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "The Darksoul",
+        "id": 444
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/19693?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darksoul Breastplate",
+            "id": 19693
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/19694?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darksoul Leggings",
+            "id": 19694
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/19695?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darksoul Shoulders",
+            "id": 19695
+          }
+        }
+      ],
+      "effects": [
+        {
+          "display_string": "(3) Set: Increases dodge by 15.",
+          "required_count": 3
+        }
+      ],
+      "display_string": "The Darksoul (0/3)",
+      "requirements": {
+        "skill": {
+          "profession": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/profession/164?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Blacksmithing",
+            "id": 164
+          },
+          "level": 300,
+          "display_string": "Requires Blacksmithing (300)"
+        }
+      }
+    },
+    "level": {
+      "value": 29,
+      "display_string": "Item Level 29"
+    },
+    "durability": {
+      "value": 85,
+      "display_string": "Durability 85 / 85"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5459?namespace=static-11.1.0_59095-eu"
+      },
+      "id": 5459
+    }
+  ]
+}
