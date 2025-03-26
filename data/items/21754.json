@@ -4,123 +4,124 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21754?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_ring_29.jpg",
   "id": 21754,
-  "name": "The Aquamarine Ward",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 25,
-  "required_level": 19,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21754?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21754
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 17230,
-  "sell_price": 4307,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 21754,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21754?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Aquamarine Ward",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21754,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21754?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21754
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "The Aquamarine Ward",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21754?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21754
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 25",
+      "value": 25
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "DODGE_RATING",
-          "name": "Dodge"
-        },
-        "value": 5,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+5 Dodge",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 21754,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21754?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 4307,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "43",
-        "copper": "7"
-      }
+    },
+    "name": "The Aquamarine Ward",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 19,
-        "display_string": "Requires Level 19"
+        "display_string": "Requires Level 19",
+        "value": 19
       }
     },
-    "level": {
-      "value": 25,
-      "display_string": "Item Level 25"
+    "sell_price": {
+      "display_strings": {
+        "copper": "7",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "43"
+      },
+      "value": 4307
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+5 Dodge"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Dodge",
+          "type": "DODGE_RATING"
+        },
+        "value": 5
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 17230,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 19,
+  "sell_price": 4307
 }

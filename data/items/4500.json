@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4500?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bag_08.jpg",
   "id": 4500,
-  "name": "Traveler's Backpack",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 28,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4500?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4500
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bag",
-    "id": 0
-  },
-  "inventory_type": {
-    "type": "BAG",
     "name": "Bag"
   },
-  "purchase_price": 35000,
-  "sell_price": 8750,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4500,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4500?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Traveler's Backpack",
   "preview_item": {
+    "container_slots": {
+      "display_string": "16 Slot Bag",
+      "value": 16
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 4500,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/4500?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4500
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Traveler's Backpack",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4500?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4500
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bag",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "BAG",
       "name": "Bag"
     },
-    "sell_price": {
-      "value": 8750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "87",
-        "copper": "50"
+    "media": {
+      "id": 4500,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4500?namespace=static-11.1.0_59095-eu"
       }
     },
-    "container_slots": {
-      "value": 16,
-      "display_string": "16 Slot Bag"
+    "name": "Traveler's Backpack",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "87"
+      },
+      "value": 8750
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 35000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 8750
 }

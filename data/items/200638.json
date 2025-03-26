@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/200638?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "A rare and unusual fish of little value.",
+  "icon_path": "data\\icons\\inv_fishing_f_sleeper2.jpg",
   "id": 200638,
-  "name": "Bubblefilled Flounder",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/200638?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 200638
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "A rare and unusual fish of little value.",
+  "media": {
+    "id": 200638,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/200638?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bubblefilled Flounder",
   "preview_item": {
+    "description": "A rare and unusual fish of little value.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 200638,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/200638?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200638
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Bubblefilled Flounder",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/200638?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200638
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
+    "media": {
+      "id": 200638,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/200638?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "A rare and unusual fish of little value.",
-    "is_subclass_hidden": true
+    "name": "Bubblefilled Flounder",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 1
 }

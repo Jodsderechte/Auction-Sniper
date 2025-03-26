@@ -4,189 +4,190 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13047?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 484,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/484?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mace_13.jpg",
   "id": 13047,
-  "name": "Twig of the World Tree",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13047?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13047
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 5
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 4485222,
-  "sell_price": 897044,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13047,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13047?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Twig of the World Tree",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13047?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13047
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 95 / 95",
+      "value": 95
     },
-    "name": "Twig of the World Tree",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 13047,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13047?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13047
+        "href": "https://eu.api.blizzard.com/data/wow/item/13047?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 5
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 681,
-        "max_value": 876,
-        "display_string": "681 - 876 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 216.24998,
-        "display_string": "(216.2 damage per second)"
+    "media": {
+      "id": 13047,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13047?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 232,
-        "is_negated": true,
-        "display": {
-          "display_string": "+232 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 452,
-        "display": {
-          "display_string": "+452 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 275,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+275 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 741158,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "74",
-        "silver": "11",
-        "copper": "58"
-      }
+    "name": "Twig of the World Tree",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "58",
+        "gold": "74",
+        "header": "Sell Price:",
+        "silver": "11"
+      },
+      "value": 741158
     },
-    "durability": {
-      "value": 95,
-      "display_string": "Durability 95 / 95"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+232 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 232
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+452 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 452
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+275 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 275
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "681 - 876 Damage",
+        "max_value": 876,
+        "min_value": 681
+      },
+      "dps": {
+        "display_string": "(216.2 damage per second)",
+        "value": 216.24998
+      }
     }
   },
+  "purchase_price": 4485222,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/484?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 484
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 22,
+  "sell_price": 897044
 }

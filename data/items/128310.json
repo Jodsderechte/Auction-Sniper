@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/128310?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Banner and weaponry carried by masters of the blade.",
+  "icon_path": "data\\icons\\inv_sword_2h_pvpcataclysms3_c_01.jpg",
   "id": 128310,
-  "name": "Burning Blade",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/128310?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 128310
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Banner and weaponry carried by masters of the blade.",
+  "media": {
+    "id": 128310,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/128310?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Burning Blade",
   "preview_item": {
+    "description": "Banner and weaponry carried by masters of the blade.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 128310,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/128310?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 128310
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Burning Blade",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/128310?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 128310
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 128310,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/128310?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Burning Blade",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nDon the banner and weaponry of the Burning Blade. (1 Hr Cooldown)",
         "spell": {
+          "id": 189363,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/189363?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Burning Blade",
-          "id": 189363
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nDon the banner and weaponry of the Burning Blade. (1 Hr Cooldown)"
+          "name": "Burning Blade"
+        }
       }
     ],
-    "description": "Banner and weaponry carried by masters of the blade.",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

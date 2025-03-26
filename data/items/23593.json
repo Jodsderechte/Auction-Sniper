@@ -4,254 +4,255 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23593?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make an Adamantite Rapier.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 23593,
-  "name": "Plans: Adamantite Rapier",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23593?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23593
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 40000,
-  "sell_price": 10000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make an Adamantite Rapier.",
+  "media": {
+    "id": 23593,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23593?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Adamantite Rapier",
   "preview_item": {
+    "description": "Teaches you how to make an Adamantite Rapier.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 23593,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23593?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23593
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Plans: Adamantite Rapier",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23593?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23593
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 23593,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23593?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Blacksmithing",
-          "id": 2476
-        },
-        "level": 35,
-        "display_string": "Requires Outland Blacksmithing (35)"
-      }
+    "name": "Plans: Adamantite Rapier",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make an Adamantite Rapier.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 75 / 75",
+          "value": 75
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 23505,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/23505?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23505
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Adamantite Rapier",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/23505?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23505
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 7,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Sword",
-          "id": 7
+          "name": "Sword"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 31",
+          "value": 31
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 4,
-            "max_value": 7,
-            "display_string": "4 - 7 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 2600,
-            "display_string": "Speed 2.60"
-          },
-          "dps": {
-            "value": 2.1153846,
-            "display_string": "(2.1 damage per second)"
+        "media": {
+          "id": 23505,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/23505?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "DODGE_RATING",
-              "name": "Dodge"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Dodge",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Adamantite Rapier",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 26,
-            "display_string": "Requires Level 26"
+            "display_string": "Requires Level 26",
+            "value": 26
           }
         },
-        "level": {
-          "value": 31,
-          "display_string": "Item Level 31"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 75,
-          "display_string": "Durability 75 / 75"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Dodge"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Dodge",
+              "type": "DODGE_RATING"
+            },
+            "value": 4
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.60",
+            "value": 2600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "4 - 7 Damage",
+            "max_value": 7,
+            "min_value": 4
+          },
+          "dps": {
+            "display_string": "(2.1 damage per second)",
+            "value": 2.1153846
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 12,
           "reagent": {
+            "id": 23446,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23446?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Adamantite Bar",
-            "id": 23446
-          },
-          "quantity": 12
+            "name": "Adamantite Bar"
+          }
         }
       ],
       "reagents_display_string": "Adamantite Bar (12)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Blacksmithing (35)",
+        "level": 35,
+        "profession": {
+          "id": 2476,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 40000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 10000
 }

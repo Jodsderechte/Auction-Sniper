@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/22012?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "The methods in this book are outdated.",
+  "icon_path": "data\\icons\\inv_misc_book_10.jpg",
   "id": 22012,
-  "name": "Master First Aid - Doctor in the House",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 25,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/22012?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 22012
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000,
-  "sell_price": 200,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "The methods in this book are outdated.",
+  "media": {
+    "id": 22012,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/22012?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Master First Aid - Doctor in the House",
   "preview_item": {
+    "description": "The methods in this book are outdated.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 22012,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/22012?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 22012
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Master First Aid - Doctor in the House",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/22012?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 22012
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 200,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "0"
+    "media": {
+      "id": 22012,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/22012?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "The methods in this book are outdated.",
-    "is_subclass_hidden": true
+    "name": "Master First Aid - Doctor in the House",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 200
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 200
 }

@@ -4,236 +4,237 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/190484?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 76941,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/76941?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_1h_dragonquest_b_01.jpg",
   "id": 190484,
-  "name": "Draconium Sword",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 270,
-  "required_level": 62,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/190484?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 190484
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 2516877,
-  "sell_price": 503375,
+  "level": 270,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 190484,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/190484?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Draconium Sword",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/190484?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 190484
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8851,
       8852
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 90 / 90",
+      "value": 90
     },
-    "name": "Draconium Sword",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 190484,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/190484?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 190484
+        "href": "https://eu.api.blizzard.com/data/wow/item/190484?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
-    },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 238,
-        "max_value": 398,
-        "display_string": "238 - 398 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 122.307686,
-        "display_string": "(122.3 damage per second)"
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 108,
-        "is_negated": true,
-        "display": {
-          "display_string": "+108 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 108,
-        "is_negated": true,
-        "display": {
-          "display_string": "+108 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 162,
-        "display": {
-          "display_string": "+162 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 102,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+102 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 102,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+102 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 503375,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "33",
-        "copper": "75"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 62,
-        "display_string": "Requires Level 62"
-      }
+      "name": "Sword"
     },
     "level": {
-      "value": 330,
-      "display_string": "Item Level 330"
+      "display_string": "Item Level 330",
+      "value": 330
     },
-    "durability": {
-      "value": 90,
-      "display_string": "Durability 90 / 90"
+    "media": {
+      "id": 190484,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/190484?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "name": "Versatility",
+        "type": "VERSATILITY"
       },
       {
         "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
+        "name": "Critical Strike",
+        "type": "CRIT_RATING"
       }
-    ]
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/76941?namespace=static-11.1.0_59095-eu"
+    ],
+    "name": "Draconium Sword",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 62",
+        "value": 62
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "33"
       },
-      "id": 76941
+      "value": 503375
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+108 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 108
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+108 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 108
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+162 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 162
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+102 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 102
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+102 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 102
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "238 - 398 Damage",
+        "max_value": 398,
+        "min_value": 238
+      },
+      "dps": {
+        "display_string": "(122.3 damage per second)",
+        "value": 122.307686
+      }
     }
-  ]
+  },
+  "purchase_price": 2516877,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 62,
+  "sell_price": 503375
 }

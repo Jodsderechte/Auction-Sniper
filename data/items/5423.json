@@ -4,173 +4,174 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5423?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1873,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1873?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_axe_17.jpg",
   "id": 5423,
-  "name": "Boahn's Fang",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 13,
-  "required_level": 8,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5423?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5423
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 1
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 15575,
-  "sell_price": 3115,
+  "level": 13,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 5423,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5423?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Boahn's Fang",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/5423?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5423
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6710
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 60 / 60",
+      "value": 60
     },
-    "name": "Boahn's Fang",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 5423,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5423?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5423
+        "href": "https://eu.api.blizzard.com/data/wow/item/5423?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 1
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 550,
-        "max_value": 1144,
-        "display_string": "550 - 1,144 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 235.13889,
-        "display_string": "(235.1 damage per second)"
+    "media": {
+      "id": 5423,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5423?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 451,
-        "is_negated": true,
-        "display": {
-          "display_string": "+451 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 410,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+410 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 743072,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "74",
-        "silver": "30",
-        "copper": "72"
-      }
+    "name": "Boahn's Fang",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 8,
-        "display_string": "Requires Level 8"
+        "display_string": "Requires Level 8",
+        "value": 8
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "72",
+        "gold": "74",
+        "header": "Sell Price:",
+        "silver": "30"
+      },
+      "value": 743072
     },
-    "durability": {
-      "value": 60,
-      "display_string": "Durability 60 / 60"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+451 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 451
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+410 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 410
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "550 - 1,144 Damage",
+        "max_value": 1144,
+        "min_value": 550
+      },
+      "dps": {
+        "display_string": "(235.1 damage per second)",
+        "value": 235.13889
+      }
     }
   },
+  "purchase_price": 15575,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1873?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1873
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 8,
+  "sell_price": 3115
 }

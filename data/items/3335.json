@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3335?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1179,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1179?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_08.jpg",
   "id": 3335,
-  "name": "Farmer's Broom",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 3,
-  "required_level": 2,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3335?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3335
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 230,
-  "sell_price": 46,
+  "level": 3,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 3335,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3335?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Farmer's Broom",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/3335?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3335
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6713
     ],
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 30 / 30",
+      "value": 30
     },
-    "name": "Farmer's Broom",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 3335,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3335?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3335
+        "href": "https://eu.api.blizzard.com/data/wow/item/3335?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
+      "name": "Staff"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 150",
+      "value": 150
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 32,
-        "max_value": 44,
-        "display_string": "32 - 44 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 10.555555,
-        "display_string": "(10.6 damage per second)"
+    "media": {
+      "id": 3335,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3335?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 18504,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "85",
-        "copper": "4"
-      }
+    "name": "Farmer's Broom",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 2,
-        "display_string": "Requires Level 2"
+        "display_string": "Requires Level 2",
+        "value": 2
       }
     },
-    "level": {
-      "value": 150,
-      "display_string": "Item Level 150"
+    "sell_price": {
+      "display_strings": {
+        "copper": "4",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "85"
+      },
+      "value": 18504
     },
-    "durability": {
-      "value": 30,
-      "display_string": "Durability 30 / 30"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "32 - 44 Damage",
+        "max_value": 44,
+        "min_value": 32
+      },
+      "dps": {
+        "display_string": "(10.6 damage per second)",
+        "value": 10.555555
+      }
     }
   },
+  "purchase_price": 230,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1179?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1179
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 2,
+  "sell_price": 46
 }

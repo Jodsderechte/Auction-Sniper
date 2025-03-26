@@ -4,215 +4,216 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204932?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 80246,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/80246?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_leather_outdoorblackdragon_d_01_pant.jpg",
   "id": 204932,
-  "name": "Sunless Pants",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
-  "level": 250,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204932?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204932
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 250,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 204932,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204932?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Sunless Pants",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/204932?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "89 Armor"
       },
-      "id": 204932
+      "value": 89
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
+    },
     "bonus_list": [
       8902
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Sunless Pants",
-    "media": {
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
+    "item": {
+      "id": 204932,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204932?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204932
+        "href": "https://eu.api.blizzard.com/data/wow/item/204932?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
+    "level": {
+      "display_string": "Item Level 250",
+      "value": 250
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
-    },
-    "armor": {
-      "value": 89,
-      "display": {
-        "display_string": "89 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 204932,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204932?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 67,
-        "display": {
-          "display_string": "+67 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 67,
-        "is_negated": true,
-        "display": {
-          "display_string": "+67 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 100,
-        "display": {
-          "display_string": "+100 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 75,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+75 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 58,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+58 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 142205,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "14",
-        "silver": "22",
-        "copper": "5"
-      }
+    "name": "Sunless Pants",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "level": {
-      "value": 250,
-      "display_string": "Item Level 250"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/80246?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "5",
+        "gold": "14",
+        "header": "Sell Price:",
+        "silver": "22"
       },
-      "id": 80246
-    }
-  ]
+      "value": 142205
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+67 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 67
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+67 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 67
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+100 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 100
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+75 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 75
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+58 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 58
+      }
+    ]
+  },
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 0
 }

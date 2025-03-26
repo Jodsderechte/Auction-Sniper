@@ -4,217 +4,218 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/188030?namespace=static-11.1.0_59095-eu"
     }
   },
-  "id": 188030,
-  "name": "Harmonium Gauntlets",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
-  },
-  "level": 226,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/188030?namespace=static-11.1.0_59095-eu"
+  "appearances": [
+    {
+      "id": 57156,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/57156?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "id": 188030
+    {
+      "id": 57174,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/57174?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_plate_broker_c_01_glove.jpg",
+  "id": 188030,
+  "inventory_type": {
+    "name": "Hands",
+    "type": "HAND"
   },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "HAND",
-    "name": "Hands"
-  },
-  "purchase_price": 1307177,
-  "sell_price": 261435,
+  "level": 226,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 188030,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/188030?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Harmonium Gauntlets",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "81 Armor"
+      },
+      "value": 81
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
+    },
+    "inventory_type": {
+      "name": "Hands",
+      "type": "HAND"
+    },
     "item": {
+      "id": 188030,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/188030?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 188030
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Harmonium Gauntlets",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/188030?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 188030
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "HAND",
-      "name": "Hands"
+    "level": {
+      "display_string": "Item Level 226",
+      "value": 226
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 81,
-      "display": {
-        "display_string": "81 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 188030,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/188030?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 33,
-        "display": {
-          "display_string": "+33 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 33,
-        "is_negated": true,
-        "display": {
-          "display_string": "+33 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 50,
-        "display": {
-          "display_string": "+50 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 29,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+29 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 37,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+37 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 30318,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "3",
-        "copper": "18"
-      }
+    "name": "Harmonium Gauntlets",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
+        "display_string": "Requires Level 60",
+        "value": 60
       }
     },
-    "level": {
-      "value": 226,
-      "display_string": "Item Level 226"
+    "sell_price": {
+      "display_strings": {
+        "copper": "18",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 30318
     },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
-    }
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+33 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 33
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+33 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 33
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+50 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 50
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+29 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 29
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+37 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 37
+      }
+    ]
   },
+  "purchase_price": 1307177,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/57156?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 57156
-    },
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/57174?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 57174
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 60,
+  "sell_price": 261435
 }

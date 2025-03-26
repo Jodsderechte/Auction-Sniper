@@ -4,143 +4,144 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/221792?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Provides all the necessary tools for jewelcrafting in one convenient package.",
+  "icon_path": "data\\icons\\inv_misc_1h_jewelerschisel_a_01.jpg",
   "id": 221792,
-  "name": "Lapidary's Bismuth Clamps",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/221792?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 221792
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 11
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 923775,
-  "sell_price": 184755,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Provides all the necessary tools for jewelcrafting in one convenient package.",
+  "media": {
+    "id": 221792,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/221792?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Lapidary's Bismuth Clamps",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/221792?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221792
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "description": "Provides all the necessary tools for jewelcrafting in one convenient package.",
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Lapidary's Bismuth Clamps",
-    "media": {
+    "item": {
+      "id": 221792,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/221792?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221792
+        "href": "https://eu.api.blizzard.com/data/wow/item/221792?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 11
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_INGENUITY",
-          "name": "Ingenuity"
-        },
-        "value": 173,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+173 Ingenuity",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455739?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455739
-        },
-        "description": "Equip: +8 Khaz Algar Jewelcrafting Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 184755,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "18",
-        "silver": "47",
-        "copper": "55"
+    "media": {
+      "id": 221792,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/221792?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
-      }
-    },
-    "description": "Provides all the necessary tools for jewelcrafting in one convenient package.",
     "modified_crafting_stat": [
       {
         "id": 82,
-        "type": "BONUS_STAT_PROFESSION_INGENUITY",
-        "name": "Ingenuity"
+        "name": "Ingenuity",
+        "type": "BONUS_STAT_PROFESSION_INGENUITY"
+      }
+    ],
+    "name": "Lapidary's Bismuth Clamps",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 68",
+        "value": 68
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "55",
+        "gold": "18",
+        "header": "Sell Price:",
+        "silver": "47"
+      },
+      "value": 184755
+    },
+    "spells": [
+      {
+        "description": "Equip: +8 Khaz Algar Jewelcrafting Skill",
+        "spell": {
+          "id": 455739,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455739?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+173 Ingenuity"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Ingenuity",
+          "type": "BONUS_STAT_PROFESSION_INGENUITY"
+        },
+        "value": 173
       }
     ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 923775,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 184755
 }

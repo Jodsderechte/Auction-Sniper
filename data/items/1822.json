@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1822?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 550,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/550?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_08.jpg",
   "id": 1822,
-  "name": "Cedar Walking Stick",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 14,
-  "required_level": 9,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1822?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1822
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 8704,
-  "sell_price": 1740,
+  "level": 14,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1822,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1822?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Cedar Walking Stick",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1822?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1822
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 50 / 50",
+      "value": 50
     },
-    "name": "Cedar Walking Stick",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 1822,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1822?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1822
+        "href": "https://eu.api.blizzard.com/data/wow/item/1822?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
+      "name": "Staff"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 274,
-        "max_value": 372,
-        "display_string": "274 - 372 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 89.72222,
-        "display_string": "(89.7 damage per second)"
+    "media": {
+      "id": 1822,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1822?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 208555,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "85",
-        "copper": "55"
-      }
+    "name": "Cedar Walking Stick",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 9,
-        "display_string": "Requires Level 9"
+        "display_string": "Requires Level 9",
+        "value": 9
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "55",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "85"
+      },
+      "value": 208555
     },
-    "durability": {
-      "value": 50,
-      "display_string": "Durability 50 / 50"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "274 - 372 Damage",
+        "max_value": 372,
+        "min_value": 274
+      },
+      "dps": {
+        "display_string": "(89.7 damage per second)",
+        "value": 89.72222
+      }
     }
   },
+  "purchase_price": 8704,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/550?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 550
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 9,
+  "sell_price": 1740
 }

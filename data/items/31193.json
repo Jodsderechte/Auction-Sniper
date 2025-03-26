@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/31193?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8108,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8108?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_14.jpg",
   "id": 31193,
-  "name": "Blade of Unquenched Thirst",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 31,
-  "required_level": 26,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/31193?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 31193
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 110260,
-  "sell_price": 22052,
+  "level": 31,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 31193,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/31193?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blade of Unquenched Thirst",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/31193?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31193
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
     },
-    "name": "Blade of Unquenched Thirst",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 31193,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/31193?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31193
+        "href": "https://eu.api.blizzard.com/data/wow/item/31193?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 220,
-        "max_value": 367,
-        "display_string": "220 - 367 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 163.05554,
-        "display_string": "(163.1 damage per second)"
+    "media": {
+      "id": 31193,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/31193?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 144,
-        "is_negated": true,
-        "display": {
-          "display_string": "+144 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/24585?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Drain Life",
-          "id": 24585
-        },
-        "description": "Chance on hit: Steals 288 life from target enemy."
-      }
-    ],
-    "sell_price": {
-      "value": 581285,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "58",
-        "silver": "12",
-        "copper": "85"
-      }
+    "name": "Blade of Unquenched Thirst",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 26,
-        "display_string": "Requires Level 26"
+        "display_string": "Requires Level 26",
+        "value": 26
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "85",
+        "gold": "58",
+        "header": "Sell Price:",
+        "silver": "12"
+      },
+      "value": 581285
     },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
+    "spells": [
+      {
+        "description": "Chance on hit: Steals 288 life from target enemy.",
+        "spell": {
+          "id": 24585,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/24585?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Drain Life"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+144 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 144
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "220 - 367 Damage",
+        "max_value": 367,
+        "min_value": 220
+      },
+      "dps": {
+        "display_string": "(163.1 damage per second)",
+        "value": 163.05554
+      }
     }
   },
+  "purchase_price": 110260,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8108?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8108
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 26,
+  "sell_price": 22052
 }

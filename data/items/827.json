@@ -4,156 +4,157 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/827?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 246,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/246?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mace_01.jpg",
   "id": 827,
-  "name": "Wicked Blackjack",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 10,
-  "required_level": 6,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/827?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 827
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 4
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 4859,
-  "sell_price": 971,
+  "level": 10,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 827,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/827?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wicked Blackjack",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/827?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 827
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4790
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
     },
-    "name": "Wicked Blackjack",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 827,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/827?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 827
+        "href": "https://eu.api.blizzard.com/data/wow/item/827?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 4
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 366",
+      "value": 366
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 385,
-        "max_value": 496,
-        "display_string": "385 - 496 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 169.42307,
-        "display_string": "(169.4 damage per second)"
+    "media": {
+      "id": 827,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/827?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 283,
-        "is_negated": true,
-        "display": {
-          "display_string": "+283 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 518373,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "51",
-        "silver": "83",
-        "copper": "73"
-      }
+    "name": "Wicked Blackjack",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 6,
-        "display_string": "Requires Level 6"
+        "display_string": "Requires Level 6",
+        "value": 6
       }
     },
-    "level": {
-      "value": 366,
-      "display_string": "Item Level 366"
+    "sell_price": {
+      "display_strings": {
+        "copper": "73",
+        "gold": "51",
+        "header": "Sell Price:",
+        "silver": "83"
+      },
+      "value": 518373
     },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+283 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 283
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "385 - 496 Damage",
+        "max_value": 496,
+        "min_value": 385
+      },
+      "dps": {
+        "display_string": "(169.4 damage per second)",
+        "value": 169.42307
+      }
     }
   },
+  "purchase_price": 4859,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/246?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 246
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 6,
+  "sell_price": 971
 }

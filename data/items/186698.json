@@ -4,96 +4,97 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/186698?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_alchemy_90_modifiedreagent_orange.jpg",
   "id": 186698,
-  "name": "Torch Burst",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/186698?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 186698
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 186698,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/186698?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Torch Burst",
   "preview_item": {
+    "charges": {
+      "display_string": "5 Charges",
+      "value": 5
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 186698,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/186698?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 186698
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Torch Burst",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/186698?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 186698
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 186698,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/186698?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Torch Burst",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "spells": [
       {
+        "description": "Use: Douse your friends with a burst of orange color! Fun for all ages! (3 Min Cooldown)",
         "spell": {
+          "id": 354872,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/354872?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Torch Burst",
-          "id": 354872
-        },
-        "description": "Use: Douse your friends with a burst of orange color! Fun for all ages! (3 Min Cooldown)"
+          "name": "Torch Burst"
+        }
       }
-    ],
-    "charges": {
-      "value": 5,
-      "display_string": "5 Charges"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

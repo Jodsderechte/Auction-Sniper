@@ -4,227 +4,228 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204965?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 78556,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/78556?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shield_1h_blackdragonoutdoor_d_01.jpg",
   "id": 204965,
-  "name": "Neltharic Shield",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Off Hand",
+    "type": "SHIELD"
   },
-  "level": 250,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204965?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204965
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Shield",
-    "id": 6
+    "name": "Shield"
   },
-  "inventory_type": {
-    "type": "SHIELD",
-    "name": "Off Hand"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 250,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 204965,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204965?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Neltharic Shield",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/204965?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "660 Armor"
       },
-      "id": 204965
+      "value": 660
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
+    },
     "bonus_list": [
       8902
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Neltharic Shield",
-    "media": {
+    "inventory_type": {
+      "name": "Off Hand",
+      "type": "SHIELD"
+    },
+    "item": {
+      "id": 204965,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204965?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204965
+        "href": "https://eu.api.blizzard.com/data/wow/item/204965?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Shield",
-      "id": 6
+      "name": "Shield"
     },
-    "inventory_type": {
-      "type": "SHIELD",
-      "name": "Off Hand"
+    "level": {
+      "display_string": "Item Level 250",
+      "value": 250
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
-    },
-    "armor": {
-      "value": 660,
-      "display": {
-        "display_string": "660 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 204965,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204965?namespace=static-11.1.0_59095-eu"
       }
     },
-    "shield_block": {
-      "value": 1650,
-      "display": {
-        "display_string": "1,650 Block",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 103,
-        "display": {
-          "display_string": "+103 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 33,
-        "is_negated": true,
-        "display": {
-          "display_string": "+33 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 50,
-        "display": {
-          "display_string": "+50 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 32,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+32 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 35,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+35 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 126794,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "12",
-        "silver": "67",
-        "copper": "94"
-      }
+    "name": "Neltharic Shield",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "level": {
-      "value": 250,
-      "display_string": "Item Level 250"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/78556?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "94",
+        "gold": "12",
+        "header": "Sell Price:",
+        "silver": "67"
       },
-      "id": 78556
-    }
-  ]
+      "value": 126794
+    },
+    "shield_block": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "1,650 Block"
+      },
+      "value": 1650
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+103 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 103
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+33 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 33
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+50 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 50
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+32 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 32
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+35 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 35
+      }
+    ]
+  },
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 0
 }

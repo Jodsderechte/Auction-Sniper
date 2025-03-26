@@ -4,175 +4,176 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204810?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\misc_drogbartotem02.jpg",
   "id": 204810,
-  "name": "Drogbar Rocks",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 250,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204810?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204810
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 137962,
-  "sell_price": 68981,
+  "level": 250,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 204810,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204810?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Drogbar Rocks",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/204810?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204810
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
     },
-    "context": 0,
     "bonus_list": [
       8902
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Drogbar Rocks",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 204810,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204810?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204810
+        "href": "https://eu.api.blizzard.com/data/wow/item/204810?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 250",
+      "value": 250
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
+    "media": {
+      "id": 204810,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204810?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 96,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+96 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/407895?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Drogbar Rocks",
-          "id": 407895
-        },
-        "description": "Equip: Your melee critical strikes have a chance to draw a drogbar fist out of the ground beneath your target, dealing 8,948 Physical damage."
-      }
-    ],
-    "sell_price": {
-      "value": 68981,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "6",
-        "silver": "89",
-        "copper": "81"
-      }
+    "name": "Drogbar Rocks",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/1539?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Might of the Drogbar",
-        "id": 1539
+    "sell_price": {
+      "display_strings": {
+        "copper": "81",
+        "gold": "6",
+        "header": "Sell Price:",
+        "silver": "89"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/204811?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Drogbar Stones",
-            "id": 204811
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/204810?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Drogbar Rocks",
-            "id": 204810
-          }
-        }
-      ],
+      "value": 68981
+    },
+    "set": {
+      "display_string": "Might of the Drogbar (0/2)",
       "effects": [
         {
           "display_string": "(2) Set: Your melee attacks have a chance to imbue you with drogbar might, increasing your Intellect for 10 sec. You may also shout about this uncontrollably.",
           "required_count": 2
         }
       ],
-      "display_string": "Might of the Drogbar (0/2)"
+      "item_set": {
+        "id": 1539,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/1539?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Might of the Drogbar"
+      },
+      "items": [
+        {
+          "item": {
+            "id": 204811,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/204811?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Drogbar Stones"
+          }
+        },
+        {
+          "item": {
+            "id": 204810,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/204810?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Drogbar Rocks"
+          }
+        }
+      ]
     },
-    "level": {
-      "value": 250,
-      "display_string": "Item Level 250"
-    },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Your melee critical strikes have a chance to draw a drogbar fist out of the ground beneath your target, dealing 8,948 Physical damage.",
+        "spell": {
+          "id": 407895,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/407895?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Drogbar Rocks"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+96 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 96
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 137962,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 70,
+  "sell_price": 68981
 }

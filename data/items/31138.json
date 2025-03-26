@@ -4,198 +4,199 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/31138?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6860,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6860?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_belt_09.jpg",
   "id": 31138,
-  "name": "Storm Lord's Girdle",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Waist",
+    "type": "WAIST"
   },
-  "level": 30,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/31138?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 31138
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
-  },
-  "purchase_price": 1384132,
-  "sell_price": 276826,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 31138,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/31138?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Storm Lord's Girdle",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/31138?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "339 Armor"
       },
-      "id": 31138
+      "value": 339
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 50 / 50",
+      "value": 50
     },
-    "name": "Storm Lord's Girdle",
-    "media": {
+    "inventory_type": {
+      "name": "Waist",
+      "type": "WAIST"
+    },
+    "item": {
+      "id": 31138,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/31138?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31138
+        "href": "https://eu.api.blizzard.com/data/wow/item/31138?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 339,
-      "display": {
-        "display_string": "339 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 31138,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/31138?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 302,
-        "display": {
-          "display_string": "+302 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 302,
-        "is_negated": true,
-        "display": {
-          "display_string": "+302 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 336,
-        "display": {
-          "display_string": "+336 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 149,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+149 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 208522,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "85",
-        "copper": "22"
-      }
+    "name": "Storm Lord's Girdle",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
+        "display_string": "Requires Level 25",
+        "value": 25
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
-    },
-    "durability": {
-      "value": 50,
-      "display_string": "Durability 50 / 50"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6860?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "22",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "85"
       },
-      "id": 6860
-    }
-  ]
+      "value": 208522
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+302 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 302
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+302 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 302
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+336 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 336
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+149 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 149
+      }
+    ]
+  },
+  "purchase_price": 1384132,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 25,
+  "sell_price": 276826
 }

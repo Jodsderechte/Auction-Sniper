@@ -4,235 +4,236 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23516?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2221,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2221?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_22.jpg",
   "id": 23516,
-  "name": "Flamebane Helm",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23516?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23516
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 66742,
-  "sell_price": 13348,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 23516,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23516?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Flamebane Helm",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "11 Armor"
+      },
+      "value": 11
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
     "item": {
+      "id": 23516,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23516?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23516
-    },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
       }
-    ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Flamebane Helm",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23516?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23516
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 11,
-      "display": {
-        "display_string": "11 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 23516,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23516?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "FIRE_RESISTANCE",
-          "name": "Fire Resistance"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Fire Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "socket_bonus": "Socket Bonus: +2 Critical Strike",
-    "sell_price": {
-      "value": 167,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "67"
-      }
+    "name": "Flamebane Helm",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/564?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Flame Guard",
-        "id": 564
+    "sell_price": {
+      "display_strings": {
+        "copper": "67",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23513?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Flamebane Breastplate",
-            "id": 23513
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23516?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Flamebane Helm",
-            "id": 23516
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23514?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Flamebane Gloves",
-            "id": 23514
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23515?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Flamebane Bracers",
-            "id": 23515
-          }
-        }
-      ],
+      "value": 167
+    },
+    "set": {
+      "display_string": "Flame Guard (0/4)",
       "effects": [
         {
           "display_string": "(3) Set: Increases your parry by 10.",
           "required_count": 3
         }
       ],
-      "display_string": "Flame Guard (0/4)"
-    },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2221?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 564,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/564?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Flame Guard"
       },
-      "id": 2221
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 23513,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23513?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Flamebane Breastplate"
+          }
+        },
+        {
+          "item": {
+            "id": 23516,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23516?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Flamebane Helm"
+          }
+        },
+        {
+          "item": {
+            "id": 23514,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23514?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Flamebane Gloves"
+          }
+        },
+        {
+          "item": {
+            "id": 23515,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23515?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Flamebane Bracers"
+          }
+        }
+      ]
+    },
+    "socket_bonus": "Socket Bonus: +2 Critical Strike",
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      },
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      },
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+5 Fire Resistance"
+        },
+        "type": {
+          "name": "Fire Resistance",
+          "type": "FIRE_RESISTANCE"
+        },
+        "value": 5
+      }
+    ]
+  },
+  "purchase_price": 66742,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 13348
 }

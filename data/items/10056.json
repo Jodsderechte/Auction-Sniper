@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/10056?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3055,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3055?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shirt_orange_01.jpg",
   "id": 10056,
-  "name": "Orange Mageweave Shirt",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Shirt",
+    "type": "BODY"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/10056?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 10056
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "BODY",
-    "name": "Shirt"
-  },
-  "purchase_price": 6000,
-  "sell_price": 1500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 10056,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/10056?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Orange Mageweave Shirt",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Shirt",
+      "type": "BODY"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 10056,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/10056?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10056
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Orange Mageweave Shirt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/10056?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10056
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "BODY",
-      "name": "Shirt"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+      "name": "Miscellaneous"
     },
     "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 10056,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3055?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/10056?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Orange Mageweave Shirt",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "id": 3055
+      "value": 1500
     }
-  ]
+  },
+  "purchase_price": 6000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1500
 }

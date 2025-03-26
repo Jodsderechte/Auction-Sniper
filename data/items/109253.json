@@ -4,103 +4,104 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/109253?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Includes every profession tool.",
+  "icon_path": "data\\icons\\inv_misc_enggizmos_swissarmy.jpg",
   "id": 109253,
-  "name": "Ultimate Gnomish Army Knife",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 35,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/109253?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 109253
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 9027,
-  "sell_price": 2256,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Includes every profession tool.",
+  "media": {
+    "id": 109253,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/109253?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ultimate Gnomish Army Knife",
   "preview_item": {
+    "description": "Includes every profession tool.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 109253,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/109253?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 109253
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Ultimate Gnomish Army Knife",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/109253?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 109253
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 109253,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/109253?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Ultimate Gnomish Army Knife",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "56",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "22"
+      },
+      "value": 2256
     },
     "spells": [
       {
+        "description": "+10 Draenor Mining Skill.\r\n+10 Draenor Herbalism Skill.\r\n+10 Draenor Skinning Skill.",
         "spell": {
+          "id": 398434,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/398434?namespace=static-11.1.0_59095-eu"
           },
-          "name": "+10 Draenor Gathering",
-          "id": 398434
-        },
-        "description": "+10 Draenor Mining Skill.\r\n+10 Draenor Herbalism Skill.\r\n+10 Draenor Skinning Skill."
+          "name": "+10 Draenor Gathering"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 2256,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "22",
-        "copper": "56"
-      }
-    },
-    "description": "Includes every profession tool.",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 9027,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2256
 }

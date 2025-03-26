@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30758?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 7959,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7959?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Weapons of the fallen make their way onto the gray market",
+  "icon_path": "data\\icons\\inv_weapon_rifle_14.jpg",
   "id": 30758,
-  "name": "Aldor Guardian Rifle",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 29,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30758?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30758
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 2190735,
-  "sell_price": 438147,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Weapons of the fallen make their way onto the gray market",
+  "media": {
+    "id": 30758,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30758?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Aldor Guardian Rifle",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "Weapons of the fallen make their way onto the gray market",
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
     "item": {
+      "id": 30758,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30758?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30758
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Aldor Guardian Rifle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30758?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30758
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 5,
-        "max_value": 10,
-        "display_string": "5 - 10 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 2.4999998,
-        "display_string": "(2.5 damage per second)"
+    "media": {
+      "id": 30758,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30758?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 152,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "52"
-      }
+    "name": "Aldor Guardian Rifle",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
+        "display_string": "Requires Level 25",
+        "value": 25
       }
     },
-    "description": "Weapons of the fallen make their way onto the gray market",
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+    "sell_price": {
+      "display_strings": {
+        "copper": "52",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 152
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "5 - 10 Damage",
+        "max_value": 10,
+        "min_value": 5
+      },
+      "dps": {
+        "display_string": "(2.5 damage per second)",
+        "value": 2.4999998
+      }
     }
   },
+  "purchase_price": 2190735,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7959?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7959
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 25,
+  "sell_price": 438147
 }

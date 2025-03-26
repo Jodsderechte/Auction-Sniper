@@ -4,172 +4,173 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13027?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3714,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3714?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_hammer_20.jpg",
   "id": 13027,
-  "name": "Bonesnapper",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 27,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13027?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13027
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 4
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 3467945,
-  "sell_price": 693589,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13027,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13027?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bonesnapper",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13027?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13027
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Bonesnapper",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 13027,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13027?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13027
+        "href": "https://eu.api.blizzard.com/data/wow/item/13027?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 4
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 371,
-        "max_value": 478,
-        "display_string": "371 - 478 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 163.26923,
-        "display_string": "(163.3 damage per second)"
+    "media": {
+      "id": 13027,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13027?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 231,
-        "is_negated": true,
-        "display": {
-          "display_string": "+231 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 137,
-        "display": {
-          "display_string": "+137 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 592986,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "59",
-        "silver": "29",
-        "copper": "86"
-      }
+    "name": "Bonesnapper",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+        "display_string": "Requires Level 21",
+        "value": 21
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "86",
+        "gold": "59",
+        "header": "Sell Price:",
+        "silver": "29"
+      },
+      "value": 592986
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+231 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 231
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+137 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 137
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "371 - 478 Damage",
+        "max_value": 478,
+        "min_value": 371
+      },
+      "dps": {
+        "display_string": "(163.3 damage per second)",
+        "value": 163.26923
+      }
     }
   },
+  "purchase_price": 3467945,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3714?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3714
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 21,
+  "sell_price": 693589
 }

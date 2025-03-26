@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/119212?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\item_hearthstone_card.jpg",
   "id": 119212,
-  "name": "Winning Hand",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/119212?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 119212
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1000000,
-  "sell_price": 250000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 119212,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/119212?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Winning Hand",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 119212,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/119212?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 119212
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Winning Hand",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/119212?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 119212
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 119212,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/119212?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Winning Hand",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "25",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 250000
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nShow everyone that you just won a game of Hearthstone! (2 Min Cooldown)",
         "spell": {
+          "id": 176890,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/176890?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Winning Hand",
-          "id": 176890
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nShow everyone that you just won a game of Hearthstone! (2 Min Cooldown)"
+          "name": "Winning Hand"
+        }
       }
     ],
-    "sell_price": {
-      "value": 250000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "25",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 250000
 }

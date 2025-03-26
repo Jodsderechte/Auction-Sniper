@@ -4,97 +4,98 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/101570?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon this companion.",
+  "icon_path": "data\\icons\\ability_shaman_freedomwolf.jpg",
   "id": 101570,
-  "name": "Moon Moon",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/101570?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 101570
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon this companion.",
+  "media": {
+    "id": 101570,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/101570?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Moon Moon",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 101570,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/101570?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 101570
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Moon Moon",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/101570?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 101570
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 101570,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/101570?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "name": "Moon Moon",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Teaches you how to summon this companion.",
         "spell": {
+          "id": 144761,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/144761?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Moon Moon",
-          "id": 144761
-        },
-        "description": "Use: Teaches you how to summon this companion."
+          "name": "Moon Moon"
+        }
       }
-    ],
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

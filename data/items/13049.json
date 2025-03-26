@@ -4,190 +4,191 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13049?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3732,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3732?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_46.jpg",
   "id": 13049,
-  "name": "Deanship Claymore",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 18,
-  "required_level": 12,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13049?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13049
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 8
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 77407,
-  "sell_price": 15481,
+  "level": 18,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13049,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13049?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Deanship Claymore",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13049?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13049
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Deanship Claymore",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 13049,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13049?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13049
+        "href": "https://eu.api.blizzard.com/data/wow/item/13049?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 8
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 583,
-        "max_value": 973,
-        "display_string": "583 - 973 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 216.1111,
-        "display_string": "(216.1 damage per second)"
+    "media": {
+      "id": 13049,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13049?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 287,
-        "is_negated": true,
-        "display": {
-          "display_string": "+287 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "DODGE_RATING",
-          "name": "Dodge"
-        },
-        "value": 708,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+708 Dodge",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 189,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+189 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 746624,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "74",
-        "silver": "66",
-        "copper": "24"
-      }
+    "name": "Deanship Claymore",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 12,
-        "display_string": "Requires Level 12"
+        "display_string": "Requires Level 12",
+        "value": 12
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "24",
+        "gold": "74",
+        "header": "Sell Price:",
+        "silver": "66"
+      },
+      "value": 746624
     },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+287 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 287
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+708 Dodge"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Dodge",
+          "type": "DODGE_RATING"
+        },
+        "value": 708
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+189 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 189
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "583 - 973 Damage",
+        "max_value": 973,
+        "min_value": 583
+      },
+      "dps": {
+        "display_string": "(216.1 damage per second)",
+        "value": 216.1111
+      }
     }
   },
+  "purchase_price": 77407,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3732?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3732
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 12,
+  "sell_price": 15481
 }

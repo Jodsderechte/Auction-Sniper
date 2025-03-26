@@ -4,115 +4,116 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/198115?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to cook Seamoth Surprise.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02.jpg",
   "id": 198115,
-  "name": "Recipe: Seamoth Surprise",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/198115?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 198115
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cooking",
-    "id": 5
+    "name": "Cooking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to cook Seamoth Surprise.",
+  "media": {
+    "id": 198115,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/198115?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Seamoth Surprise",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 198115,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/198115?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198115
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Recipe: Seamoth Surprise",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/198115?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198115
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cooking",
-      "id": 5
+      "name": "Cooking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 198115,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/198115?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/381393?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Seamoth Surprise",
-          "id": 381393
-        },
-        "description": "Use: Teaches you how to cook Seamoth Surprise."
-      }
-    ],
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Recipe: Seamoth Surprise",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Cooking (30)",
+        "level": 30,
         "profession": {
+          "id": 2824,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2824?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Cooking",
-          "id": 2824
-        },
-        "level": 30,
-        "display_string": "Requires Dragon Isles Cooking (30)"
+          "name": "Dragon Isles Cooking"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to cook Seamoth Surprise.",
+        "spell": {
+          "id": 381393,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/381393?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Seamoth Surprise"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

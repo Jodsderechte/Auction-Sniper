@@ -4,109 +4,110 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6219?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 577,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/577?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_misc_wrench_01.jpg",
   "id": 6219,
-  "name": "Arclight Spanner",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 5,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6219?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6219
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 7
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 947,
-  "sell_price": 89,
+  "level": 5,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 6219,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6219?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Arclight Spanner",
   "preview_item": {
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
+    },
     "item": {
+      "id": 6219,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6219?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6219
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Arclight Spanner",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6219?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6219
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 7
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "sell_price": {
-      "value": 89,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "89"
+    "media": {
+      "id": 6219,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6219?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Arclight Spanner",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Classic Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2506,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 1,
-        "display_string": "Requires Classic Engineering (1)"
+          "name": "Classic Engineering"
+        }
       }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "89",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 89
     }
   },
+  "purchase_price": 947,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/577?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 577
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 89
 }

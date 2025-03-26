@@ -4,220 +4,221 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/208314?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 77889,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/77889?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helm_armor_engineering_b_02_gnome.jpg",
   "id": 208314,
-  "name": "Verdant Combatant's Leather Goggles",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 330,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/208314?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 208314
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 141260,
-  "sell_price": 28252,
+  "level": 330,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 208314,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/208314?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Verdant Combatant's Leather Goggles",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/208314?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "439 Armor"
       },
-      "id": 208314
+      "value": 439
     },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "TINKER",
-          "name": "Tinker Socket"
-        }
-      }
-    ],
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       9527,
       8840,
       5247,
       9528
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Verdant Combatant's Leather Goggles",
-    "media": {
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "item": {
+      "id": 208314,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/208314?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 208314
+        "href": "https://eu.api.blizzard.com/data/wow/item/208314?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 399",
+      "value": 399
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 439,
-      "display": {
-        "display_string": "439 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 208314,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/208314?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 405,
-        "display": {
-          "display_string": "+405 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 405,
-        "is_negated": true,
-        "display": {
-          "display_string": "+405 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 1113,
-        "display": {
-          "display_string": "+1,113 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 685,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+685 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 28252,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "82",
-        "copper": "52"
-      }
+    "name": "Verdant Combatant's Leather Goggles",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       },
       "skill": {
+        "display_string": "Requires Dragon Isles Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2827,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2827?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Engineering",
-          "id": 2827
-        },
-        "level": 1,
-        "display_string": "Requires Dragon Isles Engineering (1)"
+          "name": "Dragon Isles Engineering"
+        }
       }
     },
-    "level": {
-      "value": 399,
-      "display_string": "Item Level 399"
-    },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/77889?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "52",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "82"
       },
-      "id": 77889
-    }
-  ]
+      "value": 28252
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Tinker Socket",
+          "type": "TINKER"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+405 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 405
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+405 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 405
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+1,113 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 1113
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+685 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 685
+      }
+    ]
+  },
+  "purchase_price": 141260,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 28252
 }

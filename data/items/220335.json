@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/220335?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 91262,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91262?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_pant_plate_undergroundquest_b_01.jpg",
   "id": 220335,
-  "name": "Begrimed Legguards",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
-  "level": 400,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/220335?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 220335
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 400,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 220335,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/220335?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Begrimed Legguards",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/220335?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "715 Armor"
       },
-      "id": 220335
+      "value": 715
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       10350
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Begrimed Legguards",
-    "media": {
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
+    "item": {
+      "id": 220335,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/220335?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 220335
+        "href": "https://eu.api.blizzard.com/data/wow/item/220335?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 715,
-      "display": {
-        "display_string": "715 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 220335,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/220335?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 142334,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "14",
-        "silver": "23",
-        "copper": "34"
-      }
+    "name": "Begrimed Legguards",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "sell_price": {
+      "display_strings": {
+        "copper": "34",
+        "gold": "14",
+        "header": "Sell Price:",
+        "silver": "23"
+      },
+      "value": 142334
     }
   },
+  "purchase_price": 0,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91262?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 91262
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 68,
+  "sell_price": 0
 }

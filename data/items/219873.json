@@ -4,152 +4,153 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/219873?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_tabard_blacksmithing_b_01_brown.jpg",
   "id": 219873,
-  "name": "Steelsmith's Apron",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/219873?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 219873
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 0
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 45625,
-  "sell_price": 9125,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 219873,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/219873?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Steelsmith's Apron",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/219873?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 219873
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Steelsmith's Apron",
-    "media": {
+    "item": {
+      "id": 219873,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/219873?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 219873
+        "href": "https://eu.api.blizzard.com/data/wow/item/219873?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Blacksmithing"
     },
     "limit_category": "Unique-Equipped: Chest (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-          "name": "Multicraft"
-        },
-        "value": 55,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+55 Multicraft",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_INGENUITY",
-          "name": "Ingenuity"
-        },
-        "value": 83,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+83 Ingenuity",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 219873,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/219873?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455727?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455727
-        },
-        "description": "Equip: +5 Khaz Algar Blacksmithing Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 9125,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "91",
-        "copper": "25"
-      }
+    },
+    "name": "Steelsmith's Apron",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "91"
+      },
+      "value": 9125
+    },
+    "spells": [
+      {
+        "description": "Equip: +5 Khaz Algar Blacksmithing Skill",
+        "spell": {
+          "id": 455727,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455727?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+55 Multicraft"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Multicraft",
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+        },
+        "value": 55
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+83 Ingenuity"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Ingenuity",
+          "type": "BONUS_STAT_PROFESSION_INGENUITY"
+        },
+        "value": 83
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 45625,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 9125
 }

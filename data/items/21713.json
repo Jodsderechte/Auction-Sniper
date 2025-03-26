@@ -4,106 +4,107 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21713?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_musket_02.jpg",
   "id": 21713,
-  "name": "Elune's Candle",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21713?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21713
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Holiday",
-    "id": 3
+    "name": "Holiday"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1000,
-  "sell_price": 250,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 21713,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21713?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Elune's Candle",
   "preview_item": {
+    "charges": {
+      "display_string": "88 Charges",
+      "value": 88
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21713,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21713?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21713
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Elune's Candle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21713?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21713
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Holiday",
-      "id": 3
+      "name": "Holiday"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 21713,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21713?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Elune's Candle",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 250
+    },
     "spells": [
       {
+        "description": "Use: Shoots a firework at target. (3 Sec Cooldown)",
         "spell": {
+          "id": 26374,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/26374?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Elune's Candle",
-          "id": 26374
-        },
-        "description": "Use: Shoots a firework at target. (3 Sec Cooldown)"
+          "name": "Elune's Candle"
+        }
       }
     ],
-    "sell_price": {
-      "value": 250,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "50"
-      }
-    },
-    "charges": {
-      "value": 88,
-      "display_string": "88 Charges"
-    },
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 250
 }

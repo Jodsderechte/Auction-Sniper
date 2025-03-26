@@ -4,107 +4,108 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/153573?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Some animals were harmed in the design of this device. But they're better now... mostly.",
+  "icon_path": "data\\icons\\inv_eng_electroshockmountmotivator.jpg",
   "id": 153573,
-  "name": "Electroshock Mount Motivator",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/153573?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 153573
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1,
-  "sell_price": 1,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Some animals were harmed in the design of this device. But they're better now... mostly.",
+  "media": {
+    "id": 153573,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/153573?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Electroshock Mount Motivator",
   "preview_item": {
+    "charges": {
+      "display_string": "50 Charges",
+      "value": 50
+    },
+    "description": "Some animals were harmed in the design of this device. But they're better now... mostly.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 153573,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/153573?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153573
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Electroshock Mount Motivator",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/153573?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153573
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 153573,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/153573?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Electroshock Mount Motivator",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
     },
     "spells": [
       {
+        "description": "Use: Increases mounted movement speed by 10% for 10 sec. Stacks up to 5 times. Increased motivation may cause your mount to become disoriented.\r\n\r\nDoes not stack with other bonuses to mounted speed. (1 Sec Cooldown)",
         "spell": {
+          "id": 256008,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/256008?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Electroshock Mount Motivator",
-          "id": 256008
-        },
-        "description": "Use: Increases mounted movement speed by 10% for 10 sec. Stacks up to 5 times. Increased motivation may cause your mount to become disoriented.\r\n\r\nDoes not stack with other bonuses to mounted speed. (1 Sec Cooldown)"
+          "name": "Electroshock Mount Motivator"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
-    },
-    "description": "Some animals were harmed in the design of this device. But they're better now... mostly.",
-    "charges": {
-      "value": 50,
-      "display_string": "50 Charges"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 1
 }

@@ -4,257 +4,258 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23518?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6223,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6223?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_pants_plate_06.jpg",
   "id": 23518,
-  "name": "Felsteel Leggings",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23518?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23518
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 89821,
-  "sell_price": 17964,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 23518,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23518?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Felsteel Leggings",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "13 Armor"
+      },
+      "value": 13
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
+    },
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
     "item": {
+      "id": 23518,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23518?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23518
-    },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
       }
-    ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Felsteel Leggings",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23518?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23518
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 13,
-      "display": {
-        "display_string": "13 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 23518,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23518?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "DODGE_RATING",
-          "name": "Dodge"
-        },
-        "value": 6,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+6 Dodge",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 1,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+1 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "socket_bonus": "Socket Bonus: +2 Dodge",
-    "sell_price": {
-      "value": 225,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "25"
-      }
+    "name": "Felsteel Leggings",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/569?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Faith in Felsteel",
-        "id": 569
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23519?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Felsteel Helm",
-            "id": 23519
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23518?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Felsteel Leggings",
-            "id": 23518
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23517?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Felsteel Gloves",
-            "id": 23517
-          }
-        }
-      ],
+      "value": 225
+    },
+    "set": {
+      "display_string": "Faith in Felsteel (0/3)",
       "effects": [
         {
           "display_string": "(3) Set: +13 Strength.",
           "required_count": 3
         }
       ],
-      "display_string": "Faith in Felsteel (0/3)",
+      "item_set": {
+        "id": 569,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/569?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Faith in Felsteel"
+      },
+      "items": [
+        {
+          "item": {
+            "id": 23519,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23519?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Felsteel Helm"
+          }
+        },
+        {
+          "item": {
+            "id": 23518,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23518?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Felsteel Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 23517,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23517?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Felsteel Gloves"
+          }
+        }
+      ],
       "requirements": {
         "skill": {
+          "display_string": "Requires Blacksmithing (350)",
+          "level": 350,
           "profession": {
+            "id": 164,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/profession/164?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Blacksmithing",
-            "id": 164
-          },
-          "level": 350,
-          "display_string": "Requires Blacksmithing (350)"
+            "name": "Blacksmithing"
+          }
         }
       }
     },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6223?namespace=static-11.1.0_59095-eu"
+    "socket_bonus": "Socket Bonus: +2 Dodge",
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
       },
-      "id": 6223
-    }
-  ]
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      },
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+6 Dodge"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Dodge",
+          "type": "DODGE_RATING"
+        },
+        "value": 6
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+1 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 1
+      }
+    ]
+  },
+  "purchase_price": 89821,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 17964
 }

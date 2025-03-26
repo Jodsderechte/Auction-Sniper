@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/854?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 263,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/263?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_17.jpg",
   "id": 854,
-  "name": "Quarter Staff",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 9,
-  "required_level": 5,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/854?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 854
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 3022,
-  "sell_price": 604,
+  "level": 9,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 854,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/854?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Quarter Staff",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 854,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/854?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 854
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Quarter Staff",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/854?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 854
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
+      "name": "Staff"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 9",
+      "value": 9
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 4,
-        "max_value": 6,
-        "display_string": "4 - 6 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 1.3888888,
-        "display_string": "(1.4 damage per second)"
+    "media": {
+      "id": 854,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/854?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 27,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "27"
-      }
+    "name": "Quarter Staff",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 5,
-        "display_string": "Requires Level 5"
+        "display_string": "Requires Level 5",
+        "value": 5
       }
     },
-    "level": {
-      "value": 9,
-      "display_string": "Item Level 9"
+    "sell_price": {
+      "display_strings": {
+        "copper": "27",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 27
     },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "4 - 6 Damage",
+        "max_value": 6,
+        "min_value": 4
+      },
+      "dps": {
+        "display_string": "(1.4 damage per second)",
+        "value": 1.3888888
+      }
     }
   },
+  "purchase_price": 3022,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/263?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 263
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 5,
+  "sell_price": 604
 }

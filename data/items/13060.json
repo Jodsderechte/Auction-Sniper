@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13060?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3741,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3741?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_spear_08.jpg",
   "id": 13060,
-  "name": "The Needler",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 29,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13060?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13060
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Polearm",
-    "id": 6
+    "name": "Polearm"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 102492,
-  "sell_price": 20498,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13060,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13060?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Needler",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13060?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13060
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
     },
-    "name": "The Needler",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 13060,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13060?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13060
+        "href": "https://eu.api.blizzard.com/data/wow/item/13060?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Polearm",
-      "id": 6
+      "name": "Polearm"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 544,
-        "max_value": 1012,
-        "display_string": "544 - 1,012 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 216.1111,
-        "display_string": "(216.1 damage per second)"
+    "media": {
+      "id": 13060,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13060?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/16405?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Wound",
-          "id": 16405
-        },
-        "description": "Chance on hit: Wounds the target for 491 damage."
-      }
-    ],
-    "sell_price": {
-      "value": 722101,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "72",
-        "silver": "21",
-        "copper": "1"
-      }
+    "name": "The Needler",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
+        "display_string": "Requires Level 23",
+        "value": 23
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "72",
+        "header": "Sell Price:",
+        "silver": "21"
+      },
+      "value": 722101
     },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
+    "spells": [
+      {
+        "description": "Chance on hit: Wounds the target for 491 damage.",
+        "spell": {
+          "id": 16405,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/16405?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Wound"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "544 - 1,012 Damage",
+        "max_value": 1012,
+        "min_value": 544
+      },
+      "dps": {
+        "display_string": "(216.1 damage per second)",
+        "value": 216.1111
+      }
     }
   },
+  "purchase_price": 102492,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3741?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3741
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 23,
+  "sell_price": 20498
 }

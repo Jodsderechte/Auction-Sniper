@@ -4,171 +4,172 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13065?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3743,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3743?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_wand_09.jpg",
   "id": 13065,
-  "name": "Wand of Allistarj",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 26,
-  "required_level": 20,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13065?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13065
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Wand",
-    "id": 19
+    "name": "Wand"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 4117308,
-  "sell_price": 823461,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13065,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13065?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wand of Allistarj",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13065?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13065
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Wand of Allistarj",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 13065,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13065?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13065
+        "href": "https://eu.api.blizzard.com/data/wow/item/13065?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Wand",
-      "id": 19
+      "name": "Wand"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 122,
-        "max_value": 204,
-        "display_string": "122 - 204 Arcane Damage",
-        "damage_class": {
-          "type": "ARCANE",
-          "name": "Arcane"
-        }
-      },
-      "attack_speed": {
-        "value": 2000,
-        "display_string": "Speed 2.00"
-      },
-      "dps": {
-        "value": 81.5,
-        "display_string": "(81.5 damage per second)"
+    "media": {
+      "id": 13065,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13065?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 837,
-        "display": {
-          "display_string": "+837 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 280,
-        "display": {
-          "display_string": "+280 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 735618,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "73",
-        "silver": "56",
-        "copper": "18"
-      }
+    "name": "Wand of Allistarj",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 20,
-        "display_string": "Requires Level 20"
+        "display_string": "Requires Level 20",
+        "value": 20
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "18",
+        "gold": "73",
+        "header": "Sell Price:",
+        "silver": "56"
+      },
+      "value": 735618
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+837 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 837
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+280 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 280
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.00",
+        "value": 2000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Arcane",
+          "type": "ARCANE"
+        },
+        "display_string": "122 - 204 Arcane Damage",
+        "max_value": 204,
+        "min_value": 122
+      },
+      "dps": {
+        "display_string": "(81.5 damage per second)",
+        "value": 81.5
+      }
     }
   },
+  "purchase_price": 4117308,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3743?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3743
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 20,
+  "sell_price": 823461
 }

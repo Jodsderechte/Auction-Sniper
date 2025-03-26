@@ -4,126 +4,127 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1849?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 567,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/567?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_belt_06.jpg",
   "id": 1849,
-  "name": "Cured Leather Belt",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Waist",
+    "type": "WAIST"
   },
-  "level": 14,
-  "required_level": 8,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1849?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1849
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
-  },
-  "purchase_price": 2820,
-  "sell_price": 564,
+  "level": 14,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1849,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1849?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Cured Leather Belt",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "2 Armor"
+      },
+      "value": 2
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 30 / 30",
+      "value": 30
+    },
+    "inventory_type": {
+      "name": "Waist",
+      "type": "WAIST"
+    },
     "item": {
+      "id": 1849,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/1849?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1849
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Cured Leather Belt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1849?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1849
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+    "level": {
+      "display_string": "Item Level 14",
+      "value": 14
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 2,
-      "display": {
-        "display_string": "2 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 1849,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1849?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 11,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "11"
-      }
+    "name": "Cured Leather Belt",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 8,
-        "display_string": "Requires Level 8"
+        "display_string": "Requires Level 8",
+        "value": 8
       }
     },
-    "level": {
-      "value": 14,
-      "display_string": "Item Level 14"
-    },
-    "durability": {
-      "value": 30,
-      "display_string": "Durability 30 / 30"
+    "sell_price": {
+      "display_strings": {
+        "copper": "11",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 11
     }
   },
+  "purchase_price": 2820,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/567?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 567
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 8,
+  "sell_price": 564
 }

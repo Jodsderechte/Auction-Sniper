@@ -4,190 +4,191 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/44310?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 11207,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/11207?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_63.jpg",
   "id": 44310,
-  "name": "Namlak's Supernumerary Sticker",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 35,
-  "required_level": 30,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/44310?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 44310
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 5684820,
-  "sell_price": 1136964,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 44310,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/44310?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Namlak's Supernumerary Sticker",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/44310?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44310
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 80 / 80",
+      "value": 80
     },
-    "name": "Namlak's Supernumerary Sticker",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 44310,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/44310?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44310
+        "href": "https://eu.api.blizzard.com/data/wow/item/44310?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 230,
-        "max_value": 385,
-        "display_string": "230 - 385 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 170.83333,
-        "display_string": "(170.8 damage per second)"
+    "media": {
+      "id": 44310,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/44310?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 125,
-        "is_negated": true,
-        "display": {
-          "display_string": "+125 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 258,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+258 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 172,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+172 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 818998,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "81",
-        "silver": "89",
-        "copper": "98"
-      }
+    "name": "Namlak's Supernumerary Sticker",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 30,
-        "display_string": "Requires Level 30"
+        "display_string": "Requires Level 30",
+        "value": 30
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "98",
+        "gold": "81",
+        "header": "Sell Price:",
+        "silver": "89"
+      },
+      "value": 818998
     },
-    "durability": {
-      "value": 80,
-      "display_string": "Durability 80 / 80"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+125 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 125
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+258 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 258
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+172 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 172
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "230 - 385 Damage",
+        "max_value": 385,
+        "min_value": 230
+      },
+      "dps": {
+        "display_string": "(170.8 damage per second)",
+        "value": 170.83333
+      }
     }
   },
+  "purchase_price": 5684820,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/11207?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11207
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 30,
+  "sell_price": 1136964
 }

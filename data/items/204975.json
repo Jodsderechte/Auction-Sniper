@@ -4,115 +4,116 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204975?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to perform the Shadowflame Wreathe enchantment.",
+  "icon_path": "data\\icons\\inv_enchant_formulaepic_01.jpg",
   "id": 204975,
-  "name": "Formula: Enchant Weapon - Shadowflame Wreathe",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204975?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204975
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to perform the Shadowflame Wreathe enchantment.",
+  "media": {
+    "id": 204975,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204975?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Formula: Enchant Weapon - Shadowflame Wreathe",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 204975,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/204975?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204975
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Formula: Enchant Weapon - Shadowflame Wreathe",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204975?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204975
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 204975,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204975?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/405076?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shadowflame Wreathe",
-          "id": 405076
-        },
-        "description": "Use: Teaches you how to perform the Shadowflame Wreathe enchantment."
-      }
-    ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
+    "name": "Formula: Enchant Weapon - Shadowflame Wreathe",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Enchanting (50)",
+        "level": 50,
         "profession": {
+          "id": 2825,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2825?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Enchanting",
-          "id": 2825
-        },
-        "level": 50,
-        "display_string": "Requires Dragon Isles Enchanting (50)"
+          "name": "Dragon Isles Enchanting"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to perform the Shadowflame Wreathe enchantment.",
+        "spell": {
+          "id": 405076,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/405076?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shadowflame Wreathe"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 1
 }

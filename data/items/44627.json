@@ -4,103 +4,104 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/44627?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Aged to perfection.",
+  "icon_path": "data\\icons\\inv_drink_11.jpg",
   "id": 44627,
-  "name": "Bottle of Peaked Dalaran Red",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/44627?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 44627
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1000000,
-  "sell_price": 2500,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Aged to perfection.",
+  "media": {
+    "id": 44627,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/44627?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bottle of Peaked Dalaran Red",
   "preview_item": {
+    "description": "Aged to perfection.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 44627,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/44627?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44627
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Bottle of Peaked Dalaran Red",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/44627?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44627
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 44627,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/44627?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Bottle of Peaked Dalaran Red",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
     },
     "spells": [
       {
+        "description": "Use: Set out a bottle of Peaked Dalaran Red that serves up to five party members. (30 Min Cooldown)",
         "spell": {
+          "id": 61063,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/61063?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Bottle of Peaked Dalaran Red",
-          "id": 61063
-        },
-        "description": "Use: Set out a bottle of Peaked Dalaran Red that serves up to five party members. (30 Min Cooldown)"
+          "name": "Bottle of Peaked Dalaran Red"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
-      }
-    },
-    "description": "Aged to perfection.",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 1000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 2500
 }

@@ -4,89 +4,90 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13878?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_fish_06.jpg",
   "id": 13878,
-  "name": "53 Pound Grouper",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 20,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13878?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13878
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 130,
-  "sell_price": 32,
+  "level": 20,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 13878,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13878?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "53 Pound Grouper",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 13878,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/13878?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13878
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "53 Pound Grouper",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13878?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13878
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 32,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "32"
+    "media": {
+      "id": 13878,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13878?namespace=static-11.1.0_59095-eu"
       }
     },
-    "is_subclass_hidden": true
+    "name": "53 Pound Grouper",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "32",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 32
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 130,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 32
 }

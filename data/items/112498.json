@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/112498?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\item_cutmetagem.jpg",
   "id": 112498,
-  "name": "Prismatic Focusing Lens",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/112498?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 112498
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 10000,
-  "sell_price": 2500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 112498,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/112498?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Prismatic Focusing Lens",
   "preview_item": {
+    "charges": {
+      "display_string": "100 Charges",
+      "value": 100
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 112498,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/112498?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 112498
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Prismatic Focusing Lens",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/112498?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 112498
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 112498,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/112498?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Prismatic Focusing Lens",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
     },
     "spells": [
       {
+        "description": "Use: Projects a prismatic targeting beam onto your current target.",
         "spell": {
+          "id": 163441,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/163441?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Prismatic Focusing Lens",
-          "id": 163441
-        },
-        "description": "Use: Projects a prismatic targeting beam onto your current target."
+          "name": "Prismatic Focusing Lens"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
-      }
-    },
-    "charges": {
-      "value": 100,
-      "display_string": "100 Charges"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 2500
 }

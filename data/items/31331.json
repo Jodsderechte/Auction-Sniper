@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/31331?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8173,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8173?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_26.jpg",
   "id": 31331,
-  "name": "The Night Blade",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 31,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/31331?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 31331
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 531673,
-  "sell_price": 106334,
+  "level": 31,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 31331,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/31331?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Night Blade",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/31331?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31331
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 80 / 80",
+      "value": 80
     },
-    "name": "The Night Blade",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 31331,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/31331?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31331
+        "href": "https://eu.api.blizzard.com/data/wow/item/31331?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 230,
-        "max_value": 385,
-        "display_string": "230 - 385 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 170.83333,
-        "display_string": "(170.8 damage per second)"
+    "media": {
+      "id": 31331,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/31331?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/38307?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "The Dark of Night",
-          "id": 38307
-        },
-        "description": "Chance on hit: Your attacks have a chance to allow you to gain 854 critical strike for 10 sec. This effect stacks up to 3 times."
-      }
-    ],
-    "sell_price": {
-      "value": 106334,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "63",
-        "copper": "34"
-      }
+    "name": "The Night Blade",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "34",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "63"
+      },
+      "value": 106334
     },
-    "durability": {
-      "value": 80,
-      "display_string": "Durability 80 / 80"
+    "spells": [
+      {
+        "description": "Chance on hit: Your attacks have a chance to allow you to gain 854 critical strike for 10 sec. This effect stacks up to 3 times.",
+        "spell": {
+          "id": 38307,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/38307?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "The Dark of Night"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "230 - 385 Damage",
+        "max_value": 385,
+        "min_value": 230
+      },
+      "dps": {
+        "display_string": "(170.8 damage per second)",
+        "value": 170.83333
+      }
     }
   },
+  "purchase_price": 531673,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8173?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8173
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 27,
+  "sell_price": 106334
 }

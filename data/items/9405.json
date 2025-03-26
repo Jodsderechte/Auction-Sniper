@@ -4,182 +4,183 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/9405?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2770,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2770?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_belt_27.jpg",
   "id": 9405,
-  "name": "Girdle of Golem Strength",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Waist",
+    "type": "WAIST"
   },
-  "level": 19,
-  "required_level": 12,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/9405?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 9405
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
-  },
-  "purchase_price": 53459,
-  "sell_price": 10691,
+  "level": 19,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 9405,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/9405?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Girdle of Golem Strength",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/9405?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "339 Armor"
       },
-      "id": 9405
+      "value": 339
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 35 / 35",
+      "value": 35
     },
-    "name": "Girdle of Golem Strength",
-    "media": {
+    "inventory_type": {
+      "name": "Waist",
+      "type": "WAIST"
+    },
+    "item": {
+      "id": 9405,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/9405?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9405
+        "href": "https://eu.api.blizzard.com/data/wow/item/9405?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 339,
-      "display": {
-        "display_string": "339 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 9405,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/9405?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 351,
-        "display": {
-          "display_string": "+351 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 351,
-        "is_negated": true,
-        "display": {
-          "display_string": "+351 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "DODGE_RATING",
-          "name": "Dodge"
-        },
-        "value": 202,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+202 Dodge",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 198642,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "19",
-        "silver": "86",
-        "copper": "42"
-      }
+    "name": "Girdle of Golem Strength",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 12,
-        "display_string": "Requires Level 12"
+        "display_string": "Requires Level 12",
+        "value": 12
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
-    },
-    "durability": {
-      "value": 35,
-      "display_string": "Durability 35 / 35"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2770?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "42",
+        "gold": "19",
+        "header": "Sell Price:",
+        "silver": "86"
       },
-      "id": 2770
-    }
-  ]
+      "value": 198642
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+351 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 351
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+351 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 351
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+202 Dodge"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Dodge",
+          "type": "DODGE_RATING"
+        },
+        "value": 202
+      }
+    ]
+  },
+  "purchase_price": 53459,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 12,
+  "sell_price": 10691
 }

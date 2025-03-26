@@ -4,177 +4,178 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/15082?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3185,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3185?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_belt_03.jpg",
   "id": 15082,
-  "name": "Heavy Scorpid Belt",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Waist",
+    "type": "WAIST"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/15082?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 15082
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
-  },
-  "purchase_price": 21996,
-  "sell_price": 4399,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 15082,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/15082?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Heavy Scorpid Belt",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "5 Armor"
+      },
+      "value": 5
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
+    },
+    "inventory_type": {
+      "name": "Waist",
+      "type": "WAIST"
+    },
     "item": {
+      "id": 15082,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/15082?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 15082
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Heavy Scorpid Belt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/15082?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 15082
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+    "level": {
+      "display_string": "Item Level 28",
+      "value": 28
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 5,
-      "display": {
-        "display_string": "5 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 15082,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/15082?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 4,
-        "is_negated": true,
-        "display": {
-          "display_string": "+4 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 69,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "69"
-      }
+    "name": "Heavy Scorpid Belt",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 28,
-      "display_string": "Item Level 28"
-    },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3185?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "69",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 3185
-    }
-  ]
+      "value": 69
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+4 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
+      }
+    ]
+  },
+  "purchase_price": 21996,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 22,
+  "sell_price": 4399
 }

@@ -4,96 +4,97 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21342?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bag_corefelclothbag.jpg",
   "id": 21342,
-  "name": "Core Felcloth Bag",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 30,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21342?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21342
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bag",
-    "id": 0
-  },
-  "inventory_type": {
-    "type": "BAG",
     "name": "Bag"
   },
-  "purchase_price": 320000,
-  "sell_price": 80000,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 21342,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21342?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Core Felcloth Bag",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "container_slots": {
+      "display_string": "18 Slot Bag",
+      "value": 18
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 21342,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21342?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21342
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Core Felcloth Bag",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21342?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21342
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bag",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "BAG",
       "name": "Bag"
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 80000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 21342,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21342?namespace=static-11.1.0_59095-eu"
       }
     },
-    "container_slots": {
-      "value": 18,
-      "display_string": "18 Slot Bag"
+    "name": "Core Felcloth Bag",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 80000
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 320000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 80000
 }

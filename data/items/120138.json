@@ -4,120 +4,121 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/120138?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches Polymorph: Monkey.",
+  "icon_path": "data\\icons\\inv_misc_book_07.jpg",
   "id": 120138,
-  "name": "Tome of Polymorph: Monkey",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 40,
-  "required_level": 11,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/120138?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 120138
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Book",
-    "id": 0
+    "name": "Book"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 59000,
-  "sell_price": 14750,
+  "level": 40,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches Polymorph: Monkey.",
+  "media": {
+    "id": 120138,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/120138?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Tome of Polymorph: Monkey",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 120138,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/120138?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 120138
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Tome of Polymorph: Monkey",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/120138?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 120138
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Book",
-      "id": 0
+      "name": "Book"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 120138,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/120138?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/161354?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Polymorph",
-          "id": 161354
-        },
-        "description": "Use: Teaches Polymorph: Monkey."
-      }
-    ],
-    "sell_price": {
-      "value": 14750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "47",
-        "copper": "50"
-      }
+    "name": "Tome of Polymorph: Monkey",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 11,
-        "display_string": "Requires Level 11"
+        "display_string": "Requires Level 11",
+        "value": 11
       },
       "playable_classes": {
+        "display_string": "Classes: Mage",
         "links": [
           {
+            "id": 8,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/playable-class/8?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mage",
-            "id": 8
+            "name": "Mage"
           }
-        ],
-        "display_string": "Classes: Mage"
+        ]
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "47"
+      },
+      "value": 14750
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches Polymorph: Monkey.",
+        "spell": {
+          "id": 161354,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/161354?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Polymorph"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 59000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 11,
+  "sell_price": 14750
 }

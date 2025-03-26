@@ -4,204 +4,205 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6057?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Nature Protection Potion.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 6057,
-  "name": "Recipe: Nature Protection Potion",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6057?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6057
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000,
-  "sell_price": 500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Nature Protection Potion.",
+  "media": {
+    "id": 6057,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6057?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Nature Protection Potion",
   "preview_item": {
+    "description": "Teaches you how to make a Nature Protection Potion.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 6057,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6057?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6057
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Recipe: Nature Protection Potion",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6057?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6057
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "5",
-        "copper": "0"
+    "media": {
+      "id": 6057,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6057?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Alchemy",
-          "id": 2485
-        },
-        "level": 190,
-        "display_string": "Requires Classic Alchemy (190)"
-      }
+    "name": "Recipe: Nature Protection Potion",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make a Nature Protection Potion.",
     "recipe": {
       "item": {
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 6052,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/6052?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 6052
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Nature Protection Potion",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/6052?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 6052
+          }
         },
         "item_class": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Consumable",
-          "id": 0
+          "name": "Consumable"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Potions",
-          "id": 1
+          "name": "Potions"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
+        "media": {
+          "id": 6052,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/6052?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/7254?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Nature Protection",
-              "id": 7254
-            },
-            "description": "Use: Absorbs 354 nature damage.  Lasts 2 min. (5 Min Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 300,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "3",
-            "copper": "0"
-          }
+        "name": "Nature Protection Potion",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
         },
         "requirements": {
           "level": {
-            "value": 12,
-            "display_string": "Requires Level 12"
+            "display_string": "Requires Level 12",
+            "value": 12
           }
         },
-        "is_subclass_hidden": true
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "3"
+          },
+          "value": 300
+        },
+        "spells": [
+          {
+            "description": "Use: Absorbs 354 nature damage.  Lasts 2 min. (5 Min Cooldown)",
+            "spell": {
+              "id": 7254,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/7254?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Nature Protection"
+            }
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3357,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3357?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Liferoot",
-            "id": 3357
-          },
-          "quantity": 1
+            "name": "Liferoot"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3820,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3820?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Stranglekelp",
-            "id": 3820
-          },
-          "quantity": 1
+            "name": "Stranglekelp"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3371,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3371?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Crystal Vial",
-            "id": 3371
-          },
-          "quantity": 1
+            "name": "Crystal Vial"
+          }
         }
       ],
       "reagents_display_string": "Liferoot, Stranglekelp, Crystal Vial"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Alchemy (190)",
+        "level": 190,
+        "profession": {
+          "id": 2485,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Alchemy"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 500
 }

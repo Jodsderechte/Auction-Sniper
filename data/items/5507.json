@@ -4,101 +4,102 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5507?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_spyglass_01.jpg",
   "id": 5507,
-  "name": "Ornate Spyglass",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 12,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5507?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5507
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2400,
-  "sell_price": 600,
+  "level": 12,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 5507,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5507?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ornate Spyglass",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 5507,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/5507?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5507
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Ornate Spyglass",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5507?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5507
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 5507,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5507?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Ornate Spyglass",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "6"
+      },
+      "value": 600
     },
     "spells": [
       {
+        "description": "Use: Allows you to look far into the distance.",
         "spell": {
+          "id": 12883,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/12883?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Longsight",
-          "id": 12883
-        },
-        "description": "Use: Allows you to look far into the distance."
+          "name": "Longsight"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 600,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "6",
-        "copper": "0"
-      }
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2400,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 600
 }

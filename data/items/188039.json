@@ -4,179 +4,180 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/188039?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 44425,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/44425?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_offhand_1h_broker_c_01.jpg",
   "id": 188039,
-  "name": "Harmonic Actuator",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Held In Off-hand",
+    "type": "HOLDABLE"
   },
-  "level": 226,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/188039?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 188039
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "HOLDABLE",
-    "name": "Held In Off-hand"
-  },
-  "purchase_price": 2365273,
-  "sell_price": 473054,
+  "level": 226,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 188039,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/188039?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Harmonic Actuator",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Held In Off-hand",
+      "type": "HOLDABLE"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 188039,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/188039?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 188039
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Harmonic Actuator",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/188039?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 188039
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "HOLDABLE",
-      "name": "Held In Off-hand"
+    "level": {
+      "display_string": "Item Level 226",
+      "value": 226
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 68,
-        "display": {
-          "display_string": "+68 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 33,
-        "display": {
-          "display_string": "+33 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 20,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+20 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 24,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+24 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 188039,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/188039?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 54859,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "48",
-        "copper": "59"
-      }
+    },
+    "name": "Harmonic Actuator",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
+        "display_string": "Requires Level 60",
+        "value": 60
       }
     },
-    "level": {
-      "value": 226,
-      "display_string": "Item Level 226"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/44425?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "59",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "48"
       },
-      "id": 44425
-    }
-  ]
+      "value": 54859
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+68 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 68
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+33 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 33
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+20 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 20
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+24 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 24
+      }
+    ]
+  },
+  "purchase_price": 2365273,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 60,
+  "sell_price": 473054
 }

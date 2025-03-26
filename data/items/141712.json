@@ -4,99 +4,100 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/141712?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_gizmo_rocketlauncher.jpg",
   "id": 141712,
-  "name": "Gjallar's \"Horn\"",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 45,
-  "required_level": 45,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/141712?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 141712
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 45,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 141712,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/141712?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Gjallar's \"Horn\"",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 141712,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/141712?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 141712
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Gjallar's \"Horn\"",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/141712?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 141712
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 141712,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/141712?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Gjallar's \"Horn\"",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 45",
+        "value": 45
+      }
+    },
     "spells": [
       {
+        "description": "Use: Launch a rocket to deal 20,522 Fire damage to enemies at the target location. Only works outdoors in the Broken Isles and cannot target players. (1 Hr Cooldown)",
         "spell": {
+          "id": 227953,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/227953?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Gjallar's Horn",
-          "id": 227953
-        },
-        "description": "Use: Launch a rocket to deal 20,522 Fire damage to enemies at the target location. Only works outdoors in the Broken Isles and cannot target players. (1 Hr Cooldown)"
+          "name": "Gjallar's Horn"
+        }
       }
     ],
-    "requirements": {
-      "level": {
-        "value": 45,
-        "display_string": "Requires Level 45"
-      }
-    },
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 45,
+  "sell_price": 0
 }

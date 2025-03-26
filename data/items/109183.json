@@ -4,117 +4,118 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/109183?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Overuse may result in permanent shrinkage.",
+  "icon_path": "data\\icons\\inv_misc_enggizmos_09.jpg",
   "id": 109183,
-  "name": "World Shrinker",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/109183?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 109183
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 30000,
-  "sell_price": 7500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Overuse may result in permanent shrinkage.",
+  "media": {
+    "id": 109183,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/109183?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "World Shrinker",
   "preview_item": {
+    "description": "Overuse may result in permanent shrinkage.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 109183,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/109183?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 109183
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "World Shrinker",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/109183?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 109183
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 109183,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/109183?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/156132?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "World Shrinker",
-          "id": 156132
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nShrinks the entire world for 5 min or until you attack. (15 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 7500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "75",
-        "copper": "0"
-      }
+    "name": "World Shrinker",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Draenor Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2501,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2501?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Draenor Engineering",
-          "id": 2501
-        },
-        "level": 1,
-        "display_string": "Requires Draenor Engineering (1)"
+          "name": "Draenor Engineering"
+        }
       }
     },
-    "description": "Overuse may result in permanent shrinkage.",
-    "is_subclass_hidden": true,
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 7500
+    },
+    "spells": [
+      {
+        "description": "Use: Adds this toy to your Toy Box.\n\nShrinks the entire world for 5 min or until you attack. (15 Min Cooldown)",
+        "spell": {
+          "id": 156132,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/156132?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "World Shrinker"
+        }
+      }
+    ],
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 30000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 7500
 }

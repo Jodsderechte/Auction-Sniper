@@ -4,319 +4,320 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/69958?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Eternal Elementium Handguards.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 69958,
-  "name": "Plans: Eternal Elementium Handguards",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 32,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/69958?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 69958
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 75000,
-  "sell_price": 18750,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Eternal Elementium Handguards.",
+  "media": {
+    "id": 69958,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/69958?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Eternal Elementium Handguards",
   "preview_item": {
+    "description": "Teaches you how to make Eternal Elementium Handguards.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 69958,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/69958?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 69958
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Plans: Eternal Elementium Handguards",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/69958?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 69958
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 18750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "87",
-        "copper": "50"
+    "media": {
+      "id": 69958,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/69958?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2474?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Cataclysm Blacksmithing",
-          "id": 2474
-        },
-        "level": 75,
-        "display_string": "Requires Cataclysm Blacksmithing (75)"
-      }
+    "name": "Plans: Eternal Elementium Handguards",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to make Eternal Elementium Handguards.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "9 Armor"
+          },
+          "value": 9
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 55 / 55",
+          "value": 55
+        },
+        "inventory_type": {
+          "name": "Hands",
+          "type": "HAND"
+        },
         "item": {
+          "id": 69937,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/69937?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 69937
-        },
-        "sockets": [
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
           }
-        ],
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Eternal Elementium Handguards",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/69937?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 69937
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Plate",
-          "id": 4
+          "name": "Plate"
         },
-        "inventory_type": {
-          "type": "HAND",
-          "name": "Hands"
+        "level": {
+          "display_string": "Item Level 37",
+          "value": 37
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 9,
-          "display": {
-            "display_string": "9 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 69937,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/69937?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 5,
-            "display": {
-              "display_string": "+5 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "PARRY_RATING",
-              "name": "Parry"
-            },
-            "value": 3,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+3 Parry",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "MASTERY_RATING",
-              "name": "Mastery"
-            },
-            "value": 2,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+2 Mastery",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "socket_bonus": "Socket Bonus: +2 Stamina",
-        "sell_price": {
-          "value": 233,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "33"
-          }
+        "name": "Eternal Elementium Handguards",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 32,
-            "display_string": "Requires Level 32"
+            "display_string": "Requires Level 32",
+            "value": 32
           }
         },
-        "level": {
-          "value": 37,
-          "display_string": "Item Level 37"
+        "sell_price": {
+          "display_strings": {
+            "copper": "33",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 233
         },
-        "durability": {
-          "value": 55,
-          "display_string": "Durability 55 / 55"
-        }
+        "socket_bonus": "Socket Bonus: +2 Stamina",
+        "sockets": [
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Parry"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Parry",
+              "type": "PARRY_RATING"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Mastery"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Mastery",
+              "type": "MASTERY_RATING"
+            },
+            "value": 2
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 10,
           "reagent": {
+            "id": 53039,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/53039?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Hardened Elementium Bar",
-            "id": 53039
-          },
-          "quantity": 10
+            "name": "Hardened Elementium Bar"
+          }
         },
         {
+          "quantity": 40,
           "reagent": {
+            "id": 52325,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/52325?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Volatile Fire",
-            "id": 52325
-          },
-          "quantity": 40
+            "name": "Volatile Fire"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 69237,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Living Ember",
-            "id": 69237
-          },
-          "quantity": 4
+            "name": "Living Ember"
+          }
         },
         {
+          "quantity": 3,
           "reagent": {
+            "id": 52078,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/52078?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Chaos Orb",
-            "id": 52078
-          },
-          "quantity": 3
+            "name": "Chaos Orb"
+          }
         }
       ],
       "reagents_display_string": "Hardened Elementium Bar (10), Volatile Fire (40), Living Ember (4), Chaos Orb (3)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Cataclysm Blacksmithing (75)",
+        "level": 75,
+        "profession": {
+          "id": 2474,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2474?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Cataclysm Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "87"
+      },
+      "value": 18750
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 75000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 18750
 }

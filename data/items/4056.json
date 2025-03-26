@@ -4,97 +4,98 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4056?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 4056,
-  "name": "Cortello's Riddle",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 15,
-  "required_level": 15,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4056?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4056
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 15,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 4056,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4056?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Cortello's Riddle",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 4056,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/4056?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4056
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Cortello's Riddle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4056?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4056
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
-    },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "requirements": {
-      "level": {
-        "value": 15,
-        "display_string": "Requires Level 15"
-      }
+      "name": "Quest"
     },
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 624,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/624?namespace=static-11.1.0_59095-eu"
         },
-        "name": "Cortello's Riddle",
-        "id": 624
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "Cortello's Riddle"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 4056,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4056?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Cortello's Riddle",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 15",
+        "value": 15
+      }
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 15,
+  "sell_price": 0
 }

@@ -4,198 +4,199 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/37768?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 9892,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9892?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_pants_leather_25.jpg",
   "id": 37768,
-  "name": "Leggings of Violent Exsanguination",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
-  "level": 34,
-  "required_level": 29,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/37768?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 37768
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 3018180,
-  "sell_price": 603636,
+  "level": 34,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 37768,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/37768?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Leggings of Violent Exsanguination",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/37768?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "358 Armor"
       },
-      "id": 37768
+      "value": 358
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
     },
-    "name": "Leggings of Violent Exsanguination",
-    "media": {
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
+    "item": {
+      "id": 37768,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/37768?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 37768
+        "href": "https://eu.api.blizzard.com/data/wow/item/37768?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 358,
-      "display": {
-        "display_string": "358 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 37768,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/37768?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 278,
-        "display": {
-          "display_string": "+278 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 278,
-        "is_negated": true,
-        "display": {
-          "display_string": "+278 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 649,
-        "display": {
-          "display_string": "+649 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 291,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+291 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 430270,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "43",
-        "silver": "2",
-        "copper": "70"
-      }
+    "name": "Leggings of Violent Exsanguination",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 29,
-        "display_string": "Requires Level 29"
+        "display_string": "Requires Level 29",
+        "value": 29
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
-    },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9892?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "70",
+        "gold": "43",
+        "header": "Sell Price:",
+        "silver": "2"
       },
-      "id": 9892
-    }
-  ]
+      "value": 430270
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+278 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 278
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+278 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 278
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+649 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 649
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+291 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 291
+      }
+    ]
+  },
+  "purchase_price": 3018180,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 29,
+  "sell_price": 603636
 }

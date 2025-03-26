@@ -4,142 +4,143 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/44683?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_ring_ahnqiraj_02.jpg",
   "id": 44683,
-  "name": "King's Eyesocket",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 35,
-  "required_level": 28,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/44683?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 44683
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 188479,
-  "sell_price": 47119,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 44683,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/44683?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "King's Eyesocket",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/44683?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44683
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4811
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
     },
-    "name": "King's Eyesocket",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 44683,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/44683?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44683
+        "href": "https://eu.api.blizzard.com/data/wow/item/44683?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 176,
-        "display": {
-          "display_string": "+176 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 376,
-        "display": {
-          "display_string": "+376 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 44683,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/44683?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 47119,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "4",
-        "silver": "71",
-        "copper": "19"
-      }
+    },
+    "name": "King's Eyesocket",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 28,
-        "display_string": "Requires Level 28"
+        "display_string": "Requires Level 28",
+        "value": 28
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "19",
+        "gold": "4",
+        "header": "Sell Price:",
+        "silver": "71"
+      },
+      "value": 47119
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+176 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 176
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+376 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 376
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 188479,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 28,
+  "sell_price": 47119
 }

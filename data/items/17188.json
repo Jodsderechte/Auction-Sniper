@@ -4,138 +4,139 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/17188?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 5135,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5135?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shield_10.jpg",
   "id": 17188,
-  "name": "Ringed Buckler",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Off Hand",
+    "type": "SHIELD"
   },
-  "level": 11,
-  "required_level": 7,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/17188?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 17188
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Shield",
-    "id": 6
+    "name": "Shield"
   },
-  "inventory_type": {
-    "type": "SHIELD",
-    "name": "Off Hand"
-  },
-  "purchase_price": 2814,
-  "sell_price": 562,
+  "level": 11,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 17188,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/17188?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ringed Buckler",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "25 Armor"
+      },
+      "value": 25
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 45 / 45",
+      "value": 45
+    },
+    "inventory_type": {
+      "name": "Off Hand",
+      "type": "SHIELD"
+    },
     "item": {
+      "id": 17188,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/17188?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 17188
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Ringed Buckler",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/17188?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 17188
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Shield",
-      "id": 6
+      "name": "Shield"
     },
-    "inventory_type": {
-      "type": "SHIELD",
-      "name": "Off Hand"
+    "level": {
+      "display_string": "Item Level 11",
+      "value": 11
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 25,
-      "display": {
-        "display_string": "25 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 17188,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/17188?namespace=static-11.1.0_59095-eu"
       }
     },
-    "shield_block": {
-      "value": 62,
-      "display": {
-        "display_string": "62 Block",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "sell_price": {
-      "value": 17,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "17"
-      }
+    "name": "Ringed Buckler",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 7,
-        "display_string": "Requires Level 7"
+        "display_string": "Requires Level 7",
+        "value": 7
       }
     },
-    "level": {
-      "value": 11,
-      "display_string": "Item Level 11"
+    "sell_price": {
+      "display_strings": {
+        "copper": "17",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 17
     },
-    "durability": {
-      "value": 45,
-      "display_string": "Durability 45 / 45"
+    "shield_block": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "62 Block"
+      },
+      "value": 62
     }
   },
+  "purchase_price": 2814,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5135?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5135
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 7,
+  "sell_price": 562
 }

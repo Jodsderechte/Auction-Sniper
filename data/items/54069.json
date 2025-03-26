@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/54069?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon this mount.  The capabilities of this mount depend on your Riding skill and location.",
+  "icon_path": "data\\icons\\ability_mount_warhippogryph.jpg",
   "id": 54069,
-  "name": "Blazing Hippogryph",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 30,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/54069?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 54069
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mount",
-    "id": 5
+    "name": "Mount"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 100000,
-  "sell_price": 0,
+  "level": 30,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon this mount.  The capabilities of this mount depend on your Riding skill and location.",
+  "media": {
+    "id": 54069,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/54069?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blazing Hippogryph",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
     "item": {
+      "id": 54069,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/54069?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 54069
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Blazing Hippogryph",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/54069?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 54069
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mount",
-      "id": 5
+      "name": "Mount"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/74856?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Blazing Hippogryph",
-          "id": 74856
-        },
-        "description": "Use: Teaches you how to summon this mount.  The capabilities of this mount depend on your Riding skill and location."
+    "media": {
+      "id": 54069,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/54069?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Blazing Hippogryph",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
     "requirements": {
       "ability": {
+        "display_string": "Requires Apprentice Riding",
         "spell": {
+          "id": 33388,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/33388?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Apprentice Riding",
-          "id": 33388
-        },
-        "display_string": "Requires Apprentice Riding"
+          "name": "Apprentice Riding"
+        }
       }
-    }
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to summon this mount.  The capabilities of this mount depend on your Riding skill and location.",
+        "spell": {
+          "id": 74856,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/74856?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Blazing Hippogryph"
+        }
+      }
+    ],
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 100000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 10,
+  "sell_price": 0
 }

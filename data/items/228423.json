@@ -4,119 +4,120 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/228423?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Pep-In-Your-Step.",
+  "icon_path": "data\\icons\\inv_10_inscription2_scroll2_color5.jpg",
   "id": 228423,
-  "name": "Recipe: Pep-In-Your-Step",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 70,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/228423?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 228423
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cooking",
-    "id": 5
+    "name": "Cooking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 250000,
-  "sell_price": 50000,
+  "level": 70,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Pep-In-Your-Step.",
+  "media": {
+    "id": 228423,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/228423?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Pep-In-Your-Step",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 228423,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/228423?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 228423
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Recipe: Pep-In-Your-Step",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/228423?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 228423
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cooking",
-      "id": 5
+      "name": "Cooking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 228423,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/228423?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/445480?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Pep-In-Your-Step",
-          "id": 445480
-        },
-        "description": "Use: Teaches you how to craft Pep-In-Your-Step."
-      }
-    ],
-    "sell_price": {
-      "value": 50000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Recipe: Pep-In-Your-Step",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       },
       "skill": {
+        "display_string": "Requires Khaz Algar Cooking (35)",
+        "level": 35,
         "profession": {
+          "id": 2873,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2873?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Khaz Algar Cooking",
-          "id": 2873
-        },
-        "level": 35,
-        "display_string": "Requires Khaz Algar Cooking (35)"
+          "name": "Khaz Algar Cooking"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 50000
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to craft Pep-In-Your-Step.",
+        "spell": {
+          "id": 445480,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/445480?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Pep-In-Your-Step"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 250000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 68,
+  "sell_price": 50000
 }

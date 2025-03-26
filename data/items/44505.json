@@ -4,147 +4,148 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/44505?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 11225,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/11225?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Blade of the Crimson Landlord.",
+  "icon_path": "data\\icons\\inv_weapon_shortblade_03.jpg",
   "id": 44505,
-  "name": "Dustbringer",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 35,
-  "required_level": 29,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/44505?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 44505
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 191327,
-  "sell_price": 38265,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Blade of the Crimson Landlord.",
+  "media": {
+    "id": 44505,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/44505?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Dustbringer",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "Blade of the Crimson Landlord.",
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 44505,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/44505?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44505
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Dustbringer",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/44505?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44505
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 35",
+      "value": 35
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 3,
-        "max_value": 5,
-        "display_string": "3 - 5 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 2.222222,
-        "display_string": "(2.2 damage per second)"
+    "media": {
+      "id": 44505,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/44505?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/60871?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Fireblast",
-          "id": 60871
-        },
-        "description": "Chance on hit: Blasts the enemy for 1 Fire damage."
-      }
-    ],
-    "sell_price": {
-      "value": 402,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "4",
-        "copper": "2"
-      }
+    "name": "Dustbringer",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 29,
-        "display_string": "Requires Level 29"
+        "display_string": "Requires Level 29",
+        "value": 29
       }
     },
-    "description": "Blade of the Crimson Landlord.",
-    "level": {
-      "value": 35,
-      "display_string": "Item Level 35"
+    "sell_price": {
+      "display_strings": {
+        "copper": "2",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "4"
+      },
+      "value": 402
     },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
+    "spells": [
+      {
+        "description": "Chance on hit: Blasts the enemy for 1 Fire damage.",
+        "spell": {
+          "id": 60871,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/60871?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Fireblast"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "3 - 5 Damage",
+        "max_value": 5,
+        "min_value": 3
+      },
+      "dps": {
+        "display_string": "(2.2 damage per second)",
+        "value": 2.222222
+      }
     }
   },
+  "purchase_price": 191327,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/11225?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11225
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 29,
+  "sell_price": 38265
 }

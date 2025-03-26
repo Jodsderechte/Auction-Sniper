@@ -4,190 +4,191 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/8367?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1045,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1045?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_chain_07.jpg",
   "id": 8367,
-  "name": "Dragonscale Breastplate",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "CHEST"
   },
-  "level": 26,
-  "required_level": 20,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/8367?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 8367
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "CHEST",
-    "name": "Chest"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 8367,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/8367?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Dragonscale Breastplate",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "9 Armor"
+      },
+      "value": 9
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 125 / 125",
+      "value": 125
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
     "item": {
+      "id": 8367,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/8367?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8367
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Dragonscale Breastplate",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/8367?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8367
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "CHEST",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 26",
+      "value": 26
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 9,
-      "display": {
-        "display_string": "9 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 8367,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/8367?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 5,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+5 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 5,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+5 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/10618?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Elemental Protection",
-          "id": 10618
-        },
-        "description": "Use: Absorbs 10 magical damage.  Lasts 2 min. (1 Hr Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Dragonscale Breastplate",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 20,
-        "display_string": "Requires Level 20"
+        "display_string": "Requires Level 20",
+        "value": 20
       }
     },
-    "level": {
-      "value": 26,
-      "display_string": "Item Level 26"
-    },
-    "durability": {
-      "value": 125,
-      "display_string": "Durability 125 / 125"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1045?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "id": 1045
-    }
-  ]
+      "value": 1500
+    },
+    "spells": [
+      {
+        "description": "Use: Absorbs 10 magical damage.  Lasts 2 min. (1 Hr Cooldown)",
+        "spell": {
+          "id": 10618,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/10618?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Elemental Protection"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+5 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+5 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 5
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 20,
+  "sell_price": 1500
 }

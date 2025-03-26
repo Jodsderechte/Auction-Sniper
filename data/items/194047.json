@@ -4,118 +4,119 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/194047?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_10_tailoring2_banner_red.jpg",
   "id": 194047,
-  "name": "Explorer's Banner of Geology",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 415,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/194047?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 194047
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 200000,
-  "sell_price": 40000,
+  "level": 415,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 194047,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/194047?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Explorer's Banner of Geology",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 194047,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/194047?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194047
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Explorer's Banner of Geology",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/194047?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194047
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/387937?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Explorer's Banner of Geology",
-          "id": 387937
-        },
-        "description": "Use: Place a banner that increases damage done to all Earth and Fire Elementals within 100 yards by 100%. Also grants 30 Deftness and Finesse to Miners. Lasts 10 min. Only usable in the Dragon Isles. (10 Min Cooldown)"
+    "media": {
+      "id": 194047,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/194047?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 40000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "4",
-        "silver": "0",
-        "copper": "0"
-      }
+    },
+    "name": "Explorer's Banner of Geology",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Mining (1)",
+        "level": 1,
         "profession": {
+          "id": 2833,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2833?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Mining",
-          "id": 2833
-        },
-        "level": 1,
-        "display_string": "Requires Dragon Isles Mining (1)"
+          "name": "Dragon Isles Mining"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "4",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 40000
+    },
+    "spells": [
+      {
+        "description": "Use: Place a banner that increases damage done to all Earth and Fire Elementals within 100 yards by 100%. Also grants 30 Deftness and Finesse to Miners. Lasts 10 min. Only usable in the Dragon Isles. (10 Min Cooldown)",
+        "spell": {
+          "id": 387937,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/387937?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Explorer's Banner of Geology"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 200000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 40000
 }

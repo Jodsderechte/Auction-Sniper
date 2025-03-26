@@ -4,143 +4,144 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/31290?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_ring_24.jpg",
   "id": 31290,
-  "name": "Band of Dominion",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/31290?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 31290
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 42837,
-  "sell_price": 10709,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 31290,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/31290?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Band of Dominion",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/31290?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31290
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
     },
-    "name": "Band of Dominion",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 31290,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/31290?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31290
+        "href": "https://eu.api.blizzard.com/data/wow/item/31290?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 217,
-        "display": {
-          "display_string": "+217 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 304,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+304 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 31290,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/31290?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 10709,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "7",
-        "copper": "9"
-      }
+    },
+    "name": "Band of Dominion",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "9",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "7"
+      },
+      "value": 10709
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+217 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 217
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+304 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 304
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 42837,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 10709
 }

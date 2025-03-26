@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201969?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Meet me in front of Stormwind.",
+  "icon_path": "data\\icons\\inv_letter_16.jpg",
   "id": 201969,
-  "name": "Threatening Note",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201969?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201969
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 374920,
-  "sell_price": 93730,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Meet me in front of Stormwind.",
+  "media": {
+    "id": 201969,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201969?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Threatening Note",
   "preview_item": {
+    "description": "Meet me in front of Stormwind.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 201969,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/201969?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201969
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Threatening Note",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201969?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201969
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 93730,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "9",
-        "silver": "37",
-        "copper": "30"
+    "media": {
+      "id": 201969,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201969?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Meet me in front of Stormwind.",
-    "is_subclass_hidden": true
+    "name": "Threatening Note",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "30",
+        "gold": "9",
+        "header": "Sell Price:",
+        "silver": "37"
+      },
+      "value": 93730
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 374920,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 93730
 }

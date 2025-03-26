@@ -4,172 +4,173 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/36487?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 9563,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9563?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mace_69.jpg",
   "id": 36487,
-  "name": "Stone-Headed Gavel",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 32,
-  "required_level": 26,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/36487?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 36487
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 4
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 3563773,
-  "sell_price": 712754,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 36487,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/36487?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Stone-Headed Gavel",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/36487?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 36487
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6655
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 75 / 75",
+      "value": 75
     },
-    "name": "Stone-Headed Gavel",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 36487,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/36487?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 36487
+        "href": "https://eu.api.blizzard.com/data/wow/item/36487?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 4
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 354,
-        "max_value": 456,
-        "display_string": "354 - 456 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 155.76923,
-        "display_string": "(155.8 damage per second)"
+    "media": {
+      "id": 36487,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/36487?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 137,
-        "is_negated": true,
-        "display": {
-          "display_string": "+137 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 248,
-        "display": {
-          "display_string": "+248 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 507539,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "75",
-        "copper": "39"
-      }
+    "name": "Stone-Headed Gavel",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 26,
-        "display_string": "Requires Level 26"
+        "display_string": "Requires Level 26",
+        "value": 26
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
+    "sell_price": {
+      "display_strings": {
+        "copper": "39",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 507539
     },
-    "durability": {
-      "value": 75,
-      "display_string": "Durability 75 / 75"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+137 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 137
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+248 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 248
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "354 - 456 Damage",
+        "max_value": 456,
+        "min_value": 354
+      },
+      "dps": {
+        "display_string": "(155.8 damage per second)",
+        "value": 155.76923
+      }
     }
   },
+  "purchase_price": 3563773,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9563?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9563
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 26,
+  "sell_price": 712754
 }

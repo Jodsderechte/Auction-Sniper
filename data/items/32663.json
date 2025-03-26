@@ -4,185 +4,186 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/32663?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6620,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6620?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_axe_44.jpg",
   "id": 32663,
-  "name": "Apexis Cleaver",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/32663?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 32663
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 1
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 485116,
-  "sell_price": 97023,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 32663,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/32663?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Apexis Cleaver",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 32663,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/32663?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32663
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Apexis Cleaver",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/32663?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32663
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 1
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 6,
-        "max_value": 14,
-        "display_string": "6 - 14 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 2.7777777,
-        "display_string": "(2.8 damage per second)"
+    "media": {
+      "id": 32663,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/32663?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 5,
-        "is_negated": true,
-        "display": {
-          "display_string": "+5 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 412,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "4",
-        "copper": "12"
-      }
+    "name": "Apexis Cleaver",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
+    "sell_price": {
+      "display_strings": {
+        "copper": "12",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "4"
+      },
+      "value": 412
     },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+5 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 3
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "6 - 14 Damage",
+        "max_value": 14,
+        "min_value": 6
+      },
+      "dps": {
+        "display_string": "(2.8 damage per second)",
+        "value": 2.7777777
+      }
     }
   },
+  "purchase_price": 485116,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6620?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6620
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 97023
 }

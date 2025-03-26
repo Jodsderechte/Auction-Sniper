@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/130251?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelcrafting_70_jeweltoy.jpg",
   "id": 130251,
-  "name": "JewelCraft",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 42,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/130251?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 130251
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 3500,
-  "sell_price": 875,
+  "level": 42,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 130251,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/130251?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "JewelCraft",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 130251,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/130251?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 130251
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "JewelCraft",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/130251?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 130251
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 130251,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/130251?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "JewelCraft",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "8"
+      },
+      "value": 875
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPlay a jewel matching game. (1 Sec Cooldown)",
         "spell": {
+          "id": 196067,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/196067?namespace=static-11.1.0_59095-eu"
           },
-          "name": "JewelCraft",
-          "id": 196067
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPlay a jewel matching game. (1 Sec Cooldown)"
+          "name": "JewelCraft"
+        }
       }
     ],
-    "sell_price": {
-      "value": 875,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "8",
-        "copper": "75"
-      }
-    },
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 3500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 875
 }

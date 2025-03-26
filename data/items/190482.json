@@ -4,218 +4,219 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/190482?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 70573,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70573?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_knife_1h_dragonquest_b_02.jpg",
   "id": 190482,
-  "name": "Draconium Stiletto",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 270,
-  "required_level": 62,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/190482?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 190482
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 2498699,
-  "sell_price": 499739,
+  "level": 270,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 190482,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/190482?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Draconium Stiletto",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/190482?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 190482
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8851,
       8852
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
     },
-    "name": "Draconium Stiletto",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 190482,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/190482?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 190482
+        "href": "https://eu.api.blizzard.com/data/wow/item/190482?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
-    },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 82,
-        "max_value": 138,
-        "display_string": "82 - 138 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 61.111107,
-        "display_string": "(61.1 damage per second)"
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 628,
-        "display": {
-          "display_string": "+628 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 162,
-        "display": {
-          "display_string": "+162 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 102,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+102 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 102,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+102 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 499739,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "49",
-        "silver": "97",
-        "copper": "39"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 62,
-        "display_string": "Requires Level 62"
-      }
+      "name": "Dagger"
     },
     "level": {
-      "value": 330,
-      "display_string": "Item Level 330"
+      "display_string": "Item Level 330",
+      "value": 330
     },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
+    "media": {
+      "id": 190482,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/190482?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
+        "name": "Critical Strike",
+        "type": "CRIT_RATING"
       },
       {
         "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
+        "name": "Haste",
+        "type": "HASTE_RATING"
       }
-    ]
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70573?namespace=static-11.1.0_59095-eu"
+    ],
+    "name": "Draconium Stiletto",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 62",
+        "value": 62
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "39",
+        "gold": "49",
+        "header": "Sell Price:",
+        "silver": "97"
       },
-      "id": 70573
+      "value": 499739
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+628 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 628
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+162 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 162
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+102 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 102
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+102 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 102
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "82 - 138 Damage",
+        "max_value": 138,
+        "min_value": 82
+      },
+      "dps": {
+        "display_string": "(61.1 damage per second)",
+        "value": 61.111107
+      }
     }
-  ]
+  },
+  "purchase_price": 2498699,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 62,
+  "sell_price": 499739
 }

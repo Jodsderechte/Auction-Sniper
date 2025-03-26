@@ -4,178 +4,179 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/198087?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_10_inscription_darkmooncards_frost_blank.jpg",
   "id": 198087,
-  "name": "Darkmoon Deck: Rime",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 372,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/198087?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 198087
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 372,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 198087,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/198087?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Darkmoon Deck: Rime",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 198087,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/198087?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198087
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Darkmoon Deck: Rime",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/198087?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198087
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "level": {
+      "display_string": "Item Level 372",
+      "value": 372
     },
     "limit_category": "Unique-Equipped: Darkmoon Deck (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 300,
-        "display": {
-          "display_string": "+300 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 300,
-        "is_negated": true,
-        "display": {
-          "display_string": "+300 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 300,
-        "is_negated": true,
-        "display": {
-          "display_string": "+300 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 198087,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/198087?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/382958?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Dragonflight Darkmoon Deck Shuffler (DNT)",
-          "id": 382958
-        },
-        "description": "Equip: Periodically shuffle the deck while in combat.\r\n\r\n"
-      },
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/386624?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Awakening Rime",
-          "id": 386624
-        },
-        "description": "Use: Deal 15,897 Frost damage and apply Awakening Rime to your target for 4-12s. If the target dies while Awakening Rime is active, it explodes for 39,742 Frost damage split between enemies in a 10 yard radius. Duration is determined by the top-most card of the deck.\r\n"
-      }
-    ],
-    "sell_price": {
-      "value": 511921,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "51",
-        "silver": "19",
-        "copper": "21"
-      }
+    },
+    "name": "Darkmoon Deck: Rime",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "level": {
-      "value": 372,
-      "display_string": "Item Level 372"
+    "sell_price": {
+      "display_strings": {
+        "copper": "21",
+        "gold": "51",
+        "header": "Sell Price:",
+        "silver": "19"
+      },
+      "value": 511921
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Periodically shuffle the deck while in combat.\r\n\r\n",
+        "spell": {
+          "id": 382958,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/382958?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Dragonflight Darkmoon Deck Shuffler (DNT)"
+        }
+      },
+      {
+        "description": "Use: Deal 15,897 Frost damage and apply Awakening Rime to your target for 4-12s. If the target dies while Awakening Rime is active, it explodes for 39,742 Frost damage split between enemies in a 10 yard radius. Duration is determined by the top-most card of the deck.\r\n",
+        "spell": {
+          "id": 386624,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/386624?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Awakening Rime"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+300 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 300
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+300 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 300
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+300 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 300
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 70,
+  "sell_price": 0
 }

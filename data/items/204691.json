@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204691?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This tome's cover looks like blue leather, but feels like... wait. That's not leather. The pages are... what is that? Is this book breathing?",
+  "icon_path": "data\\icons\\inv_misc_book_08.jpg",
   "id": 204691,
-  "name": "Living Book",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 70,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204691?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204691
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1,
-  "sell_price": 1,
+  "level": 70,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "This tome's cover looks like blue leather, but feels like... wait. That's not leather. The pages are... what is that? Is this book breathing?",
+  "media": {
+    "id": 204691,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204691?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Living Book",
   "preview_item": {
+    "description": "This tome's cover looks like blue leather, but feels like... wait. That's not leather. The pages are... what is that? Is this book breathing?",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 204691,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/204691?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204691
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Living Book",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204691?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204691
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
+    "media": {
+      "id": 204691,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204691?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "This tome's cover looks like blue leather, but feels like... wait. That's not leather. The pages are... what is that? Is this book breathing?",
-    "is_subclass_hidden": true
+    "name": "Living Book",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 1
 }

@@ -4,189 +4,190 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5771?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew a Red Linen Bag.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 5771,
-  "name": "Pattern: Red Linen Bag",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5771?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5771
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 200,
-  "sell_price": 50,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew a Red Linen Bag.",
+  "media": {
+    "id": 5771,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5771?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Red Linen Bag",
   "preview_item": {
+    "description": "Teaches you how to sew a Red Linen Bag.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 5771,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/5771?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5771
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Pattern: Red Linen Bag",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5771?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5771
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 50,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "50"
+    "media": {
+      "id": 5771,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5771?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 70,
-        "display_string": "Requires Classic Tailoring (70)"
-      }
+    "name": "Pattern: Red Linen Bag",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to sew a Red Linen Bag.",
     "recipe": {
       "item": {
+        "container_slots": {
+          "display_string": "6 Slot Bag",
+          "value": 6
+        },
+        "inventory_type": {
+          "name": "Bag",
+          "type": "BAG"
+        },
         "item": {
+          "id": 5762,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/5762?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 5762
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Red Linen Bag",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/5762?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 5762
+          }
         },
         "item_class": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Container",
-          "id": 1
+          "name": "Container"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Bag",
-          "id": 0
-        },
-        "inventory_type": {
-          "type": "BAG",
           "name": "Bag"
         },
-        "sell_price": {
-          "value": 250,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "50"
+        "media": {
+          "id": 5762,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/5762?namespace=static-11.1.0_59095-eu"
           }
         },
-        "container_slots": {
-          "value": 6,
-          "display_string": "6 Slot Bag"
+        "name": "Red Linen Bag",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "50",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 250
         }
       },
       "reagents": [
         {
+          "quantity": 4,
           "reagent": {
+            "id": 2996,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2996?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Linen Cloth",
-            "id": 2996
-          },
-          "quantity": 4
+            "name": "Bolt of Linen Cloth"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 2321,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2321?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Fine Thread",
-            "id": 2321
-          },
-          "quantity": 1
+            "name": "Fine Thread"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 2604,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2604?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Red Dye",
-            "id": 2604
-          },
-          "quantity": 1
+            "name": "Red Dye"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Linen Cloth (4), Fine Thread, Red Dye"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (70)",
+        "level": 70,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 50
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 200,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 50
 }

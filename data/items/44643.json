@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/44643?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1319,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1319?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_bow_15.jpg",
   "id": 44643,
-  "name": "Dalaran Bow",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGED"
   },
-  "level": 29,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/44643?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 44643
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bow",
-    "id": 2
+    "name": "Bow"
   },
-  "inventory_type": {
-    "type": "RANGED",
-    "name": "Ranged"
-  },
-  "purchase_price": 2253810,
-  "sell_price": 450762,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 44643,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/44643?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Dalaran Bow",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGED"
+    },
     "item": {
+      "id": 44643,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/44643?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44643
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Dalaran Bow",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/44643?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44643
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bow",
-      "id": 2
+      "name": "Bow"
     },
-    "inventory_type": {
-      "type": "RANGED",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 6,
-        "max_value": 9,
-        "display_string": "6 - 9 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 2.4999998,
-        "display_string": "(2.5 damage per second)"
+    "media": {
+      "id": 44643,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/44643?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 157,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "57"
-      }
+    "name": "Dalaran Bow",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+    "sell_price": {
+      "display_strings": {
+        "copper": "57",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 157
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "6 - 9 Damage",
+        "max_value": 9,
+        "min_value": 6
+      },
+      "dps": {
+        "display_string": "(2.5 damage per second)",
+        "value": 2.4999998
+      }
     }
   },
+  "purchase_price": 2253810,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1319?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1319
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 27,
+  "sell_price": 450762
 }

@@ -4,243 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/41520?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 9280,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9280?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_boots_09.jpg",
   "id": 41520,
-  "name": "Frostwoven Boots",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/41520?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 41520
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cloth",
-    "id": 1
+    "name": "Cloth"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 41520,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/41520?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Frostwoven Boots",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "2 Armor"
+      },
+      "value": 2
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
+    },
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
     "item": {
+      "id": 41520,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/41520?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 41520
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Frostwoven Boots",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/41520?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 41520
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cloth",
-      "id": 1
+      "name": "Cloth"
     },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 2,
-      "display": {
-        "display_string": "2 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 41520,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/41520?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 4,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+4 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Frostwoven Boots",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/763?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Frostwoven Power",
-        "id": 763
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41522?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostwoven Belt",
-            "id": 41522
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41520?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostwoven Boots",
-            "id": 41520
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/44211?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostwoven Gloves",
-            "id": 44211
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41521?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostwoven Cowl",
-            "id": 41521
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41519?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostwoven Leggings",
-            "id": 41519
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41515?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostwoven Robe",
-            "id": 41515
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41513?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostwoven Shoulders",
-            "id": 41513
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41512?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostwoven Wristwraps",
-            "id": 41512
-          }
-        }
-      ],
+      "value": 1500
+    },
+    "set": {
+      "display_string": "Frostwoven Power (0/8)",
       "effects": [
         {
           "display_string": "(2) Set: Increases Intellect by 7.",
@@ -251,24 +130,146 @@
           "required_count": 4
         }
       ],
-      "display_string": "Frostwoven Power (0/8)"
-    },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9280?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 763,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/763?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Frostwoven Power"
       },
-      "id": 9280
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 41522,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41522?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostwoven Belt"
+          }
+        },
+        {
+          "item": {
+            "id": 41520,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41520?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostwoven Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 44211,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/44211?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostwoven Gloves"
+          }
+        },
+        {
+          "item": {
+            "id": 41521,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41521?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostwoven Cowl"
+          }
+        },
+        {
+          "item": {
+            "id": 41519,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41519?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostwoven Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 41515,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41515?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostwoven Robe"
+          }
+        },
+        {
+          "item": {
+            "id": 41513,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41513?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostwoven Shoulders"
+          }
+        },
+        {
+          "item": {
+            "id": 41512,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41512?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostwoven Wristwraps"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+4 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 4
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 27,
+  "sell_price": 1500
 }

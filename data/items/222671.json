@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/222671?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_inscriptions_darkmoondeckvivacity_0.jpg",
   "id": 222671,
-  "name": "Darkmoon Deck: Vivacity",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 577,
-  "required_level": 80,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/222671?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 222671
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 4351188,
-  "sell_price": 870237,
+  "level": 577,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 222671,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/222671?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Darkmoon Deck: Vivacity",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 222671,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/222671?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222671
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Darkmoon Deck: Vivacity",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/222671?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222671
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 577",
+      "value": 577
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 222671,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/222671?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 2024,
-        "display": {
-          "display_string": "+2,024 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 2024,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2,024 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 2024,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2,024 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/463611?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Vivacity",
-          "id": 463611
-        },
-        "description": "Equip: Your damaging spells and abilities have the chance to grant Vivaciousness, increasing secondary stats by 267 and Speed or Avoidance by 55 based on the school it was activated from."
-      }
-    ],
-    "sell_price": {
-      "value": 870237,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "87",
-        "silver": "2",
-        "copper": "37"
-      }
+    "name": "Darkmoon Deck: Vivacity",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
+        "display_string": "Requires Level 80",
+        "value": 80
       }
     },
-    "level": {
-      "value": 577,
-      "display_string": "Item Level 577"
+    "sell_price": {
+      "display_strings": {
+        "copper": "37",
+        "gold": "87",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 870237
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Your damaging spells and abilities have the chance to grant Vivaciousness, increasing secondary stats by 267 and Speed or Avoidance by 55 based on the school it was activated from.",
+        "spell": {
+          "id": 463611,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/463611?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Vivacity"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2,024 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 2024
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2,024 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 2024
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2,024 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 2024
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 4351188,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 80,
+  "sell_price": 870237
 }

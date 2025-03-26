@@ -4,126 +4,127 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/177811?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_ring_revendreth_01_brass.jpg",
   "id": 177811,
-  "name": "Depraved Tutor's Signet",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 100,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/177811?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 177811
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 1599407,
-  "sell_price": 319881,
+  "level": 100,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 177811,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/177811?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Depraved Tutor's Signet",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/177811?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 177811
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6654
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
     },
-    "name": "Depraved Tutor's Signet",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 177811,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/177811?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 177811
+        "href": "https://eu.api.blizzard.com/data/wow/item/177811?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 279,
-        "display": {
-          "display_string": "+279 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 177811,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/177811?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 219502,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "21",
-        "silver": "95",
-        "copper": "2"
-      }
+    },
+    "name": "Depraved Tutor's Signet",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
+        "display_string": "Requires Level 50",
+        "value": 50
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
+    "sell_price": {
+      "display_strings": {
+        "copper": "2",
+        "gold": "21",
+        "header": "Sell Price:",
+        "silver": "95"
+      },
+      "value": 219502
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+279 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 279
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1599407,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 50,
+  "sell_price": 319881
 }

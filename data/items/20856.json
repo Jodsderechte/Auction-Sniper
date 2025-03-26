@@ -4,251 +4,252 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/20856?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Heavy Golden Necklace of Battle.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 20856,
-  "name": "Design: Heavy Golden Necklace of Battle",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/20856?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 20856
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1500,
-  "sell_price": 375,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Heavy Golden Necklace of Battle.",
+  "media": {
+    "id": 20856,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/20856?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Heavy Golden Necklace of Battle",
   "preview_item": {
+    "description": "Teaches you how to craft a Heavy Golden Necklace of Battle.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 20856,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/20856?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20856
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Design: Heavy Golden Necklace of Battle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/20856?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20856
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 375,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "3",
-        "copper": "75"
+    "media": {
+      "id": 20856,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/20856?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Jewelcrafting",
-          "id": 2524
-        },
-        "level": 150,
-        "display_string": "Requires Classic Jewelcrafting (150)"
-      }
+    "name": "Design: Heavy Golden Necklace of Battle",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to craft a Heavy Golden Necklace of Battle.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "charges": {
+          "display_string": "1 Charge",
+          "value": 1
+        },
+        "inventory_type": {
+          "name": "Neck",
+          "type": "NECK"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 20831,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/20831?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 20831
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Heavy Golden Necklace of Battle",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/20831?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 20831
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "NECK",
-          "name": "Neck"
+        "level": {
+          "display_string": "Item Level 20",
+          "value": 20
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
+        "media": {
+          "id": 20831,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/20831?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/25211?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Heavy Golden Necklace of Battle",
-              "id": 25211
-            },
-            "description": "Use: Gives 3.8 additional strength to nearby party members for 30 min. (1 Sec Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 1535,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "35"
-          }
+        "name": "Heavy Golden Necklace of Battle",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 13,
-            "display_string": "Requires Level 13"
+            "display_string": "Requires Level 13",
+            "value": 13
           }
         },
-        "level": {
-          "value": 20,
-          "display_string": "Item Level 20"
+        "sell_price": {
+          "display_strings": {
+            "copper": "35",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1535
         },
-        "charges": {
-          "value": 1,
-          "display_string": "1 Charge"
-        },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Use: Gives 3.8 additional strength to nearby party members for 30 min. (1 Sec Cooldown)",
+            "spell": {
+              "id": 25211,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/25211?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Heavy Golden Necklace of Battle"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 2
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3577,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3577?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Gold Bar",
-            "id": 3577
-          },
-          "quantity": 1
+            "name": "Gold Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 1206,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1206?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Moss Agate",
-            "id": 1206
-          },
-          "quantity": 2
+            "name": "Moss Agate"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3391,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3391?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Elixir of Ogre's Strength",
-            "id": 3391
-          },
-          "quantity": 1
+            "name": "Elixir of Ogre's Strength"
+          }
         }
       ],
       "reagents_display_string": "Gold Bar, Moss Agate (2), Elixir of Ogre's Strength"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Jewelcrafting (150)",
+        "level": 150,
+        "profession": {
+          "id": 2524,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 375
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 375
 }

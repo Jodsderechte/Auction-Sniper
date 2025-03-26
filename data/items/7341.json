@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7341?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Trust me, she'll know.",
+  "icon_path": "data\\icons\\inv_jewelry_ring_05.jpg",
   "id": 7341,
-  "name": "Cubic Zirconia Ring",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 12,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7341?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7341
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 50000,
-  "sell_price": 12500,
+  "level": 12,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Trust me, she'll know.",
+  "media": {
+    "id": 7341,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7341?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Cubic Zirconia Ring",
   "preview_item": {
+    "description": "Trust me, she'll know.",
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 7341,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7341?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7341
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Cubic Zirconia Ring",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7341?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7341
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 12",
+      "value": 12
     },
-    "sell_price": {
-      "value": 12500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 7341,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7341?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Trust me, she'll know.",
-    "level": {
-      "value": 12,
-      "display_string": "Item Level 12"
+    "name": "Cubic Zirconia Ring",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 12500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 12500
 }

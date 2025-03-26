@@ -4,201 +4,202 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/31334?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8175,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8175?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_50.jpg",
   "id": 31334,
-  "name": "Staff of Natural Fury",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 31,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/31334?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 31334
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 671700,
-  "sell_price": 134340,
+  "level": 31,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 31334,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/31334?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Staff of Natural Fury",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/31334?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31334
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 120 / 120",
+      "value": 120
     },
-    "name": "Staff of Natural Fury",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 31334,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/31334?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31334
+        "href": "https://eu.api.blizzard.com/data/wow/item/31334?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
+      "name": "Staff"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 693,
-        "max_value": 938,
-        "display_string": "693 - 938 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 226.52777,
-        "display_string": "(226.5 damage per second)"
+    "media": {
+      "id": 31334,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/31334?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 301,
-        "is_negated": true,
-        "display": {
-          "display_string": "+301 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 358,
-        "display": {
-          "display_string": "+358 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 106,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+106 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/38314?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Cheaper Druid Shapeshifting",
-          "id": 38314
-        },
-        "description": "Equip: Reduces the base Mana cost of your shapeshifting spells by 2,008."
-      }
-    ],
-    "sell_price": {
-      "value": 134340,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "13",
-        "silver": "43",
-        "copper": "40"
-      }
+    "name": "Staff of Natural Fury",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "40",
+        "gold": "13",
+        "header": "Sell Price:",
+        "silver": "43"
+      },
+      "value": 134340
     },
-    "durability": {
-      "value": 120,
-      "display_string": "Durability 120 / 120"
+    "spells": [
+      {
+        "description": "Equip: Reduces the base Mana cost of your shapeshifting spells by 2,008.",
+        "spell": {
+          "id": 38314,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/38314?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Cheaper Druid Shapeshifting"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+301 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 301
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+358 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 358
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+106 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 106
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "693 - 938 Damage",
+        "max_value": 938,
+        "min_value": 693
+      },
+      "dps": {
+        "display_string": "(226.5 damage per second)",
+        "value": 226.52777
+      }
     }
   },
+  "purchase_price": 671700,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8175?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8175
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 27,
+  "sell_price": 134340
 }

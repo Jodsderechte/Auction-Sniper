@@ -4,172 +4,173 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13043?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3727,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3727?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_07.jpg",
   "id": 13043,
-  "name": "Blade of the Titans",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 25,
-  "required_level": 19,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13043?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13043
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 8
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 3489119,
-  "sell_price": 697823,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13043,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13043?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blade of the Titans",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13043?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13043
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 90 / 90",
+      "value": 90
     },
-    "name": "Blade of the Titans",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 13043,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13043?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13043
+        "href": "https://eu.api.blizzard.com/data/wow/item/13043?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 8
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 583,
-        "max_value": 973,
-        "display_string": "583 - 973 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 216.1111,
-        "display_string": "(216.1 damage per second)"
+    "media": {
+      "id": 13043,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13043?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 195,
-        "is_negated": true,
-        "display": {
-          "display_string": "+195 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 609,
-        "display": {
-          "display_string": "+609 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 730300,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "73",
-        "silver": "3",
-        "copper": "0"
-      }
+    "name": "Blade of the Titans",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 19,
-        "display_string": "Requires Level 19"
+        "display_string": "Requires Level 19",
+        "value": 19
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "73",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 730300
     },
-    "durability": {
-      "value": 90,
-      "display_string": "Durability 90 / 90"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+195 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 195
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+609 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 609
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "583 - 973 Damage",
+        "max_value": 973,
+        "min_value": 583
+      },
+      "dps": {
+        "display_string": "(216.1 damage per second)",
+        "value": 216.1111
+      }
     }
   },
+  "purchase_price": 3489119,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3727?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3727
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 19,
+  "sell_price": 697823
 }

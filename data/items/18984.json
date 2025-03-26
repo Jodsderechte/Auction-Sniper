@@ -4,129 +4,130 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18984?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_enggizmos_15.jpg",
   "id": 18984,
-  "name": "Dimensional Ripper - Everlook",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 25,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18984?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18984
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 20000,
-  "sell_price": 5000,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 18984,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18984?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Dimensional Ripper - Everlook",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18984,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18984?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18984
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Dimensional Ripper - Everlook",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18984?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18984
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/23442?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Everlook Transporter",
-          "id": 23442
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nRips the dimensional walls asunder and transports you to Everlook in Winterspring.   There are technical problems that sometimes occur, but that's what Goblin Engineering is all about! (4 Hr Cooldown)"
+    "media": {
+      "id": 18984,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18984?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 5000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "50",
-        "copper": "0"
-      }
+    },
+    "name": "Dimensional Ripper - Everlook",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 260,
-        "display_string": "Requires Classic Engineering (260)"
-      },
       "ability": {
+        "display_string": "Requires Goblin Engineer",
         "spell": {
+          "id": 20222,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/20222?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Goblin Engineer",
-          "id": 20222
-        },
-        "display_string": "Requires Goblin Engineer"
+          "name": "Goblin Engineer"
+        }
+      },
+      "skill": {
+        "display_string": "Requires Classic Engineering (260)",
+        "level": 260,
+        "profession": {
+          "id": 2506,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Engineering"
+        }
       }
     },
-    "is_subclass_hidden": true,
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 5000
+    },
+    "spells": [
+      {
+        "description": "Use: Adds this toy to your Toy Box.\n\nRips the dimensional walls asunder and transports you to Everlook in Winterspring.   There are technical problems that sometimes occur, but that's what Goblin Engineering is all about! (4 Hr Cooldown)",
+        "spell": {
+          "id": 23442,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/23442?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Everlook Transporter"
+        }
+      }
+    ],
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 20000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 5000
 }

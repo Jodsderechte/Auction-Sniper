@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/127705?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon this companion.",
+  "icon_path": "data\\icons\\inv_pet_frostwolfpup_shadow.jpg",
   "id": 127705,
-  "name": "Lost Netherpup",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/127705?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 127705
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon this companion.",
+  "media": {
+    "id": 127705,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/127705?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Lost Netherpup",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 127705,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/127705?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 127705
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Lost Netherpup",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/127705?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 127705
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 127705,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/127705?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Lost Netherpup",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
     },
     "spells": [
       {
+        "description": "Use: Teaches you how to summon this companion.",
         "spell": {
+          "id": 184481,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/184481?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Lost Netherpup",
-          "id": 184481
-        },
-        "description": "Use: Teaches you how to summon this companion."
+          "name": "Lost Netherpup"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 1
 }

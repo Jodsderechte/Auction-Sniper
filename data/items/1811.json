@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1811?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 542,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/542?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_06.jpg",
   "id": 1811,
-  "name": "Blunt Claymore",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 10,
-  "required_level": 6,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1811?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1811
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 8
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 2256,
-  "sell_price": 451,
+  "level": 10,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1811,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1811?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blunt Claymore",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1811?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1811
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 45 / 45",
+      "value": 45
     },
-    "name": "Blunt Claymore",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 1811,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1811?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1811
+        "href": "https://eu.api.blizzard.com/data/wow/item/1811?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 8
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 242,
-        "max_value": 404,
-        "display_string": "242 - 404 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 89.72222,
-        "display_string": "(89.7 damage per second)"
+    "media": {
+      "id": 1811,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1811?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 195031,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "19",
-        "silver": "50",
-        "copper": "31"
-      }
+    "name": "Blunt Claymore",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 6,
-        "display_string": "Requires Level 6"
+        "display_string": "Requires Level 6",
+        "value": 6
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "31",
+        "gold": "19",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 195031
     },
-    "durability": {
-      "value": 45,
-      "display_string": "Durability 45 / 45"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "242 - 404 Damage",
+        "max_value": 404,
+        "min_value": 242
+      },
+      "dps": {
+        "display_string": "(89.7 damage per second)",
+        "value": 89.72222
+      }
     }
   },
+  "purchase_price": 2256,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/542?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 542
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 6,
+  "sell_price": 451
 }

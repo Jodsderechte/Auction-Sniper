@@ -4,252 +4,253 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/24169?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft an Eye of the Night.",
+  "icon_path": "data\\icons\\inv_scroll_05.jpg",
   "id": 24169,
-  "name": "Design: Eye of the Night",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/24169?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 24169
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft an Eye of the Night.",
+  "media": {
+    "id": 24169,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/24169?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Eye of the Night",
   "preview_item": {
+    "description": "Teaches you how to craft an Eye of the Night.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 24169,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/24169?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24169
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Design: Eye of the Night",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/24169?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24169
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 30000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 24169,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/24169?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Jewelcrafting",
-          "id": 2523
-        },
-        "level": 60,
-        "display_string": "Requires Outland Jewelcrafting (60)"
-      }
+    "name": "Design: Eye of the Night",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to craft an Eye of the Night.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "charges": {
+          "display_string": "1 Charge",
+          "value": 1
+        },
+        "inventory_type": {
+          "name": "Neck",
+          "type": "NECK"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 24116,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/24116?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 24116
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Eye of the Night",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/24116?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 24116
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "NECK",
-          "name": "Neck"
+        "level": {
+          "display_string": "Item Level 32",
+          "value": 32
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
+        "media": {
+          "id": 24116,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/24116?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 6,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+6 Critical Strike",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "HASTE_RATING",
-              "name": "Haste"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Haste",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/31033?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Eye of the Night",
-              "id": 31033
-            },
-            "description": "Use: Increases intellect by 6 for all nearby party members.  Lasts 30 min. (1 Hr Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 39470,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "3",
-            "silver": "94",
-            "copper": "70"
-          }
+        "name": "Eye of the Night",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           }
         },
-        "level": {
-          "value": 32,
-          "display_string": "Item Level 32"
+        "sell_price": {
+          "display_strings": {
+            "copper": "70",
+            "gold": "3",
+            "header": "Sell Price:",
+            "silver": "94"
+          },
+          "value": 39470
         },
-        "charges": {
-          "value": 1,
-          "display_string": "1 Charge"
-        },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Use: Increases intellect by 6 for all nearby party members.  Lasts 30 min. (1 Hr Cooldown)",
+            "spell": {
+              "id": 31033,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/31033?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Eye of the Night"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+6 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 6
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Haste"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Haste",
+              "type": "HASTE_RATING"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 23573,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23573?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Hardened Adamantite Bar",
-            "id": 23573
-          },
-          "quantity": 2
+            "name": "Hardened Adamantite Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 31079,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/31079?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mercurial Adamantite",
-            "id": 31079
-          },
-          "quantity": 2
+            "name": "Mercurial Adamantite"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 23441,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23441?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Nightseye",
-            "id": 23441
-          },
-          "quantity": 1
+            "name": "Nightseye"
+          }
         }
       ],
       "reagents_display_string": "Hardened Adamantite Bar (2), Mercurial Adamantite (2), Nightseye"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Jewelcrafting (60)",
+        "level": 60,
+        "profession": {
+          "id": 2523,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 30000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 30000
 }

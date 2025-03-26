@@ -4,108 +4,109 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/778?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 224,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/224?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Also serves as a mining pick.",
+  "icon_path": "data\\icons\\inv_pick_02.jpg",
   "id": 778,
-  "name": "Kobold Excavation Pick",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 3,
-  "required_level": 2,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/778?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 778
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mining",
-    "id": 5
+    "name": "Mining"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 279,
-  "sell_price": 55,
+  "level": 3,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Also serves as a mining pick.",
+  "media": {
+    "id": 778,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/778?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Kobold Excavation Pick",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/778?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 778
-    },
-    "context": 0,
     "bonus_list": [
       6713
     ],
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
+    "context": 0,
+    "description": "Also serves as a mining pick.",
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Kobold Excavation Pick",
-    "media": {
+    "item": {
+      "id": 778,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/778?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 778
+        "href": "https://eu.api.blizzard.com/data/wow/item/778?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mining",
-      "id": 5
+      "name": "Mining"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "sell_price": {
-      "value": 55,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "55"
+    "media": {
+      "id": 778,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/778?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Kobold Excavation Pick",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 2,
-        "display_string": "Requires Level 2"
+        "display_string": "Requires Level 2",
+        "value": 2
       }
     },
-    "description": "Also serves as a mining pick."
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/224?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "55",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 224
+      "value": 55
     }
-  ]
+  },
+  "purchase_price": 279,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 2,
+  "sell_price": 55
 }

@@ -4,165 +4,166 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2962?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1021,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1021?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_pants_06.jpg",
   "id": 2962,
-  "name": "Burnt Leather Breeches",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
-  "level": 5,
-  "required_level": 3,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2962?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2962
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 842,
-  "sell_price": 168,
+  "level": 5,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2962,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2962?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Burnt Leather Breeches",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2962?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "340 Armor"
       },
-      "id": 2962
+      "value": 340
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6654
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 45 / 45",
+      "value": 45
     },
-    "name": "Burnt Leather Breeches",
-    "media": {
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
+    "item": {
+      "id": 2962,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2962?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2962
+        "href": "https://eu.api.blizzard.com/data/wow/item/2962?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 340,
-      "display": {
-        "display_string": "340 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 2962,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2962?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 521,
-        "display": {
-          "display_string": "+521 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 521,
-        "is_negated": true,
-        "display": {
-          "display_string": "+521 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 337307,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "33",
-        "silver": "73",
-        "copper": "7"
-      }
+    "name": "Burnt Leather Breeches",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 3,
-        "display_string": "Requires Level 3"
+        "display_string": "Requires Level 3",
+        "value": 3
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
-    },
-    "durability": {
-      "value": 45,
-      "display_string": "Durability 45 / 45"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1021?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "7",
+        "gold": "33",
+        "header": "Sell Price:",
+        "silver": "73"
       },
-      "id": 1021
-    }
-  ]
+      "value": 337307
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+521 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 521
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+521 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 521
+      }
+    ]
+  },
+  "purchase_price": 842,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 3,
+  "sell_price": 168
 }

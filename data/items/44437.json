@@ -4,260 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/44437?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 9289,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9289?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_chain_13.jpg",
   "id": 44437,
-  "name": "Dark Frostscale Breastplate",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "CHEST"
   },
-  "level": 34,
-  "required_level": 29,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/44437?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 44437
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "CHEST",
-    "name": "Chest"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 34,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 44437,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/44437?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Dark Frostscale Breastplate",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "10 Armor"
+      },
+      "value": 10
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 140 / 140",
+      "value": 140
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
     "item": {
+      "id": 44437,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/44437?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44437
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Dark Frostscale Breastplate",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/44437?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44437
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "CHEST",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 34",
+      "value": 34
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 10,
-      "display": {
-        "display_string": "10 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 44437,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/44437?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 3,
-        "is_negated": true,
-        "display": {
-          "display_string": "+3 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 6,
-        "display": {
-          "display_string": "+6 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 5,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+5 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Dark Frostscale Breastplate",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 29,
-        "display_string": "Requires Level 29"
+        "display_string": "Requires Level 29",
+        "value": 29
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/756?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Frostscale Binding",
-        "id": 756
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38412?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Belt",
-            "id": 38412
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38413?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Boots",
-            "id": 38413
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38414?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Chestguard",
-            "id": 38414
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38415?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Gloves",
-            "id": 38415
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38416?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Leggings",
-            "id": 38416
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38424?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Shoulders",
-            "id": 38424
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38436?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Bracers",
-            "id": 38436
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38440?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Helm",
-            "id": 38440
-          }
-        }
-      ],
+      "value": 1500
+    },
+    "set": {
+      "display_string": "Frostscale Binding (0/8)",
       "effects": [
         {
           "display_string": "(2) Set: Increases your critical strike by 5.",
@@ -268,24 +130,163 @@
           "required_count": 4
         }
       ],
-      "display_string": "Frostscale Binding (0/8)"
-    },
-    "level": {
-      "value": 34,
-      "display_string": "Item Level 34"
-    },
-    "durability": {
-      "value": 140,
-      "display_string": "Durability 140 / 140"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9289?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 756,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/756?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Frostscale Binding"
       },
-      "id": 9289
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 38412,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38412?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Belt"
+          }
+        },
+        {
+          "item": {
+            "id": 38413,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38413?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 38414,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38414?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Chestguard"
+          }
+        },
+        {
+          "item": {
+            "id": 38415,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38415?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Gloves"
+          }
+        },
+        {
+          "item": {
+            "id": 38416,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38416?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 38424,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38424?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Shoulders"
+          }
+        },
+        {
+          "item": {
+            "id": 38436,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38436?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Bracers"
+          }
+        },
+        {
+          "item": {
+            "id": 38440,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38440?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Helm"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+3 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+6 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 6
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+5 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 5
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 29,
+  "sell_price": 1500
 }

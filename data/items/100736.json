@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/100736?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "A unique perspective of humanoid evolution from a robot's point of view.",
+  "icon_path": "data\\icons\\inv_gizmo_poltryiser_01.jpg",
   "id": 100736,
-  "name": "\"Human Improved\"",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/100736?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 100736
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1400000,
-  "sell_price": 350000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "A unique perspective of humanoid evolution from a robot's point of view.",
+  "media": {
+    "id": 100736,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/100736?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "\"Human Improved\"",
   "preview_item": {
+    "description": "A unique perspective of humanoid evolution from a robot's point of view.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 100736,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/100736?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 100736
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "\"Human Improved\"",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/100736?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 100736
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 350000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "35",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 100736,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/100736?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "A unique perspective of humanoid evolution from a robot's point of view.",
-    "is_subclass_hidden": true
+    "name": "\"Human Improved\"",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "35",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 350000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1400000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 350000
 }

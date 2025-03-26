@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25402?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3903,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3903?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_hammer_16.jpg",
   "id": 25402,
-  "name": "The Stoppable Force",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 29,
-  "required_level": 26,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25402?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25402
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 5
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 1504192,
-  "sell_price": 300838,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25402,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25402?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Stoppable Force",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/25402?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25402
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "The Stoppable Force",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 25402,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25402?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25402
+        "href": "https://eu.api.blizzard.com/data/wow/item/25402?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 5
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 282,
-        "max_value": 363,
-        "display_string": "282 - 363 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 89.58333,
-        "display_string": "(89.6 damage per second)"
+    "media": {
+      "id": 25402,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25402?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 202470,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "24",
-        "copper": "70"
-      }
+    "name": "The Stoppable Force",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 26,
-        "display_string": "Requires Level 26"
+        "display_string": "Requires Level 26",
+        "value": 26
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "70",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "24"
+      },
+      "value": 202470
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "282 - 363 Damage",
+        "max_value": 363,
+        "min_value": 282
+      },
+      "dps": {
+        "display_string": "(89.6 damage per second)",
+        "value": 89.58333
+      }
     }
   },
+  "purchase_price": 1504192,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3903?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3903
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 26,
+  "sell_price": 300838
 }

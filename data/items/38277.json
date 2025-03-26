@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/38277?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 9988,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9988?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shirt_black_01.jpg",
   "id": 38277,
-  "name": "Haliscan Jacket",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "CHEST"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/38277?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 38277
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "CHEST",
-    "name": "Chest"
-  },
-  "purchase_price": 50000,
-  "sell_price": 1000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 38277,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/38277?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Haliscan Jacket",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 38277,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/38277?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38277
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Haliscan Jacket",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/38277?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38277
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
-    },
-    "inventory_type": {
-      "type": "CHEST",
-      "name": "Chest"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 1000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "10",
-        "copper": "0"
-      }
+      "name": "Cosmetic"
     },
     "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 38277,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9988?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/38277?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Haliscan Jacket",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "10"
       },
-      "id": 9988
+      "value": 1000
     }
-  ]
+  },
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1000
 }

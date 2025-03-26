@@ -4,121 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21790?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_necklace_11.jpg",
   "id": 21790,
-  "name": "Sapphire Pendant of Winter Night",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21790?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21790
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 31068,
-  "sell_price": 7767,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 21790,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21790?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Sapphire Pendant of Winter Night",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21790,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21790?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21790
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Sapphire Pendant of Winter Night",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21790?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21790
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 28",
+      "value": 28
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 21790,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21790?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 7767,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "77",
-        "copper": "67"
-      }
+    },
+    "name": "Sapphire Pendant of Winter Night",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 28,
-      "display_string": "Item Level 28"
+    "sell_price": {
+      "display_strings": {
+        "copper": "67",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "77"
+      },
+      "value": 7767
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 4
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 31068,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 22,
+  "sell_price": 7767
 }

@@ -4,268 +4,269 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23802?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make an Ornate Khorium Rifle.",
+  "icon_path": "data\\icons\\inv_scroll_05.jpg",
   "id": 23802,
-  "name": "Schematic: Ornate Khorium Rifle",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23802?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23802
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 3
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 150000,
-  "sell_price": 37500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make an Ornate Khorium Rifle.",
+  "media": {
+    "id": 23802,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23802?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Schematic: Ornate Khorium Rifle",
   "preview_item": {
+    "description": "Teaches you how to make an Ornate Khorium Rifle.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 23802,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23802?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23802
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Schematic: Ornate Khorium Rifle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23802?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23802
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 3
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 37500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "75",
-        "copper": "0"
+    "media": {
+      "id": 23802,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23802?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Engineering",
-          "id": 2505
-        },
-        "level": 75,
-        "display_string": "Requires Outland Engineering (75)"
-      }
+    "name": "Schematic: Ornate Khorium Rifle",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to make an Ornate Khorium Rifle.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 100 / 100",
+          "value": 100
+        },
+        "inventory_type": {
+          "name": "Ranged",
+          "type": "RANGEDRIGHT"
+        },
         "item": {
+          "id": 23748,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/23748?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23748
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Ornate Khorium Rifle",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/23748?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23748
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Gun",
-          "id": 3
+          "name": "Gun"
         },
-        "inventory_type": {
-          "type": "RANGEDRIGHT",
-          "name": "Ranged"
+        "level": {
+          "display_string": "Item Level 32",
+          "value": 32
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 5,
-            "max_value": 11,
-            "display_string": "5 - 11 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3000,
-            "display_string": "Speed 3.00"
-          },
-          "dps": {
-            "value": 2.6666665,
-            "display_string": "(2.7 damage per second)"
+        "media": {
+          "id": 23748,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/23748?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 5,
-            "is_negated": true,
-            "display": {
-              "display_string": "+5 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 7,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+7 Critical Strike",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Ornate Khorium Rifle",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           }
         },
-        "level": {
-          "value": 32,
-          "display_string": "Item Level 32"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 100,
-          "display_string": "Durability 100 / 100"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+5 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+7 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 7
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.00",
+            "value": 3000
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "5 - 11 Damage",
+            "max_value": 11,
+            "min_value": 5
+          },
+          "dps": {
+            "display_string": "(2.7 damage per second)",
+            "value": 2.6666665
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 23785,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23785?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Hardened Adamantite Tube",
-            "id": 23785
-          },
-          "quantity": 2
+            "name": "Hardened Adamantite Tube"
+          }
         },
         {
+          "quantity": 12,
           "reagent": {
+            "id": 23449,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23449?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Khorium Bar",
-            "id": 23449
-          },
-          "quantity": 12
+            "name": "Khorium Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 23783,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23783?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Handful of Fel Iron Bolts",
-            "id": 23783
-          },
-          "quantity": 4
+            "name": "Handful of Fel Iron Bolts"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 23439,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23439?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Noble Topaz",
-            "id": 23439
-          },
-          "quantity": 2
+            "name": "Noble Topaz"
+          }
         }
       ],
       "reagents_display_string": "Hardened Adamantite Tube (2), Khorium Bar (12), Handful of Fel Iron Bolts (4), Noble Topaz (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Engineering (75)",
+        "level": 75,
+        "profession": {
+          "id": 2505,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Engineering"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 37500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 150000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 37500
 }

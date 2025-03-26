@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/36561?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1008,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1008?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_gauntlets_31.jpg",
   "id": 36561,
-  "name": "Mummified Paw",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 33,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/36561?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 36561
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 13,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/13?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Fist Weapon",
-    "id": 13
+    "name": "Fist Weapon"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 391571,
-  "sell_price": 78314,
+  "level": 33,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 36561,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/36561?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Mummified Paw",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 36561,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/36561?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 36561
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Mummified Paw",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/36561?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 36561
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 13,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/13?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Fist Weapon",
-      "id": 13
+      "name": "Fist Weapon"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 33",
+      "value": 33
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 4,
-        "max_value": 6,
-        "display_string": "4 - 6 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 1.9230769,
-        "display_string": "(1.9 damage per second)"
+    "media": {
+      "id": 36561,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/36561?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 302,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "3",
-        "copper": "2"
-      }
+    "name": "Mummified Paw",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 33,
-      "display_string": "Item Level 33"
+    "sell_price": {
+      "display_strings": {
+        "copper": "2",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 302
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "4 - 6 Damage",
+        "max_value": 6,
+        "min_value": 4
+      },
+      "dps": {
+        "display_string": "(1.9 damage per second)",
+        "value": 1.9230769
+      }
     }
   },
+  "purchase_price": 391571,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1008?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1008
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 27,
+  "sell_price": 78314
 }

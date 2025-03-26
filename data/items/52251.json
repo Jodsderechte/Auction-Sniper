@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/52251?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Once it held her image.  He always wore it close to his heart.",
+  "icon_path": "data\\icons\\inv_jewelry_necklace_21.jpg",
   "id": 52251,
-  "name": "Jaina's Locket",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 30,
-  "required_level": 30,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/52251?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 52251
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 30,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Once it held her image.  He always wore it close to his heart.",
+  "media": {
+    "id": 52251,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/52251?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Jaina's Locket",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "Once it held her image.  He always wore it close to his heart.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 52251,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/52251?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 52251
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Jaina's Locket",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/52251?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 52251
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 52251,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/52251?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Jaina's Locket",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "unique_equipped": "Unique",
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 30",
+        "value": 30
+      }
+    },
     "spells": [
       {
+        "description": "Use: Creates a portal, teleporting group members that use it to Dalaran. (1 Hr Cooldown)",
         "spell": {
+          "id": 73324,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/73324?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Portal: Dalaran",
-          "id": 73324
-        },
-        "description": "Use: Creates a portal, teleporting group members that use it to Dalaran. (1 Hr Cooldown)"
+          "name": "Portal: Dalaran"
+        }
       }
     ],
-    "requirements": {
-      "level": {
-        "value": 30,
-        "display_string": "Requires Level 30"
-      }
-    },
-    "description": "Once it held her image.  He always wore it close to his heart.",
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 30,
+  "sell_price": 0
 }

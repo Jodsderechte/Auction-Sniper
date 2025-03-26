@@ -4,204 +4,205 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21722?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew a Festival Dress.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 21722,
-  "name": "Pattern: Festival Dress",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21722?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21722
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 5000,
-  "sell_price": 1250,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew a Festival Dress.",
+  "media": {
+    "id": 21722,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21722?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Festival Dress",
   "preview_item": {
+    "description": "Teaches you how to sew a Festival Dress.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21722,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21722?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21722
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Pattern: Festival Dress",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21722?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21722
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1250,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "12",
-        "copper": "50"
+    "media": {
+      "id": 21722,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21722?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 250,
-        "display_string": "Requires Classic Tailoring (250)"
-      }
+    "name": "Pattern: Festival Dress",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to sew a Festival Dress.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Chest",
+          "type": "ROBE"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 151771,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/151771?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 151771
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Festival Dress",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/151771?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 151771
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 5,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cosmetic",
-          "id": 5
-        },
-        "inventory_type": {
-          "type": "ROBE",
-          "name": "Chest"
-        },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "sell_price": {
-          "value": 7,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "0",
-            "copper": "7"
-          }
+          "name": "Cosmetic"
         },
         "level": {
-          "value": 1,
-          "display_string": "Item Level 1"
+          "display_string": "Item Level 1",
+          "value": 1
         },
-        "is_subclass_hidden": true
+        "media": {
+          "id": 151771,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/151771?namespace=static-11.1.0_59095-eu"
+          }
+        },
+        "name": "Festival Dress",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "7",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 7
+        }
       },
       "reagents": [
         {
+          "quantity": 4,
           "reagent": {
+            "id": 14048,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14048?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Runecloth",
-            "id": 14048
-          },
-          "quantity": 4
+            "name": "Bolt of Runecloth"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 4625,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4625?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Firebloom",
-            "id": 4625
-          },
-          "quantity": 2
+            "name": "Firebloom"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 2604,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2604?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Red Dye",
-            "id": 2604
-          },
-          "quantity": 2
+            "name": "Red Dye"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 14341,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14341?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Rune Thread",
-            "id": 14341
-          },
-          "quantity": 1
+            "name": "Rune Thread"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Runecloth (4), Firebloom (2), Red Dye (2), Rune Thread"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (250)",
+        "level": 250,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "12"
+      },
+      "value": 1250
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 5000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1250
 }

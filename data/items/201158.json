@@ -4,140 +4,141 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201158?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 78230,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/78230?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_wand_32.jpg",
   "id": 201158,
-  "name": "Scepter of Spectacle: Order",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Main Hand",
+    "type": "WEAPONMAINHAND"
   },
-  "level": 5,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201158?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201158
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 14,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/14?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 14
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "WEAPONMAINHAND",
-    "name": "Main Hand"
-  },
-  "purchase_price": 400000,
-  "sell_price": 100000,
+  "level": 5,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 201158,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201158?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Scepter of Spectacle: Order",
   "preview_item": {
+    "charges": {
+      "display_string": "50 Charges",
+      "value": 50
+    },
+    "durability": {
+      "display_string": "Durability 20 / 20",
+      "value": 20
+    },
+    "inventory_type": {
+      "name": "Main Hand",
+      "type": "WEAPONMAINHAND"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 201158,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/201158?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201158
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Scepter of Spectacle: Order",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201158?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201158
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 14,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/14?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 14
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "WEAPONMAINHAND",
-      "name": "Main Hand"
+    "level": {
+      "display_string": "Item Level 5",
+      "value": 5
     },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 1,
-        "display_string": "1 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1600,
-        "display_string": "Speed 1.60"
-      },
-      "dps": {
-        "value": 0.625,
-        "display_string": "(0.6 damage per second)"
+    "media": {
+      "id": 201158,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201158?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Scepter of Spectacle: Order",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 100000
     },
     "spells": [
       {
+        "description": "Use: Wave the scepter, projecting an illusory orb of Order in front of you. (1 Sec Cooldown)",
         "spell": {
+          "id": 393375,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/393375?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Scepter of Spectacle: Order",
-          "id": 393375
-        },
-        "description": "Use: Wave the scepter, projecting an illusory orb of Order in front of you. (1 Sec Cooldown)"
+          "name": "Scepter of Spectacle: Order"
+        }
       }
     ],
-    "sell_price": {
-      "value": 100000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "level": {
-      "value": 5,
-      "display_string": "Item Level 5"
-    },
-    "durability": {
-      "value": 20,
-      "display_string": "Durability 20 / 20"
-    },
-    "charges": {
-      "value": 50,
-      "display_string": "50 Charges"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/78230?namespace=static-11.1.0_59095-eu"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.60",
+        "value": 1600
       },
-      "id": 78230
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 Damage",
+        "max_value": 1,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.6 damage per second)",
+        "value": 0.625
+      }
     }
-  ]
+  },
+  "purchase_price": 400000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 100000
 }

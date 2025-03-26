@@ -4,96 +4,97 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/54446?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bag_30.jpg",
   "id": 54446,
-  "name": "Hyjal Expedition Bag",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 32,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/54446?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 54446
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Herb Bag",
-    "id": 2
+    "name": "Herb Bag"
   },
-  "inventory_type": {
-    "type": "BAG",
-    "name": "Bag"
-  },
-  "purchase_price": 200000,
-  "sell_price": 50000,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 54446,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/54446?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Hyjal Expedition Bag",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "container_slots": {
+      "display_string": "36 Slot Herb Bag",
+      "value": 36
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 54446,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/54446?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 54446
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Hyjal Expedition Bag",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/54446?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 54446
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Herb Bag",
-      "id": 2
+      "name": "Herb Bag"
     },
-    "inventory_type": {
-      "type": "BAG",
-      "name": "Bag"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 50000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 54446,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/54446?namespace=static-11.1.0_59095-eu"
       }
     },
-    "container_slots": {
-      "value": 36,
-      "display_string": "36 Slot Herb Bag"
+    "name": "Hyjal Expedition Bag",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 50000
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 200000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 50000
 }

@@ -4,108 +4,109 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/166743?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Blight it all!",
+  "icon_path": "data\\icons\\ability_vehicle_plaguebarrel.jpg",
   "id": 166743,
-  "name": "Blight Bomber",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/166743?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 166743
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1,
-  "sell_price": 1,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Blight it all!",
+  "media": {
+    "id": 166743,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/166743?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blight Bomber",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "Blight it all!",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 166743,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/166743?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 166743
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Blight Bomber",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/166743?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 166743
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 166743,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/166743?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Blight Bomber",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nSummon and control your Blight Bomber. (30 Sec Cooldown)",
         "spell": {
+          "id": 289887,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/289887?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Blight Bomber",
-          "id": 289887
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nSummon and control your Blight Bomber. (30 Sec Cooldown)"
+          "name": "Blight Bomber"
+        }
       }
     ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
-    },
-    "description": "Blight it all!",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 1
 }

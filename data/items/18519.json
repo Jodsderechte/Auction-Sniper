@@ -4,254 +4,255 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18519?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Shifting Cloak.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 18519,
-  "name": "Pattern: Shifting Cloak",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18519?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18519
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leatherworking",
-    "id": 1
+    "name": "Leatherworking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 160000,
-  "sell_price": 40000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Shifting Cloak.",
+  "media": {
+    "id": 18519,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18519?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Shifting Cloak",
   "preview_item": {
+    "description": "Teaches you how to craft a Shifting Cloak.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18519,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18519?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18519
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Pattern: Shifting Cloak",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18519?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18519
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leatherworking",
-      "id": 1
+      "name": "Leatherworking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 40000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "4",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 18519,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18519?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2532?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Leatherworking",
-          "id": 2532
-        },
-        "level": 300,
-        "display_string": "Requires Classic Leatherworking (300)"
-      }
+    "name": "Pattern: Shifting Cloak",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to craft a Shifting Cloak.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "3 Armor"
+          },
+          "value": 3
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Back",
+          "type": "CLOAK"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 18511,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/18511?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 18511
-        },
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Shifting Cloak",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/18511?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 18511
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cloth",
-          "id": 1
+          "name": "Cloth"
         },
-        "inventory_type": {
-          "type": "CLOAK",
-          "name": "Back"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 3,
-          "display": {
-            "display_string": "3 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 18511,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/18511?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "DODGE_RATING",
-              "name": "Dodge"
-            },
-            "value": 3,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+3 Dodge",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 167,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "1",
-            "copper": "67"
-          }
+        "name": "Shifting Cloak",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 24,
-            "display_string": "Requires Level 24"
+            "display_string": "Requires Level 24",
+            "value": 24
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "67",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
+          },
+          "value": 167
         },
-        "is_subclass_hidden": true
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Dodge"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Dodge",
+              "type": "DODGE_RATING"
+            },
+            "value": 3
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 10,
           "reagent": {
+            "id": 12810,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12810?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Enchanted Leather",
-            "id": 12810
-          },
-          "quantity": 10
+            "name": "Enchanted Leather"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 14341,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14341?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Rune Thread",
-            "id": 14341
-          },
-          "quantity": 1
+            "name": "Rune Thread"
+          }
         }
       ],
       "reagents_display_string": "Enchanted Leather (10), Rune Thread"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Leatherworking (300)",
+        "level": 300,
+        "profession": {
+          "id": 2532,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2532?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Leatherworking"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "4",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 40000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 160000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 40000
 }

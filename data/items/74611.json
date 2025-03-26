@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/74611?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon this companion.",
+  "icon_path": "data\\icons\\achievement_worldevent_lunar.jpg",
   "id": 74611,
-  "name": "Festival Lantern",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/74611?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 74611
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon this companion.",
+  "media": {
+    "id": 74611,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/74611?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Festival Lantern",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 74611,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/74611?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 74611
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Festival Lantern",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/74611?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 74611
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 74611,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/74611?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Festival Lantern",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "spells": [
       {
+        "description": "Use: Teaches you how to summon this companion.",
         "spell": {
+          "id": 104049,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/104049?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Festival Lantern",
-          "id": 104049
-        },
-        "description": "Use: Teaches you how to summon this companion."
+          "name": "Festival Lantern"
+        }
       }
-    ],
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

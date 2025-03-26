@@ -4,206 +4,207 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18673?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 994,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/994?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shield_03.jpg",
   "id": 18673,
-  "name": "Avalanchion's Stony Hide",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Off Hand",
+    "type": "SHIELD"
   },
-  "level": 29,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18673?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18673
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Shield",
-    "id": 6
+    "name": "Shield"
   },
-  "inventory_type": {
-    "type": "SHIELD",
-    "name": "Off Hand"
-  },
-  "purchase_price": 193287,
-  "sell_price": 38657,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 18673,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18673?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Avalanchion's Stony Hide",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "42 Armor"
+      },
+      "value": 42
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
+    },
+    "inventory_type": {
+      "name": "Off Hand",
+      "type": "SHIELD"
+    },
     "item": {
+      "id": 18673,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18673?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18673
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Avalanchion's Stony Hide",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18673?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18673
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Shield",
-      "id": 6
+      "name": "Shield"
     },
-    "inventory_type": {
-      "type": "SHIELD",
-      "name": "Off Hand"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 42,
-      "display": {
-        "display_string": "42 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 18673,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18673?namespace=static-11.1.0_59095-eu"
       }
     },
-    "shield_block": {
-      "value": 105,
-      "display": {
-        "display_string": "105 Block",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 6,
-        "display": {
-          "display_string": "+6 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "PARRY_RATING",
-          "name": "Parry"
-        },
-        "value": 2,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+2 Parry",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 163,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "63"
-      }
+    "name": "Avalanchion's Stony Hide",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
+        "display_string": "Requires Level 23",
+        "value": 23
       }
     },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
-    },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/994?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "63",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
       },
-      "id": 994
-    }
-  ]
+      "value": 163
+    },
+    "shield_block": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "105 Block"
+      },
+      "value": 105
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+6 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 6
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Parry"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Parry",
+          "type": "PARRY_RATING"
+        },
+        "value": 2
+      }
+    ]
+  },
+  "purchase_price": 193287,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 23,
+  "sell_price": 38657
 }

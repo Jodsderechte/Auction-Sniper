@@ -4,278 +4,279 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/207574?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Skullstone Bludgeon.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 207574,
-  "name": "Ancient Schematic: Skullstone Bludgeon",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/207574?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 207574
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 3
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Skullstone Bludgeon.",
+  "media": {
+    "id": 207574,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/207574?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Schematic: Skullstone Bludgeon",
   "preview_item": {
+    "description": "Teaches you how to craft Skullstone Bludgeon.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 207574,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/207574?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207574
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Ancient Schematic: Skullstone Bludgeon",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/207574?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207574
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 3
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 300,
-        "display_string": "Requires Classic Engineering (300)"
+    "media": {
+      "id": 207574,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/207574?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Skullstone Bludgeon.",
+    "name": "Ancient Schematic: Skullstone Bludgeon",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 75 / 75",
+          "value": 75
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 207562,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/207562?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 207562
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Skullstone Bludgeon",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/207562?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 207562
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mace",
-          "id": 4
+          "name": "Mace"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 2,
-            "max_value": 3,
-            "display_string": "2 - 3 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 2600,
-            "display_string": "Speed 2.60"
-          },
-          "dps": {
-            "value": 0.96153843,
-            "display_string": "(1.0 damage per second)"
+        "media": {
+          "id": 207562,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/207562?namespace=static-11.1.0_59095-eu"
           }
+        },
+        "name": "Skullstone Bludgeon",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "11",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 211
         },
         "stats": [
           {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 11,
             "display": {
-              "display_string": "+11 Intellect",
               "color": {
-                "r": 255,
-                "g": 255,
+                "a": 1.0,
                 "b": 255,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+11 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 11
           },
           {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 3,
             "display": {
-              "display_string": "+3 Stamina",
               "color": {
-                "r": 255,
-                "g": 255,
+                "a": 1.0,
                 "b": 255,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
           },
           {
-            "type": {
-              "type": "VERSATILITY",
-              "name": "Versatility"
-            },
-            "value": 1,
-            "is_equip_bonus": true,
             "display": {
-              "display_string": "+1 Versatility",
               "color": {
-                "r": 0,
-                "g": 255,
+                "a": 1.0,
                 "b": 0,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Versatility"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Versatility",
+              "type": "VERSATILITY"
+            },
+            "value": 1
           }
         ],
-        "sell_price": {
-          "value": 211,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "11"
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.60",
+            "value": 2600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "2 - 3 Damage",
+            "max_value": 3,
+            "min_value": 2
+          },
+          "dps": {
+            "display_string": "(1.0 damage per second)",
+            "value": 0.96153843
           }
-        },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
-        },
-        "durability": {
-          "value": 75,
-          "display_string": "Durability 75 / 75"
         }
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 6219,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/6219?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arclight Spanner",
-            "id": 6219
-          },
-          "quantity": 1
+            "name": "Arclight Spanner"
+          }
         },
         {
+          "quantity": 5,
           "reagent": {
+            "id": 4375,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4375?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Whirring Bronze Gizmo",
-            "id": 4375
-          },
-          "quantity": 5
+            "name": "Whirring Bronze Gizmo"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 6037,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/6037?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Truesilver Bar",
-            "id": 6037
-          },
-          "quantity": 6
+            "name": "Truesilver Bar"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 12808,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12808?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Essence of Undeath",
-            "id": 12808
-          },
-          "quantity": 6
+            "name": "Essence of Undeath"
+          }
         },
         {
+          "quantity": 3,
           "reagent": {
+            "id": 15994,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/15994?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Widget",
-            "id": 15994
-          },
-          "quantity": 3
+            "name": "Thorium Widget"
+          }
         }
       ],
       "reagents_display_string": "Arclight Spanner, Whirring Bronze Gizmo (5), Truesilver Bar (6), Essence of Undeath (6), Thorium Widget (3)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Engineering (300)",
+        "level": 300,
+        "profession": {
+          "id": 2506,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Engineering"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 30000
 }

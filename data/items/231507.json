@@ -4,194 +4,195 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/231507?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3577,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3577?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_boots_plate_06.jpg",
   "id": 231507,
-  "name": "Battlechaser's Greaves",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 584,
-  "required_level": 80,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/231507?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 231507
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 3769368,
-  "sell_price": 753873,
+  "level": 584,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 231507,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/231507?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Battlechaser's Greaves",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "4,509 Armor"
+      },
+      "value": 4509
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 80 / 80",
+      "value": 80
+    },
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
     "item": {
+      "id": 231507,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/231507?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 231507
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Battlechaser's Greaves",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/231507?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 231507
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
+    "level": {
+      "display_string": "Item Level 584",
+      "value": 584
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 4509,
-      "display": {
-        "display_string": "4,509 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 231507,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/231507?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 1441,
-        "display": {
-          "display_string": "+1,441 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 1441,
-        "is_negated": true,
-        "display": {
-          "display_string": "+1,441 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 8186,
-        "display": {
-          "display_string": "+8,186 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 1086,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+1,086 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 753873,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "75",
-        "silver": "38",
-        "copper": "73"
-      }
+    "name": "Battlechaser's Greaves",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
+        "display_string": "Requires Level 80",
+        "value": 80
       }
     },
-    "level": {
-      "value": 584,
-      "display_string": "Item Level 584"
-    },
-    "durability": {
-      "value": 80,
-      "display_string": "Durability 80 / 80"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3577?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "73",
+        "gold": "75",
+        "header": "Sell Price:",
+        "silver": "38"
       },
-      "id": 3577
-    }
-  ]
+      "value": 753873
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+1,441 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 1441
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+1,441 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 1441
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+8,186 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 8186
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+1,086 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 1086
+      }
+    ]
+  },
+  "purchase_price": 3769368,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 80,
+  "sell_price": 753873
 }

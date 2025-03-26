@@ -4,241 +4,242 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/207570?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Smoked Fireshooter.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 207570,
-  "name": "Ancient Formula: Smoked Fireshooter",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/207570?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 207570
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Smoked Fireshooter.",
+  "media": {
+    "id": 207570,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/207570?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Formula: Smoked Fireshooter",
   "preview_item": {
+    "description": "Teaches you how to craft Smoked Fireshooter.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 207570,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/207570?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207570
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Ancient Formula: Smoked Fireshooter",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/207570?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207570
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Enchanting",
-          "id": 2494
-        },
-        "level": 300,
-        "display_string": "Requires Classic Enchanting (300)"
+    "media": {
+      "id": 207570,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/207570?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Smoked Fireshooter.",
+    "name": "Ancient Formula: Smoked Fireshooter",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 75 / 75",
+          "value": 75
+        },
+        "inventory_type": {
+          "name": "Ranged",
+          "type": "RANGEDRIGHT"
+        },
         "item": {
+          "id": 207558,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/207558?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 207558
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Smoked Fireshooter",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/207558?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 207558
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 19,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Wand",
-          "id": 19
+          "name": "Wand"
         },
-        "inventory_type": {
-          "type": "RANGEDRIGHT",
-          "name": "Ranged"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 1,
-            "max_value": 3,
-            "display_string": "1 - 3 Fire Damage",
-            "damage_class": {
-              "type": "FIRE",
-              "name": "Fire"
-            }
-          },
-          "attack_speed": {
-            "value": 2000,
-            "display_string": "Speed 2.00"
-          },
-          "dps": {
-            "value": 1.0,
-            "display_string": "(1 damage per second)"
+        "media": {
+          "id": 207558,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/207558?namespace=static-11.1.0_59095-eu"
           }
+        },
+        "name": "Smoked Fireshooter",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "60",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 260
         },
         "stats": [
           {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 11,
             "display": {
-              "display_string": "+11 Intellect",
               "color": {
-                "r": 255,
-                "g": 255,
+                "a": 1.0,
                 "b": 255,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+11 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 11
           },
           {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 3,
             "display": {
-              "display_string": "+3 Stamina",
               "color": {
-                "r": 255,
-                "g": 255,
+                "a": 1.0,
                 "b": 255,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
           }
         ],
-        "sell_price": {
-          "value": 260,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "60"
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.00",
+            "value": 2000
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Fire",
+              "type": "FIRE"
+            },
+            "display_string": "1 - 3 Fire Damage",
+            "max_value": 3,
+            "min_value": 1
+          },
+          "dps": {
+            "display_string": "(1 damage per second)",
+            "value": 1.0
           }
-        },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
-        },
-        "durability": {
-          "value": 75,
-          "display_string": "Durability 75 / 75"
         }
       },
       "reagents": [
         {
+          "quantity": 8,
           "reagent": {
+            "id": 14344,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14344?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Large Brilliant Shard",
-            "id": 14344
-          },
-          "quantity": 8
+            "name": "Large Brilliant Shard"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 7078,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7078?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Essence of Fire",
-            "id": 7078
-          },
-          "quantity": 1
+            "name": "Essence of Fire"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 4470,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4470?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Simple Wood",
-            "id": 4470
-          },
-          "quantity": 1
+            "name": "Simple Wood"
+          }
         }
       ],
       "reagents_display_string": "Large Brilliant Shard (8), Essence of Fire, Simple Wood"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Enchanting (300)",
+        "level": 300,
+        "profession": {
+          "id": 2494,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Enchanting"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 30000
 }

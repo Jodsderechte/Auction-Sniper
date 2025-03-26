@@ -4,143 +4,144 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/191237?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 37052,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/37052?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\trade_archaeology_ogre2handedhammer.jpg",
   "id": 191237,
-  "name": "Draconium Blacksmith's Hammer",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/191237?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 191237
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 0
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 400000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 191237,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/191237?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Draconium Blacksmith's Hammer",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/191237?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 191237
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Draconium Blacksmith's Hammer",
-    "media": {
+    "item": {
+      "id": 191237,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/191237?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 191237
+        "href": "https://eu.api.blizzard.com/data/wow/item/191237?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 0
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_INGENUITY",
-          "name": "Ingenuity"
-        },
-        "value": 58,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+58 Ingenuity",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455695?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455695
-        },
-        "description": "Equip: +6 Dragon Isles Blacksmithing Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 400000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "40",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 191237,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/191237?namespace=static-11.1.0_59095-eu"
       }
     },
     "modified_crafting_stat": [
       {
         "id": 82,
-        "type": "BONUS_STAT_PROFESSION_INGENUITY",
-        "name": "Ingenuity"
+        "name": "Ingenuity",
+        "type": "BONUS_STAT_PROFESSION_INGENUITY"
+      }
+    ],
+    "name": "Draconium Blacksmith's Hammer",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "40",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 400000
+    },
+    "spells": [
+      {
+        "description": "Equip: +6 Dragon Isles Blacksmithing Skill",
+        "spell": {
+          "id": 455695,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455695?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+58 Ingenuity"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Ingenuity",
+          "type": "BONUS_STAT_PROFESSION_INGENUITY"
+        },
+        "value": 58
       }
     ]
   },
+  "purchase_price": 2000000,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/37052?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 37052
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 400000
 }

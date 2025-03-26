@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/219861?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_cape_special_herbalism_b_01.jpg",
   "id": 219861,
-  "name": "Gardener's Basket",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/219861?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 219861
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Herbalism",
-    "id": 3
+    "name": "Herbalism"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 68750,
-  "sell_price": 13750,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 219861,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/219861?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Gardener's Basket",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/219861?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 219861
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Gardener's Basket",
-    "media": {
+    "item": {
+      "id": 219861,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/219861?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 219861
+        "href": "https://eu.api.blizzard.com/data/wow/item/219861?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Herbalism",
-      "id": 3
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Herbalism"
     },
     "limit_category": "Unique-Equipped: Back (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_FINESSE",
-          "name": "Finesse"
-        },
-        "value": 138,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+138 Finesse",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 219861,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/219861?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455786?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455786
-        },
-        "description": "Equip: +5 Khaz Algar Herbalism Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 13750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "37",
-        "copper": "50"
-      }
+    },
+    "name": "Gardener's Basket",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "37"
+      },
+      "value": 13750
+    },
+    "spells": [
+      {
+        "description": "Equip: +5 Khaz Algar Herbalism Skill",
+        "spell": {
+          "id": 455786,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455786?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+138 Finesse"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Finesse",
+          "type": "BONUS_STAT_PROFESSION_FINESSE"
+        },
+        "value": 138
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 68750,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 13750
 }

@@ -4,229 +4,230 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/210133?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 81534,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/81534?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_plate_outdooremeralddream_d_01_cape.jpg",
   "id": 210133,
-  "name": "Harvest Guardian Cloak",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Back",
+    "type": "CLOAK"
   },
-  "level": 415,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/210133?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 210133
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cloth",
-    "id": 1
+    "name": "Cloth"
   },
-  "inventory_type": {
-    "type": "CLOAK",
-    "name": "Back"
-  },
-  "purchase_price": 2012758,
-  "sell_price": 402551,
+  "level": 415,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 210133,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/210133?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Harvest Guardian Cloak",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/210133?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "281 Armor"
       },
-      "id": 210133
+      "value": 281
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
+    },
     "bonus_list": [
       8902
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Back",
+      "type": "CLOAK"
     },
-    "name": "Harvest Guardian Cloak",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 210133,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/210133?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 210133
+        "href": "https://eu.api.blizzard.com/data/wow/item/210133?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cloth",
-      "id": 1
+      "name": "Cloth"
     },
-    "inventory_type": {
-      "type": "CLOAK",
-      "name": "Back"
+    "level": {
+      "display_string": "Item Level 415",
+      "value": 415
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
-    },
-    "armor": {
-      "value": 281,
-      "display": {
-        "display_string": "281 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 210133,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/210133?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 265,
-        "display": {
-          "display_string": "+265 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 265,
-        "is_negated": true,
-        "display": {
-          "display_string": "+265 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 265,
-        "is_negated": true,
-        "display": {
-          "display_string": "+265 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 811,
-        "display": {
-          "display_string": "+811 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 191,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+191 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 233,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+233 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 301885,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "30",
-        "silver": "18",
-        "copper": "85"
-      }
+    "name": "Harvest Guardian Cloak",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "level": {
-      "value": 415,
-      "display_string": "Item Level 415"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/81534?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "85",
+        "gold": "30",
+        "header": "Sell Price:",
+        "silver": "18"
       },
-      "id": 81534
-    }
-  ]
+      "value": 301885
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+265 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 265
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+265 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 265
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+265 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 265
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+811 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 811
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+191 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 191
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+233 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 233
+      }
+    ]
+  },
+  "purchase_price": 2012758,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 402551
 }

@@ -4,245 +4,246 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/207569?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft  Magebane Nexus.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 207569,
-  "name": "Ancient Formula: Magebane Nexus",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/207569?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 207569
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft  Magebane Nexus.",
+  "media": {
+    "id": 207569,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/207569?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Formula: Magebane Nexus",
   "preview_item": {
+    "description": "Teaches you how to craft  Magebane Nexus.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 207569,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/207569?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207569
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Ancient Formula: Magebane Nexus",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/207569?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207569
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Enchanting",
-          "id": 2494
-        },
-        "level": 300,
-        "display_string": "Requires Classic Enchanting (300)"
+    "media": {
+      "id": 207569,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/207569?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft  Magebane Nexus.",
+    "name": "Ancient Formula: Magebane Nexus",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Held In Off-hand",
+          "type": "HOLDABLE"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 207557,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/207557?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 207557
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Magebane Nexus",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/207557?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 207557
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "HOLDABLE",
-          "name": "Held In Off-hand"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
+        "media": {
+          "id": 207557,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/207557?namespace=static-11.1.0_59095-eu"
+          }
+        },
+        "name": "Magebane Nexus",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "49",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
+          },
+          "value": 149
         },
         "stats": [
           {
-            "type": {
-              "type": "FIRE_RESISTANCE",
-              "name": "Fire Resistance"
-            },
-            "value": 2,
             "display": {
-              "display_string": "+2 Fire Resistance",
               "color": {
-                "r": 0,
-                "g": 255,
+                "a": 1.0,
                 "b": 0,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Fire Resistance"
+            },
+            "type": {
+              "name": "Fire Resistance",
+              "type": "FIRE_RESISTANCE"
+            },
+            "value": 2
           },
           {
-            "type": {
-              "type": "FROST_RESISTANCE",
-              "name": "Frost Resistance"
-            },
-            "value": 2,
             "display": {
-              "display_string": "+2 Frost Resistance",
               "color": {
-                "r": 0,
-                "g": 255,
+                "a": 1.0,
                 "b": 0,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Frost Resistance"
+            },
+            "type": {
+              "name": "Frost Resistance",
+              "type": "FROST_RESISTANCE"
+            },
+            "value": 2
           },
           {
-            "type": {
-              "type": "ARCANE_RESISTANCE",
-              "name": "Arcane Resistance"
-            },
-            "value": 2,
             "display": {
-              "display_string": "+2 Arcane Resistance",
               "color": {
-                "r": 0,
-                "g": 255,
+                "a": 1.0,
                 "b": 0,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Arcane Resistance"
+            },
+            "type": {
+              "name": "Arcane Resistance",
+              "type": "ARCANE_RESISTANCE"
+            },
+            "value": 2
           }
-        ],
-        "sell_price": {
-          "value": 149,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "1",
-            "copper": "49"
-          }
-        },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
-        },
-        "is_subclass_hidden": true
+        ]
       },
       "reagents": [
         {
+          "quantity": 20,
           "reagent": {
+            "id": 16203,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/16203?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Greater Eternal Essence",
-            "id": 16203
-          },
-          "quantity": 20
+            "name": "Greater Eternal Essence"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 12811,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12811?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Righteous Orb",
-            "id": 12811
-          },
-          "quantity": 1
+            "name": "Righteous Orb"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 20520,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/20520?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Dark Rune",
-            "id": 20520
-          },
-          "quantity": 4
+            "name": "Dark Rune"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 4470,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4470?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Simple Wood",
-            "id": 4470
-          },
-          "quantity": 1
+            "name": "Simple Wood"
+          }
         }
       ],
       "reagents_display_string": "Greater Eternal Essence (20), Righteous Orb, Dark Rune (4), Simple Wood"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Enchanting (300)",
+        "level": 300,
+        "profession": {
+          "id": 2494,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Enchanting"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 30000
 }

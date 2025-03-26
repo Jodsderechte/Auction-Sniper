@@ -4,120 +4,121 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/193529?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_helm_armor_fishing_b_01.jpg",
   "id": 193529,
-  "name": "Wildercloth Fishing Cap",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 317,
-  "required_level": 58,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/193529?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 193529
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 125000,
-  "sell_price": 25000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 193529,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/193529?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wildercloth Fishing Cap",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/193529?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193529
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
     },
-    "name": "Wildercloth Fishing Cap",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 193529,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/193529?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193529
+        "href": "https://eu.api.blizzard.com/data/wow/item/193529?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 320",
+      "value": 320
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455764?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455764
-        },
-        "description": "Equip: +4 Dragon Isles Fishing Skill"
+    "media": {
+      "id": 193529,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/193529?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 25000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "50",
-        "copper": "0"
-      }
+    },
+    "name": "Wildercloth Fishing Cap",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 58,
-        "display_string": "Requires Level 58"
+        "display_string": "Requires Level 58",
+        "value": 58
       }
     },
-    "level": {
-      "value": 320,
-      "display_string": "Item Level 320"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 25000
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: +4 Dragon Isles Fishing Skill",
+        "spell": {
+          "id": 455764,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455764?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 125000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 58,
+  "sell_price": 25000
 }

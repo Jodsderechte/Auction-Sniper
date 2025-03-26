@@ -4,206 +4,207 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204959?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 79381,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/79381?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_firearm_2h_blackdragonoutdoor_d_01.jpg",
   "id": 204959,
-  "name": "Neltharic Blaster",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 250,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204959?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204959
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 250,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 204959,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204959?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Neltharic Blaster",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/204959?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204959
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
     },
-    "context": 0,
     "bonus_list": [
       8902
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Neltharic Blaster",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 204959,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204959?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204959
+        "href": "https://eu.api.blizzard.com/data/wow/item/204959?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 250",
+      "value": 250
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 105,
-        "max_value": 197,
-        "display_string": "105 - 197 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 50.33333,
-        "display_string": "(50.3 damage per second)"
+    "media": {
+      "id": 204959,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204959?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 67,
-        "is_negated": true,
-        "display": {
-          "display_string": "+67 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 100,
-        "display": {
-          "display_string": "+100 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 70,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+70 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 64,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+64 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 235836,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "23",
-        "silver": "58",
-        "copper": "36"
-      }
+    "name": "Neltharic Blaster",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "level": {
-      "value": 250,
-      "display_string": "Item Level 250"
+    "sell_price": {
+      "display_strings": {
+        "copper": "36",
+        "gold": "23",
+        "header": "Sell Price:",
+        "silver": "58"
+      },
+      "value": 235836
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+67 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 67
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+100 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 100
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+70 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 70
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+64 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 64
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "105 - 197 Damage",
+        "max_value": 197,
+        "min_value": 105
+      },
+      "dps": {
+        "display_string": "(50.3 damage per second)",
+        "value": 50.33333
+      }
     }
   },
+  "purchase_price": 0,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/79381?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 79381
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 0
 }

@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2546?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 887,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/887?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_belt_09.jpg",
   "id": 2546,
-  "name": "Royal Frostmane Girdle",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Waist",
+    "type": "WAIST"
   },
-  "level": 5,
-  "required_level": 3,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2546?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2546
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
-  },
-  "purchase_price": 325,
-  "sell_price": 65,
+  "level": 5,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2546,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2546?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Royal Frostmane Girdle",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2546?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "18 Armor"
       },
-      "id": 2546
+      "value": 18
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6713
     ],
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 20 / 20",
+      "value": 20
     },
-    "name": "Royal Frostmane Girdle",
-    "media": {
+    "inventory_type": {
+      "name": "Waist",
+      "type": "WAIST"
+    },
+    "item": {
+      "id": 2546,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2546?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2546
+        "href": "https://eu.api.blizzard.com/data/wow/item/2546?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+    "level": {
+      "display_string": "Item Level 150",
+      "value": 150
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 18,
-      "display": {
-        "display_string": "18 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 2546,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2546?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 5250,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "52",
-        "copper": "50"
-      }
+    "name": "Royal Frostmane Girdle",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 3,
-        "display_string": "Requires Level 3"
+        "display_string": "Requires Level 3",
+        "value": 3
       }
     },
-    "level": {
-      "value": 150,
-      "display_string": "Item Level 150"
-    },
-    "durability": {
-      "value": 20,
-      "display_string": "Durability 20 / 20"
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "52"
+      },
+      "value": 5250
     }
   },
+  "purchase_price": 325,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/887?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 887
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 3,
+  "sell_price": 65
 }

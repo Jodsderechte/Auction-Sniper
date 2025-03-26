@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/219672?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_inscriptions_darkmoondeckshine_0.jpg",
   "id": 219672,
-  "name": "Darkmoon Deck: Radiance",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 577,
-  "required_level": 80,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/219672?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 219672
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 4227345,
-  "sell_price": 845469,
+  "level": 577,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 219672,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/219672?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Darkmoon Deck: Radiance",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 219672,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/219672?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 219672
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Darkmoon Deck: Radiance",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/219672?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 219672
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 577",
+      "value": 577
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 219672,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/219672?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 2024,
-        "display": {
-          "display_string": "+2,024 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 2024,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2,024 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 2024,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2,024 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/463108?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Radiant Focus",
-          "id": 463108
-        },
-        "description": "Equip: Your damaging spells and abilities have the chance to ignite your target with Radiant Focus for 15 sec. \r\n\r\nAfter dealing up to 127,372 damage to the target, the focused energies ignite you with Radiance, granting between 1,422 to 2,845 of your highest secondary stat based on damage dealt for 15 sec. \r\n"
-      }
-    ],
-    "sell_price": {
-      "value": 845469,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "84",
-        "silver": "54",
-        "copper": "69"
-      }
+    "name": "Darkmoon Deck: Radiance",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
+        "display_string": "Requires Level 80",
+        "value": 80
       }
     },
-    "level": {
-      "value": 577,
-      "display_string": "Item Level 577"
+    "sell_price": {
+      "display_strings": {
+        "copper": "69",
+        "gold": "84",
+        "header": "Sell Price:",
+        "silver": "54"
+      },
+      "value": 845469
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Your damaging spells and abilities have the chance to ignite your target with Radiant Focus for 15 sec. \r\n\r\nAfter dealing up to 127,372 damage to the target, the focused energies ignite you with Radiance, granting between 1,422 to 2,845 of your highest secondary stat based on damage dealt for 15 sec. \r\n",
+        "spell": {
+          "id": 463108,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/463108?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Radiant Focus"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2,024 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 2024
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2,024 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 2024
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2,024 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 2024
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 4227345,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 80,
+  "sell_price": 845469
 }

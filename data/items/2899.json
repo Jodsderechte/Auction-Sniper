@@ -4,165 +4,166 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2899?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 993,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/993?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_belt_01.jpg",
   "id": 2899,
-  "name": "Wendigo Collar",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Waist",
+    "type": "WAIST"
   },
-  "level": 8,
-  "required_level": 5,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2899?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2899
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
-  },
-  "purchase_price": 1192,
-  "sell_price": 238,
+  "level": 8,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2899,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2899?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wendigo Collar",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2899?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "245 Armor"
       },
-      "id": 2899
+      "value": 245
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       4790
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
     },
-    "name": "Wendigo Collar",
-    "media": {
+    "inventory_type": {
+      "name": "Waist",
+      "type": "WAIST"
+    },
+    "item": {
+      "id": 2899,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2899?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2899
+        "href": "https://eu.api.blizzard.com/data/wow/item/2899?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+    "level": {
+      "display_string": "Item Level 366",
+      "value": 366
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 245,
-      "display": {
-        "display_string": "245 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 2899,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2899?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 425,
-        "display": {
-          "display_string": "+425 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 425,
-        "is_negated": true,
-        "display": {
-          "display_string": "+425 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 168205,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "16",
-        "silver": "82",
-        "copper": "5"
-      }
+    "name": "Wendigo Collar",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 5,
-        "display_string": "Requires Level 5"
+        "display_string": "Requires Level 5",
+        "value": 5
       }
     },
-    "level": {
-      "value": 366,
-      "display_string": "Item Level 366"
-    },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/993?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "5",
+        "gold": "16",
+        "header": "Sell Price:",
+        "silver": "82"
       },
-      "id": 993
-    }
-  ]
+      "value": 168205
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+425 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 425
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+425 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 425
+      }
+    ]
+  },
+  "purchase_price": 1192,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 5,
+  "sell_price": 238
 }

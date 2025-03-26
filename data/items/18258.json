@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18258?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "It lifts AND supports!",
+  "icon_path": "data\\icons\\inv_chest_chain_14.jpg",
   "id": 18258,
-  "name": "Gordok Ogre Suit",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 20,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18258?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18258
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 20,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "It lifts AND supports!",
+  "media": {
+    "id": 18258,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18258?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Gordok Ogre Suit",
   "preview_item": {
+    "description": "It lifts AND supports!",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18258,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18258?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18258
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Gordok Ogre Suit",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18258?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18258
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 18258,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18258?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Gordok Ogre Suit",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
     "spells": [
       {
+        "description": "Use: Disguise yourself as one of the Gordok ogres, and maybe even fool a particular captain in the process!  The suit will only hold together for 10 min.",
         "spell": {
+          "id": 22736,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/22736?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Gordok Ogre Suit",
-          "id": 22736
-        },
-        "description": "Use: Disguise yourself as one of the Gordok ogres, and maybe even fool a particular captain in the process!  The suit will only hold together for 10 min."
+          "name": "Gordok Ogre Suit"
+        }
       }
     ],
-    "description": "It lifts AND supports!",
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

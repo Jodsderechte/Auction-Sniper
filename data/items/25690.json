@@ -4,240 +4,241 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25690?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6744,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6744?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_pants_12.jpg",
   "id": 25690,
-  "name": "Heavy Clefthoof Leggings",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25690?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25690
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25690,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25690?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Heavy Clefthoof Leggings",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "6 Armor"
+      },
+      "value": 6
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
+    },
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
     "item": {
+      "id": 25690,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/25690?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25690
-    },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
       }
-    ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Heavy Clefthoof Leggings",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25690?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25690
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 6,
-      "display": {
-        "display_string": "6 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 25690,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25690?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "DODGE_RATING",
-          "name": "Dodge"
-        },
-        "value": 6,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+6 Dodge",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "socket_bonus": "Socket Bonus: +2 Dodge",
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Heavy Clefthoof Leggings",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/574?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Strength of the Clefthoof",
-        "id": 574
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/25691?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Heavy Clefthoof Boots",
-            "id": 25691
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/25690?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Heavy Clefthoof Leggings",
-            "id": 25690
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/25689?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Heavy Clefthoof Vest",
-            "id": 25689
-          }
-        }
-      ],
+      "value": 1500
+    },
+    "set": {
+      "display_string": "Strength of the Clefthoof (0/3)",
       "effects": [
         {
           "display_string": "(3) Set: +10 Strength.",
           "required_count": 3
         }
       ],
-      "display_string": "Strength of the Clefthoof (0/3)",
+      "item_set": {
+        "id": 574,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/574?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Strength of the Clefthoof"
+      },
+      "items": [
+        {
+          "item": {
+            "id": 25691,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/25691?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Heavy Clefthoof Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 25690,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/25690?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Heavy Clefthoof Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 25689,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/25689?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Heavy Clefthoof Vest"
+          }
+        }
+      ],
       "requirements": {
         "skill": {
+          "display_string": "Requires Outland Leatherworking (50)",
+          "level": 50,
           "profession": {
+            "id": 2531,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/profession/2531?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Outland Leatherworking",
-            "id": 2531
-          },
-          "level": 50,
-          "display_string": "Requires Outland Leatherworking (50)"
+            "name": "Outland Leatherworking"
+          }
         }
       }
     },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6744?namespace=static-11.1.0_59095-eu"
+    "socket_bonus": "Socket Bonus: +2 Dodge",
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
       },
-      "id": 6744
-    }
-  ]
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      },
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+6 Dodge"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Dodge",
+          "type": "DODGE_RATING"
+        },
+        "value": 6
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 1500
 }

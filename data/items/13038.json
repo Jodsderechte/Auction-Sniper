@@ -4,156 +4,157 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13038?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3723,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3723?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_crossbow_04.jpg",
   "id": 13038,
-  "name": "Swiftwind",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 22,
-  "required_level": 15,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13038?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13038
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 18,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Crossbow",
-    "id": 18
+    "name": "Crossbow"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 638682,
-  "sell_price": 127736,
+  "level": 22,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13038,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13038?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Swiftwind",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13038?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13038
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Swiftwind",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 13038,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13038?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13038
+        "href": "https://eu.api.blizzard.com/data/wow/item/13038?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 18,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Crossbow",
-      "id": 18
+      "name": "Crossbow"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 518,
-        "max_value": 778,
-        "display_string": "518 - 778 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 215.99998,
-        "display_string": "(216.0 damage per second)"
+    "media": {
+      "id": 13038,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13038?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 546,
-        "is_negated": true,
-        "display": {
-          "display_string": "+546 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 716709,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "71",
-        "silver": "67",
-        "copper": "9"
-      }
+    "name": "Swiftwind",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 15,
-        "display_string": "Requires Level 15"
+        "display_string": "Requires Level 15",
+        "value": 15
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "9",
+        "gold": "71",
+        "header": "Sell Price:",
+        "silver": "67"
+      },
+      "value": 716709
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+546 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 546
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "518 - 778 Damage",
+        "max_value": 778,
+        "min_value": 518
+      },
+      "dps": {
+        "display_string": "(216.0 damage per second)",
+        "value": 215.99998
+      }
     }
   },
+  "purchase_price": 638682,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3723?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3723
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 15,
+  "sell_price": 127736
 }

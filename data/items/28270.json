@@ -4,115 +4,116 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/28270?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to perform the Major Resilience enchantment.",
+  "icon_path": "data\\icons\\inv_misc_note_01.jpg",
   "id": 28270,
-  "name": "Formula: Enchant Chest - Major Resilience",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/28270?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 28270
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 60000,
-  "sell_price": 15000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to perform the Major Resilience enchantment.",
+  "media": {
+    "id": 28270,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/28270?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Formula: Enchant Chest - Major Resilience",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 28270,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/28270?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 28270
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Formula: Enchant Chest - Major Resilience",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/28270?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 28270
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 28270,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/28270?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/33992?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Major Armor",
-          "id": 33992
-        },
-        "description": "Use: Teaches you how to perform the Major Resilience enchantment."
-      }
-    ],
-    "sell_price": {
-      "value": 15000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "50",
-        "copper": "0"
-      }
+    "name": "Formula: Enchant Chest - Major Resilience",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Outland Enchanting (45)",
+        "level": 45,
         "profession": {
+          "id": 2493,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2493?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Outland Enchanting",
-          "id": 2493
-        },
-        "level": 45,
-        "display_string": "Requires Outland Enchanting (45)"
+          "name": "Outland Enchanting"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 15000
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to perform the Major Resilience enchantment.",
+        "spell": {
+          "id": 33992,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/33992?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Major Armor"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 60000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 15000
 }

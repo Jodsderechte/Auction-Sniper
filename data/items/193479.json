@@ -4,117 +4,118 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/193479?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_cape_special_herbalism_b_01.jpg",
   "id": 193479,
-  "name": "Floral Basket",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/193479?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 193479
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Herbalism",
-    "id": 3
+    "name": "Herbalism"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 100000,
-  "sell_price": 20000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 193479,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/193479?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Floral Basket",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/193479?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193479
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Floral Basket",
-    "media": {
+    "item": {
+      "id": 193479,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/193479?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193479
+        "href": "https://eu.api.blizzard.com/data/wow/item/193479?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Herbalism",
-      "id": 3
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Herbalism"
     },
     "limit_category": "Unique-Equipped: Back (1)",
+    "media": {
+      "id": 193479,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/193479?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Floral Basket",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    },
     "stats": [
       {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_FINESSE",
-          "name": "Finesse"
-        },
-        "value": 46,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+46 Finesse",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+46 Finesse"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Finesse",
+          "type": "BONUS_STAT_PROFESSION_FINESSE"
+        },
+        "value": 46
       }
-    ],
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
-      }
-    }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 100000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 20000
 }

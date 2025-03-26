@@ -4,119 +4,120 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/165719?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_stone_grindingstone_03.jpg",
   "id": 165719,
-  "name": "Monelite Whetstone",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/165719?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 165719
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 50,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 165719,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/165719?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Monelite Whetstone",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 165719,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/165719?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 165719
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Monelite Whetstone",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/165719?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 165719
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "unique_equipped": "Unique",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/285840?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Apply Equipment",
-          "id": 285840
-        },
-        "description": "Use: Equip a champion with a Monelite Whetstone which grants:\r\n\r\nIncreases mission success chance by 5%."
+    "media": {
+      "id": 165719,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/165719?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Monelite Whetstone",
+    "name_description": {
+      "color": {
+        "a": 1.0,
+        "b": 0,
+        "g": 208,
+        "r": 255
+      },
+      "display_string": "Champion Equipment"
+    },
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
     "requirements": {
       "reputation": {
+        "display_string": "Requires The Honorbound - Honored",
         "faction": {
+          "id": 2157,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/reputation-faction/2157?namespace=static-11.1.0_59095-eu"
           },
-          "name": "The Honorbound",
-          "id": 2157
+          "name": "The Honorbound"
         },
-        "min_reputation_level": 5,
-        "display_string": "Requires The Honorbound - Honored"
+        "min_reputation_level": 5
       }
     },
-    "is_subclass_hidden": true,
-    "name_description": {
-      "display_string": "Champion Equipment",
-      "color": {
-        "r": 255,
-        "g": 208,
-        "b": 0,
-        "a": 1.0
+    "spells": [
+      {
+        "description": "Use: Equip a champion with a Monelite Whetstone which grants:\r\n\r\nIncreases mission success chance by 5%.",
+        "spell": {
+          "id": 285840,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/285840?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Apply Equipment"
+        }
       }
-    }
+    ],
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/60842?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Your racial leader is thinking about you.",
+  "icon_path": "data\\icons\\inv_misc_ticket_tarot_maelstrom_01.jpg",
   "id": 60842,
-  "name": "Fortune Card",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 13,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/60842?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 60842
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tradeskill",
-    "id": 7
+    "name": "Tradeskill"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 11
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 800000,
-  "sell_price": 20000,
+  "level": 13,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Your racial leader is thinking about you.",
+  "media": {
+    "id": 60842,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/60842?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fortune Card",
   "preview_item": {
+    "description": "Your racial leader is thinking about you.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 60842,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/60842?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 60842
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Fortune Card",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/60842?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 60842
+      }
     },
     "item_class": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tradeskill",
-      "id": 7
+      "name": "Tradeskill"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 11
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 60842,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/60842?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Your racial leader is thinking about you.",
-    "is_subclass_hidden": true
+    "name": "Fortune Card",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 800000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 20000
 }

@@ -4,158 +4,159 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1714?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_necklace_10.jpg",
   "id": 1714,
-  "name": "Necklace of Calisea",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 23,
-  "required_level": 16,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1714?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1714
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 10140,
-  "sell_price": 2535,
+  "level": 23,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1714,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1714?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Necklace of Calisea",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1714?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1714
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
     },
-    "name": "Necklace of Calisea",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 1714,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1714?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1714
+        "href": "https://eu.api.blizzard.com/data/wow/item/1714?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 154,
-        "display": {
-          "display_string": "+154 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 315,
-        "display": {
-          "display_string": "+315 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 246,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+246 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 1714,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1714?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 2535,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "35"
-      }
+    },
+    "name": "Necklace of Calisea",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 16,
-        "display_string": "Requires Level 16"
+        "display_string": "Requires Level 16",
+        "value": 16
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "35",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2535
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+154 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 154
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+315 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 315
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+246 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 246
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 10140,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 16,
+  "sell_price": 2535
 }

@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/235038?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "True brilliance illustrated by coffee stains, cigar burns, and a doodle of a cowboy.",
+  "icon_path": "data\\icons\\inv_10_inscription2_scroll1_color3.jpg",
   "id": 235038,
-  "name": "Crumpled Schematic",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/235038?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 235038
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 60200,
-  "sell_price": 10800,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "True brilliance illustrated by coffee stains, cigar burns, and a doodle of a cowboy.",
+  "media": {
+    "id": 235038,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/235038?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Crumpled Schematic",
   "preview_item": {
+    "description": "True brilliance illustrated by coffee stains, cigar burns, and a doodle of a cowboy.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 235038,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/235038?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 235038
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Crumpled Schematic",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/235038?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 235038
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 10800,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "8",
-        "copper": "0"
+    "media": {
+      "id": 235038,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/235038?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "True brilliance illustrated by coffee stains, cigar burns, and a doodle of a cowboy.",
-    "is_subclass_hidden": true
+    "name": "Crumpled Schematic",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "8"
+      },
+      "value": 10800
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 60200,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 10800
 }

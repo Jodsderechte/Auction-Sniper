@@ -4,141 +4,142 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/222484?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_knife_1h_leatherworking_b_01.jpg",
   "id": 222484,
-  "name": "Proficient Leatherworker's Knife",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/222484?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 222484
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leatherworking",
-    "id": 1
+    "name": "Leatherworking"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 160750,
-  "sell_price": 32150,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 222484,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/222484?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Proficient Leatherworker's Knife",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/222484?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222484
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Proficient Leatherworker's Knife",
-    "media": {
+    "item": {
+      "id": 222484,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/222484?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222484
+        "href": "https://eu.api.blizzard.com/data/wow/item/222484?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leatherworking",
-      "id": 1
+      "name": "Leatherworking"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-          "name": "Multicraft"
-        },
-        "value": 173,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+173 Multicraft",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455692?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455692
-        },
-        "description": "Equip: +8 Khaz Algar Leatherworking Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 32150,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "21",
-        "copper": "50"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+    "media": {
+      "id": 222484,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/222484?namespace=static-11.1.0_59095-eu"
       }
     },
     "modified_crafting_stat": [
       {
         "id": 81,
-        "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-        "name": "Multicraft"
+        "name": "Multicraft",
+        "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+      }
+    ],
+    "name": "Proficient Leatherworker's Knife",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 68",
+        "value": 68
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "21"
+      },
+      "value": 32150
+    },
+    "spells": [
+      {
+        "description": "Equip: +8 Khaz Algar Leatherworking Skill",
+        "spell": {
+          "id": 455692,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455692?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+173 Multicraft"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Multicraft",
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+        },
+        "value": 173
       }
     ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 160750,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 32150
 }

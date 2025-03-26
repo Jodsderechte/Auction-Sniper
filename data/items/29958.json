@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/29958?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon this companion.",
+  "icon_path": "data\\icons\\ability_hunter_pet_dragonhawk.jpg",
   "id": 29958,
-  "name": "Blue Dragonhawk Hatchling",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/29958?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 29958
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 100000,
-  "sell_price": 25000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon this companion.",
+  "media": {
+    "id": 29958,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/29958?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blue Dragonhawk Hatchling",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 29958,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/29958?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 29958
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Blue Dragonhawk Hatchling",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/29958?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 29958
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 29958,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/29958?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Blue Dragonhawk Hatchling",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 25000
     },
     "spells": [
       {
+        "description": "Use: Teaches you how to summon this companion.",
         "spell": {
+          "id": 36031,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/36031?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Blue Dragonhawk Hatchling",
-          "id": 36031
-        },
-        "description": "Use: Teaches you how to summon this companion."
+          "name": "Blue Dragonhawk Hatchling"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 25000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "50",
-        "copper": "0"
-      }
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 100000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 25000
 }

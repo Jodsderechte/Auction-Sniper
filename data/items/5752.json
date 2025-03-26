@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5752?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1918,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1918?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_16.jpg",
   "id": 5752,
-  "name": "Wyvern Tailspike",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 16,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5752?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5752
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 10755,
-  "sell_price": 2151,
+  "level": 16,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 5752,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5752?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wyvern Tailspike",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/5752?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5752
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4790
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 35 / 35",
+      "value": 35
     },
-    "name": "Wyvern Tailspike",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 5752,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5752?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5752
+        "href": "https://eu.api.blizzard.com/data/wow/item/5752?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 366",
+      "value": 366
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 228,
-        "max_value": 381,
-        "display_string": "228 - 381 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 169.16666,
-        "display_string": "(169.2 damage per second)"
+    "media": {
+      "id": 5752,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5752?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/144265?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Poison",
-          "id": 144265
-        },
-        "description": "Chance on hit: Poisons target for 93 Nature damage every 3 sec for 15 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 505700,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "57",
-        "copper": "0"
-      }
+    "name": "Wyvern Tailspike",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 10,
-        "display_string": "Requires Level 10"
+        "display_string": "Requires Level 10",
+        "value": 10
       }
     },
-    "level": {
-      "value": 366,
-      "display_string": "Item Level 366"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "57"
+      },
+      "value": 505700
     },
-    "durability": {
-      "value": 35,
-      "display_string": "Durability 35 / 35"
+    "spells": [
+      {
+        "description": "Chance on hit: Poisons target for 93 Nature damage every 3 sec for 15 sec.",
+        "spell": {
+          "id": 144265,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/144265?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Poison"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "228 - 381 Damage",
+        "max_value": 381,
+        "min_value": 228
+      },
+      "dps": {
+        "display_string": "(169.2 damage per second)",
+        "value": 169.16666
+      }
     }
   },
+  "purchase_price": 10755,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1918?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1918
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 10,
+  "sell_price": 2151
 }

@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/144393?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_1h_bucket_c_01.jpg",
   "id": 144393,
-  "name": "Portable Yak Wash",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 35,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/144393?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 144393
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 144393,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/144393?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Portable Yak Wash",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 144393,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/144393?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 144393
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Portable Yak Wash",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/144393?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 144393
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 144393,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/144393?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Portable Yak Wash",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPerform an emergency yak wash in the field. (1 Hr Cooldown)",
         "spell": {
+          "id": 236284,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/236284?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Portable Yak Wash",
-          "id": 236284
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPerform an emergency yak wash in the field. (1 Hr Cooldown)"
+          "name": "Portable Yak Wash"
+        }
       }
     ],
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

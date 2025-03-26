@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201410?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "It must be good... that's why it costs so much!",
+  "icon_path": "data\\icons\\inv_bijou_purple.jpg",
   "id": 201410,
-  "name": "Powerful Purple Thing",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201410?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201410
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1200000,
-  "sell_price": 1000000,
+  "level": 50,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "It must be good... that's why it costs so much!",
+  "media": {
+    "id": 201410,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201410?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Powerful Purple Thing",
   "preview_item": {
+    "description": "It must be good... that's why it costs so much!",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 201410,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/201410?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201410
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Powerful Purple Thing",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201410?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201410
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 1000000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "100",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 201410,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201410?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "It must be good... that's why it costs so much!",
-    "is_subclass_hidden": true
+    "name": "Powerful Purple Thing",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "100",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1000000
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1200000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 1000000
 }

@@ -4,202 +4,203 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/94577?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 7208,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7208?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_axe_1h_blacksmithing_02.jpg",
   "id": 94577,
-  "name": "Black Planar Edge, Reborn",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 39,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/94577?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 94577
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 475696,
-  "sell_price": 95139,
+  "level": 39,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 94577,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/94577?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Black Planar Edge, Reborn",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 110 / 110",
+      "value": 110
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 94577,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/94577?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 94577
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Black Planar Edge, Reborn",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/94577?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 94577
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 39",
+      "value": 39
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 3,
-        "max_value": 8,
-        "display_string": "3 - 8 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 2.1153846,
-        "display_string": "(2.1 damage per second)"
+    "media": {
+      "id": 94577,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/94577?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 2,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+2 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 2,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+2 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 791,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "7",
-        "copper": "91"
-      }
+    "name": "Black Planar Edge, Reborn",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       }
     },
-    "level": {
-      "value": 39,
-      "display_string": "Item Level 39"
+    "sell_price": {
+      "display_strings": {
+        "copper": "91",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "7"
+      },
+      "value": 791
     },
-    "durability": {
-      "value": 110,
-      "display_string": "Durability 110 / 110"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 2
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "3 - 8 Damage",
+        "max_value": 8,
+        "min_value": 3
+      },
+      "dps": {
+        "display_string": "(2.1 damage per second)",
+        "value": 2.1153846
+      }
     }
   },
+  "purchase_price": 475696,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7208?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7208
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 35,
+  "sell_price": 95139
 }

@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/29372?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 7567,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7567?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_hand_01.jpg",
   "id": 29372,
-  "name": "Void-Talon",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 31,
-  "required_level": 26,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/29372?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 29372
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 13,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/13?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Fist Weapon",
-    "id": 13
+    "name": "Fist Weapon"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 307684,
-  "sell_price": 61536,
+  "level": 31,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 29372,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/29372?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Void-Talon",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 29372,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/29372?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 29372
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Void-Talon",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/29372?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 29372
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 13,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/13?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Fist Weapon",
-      "id": 13
+      "name": "Fist Weapon"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 31",
+      "value": 31
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 4,
-        "max_value": 6,
-        "display_string": "4 - 6 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 1.9230769,
-        "display_string": "(1.9 damage per second)"
+    "media": {
+      "id": 29372,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/29372?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 251,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "51"
-      }
+    "name": "Void-Talon",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 26,
-        "display_string": "Requires Level 26"
+        "display_string": "Requires Level 26",
+        "value": 26
       }
     },
-    "level": {
-      "value": 31,
-      "display_string": "Item Level 31"
+    "sell_price": {
+      "display_strings": {
+        "copper": "51",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 251
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "4 - 6 Damage",
+        "max_value": 6,
+        "min_value": 4
+      },
+      "dps": {
+        "display_string": "(1.9 damage per second)",
+        "value": 1.9230769
+      }
     }
   },
+  "purchase_price": 307684,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7567?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7567
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 26,
+  "sell_price": 61536
 }

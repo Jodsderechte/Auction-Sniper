@@ -4,214 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/20296?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 5546,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5546?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_gauntlets_12.jpg",
   "id": 20296,
-  "name": "Green Dragonscale Gauntlets",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Hands",
+    "type": "HAND"
   },
-  "level": 27,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/20296?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 20296
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "HAND",
-    "name": "Hands"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 20296,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/20296?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Green Dragonscale Gauntlets",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "5 Armor"
+      },
+      "value": 5
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 50 / 50",
+      "value": 50
+    },
+    "inventory_type": {
+      "name": "Hands",
+      "type": "HAND"
+    },
     "item": {
+      "id": 20296,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/20296?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20296
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Green Dragonscale Gauntlets",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/20296?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20296
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "HAND",
-      "name": "Hands"
+    "level": {
+      "display_string": "Item Level 27",
+      "value": 27
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 5,
-      "display": {
-        "display_string": "5 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 20296,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/20296?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 4,
-        "is_negated": true,
-        "display": {
-          "display_string": "+4 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "NATURE_RESISTANCE",
-          "name": "Nature Resistance"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Nature Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Green Dragonscale Gauntlets",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+        "display_string": "Requires Level 21",
+        "value": 21
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/490?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Green Dragon Mail",
-        "id": 490
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/15045?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Green Dragonscale Breastplate",
-            "id": 15045
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/15046?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Green Dragonscale Leggings",
-            "id": 15046
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/20296?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Green Dragonscale Gauntlets",
-            "id": 20296
-          }
-        }
-      ],
+      "value": 1500
+    },
+    "set": {
+      "display_string": "Green Dragon Mail (0/3)",
       "effects": [
         {
           "display_string": "(2) Set: Increases your Versatility by 4.",
@@ -222,24 +130,117 @@
           "required_count": 3
         }
       ],
-      "display_string": "Green Dragon Mail (0/3)"
-    },
-    "level": {
-      "value": 27,
-      "display_string": "Item Level 27"
-    },
-    "durability": {
-      "value": 50,
-      "display_string": "Durability 50 / 50"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5546?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 490,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/490?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Green Dragon Mail"
       },
-      "id": 5546
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 15045,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/15045?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Green Dragonscale Breastplate"
+          }
+        },
+        {
+          "item": {
+            "id": 15046,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/15046?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Green Dragonscale Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 20296,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/20296?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Green Dragonscale Gauntlets"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+4 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Nature Resistance"
+        },
+        "type": {
+          "name": "Nature Resistance",
+          "type": "NATURE_RESISTANCE"
+        },
+        "value": 2
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 21,
+  "sell_price": 1500
 }

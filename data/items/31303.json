@@ -4,190 +4,191 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/31303?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6968,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6968?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_bow_04.jpg",
   "id": 31303,
-  "name": "Valanos' Longbow",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGED"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/31303?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 31303
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bow",
-    "id": 2
+    "name": "Bow"
   },
-  "inventory_type": {
-    "type": "RANGED",
-    "name": "Ranged"
-  },
-  "purchase_price": 4962515,
-  "sell_price": 992503,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 31303,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/31303?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Valanos' Longbow",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/31303?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31303
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
     },
-    "name": "Valanos' Longbow",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGED"
+    },
+    "item": {
+      "id": 31303,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/31303?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31303
+        "href": "https://eu.api.blizzard.com/data/wow/item/31303?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bow",
-      "id": 2
+      "name": "Bow"
     },
-    "inventory_type": {
-      "type": "RANGED",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 551,
-        "max_value": 746,
-        "display_string": "551 - 746 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 216.16666,
-        "display_string": "(216.2 damage per second)"
+    "media": {
+      "id": 31303,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/31303?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 300,
-        "is_negated": true,
-        "display": {
-          "display_string": "+300 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 378,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+378 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 378,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+378 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 718482,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "71",
-        "silver": "84",
-        "copper": "82"
-      }
+    "name": "Valanos' Longbow",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "82",
+        "gold": "71",
+        "header": "Sell Price:",
+        "silver": "84"
+      },
+      "value": 718482
     },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+300 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 300
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+378 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 378
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+378 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 378
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "551 - 746 Damage",
+        "max_value": 746,
+        "min_value": 551
+      },
+      "dps": {
+        "display_string": "(216.2 damage per second)",
+        "value": 216.16666
+      }
     }
   },
+  "purchase_price": 4962515,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6968?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6968
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 992503
 }

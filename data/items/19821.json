@@ -4,109 +4,110 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/19821?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "The doll resembles a druid.",
+  "icon_path": "data\\icons\\inv_misc_idol_02.jpg",
   "id": 19821,
-  "name": "Punctured Voodoo Doll",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/19821?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 19821
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "The doll resembles a druid.",
+  "media": {
+    "id": 19821,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/19821?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Punctured Voodoo Doll",
   "preview_item": {
+    "description": "The doll resembles a druid.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 19821,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/19821?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 19821
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Punctured Voodoo Doll",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/19821?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 19821
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/24279?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Punctured Voodoo Doll DRU DND",
-          "id": 24279
-        },
-        "description": "Use: Combines with Gri'lek's Blood, Renataki's Tooth, Wushoolay's Mane, and Hazza'rah's Dream Thread to form a powerful charm."
+    "media": {
+      "id": 19821,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/19821?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Punctured Voodoo Doll",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
     "requirements": {
       "playable_classes": {
+        "display_string": "Classes: Druid",
         "links": [
           {
+            "id": 11,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/playable-class/11?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Druid",
-            "id": 11
+            "name": "Druid"
           }
-        ],
-        "display_string": "Classes: Druid"
+        ]
       }
     },
-    "description": "The doll resembles a druid.",
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Combines with Gri'lek's Blood, Renataki's Tooth, Wushoolay's Mane, and Hazza'rah's Dream Thread to form a powerful charm.",
+        "spell": {
+          "id": 24279,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/24279?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Punctured Voodoo Doll DRU DND"
+        }
+      }
+    ],
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

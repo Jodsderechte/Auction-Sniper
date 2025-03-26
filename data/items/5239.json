@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5239?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1814,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1814?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_misc_bone_01.jpg",
   "id": 5239,
-  "name": "Blackbone Wand",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 24,
-  "required_level": 18,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5239?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5239
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Wand",
-    "id": 19
+    "name": "Wand"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 1414136,
-  "sell_price": 282827,
+  "level": 24,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 5239,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5239?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blackbone Wand",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
     "item": {
+      "id": 5239,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/5239?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5239
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Blackbone Wand",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5239?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5239
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Wand",
-      "id": 19
+      "name": "Wand"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 24",
+      "value": 24
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 2,
-        "display_string": "1 - 2 Shadow Damage",
-        "damage_class": {
-          "type": "SHADOW",
-          "name": "Shadow"
-        }
-      },
-      "attack_speed": {
-        "value": 2000,
-        "display_string": "Speed 2.00"
-      },
-      "dps": {
-        "value": 0.75,
-        "display_string": "(0.8 damage per second)"
+    "media": {
+      "id": 5239,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5239?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 100,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "0"
-      }
+    "name": "Blackbone Wand",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 18,
-        "display_string": "Requires Level 18"
+        "display_string": "Requires Level 18",
+        "value": 18
       }
     },
-    "level": {
-      "value": 24,
-      "display_string": "Item Level 24"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 100
     },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.00",
+        "value": 2000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Shadow",
+          "type": "SHADOW"
+        },
+        "display_string": "1 - 2 Shadow Damage",
+        "max_value": 2,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.8 damage per second)",
+        "value": 0.75
+      }
     }
   },
+  "purchase_price": 1414136,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1814?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1814
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 18,
+  "sell_price": 282827
 }

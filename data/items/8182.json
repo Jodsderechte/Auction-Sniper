@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/8182?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2632,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2632?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_rifle_04.jpg",
   "id": 8182,
-  "name": "Pellet Rifle",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 3,
-  "required_level": 2,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/8182?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 8182
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 340,
-  "sell_price": 68,
+  "level": 3,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 8182,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/8182?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pellet Rifle",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 30 / 30",
+      "value": 30
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
     "item": {
+      "id": 8182,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/8182?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8182
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Pellet Rifle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/8182?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8182
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 3",
+      "value": 3
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 3,
-        "display_string": "1 - 3 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 0.6666666,
-        "display_string": "(0.7 damage per second)"
+    "media": {
+      "id": 8182,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/8182?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 15,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "15"
-      }
+    "name": "Pellet Rifle",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 2,
-        "display_string": "Requires Level 2"
+        "display_string": "Requires Level 2",
+        "value": 2
       }
     },
-    "level": {
-      "value": 3,
-      "display_string": "Item Level 3"
+    "sell_price": {
+      "display_strings": {
+        "copper": "15",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 15
     },
-    "durability": {
-      "value": 30,
-      "display_string": "Durability 30 / 30"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 - 3 Damage",
+        "max_value": 3,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.7 damage per second)",
+        "value": 0.6666666
+      }
     }
   },
+  "purchase_price": 340,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2632?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2632
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 2,
+  "sell_price": 68
 }

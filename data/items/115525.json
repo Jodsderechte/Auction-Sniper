@@ -4,103 +4,104 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/115525?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\achievement_halloween_ghost_01.jpg",
   "id": 115525,
-  "name": "Scary Ogre Face",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 40,
-  "required_level": 40,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/115525?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 115525
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 5000,
-  "sell_price": 0,
+  "level": 40,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 115525,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/115525?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Scary Ogre Face",
   "preview_item": {
+    "charges": {
+      "display_string": "5 Charges",
+      "value": 5
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 115525,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/115525?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 115525
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Scary Ogre Face",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/115525?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 115525
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 115525,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/115525?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Scary Ogre Face",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 40",
+        "value": 40
+      }
+    },
     "spells": [
       {
+        "description": "Use: Assume the form of a Scary Ogre for 10 min. (50 Min Cooldown)",
         "spell": {
+          "id": 173359,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/173359?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Scary Ogre",
-          "id": 173359
-        },
-        "description": "Use: Assume the form of a Scary Ogre for 10 min. (50 Min Cooldown)"
+          "name": "Scary Ogre"
+        }
       }
     ],
-    "requirements": {
-      "level": {
-        "value": 40,
-        "display_string": "Requires Level 40"
-      }
-    },
-    "charges": {
-      "value": 5,
-      "display_string": "5 Charges"
-    },
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 5
+  "purchase_price": 5000,
+  "purchase_quantity": 5,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 40,
+  "sell_price": 0
 }

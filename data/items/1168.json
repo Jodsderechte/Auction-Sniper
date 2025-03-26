@@ -4,215 +4,216 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1168?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 323,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/323?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shield_01.jpg",
   "id": 1168,
-  "name": "Skullflame Shield",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Off Hand",
+    "type": "SHIELD"
   },
-  "level": 29,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1168?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1168
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Shield",
-    "id": 6
+    "name": "Shield"
   },
-  "inventory_type": {
-    "type": "SHIELD",
-    "name": "Off Hand"
-  },
-  "purchase_price": 74884,
-  "sell_price": 14976,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1168,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1168?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Skullflame Shield",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1168?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "2,938 Armor"
       },
-      "id": 1168
+      "value": 2938
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 120 / 120",
+      "value": 120
     },
-    "name": "Skullflame Shield",
-    "media": {
+    "inventory_type": {
+      "name": "Off Hand",
+      "type": "SHIELD"
+    },
+    "item": {
+      "id": 1168,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1168?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1168
+        "href": "https://eu.api.blizzard.com/data/wow/item/1168?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Shield",
-      "id": 6
+      "name": "Shield"
     },
-    "inventory_type": {
-      "type": "SHIELD",
-      "name": "Off Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 2938,
-      "display": {
-        "display_string": "2,938 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 1168,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1168?namespace=static-11.1.0_59095-eu"
       }
     },
-    "shield_block": {
-      "value": 7345,
-      "display": {
-        "display_string": "7,345 Block",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 462,
-        "display": {
-          "display_string": "+462 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 150,
-        "is_negated": true,
-        "display": {
-          "display_string": "+150 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 309,
-        "display": {
-          "display_string": "+309 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/18815?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Drain Life",
-          "id": 18815
-        },
-        "description": "Equip: When struck in combat has a 3% chance of stealing 5,823 life from target enemy."
-      },
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/18816?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Flamestrike",
-          "id": 18816
-        },
-        "description": "Equip: When struck in combat has a 1% chance of dealing 827 Fire damage to all targets around you."
-      }
-    ],
-    "sell_price": {
-      "value": 536359,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "53",
-        "silver": "63",
-        "copper": "59"
-      }
+    "name": "Skullflame Shield",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
+        "display_string": "Requires Level 23",
+        "value": 23
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
-    },
-    "durability": {
-      "value": 120,
-      "display_string": "Durability 120 / 120"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/323?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "59",
+        "gold": "53",
+        "header": "Sell Price:",
+        "silver": "63"
       },
-      "id": 323
-    }
-  ]
+      "value": 536359
+    },
+    "shield_block": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "7,345 Block"
+      },
+      "value": 7345
+    },
+    "spells": [
+      {
+        "description": "Equip: When struck in combat has a 3% chance of stealing 5,823 life from target enemy.",
+        "spell": {
+          "id": 18815,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/18815?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Drain Life"
+        }
+      },
+      {
+        "description": "Equip: When struck in combat has a 1% chance of dealing 827 Fire damage to all targets around you.",
+        "spell": {
+          "id": 18816,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/18816?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Flamestrike"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+462 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 462
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+150 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 150
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+309 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 309
+      }
+    ]
+  },
+  "purchase_price": 74884,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 23,
+  "sell_price": 14976
 }

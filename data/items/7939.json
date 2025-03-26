@@ -4,156 +4,157 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7939?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2551,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2551?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_plate04.jpg",
   "id": 7939,
-  "name": "Truesilver Breastplate",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "CHEST"
   },
-  "level": 25,
-  "required_level": 19,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7939?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7939
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "CHEST",
-    "name": "Chest"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 7939,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7939?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Truesilver Breastplate",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "14 Armor"
+      },
+      "value": 14
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 125 / 125",
+      "value": 125
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
     "item": {
+      "id": 7939,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7939?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7939
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Truesilver Breastplate",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7939?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7939
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "CHEST",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 25",
+      "value": 25
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 14,
-      "display": {
-        "display_string": "14 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 7939,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7939?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/9778?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Proc Self Heal 22",
-          "id": 9778
-        },
-        "description": "Equip: When struck in combat has a 3% chance to heal you for 1."
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Truesilver Breastplate",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 19,
-        "display_string": "Requires Level 19"
+        "display_string": "Requires Level 19",
+        "value": 19
       }
     },
-    "level": {
-      "value": 25,
-      "display_string": "Item Level 25"
-    },
-    "durability": {
-      "value": 125,
-      "display_string": "Durability 125 / 125"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2551?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "id": 2551
-    }
-  ]
+      "value": 1500
+    },
+    "spells": [
+      {
+        "description": "Equip: When struck in combat has a 3% chance to heal you for 1.",
+        "spell": {
+          "id": 9778,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/9778?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Proc Self Heal 22"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 19,
+  "sell_price": 1500
 }

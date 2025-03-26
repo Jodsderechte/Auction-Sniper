@@ -4,239 +4,240 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7742?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Gnomish Cloaking Device.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 7742,
-  "name": "Schematic: Gnomish Cloaking Device",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7742?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7742
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 3
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2400,
-  "sell_price": 600,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Gnomish Cloaking Device.",
+  "media": {
+    "id": 7742,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7742?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Schematic: Gnomish Cloaking Device",
   "preview_item": {
+    "description": "Teaches you how to make a Gnomish Cloaking Device.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 7742,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7742?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7742
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Schematic: Gnomish Cloaking Device",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7742?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7742
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 3
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 600,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "6",
-        "copper": "0"
+    "media": {
+      "id": 7742,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7742?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 200,
-        "display_string": "Requires Classic Engineering (200)"
-      }
+    "name": "Schematic: Gnomish Cloaking Device",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make a Gnomish Cloaking Device.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Trinket",
+          "type": "TRINKET"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 4397,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/4397?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 4397
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Gnomish Cloaking Device",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/4397?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 4397
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "TRINKET",
-          "name": "Trinket"
+        "level": {
+          "display_string": "Item Level 22",
+          "value": 22
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/4079?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Cloaking",
-              "id": 4079
-            },
-            "description": "Use: Gives invisibility for 10 sec. (1 Hr Cooldown)"
+        "media": {
+          "id": 4397,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/4397?namespace=static-11.1.0_59095-eu"
           }
-        ],
-        "sell_price": {
-          "value": 5000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "50",
-            "copper": "0"
-          }
+        },
+        "name": "Gnomish Cloaking Device",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "skill": {
+            "display_string": "Requires Classic Engineering (200)",
+            "level": 200,
             "profession": {
+              "id": 2506,
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
               },
-              "name": "Classic Engineering",
-              "id": 2506
-            },
-            "level": 200,
-            "display_string": "Requires Classic Engineering (200)"
+              "name": "Classic Engineering"
+            }
           }
         },
-        "level": {
-          "value": 22,
-          "display_string": "Item Level 22"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "50"
+          },
+          "value": 5000
         },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Use: Gives invisibility for 10 sec. (1 Hr Cooldown)",
+            "spell": {
+              "id": 4079,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/4079?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Cloaking"
+            }
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 4,
           "reagent": {
+            "id": 4389,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4389?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Gyrochronatom",
-            "id": 4389
-          },
-          "quantity": 4
+            "name": "Gyrochronatom"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 1529,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1529?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Jade",
-            "id": 1529
-          },
-          "quantity": 2
+            "name": "Jade"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 1705,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1705?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Lesser Moonstone",
-            "id": 1705
-          },
-          "quantity": 2
+            "name": "Lesser Moonstone"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 3864,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3864?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Citrine",
-            "id": 3864
-          },
-          "quantity": 2
+            "name": "Citrine"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 7191,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7191?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Fused Wiring",
-            "id": 7191
-          },
-          "quantity": 1
+            "name": "Fused Wiring"
+          }
         }
       ],
       "reagents_display_string": "Gyrochronatom (4), Jade (2), Lesser Moonstone (2), Citrine (2), Fused Wiring"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Engineering (200)",
+        "level": 200,
+        "profession": {
+          "id": 2506,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Engineering"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "6"
+      },
+      "value": 600
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2400,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 600
 }

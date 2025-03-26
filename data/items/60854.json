@@ -4,119 +4,120 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/60854?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_eng_mechanicalboomerang2.jpg",
   "id": 60854,
-  "name": "Loot-A-Rang",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 32,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/60854?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 60854
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 90000,
-  "sell_price": 22500,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 60854,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/60854?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Loot-A-Rang",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 60854,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/60854?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 60854
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Loot-A-Rang",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/60854?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 60854
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/84342?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Loot-A-Rang",
-          "id": 84342
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nRetrieves the loot from a nearby corpse. (3 Sec Cooldown)"
+    "media": {
+      "id": 60854,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/60854?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 22500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "25",
-        "copper": "0"
-      }
+    },
+    "name": "Loot-A-Rang",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Cataclysm Engineering (70)",
+        "level": 70,
         "profession": {
+          "id": 2503,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2503?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cataclysm Engineering",
-          "id": 2503
-        },
-        "level": 70,
-        "display_string": "Requires Cataclysm Engineering (70)"
+          "name": "Cataclysm Engineering"
+        }
       }
     },
-    "is_subclass_hidden": true,
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 22500
+    },
+    "spells": [
+      {
+        "description": "Use: Adds this toy to your Toy Box.\n\nRetrieves the loot from a nearby corpse. (3 Sec Cooldown)",
+        "spell": {
+          "id": 84342,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/84342?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Loot-A-Rang"
+        }
+      }
+    ],
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 90000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 22500
 }

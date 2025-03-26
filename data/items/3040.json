@@ -4,172 +4,173 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3040?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1064,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1064?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_rifle_01.jpg",
   "id": 3040,
-  "name": "Hunter's Muzzle Loader",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 11,
-  "required_level": 7,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3040?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3040
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 9013,
-  "sell_price": 1802,
+  "level": 11,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 3040,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3040?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Hunter's Muzzle Loader",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/3040?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3040
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6655
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 45 / 45",
+      "value": 45
     },
-    "name": "Hunter's Muzzle Loader",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 3040,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3040?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3040
+        "href": "https://eu.api.blizzard.com/data/wow/item/3040?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 433,
-        "max_value": 805,
-        "display_string": "433 - 805 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 206.33331,
-        "display_string": "(206.3 damage per second)"
+    "media": {
+      "id": 3040,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3040?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 274,
-        "is_negated": true,
-        "display": {
-          "display_string": "+274 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 496,
-        "display": {
-          "display_string": "+496 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 613656,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "61",
-        "silver": "36",
-        "copper": "56"
-      }
+    "name": "Hunter's Muzzle Loader",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 7,
-        "display_string": "Requires Level 7"
+        "display_string": "Requires Level 7",
+        "value": 7
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
+    "sell_price": {
+      "display_strings": {
+        "copper": "56",
+        "gold": "61",
+        "header": "Sell Price:",
+        "silver": "36"
+      },
+      "value": 613656
     },
-    "durability": {
-      "value": 45,
-      "display_string": "Durability 45 / 45"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+274 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 274
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+496 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 496
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "433 - 805 Damage",
+        "max_value": 805,
+        "min_value": 433
+      },
+      "dps": {
+        "display_string": "(206.3 damage per second)",
+        "value": 206.33331
+      }
     }
   },
+  "purchase_price": 9013,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1064?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1064
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 7,
+  "sell_price": 1802
 }

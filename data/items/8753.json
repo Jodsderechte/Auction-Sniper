@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/8753?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2086,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2086?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_12.jpg",
   "id": 8753,
-  "name": "Smooth Leather Helmet",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/8753?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 8753
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 610245,
-  "sell_price": 122049,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 8753,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/8753?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Smooth Leather Helmet",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/8753?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "200 Armor"
       },
-      "id": 8753
+      "value": 200
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
     },
-    "name": "Smooth Leather Helmet",
-    "media": {
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "item": {
+      "id": 8753,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/8753?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8753
+        "href": "https://eu.api.blizzard.com/data/wow/item/8753?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 200,
-      "display": {
-        "display_string": "200 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 8753,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/8753?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 82790,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "27",
-        "copper": "90"
-      }
+    "name": "Smooth Leather Helmet",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
+    "sell_price": {
+      "display_strings": {
+        "copper": "90",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "27"
+      },
+      "value": 82790
     }
   },
+  "purchase_price": 610245,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2086?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2086
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 22,
+  "sell_price": 122049
 }

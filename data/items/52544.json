@@ -4,120 +4,121 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/52544?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2131,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2131?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_misc_cape_14.jpg",
   "id": 52544,
-  "name": "Primal Robe",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "ROBE"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/52544?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 52544
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "ROBE",
-    "name": "Chest"
-  },
-  "purchase_price": 40,
-  "sell_price": 8,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 52544,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/52544?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Primal Robe",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "3 Armor"
+      },
+      "value": 3
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "ROBE"
+    },
     "item": {
+      "id": 52544,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/52544?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 52544
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Primal Robe",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/52544?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 52544
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
-    },
-    "inventory_type": {
-      "type": "ROBE",
-      "name": "Chest"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 3,
-      "display": {
-        "display_string": "3 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "sell_price": {
-      "value": 8,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "8"
-      }
+      "name": "Mail"
     },
     "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "media": {
+      "id": 52544,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/52544?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Primal Robe",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "8",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 8
     }
   },
+  "purchase_price": 40,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2131?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2131
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 8
 }

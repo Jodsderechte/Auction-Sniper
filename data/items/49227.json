@@ -4,171 +4,172 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/49227?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 12035,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/12035?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_70.jpg",
   "id": 49227,
-  "name": "Skoll's Fang",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 35,
-  "required_level": 29,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/49227?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 49227
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 4034693,
-  "sell_price": 806938,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 49227,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/49227?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Skoll's Fang",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/49227?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 49227
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4811
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
     },
-    "name": "Skoll's Fang",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 49227,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/49227?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 49227
+        "href": "https://eu.api.blizzard.com/data/wow/item/49227?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 119,
-        "max_value": 200,
-        "display_string": "119 - 200 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 88.61111,
-        "display_string": "(88.6 damage per second)"
+    "media": {
+      "id": 49227,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/49227?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 909,
-        "display": {
-          "display_string": "+909 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 334,
-        "display": {
-          "display_string": "+334 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 588979,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "58",
-        "silver": "89",
-        "copper": "79"
-      }
+    "name": "Skoll's Fang",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 29,
-        "display_string": "Requires Level 29"
+        "display_string": "Requires Level 29",
+        "value": 29
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "79",
+        "gold": "58",
+        "header": "Sell Price:",
+        "silver": "89"
+      },
+      "value": 588979
     },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+909 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 909
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+334 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 334
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "119 - 200 Damage",
+        "max_value": 200,
+        "min_value": 119
+      },
+      "dps": {
+        "display_string": "(88.6 damage per second)",
+        "value": 88.61111
+      }
     }
   },
+  "purchase_price": 4034693,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/12035?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12035
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 29,
+  "sell_price": 806938
 }

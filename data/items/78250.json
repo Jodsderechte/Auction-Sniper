@@ -4,126 +4,127 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/78250?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 5931,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5931?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_pants_08.jpg",
   "id": 78250,
-  "name": "Replica Feralheart Kilt",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
-  "level": 1,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/78250?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 78250
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 78,
-  "sell_price": 15,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 78250,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/78250?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Replica Feralheart Kilt",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "2 Armor"
+      },
+      "value": 2
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 50 / 50",
+      "value": 50
+    },
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
     "item": {
+      "id": 78250,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/78250?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 78250
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Replica Feralheart Kilt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/78250?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 78250
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 2,
-      "display": {
-        "display_string": "2 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 78250,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/78250?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 15,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "15"
-      }
+    "name": "Replica Feralheart Kilt",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
+        "display_string": "Requires Level 25",
+        "value": 25
       }
     },
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
-    },
-    "durability": {
-      "value": 50,
-      "display_string": "Durability 50 / 50"
+    "sell_price": {
+      "display_strings": {
+        "copper": "15",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 15
     }
   },
+  "purchase_price": 78,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5931?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5931
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 25,
+  "sell_price": 15
 }

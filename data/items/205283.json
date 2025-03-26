@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/205283?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Obsidian Combatant's Leather Goggles.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled03b.jpg",
   "id": 205283,
-  "name": "Schematic: Obsidian Combatant's Leather Goggles",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/205283?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 205283
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 3
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Obsidian Combatant's Leather Goggles.",
+  "media": {
+    "id": 205283,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/205283?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Schematic: Obsidian Combatant's Leather Goggles",
   "preview_item": {
+    "description": "Teaches you how to craft Obsidian Combatant's Leather Goggles.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 205283,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/205283?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 205283
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Schematic: Obsidian Combatant's Leather Goggles",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/205283?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 205283
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 3
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 205283,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/205283?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Schematic: Obsidian Combatant's Leather Goggles",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Engineering (35)",
+        "level": 35,
         "profession": {
+          "id": 2827,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2827?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Engineering",
-          "id": 2827
-        },
-        "level": 35,
-        "display_string": "Requires Dragon Isles Engineering (35)"
+          "name": "Dragon Isles Engineering"
+        }
       }
     },
-    "description": "Teaches you how to craft Obsidian Combatant's Leather Goggles.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

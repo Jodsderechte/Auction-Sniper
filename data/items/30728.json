@@ -4,215 +4,216 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30728?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 7948,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7948?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_69.jpg",
   "id": 30728,
-  "name": "Fathom-Helm of the Deeps",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30728?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30728
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 278567,
-  "sell_price": 55713,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 30728,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30728?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fathom-Helm of the Deeps",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "7 Armor"
+      },
+      "value": 7
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
     "item": {
+      "id": 30728,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30728?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30728
-    },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
       }
-    ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Fathom-Helm of the Deeps",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30728?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30728
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 7,
-      "display": {
-        "display_string": "7 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 30728,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30728?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 4,
-        "is_negated": true,
-        "display": {
-          "display_string": "+4 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "socket_bonus": "Socket Bonus: +2 Spell Power",
-    "sell_price": {
-      "value": 229,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "29"
-      }
+    "name": "Fathom-Helm of the Deeps",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7948?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "29",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
       },
-      "id": 7948
-    }
-  ]
+      "value": 229
+    },
+    "socket_bonus": "Socket Bonus: +2 Spell Power",
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      },
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      },
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+4 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 3
+      }
+    ]
+  },
+  "purchase_price": 278567,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 27,
+  "sell_price": 55713
 }

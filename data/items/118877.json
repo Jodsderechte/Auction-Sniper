@@ -4,138 +4,139 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/118877?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\spell_shadow_demoniccirclesummon.jpg",
   "id": 118877,
-  "name": "Fizzlebang's Folly",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 40,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/118877?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 118877
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 248844,
-  "sell_price": 49768,
+  "level": 40,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 118877,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/118877?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fizzlebang's Folly",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/118877?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 118877
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Fizzlebang's Folly",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 118877,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/118877?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 118877
+        "href": "https://eu.api.blizzard.com/data/wow/item/118877?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 118877,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/118877?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 147,
-        "display": {
-          "display_string": "+147 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/176904?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Item - Attacks Proc Mastery [Fizzlebang's Folly]",
-          "id": 176904
-        },
-        "description": "Equip: Your attacks have a chance to grant 3,285 Mastery for 10 sec.  (Approximately 0.92 procs per minute)"
-      }
-    ],
-    "sell_price": {
-      "value": 355826,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "35",
-        "silver": "58",
-        "copper": "26"
-      }
+    "name": "Fizzlebang's Folly",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "26",
+        "gold": "35",
+        "header": "Sell Price:",
+        "silver": "58"
+      },
+      "value": 355826
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Your attacks have a chance to grant 3,285 Mastery for 10 sec.  (Approximately 0.92 procs per minute)",
+        "spell": {
+          "id": 176904,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/176904?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Item - Attacks Proc Mastery [Fizzlebang's Folly]"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+147 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 147
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 248844,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 35,
+  "sell_price": 49768
 }

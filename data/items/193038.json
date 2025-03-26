@@ -4,134 +4,135 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/193038?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_offhand_draenei_a_02.jpg",
   "id": 193038,
-  "name": "Chromatic Focus",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/193038?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 193038
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 20000,
-  "sell_price": 4000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 193038,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/193038?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Chromatic Focus",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/193038?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193038
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Chromatic Focus",
-    "media": {
+    "item": {
+      "id": 193038,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/193038?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193038
+        "href": "https://eu.api.blizzard.com/data/wow/item/193038?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Enchanting"
     },
     "limit_category": "Unique-Equipped: Enchanting Focus (1)",
+    "media": {
+      "id": 193038,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/193038?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Chromatic Focus",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "40"
+      },
+      "value": 4000
+    },
     "stats": [
       {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS",
-          "name": "Resourcefulness"
-        },
-        "value": 14,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+14 Resourcefulness",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+14 Resourcefulness"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Resourcefulness",
+          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS"
+        },
+        "value": 14
       },
       {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED",
-          "name": "Crafting Speed"
-        },
-        "value": 32,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+32 Crafting Speed",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+32 Crafting Speed"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Crafting Speed",
+          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED"
+        },
+        "value": 32
       }
-    ],
-    "sell_price": {
-      "value": 4000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "40",
-        "copper": "0"
-      }
-    }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 20000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 4000
 }

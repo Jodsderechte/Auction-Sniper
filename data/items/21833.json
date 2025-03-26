@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21833?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_valentinecolognebottle.jpg",
   "id": 21833,
-  "name": "Cologne Bottle",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21833?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21833
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Holiday",
-    "id": 3
+    "name": "Holiday"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 100,
-  "sell_price": 25,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 21833,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21833?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Cologne Bottle",
   "preview_item": {
+    "charges": {
+      "display_string": "10 Charges",
+      "value": 10
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21833,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21833?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21833
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Cologne Bottle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21833?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21833
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Holiday",
-      "id": 3
+      "name": "Holiday"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 21833,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21833?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Cologne Bottle",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 25
     },
     "spells": [
       {
+        "description": "Use: Give yourself a pleasing scent. (2 Min Cooldown)",
         "spell": {
+          "id": 26681,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/26681?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cologne",
-          "id": 26681
-        },
-        "description": "Use: Give yourself a pleasing scent. (2 Min Cooldown)"
+          "name": "Cologne"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 25,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "25"
-      }
-    },
-    "charges": {
-      "value": 10,
-      "display_string": "10 Charges"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 100,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 25
 }

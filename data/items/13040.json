@@ -4,184 +4,185 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13040?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3614,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3614?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_crossbow_04.jpg",
   "id": 13040,
-  "name": "Heartseeking Crossbow",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13040?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13040
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 18,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Crossbow",
-    "id": 18
+    "name": "Crossbow"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 88671,
-  "sell_price": 17734,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13040,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13040?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Heartseeking Crossbow",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13040?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13040
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 95 / 95",
+      "value": 95
     },
-    "name": "Heartseeking Crossbow",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 13040,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13040?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13040
+        "href": "https://eu.api.blizzard.com/data/wow/item/13040?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 18,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Crossbow",
-      "id": 18
+      "name": "Crossbow"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 518,
-        "max_value": 778,
-        "display_string": "518 - 778 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 215.99998,
-        "display_string": "(216.0 damage per second)"
+    "media": {
+      "id": 13040,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13040?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 492,
-        "is_negated": true,
-        "display": {
-          "display_string": "+492 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 284,
-        "display": {
-          "display_string": "+284 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/29626?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shadow Bolt",
-          "id": 29626
-        },
-        "description": "Equip: Chance to strike your ranged target with a Shadow Bolt for 128 Shadow damage."
-      }
-    ],
-    "sell_price": {
-      "value": 722175,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "72",
-        "silver": "21",
-        "copper": "75"
-      }
+    "name": "Heartseeking Crossbow",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "72",
+        "header": "Sell Price:",
+        "silver": "21"
+      },
+      "value": 722175
     },
-    "durability": {
-      "value": 95,
-      "display_string": "Durability 95 / 95"
+    "spells": [
+      {
+        "description": "Equip: Chance to strike your ranged target with a Shadow Bolt for 128 Shadow damage.",
+        "spell": {
+          "id": 29626,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/29626?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shadow Bolt"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+492 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 492
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+284 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 284
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "518 - 778 Damage",
+        "max_value": 778,
+        "min_value": 518
+      },
+      "dps": {
+        "display_string": "(216.0 damage per second)",
+        "value": 215.99998
+      }
     }
   },
+  "purchase_price": 88671,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3614?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3614
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 22,
+  "sell_price": 17734
 }

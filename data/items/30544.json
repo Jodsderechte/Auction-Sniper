@@ -4,129 +4,130 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30544?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_blizzcon09_graphicscard.jpg",
   "id": 30544,
-  "name": "Ultrasafe Transporter: Toshley's Station",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30544?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30544
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 20000,
-  "sell_price": 5000,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 30544,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30544?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ultrasafe Transporter: Toshley's Station",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 30544,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30544?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30544
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Ultrasafe Transporter: Toshley's Station",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30544?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30544
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/36941?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Toshley's Station Transporter",
-          "id": 36941
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nSafely transport yourself to Toshley's Station in Blade's Edge!    Nothing to worry about while using this baby!   Gnomish know-how will get you there in a safe and timely fashion! (4 Hr Cooldown)"
+    "media": {
+      "id": 30544,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30544?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 5000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "50",
-        "copper": "0"
-      }
+    },
+    "name": "Ultrasafe Transporter: Toshley's Station",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Engineering",
-          "id": 2505
-        },
-        "level": 50,
-        "display_string": "Requires Outland Engineering (50)"
-      },
       "ability": {
+        "display_string": "Requires Gnomish Engineer",
         "spell": {
+          "id": 20219,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/20219?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Gnomish Engineer",
-          "id": 20219
-        },
-        "display_string": "Requires Gnomish Engineer"
+          "name": "Gnomish Engineer"
+        }
+      },
+      "skill": {
+        "display_string": "Requires Outland Engineering (50)",
+        "level": 50,
+        "profession": {
+          "id": 2505,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Engineering"
+        }
       }
     },
-    "is_subclass_hidden": true,
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 5000
+    },
+    "spells": [
+      {
+        "description": "Use: Adds this toy to your Toy Box.\n\nSafely transport yourself to Toshley's Station in Blade's Edge!    Nothing to worry about while using this baby!   Gnomish know-how will get you there in a safe and timely fashion! (4 Hr Cooldown)",
+        "spell": {
+          "id": 36941,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/36941?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Toshley's Station Transporter"
+        }
+      }
+    ],
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 20000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 5000
 }

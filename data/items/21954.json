@@ -4,219 +4,220 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21954?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Ring of Bitter Shadows.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 21954,
-  "name": "Design: Ring of Bitter Shadows",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21954?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21954
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 10000,
-  "sell_price": 2500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Ring of Bitter Shadows.",
+  "media": {
+    "id": 21954,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21954?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Ring of Bitter Shadows",
   "preview_item": {
+    "description": "Teaches you how to craft a Ring of Bitter Shadows.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21954,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21954?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21954
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Design: Ring of Bitter Shadows",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21954?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21954
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 21954,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21954?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Jewelcrafting",
-          "id": 2524
-        },
-        "level": 285,
-        "display_string": "Requires Classic Jewelcrafting (285)"
-      }
+    "name": "Design: Ring of Bitter Shadows",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to craft a Ring of Bitter Shadows.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Finger",
+          "type": "FINGER"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 21778,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/21778?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21778
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Ring of Bitter Shadows",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/21778?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21778
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "FINGER",
-          "name": "Finger"
+        "level": {
+          "display_string": "Item Level 28",
+          "value": 28
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "unique_equipped": "Unique-Equipped",
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
+        "media": {
+          "id": 21778,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/21778?namespace=static-11.1.0_59095-eu"
           }
-        ],
-        "sell_price": {
-          "value": 18662,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "1",
-            "silver": "86",
-            "copper": "62"
-          }
+        },
+        "name": "Ring of Bitter Shadows",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 22,
-            "display_string": "Requires Level 22"
+            "display_string": "Requires Level 22",
+            "value": 22
           }
         },
-        "level": {
-          "value": 28,
-          "display_string": "Item Level 28"
+        "sell_price": {
+          "display_strings": {
+            "copper": "62",
+            "gold": "1",
+            "header": "Sell Price:",
+            "silver": "86"
+          },
+          "value": 18662
         },
-        "is_subclass_hidden": true
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 4
+          }
+        ],
+        "unique_equipped": "Unique-Equipped"
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 12363,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12363?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcane Crystal",
-            "id": 12363
-          },
-          "quantity": 1
+            "name": "Arcane Crystal"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12808,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12808?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Essence of Undeath",
-            "id": 12808
-          },
-          "quantity": 2
+            "name": "Essence of Undeath"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 12662,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12662?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Demonic Rune",
-            "id": 12662
-          },
-          "quantity": 1
+            "name": "Demonic Rune"
+          }
         }
       ],
       "reagents_display_string": "Arcane Crystal, Essence of Undeath (2), Demonic Rune"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Jewelcrafting (285)",
+        "level": 285,
+        "profession": {
+          "id": 2524,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2500
 }

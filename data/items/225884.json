@@ -4,129 +4,130 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/225884?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 93283,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/93283?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Seems a little far-fetched.",
+  "icon_path": "data\\icons\\inv_mace_1h_greenonion_b_01.jpg",
   "id": 225884,
-  "name": "Extra Large Leek",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/225884?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 225884
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 4
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 115,
-  "sell_price": 23,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Seems a little far-fetched.",
+  "media": {
+    "id": 225884,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/225884?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Extra Large Leek",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "Seems a little far-fetched.",
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 225884,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/225884?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 225884
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Extra Large Leek",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/225884?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 225884
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 4
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 1,
-        "display_string": "1 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2000,
-        "display_string": "Speed 2.00"
-      },
-      "dps": {
-        "value": 0.5,
-        "display_string": "(0.5 damage per second)"
+    "media": {
+      "id": 225884,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/225884?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Extra Large Leek",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "sell_price": {
-      "value": 23,
       "display_strings": {
-        "header": "Sell Price:",
+        "copper": "23",
         "gold": "0",
-        "silver": "0",
-        "copper": "23"
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 23
+    },
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.00",
+        "value": 2000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 Damage",
+        "max_value": 1,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.5 damage per second)",
+        "value": 0.5
       }
-    },
-    "description": "Seems a little far-fetched.",
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
-    },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
     }
   },
+  "purchase_price": 115,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/93283?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 93283
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 23
 }

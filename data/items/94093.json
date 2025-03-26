@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/94093?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8670,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8670?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_109.jpg",
   "id": 94093,
-  "name": "Saur-Singer Spellblade",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 38,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/94093?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 94093
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 985302,
-  "sell_price": 197060,
+  "level": 38,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 94093,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/94093?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Saur-Singer Spellblade",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 75 / 75",
+      "value": 75
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 94093,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/94093?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 94093
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Saur-Singer Spellblade",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/94093?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 94093
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 38",
+      "value": 38
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "weapon": {
-      "damage": {
-        "min_value": 2,
-        "max_value": 4,
-        "display_string": "2 - 4 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 1.1538461,
-        "display_string": "(1.2 damage per second)"
+    "media": {
+      "id": 94093,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/94093?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 12,
-        "display": {
-          "display_string": "+12 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 468,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "4",
-        "copper": "68"
-      }
+    "name": "Saur-Singer Spellblade",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       }
     },
-    "level": {
-      "value": 38,
-      "display_string": "Item Level 38"
+    "sell_price": {
+      "display_strings": {
+        "copper": "68",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "4"
+      },
+      "value": 468
     },
-    "durability": {
-      "value": 75,
-      "display_string": "Durability 75 / 75"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+12 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 12
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3
+      }
+    ],
+    "unique_equipped": "Unique-Equipped",
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "2 - 4 Damage",
+        "max_value": 4,
+        "min_value": 2
+      },
+      "dps": {
+        "display_string": "(1.2 damage per second)",
+        "value": 1.1538461
+      }
     }
   },
+  "purchase_price": 985302,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8670?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8670
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 35,
+  "sell_price": 197060
 }

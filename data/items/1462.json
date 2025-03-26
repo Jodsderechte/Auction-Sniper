@@ -4,126 +4,127 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1462?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_ring_15.jpg",
   "id": 1462,
-  "name": "Ring of the Shadow",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 16,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1462?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1462
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 5225,
-  "sell_price": 1306,
+  "level": 16,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1462,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1462?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ring of the Shadow",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1462?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1462
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4790
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
     },
-    "name": "Ring of the Shadow",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 1462,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1462?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1462
+        "href": "https://eu.api.blizzard.com/data/wow/item/1462?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 366",
+      "value": 366
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "SHADOW_RESISTANCE",
-          "name": "Shadow Resistance"
-        },
-        "value": 319,
-        "display": {
-          "display_string": "+319 Shadow Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 1462,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1462?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 1306,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "13",
-        "copper": "6"
-      }
+    },
+    "name": "Ring of the Shadow",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 10,
-        "display_string": "Requires Level 10"
+        "display_string": "Requires Level 10",
+        "value": 10
       }
     },
-    "level": {
-      "value": 366,
-      "display_string": "Item Level 366"
+    "sell_price": {
+      "display_strings": {
+        "copper": "6",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "13"
+      },
+      "value": 1306
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+319 Shadow Resistance"
+        },
+        "type": {
+          "name": "Shadow Resistance",
+          "type": "SHADOW_RESISTANCE"
+        },
+        "value": 319
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 5225,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 10,
+  "sell_price": 1306
 }

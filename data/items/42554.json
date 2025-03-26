@@ -4,232 +4,233 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/42554?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8414,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8414?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_gizmo_newgoggles.jpg",
   "id": 42554,
-  "name": "Greensight Gogs",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 35,
-  "required_level": 28,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/42554?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 42554
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 42554,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/42554?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Greensight Gogs",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "5 Armor"
+      },
+      "value": 5
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
     "item": {
+      "id": 42554,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/42554?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 42554
-    },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "META",
-          "name": "Meta Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
       }
-    ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Greensight Gogs",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/42554?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 42554
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 35",
+      "value": 35
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 5,
-      "display": {
-        "display_string": "5 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 42554,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/42554?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 3,
-        "is_negated": true,
-        "display": {
-          "display_string": "+3 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 5,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+5 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "socket_bonus": "Socket Bonus: +2 Critical Strike",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/12883?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Longsight",
-          "id": 12883
-        },
-        "description": "Use: Allows you to look far into the distance. (3 Sec Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Greensight Gogs",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 28,
-        "display_string": "Requires Level 28"
+        "display_string": "Requires Level 28",
+        "value": 28
       },
       "skill": {
+        "display_string": "Requires Northrend Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2504,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2504?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Northrend Engineering",
-          "id": 2504
-        },
-        "level": 1,
-        "display_string": "Requires Northrend Engineering (1)"
+          "name": "Northrend Engineering"
+        }
       }
     },
-    "level": {
-      "value": 35,
-      "display_string": "Item Level 35"
-    },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8414?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "id": 8414
-    }
-  ]
+      "value": 1500
+    },
+    "socket_bonus": "Socket Bonus: +2 Critical Strike",
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Meta Socket",
+          "type": "META"
+        }
+      },
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "spells": [
+      {
+        "description": "Use: Allows you to look far into the distance. (3 Sec Cooldown)",
+        "spell": {
+          "id": 12883,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/12883?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Longsight"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+3 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+5 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 5
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 28,
+  "sell_price": 1500
 }

@@ -4,98 +4,99 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/22609?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Bears the seal of the Argent Dawn.",
+  "icon_path": "data\\icons\\inv_misc_note_02.jpg",
   "id": 22609,
-  "name": "Craftsman's Writ - Brightcloth Pants",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 25,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/22609?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 22609
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Bears the seal of the Argent Dawn.",
+  "media": {
+    "id": 22609,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/22609?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Craftsman's Writ - Brightcloth Pants",
   "preview_item": {
+    "description": "Bears the seal of the Argent Dawn.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 22609,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/22609?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 22609
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Craftsman's Writ - Brightcloth Pants",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/22609?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 22609
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
-      }
-    },
-    "description": "Bears the seal of the Argent Dawn.",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 9188,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/9188?namespace=static-11.1.0_59095-eu"
         },
-        "name": "Craftsman's Writ - Brightcloth Pants",
-        "id": 9188
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "Craftsman's Writ - Brightcloth Pants"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 22609,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/22609?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Craftsman's Writ - Brightcloth Pants",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 23",
+        "value": 23
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 23,
+  "sell_price": 0
 }

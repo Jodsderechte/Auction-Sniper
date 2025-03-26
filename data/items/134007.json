@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/134007?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Also resembles the fabled Black Ice, this ring is known to be passed down through generations.",
+  "icon_path": "data\\icons\\inv_misc_cutgemnormal2.jpg",
   "id": 134007,
-  "name": "Eternal Black Diamond Ring",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 32,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/134007?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 134007
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000000,
-  "sell_price": 12500000,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Also resembles the fabled Black Ice, this ring is known to be passed down through generations.",
+  "media": {
+    "id": 134007,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/134007?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Eternal Black Diamond Ring",
   "preview_item": {
+    "description": "Also resembles the fabled Black Ice, this ring is known to be passed down through generations.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 134007,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/134007?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 134007
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Eternal Black Diamond Ring",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/134007?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 134007
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+      "name": "Other"
     },
     "limit_category": "Unique-Equipped: Flashy Black Diamond Rings (1)",
+    "media": {
+      "id": 134007,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/134007?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Eternal Black Diamond Ring",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1,250",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 12500000
+    },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nEquip the Eternal Black Diamond Ring, passed down through generations.",
         "spell": {
+          "id": 203820,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/203820?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Eternal Black Diamond Ring",
-          "id": 203820
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nEquip the Eternal Black Diamond Ring, passed down through generations."
+          "name": "Eternal Black Diamond Ring"
+        }
       }
     ],
-    "sell_price": {
-      "value": 12500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1,250",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "description": "Also resembles the fabled Black Ice, this ring is known to be passed down through generations.",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 12500000
 }

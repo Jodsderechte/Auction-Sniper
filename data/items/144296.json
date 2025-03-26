@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/144296?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_key_07.jpg",
   "id": 144296,
-  "name": "Kroksy's Key",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/144296?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 144296
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 5,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 144296,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/144296?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Kroksy's Key",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 144296,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/144296?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 144296
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Kroksy's Key",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/144296?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 144296
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 144296,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/144296?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Kroksy's Key",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
+    },
     "spells": [
       {
+        "description": "Use: Remove a heavy set of armor. (1 Sec Cooldown)",
         "spell": {
+          "id": 235627,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/235627?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Key",
-          "id": 235627
-        },
-        "description": "Use: Remove a heavy set of armor. (1 Sec Cooldown)"
+          "name": "Key"
+        }
       }
     ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
-    },
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 5,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 1
 }

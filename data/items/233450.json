@@ -4,211 +4,212 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/233450?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 104937,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/104937?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_plate_outdoorundermine_c_01_shoulder.jpg",
   "id": 233450,
-  "name": "Mechforged Mantle",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 600,
-  "required_level": 80,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/233450?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 233450
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 2234163,
-  "sell_price": 446832,
+  "level": 600,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 233450,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/233450?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Mechforged Mantle",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "5,390 Armor"
+      },
+      "value": 5390
+    },
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
+    },
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
+    },
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
     "item": {
+      "id": 233450,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/233450?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 233450
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Mechforged Mantle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/233450?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 233450
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
+    "level": {
+      "display_string": "Item Level 600",
+      "value": 600
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
-    },
-    "armor": {
-      "value": 5390,
-      "display": {
-        "display_string": "5,390 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 233450,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/233450?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 1979,
-        "display": {
-          "display_string": "+1,979 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 1979,
-        "is_negated": true,
-        "display": {
-          "display_string": "+1,979 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 10500,
-        "display": {
-          "display_string": "+10,500 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 732,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+732 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 518,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+518 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 446832,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "44",
-        "silver": "68",
-        "copper": "32"
-      }
+    "name": "Mechforged Mantle",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
+        "display_string": "Requires Level 80",
+        "value": 80
       }
     },
-    "level": {
-      "value": 600,
-      "display_string": "Item Level 600"
-    },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/104937?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "32",
+        "gold": "44",
+        "header": "Sell Price:",
+        "silver": "68"
       },
-      "id": 104937
-    }
-  ]
+      "value": 446832
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+1,979 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 1979
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+1,979 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 1979
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+10,500 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 10500
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+732 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 732
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+518 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 518
+      }
+    ]
+  },
+  "purchase_price": 2234163,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 80,
+  "sell_price": 446832
 }

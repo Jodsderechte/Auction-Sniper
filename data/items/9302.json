@@ -4,187 +4,188 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/9302?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Ghost Dye.",
+  "icon_path": "data\\icons\\inv_scroll_05.jpg",
   "id": 9302,
-  "name": "Recipe: Ghost Dye",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/9302?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 9302
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 9000,
-  "sell_price": 2250,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Ghost Dye.",
+  "media": {
+    "id": 9302,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/9302?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Ghost Dye",
   "preview_item": {
+    "description": "Teaches you how to make Ghost Dye.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 9302,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/9302?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9302
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Recipe: Ghost Dye",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/9302?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9302
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 2250,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "22",
-        "copper": "50"
+    "media": {
+      "id": 9302,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/9302?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Alchemy",
-          "id": 2485
-        },
-        "level": 245,
-        "display_string": "Requires Classic Alchemy (245)"
-      }
+    "name": "Recipe: Ghost Dye",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make Ghost Dye.",
     "recipe": {
       "item": {
+        "crafting_reagent": "Crafting Reagent",
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 9210,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/9210?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 9210
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Ghost Dye",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/9210?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 9210
+          }
         },
         "item_class": {
+          "id": 7,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Tradeskill",
-          "id": 7
+          "name": "Tradeskill"
         },
         "item_subclass": {
+          "id": 11,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/11?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Other",
-          "id": 11
+          "name": "Other"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
-        },
-        "sell_price": {
-          "value": 750,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "7",
-            "copper": "50"
+        "media": {
+          "id": 9210,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/9210?namespace=static-11.1.0_59095-eu"
           }
         },
-        "is_subclass_hidden": true,
-        "crafting_reagent": "Crafting Reagent"
+        "name": "Ghost Dye",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "50",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "7"
+          },
+          "value": 750
+        }
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 8845,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/8845?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Ghost Mushroom",
-            "id": 8845
-          },
-          "quantity": 2
+            "name": "Ghost Mushroom"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 4342,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4342?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Purple Dye",
-            "id": 4342
-          },
-          "quantity": 1
+            "name": "Purple Dye"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3371,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3371?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Crystal Vial",
-            "id": 3371
-          },
-          "quantity": 1
+            "name": "Crystal Vial"
+          }
         }
       ],
       "reagents_display_string": "Ghost Mushroom (2), Purple Dye, Crystal Vial"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Alchemy (245)",
+        "level": 245,
+        "profession": {
+          "id": 2485,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Alchemy"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "22"
+      },
+      "value": 2250
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 9000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2250
 }

@@ -4,97 +4,98 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23203?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_relics_libramoftruth.jpg",
   "id": 23203,
-  "name": "Libram of Fervor",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 30,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23203?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23203
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 80217,
-  "sell_price": 16043,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 23203,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23203?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Libram of Fervor",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 23203,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23203?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23203
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Libram of Fervor",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23203?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23203
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 16043,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "60",
-        "copper": "43"
-      }
+      "name": "Junk"
     },
     "level": {
-      "value": 30,
-      "display_string": "Item Level 30"
+      "display_string": "Item Level 30",
+      "value": 30
     },
-    "is_subclass_hidden": true
+    "media": {
+      "id": 23203,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23203?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Libram of Fervor",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "43",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "60"
+      },
+      "value": 16043
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 80217,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 16043
 }

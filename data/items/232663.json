@@ -4,155 +4,156 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/232663?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_11_0_ventureco_necklace01_color4.jpg",
   "id": 232663,
-  "name": "Undermine Merc's Dog Tags",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 623,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/232663?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 232663
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 2118783,
-  "sell_price": 423756,
+  "level": 623,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 232663,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/232663?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Undermine Merc's Dog Tags",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 232663,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/232663?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 232663
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Undermine Merc's Dog Tags",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/232663?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 232663
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 623",
+      "value": 623
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 10948,
-        "display": {
-          "display_string": "+10,948 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 4361,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+4,361 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 1090,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+1,090 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 232663,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/232663?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 423756,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "42",
-        "silver": "37",
-        "copper": "56"
-      }
+    },
+    "name": "Undermine Merc's Dog Tags",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "level": {
-      "value": 623,
-      "display_string": "Item Level 623"
+    "sell_price": {
+      "display_strings": {
+        "copper": "56",
+        "gold": "42",
+        "header": "Sell Price:",
+        "silver": "37"
+      },
+      "value": 423756
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+10,948 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 10948
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+4,361 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 4361
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+1,090 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 1090
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2118783,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 70,
+  "sell_price": 423756
 }

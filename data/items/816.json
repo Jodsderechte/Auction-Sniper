@@ -4,156 +4,157 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/816?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 242,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/242?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_01.jpg",
   "id": 816,
-  "name": "Small Hand Blade",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 5,
-  "required_level": 3,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/816?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 816
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 1528,
-  "sell_price": 305,
+  "level": 5,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 816,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/816?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Small Hand Blade",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/816?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 816
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4790
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 20 / 20",
+      "value": 20
     },
-    "name": "Small Hand Blade",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 816,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/816?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 816
+        "href": "https://eu.api.blizzard.com/data/wow/item/816?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 366",
+      "value": 366
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 228,
-        "max_value": 381,
-        "display_string": "228 - 381 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 169.16666,
-        "display_string": "(169.2 damage per second)"
+    "media": {
+      "id": 816,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/816?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 283,
-        "is_negated": true,
-        "display": {
-          "display_string": "+283 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 484993,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "48",
-        "silver": "49",
-        "copper": "93"
-      }
+    "name": "Small Hand Blade",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 3,
-        "display_string": "Requires Level 3"
+        "display_string": "Requires Level 3",
+        "value": 3
       }
     },
-    "level": {
-      "value": 366,
-      "display_string": "Item Level 366"
+    "sell_price": {
+      "display_strings": {
+        "copper": "93",
+        "gold": "48",
+        "header": "Sell Price:",
+        "silver": "49"
+      },
+      "value": 484993
     },
-    "durability": {
-      "value": 20,
-      "display_string": "Durability 20 / 20"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+283 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 283
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "228 - 381 Damage",
+        "max_value": 381,
+        "min_value": 228
+      },
+      "dps": {
+        "display_string": "(169.2 damage per second)",
+        "value": 169.16666
+      }
     }
   },
+  "purchase_price": 1528,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/242?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 242
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 3,
+  "sell_price": 305
 }

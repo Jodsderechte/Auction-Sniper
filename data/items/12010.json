@@ -4,142 +4,143 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12010?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_ring_04.jpg",
   "id": 12010,
-  "name": "Fen Ring",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 21,
-  "required_level": 14,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12010?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12010
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 9876,
-  "sell_price": 2469,
+  "level": 21,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 12010,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12010?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fen Ring",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/12010?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12010
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6654
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
     },
-    "name": "Fen Ring",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 12010,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12010?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12010
+        "href": "https://eu.api.blizzard.com/data/wow/item/12010?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 154,
-        "is_negated": true,
-        "display": {
-          "display_string": "+154 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 279,
-        "display": {
-          "display_string": "+279 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 12010,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12010?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 2469,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "24",
-        "copper": "69"
-      }
+    },
+    "name": "Fen Ring",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 14,
-        "display_string": "Requires Level 14"
+        "display_string": "Requires Level 14",
+        "value": 14
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
+    "sell_price": {
+      "display_strings": {
+        "copper": "69",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "24"
+      },
+      "value": 2469
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+154 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 154
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+279 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 279
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 9876,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 14,
+  "sell_price": 2469
 }

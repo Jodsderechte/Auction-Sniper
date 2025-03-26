@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/194489?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Allied Chestplate of Generosity.",
+  "icon_path": "data\\icons\\inv_10_inscription2_repcontracts_80_warscroll_fortitude_uprez_color4.jpg",
   "id": 194489,
-  "name": "Plans: Allied Chestplate of Generosity",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/194489?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 194489
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Allied Chestplate of Generosity.",
+  "media": {
+    "id": 194489,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/194489?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Allied Chestplate of Generosity",
   "preview_item": {
+    "description": "Teaches you how to craft Allied Chestplate of Generosity.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 194489,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/194489?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194489
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Plans: Allied Chestplate of Generosity",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/194489?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194489
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 194489,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/194489?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Plans: Allied Chestplate of Generosity",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Blacksmithing (50)",
+        "level": 50,
         "profession": {
+          "id": 2822,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2822?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Blacksmithing",
-          "id": 2822
-        },
-        "level": 50,
-        "display_string": "Requires Dragon Isles Blacksmithing (50)"
+          "name": "Dragon Isles Blacksmithing"
+        }
       }
     },
-    "description": "Teaches you how to craft Allied Chestplate of Generosity.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

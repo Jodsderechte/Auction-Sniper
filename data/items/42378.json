@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/42378?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 10950,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/10950?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shirt_red_01.jpg",
   "id": 42378,
-  "name": "Red Martial Shirt",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Shirt",
+    "type": "BODY"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/42378?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 42378
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "BODY",
-    "name": "Shirt"
-  },
-  "purchase_price": 400000,
-  "sell_price": 100000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 42378,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/42378?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Red Martial Shirt",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Shirt",
+      "type": "BODY"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 42378,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/42378?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 42378
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Red Martial Shirt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/42378?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 42378
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "BODY",
-      "name": "Shirt"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 100000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "0",
-        "copper": "0"
-      }
+      "name": "Miscellaneous"
     },
     "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 42378,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/10950?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/42378?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Red Martial Shirt",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 10950
+      "value": 100000
     }
-  ]
+  },
+  "purchase_price": 400000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 100000
 }

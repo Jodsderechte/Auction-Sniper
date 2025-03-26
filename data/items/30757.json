@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30757?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 7958,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7958?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Sturdy construction has kept this ancient weapon working",
+  "icon_path": "data\\icons\\inv_weapon_crossbow_13.jpg",
   "id": 30757,
-  "name": "Draenic Light Crossbow",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 29,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30757?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30757
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 18,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Crossbow",
-    "id": 18
+    "name": "Crossbow"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 2182625,
-  "sell_price": 436525,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Sturdy construction has kept this ancient weapon working",
+  "media": {
+    "id": 30757,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30757?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Draenic Light Crossbow",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "Sturdy construction has kept this ancient weapon working",
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
     "item": {
+      "id": 30757,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30757?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30757
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Draenic Light Crossbow",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30757?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30757
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 18,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Crossbow",
-      "id": 18
+      "name": "Crossbow"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 6,
-        "max_value": 9,
-        "display_string": "6 - 9 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 2.4999998,
-        "display_string": "(2.5 damage per second)"
+    "media": {
+      "id": 30757,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30757?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 152,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "52"
-      }
+    "name": "Draenic Light Crossbow",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
+        "display_string": "Requires Level 25",
+        "value": 25
       }
     },
-    "description": "Sturdy construction has kept this ancient weapon working",
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+    "sell_price": {
+      "display_strings": {
+        "copper": "52",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 152
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "6 - 9 Damage",
+        "max_value": 9,
+        "min_value": 6
+      },
+      "dps": {
+        "display_string": "(2.5 damage per second)",
+        "value": 2.4999998
+      }
     }
   },
+  "purchase_price": 2182625,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7958?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7958
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 25,
+  "sell_price": 436525
 }

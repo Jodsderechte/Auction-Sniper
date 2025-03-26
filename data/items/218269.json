@@ -4,116 +4,117 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/218269?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Recently found on the aged shelves of Algeth'ar Academy, this tome contains a variety of formulae for enchanting Awakened Crests.",
+  "icon_path": "data\\icons\\inv_10_inscription2_book2_color1.jpg",
   "id": 218269,
-  "name": "Draconic Tome of Awakening",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/218269?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 218269
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Recently found on the aged shelves of Algeth'ar Academy, this tome contains a variety of formulae for enchanting Awakened Crests.",
+  "media": {
+    "id": 218269,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/218269?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Draconic Tome of Awakening",
   "preview_item": {
+    "description": "Recently found on the aged shelves of Algeth'ar Academy, this tome contains a variety of formulae for enchanting Awakened Crests.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 218269,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/218269?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 218269
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Draconic Tome of Awakening",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/218269?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 218269
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 218269,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/218269?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/442401?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Draconic Tome of Awakening",
-          "id": 442401
-        },
-        "description": "Use: Teaches you how to create Enchanted Awakened Crests."
-      }
-    ],
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Draconic Tome of Awakening",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Enchanting (50)",
+        "level": 50,
         "profession": {
+          "id": 2825,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2825?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Enchanting",
-          "id": 2825
-        },
-        "level": 50,
-        "display_string": "Requires Dragon Isles Enchanting (50)"
+          "name": "Dragon Isles Enchanting"
+        }
       }
     },
-    "description": "Recently found on the aged shelves of Algeth'ar Academy, this tome contains a variety of formulae for enchanting Awakened Crests.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to create Enchanted Awakened Crests.",
+        "spell": {
+          "id": 442401,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/442401?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Draconic Tome of Awakening"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

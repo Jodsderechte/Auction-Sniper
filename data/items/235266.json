@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/235266?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "You're a little late for the grand finale.",
+  "icon_path": "data\\icons\\inv_helm_misc_fireworkpartyhat.jpg",
   "id": 235266,
-  "name": "Fireworked Hat",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/235266?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 235266
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 400000,
-  "sell_price": 100000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "You're a little late for the grand finale.",
+  "media": {
+    "id": 235266,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/235266?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fireworked Hat",
   "preview_item": {
+    "description": "You're a little late for the grand finale.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 235266,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/235266?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 235266
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Fireworked Hat",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/235266?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 235266
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 100000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 235266,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/235266?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "You're a little late for the grand finale.",
-    "is_subclass_hidden": true
+    "name": "Fireworked Hat",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 100000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 400000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 100000
 }

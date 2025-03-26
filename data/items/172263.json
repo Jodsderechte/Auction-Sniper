@@ -4,221 +4,222 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/172263?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 41923,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/41923?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_mail_oribosdungeon_c_01.jpg",
   "id": 172263,
-  "name": "Shadowscale Pauldrons",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 165,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/172263?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 172263
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 2412179,
-  "sell_price": 482435,
+  "level": 165,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 172263,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/172263?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Shadowscale Pauldrons",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/172263?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "23 Armor"
       },
-      "id": 172263
+      "value": 23
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6893
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Shadowscale Pauldrons",
-    "media": {
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
+    "item": {
+      "id": 172263,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/172263?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 172263
+        "href": "https://eu.api.blizzard.com/data/wow/item/172263?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
-    },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 23,
-      "display": {
-        "display_string": "23 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 11,
-        "display": {
-          "display_string": "+11 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 11,
-        "is_negated": true,
-        "display": {
-          "display_string": "+11 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 17,
-        "display": {
-          "display_string": "+17 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 11,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+11 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 11,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+11 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 16786,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "67",
-        "copper": "86"
-      }
+      "name": "Mail"
     },
     "level": {
-      "value": 151,
-      "display_string": "Item Level 151"
+      "display_string": "Item Level 151",
+      "value": 151
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "media": {
+      "id": 172263,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/172263?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
+        "name": "Haste",
+        "type": "HASTE_RATING"
       },
       {
         "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
+        "name": "Mastery",
+        "type": "MASTERY_RATING"
+      }
+    ],
+    "name": "Shadowscale Pauldrons",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "86",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "67"
+      },
+      "value": 16786
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+11 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 11
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+11 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 11
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+17 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 17
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+11 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 11
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+11 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 11
       }
     ]
   },
+  "purchase_price": 2412179,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/41923?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 41923
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 60,
+  "sell_price": 482435
 }

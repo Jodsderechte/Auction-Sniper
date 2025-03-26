@@ -4,89 +4,90 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/41745?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_rod_platinum.jpg",
   "id": 41745,
-  "name": "Titanium Rod",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/41745?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 41745
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tradeskill",
-    "id": 7
+    "name": "Tradeskill"
   },
   "item_subclass": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 12
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 48000,
-  "sell_price": 12000,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 41745,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/41745?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Titanium Rod",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 41745,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/41745?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 41745
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Titanium Rod",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/41745?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 41745
+      }
     },
     "item_class": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tradeskill",
-      "id": 7
+      "name": "Tradeskill"
     },
     "item_subclass": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 12
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 12000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "20",
-        "copper": "0"
+    "media": {
+      "id": 41745,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/41745?namespace=static-11.1.0_59095-eu"
       }
     },
-    "is_subclass_hidden": true
+    "name": "Titanium Rod",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "20"
+      },
+      "value": 12000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 48000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 12000
 }

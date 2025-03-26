@@ -4,126 +4,127 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/62261?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3822,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3822?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_boots_01.jpg",
   "id": 62261,
-  "name": "Grunt's Chain Boots",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 26,
-  "required_level": 20,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/62261?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 62261
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 840110,
-  "sell_price": 168022,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 62261,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/62261?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Grunt's Chain Boots",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "5 Armor"
+      },
+      "value": 5
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
+    },
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
     "item": {
+      "id": 62261,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/62261?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 62261
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Grunt's Chain Boots",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/62261?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 62261
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
+    "level": {
+      "display_string": "Item Level 26",
+      "value": 26
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 5,
-      "display": {
-        "display_string": "5 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 62261,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/62261?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 49,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "49"
-      }
+    "name": "Grunt's Chain Boots",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 20,
-        "display_string": "Requires Level 20"
+        "display_string": "Requires Level 20",
+        "value": 20
       }
     },
-    "level": {
-      "value": 26,
-      "display_string": "Item Level 26"
-    },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "sell_price": {
+      "display_strings": {
+        "copper": "49",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 49
     }
   },
+  "purchase_price": 840110,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3822?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3822
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 20,
+  "sell_price": 168022
 }

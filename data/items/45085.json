@@ -4,202 +4,203 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/45085?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 11274,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/11274?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_73.jpg",
   "id": 45085,
-  "name": "Titansteel Spellblade",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 35,
-  "required_level": 30,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/45085?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 45085
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 257211,
-  "sell_price": 51442,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 45085,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/45085?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Titansteel Spellblade",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 80 / 80",
+      "value": 80
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 45085,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/45085?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45085
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Titansteel Spellblade",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/45085?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45085
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 35",
+      "value": 35
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 3,
-        "display_string": "1 - 3 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 1.111111,
-        "display_string": "(1.1 damage per second)"
+    "media": {
+      "id": 45085,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/45085?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 12,
-        "display": {
-          "display_string": "+12 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 2,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+2 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 541,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "5",
-        "copper": "41"
-      }
+    "name": "Titansteel Spellblade",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 30,
-        "display_string": "Requires Level 30"
+        "display_string": "Requires Level 30",
+        "value": 30
       }
     },
-    "level": {
-      "value": 35,
-      "display_string": "Item Level 35"
+    "sell_price": {
+      "display_strings": {
+        "copper": "41",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 541
     },
-    "durability": {
-      "value": 80,
-      "display_string": "Durability 80 / 80"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+12 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 12
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 2
+      }
+    ],
+    "unique_equipped": "Unique-Equipped",
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 - 3 Damage",
+        "max_value": 3,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(1.1 damage per second)",
+        "value": 1.111111
+      }
     }
   },
+  "purchase_price": 257211,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/11274?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11274
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 30,
+  "sell_price": 51442
 }

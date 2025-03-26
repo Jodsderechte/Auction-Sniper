@@ -4,209 +4,210 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/20758?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to create Minor Wizard Oil.",
+  "icon_path": "data\\icons\\inv_misc_note_01.jpg",
   "id": 20758,
-  "name": "Formula: Minor Wizard Oil",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/20758?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 20758
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 500,
-  "sell_price": 125,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to create Minor Wizard Oil.",
+  "media": {
+    "id": 20758,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/20758?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Formula: Minor Wizard Oil",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 20758,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/20758?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20758
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Formula: Minor Wizard Oil",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/20758?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20758
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/25124?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Minor Wizard Oil",
-          "id": 25124
-        },
-        "description": "Use: Teaches you how to create Minor Wizard Oil."
-      }
-    ],
-    "sell_price": {
-      "value": 125,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "25"
+    "media": {
+      "id": 20758,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/20758?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Enchanting",
-          "id": 2494
-        },
-        "level": 45,
-        "display_string": "Requires Classic Enchanting (45)"
-      }
+    "name": "Formula: Minor Wizard Oil",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "recipe": {
       "item": {
+        "charges": {
+          "display_string": "1 Charge",
+          "value": 1
+        },
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 20744,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/20744?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 20744
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Minor Wizard Oil",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/20744?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 20744
+          }
         },
         "item_class": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Consumable",
-          "id": 0
+          "name": "Consumable"
         },
         "item_subclass": {
+          "id": 8,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Other",
-          "id": 8
+          "name": "Other"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
+        "media": {
+          "id": 20744,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/20744?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/25117?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Minor Wizard Oil",
-              "id": 25117
-            },
-            "description": "Use: Applies minor wizard oil to your weapon, increasing Intellect by 3.  Effect lasts for 1 hour.  Cannot be applied to items higher than level 320. (1 Sec Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "5",
-            "copper": "0"
-          }
+        "name": "Minor Wizard Oil",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
         },
         "requirements": {
           "level": {
-            "value": 3,
-            "display_string": "Requires Level 3"
+            "display_string": "Requires Level 3",
+            "value": 3
           }
         },
-        "charges": {
-          "value": 1,
-          "display_string": "1 Charge"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "5"
+          },
+          "value": 500
         },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Use: Applies minor wizard oil to your weapon, increasing Intellect by 3.  Effect lasts for 1 hour.  Cannot be applied to items higher than level 320. (1 Sec Cooldown)",
+            "spell": {
+              "id": 25117,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/25117?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Minor Wizard Oil"
+            }
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 10940,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/10940?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Strange Dust",
-            "id": 10940
-          },
-          "quantity": 2
+            "name": "Strange Dust"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3371,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3371?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Crystal Vial",
-            "id": 3371
-          },
-          "quantity": 1
+            "name": "Crystal Vial"
+          }
         }
       ],
       "reagents_display_string": "Strange Dust (2), Crystal Vial"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Enchanting (45)",
+        "level": 45,
+        "profession": {
+          "id": 2494,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Enchanting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 125
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to create Minor Wizard Oil.",
+        "spell": {
+          "id": 25124,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/25124?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Minor Wizard Oil"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 125
 }

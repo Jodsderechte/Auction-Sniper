@@ -4,127 +4,128 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12282?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1925,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1925?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_axe_09.jpg",
   "id": 12282,
-  "name": "Worn Battleaxe",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12282?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12282
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 1
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 22,
-  "sell_price": 4,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 12282,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12282?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Worn Battleaxe",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 12282,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12282?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12282
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Worn Battleaxe",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12282?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12282
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 1
-    },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 3,
-        "display_string": "1 - 3 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 0.5555555,
-        "display_string": "(0.6 damage per second)"
-      }
-    },
-    "sell_price": {
-      "value": 13,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "13"
-      }
+      "name": "Axe"
     },
     "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
+    "media": {
+      "id": 12282,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12282?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Worn Battleaxe",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "13",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 13
+    },
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 - 3 Damage",
+        "max_value": 3,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.6 damage per second)",
+        "value": 0.5555555
+      }
     }
   },
+  "purchase_price": 22,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1925?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1925
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 4
 }

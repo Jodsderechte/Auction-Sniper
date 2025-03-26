@@ -4,122 +4,123 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4381?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_gizmo_07.jpg",
   "id": 4381,
-  "name": "Minor Recombobulator",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 18,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4381?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4381
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 2400,
-  "sell_price": 600,
+  "level": 18,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4381,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4381?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Minor Recombobulator",
   "preview_item": {
+    "charges": {
+      "display_string": "10 Charges",
+      "value": 10
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 4381,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/4381?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4381
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Minor Recombobulator",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4381?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4381
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 18",
+      "value": 18
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/18805?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Recombobulate",
-          "id": 18805
-        },
-        "description": "Use: Restores 6 health and mana to a friendly target and attempts to dispel any polymorph effects from them.  Reduced effectiveness against polymorph effects from casters of level 60 and higher. (5 Min Cooldown)"
+    "media": {
+      "id": 4381,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4381?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 600,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "6",
-        "copper": "0"
-      }
+    },
+    "name": "Minor Recombobulator",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Classic Engineering (140)",
+        "level": 140,
         "profession": {
+          "id": 2506,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 140,
-        "display_string": "Requires Classic Engineering (140)"
+          "name": "Classic Engineering"
+        }
       }
     },
-    "level": {
-      "value": 18,
-      "display_string": "Item Level 18"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "6"
+      },
+      "value": 600
     },
-    "charges": {
-      "value": 10,
-      "display_string": "10 Charges"
-    },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Restores 6 health and mana to a friendly target and attempts to dispel any polymorph effects from them.  Reduced effectiveness against polymorph effects from casters of level 60 and higher. (5 Min Cooldown)",
+        "spell": {
+          "id": 18805,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/18805?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Recombobulate"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2400,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 600
 }

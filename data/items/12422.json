@@ -4,234 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12422?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3546,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3546?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_plate10.jpg",
   "id": 12422,
-  "name": "Imperial Plate Chest",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "CHEST"
   },
-  "level": 29,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12422?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12422
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "CHEST",
-    "name": "Chest"
-  },
-  "purchase_price": 47815,
-  "sell_price": 9563,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 12422,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12422?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Imperial Plate Chest",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "14 Armor"
+      },
+      "value": 14
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 115 / 115",
+      "value": 115
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
     "item": {
+      "id": 12422,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12422?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12422
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Imperial Plate Chest",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12422?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12422
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "CHEST",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 14,
-      "display": {
-        "display_string": "14 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 12422,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12422?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 5,
-        "is_negated": true,
-        "display": {
-          "display_string": "+5 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 143,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "43"
-      }
+    "name": "Imperial Plate Chest",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
+        "display_string": "Requires Level 23",
+        "value": 23
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/321?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Imperial Plate",
-        "id": 321
+    "sell_price": {
+      "display_strings": {
+        "copper": "43",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/12424?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Imperial Plate Belt",
-            "id": 12424
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/12426?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Imperial Plate Boots",
-            "id": 12426
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/12425?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Imperial Plate Bracers",
-            "id": 12425
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/12422?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Imperial Plate Chest",
-            "id": 12422
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/12427?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Imperial Plate Helm",
-            "id": 12427
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/12429?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Imperial Plate Leggings",
-            "id": 12429
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/12428?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Imperial Plate Shoulders",
-            "id": 12428
-          }
-        }
-      ],
+      "value": 143
+    },
+    "set": {
+      "display_string": "Imperial Plate (0/7)",
       "effects": [
         {
           "display_string": "(2) Set: +3 Armor.",
@@ -246,24 +134,137 @@
           "required_count": 6
         }
       ],
-      "display_string": "Imperial Plate (0/7)"
-    },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
-    },
-    "durability": {
-      "value": 115,
-      "display_string": "Durability 115 / 115"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3546?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 321,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/321?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Imperial Plate"
       },
-      "id": 3546
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 12424,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/12424?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Imperial Plate Belt"
+          }
+        },
+        {
+          "item": {
+            "id": 12426,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/12426?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Imperial Plate Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 12425,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/12425?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Imperial Plate Bracers"
+          }
+        },
+        {
+          "item": {
+            "id": 12422,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/12422?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Imperial Plate Chest"
+          }
+        },
+        {
+          "item": {
+            "id": 12427,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/12427?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Imperial Plate Helm"
+          }
+        },
+        {
+          "item": {
+            "id": 12429,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/12429?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Imperial Plate Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 12428,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/12428?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Imperial Plate Shoulders"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+5 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5
+      }
+    ]
+  },
+  "purchase_price": 47815,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 23,
+  "sell_price": 9563
 }

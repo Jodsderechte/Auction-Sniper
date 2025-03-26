@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/208273?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Verdant Combatant's Wildercloth Cloak.",
+  "icon_path": "data\\icons\\inv_10_inscription2_repcontracts_80_warscroll_fortitude_uprez_color1.jpg",
   "id": 208273,
-  "name": "Pattern: Verdant Combatant's Wildercloth Cloak",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/208273?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 208273
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Verdant Combatant's Wildercloth Cloak.",
+  "media": {
+    "id": 208273,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/208273?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Verdant Combatant's Wildercloth Cloak",
   "preview_item": {
+    "description": "Teaches you how to craft Verdant Combatant's Wildercloth Cloak.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 208273,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/208273?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 208273
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Pattern: Verdant Combatant's Wildercloth Cloak",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/208273?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 208273
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 208273,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/208273?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Pattern: Verdant Combatant's Wildercloth Cloak",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Tailoring (35)",
+        "level": 35,
         "profession": {
+          "id": 2831,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2831?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Tailoring",
-          "id": 2831
-        },
-        "level": 35,
-        "display_string": "Requires Dragon Isles Tailoring (35)"
+          "name": "Dragon Isles Tailoring"
+        }
       }
     },
-    "description": "Teaches you how to craft Verdant Combatant's Wildercloth Cloak.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

@@ -4,160 +4,161 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/14128?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3967,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3967?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_cloth_46.jpg",
   "id": 14128,
-  "name": "Wizardweave Robe",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "ROBE"
   },
-  "level": 29,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/14128?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 14128
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cloth",
-    "id": 1
+    "name": "Cloth"
   },
-  "inventory_type": {
-    "type": "ROBE",
-    "name": "Chest"
-  },
-  "purchase_price": 47487,
-  "sell_price": 9497,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 14128,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/14128?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wizardweave Robe",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "4 Armor"
+      },
+      "value": 4
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 115 / 115",
+      "value": 115
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "ROBE"
+    },
     "item": {
+      "id": 14128,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/14128?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14128
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Wizardweave Robe",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/14128?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14128
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cloth",
-      "id": 1
+      "name": "Cloth"
     },
-    "inventory_type": {
-      "type": "ROBE",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 4,
-      "display": {
-        "display_string": "4 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 14128,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/14128?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "FIRE_RESISTANCE",
-          "name": "Fire Resistance"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Fire Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "ARCANE_RESISTANCE",
-          "name": "Arcane Resistance"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Arcane Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 142,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "42"
-      }
+    "name": "Wizardweave Robe",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
+        "display_string": "Requires Level 23",
+        "value": 23
       }
     },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
-    },
-    "durability": {
-      "value": 115,
-      "display_string": "Durability 115 / 115"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3967?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "42",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
       },
-      "id": 3967
-    }
-  ]
+      "value": 142
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+5 Fire Resistance"
+        },
+        "type": {
+          "name": "Fire Resistance",
+          "type": "FIRE_RESISTANCE"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+4 Arcane Resistance"
+        },
+        "type": {
+          "name": "Arcane Resistance",
+          "type": "ARCANE_RESISTANCE"
+        },
+        "value": 4
+      }
+    ]
+  },
+  "purchase_price": 47487,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 23,
+  "sell_price": 9497
 }

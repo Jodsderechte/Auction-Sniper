@@ -4,179 +4,180 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/233529?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 93550,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/93550?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_offhand_1h_outdoorundermine_c_01.jpg",
   "id": 233529,
-  "name": "Gold-Plated Cinderbrew Bottle",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Held In Off-hand",
+    "type": "HOLDABLE"
   },
-  "level": 600,
-  "required_level": 80,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/233529?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 233529
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "HOLDABLE",
-    "name": "Held In Off-hand"
-  },
-  "purchase_price": 2617399,
-  "sell_price": 523479,
+  "level": 600,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 233529,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/233529?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Gold-Plated Cinderbrew Bottle",
   "preview_item": {
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
+    },
+    "inventory_type": {
+      "name": "Held In Off-hand",
+      "type": "HOLDABLE"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 233529,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/233529?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 233529
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Gold-Plated Cinderbrew Bottle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/233529?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 233529
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "HOLDABLE",
-      "name": "Held In Off-hand"
+    "level": {
+      "display_string": "Item Level 600",
+      "value": 600
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 4047,
-        "display": {
-          "display_string": "+4,047 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 7000,
-        "display": {
-          "display_string": "+7,000 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 345,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+345 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 488,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+488 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 233529,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/233529?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 523479,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "52",
-        "silver": "34",
-        "copper": "79"
-      }
+    },
+    "name": "Gold-Plated Cinderbrew Bottle",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
+        "display_string": "Requires Level 80",
+        "value": 80
       }
     },
-    "level": {
-      "value": 600,
-      "display_string": "Item Level 600"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/93550?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "79",
+        "gold": "52",
+        "header": "Sell Price:",
+        "silver": "34"
       },
-      "id": 93550
-    }
-  ]
+      "value": 523479
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4,047 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 4047
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+7,000 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 7000
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+345 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 345
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+488 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 488
+      }
+    ]
+  },
+  "purchase_price": 2617399,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 80,
+  "sell_price": 523479
 }

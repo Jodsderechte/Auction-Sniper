@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/32658?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_armorkit_12.jpg",
   "id": 32658,
-  "name": "Badge of Tenacity",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/32658?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 32658
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 40000,
-  "sell_price": 10000,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 32658,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/32658?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Badge of Tenacity",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 32658,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/32658?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32658
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Badge of Tenacity",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/32658?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32658
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 32658,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/32658?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 4,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+4 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/40729?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Heightened Reflexes",
-          "id": 40729
-        },
-        "description": "Use: Increases agility by 16 for 20 sec. (2 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Badge of Tenacity",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Increases agility by 16 for 20 sec. (2 Min Cooldown)",
+        "spell": {
+          "id": 40729,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/40729?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Heightened Reflexes"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+4 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 4
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 40000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 10000
 }

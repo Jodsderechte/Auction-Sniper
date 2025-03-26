@@ -4,227 +4,228 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/217129?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 91162,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91162?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_leather_undergroundquest_b_01.jpg",
   "id": 217129,
-  "name": "Algari Competitor's Leather Shoulderpads",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 577,
-  "required_level": 80,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/217129?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 217129
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 170475,
-  "sell_price": 34095,
+  "level": 577,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 217129,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/217129?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Algari Competitor's Leather Shoulderpads",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/217129?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "1,516 Armor"
       },
-      "id": 217129
+      "value": 1516
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       11318
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Algari Competitor's Leather Shoulderpads",
-    "media": {
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
+    "item": {
+      "id": 217129,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/217129?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 217129
+        "href": "https://eu.api.blizzard.com/data/wow/item/217129?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
-    },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 1516,
-      "display": {
-        "display_string": "1,516 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 1185,
-        "display": {
-          "display_string": "+1,185 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 1185,
-        "is_negated": true,
-        "display": {
-          "display_string": "+1,185 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5913,
-        "display": {
-          "display_string": "+5,913 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 487,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+487 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 487,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+487 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 34095,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "40",
-        "copper": "95"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
-      }
+      "name": "Leather"
     },
     "level": {
-      "value": 545,
-      "display_string": "Item Level 545"
+      "display_string": "Item Level 545",
+      "value": 545
     },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "media": {
+      "id": 217129,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/217129?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
+        "name": "Mastery",
+        "type": "MASTERY_RATING"
       },
       {
         "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "name": "Versatility",
+        "type": "VERSATILITY"
+      }
+    ],
+    "name": "Algari Competitor's Leather Shoulderpads",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 80",
+        "value": 80
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "95",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "40"
+      },
+      "value": 34095
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+1,185 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 1185
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+1,185 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 1185
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5,913 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5913
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+487 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 487
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+487 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 487
       }
     ]
   },
+  "purchase_price": 170475,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91162?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 91162
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 80,
+  "sell_price": 34095
 }

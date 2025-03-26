@@ -4,138 +4,139 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30775?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 7964,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7964?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shield_21.jpg",
   "id": 30775,
-  "name": "Layered Bone Shield",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Off Hand",
+    "type": "SHIELD"
   },
-  "level": 30,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30775?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30775
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Shield",
-    "id": 6
+    "name": "Shield"
   },
-  "inventory_type": {
-    "type": "SHIELD",
-    "name": "Off Hand"
-  },
-  "purchase_price": 1208889,
-  "sell_price": 241777,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 30775,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30775?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Layered Bone Shield",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "40 Armor"
+      },
+      "value": 40
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Off Hand",
+      "type": "SHIELD"
+    },
     "item": {
+      "id": 30775,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30775?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30775
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Layered Bone Shield",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30775?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30775
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Shield",
-      "id": 6
+      "name": "Shield"
     },
-    "inventory_type": {
-      "type": "SHIELD",
-      "name": "Off Hand"
+    "level": {
+      "display_string": "Item Level 30",
+      "value": 30
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 40,
-      "display": {
-        "display_string": "40 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 30775,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30775?namespace=static-11.1.0_59095-eu"
       }
     },
-    "shield_block": {
-      "value": 100,
-      "display": {
-        "display_string": "100 Block",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "sell_price": {
-      "value": 84,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "84"
-      }
+    "name": "Layered Bone Shield",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 30,
-      "display_string": "Item Level 30"
+    "sell_price": {
+      "display_strings": {
+        "copper": "84",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 84
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "shield_block": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "100 Block"
+      },
+      "value": 100
     }
   },
+  "purchase_price": 1208889,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7964?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7964
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 27,
+  "sell_price": 241777
 }

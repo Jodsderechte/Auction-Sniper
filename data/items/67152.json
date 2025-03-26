@@ -4,139 +4,140 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/67152?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_shell_03.jpg",
   "id": 67152,
-  "name": "Lady La-La's Singing Shell",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 36,
-  "required_level": 30,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/67152?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 67152
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 322031,
-  "sell_price": 80507,
+  "level": 36,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 67152,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/67152?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Lady La-La's Singing Shell",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/67152?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 67152
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4811
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Lady La-La's Singing Shell",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 67152,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/67152?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 67152
+        "href": "https://eu.api.blizzard.com/data/wow/item/67152?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 67152,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/67152?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 405,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+405 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/95877?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "La-La's Song",
-          "id": 95877
-        },
-        "description": "Use: Increases haste by 1,436 for 20 sec. (2 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 80507,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "5",
-        "copper": "7"
-      }
+    "name": "Lady La-La's Singing Shell",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 30,
-        "display_string": "Requires Level 30"
+        "display_string": "Requires Level 30",
+        "value": 30
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "7",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 80507
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Increases haste by 1,436 for 20 sec. (2 Min Cooldown)",
+        "spell": {
+          "id": 95877,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/95877?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "La-La's Song"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+405 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 405
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 322031,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 30,
+  "sell_price": 80507
 }

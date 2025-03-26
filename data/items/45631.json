@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/45631?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_spyglass_03.jpg",
   "id": 45631,
-  "name": "High-Powered Flashlight",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 27,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/45631?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 45631
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 50000,
-  "sell_price": 12500,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 45631,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/45631?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "High-Powered Flashlight",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 45631,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/45631?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45631
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "High-Powered Flashlight",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/45631?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45631
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 27",
+      "value": 27
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 45631,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/45631?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 7,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+7 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/25823?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Spotlight",
-          "id": 25823
-        },
-        "description": "Use: Summon a ring of light on a specific location that lasts for 3 min. (10 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 12500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "25",
-        "copper": "0"
-      }
+    "name": "High-Powered Flashlight",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+        "display_string": "Requires Level 21",
+        "value": 21
       }
     },
-    "level": {
-      "value": 27,
-      "display_string": "Item Level 27"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 12500
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Summon a ring of light on a specific location that lasts for 3 min. (10 Min Cooldown)",
+        "spell": {
+          "id": 25823,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/25823?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Spotlight"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+7 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 7
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 21,
+  "sell_price": 12500
 }

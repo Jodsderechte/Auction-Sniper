@@ -4,167 +4,168 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/153640?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 38000,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/38000?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_2h_jcprofession_c_01.jpg",
   "id": 153640,
-  "name": "Scarlet Diamond Staff of Intuition",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 59,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/153640?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 153640
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 59,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 153640,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/153640?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Scarlet Diamond Staff of Intuition",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 153640,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/153640?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153640
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Scarlet Diamond Staff of Intuition",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/153640?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153640
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
+      "name": "Staff"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 59",
+      "value": 59
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 7,
-        "max_value": 10,
-        "display_string": "7 - 10 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 2.361111,
-        "display_string": "(2.4 damage per second)"
+    "media": {
+      "id": 153640,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/153640?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 28,
-        "display": {
-          "display_string": "+28 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 9,
-        "display": {
-          "display_string": "+9 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Scarlet Diamond Staff of Intuition",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
+        "display_string": "Requires Level 50",
+        "value": 50
       }
     },
-    "level": {
-      "value": 59,
-      "display_string": "Item Level 59"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
+      },
+      "value": 1500
     },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+28 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 28
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+9 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 9
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "7 - 10 Damage",
+        "max_value": 10,
+        "min_value": 7
+      },
+      "dps": {
+        "display_string": "(2.4 damage per second)",
+        "value": 2.361111
+      }
     }
   },
+  "purchase_price": 7500,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/38000?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38000
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 50,
+  "sell_price": 1500
 }

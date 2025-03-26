@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/36645?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2818,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2818?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_rifle_06.jpg",
   "id": 36645,
-  "name": "Tuskarr Boomstick",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 33,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/36645?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 36645
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 461104,
-  "sell_price": 92220,
+  "level": 33,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 36645,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/36645?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Tuskarr Boomstick",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
     "item": {
+      "id": 36645,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/36645?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 36645
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Tuskarr Boomstick",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/36645?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 36645
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 33",
+      "value": 33
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 5,
-        "max_value": 11,
-        "display_string": "5 - 11 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 2.6666665,
-        "display_string": "(2.7 damage per second)"
+    "media": {
+      "id": 36645,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/36645?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 4,
-        "is_negated": true,
-        "display": {
-          "display_string": "+4 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 6,
-        "display": {
-          "display_string": "+6 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 356,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "3",
-        "copper": "56"
-      }
+    "name": "Tuskarr Boomstick",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 33,
-      "display_string": "Item Level 33"
+    "sell_price": {
+      "display_strings": {
+        "copper": "56",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 356
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+4 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+6 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 6
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "5 - 11 Damage",
+        "max_value": 11,
+        "min_value": 5
+      },
+      "dps": {
+        "display_string": "(2.7 damage per second)",
+        "value": 2.6666665
+      }
     }
   },
+  "purchase_price": 461104,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2818?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2818
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 27,
+  "sell_price": 92220
 }

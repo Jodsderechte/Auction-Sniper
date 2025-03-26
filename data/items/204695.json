@@ -4,115 +4,116 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204695?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Cauldron of Extracted Putrescence.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled03b.jpg",
   "id": 204695,
-  "name": "Recipe: Cauldron of Extracted Putrescence",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204695?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204695
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Cauldron of Extracted Putrescence.",
+  "media": {
+    "id": 204695,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204695?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Cauldron of Extracted Putrescence",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 204695,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/204695?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204695
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Recipe: Cauldron of Extracted Putrescence",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204695?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204695
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 204695,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204695?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/405879?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Cauldron of Extracted Putrescence",
-          "id": 405879
-        },
-        "description": "Use: Teaches you how to craft Cauldron of Extracted Putrescence."
-      }
-    ],
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Recipe: Cauldron of Extracted Putrescence",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Alchemy (50)",
+        "level": 50,
         "profession": {
+          "id": 2823,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2823?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Alchemy",
-          "id": 2823
-        },
-        "level": 50,
-        "display_string": "Requires Dragon Isles Alchemy (50)"
+          "name": "Dragon Isles Alchemy"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to craft Cauldron of Extracted Putrescence.",
+        "spell": {
+          "id": 405879,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/405879?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Cauldron of Extracted Putrescence"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

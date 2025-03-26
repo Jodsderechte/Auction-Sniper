@@ -4,167 +4,168 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25285?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3402,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3402?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_wand_03.jpg",
   "id": 25285,
-  "name": "Bloodwood Wand",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 30,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25285?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25285
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Wand",
-    "id": 19
+    "name": "Wand"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 330853,
-  "sell_price": 66170,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25285,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25285?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bloodwood Wand",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 75 / 75",
+      "value": 75
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
     "item": {
+      "id": 25285,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/25285?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25285
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Bloodwood Wand",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25285?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25285
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Wand",
-      "id": 19
+      "name": "Wand"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 30",
+      "value": 30
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 3,
-        "display_string": "1 - 3 Arcane Damage",
-        "damage_class": {
-          "type": "ARCANE",
-          "name": "Arcane"
-        }
-      },
-      "attack_speed": {
-        "value": 2000,
-        "display_string": "Speed 2.00"
-      },
-      "dps": {
-        "value": 1.0,
-        "display_string": "(1 damage per second)"
+    "media": {
+      "id": 25285,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25285?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 11,
-        "display": {
-          "display_string": "+11 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 281,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "81"
-      }
+    "name": "Bloodwood Wand",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
+        "display_string": "Requires Level 25",
+        "value": 25
       }
     },
-    "level": {
-      "value": 30,
-      "display_string": "Item Level 30"
+    "sell_price": {
+      "display_strings": {
+        "copper": "81",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 281
     },
-    "durability": {
-      "value": 75,
-      "display_string": "Durability 75 / 75"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+11 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 11
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.00",
+        "value": 2000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Arcane",
+          "type": "ARCANE"
+        },
+        "display_string": "1 - 3 Arcane Damage",
+        "max_value": 3,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(1 damage per second)",
+        "value": 1.0
+      }
     }
   },
+  "purchase_price": 330853,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3402?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3402
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 25,
+  "sell_price": 66170
 }

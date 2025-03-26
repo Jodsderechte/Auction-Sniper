@@ -4,128 +4,129 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/174021?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 43770,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/43770?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_archaeology_80_witch_bonescythe.jpg",
   "id": 174021,
-  "name": "Age-Worn Shortblade",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/174021?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 174021
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 43796,
-  "sell_price": 10949,
+  "level": 1,
   "max_count": 20,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 174021,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/174021?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Age-Worn Shortblade",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 20 / 20",
+      "value": 20
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 174021,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/174021?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 174021
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Age-Worn Shortblade",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/174021?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 174021
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 174021,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/174021?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Age-Worn Shortblade",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "49",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "9"
+      },
+      "value": 10949
     },
     "unique_equipped": "Unique (20)",
     "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 1,
-        "display_string": "1 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
       "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 Damage",
+        "max_value": 1,
+        "min_value": 1
       },
       "dps": {
-        "value": 0.38461536,
-        "display_string": "(0.4 damage per second)"
+        "display_string": "(0.4 damage per second)",
+        "value": 0.38461536
       }
-    },
-    "sell_price": {
-      "value": 10949,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "9",
-        "copper": "49"
-      }
-    },
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
-    },
-    "durability": {
-      "value": 20,
-      "display_string": "Durability 20 / 20"
     }
   },
+  "purchase_price": 43796,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/43770?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 43770
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 10949
 }

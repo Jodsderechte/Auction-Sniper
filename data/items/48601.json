@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/48601?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_ammo_bullet_01.jpg",
   "id": 48601,
-  "name": "Red Rider Air Rifle Ammo",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/48601?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 48601
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 450,
-  "sell_price": 112,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 48601,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/48601?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Red Rider Air Rifle Ammo",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 48601,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/48601?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 48601
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Red Rider Air Rifle Ammo",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/48601?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 48601
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 48601,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/48601?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Red Rider Air Rifle Ammo",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "12",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 112
+    },
     "spells": [
       {
+        "description": "Use: Refills the Red Rider Air Rifle to 200 shots.",
         "spell": {
+          "id": 67538,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/67538?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Restore Ammo",
-          "id": 67538
-        },
-        "description": "Use: Refills the Red Rider Air Rifle to 200 shots."
+          "name": "Restore Ammo"
+        }
       }
     ],
-    "sell_price": {
-      "value": 112,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "12"
-      }
-    },
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 450,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 112
 }

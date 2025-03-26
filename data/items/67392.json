@@ -4,96 +4,97 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/67392?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_book_18.jpg",
   "id": 67392,
-  "name": "\"Carriage - Exclusive\" Gem Studded Clutch",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 30,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/67392?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 67392
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gem Bag",
-    "id": 5
+    "name": "Gem Bag"
   },
-  "inventory_type": {
-    "type": "BAG",
-    "name": "Bag"
-  },
-  "purchase_price": 900000,
-  "sell_price": 225000,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 67392,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/67392?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "\"Carriage - Exclusive\" Gem Studded Clutch",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "container_slots": {
+      "display_string": "20 Slot Gem Bag",
+      "value": 20
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 67392,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/67392?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 67392
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "\"Carriage - Exclusive\" Gem Studded Clutch",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/67392?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 67392
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gem Bag",
-      "id": 5
+      "name": "Gem Bag"
     },
-    "inventory_type": {
-      "type": "BAG",
-      "name": "Bag"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 225000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "22",
-        "silver": "50",
-        "copper": "0"
+    "media": {
+      "id": 67392,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/67392?namespace=static-11.1.0_59095-eu"
       }
     },
-    "container_slots": {
-      "value": 20,
-      "display_string": "20 Slot Gem Bag"
+    "name": "\"Carriage - Exclusive\" Gem Studded Clutch",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "22",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 225000
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 900000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 225000
 }

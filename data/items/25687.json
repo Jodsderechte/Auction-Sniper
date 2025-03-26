@@ -4,274 +4,275 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25687?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6742,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6742?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_pants_leather_03.jpg",
   "id": 25687,
-  "name": "Fel Leather Leggings",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25687?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25687
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25687,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25687?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fel Leather Leggings",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "6 Armor"
+      },
+      "value": 6
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
+    },
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
     "item": {
+      "id": 25687,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/25687?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25687
-    },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
       }
-    ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Fel Leather Leggings",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25687?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25687
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 6,
-      "display": {
-        "display_string": "6 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 25687,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25687?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 3,
-        "is_negated": true,
-        "display": {
-          "display_string": "+3 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 4,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+4 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 4,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+4 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "socket_bonus": "Socket Bonus: +2 Attack Power",
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Fel Leather Leggings",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/573?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Fel Skin",
-        "id": 573
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/25685?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Fel Leather Gloves",
-            "id": 25685
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/25686?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Fel Leather Boots",
-            "id": 25686
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/25687?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Fel Leather Leggings",
-            "id": 25687
-          }
-        }
-      ],
+      "value": 1500
+    },
+    "set": {
+      "display_string": "Fel Skin (0/3)",
       "effects": [
         {
           "display_string": "(3) Set: Increases your dodge by 10.",
           "required_count": 3
         }
       ],
-      "display_string": "Fel Skin (0/3)",
+      "item_set": {
+        "id": 573,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/573?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Fel Skin"
+      },
+      "items": [
+        {
+          "item": {
+            "id": 25685,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/25685?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Fel Leather Gloves"
+          }
+        },
+        {
+          "item": {
+            "id": 25686,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/25686?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Fel Leather Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 25687,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/25687?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Fel Leather Leggings"
+          }
+        }
+      ],
       "requirements": {
         "skill": {
+          "display_string": "Requires Outland Leatherworking (50)",
+          "level": 50,
           "profession": {
+            "id": 2531,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/profession/2531?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Outland Leatherworking",
-            "id": 2531
-          },
-          "level": 50,
-          "display_string": "Requires Outland Leatherworking (50)"
+            "name": "Outland Leatherworking"
+          }
         }
       }
     },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6742?namespace=static-11.1.0_59095-eu"
+    "socket_bonus": "Socket Bonus: +2 Attack Power",
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
       },
-      "id": 6742
-    }
-  ]
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      },
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+3 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+4 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+4 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 4
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 1500
 }

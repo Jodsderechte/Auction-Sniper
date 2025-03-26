@@ -4,213 +4,214 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/171384?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 42746,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/42746?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mace_1h_revendrethquest_b_01.jpg",
   "id": 171384,
-  "name": "Ceremonious Smasher",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 100,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/171384?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 171384
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 5
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 4329357,
-  "sell_price": 865871,
+  "level": 100,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 171384,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/171384?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ceremonious Smasher",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 171384,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/171384?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 171384
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Ceremonious Smasher",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/171384?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 171384
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 5
-    },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 10,
-        "max_value": 13,
-        "display_string": "10 - 13 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 3.1944444,
-        "display_string": "(3.2 damage per second)"
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 39,
-        "display": {
-          "display_string": "+39 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 13,
-        "display": {
-          "display_string": "+13 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 9,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+9 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 9,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+9 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 10464,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "4",
-        "copper": "64"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
-      }
+      "name": "Mace"
     },
     "level": {
-      "value": 100,
-      "display_string": "Item Level 100"
+      "display_string": "Item Level 100",
+      "value": 100
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "media": {
+      "id": 171384,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/171384?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
+        "name": "Critical Strike",
+        "type": "CRIT_RATING"
       },
       {
         "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
+        "name": "Mastery",
+        "type": "MASTERY_RATING"
       }
-    ]
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/42746?namespace=static-11.1.0_59095-eu"
+    ],
+    "name": "Ceremonious Smasher",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 50",
+        "value": 50
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "64",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "4"
       },
-      "id": 42746
+      "value": 10464
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+39 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 39
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+13 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 13
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+9 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 9
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+9 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 9
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "10 - 13 Damage",
+        "max_value": 13,
+        "min_value": 10
+      },
+      "dps": {
+        "display_string": "(3.2 damage per second)",
+        "value": 3.1944444
+      }
     }
-  ]
+  },
+  "purchase_price": 4329357,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 50,
+  "sell_price": 865871
 }

@@ -4,215 +4,216 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/206563?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Shroud of Forbidden Magic.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 206563,
-  "name": "Ancient Pattern: Shroud of Forbidden Magic",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/206563?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 206563
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Shroud of Forbidden Magic.",
+  "media": {
+    "id": 206563,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/206563?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Pattern: Shroud of Forbidden Magic",
   "preview_item": {
+    "description": "Teaches you how to craft Shroud of Forbidden Magic.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 206563,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/206563?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206563
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Ancient Pattern: Shroud of Forbidden Magic",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/206563?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206563
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 300,
-        "display_string": "Requires Classic Tailoring (300)"
+    "media": {
+      "id": 206563,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/206563?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Shroud of Forbidden Magic.",
+    "name": "Ancient Pattern: Shroud of Forbidden Magic",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Head",
+          "type": "HEAD"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 206562,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/206562?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 206562
-        },
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Shroud of Forbidden Magic",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/206562?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 206562
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 5,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cosmetic",
-          "id": 5
-        },
-        "inventory_type": {
-          "type": "HEAD",
-          "name": "Head"
-        },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "sell_price": {
-          "value": 50000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "5",
-            "silver": "0",
-            "copper": "0"
-          }
+          "name": "Cosmetic"
         },
         "level": {
-          "value": 26,
-          "display_string": "Item Level 26"
+          "display_string": "Item Level 26",
+          "value": 26
         },
-        "is_subclass_hidden": true
+        "media": {
+          "id": 206562,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/206562?namespace=static-11.1.0_59095-eu"
+          }
+        },
+        "name": "Shroud of Forbidden Magic",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "5",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 50000
+        }
       },
       "reagents": [
         {
+          "quantity": 200,
           "reagent": {
+            "id": 207702,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/207702?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Wartorn Scrap",
-            "id": 207702
-          },
-          "quantity": 200
+            "name": "Wartorn Scrap"
+          }
         },
         {
+          "quantity": 100,
           "reagent": {
+            "id": 12808,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12808?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Essence of Undeath",
-            "id": 12808
-          },
-          "quantity": 100
+            "name": "Essence of Undeath"
+          }
         },
         {
+          "quantity": 50,
           "reagent": {
+            "id": 14256,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14256?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Felcloth",
-            "id": 14256
-          },
-          "quantity": 50
+            "name": "Felcloth"
+          }
         },
         {
+          "quantity": 60,
           "reagent": {
+            "id": 14344,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14344?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Large Brilliant Shard",
-            "id": 14344
-          },
-          "quantity": 60
+            "name": "Large Brilliant Shard"
+          }
         },
         {
+          "quantity": 25,
           "reagent": {
+            "id": 20520,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/20520?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Dark Rune",
-            "id": 20520
-          },
-          "quantity": 25
+            "name": "Dark Rune"
+          }
         },
         {
+          "quantity": 20,
           "reagent": {
+            "id": 9210,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/9210?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Ghost Dye",
-            "id": 9210
-          },
-          "quantity": 20
+            "name": "Ghost Dye"
+          }
         }
       ],
       "reagents_display_string": "Wartorn Scrap (200), Essence of Undeath (100), Felcloth (50), Large Brilliant Shard (60), Dark Rune (25), Ghost Dye (20)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (300)",
+        "level": 300,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

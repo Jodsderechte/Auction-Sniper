@@ -4,89 +4,90 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18333?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Dark runes skitter across the surface.",
+  "icon_path": "data\\icons\\inv_misc_book_04.jpg",
   "id": 18333,
-  "name": "Libram of Focus",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 21,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18333?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18333
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Book",
-    "id": 0
+    "name": "Book"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 21,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Dark runes skitter across the surface.",
+  "media": {
+    "id": 18333,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18333?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Libram of Focus",
   "preview_item": {
+    "description": "Dark runes skitter across the surface.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18333,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18333?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18333
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Libram of Focus",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18333?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18333
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Book",
-      "id": 0
+      "name": "Book"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "requirements": {
-      "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+    "media": {
+      "id": 18333,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18333?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Dark runes skitter across the surface.",
-    "is_subclass_hidden": true
+    "name": "Libram of Focus",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 21",
+        "value": 21
+      }
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 21,
+  "sell_price": 0
 }

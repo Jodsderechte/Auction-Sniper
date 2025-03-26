@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/44326?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Property of the Darkmoon Faire.",
+  "icon_path": "data\\icons\\inv_misc_ticket_tarot_nobles.jpg",
   "id": 44326,
-  "name": "Nobles Deck",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 30,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/44326?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 44326
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 600000,
-  "sell_price": 150000,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Property of the Darkmoon Faire.",
+  "media": {
+    "id": 44326,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/44326?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Nobles Deck",
   "preview_item": {
+    "description": "Property of the Darkmoon Faire.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 44326,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/44326?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44326
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Nobles Deck",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/44326?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44326
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "description": "Property of the Darkmoon Faire.",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 13326,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/13326?namespace=static-11.1.0_59095-eu"
         },
-        "name": "Darkmoon Nobles Deck",
-        "id": 13326
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "Darkmoon Nobles Deck"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 44326,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/44326?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Nobles Deck",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 600000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 150000
 }

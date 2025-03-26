@@ -4,126 +4,127 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5319?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1851,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1851?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_07.jpg",
   "id": 5319,
-  "name": "Bashing Pauldrons",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 12,
-  "required_level": 7,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5319?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5319
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 2258,
-  "sell_price": 451,
+  "level": 12,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 5319,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5319?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bashing Pauldrons",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "3 Armor"
+      },
+      "value": 3
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 45 / 45",
+      "value": 45
+    },
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
     "item": {
+      "id": 5319,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/5319?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5319
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Bashing Pauldrons",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5319?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5319
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
+    "level": {
+      "display_string": "Item Level 12",
+      "value": 12
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 3,
-      "display": {
-        "display_string": "3 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 5319,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5319?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 15,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "15"
-      }
+    "name": "Bashing Pauldrons",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 7,
-        "display_string": "Requires Level 7"
+        "display_string": "Requires Level 7",
+        "value": 7
       }
     },
-    "level": {
-      "value": 12,
-      "display_string": "Item Level 12"
-    },
-    "durability": {
-      "value": 45,
-      "display_string": "Durability 45 / 45"
+    "sell_price": {
+      "display_strings": {
+        "copper": "15",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 15
     }
   },
+  "purchase_price": 2258,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1851?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1851
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 7,
+  "sell_price": 451
 }

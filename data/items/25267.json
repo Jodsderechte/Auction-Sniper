@@ -4,172 +4,173 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25267?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 889,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/889?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_crossbow_02.jpg",
   "id": 25267,
-  "name": "Rampant Crossbow",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25267?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25267
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 18,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Crossbow",
-    "id": 18
+    "name": "Crossbow"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 4227687,
-  "sell_price": 845537,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25267,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25267?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Rampant Crossbow",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/25267?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25267
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6655
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Rampant Crossbow",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 25267,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25267?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25267
+        "href": "https://eu.api.blizzard.com/data/wow/item/25267?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 18,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Crossbow",
-      "id": 18
+      "name": "Crossbow"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 495,
-        "max_value": 743,
-        "display_string": "495 - 743 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 206.33331,
-        "display_string": "(206.3 damage per second)"
+    "media": {
+      "id": 25267,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25267?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 274,
-        "is_negated": true,
-        "display": {
-          "display_string": "+274 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 496,
-        "display": {
-          "display_string": "+496 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 602092,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "60",
-        "silver": "20",
-        "copper": "92"
-      }
+    "name": "Rampant Crossbow",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
+    "sell_price": {
+      "display_strings": {
+        "copper": "92",
+        "gold": "60",
+        "header": "Sell Price:",
+        "silver": "20"
+      },
+      "value": 602092
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+274 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 274
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+496 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 496
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "495 - 743 Damage",
+        "max_value": 743,
+        "min_value": 495
+      },
+      "dps": {
+        "display_string": "(206.3 damage per second)",
+        "value": 206.33331
+      }
     }
   },
+  "purchase_price": 4227687,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/889?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 889
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 27,
+  "sell_price": 845537
 }

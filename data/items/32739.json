@@ -4,293 +4,294 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/32739?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Dawnsteel Shoulders.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 32739,
-  "name": "Plans: Dawnsteel Shoulders",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/32739?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 32739
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 30000,
-  "sell_price": 7500,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Dawnsteel Shoulders.",
+  "media": {
+    "id": 32739,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/32739?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Dawnsteel Shoulders",
   "preview_item": {
+    "description": "Teaches you how to make Dawnsteel Shoulders.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 32739,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/32739?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32739
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Plans: Dawnsteel Shoulders",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/32739?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32739
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 7500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "75",
-        "copper": "0"
+    "media": {
+      "id": 32739,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/32739?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Blacksmithing",
-          "id": 2476
-        },
-        "level": 75,
-        "display_string": "Requires Outland Blacksmithing (75)"
-      }
+    "name": "Plans: Dawnsteel Shoulders",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to make Dawnsteel Shoulders.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "10 Armor"
+          },
+          "value": 10
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "durability": {
+          "display_string": "Durability 100 / 100",
+          "value": 100
+        },
+        "inventory_type": {
+          "name": "Shoulder",
+          "type": "SHOULDER"
+        },
         "item": {
+          "id": 32573,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/32573?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 32573
-        },
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Dawnsteel Shoulders",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/32573?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 32573
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Plate",
-          "id": 4
+          "name": "Plate"
         },
-        "inventory_type": {
-          "type": "SHOULDER",
-          "name": "Shoulder"
+        "level": {
+          "display_string": "Item Level 32",
+          "value": 32
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
-        },
-        "armor": {
-          "value": 10,
-          "display": {
-            "display_string": "10 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 32573,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/32573?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "HASTE_RATING",
-              "name": "Haste"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Haste",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 75924,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "7",
-            "silver": "59",
-            "copper": "24"
-          }
+        "name": "Dawnsteel Shoulders",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           }
         },
-        "level": {
-          "value": 32,
-          "display_string": "Item Level 32"
+        "sell_price": {
+          "display_strings": {
+            "copper": "24",
+            "gold": "7",
+            "header": "Sell Price:",
+            "silver": "59"
+          },
+          "value": 75924
         },
-        "durability": {
-          "value": 100,
-          "display_string": "Durability 100 / 100"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Haste"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Haste",
+              "type": "HASTE_RATING"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 18,
           "reagent": {
+            "id": 23449,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23449?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Khorium Bar",
-            "id": 23449
-          },
-          "quantity": 18
+            "name": "Khorium Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 23573,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23573?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Hardened Adamantite Bar",
-            "id": 23573
-          },
-          "quantity": 2
+            "name": "Hardened Adamantite Bar"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 21884,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21884?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Fire",
-            "id": 21884
-          },
-          "quantity": 8
+            "name": "Primal Fire"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 32428,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/32428?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heart of Darkness",
-            "id": 32428
-          },
-          "quantity": 2
+            "name": "Heart of Darkness"
+          }
         }
       ],
       "reagents_display_string": "Khorium Bar (18), Hardened Adamantite Bar (2), Primal Fire (8), Heart of Darkness (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Blacksmithing (75)",
+        "level": 75,
+        "profession": {
+          "id": 2476,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 7500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 30000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 7500
 }

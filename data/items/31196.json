@@ -4,158 +4,159 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/31196?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_necklace_31.jpg",
   "id": 31196,
-  "name": "Amulet of Sanctification",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 31,
-  "required_level": 26,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/31196?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 31196
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 35155,
-  "sell_price": 8788,
+  "level": 31,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 31196,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/31196?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Amulet of Sanctification",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/31196?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31196
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
     },
-    "name": "Amulet of Sanctification",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 31196,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/31196?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31196
+        "href": "https://eu.api.blizzard.com/data/wow/item/31196?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 89,
-        "display": {
-          "display_string": "+89 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 258,
-        "display": {
-          "display_string": "+258 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 350,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+350 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 31196,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/31196?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 8788,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "87",
-        "copper": "88"
-      }
+    },
+    "name": "Amulet of Sanctification",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 26,
-        "display_string": "Requires Level 26"
+        "display_string": "Requires Level 26",
+        "value": 26
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "88",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "87"
+      },
+      "value": 8788
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+89 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 89
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+258 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 258
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+350 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 350
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 35155,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 26,
+  "sell_price": 8788
 }

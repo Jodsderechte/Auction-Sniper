@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/200906?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_inscription_weaponscroll03.jpg",
   "id": 200906,
-  "name": "Illusion: Primal Fire",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/200906?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 200906
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000,
-  "sell_price": 10000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 200906,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/200906?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Illusion: Primal Fire",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 200906,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/200906?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200906
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Illusion: Primal Fire",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/200906?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200906
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 200906,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/200906?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Illusion: Primal Fire",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Collect the weapon enchantment appearance of Primal Fire. (1 Sec Cooldown)",
         "spell": {
+          "id": 392473,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/392473?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Illusion: Primal Fire",
-          "id": 392473
-        },
-        "description": "Use: Collect the weapon enchantment appearance of Primal Fire. (1 Sec Cooldown)"
+          "name": "Illusion: Primal Fire"
+        }
       }
-    ],
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 10000
 }

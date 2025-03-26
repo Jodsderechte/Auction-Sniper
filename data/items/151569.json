@@ -4,97 +4,98 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/151569?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon this companion.",
+  "icon_path": "data\\icons\\achievement_brewery_1.jpg",
   "id": 151569,
-  "name": "Sneaky Marmot",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/151569?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 151569
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon this companion.",
+  "media": {
+    "id": 151569,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/151569?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Sneaky Marmot",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 151569,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/151569?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 151569
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Sneaky Marmot",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/151569?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 151569
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 151569,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/151569?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "name": "Sneaky Marmot",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "spells": [
       {
+        "description": "Use: Teaches you how to summon this companion.",
         "spell": {
+          "id": 247123,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/247123?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Sneaky Marmot",
-          "id": 247123
-        },
-        "description": "Use: Teaches you how to summon this companion."
+          "name": "Sneaky Marmot"
+        }
       }
-    ],
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

@@ -4,115 +4,116 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21766?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_necklace_14.jpg",
   "id": 21766,
-  "name": "Opal Necklace of Impact",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 26,
-  "required_level": 20,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21766?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21766
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 30000,
-  "sell_price": 7500,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 21766,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21766?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Opal Necklace of Impact",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21766,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21766?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21766
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Opal Necklace of Impact",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21766?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21766
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 26",
+      "value": 26
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/26598?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Weapon Damage",
-          "id": 26598
-        },
-        "description": "Equip: +1 Weapon Damage."
+    "media": {
+      "id": 21766,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21766?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 7500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "75",
-        "copper": "0"
-      }
+    },
+    "name": "Opal Necklace of Impact",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 20,
-        "display_string": "Requires Level 20"
+        "display_string": "Requires Level 20",
+        "value": 20
       }
     },
-    "level": {
-      "value": 26,
-      "display_string": "Item Level 26"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 7500
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: +1 Weapon Damage.",
+        "spell": {
+          "id": 26598,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/26598?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Weapon Damage"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 30000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 20,
+  "sell_price": 7500
 }

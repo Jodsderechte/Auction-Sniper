@@ -4,127 +4,128 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4396?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_head_dragon_01.jpg",
   "id": 4396,
-  "name": "Mechanical Dragonling",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 22,
-  "required_level": 13,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4396?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4396
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 24000,
-  "sell_price": 6000,
+  "level": 22,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4396,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4396?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Mechanical Dragonling",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 4396,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/4396?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4396
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Mechanical Dragonling",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4396?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4396
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 22",
+      "value": 22
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/4073?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Mechanical Dragonling",
-          "id": 4073
-        },
-        "description": "Use: Activates your Mechanical Dragonling to fight for you for 1 min. (5 Min Cooldown)"
+    "media": {
+      "id": 4396,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4396?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 6000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "60",
-        "copper": "0"
-      }
+    },
+    "name": "Mechanical Dragonling",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 13,
-        "display_string": "Requires Level 13"
+        "display_string": "Requires Level 13",
+        "value": 13
       },
       "skill": {
+        "display_string": "Requires Classic Engineering (200)",
+        "level": 200,
         "profession": {
+          "id": 2506,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 200,
-        "display_string": "Requires Classic Engineering (200)"
+          "name": "Classic Engineering"
+        }
       }
     },
-    "level": {
-      "value": 22,
-      "display_string": "Item Level 22"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "60"
+      },
+      "value": 6000
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Activates your Mechanical Dragonling to fight for you for 1 min. (5 Min Cooldown)",
+        "spell": {
+          "id": 4073,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/4073?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Mechanical Dragonling"
+        }
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 24000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 13,
+  "sell_price": 6000
 }

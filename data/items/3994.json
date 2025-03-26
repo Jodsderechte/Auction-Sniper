@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3994?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1444,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1444?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_bracer_03.jpg",
   "id": 3994,
-  "name": "Laminated Scale Bracers",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Wrist",
+    "type": "WRIST"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3994?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3994
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "WRIST",
-    "name": "Wrist"
-  },
-  "purchase_price": 409642,
-  "sell_price": 81928,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 3994,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3994?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Laminated Scale Bracers",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/3994?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "197 Armor"
       },
-      "id": 3994
+      "value": 197
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
     },
-    "name": "Laminated Scale Bracers",
-    "media": {
+    "inventory_type": {
+      "name": "Wrist",
+      "type": "WRIST"
+    },
+    "item": {
+      "id": 3994,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3994?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3994
+        "href": "https://eu.api.blizzard.com/data/wow/item/3994?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "WRIST",
-      "name": "Wrist"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 197,
-      "display": {
-        "display_string": "197 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 3994,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3994?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 55575,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "55",
-        "copper": "75"
-      }
+    "name": "Laminated Scale Bracers",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "55"
+      },
+      "value": 55575
     }
   },
+  "purchase_price": 409642,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1444?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1444
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 22,
+  "sell_price": 81928
 }

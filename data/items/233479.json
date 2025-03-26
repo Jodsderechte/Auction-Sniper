@@ -4,194 +4,195 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/233479?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 104709,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/104709?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_cloth_outdoorundermine_c_01_chest.jpg",
   "id": 233479,
-  "name": "Shimmerthread Robe",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "ROBE"
   },
-  "level": 600,
-  "required_level": 80,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/233479?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 233479
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cloth",
-    "id": 1
+    "name": "Cloth"
   },
-  "inventory_type": {
-    "type": "ROBE",
-    "name": "Chest"
-  },
-  "purchase_price": 3168530,
-  "sell_price": 633706,
+  "level": 600,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 233479,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/233479?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Shimmerthread Robe",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "2,058 Armor"
+      },
+      "value": 2058
+    },
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
+    },
+    "durability": {
+      "display_string": "Durability 115 / 115",
+      "value": 115
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "ROBE"
+    },
     "item": {
+      "id": 233479,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/233479?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 233479
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Shimmerthread Robe",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/233479?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 233479
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cloth",
-      "id": 1
+      "name": "Cloth"
     },
-    "inventory_type": {
-      "type": "ROBE",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 600",
+      "value": 600
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
-    },
-    "armor": {
-      "value": 2058,
-      "display": {
-        "display_string": "2,058 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 233479,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/233479?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 2638,
-        "display": {
-          "display_string": "+2,638 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 14000,
-        "display": {
-          "display_string": "+14,000 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 905,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+905 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 762,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+762 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 633706,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "63",
-        "silver": "37",
-        "copper": "6"
-      }
+    "name": "Shimmerthread Robe",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
+        "display_string": "Requires Level 80",
+        "value": 80
       }
     },
-    "level": {
-      "value": 600,
-      "display_string": "Item Level 600"
-    },
-    "durability": {
-      "value": 115,
-      "display_string": "Durability 115 / 115"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/104709?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "6",
+        "gold": "63",
+        "header": "Sell Price:",
+        "silver": "37"
       },
-      "id": 104709
-    }
-  ]
+      "value": 633706
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2,638 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 2638
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+14,000 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 14000
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+905 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 905
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+762 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 762
+      }
+    ]
+  },
+  "purchase_price": 3168530,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 80,
+  "sell_price": 633706
 }

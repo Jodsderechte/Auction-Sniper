@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/170315?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 36732,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/36732?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_firearm_2h_warfrontshorde_c_01.jpg",
   "id": 170315,
-  "name": "Uncanny Combatant's Stormsteel Destroyer",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 72,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/170315?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 170315
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 6685052,
-  "sell_price": 1337010,
+  "level": 72,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 170315,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/170315?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Uncanny Combatant's Stormsteel Destroyer",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 120 / 120",
+      "value": 120
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
     "item": {
+      "id": 170315,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/170315?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 170315
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Uncanny Combatant's Stormsteel Destroyer",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/170315?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 170315
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 72",
+      "value": 72
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 15,
-        "max_value": 15,
-        "display_string": "15 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 4.9999995,
-        "display_string": "(5.0 damage per second)"
+    "media": {
+      "id": 170315,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/170315?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 7,
-        "is_negated": true,
-        "display": {
-          "display_string": "+7 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 10,
-        "display": {
-          "display_string": "+10 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 5695,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "56",
-        "copper": "95"
-      }
+    "name": "Uncanny Combatant's Stormsteel Destroyer",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
+        "display_string": "Requires Level 50",
+        "value": 50
       }
     },
-    "level": {
-      "value": 72,
-      "display_string": "Item Level 72"
+    "sell_price": {
+      "display_strings": {
+        "copper": "95",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "56"
+      },
+      "value": 5695
     },
-    "durability": {
-      "value": 120,
-      "display_string": "Durability 120 / 120"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+7 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 7
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+10 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 10
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "15 Damage",
+        "max_value": 15,
+        "min_value": 15
+      },
+      "dps": {
+        "display_string": "(5.0 damage per second)",
+        "value": 4.9999995
+      }
     }
   },
+  "purchase_price": 6685052,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/36732?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 36732
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 50,
+  "sell_price": 1337010
 }

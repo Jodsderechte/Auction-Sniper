@@ -4,278 +4,279 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3866?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Jade Serpentblade.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 3866,
-  "name": "Plans: Jade Serpentblade",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3866?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3866
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 4000,
-  "sell_price": 1000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Jade Serpentblade.",
+  "media": {
+    "id": 3866,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3866?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Jade Serpentblade",
   "preview_item": {
+    "description": "Teaches you how to make a Jade Serpentblade.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 3866,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/3866?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3866
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Plans: Jade Serpentblade",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3866?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3866
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "10",
-        "copper": "0"
+    "media": {
+      "id": 3866,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3866?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 175,
-        "display_string": "Requires Classic Blacksmithing (175)"
-      }
+    "name": "Plans: Jade Serpentblade",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to make a Jade Serpentblade.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 55 / 55",
+          "value": 55
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 3850,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/3850?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3850
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Jade Serpentblade",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/3850?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3850
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 7,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Sword",
-          "id": 7
+          "name": "Sword"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 20",
+          "value": 20
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 3,
-            "max_value": 5,
-            "display_string": "3 - 5 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 2600,
-            "display_string": "Speed 2.60"
-          },
-          "dps": {
-            "value": 1.5384614,
-            "display_string": "(1.5 damage per second)"
+        "media": {
+          "id": 3850,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/3850?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Jade Serpentblade",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 13,
-            "display_string": "Requires Level 13"
+            "display_string": "Requires Level 13",
+            "value": 13
           }
         },
-        "level": {
-          "value": 20,
-          "display_string": "Item Level 20"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 55,
-          "display_string": "Durability 55 / 55"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 2
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.60",
+            "value": 2600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "3 - 5 Damage",
+            "max_value": 5,
+            "min_value": 3
+          },
+          "dps": {
+            "display_string": "(1.5 damage per second)",
+            "value": 1.5384614
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 8,
           "reagent": {
+            "id": 3575,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3575?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Iron Bar",
-            "id": 3575
-          },
-          "quantity": 8
+            "name": "Iron Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 3466,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3466?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Strong Flux",
-            "id": 3466
-          },
-          "quantity": 2
+            "name": "Strong Flux"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 3486,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3486?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Grinding Stone",
-            "id": 3486
-          },
-          "quantity": 2
+            "name": "Heavy Grinding Stone"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 1529,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1529?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Jade",
-            "id": 1529
-          },
-          "quantity": 2
+            "name": "Jade"
+          }
         },
         {
+          "quantity": 3,
           "reagent": {
+            "id": 4234,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4234?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Leather",
-            "id": 4234
-          },
-          "quantity": 3
+            "name": "Heavy Leather"
+          }
         }
       ],
       "reagents_display_string": "Iron Bar (8), Strong Flux (2), Heavy Grinding Stone (2), Jade (2), Heavy Leather (3)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (175)",
+        "level": 175,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "10"
+      },
+      "value": 1000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 4000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1000
 }

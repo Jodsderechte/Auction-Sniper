@@ -4,311 +4,312 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/206532?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Soulscryer.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 206532,
-  "name": "Ancient Technique: Soulscryer",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/206532?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 206532
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Inscription",
-    "id": 11
+    "name": "Inscription"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Soulscryer.",
+  "media": {
+    "id": 206532,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/206532?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Technique: Soulscryer",
   "preview_item": {
+    "description": "Teaches you how to craft Soulscryer.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 206532,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/206532?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206532
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Ancient Technique: Soulscryer",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/206532?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206532
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Inscription",
-      "id": 11
+      "name": "Inscription"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2514?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Inscription",
-          "id": 2514
-        },
-        "level": 300,
-        "display_string": "Requires Classic Inscription (300)"
+    "media": {
+      "id": 206532,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/206532?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Soulscryer.",
+    "name": "Ancient Technique: Soulscryer",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 120 / 120",
+          "value": 120
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
         "item": {
+          "id": 206485,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/206485?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 206485
-        },
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Soulscryer",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/206485?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 206485
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 10,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Staff",
-          "id": 10
+          "name": "Staff"
         },
-        "inventory_type": {
-          "type": "TWOHWEAPON",
-          "name": "Two-Hand"
+        "level": {
+          "display_string": "Item Level 30",
+          "value": 30
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 4,
-            "max_value": 6,
-            "display_string": "4 - 6 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3600,
-            "display_string": "Speed 3.60"
-          },
-          "dps": {
-            "value": 1.3888888,
-            "display_string": "(1.4 damage per second)"
+        "media": {
+          "id": 206485,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/206485?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 17,
-            "display": {
-              "display_string": "+17 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 5,
-            "display": {
-              "display_string": "+5 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 5,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+5 Critical Strike",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "HASTE_RATING",
-              "name": "Haste"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Haste",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 449,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "4",
-            "copper": "49"
-          }
+        "name": "Soulscryer",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 25,
-            "display_string": "Requires Level 25"
+            "display_string": "Requires Level 25",
+            "value": 25
           }
         },
-        "level": {
-          "value": 30,
-          "display_string": "Item Level 30"
+        "sell_price": {
+          "display_strings": {
+            "copper": "49",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "4"
+          },
+          "value": 449
         },
-        "durability": {
-          "value": 120,
-          "display_string": "Durability 120 / 120"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+17 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 17
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Haste"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Haste",
+              "type": "HASTE_RATING"
+            },
+            "value": 4
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.60",
+            "value": 3600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "4 - 6 Damage",
+            "max_value": 6,
+            "min_value": 4
+          },
+          "dps": {
+            "display_string": "(1.4 damage per second)",
+            "value": 1.3888888
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 12,
           "reagent": {
+            "id": 22682,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/22682?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Frozen Rune",
-            "id": 22682
-          },
-          "quantity": 12
+            "name": "Frozen Rune"
+          }
         },
         {
+          "quantity": 20,
           "reagent": {
+            "id": 12361,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12361?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Blue Sapphire",
-            "id": 12361
-          },
-          "quantity": 20
+            "name": "Blue Sapphire"
+          }
         },
         {
+          "quantity": 12,
           "reagent": {
+            "id": 3577,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3577?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Gold Bar",
-            "id": 3577
-          },
-          "quantity": 12
+            "name": "Gold Bar"
+          }
         },
         {
+          "quantity": 40,
           "reagent": {
+            "id": 12808,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12808?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Essence of Undeath",
-            "id": 12808
-          },
-          "quantity": 40
+            "name": "Essence of Undeath"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 4470,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4470?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Simple Wood",
-            "id": 4470
-          },
-          "quantity": 1
+            "name": "Simple Wood"
+          }
         },
         {
+          "quantity": 0,
           "reagent": {
+            "id": 198623,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/198623?namespace=static-11.1.0_59095-eu"
             },
-            "name": "JSherwood Test Item 1",
-            "id": 198623
-          },
-          "quantity": 0
+            "name": "JSherwood Test Item 1"
+          }
         }
       ],
       "reagents_display_string": "Frozen Rune (12), Blue Sapphire (20), Gold Bar (12), Essence of Undeath (40), Simple Wood, JSherwood Test Item 1"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Inscription (300)",
+        "level": 300,
+        "profession": {
+          "id": 2514,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2514?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Inscription"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 30000
 }

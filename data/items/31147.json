@@ -4,142 +4,143 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/31147?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_necklace_06.jpg",
   "id": 31147,
-  "name": "Pendant of Cunning",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 30,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/31147?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 31147
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 115344,
-  "sell_price": 28836,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 31147,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/31147?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pendant of Cunning",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/31147?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31147
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
     },
-    "name": "Pendant of Cunning",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 31147,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/31147?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31147
+        "href": "https://eu.api.blizzard.com/data/wow/item/31147?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 205,
-        "is_negated": true,
-        "display": {
-          "display_string": "+205 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 400,
-        "display": {
-          "display_string": "+400 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 31147,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/31147?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 28836,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "88",
-        "copper": "36"
-      }
+    },
+    "name": "Pendant of Cunning",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
+        "display_string": "Requires Level 25",
+        "value": 25
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "36",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "88"
+      },
+      "value": 28836
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+205 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 205
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+400 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 400
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 115344,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 25,
+  "sell_price": 28836
 }

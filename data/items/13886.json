@@ -4,97 +4,98 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13886?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2018,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2018?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_misc_fish_06.jpg",
   "id": 13886,
-  "name": "37 Pound Redgill",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Held In Off-hand",
+    "type": "HOLDABLE"
   },
-  "level": 24,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13886?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13886
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "HOLDABLE",
-    "name": "Held In Off-hand"
-  },
-  "purchase_price": 27966,
-  "sell_price": 6991,
+  "level": 24,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13886,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13886?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "37 Pound Redgill",
   "preview_item": {
+    "inventory_type": {
+      "name": "Held In Off-hand",
+      "type": "HOLDABLE"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 13886,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/13886?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13886
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "37 Pound Redgill",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13886?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13886
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "HOLDABLE",
-      "name": "Held In Off-hand"
-    },
-    "sell_price": {
-      "value": 58,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "58"
+    "media": {
+      "id": 13886,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13886?namespace=static-11.1.0_59095-eu"
       }
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2018?namespace=static-11.1.0_59095-eu"
+    "name": "37 Pound Redgill",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "58",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 2018
+      "value": 58
     }
-  ]
+  },
+  "purchase_price": 27966,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 6991
 }

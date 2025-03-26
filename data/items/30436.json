@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30436?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_gem_azuredraenite_03.jpg",
   "id": 30436,
-  "name": "Jagged Blue Crystal",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30436?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30436
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 30436,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30436?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Jagged Blue Crystal",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 30436,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30436?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30436
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Jagged Blue Crystal",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30436?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30436
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 30436,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30436?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Jagged Blue Crystal",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
     "spells": [
       {
+        "description": "Use: Create a Cache of the Legion Key by combining a Jagged Blue Crystal and Jagged Red Crystal.",
         "spell": {
+          "id": 36565,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/36565?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Crystal Combine",
-          "id": 36565
-        },
-        "description": "Use: Create a Cache of the Legion Key by combining a Jagged Blue Crystal and Jagged Red Crystal."
+          "name": "Crystal Combine"
+        }
       }
     ],
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

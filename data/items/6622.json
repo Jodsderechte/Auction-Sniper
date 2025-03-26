@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6622?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2201,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2201?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_39.jpg",
   "id": 6622,
-  "name": "Sword of Zeal",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 29,
-  "required_level": 24,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6622?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6622
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 80693,
-  "sell_price": 16138,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 6622,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6622?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Sword of Zeal",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/6622?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6622
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 90 / 90",
+      "value": 90
     },
-    "name": "Sword of Zeal",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 6622,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6622?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6622
+        "href": "https://eu.api.blizzard.com/data/wow/item/6622?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 318,
-        "max_value": 531,
-        "display_string": "318 - 531 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 163.26923,
-        "display_string": "(163.3 damage per second)"
+    "media": {
+      "id": 6622,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6622?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/8191?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Zeal",
-          "id": 8191
-        },
-        "description": "Chance on hit: A burst of energy fills the caster, increasing his damage by 151 and armor by 227 for 15 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 568522,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "56",
-        "silver": "85",
-        "copper": "22"
-      }
+    "name": "Sword of Zeal",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 24,
-        "display_string": "Requires Level 24"
+        "display_string": "Requires Level 24",
+        "value": 24
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "22",
+        "gold": "56",
+        "header": "Sell Price:",
+        "silver": "85"
+      },
+      "value": 568522
     },
-    "durability": {
-      "value": 90,
-      "display_string": "Durability 90 / 90"
+    "spells": [
+      {
+        "description": "Chance on hit: A burst of energy fills the caster, increasing his damage by 151 and armor by 227 for 15 sec.",
+        "spell": {
+          "id": 8191,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/8191?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Zeal"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "318 - 531 Damage",
+        "max_value": 531,
+        "min_value": 318
+      },
+      "dps": {
+        "display_string": "(163.3 damage per second)",
+        "value": 163.26923
+      }
     }
   },
+  "purchase_price": 80693,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2201?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2201
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 24,
+  "sell_price": 16138
 }

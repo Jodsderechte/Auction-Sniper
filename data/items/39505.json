@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/39505?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "A set of precision quills and fine crystalline bottles to inspire and empower the truly dedicated scribe.",
+  "icon_path": "data\\icons\\inv_misc_enggizmos_19.jpg",
   "id": 39505,
-  "name": "Virtuoso Inking Set",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/39505?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 39505
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Inscription",
-    "id": 12
+    "name": "Inscription"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 750,
-  "sell_price": 18,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "A set of precision quills and fine crystalline bottles to inspire and empower the truly dedicated scribe.",
+  "media": {
+    "id": 39505,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/39505?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Virtuoso Inking Set",
   "preview_item": {
+    "description": "A set of precision quills and fine crystalline bottles to inspire and empower the truly dedicated scribe.",
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
+    },
     "item": {
+      "id": 39505,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/39505?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 39505
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Virtuoso Inking Set",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/39505?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 39505
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Inscription",
-      "id": 12
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
+      "name": "Inscription"
     },
     "limit_category": "Unique-Equipped: Toolkit (1)",
-    "sell_price": {
-      "value": 18,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "18"
+    "media": {
+      "id": 39505,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/39505?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "A set of precision quills and fine crystalline bottles to inspire and empower the truly dedicated scribe."
+    "name": "Virtuoso Inking Set",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "18",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 18
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 750,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 18
 }

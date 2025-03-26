@@ -4,134 +4,135 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/200161?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_10_dungeonjewelry_primalist_trinket_1ragingelement_air.jpg",
   "id": 200161,
-  "name": "Razorwind Talisman",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 398,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/200161?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 200161
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 2259648,
-  "sell_price": 451929,
+  "level": 398,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 200161,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/200161?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Razorwind Talisman",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 200161,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/200161?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200161
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Razorwind Talisman",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/200161?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200161
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 398",
+      "value": 398
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 200161,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/200161?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 382,
-        "display": {
-          "display_string": "+382 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/389116?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Razorwind Talisman",
-          "id": 389116
-        },
-        "description": "Equip: Your spells have a chance to increase your Critical Strike by 2,803 for 10 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 324015,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "32",
-        "silver": "40",
-        "copper": "15"
-      }
+    "name": "Razorwind Talisman",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "level": {
-      "value": 398,
-      "display_string": "Item Level 398"
+    "sell_price": {
+      "display_strings": {
+        "copper": "15",
+        "gold": "32",
+        "header": "Sell Price:",
+        "silver": "40"
+      },
+      "value": 324015
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Your spells have a chance to increase your Critical Strike by 2,803 for 10 sec.",
+        "spell": {
+          "id": 389116,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/389116?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Razorwind Talisman"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+382 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 382
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 2259648,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 451929
 }

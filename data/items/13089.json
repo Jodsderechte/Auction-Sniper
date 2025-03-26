@@ -4,160 +4,161 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13089?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_amulet_07.jpg",
   "id": 13089,
-  "name": "Skibi's Pendant",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 25,
-  "required_level": 19,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13089?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13089
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 32156,
-  "sell_price": 8039,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13089,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13089?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Skibi's Pendant",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13089?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13089
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
     },
-    "name": "Skibi's Pendant",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 13089,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13089?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13089
+        "href": "https://eu.api.blizzard.com/data/wow/item/13089?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 250,
-        "is_negated": true,
-        "display": {
-          "display_string": "+250 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 96,
-        "is_negated": true,
-        "display": {
-          "display_string": "+96 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 92,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+92 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 13089,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13089?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 8039,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "80",
-        "copper": "39"
-      }
+    },
+    "name": "Skibi's Pendant",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 19,
-        "display_string": "Requires Level 19"
+        "display_string": "Requires Level 19",
+        "value": 19
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "39",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "80"
+      },
+      "value": 8039
     },
-    "is_subclass_hidden": true
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+250 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 250
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+96 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 96
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+92 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 92
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 32156,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 19,
+  "sell_price": 8039
 }

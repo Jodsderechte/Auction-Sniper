@@ -4,172 +4,173 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2098?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 666,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/666?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_rifle_08.jpg",
   "id": 2098,
-  "name": "Double-Barreled Shotgun",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 17,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2098?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2098
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 53967,
-  "sell_price": 10793,
+  "level": 17,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2098,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2098?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Double-Barreled Shotgun",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2098?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2098
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Double-Barreled Shotgun",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 2098,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2098?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2098
+        "href": "https://eu.api.blizzard.com/data/wow/item/2098?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 454,
-        "max_value": 843,
-        "display_string": "454 - 843 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 216.16666,
-        "display_string": "(216.2 damage per second)"
+    "media": {
+      "id": 2098,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2098?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 287,
-        "is_negated": true,
-        "display": {
-          "display_string": "+287 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 560,
-        "display": {
-          "display_string": "+560 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 734658,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "73",
-        "silver": "46",
-        "copper": "58"
-      }
+    "name": "Double-Barreled Shotgun",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 10,
-        "display_string": "Requires Level 10"
+        "display_string": "Requires Level 10",
+        "value": 10
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "58",
+        "gold": "73",
+        "header": "Sell Price:",
+        "silver": "46"
+      },
+      "value": 734658
     },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+287 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 287
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+560 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 560
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "454 - 843 Damage",
+        "max_value": 843,
+        "min_value": 454
+      },
+      "dps": {
+        "display_string": "(216.2 damage per second)",
+        "value": 216.16666
+      }
     }
   },
+  "purchase_price": 53967,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/666?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 666
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 10,
+  "sell_price": 10793
 }

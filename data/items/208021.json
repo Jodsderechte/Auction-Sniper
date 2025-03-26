@@ -4,165 +4,166 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/208021?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1821,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1821?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_02.jpg",
   "id": 208021,
-  "name": "Sizzling Stick",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 14,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/208021?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 208021
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Wand",
-    "id": 19
+    "name": "Wand"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 12789,
-  "sell_price": 2557,
+  "level": 14,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 208021,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/208021?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Sizzling Stick",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/208021?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 208021
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6655
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 45 / 45",
+      "value": 45
     },
-    "name": "Sizzling Stick",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 208021,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/208021?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 208021
+        "href": "https://eu.api.blizzard.com/data/wow/item/208021?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Wand",
-      "id": 19
+      "name": "Wand"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 116,
-        "max_value": 195,
-        "display_string": "116 - 195 Fire Damage",
-        "damage_class": {
-          "type": "FIRE",
-          "name": "Fire"
-        }
-      },
-      "attack_speed": {
-        "value": 2000,
-        "display_string": "Speed 2.00"
-      },
-      "dps": {
-        "value": 77.75,
-        "display_string": "(77.8 damage per second)"
+    "media": {
+      "id": 208021,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/208021?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Sizzling Stick",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "24",
+        "gold": "58",
+        "header": "Sell Price:",
+        "silver": "36"
+      },
+      "value": 583624
     },
     "stats": [
       {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 798,
         "display": {
-          "display_string": "+798 Intellect",
           "color": {
-            "r": 255,
-            "g": 255,
+            "a": 1.0,
             "b": 255,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+798 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 798
       },
       {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 248,
         "display": {
-          "display_string": "+248 Stamina",
           "color": {
-            "r": 255,
-            "g": 255,
+            "a": 1.0,
             "b": 255,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+248 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 248
       }
     ],
-    "sell_price": {
-      "value": 583624,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "58",
-        "silver": "36",
-        "copper": "24"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.00",
+        "value": 2000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Fire",
+          "type": "FIRE"
+        },
+        "display_string": "116 - 195 Fire Damage",
+        "max_value": 195,
+        "min_value": 116
+      },
+      "dps": {
+        "display_string": "(77.8 damage per second)",
+        "value": 77.75
       }
-    },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
-    },
-    "durability": {
-      "value": 45,
-      "display_string": "Durability 45 / 45"
     }
   },
+  "purchase_price": 12789,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1821?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1821
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2557
 }

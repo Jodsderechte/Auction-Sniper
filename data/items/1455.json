@@ -4,156 +4,157 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1455?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 423,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/423?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_halbard_01.jpg",
   "id": 1455,
-  "name": "Blackrock Champion's Axe",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 15,
-  "required_level": 9,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1455?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1455
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 1
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 24910,
-  "sell_price": 4982,
+  "level": 15,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1455,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1455?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blackrock Champion's Axe",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1455?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1455
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4790
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
     },
-    "name": "Blackrock Champion's Axe",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 1455,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1455?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1455
+        "href": "https://eu.api.blizzard.com/data/wow/item/1455?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 1
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 366",
+      "value": 366
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 525,
-        "max_value": 1092,
-        "display_string": "525 - 1,092 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 224.44444,
-        "display_string": "(224.4 damage per second)"
+    "media": {
+      "id": 1455,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1455?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 567,
-        "is_negated": true,
-        "display": {
-          "display_string": "+567 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 608736,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "60",
-        "silver": "87",
-        "copper": "36"
-      }
+    "name": "Blackrock Champion's Axe",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 9,
-        "display_string": "Requires Level 9"
+        "display_string": "Requires Level 9",
+        "value": 9
       }
     },
-    "level": {
-      "value": 366,
-      "display_string": "Item Level 366"
+    "sell_price": {
+      "display_strings": {
+        "copper": "36",
+        "gold": "60",
+        "header": "Sell Price:",
+        "silver": "87"
+      },
+      "value": 608736
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+567 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 567
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "525 - 1,092 Damage",
+        "max_value": 1092,
+        "min_value": 525
+      },
+      "dps": {
+        "display_string": "(224.4 damage per second)",
+        "value": 224.44444
+      }
     }
   },
+  "purchase_price": 24910,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/423?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 423
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 9,
+  "sell_price": 4982
 }

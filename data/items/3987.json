@@ -4,142 +4,143 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3987?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1437,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1437?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shield_11.jpg",
   "id": 3987,
-  "name": "Deflecting Tower",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Off Hand",
+    "type": "SHIELD"
   },
-  "level": 27,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3987?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3987
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Shield",
-    "id": 6
+    "name": "Shield"
   },
-  "inventory_type": {
-    "type": "SHIELD",
-    "name": "Off Hand"
-  },
-  "purchase_price": 700828,
-  "sell_price": 140165,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 3987,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3987?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Deflecting Tower",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/3987?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "1,735 Armor"
       },
-      "id": 3987
+      "value": 1735
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 80 / 80",
+      "value": 80
     },
-    "name": "Deflecting Tower",
-    "media": {
+    "inventory_type": {
+      "name": "Off Hand",
+      "type": "SHIELD"
+    },
+    "item": {
+      "id": 3987,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3987?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3987
+        "href": "https://eu.api.blizzard.com/data/wow/item/3987?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Shield",
-      "id": 6
+      "name": "Shield"
     },
-    "inventory_type": {
-      "type": "SHIELD",
-      "name": "Off Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 1735,
-      "display": {
-        "display_string": "1,735 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 3987,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3987?namespace=static-11.1.0_59095-eu"
       }
     },
-    "shield_block": {
-      "value": 4337,
-      "display": {
-        "display_string": "4,337 Block",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "sell_price": {
-      "value": 98386,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "9",
-        "silver": "83",
-        "copper": "86"
-      }
+    "name": "Deflecting Tower",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+        "display_string": "Requires Level 21",
+        "value": 21
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "86",
+        "gold": "9",
+        "header": "Sell Price:",
+        "silver": "83"
+      },
+      "value": 98386
     },
-    "durability": {
-      "value": 80,
-      "display_string": "Durability 80 / 80"
+    "shield_block": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "4,337 Block"
+      },
+      "value": 4337
     }
   },
+  "purchase_price": 700828,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1437?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1437
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 21,
+  "sell_price": 140165
 }

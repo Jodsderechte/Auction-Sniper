@@ -4,127 +4,128 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18660?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Only Gnomish Technology could invent a device that affects the entire world!",
+  "icon_path": "data\\icons\\inv_misc_enggizmos_08.jpg",
   "id": 18660,
-  "name": "World Enlarger",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18660?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18660
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 30000,
-  "sell_price": 7500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Only Gnomish Technology could invent a device that affects the entire world!",
+  "media": {
+    "id": 18660,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18660?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "World Enlarger",
   "preview_item": {
+    "description": "Only Gnomish Technology could invent a device that affects the entire world!",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18660,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18660?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18660
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "World Enlarger",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18660?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18660
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 18660,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18660?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/23126?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "World Enlarger",
-          "id": 23126
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nEnlarges the entire world for 5 min or until you attack. (15 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 7500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "75",
-        "copper": "0"
-      }
+    "name": "World Enlarger",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 1,
-        "display_string": "Requires Classic Engineering (1)"
-      },
       "ability": {
+        "display_string": "Requires Gnomish Engineer",
         "spell": {
+          "id": 20219,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/20219?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Gnomish Engineer",
-          "id": 20219
-        },
-        "display_string": "Requires Gnomish Engineer"
+          "name": "Gnomish Engineer"
+        }
+      },
+      "skill": {
+        "display_string": "Requires Classic Engineering (1)",
+        "level": 1,
+        "profession": {
+          "id": 2506,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Engineering"
+        }
       }
     },
-    "description": "Only Gnomish Technology could invent a device that affects the entire world!",
-    "is_subclass_hidden": true,
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 7500
+    },
+    "spells": [
+      {
+        "description": "Use: Adds this toy to your Toy Box.\n\nEnlarges the entire world for 5 min or until you attack. (15 Min Cooldown)",
+        "spell": {
+          "id": 23126,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/23126?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "World Enlarger"
+        }
+      }
+    ],
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 30000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 7500
 }

@@ -4,208 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/15058?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3843,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3843?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_05.jpg",
   "id": 15058,
-  "name": "Stormshroud Shoulders",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 29,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/15058?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 15058
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 43619,
-  "sell_price": 8723,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 15058,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/15058?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Stormshroud Shoulders",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "4 Armor"
+      },
+      "value": 4
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
     "item": {
+      "id": 15058,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/15058?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 15058
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Stormshroud Shoulders",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/15058?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 15058
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 4,
-      "display": {
-        "display_string": "4 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 15058,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/15058?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "DODGE_RATING",
-          "name": "Dodge"
-        },
-        "value": 4,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+4 Dodge",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 4,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+4 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 130,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "30"
-      }
+    "name": "Stormshroud Shoulders",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
+        "display_string": "Requires Level 23",
+        "value": 23
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/142?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Stormshroud Armor",
-        "id": 142
+    "sell_price": {
+      "display_strings": {
+        "copper": "30",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/15056?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Stormshroud Armor",
-            "id": 15056
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/15057?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Stormshroud Pants",
-            "id": 15057
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/15058?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Stormshroud Shoulders",
-            "id": 15058
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/21278?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Stormshroud Gloves",
-            "id": 21278
-          }
-        }
-      ],
+      "value": 130
+    },
+    "set": {
+      "display_string": "Stormshroud Armor (0/4)",
       "effects": [
         {
           "display_string": "(2) Set: 5% chance of dealing 1 Nature damage on a successful melee attack.",
@@ -220,24 +134,111 @@
           "required_count": 4
         }
       ],
-      "display_string": "Stormshroud Armor (0/4)"
-    },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3843?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 142,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/142?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Stormshroud Armor"
       },
-      "id": 3843
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 15056,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/15056?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Stormshroud Armor"
+          }
+        },
+        {
+          "item": {
+            "id": 15057,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/15057?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Stormshroud Pants"
+          }
+        },
+        {
+          "item": {
+            "id": 15058,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/15058?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Stormshroud Shoulders"
+          }
+        },
+        {
+          "item": {
+            "id": 21278,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/21278?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Stormshroud Gloves"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+4 Dodge"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Dodge",
+          "type": "DODGE_RATING"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+4 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 4
+      }
+    ]
+  },
+  "purchase_price": 43619,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 23,
+  "sell_price": 8723
 }

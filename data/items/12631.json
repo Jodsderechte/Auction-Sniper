@@ -4,156 +4,157 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12631?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3606,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3606?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_gauntlets_03.jpg",
   "id": 12631,
-  "name": "Fiery Plate Gauntlets",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Hands",
+    "type": "HAND"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12631?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12631
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "HAND",
-    "name": "Hands"
-  },
-  "purchase_price": 25244,
-  "sell_price": 5048,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 12631,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12631?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fiery Plate Gauntlets",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "8 Armor"
+      },
+      "value": 8
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 50 / 50",
+      "value": 50
+    },
+    "inventory_type": {
+      "name": "Hands",
+      "type": "HAND"
+    },
     "item": {
+      "id": 12631,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12631?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12631
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Fiery Plate Gauntlets",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12631?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12631
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "HAND",
-      "name": "Hands"
+    "level": {
+      "display_string": "Item Level 28",
+      "value": 28
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 8,
-      "display": {
-        "display_string": "8 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 12631,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12631?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "FIRE_RESISTANCE",
-          "name": "Fire Resistance"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Fire Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/7721?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Add Fire Dam - Weap 04",
-          "id": 7721
-        },
-        "description": "Equip: Adds 4 fire damage to your weapon attack."
-      }
-    ],
-    "sell_price": {
-      "value": 80,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "80"
-      }
+    "name": "Fiery Plate Gauntlets",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 28,
-      "display_string": "Item Level 28"
-    },
-    "durability": {
-      "value": 50,
-      "display_string": "Durability 50 / 50"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3606?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "80",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 3606
-    }
-  ]
+      "value": 80
+    },
+    "spells": [
+      {
+        "description": "Equip: Adds 4 fire damage to your weapon attack.",
+        "spell": {
+          "id": 7721,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/7721?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Add Fire Dam - Weap 04"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Fire Resistance"
+        },
+        "type": {
+          "name": "Fire Resistance",
+          "type": "FIRE_RESISTANCE"
+        },
+        "value": 2
+      }
+    ]
+  },
+  "purchase_price": 25244,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 22,
+  "sell_price": 5048
 }

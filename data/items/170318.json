@@ -4,167 +4,168 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/170318?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 37998,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/37998?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_2h_jcprofession_c_01.jpg",
   "id": 170318,
-  "name": "Uncanny Combatant's Intuitive Staff",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 72,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/170318?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 170318
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 675973,
-  "sell_price": 135194,
+  "level": 72,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 170318,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/170318?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Uncanny Combatant's Intuitive Staff",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 120 / 120",
+      "value": 120
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 170318,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/170318?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 170318
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Uncanny Combatant's Intuitive Staff",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/170318?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 170318
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
+      "name": "Staff"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 72",
+      "value": 72
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 7,
-        "max_value": 11,
-        "display_string": "7 - 11 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 2.5,
-        "display_string": "(2.5 damage per second)"
+    "media": {
+      "id": 170318,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/170318?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 31,
-        "display": {
-          "display_string": "+31 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 10,
-        "display": {
-          "display_string": "+10 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 575,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "5",
-        "copper": "75"
-      }
+    "name": "Uncanny Combatant's Intuitive Staff",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
+        "display_string": "Requires Level 50",
+        "value": 50
       }
     },
-    "level": {
-      "value": 72,
-      "display_string": "Item Level 72"
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 575
     },
-    "durability": {
-      "value": 120,
-      "display_string": "Durability 120 / 120"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+31 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 31
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+10 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 10
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "7 - 11 Damage",
+        "max_value": 11,
+        "min_value": 7
+      },
+      "dps": {
+        "display_string": "(2.5 damage per second)",
+        "value": 2.5
+      }
     }
   },
+  "purchase_price": 675973,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/37998?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 37998
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 50,
+  "sell_price": 135194
 }

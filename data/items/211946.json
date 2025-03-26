@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/211946?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_hearthstone_gameboard.jpg",
   "id": 211946,
-  "name": "Hearthstone Game Table",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/211946?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 211946
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 211946,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/211946?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Hearthstone Game Table",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 211946,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/211946?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 211946
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Hearthstone Game Table",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/211946?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 211946
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 211946,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/211946?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Hearthstone Game Table",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPlace a Hearthstone Game Table and play a worthy opponent! (20 Min Cooldown)",
         "spell": {
+          "id": 430884,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/430884?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Summon Game Table",
-          "id": 430884
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPlace a Hearthstone Game Table and play a worthy opponent! (20 Min Cooldown)"
+          "name": "Summon Game Table"
+        }
       }
     ],
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

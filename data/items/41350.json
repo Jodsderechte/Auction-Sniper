@@ -4,301 +4,302 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/41350?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 9753,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9753?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_130.jpg",
   "id": 41350,
-  "name": "Savage Saronite Skullshield",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 35,
-  "required_level": 29,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/41350?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 41350
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 357583,
-  "sell_price": 71516,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 41350,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/41350?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Savage Saronite Skullshield",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "12 Armor"
+      },
+      "value": 12
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
     "item": {
+      "id": 41350,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/41350?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 41350
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Savage Saronite Skullshield",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/41350?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 41350
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 35",
+      "value": 35
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 12,
-      "display": {
-        "display_string": "12 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 41350,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/41350?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 6,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+6 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 5,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+5 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 71516,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "7",
-        "silver": "15",
-        "copper": "16"
-      }
+    "name": "Savage Saronite Skullshield",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 29,
-        "display_string": "Requires Level 29"
+        "display_string": "Requires Level 29",
+        "value": 29
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/816?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Savage Saronite Battlegear",
-        "id": 816
+    "sell_price": {
+      "display_strings": {
+        "copper": "16",
+        "gold": "7",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41354?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Savage Saronite Bracers",
-            "id": 41354
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41349?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Savage Saronite Gauntlets",
-            "id": 41349
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41353?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Savage Saronite Hauberk",
-            "id": 41353
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41347?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Savage Saronite Legplates",
-            "id": 41347
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41351?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Savage Saronite Pauldrons",
-            "id": 41351
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41350?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Savage Saronite Skullshield",
-            "id": 41350
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41352?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Savage Saronite Waistguard",
-            "id": 41352
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/41348?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Savage Saronite Walkers",
-            "id": 41348
-          }
-        }
-      ],
+      "value": 71516
+    },
+    "set": {
+      "display_string": "Savage Saronite Battlegear (0/8)",
       "effects": [
         {
           "display_string": "(4) Set: +29 Stamina.",
           "required_count": 4
         }
       ],
-      "display_string": "Savage Saronite Battlegear (0/8)"
-    },
-    "level": {
-      "value": 35,
-      "display_string": "Item Level 35"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9753?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 816,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/816?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Savage Saronite Battlegear"
       },
-      "id": 9753
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 41354,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41354?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Savage Saronite Bracers"
+          }
+        },
+        {
+          "item": {
+            "id": 41349,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41349?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Savage Saronite Gauntlets"
+          }
+        },
+        {
+          "item": {
+            "id": 41353,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41353?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Savage Saronite Hauberk"
+          }
+        },
+        {
+          "item": {
+            "id": 41347,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41347?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Savage Saronite Legplates"
+          }
+        },
+        {
+          "item": {
+            "id": 41351,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41351?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Savage Saronite Pauldrons"
+          }
+        },
+        {
+          "item": {
+            "id": 41350,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41350?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Savage Saronite Skullshield"
+          }
+        },
+        {
+          "item": {
+            "id": 41352,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41352?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Savage Saronite Waistguard"
+          }
+        },
+        {
+          "item": {
+            "id": 41348,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/41348?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Savage Saronite Walkers"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+6 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 6
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+5 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 5
+      }
+    ]
+  },
+  "purchase_price": 357583,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 29,
+  "sell_price": 71516
 }

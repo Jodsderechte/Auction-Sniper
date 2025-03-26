@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2520?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 871,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/871?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_05.jpg",
   "id": 2520,
-  "name": "Broadsword",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Main Hand",
+    "type": "WEAPONMAINHAND"
   },
-  "level": 21,
-  "required_level": 13,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2520?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2520
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPONMAINHAND",
-    "name": "Main Hand"
-  },
-  "purchase_price": 182347,
-  "sell_price": 36469,
+  "level": 21,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2520,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2520?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Broadsword",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 60 / 60",
+      "value": 60
+    },
+    "inventory_type": {
+      "name": "Main Hand",
+      "type": "WEAPONMAINHAND"
+    },
     "item": {
+      "id": 2520,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/2520?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2520
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Broadsword",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2520?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2520
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPONMAINHAND",
-      "name": "Main Hand"
+    "level": {
+      "display_string": "Item Level 21",
+      "value": 21
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 3,
-        "max_value": 5,
-        "display_string": "3 - 5 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 1.5384614,
-        "display_string": "(1.5 damage per second)"
+    "media": {
+      "id": 2520,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2520?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 64,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "64"
-      }
+    "name": "Broadsword",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 13,
-        "display_string": "Requires Level 13"
+        "display_string": "Requires Level 13",
+        "value": 13
       }
     },
-    "level": {
-      "value": 21,
-      "display_string": "Item Level 21"
+    "sell_price": {
+      "display_strings": {
+        "copper": "64",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 64
     },
-    "durability": {
-      "value": 60,
-      "display_string": "Durability 60 / 60"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "3 - 5 Damage",
+        "max_value": 5,
+        "min_value": 3
+      },
+      "dps": {
+        "display_string": "(1.5 damage per second)",
+        "value": 1.5384614
+      }
     }
   },
+  "purchase_price": 182347,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/871?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 871
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 13,
+  "sell_price": 36469
 }

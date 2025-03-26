@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4449?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1613,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1613?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_misc_monsterfang_01.jpg",
   "id": 4449,
-  "name": "Naraxis' Fang",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 17,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4449?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4449
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 12114,
-  "sell_price": 2422,
+  "level": 17,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4449,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4449?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Naraxis' Fang",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/4449?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4449
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4790
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 35 / 35",
+      "value": 35
     },
-    "name": "Naraxis' Fang",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 4449,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4449?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4449
+        "href": "https://eu.api.blizzard.com/data/wow/item/4449?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 366",
+      "value": 366
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 228,
-        "max_value": 381,
-        "display_string": "228 - 381 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 169.16666,
-        "display_string": "(169.2 damage per second)"
+    "media": {
+      "id": 4449,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4449?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/16400?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Poison",
-          "id": 16400
-        },
-        "description": "Chance on hit: Poisons target for 87 Nature damage every 3 sec for 15 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 492677,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "49",
-        "silver": "26",
-        "copper": "77"
-      }
+    "name": "Naraxis' Fang",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 10,
-        "display_string": "Requires Level 10"
+        "display_string": "Requires Level 10",
+        "value": 10
       }
     },
-    "level": {
-      "value": 366,
-      "display_string": "Item Level 366"
+    "sell_price": {
+      "display_strings": {
+        "copper": "77",
+        "gold": "49",
+        "header": "Sell Price:",
+        "silver": "26"
+      },
+      "value": 492677
     },
-    "durability": {
-      "value": 35,
-      "display_string": "Durability 35 / 35"
+    "spells": [
+      {
+        "description": "Chance on hit: Poisons target for 87 Nature damage every 3 sec for 15 sec.",
+        "spell": {
+          "id": 16400,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/16400?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Poison"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "228 - 381 Damage",
+        "max_value": 381,
+        "min_value": 228
+      },
+      "dps": {
+        "display_string": "(169.2 damage per second)",
+        "value": 169.16666
+      }
     }
   },
+  "purchase_price": 12114,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1613?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1613
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 10,
+  "sell_price": 2422
 }

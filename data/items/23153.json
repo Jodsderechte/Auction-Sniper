@@ -4,170 +4,171 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23153?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to cut a Sparkling Azure Moonstone.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 23153,
-  "name": "Design: Sparkling Azure Moonstone",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23153?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23153
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000,
-  "sell_price": 12500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to cut a Sparkling Azure Moonstone.",
+  "media": {
+    "id": 23153,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23153?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Sparkling Azure Moonstone",
   "preview_item": {
+    "description": "Teaches you how to cut a Sparkling Azure Moonstone.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 23153,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23153?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23153
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Design: Sparkling Azure Moonstone",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23153?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23153
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 12500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 23153,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23153?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/755?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Jewelcrafting",
-          "id": 755
-        },
-        "level": 305,
-        "display_string": "Requires Jewelcrafting (305)"
-      }
+    "name": "Design: Sparkling Azure Moonstone",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to cut a Sparkling Azure Moonstone.",
     "recipe": {
       "item": {
+        "description": "Matches any socket.",
+        "gem_properties": {
+          "effect": "+2 Versatility"
+        },
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 23119,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/23119?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23119
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Sparkling Azure Moonstone",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/23119?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23119
+          }
         },
         "item_class": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Gem",
-          "id": 3
+          "name": "Gem"
         },
         "item_subclass": {
+          "id": 8,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/3/item-subclass/8?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Versatility",
-          "id": 8
+          "name": "Versatility"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
-        },
-        "sell_price": {
-          "value": 6750,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "67",
-            "copper": "50"
+        "media": {
+          "id": 23119,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/23119?namespace=static-11.1.0_59095-eu"
           }
         },
-        "description": "Matches any socket.",
-        "is_subclass_hidden": true,
-        "gem_properties": {
-          "effect": "+2 Versatility"
+        "name": "Sparkling Azure Moonstone",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "50",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "67"
+          },
+          "value": 6750
         }
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 23117,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23117?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Azure Moonstone",
-            "id": 23117
-          },
-          "quantity": 1
+            "name": "Azure Moonstone"
+          }
         }
       ],
       "reagents_display_string": "Azure Moonstone"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Jewelcrafting (305)",
+        "level": 305,
+        "profession": {
+          "id": 755,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/755?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 12500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 12500
 }

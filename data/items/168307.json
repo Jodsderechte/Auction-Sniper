@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/168307?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Because who would wear the least beautiful shells?",
+  "icon_path": "data\\icons\\inv_misc_necklace_shell05.jpg",
   "id": 168307,
-  "name": "Necklace of Most Beautiful Shells",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/168307?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 168307
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 12,
-  "sell_price": 2,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Because who would wear the least beautiful shells?",
+  "media": {
+    "id": 168307,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/168307?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Necklace of Most Beautiful Shells",
   "preview_item": {
+    "description": "Because who would wear the least beautiful shells?",
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 168307,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/168307?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 168307
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Necklace of Most Beautiful Shells",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/168307?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 168307
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
+      "name": "Cosmetic"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "sell_price": {
-      "value": 7,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "7"
+    "media": {
+      "id": 168307,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/168307?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Because who would wear the least beautiful shells?",
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+    "name": "Necklace of Most Beautiful Shells",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "7",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 7
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 12,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 2
 }

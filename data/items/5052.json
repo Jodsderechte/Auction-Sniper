@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5052?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_pelt_boar_01.jpg",
   "id": 5052,
-  "name": "Unconscious Dig Rat",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5052?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5052
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 5052,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5052?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Unconscious Dig Rat",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 5052,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/5052?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5052
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Unconscious Dig Rat",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5052?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5052
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 5052,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5052?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Unconscious Dig Rat",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
     "spells": [
       {
+        "description": "Use: This dig rat is still struggling, why don't you let it go? (1 Sec Cooldown)",
         "spell": {
+          "id": 5161,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/5161?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Revive Dig Rat",
-          "id": 5161
-        },
-        "description": "Use: This dig rat is still struggling, why don't you let it go? (1 Sec Cooldown)"
+          "name": "Revive Dig Rat"
+        }
       }
     ],
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

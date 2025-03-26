@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/62588?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Your talents will be recognized and rewarded. Provided your talent spec is good.",
+  "icon_path": "data\\icons\\inv_misc_ticket_tarot_elemental_01.jpg",
   "id": 62588,
-  "name": "Fortune Card",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 3,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/62588?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 62588
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tradeskill",
-    "id": 7
+    "name": "Tradeskill"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 11
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 200000,
-  "sell_price": 5000,
+  "level": 3,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Your talents will be recognized and rewarded. Provided your talent spec is good.",
+  "media": {
+    "id": 62588,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/62588?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fortune Card",
   "preview_item": {
+    "description": "Your talents will be recognized and rewarded. Provided your talent spec is good.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 62588,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/62588?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 62588
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Fortune Card",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/62588?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 62588
+      }
     },
     "item_class": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tradeskill",
-      "id": 7
+      "name": "Tradeskill"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 11
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 5000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "50",
-        "copper": "0"
+    "media": {
+      "id": 62588,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/62588?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Your talents will be recognized and rewarded. Provided your talent spec is good.",
-    "is_subclass_hidden": true
+    "name": "Fortune Card",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 5000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 200000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 5000
 }

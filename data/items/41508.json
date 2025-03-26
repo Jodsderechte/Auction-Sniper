@@ -4,120 +4,121 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/41508?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to ride this sweet hog.",
+  "icon_path": "data\\icons\\inv_misc_key_06.jpg",
   "id": 41508,
-  "name": "Mechano-Hog",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 10,
-  "required_level": 17,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/41508?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 41508
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mount",
-    "id": 5
+    "name": "Mount"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000,
-  "sell_price": 12500,
+  "level": 10,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to ride this sweet hog.",
+  "media": {
+    "id": 41508,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/41508?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Mechano-Hog",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
     "item": {
+      "id": 41508,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/41508?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 41508
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Mechano-Hog",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/41508?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 41508
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mount",
-      "id": 5
+      "name": "Mount"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 41508,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/41508?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/55531?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Mechano-Hog",
-          "id": 55531
-        },
-        "description": "Use: Teaches you how to ride this sweet hog."
-      }
-    ],
-    "sell_price": {
-      "value": 12500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "25",
-        "copper": "0"
-      }
+    "name": "Mechano-Hog",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
-      "faction": {
-        "value": {
-          "type": "HORDE",
-          "name": "Horde"
-        },
-        "display_string": "Horde Only"
-      },
       "ability": {
+        "display_string": "Requires Apprentice Riding",
         "spell": {
+          "id": 33388,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/33388?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Apprentice Riding",
-          "id": 33388
-        },
-        "display_string": "Requires Apprentice Riding"
+          "name": "Apprentice Riding"
+        }
+      },
+      "faction": {
+        "display_string": "Horde Only",
+        "value": {
+          "name": "Horde",
+          "type": "HORDE"
+        }
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 12500
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to ride this sweet hog.",
+        "spell": {
+          "id": 55531,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/55531?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Mechano-Hog"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 17,
+  "sell_price": 12500
 }

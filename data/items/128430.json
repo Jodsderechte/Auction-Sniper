@@ -4,97 +4,98 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/128430?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "An unused relic of glories past.",
+  "icon_path": "data\\icons\\achievement_guildperk_honorablemention_rank2.jpg",
   "id": 128430,
-  "name": "Champion's Honor",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 40,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/128430?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 128430
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1000000,
-  "sell_price": 250000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "An unused relic of glories past.",
+  "media": {
+    "id": 128430,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/128430?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Champion's Honor",
   "preview_item": {
+    "description": "An unused relic of glories past.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 128430,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/128430?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 128430
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Champion's Honor",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/128430?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 128430
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 250000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "25",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 128430,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/128430?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Champion's Honor",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 40,
-        "display_string": "Requires Level 40"
+        "display_string": "Requires Level 40",
+        "value": 40
       }
     },
-    "description": "An unused relic of glories past.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "25",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 250000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 40,
+  "sell_price": 250000
 }

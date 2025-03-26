@@ -4,120 +4,121 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/11302?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_talisman_06.jpg",
   "id": 11302,
-  "name": "Uther's Strength",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 27,
-  "required_level": 20,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/11302?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 11302
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 28520,
-  "sell_price": 7130,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 11302,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/11302?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Uther's Strength",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/11302?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11302
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Uther's Strength",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 11302,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/11302?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11302
+        "href": "https://eu.api.blizzard.com/data/wow/item/11302?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/8397?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Uther's Light",
-          "id": 8397
-        },
-        "description": "Equip: Has a 2% chance when struck in combat of protecting you with a holy shield."
+    "media": {
+      "id": 11302,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/11302?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 7130,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "71",
-        "copper": "30"
-      }
+    },
+    "name": "Uther's Strength",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 20,
-        "display_string": "Requires Level 20"
+        "display_string": "Requires Level 20",
+        "value": 20
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "30",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "71"
+      },
+      "value": 7130
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Has a 2% chance when struck in combat of protecting you with a holy shield.",
+        "spell": {
+          "id": 8397,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/8397?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Uther's Light"
+        }
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 28520,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 20,
+  "sell_price": 7130
 }

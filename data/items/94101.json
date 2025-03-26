@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/94101?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8675,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8675?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_bow_32.jpg",
   "id": 94101,
-  "name": "Restrung Voodoo Bow",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGED"
   },
-  "level": 38,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/94101?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 94101
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bow",
-    "id": 2
+    "name": "Bow"
   },
-  "inventory_type": {
-    "type": "RANGED",
-    "name": "Ranged"
-  },
-  "purchase_price": 1147071,
-  "sell_price": 229414,
+  "level": 38,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 94101,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/94101?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Restrung Voodoo Bow",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGED"
+    },
     "item": {
+      "id": 94101,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/94101?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 94101
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Restrung Voodoo Bow",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/94101?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 94101
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bow",
-      "id": 2
+      "name": "Bow"
     },
-    "inventory_type": {
-      "type": "RANGED",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 38",
+      "value": 38
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 7,
-        "max_value": 11,
-        "display_string": "7 - 11 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 2.9999998,
-        "display_string": "(3.0 damage per second)"
+    "media": {
+      "id": 94101,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/94101?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 4,
-        "is_negated": true,
-        "display": {
-          "display_string": "+4 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 6,
-        "display": {
-          "display_string": "+6 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 545,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "5",
-        "copper": "45"
-      }
+    "name": "Restrung Voodoo Bow",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       }
     },
-    "level": {
-      "value": 38,
-      "display_string": "Item Level 38"
+    "sell_price": {
+      "display_strings": {
+        "copper": "45",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 545
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+4 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+6 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 6
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "7 - 11 Damage",
+        "max_value": 11,
+        "min_value": 7
+      },
+      "dps": {
+        "display_string": "(3.0 damage per second)",
+        "value": 2.9999998
+      }
     }
   },
+  "purchase_price": 1147071,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8675?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8675
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 35,
+  "sell_price": 229414
 }

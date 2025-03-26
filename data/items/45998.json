@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/45998?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6738,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6738?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_50.jpg",
   "id": 45998,
-  "name": "Battered Jungle Hat",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 5,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/45998?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 45998
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 379,
-  "sell_price": 75,
+  "level": 5,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 45998,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/45998?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Battered Jungle Hat",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 45998,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/45998?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45998
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Battered Jungle Hat",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/45998?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45998
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
-    },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 6,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "6"
-      }
+      "name": "Cosmetic"
     },
     "level": {
-      "value": 5,
-      "display_string": "Item Level 5"
+      "display_string": "Item Level 5",
+      "value": 5
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 45998,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6738?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/45998?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Battered Jungle Hat",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "6",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 6738
+      "value": 6
     }
-  ]
+  },
+  "purchase_price": 379,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 75
 }

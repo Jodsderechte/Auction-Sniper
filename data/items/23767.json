@@ -4,106 +4,107 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23767?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_idol_02.jpg",
   "id": 23767,
-  "name": "Crashin' Thrashin' Robot",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 23,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23767?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23767
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 20000,
-  "sell_price": 5000,
+  "level": 23,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 23767,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23767?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Crashin' Thrashin' Robot",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 23767,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23767?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23767
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Crashin' Thrashin' Robot",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23767?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23767
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 23767,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23767?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Crashin' Thrashin' Robot",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 5000
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nSummon a robot pet that will fight other fighting robots. (3 Min Cooldown)",
         "spell": {
+          "id": 30261,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/30261?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Summon Fighting Robot",
-          "id": 30261
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nSummon a robot pet that will fight other fighting robots. (3 Min Cooldown)"
+          "name": "Summon Fighting Robot"
+        }
       }
     ],
-    "sell_price": {
-      "value": 5000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "50",
-        "copper": "0"
-      }
-    },
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 20000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 5000
 }

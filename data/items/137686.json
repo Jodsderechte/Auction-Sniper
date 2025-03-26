@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/137686?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon a rideable Steelbound Devourer.",
+  "icon_path": "data\\icons\\inv_belt_45.jpg",
   "id": 137686,
-  "name": "Steelbound Harness",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 10,
-  "required_level": 17,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/137686?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 137686
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mount",
-    "id": 5
+    "name": "Mount"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 10,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon a rideable Steelbound Devourer.",
+  "media": {
+    "id": 137686,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/137686?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Steelbound Harness",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
     "item": {
+      "id": 137686,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/137686?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 137686
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Steelbound Harness",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/137686?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 137686
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mount",
-      "id": 5
+      "name": "Mount"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/213209?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Steelbound Devourer",
-          "id": 213209
-        },
-        "description": "Use: Teaches you how to summon a rideable Steelbound Devourer."
+    "media": {
+      "id": 137686,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/137686?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Steelbound Harness",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
     "requirements": {
       "ability": {
+        "display_string": "Requires Apprentice Riding",
         "spell": {
+          "id": 33388,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/33388?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Apprentice Riding",
-          "id": 33388
-        },
-        "display_string": "Requires Apprentice Riding"
+          "name": "Apprentice Riding"
+        }
       }
-    }
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to summon a rideable Steelbound Devourer.",
+        "spell": {
+          "id": 213209,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/213209?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Steelbound Devourer"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 17,
+  "sell_price": 0
 }

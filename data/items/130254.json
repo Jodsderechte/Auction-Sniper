@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/130254?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "There is a mysterious power to this crystal.",
+  "icon_path": "data\\icons\\inv_jewelcrafting_70_songcrystal.jpg",
   "id": 130254,
-  "name": "Chatterstone",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 42,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/130254?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 130254
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 3500,
-  "sell_price": 875,
+  "level": 42,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "There is a mysterious power to this crystal.",
+  "media": {
+    "id": 130254,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/130254?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Chatterstone",
   "preview_item": {
+    "description": "There is a mysterious power to this crystal.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 130254,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/130254?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 130254
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Chatterstone",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/130254?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 130254
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 130254,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/130254?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Chatterstone",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "8"
+      },
+      "value": 875
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nActivate or deactivate the gem. (0 Sec Cooldown)",
         "spell": {
+          "id": 215193,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/215193?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Strange Gem",
-          "id": 215193
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nActivate or deactivate the gem. (0 Sec Cooldown)"
+          "name": "Strange Gem"
+        }
       }
     ],
-    "sell_price": {
-      "value": 875,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "8",
-        "copper": "75"
-      }
-    },
-    "description": "There is a mysterious power to this crystal.",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 3500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 875
 }

@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/205045?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\creatureportrait_fomorhand.jpg",
   "id": 205045,
-  "name": "B.B.F. Fist",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/205045?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 205045
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 205045,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/205045?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "B.B.F. Fist",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 205045,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/205045?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 205045
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "B.B.F. Fist",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/205045?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 205045
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 205045,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/205045?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "B.B.F. Fist",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nBump fists with your best brul! (1 Day Cooldown)",
         "spell": {
+          "id": 408067,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/408067?namespace=static-11.1.0_59095-eu"
           },
-          "name": "B.B.F. Fist",
-          "id": 408067
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nBump fists with your best brul! (1 Day Cooldown)"
+          "name": "B.B.F. Fist"
+        }
       }
     ],
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

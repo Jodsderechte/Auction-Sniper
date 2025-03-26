@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/194058?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Use after rough wipes.",
+  "icon_path": "data\\icons\\inv_10_tailoring2_pillow_blue.jpg",
   "id": 194058,
-  "name": "Cold Cushion",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/194058?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 194058
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 500000,
-  "sell_price": 100000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Use after rough wipes.",
+  "media": {
+    "id": 194058,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/194058?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Cold Cushion",
   "preview_item": {
+    "description": "Use after rough wipes.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 194058,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/194058?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194058
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Cold Cushion",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/194058?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194058
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 194058,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/194058?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Cold Cushion",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 100000
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPlace a cooling cushion to soothe a rough wipe. (6 Hr Cooldown)",
         "spell": {
+          "id": 387381,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/387381?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cold Cushion",
-          "id": 387381
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPlace a cooling cushion to soothe a rough wipe. (6 Hr Cooldown)"
+          "name": "Cold Cushion"
+        }
       }
     ],
-    "sell_price": {
-      "value": 100000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "description": "Use after rough wipes.",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 500000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 100000
 }

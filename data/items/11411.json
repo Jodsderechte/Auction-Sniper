@@ -4,127 +4,128 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/11411?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 597,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/597?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_misc_bone_01.jpg",
   "id": 11411,
-  "name": "Large Bear Bone",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Main Hand",
+    "type": "WEAPONMAINHAND"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/11411?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 11411
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 4
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "WEAPONMAINHAND",
-    "name": "Main Hand"
-  },
-  "purchase_price": 12,
-  "sell_price": 2,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 11411,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/11411?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Large Bear Bone",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 20 / 20",
+      "value": 20
+    },
+    "inventory_type": {
+      "name": "Main Hand",
+      "type": "WEAPONMAINHAND"
+    },
     "item": {
+      "id": 11411,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/11411?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11411
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Large Bear Bone",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/11411?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11411
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 4
-    },
-    "inventory_type": {
-      "type": "WEAPONMAINHAND",
-      "name": "Main Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 1,
-        "display_string": "1 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 0.38461536,
-        "display_string": "(0.4 damage per second)"
-      }
-    },
-    "sell_price": {
-      "value": 7,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "7"
-      }
+      "name": "Mace"
     },
     "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "durability": {
-      "value": 20,
-      "display_string": "Durability 20 / 20"
+    "media": {
+      "id": 11411,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/11411?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Large Bear Bone",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "7",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 7
+    },
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 Damage",
+        "max_value": 1,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.4 damage per second)",
+        "value": 0.38461536
+      }
     }
   },
+  "purchase_price": 12,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/597?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 597
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 2
 }

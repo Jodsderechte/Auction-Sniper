@@ -4,136 +4,137 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21022?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 740,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/740?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shield_09.jpg",
   "id": 21022,
-  "name": "Weather Beaten Buckler",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Off Hand",
+    "type": "SHIELD"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21022?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21022
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Shield",
-    "id": 6
+    "name": "Shield"
   },
-  "inventory_type": {
-    "type": "SHIELD",
-    "name": "Off Hand"
-  },
-  "purchase_price": 24,
-  "sell_price": 4,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 21022,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21022?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Weather Beaten Buckler",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/21022?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "1,735 Armor"
       },
-      "id": 21022
+      "value": 1735
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
     },
-    "name": "Weather Beaten Buckler",
-    "media": {
+    "inventory_type": {
+      "name": "Off Hand",
+      "type": "SHIELD"
+    },
+    "item": {
+      "id": 21022,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21022?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21022
+        "href": "https://eu.api.blizzard.com/data/wow/item/21022?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Shield",
-      "id": 6
-    },
-    "inventory_type": {
-      "type": "SHIELD",
-      "name": "Off Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 1735,
-      "display": {
-        "display_string": "1,735 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "shield_block": {
-      "value": 4337,
-      "display": {
-        "display_string": "4,337 Block",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "sell_price": {
-      "value": 103571,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "35",
-        "copper": "71"
-      }
+      "name": "Shield"
     },
     "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
+    "media": {
+      "id": 21022,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21022?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Weather Beaten Buckler",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "71",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "35"
+      },
+      "value": 103571
+    },
+    "shield_block": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "4,337 Block"
+      },
+      "value": 4337
     }
   },
+  "purchase_price": 24,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/740?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 740
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 4
 }

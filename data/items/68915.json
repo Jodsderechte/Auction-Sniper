@@ -4,144 +4,145 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/68915?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\ability_druid_balanceofpower.jpg",
   "id": 68915,
-  "name": "Scales of Life",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 37,
-  "required_level": 32,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/68915?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 68915
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 1528524,
-  "sell_price": 382131,
+  "level": 37,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 68915,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/68915?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Scales of Life",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 68915,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/68915?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 68915
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Scales of Life",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/68915?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 68915
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "level": {
+      "display_string": "Item Level 37",
+      "value": 37
     },
     "limit_category": "Unique-Equipped: Scales of Life (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 6,
-        "display": {
-          "display_string": "+6 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 68915,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/68915?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/96879?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Weight of a Feather",
-          "id": 96879
-        },
-        "description": "Equip: Stores up to 9999.9 additional health from spells which heal you for more than your maximum health."
-      },
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/96880?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Tipping of the Scales",
-          "id": 96880
-        },
-        "description": "Use: Instantly release all health stored on the Scales of Life as a self-heal. (1 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 382131,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "38",
-        "silver": "21",
-        "copper": "31"
-      }
+    },
+    "name": "Scales of Life",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 32,
-        "display_string": "Requires Level 32"
+        "display_string": "Requires Level 32",
+        "value": 32
       }
     },
-    "level": {
-      "value": 37,
-      "display_string": "Item Level 37"
+    "sell_price": {
+      "display_strings": {
+        "copper": "31",
+        "gold": "38",
+        "header": "Sell Price:",
+        "silver": "21"
+      },
+      "value": 382131
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Stores up to 9999.9 additional health from spells which heal you for more than your maximum health.",
+        "spell": {
+          "id": 96879,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/96879?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Weight of a Feather"
+        }
+      },
+      {
+        "description": "Use: Instantly release all health stored on the Scales of Life as a self-heal. (1 Min Cooldown)",
+        "spell": {
+          "id": 96880,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/96880?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Tipping of the Scales"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+6 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 6
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 1528524,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 32,
+  "sell_price": 382131
 }

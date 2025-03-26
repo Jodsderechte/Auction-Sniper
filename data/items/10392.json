@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/10392?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon this companion.",
+  "icon_path": "data\\icons\\spell_nature_guardianward.jpg",
   "id": 10392,
-  "name": "Crimson Snake",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/10392?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 10392
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 5000,
-  "sell_price": 1250,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon this companion.",
+  "media": {
+    "id": 10392,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/10392?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Crimson Snake",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 10392,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/10392?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10392
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Crimson Snake",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/10392?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10392
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 10392,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/10392?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Crimson Snake",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "12"
+      },
+      "value": 1250
     },
     "spells": [
       {
+        "description": "Use: Teaches you how to summon this companion.",
         "spell": {
+          "id": 10717,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/10717?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Crimson Snake",
-          "id": 10717
-        },
-        "description": "Use: Teaches you how to summon this companion."
+          "name": "Crimson Snake"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 1250,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "12",
-        "copper": "50"
-      }
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 5000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1250
 }

@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7337?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "It's huge!",
+  "icon_path": "data\\icons\\inv_jewelry_ring_31.jpg",
   "id": 7337,
-  "name": "The Rock",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 29,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7337?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7337
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 1000000,
-  "sell_price": 250000,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "It's huge!",
+  "media": {
+    "id": 7337,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7337?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Rock",
   "preview_item": {
+    "description": "It's huge!",
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 7337,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7337?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7337
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "The Rock",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7337?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7337
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "sell_price": {
-      "value": 250000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "25",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 7337,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7337?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "It's huge!",
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+    "name": "The Rock",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "25",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 250000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 250000
 }

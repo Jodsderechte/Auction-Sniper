@@ -4,194 +4,195 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/38328?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew Haliscan Pantaloons.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 38328,
-  "name": "Pattern: Haliscan Pantaloons",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/38328?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 38328
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 4500,
-  "sell_price": 1125,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew Haliscan Pantaloons.",
+  "media": {
+    "id": 38328,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/38328?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Haliscan Pantaloons",
   "preview_item": {
+    "description": "Teaches you how to sew Haliscan Pantaloons.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 38328,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/38328?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38328
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Pattern: Haliscan Pantaloons",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/38328?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38328
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1125,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "11",
-        "copper": "25"
+    "media": {
+      "id": 38328,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/38328?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 245,
-        "display_string": "Requires Classic Tailoring (245)"
-      }
+    "name": "Pattern: Haliscan Pantaloons",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to sew Haliscan Pantaloons.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Legs",
+          "type": "LEGS"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 38278,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/38278?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 38278
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Haliscan Pantaloons",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/38278?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 38278
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 5,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cosmetic",
-          "id": 5
-        },
-        "inventory_type": {
-          "type": "LEGS",
-          "name": "Legs"
-        },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "sell_price": {
-          "value": 22,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "0",
-            "copper": "22"
-          }
+          "name": "Cosmetic"
         },
         "level": {
-          "value": 20,
-          "display_string": "Item Level 20"
+          "display_string": "Item Level 20",
+          "value": 20
         },
-        "is_subclass_hidden": true
+        "media": {
+          "id": 38278,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/38278?namespace=static-11.1.0_59095-eu"
+          }
+        },
+        "name": "Haliscan Pantaloons",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "22",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 22
+        }
       },
       "reagents": [
         {
+          "quantity": 4,
           "reagent": {
+            "id": 4339,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4339?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Mageweave",
-            "id": 4339
-          },
-          "quantity": 4
+            "name": "Bolt of Mageweave"
+          }
         },
         {
+          "quantity": 3,
           "reagent": {
+            "id": 8343,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/8343?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Silken Thread",
-            "id": 8343
-          },
-          "quantity": 3
+            "name": "Heavy Silken Thread"
+          }
         },
         {
+          "quantity": 3,
           "reagent": {
+            "id": 2325,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2325?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Black Dye",
-            "id": 2325
-          },
-          "quantity": 3
+            "name": "Black Dye"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Mageweave (4), Heavy Silken Thread (3), Black Dye (3)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (245)",
+        "level": 245,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "11"
+      },
+      "value": 1125
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 4500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1125
 }

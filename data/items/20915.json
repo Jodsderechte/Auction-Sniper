@@ -4,120 +4,121 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/20915?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 5621,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5621?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_boots_01.jpg",
   "id": 20915,
-  "name": "Unadorned Chain Boots",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 2,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/20915?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 20915
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 70,
-  "sell_price": 14,
+  "level": 2,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 20915,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/20915?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Unadorned Chain Boots",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "2 Armor"
+      },
+      "value": 2
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 30 / 30",
+      "value": 30
+    },
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
     "item": {
+      "id": 20915,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/20915?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20915
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Unadorned Chain Boots",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/20915?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20915
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
-    },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 2,
-      "display": {
-        "display_string": "2 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "sell_price": {
-      "value": 6,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "6"
-      }
+      "name": "Mail"
     },
     "level": {
-      "value": 2,
-      "display_string": "Item Level 2"
+      "display_string": "Item Level 2",
+      "value": 2
     },
-    "durability": {
-      "value": 30,
-      "display_string": "Durability 30 / 30"
+    "media": {
+      "id": 20915,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/20915?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Unadorned Chain Boots",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "6",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 6
     }
   },
+  "purchase_price": 70,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5621?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5621
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 14
 }

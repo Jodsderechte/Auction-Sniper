@@ -4,129 +4,130 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30542?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_enggizmos_07.jpg",
   "id": 30542,
-  "name": "Dimensional Ripper - Area 52",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30542?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30542
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 20000,
-  "sell_price": 5000,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 30542,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30542?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Dimensional Ripper - Area 52",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 30542,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30542?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30542
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Dimensional Ripper - Area 52",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30542?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30542
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/36890?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Area52 Transporter",
-          "id": 36890
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nRips the dimensional walls asunder and transports you to Area 52 in Netherstorm.   There are technical problems that sometimes occur, but that's what Goblin Engineering is all about! (4 Hr Cooldown)"
+    "media": {
+      "id": 30542,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30542?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 5000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "50",
-        "copper": "0"
-      }
+    },
+    "name": "Dimensional Ripper - Area 52",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Engineering",
-          "id": 2505
-        },
-        "level": 50,
-        "display_string": "Requires Outland Engineering (50)"
-      },
       "ability": {
+        "display_string": "Requires Goblin Engineer",
         "spell": {
+          "id": 20222,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/20222?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Goblin Engineer",
-          "id": 20222
-        },
-        "display_string": "Requires Goblin Engineer"
+          "name": "Goblin Engineer"
+        }
+      },
+      "skill": {
+        "display_string": "Requires Outland Engineering (50)",
+        "level": 50,
+        "profession": {
+          "id": 2505,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Engineering"
+        }
       }
     },
-    "is_subclass_hidden": true,
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 5000
+    },
+    "spells": [
+      {
+        "description": "Use: Adds this toy to your Toy Box.\n\nRips the dimensional walls asunder and transports you to Area 52 in Netherstorm.   There are technical problems that sometimes occur, but that's what Goblin Engineering is all about! (4 Hr Cooldown)",
+        "spell": {
+          "id": 36890,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/36890?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Area52 Transporter"
+        }
+      }
+    ],
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 20000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 5000
 }

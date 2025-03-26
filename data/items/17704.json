@@ -4,163 +4,164 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/17704?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 5184,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5184?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_axe_06.jpg",
   "id": 17704,
-  "name": "Edge of Winter",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 21,
-  "required_level": 14,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/17704?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 17704
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 21,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 17704,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/17704?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Edge of Winter",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 60 / 60",
+      "value": 60
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 17704,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/17704?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 17704
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Edge of Winter",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/17704?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 17704
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 21",
+      "value": 21
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 2,
-        "max_value": 6,
-        "display_string": "2 - 6 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 1.5384614,
-        "display_string": "(1.5 damage per second)"
+    "media": {
+      "id": 17704,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/17704?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 1,
-        "display": {
-          "display_string": "+1 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/16407?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Frost Blast",
-          "id": 16407
-        },
-        "description": "Chance on hit: Blasts a target for 1 Frost damage."
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Edge of Winter",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 14,
-        "display_string": "Requires Level 14"
+        "display_string": "Requires Level 14",
+        "value": 14
       }
     },
-    "level": {
-      "value": 21,
-      "display_string": "Item Level 21"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
+      },
+      "value": 1500
     },
-    "durability": {
-      "value": 60,
-      "display_string": "Durability 60 / 60"
+    "spells": [
+      {
+        "description": "Chance on hit: Blasts a target for 1 Frost damage.",
+        "spell": {
+          "id": 16407,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/16407?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Frost Blast"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+1 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 1
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "2 - 6 Damage",
+        "max_value": 6,
+        "min_value": 2
+      },
+      "dps": {
+        "display_string": "(1.5 damage per second)",
+        "value": 1.5384614
+      }
     }
   },
+  "purchase_price": 7500,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5184?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5184
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 14,
+  "sell_price": 1500
 }

@@ -4,112 +4,113 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/187018?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 55638,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/55638?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_armor_maw_c_07.jpg",
   "id": 187018,
-  "name": "Ritualist's Shoulder-Scythes",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 1,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/187018?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 187018
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 1500000,
-  "sell_price": 1500000,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 187018,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/187018?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ritualist's Shoulder-Scythes",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 187018,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/187018?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 187018
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Ritualist's Shoulder-Scythes",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/187018?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 187018
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
+      "name": "Cosmetic"
     },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 1500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "150",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 187018,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/187018?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Ritualist's Shoulder-Scythes",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
+        "display_string": "Requires Level 50",
+        "value": 50
       }
     },
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/55638?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "150",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 55638
-    }
-  ]
+      "value": 1500000
+    },
+    "unique_equipped": "Unique"
+  },
+  "purchase_price": 1500000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 50,
+  "sell_price": 1500000
 }

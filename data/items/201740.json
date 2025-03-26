@@ -4,116 +4,117 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201740?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "A collection of notes and formulae that reference the perfect potion... the ultimate potion.",
+  "icon_path": "data\\icons\\inv_10_inscription2_book2_color5.jpg",
   "id": 201740,
-  "name": "Elemental Codex of Ultimate Power",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201740?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201740
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "A collection of notes and formulae that reference the perfect potion... the ultimate potion.",
+  "media": {
+    "id": 201740,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201740?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Elemental Codex of Ultimate Power",
   "preview_item": {
+    "description": "A collection of notes and formulae that reference the perfect potion... the ultimate potion.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 201740,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/201740?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201740
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Elemental Codex of Ultimate Power",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201740?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201740
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 201740,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201740?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/394505?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Elemental Codex of Ultimate Power",
-          "id": 394505
-        },
-        "description": "Use: Teaches you how to create Elemental Potions of Ultimate Power and Potion Cauldrons of Ultimate Power."
-      }
-    ],
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Elemental Codex of Ultimate Power",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Alchemy (50)",
+        "level": 50,
         "profession": {
+          "id": 2823,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2823?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Alchemy",
-          "id": 2823
-        },
-        "level": 50,
-        "display_string": "Requires Dragon Isles Alchemy (50)"
+          "name": "Dragon Isles Alchemy"
+        }
       }
     },
-    "description": "A collection of notes and formulae that reference the perfect potion... the ultimate potion.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to create Elemental Potions of Ultimate Power and Potion Cauldrons of Ultimate Power.",
+        "spell": {
+          "id": 394505,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/394505?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Elemental Codex of Ultimate Power"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

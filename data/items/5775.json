@@ -4,189 +4,190 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5775?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew a Black Silk Pack.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 5775,
-  "name": "Pattern: Black Silk Pack",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5775?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5775
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1400,
-  "sell_price": 350,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew a Black Silk Pack.",
+  "media": {
+    "id": 5775,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5775?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Black Silk Pack",
   "preview_item": {
+    "description": "Teaches you how to sew a Black Silk Pack.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 5775,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/5775?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5775
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Pattern: Black Silk Pack",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5775?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5775
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 350,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "3",
-        "copper": "50"
+    "media": {
+      "id": 5775,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5775?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 185,
-        "display_string": "Requires Classic Tailoring (185)"
-      }
+    "name": "Pattern: Black Silk Pack",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to sew a Black Silk Pack.",
     "recipe": {
       "item": {
+        "container_slots": {
+          "display_string": "10 Slot Bag",
+          "value": 10
+        },
+        "inventory_type": {
+          "name": "Bag",
+          "type": "BAG"
+        },
         "item": {
+          "id": 5765,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/5765?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 5765
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Black Silk Pack",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/5765?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 5765
+          }
         },
         "item_class": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Container",
-          "id": 1
+          "name": "Container"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Bag",
-          "id": 0
-        },
-        "inventory_type": {
-          "type": "BAG",
           "name": "Bag"
         },
-        "sell_price": {
-          "value": 4000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "40",
-            "copper": "0"
+        "media": {
+          "id": 5765,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/5765?namespace=static-11.1.0_59095-eu"
           }
         },
-        "container_slots": {
-          "value": 10,
-          "display_string": "10 Slot Bag"
+        "name": "Black Silk Pack",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "40"
+          },
+          "value": 4000
         }
       },
       "reagents": [
         {
+          "quantity": 5,
           "reagent": {
+            "id": 4305,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4305?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Silk Cloth",
-            "id": 4305
-          },
-          "quantity": 5
+            "name": "Bolt of Silk Cloth"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 2325,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2325?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Black Dye",
-            "id": 2325
-          },
-          "quantity": 1
+            "name": "Black Dye"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 2321,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2321?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Fine Thread",
-            "id": 2321
-          },
-          "quantity": 4
+            "name": "Fine Thread"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Silk Cloth (5), Black Dye, Fine Thread (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (185)",
+        "level": 185,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 350
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1400,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 350
 }

@@ -4,314 +4,315 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/35189?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Powerheal 9000 Lens.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 35189,
-  "name": "Schematic: Powerheal 9000 Lens",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/35189?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 35189
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 3
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 150000,
-  "sell_price": 37500,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Powerheal 9000 Lens.",
+  "media": {
+    "id": 35189,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/35189?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Schematic: Powerheal 9000 Lens",
   "preview_item": {
+    "description": "Teaches you how to make Powerheal 9000 Lens.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 35189,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/35189?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 35189
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Schematic: Powerheal 9000 Lens",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/35189?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 35189
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 3
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 37500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "75",
-        "copper": "0"
+    "media": {
+      "id": 35189,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/35189?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Engineering",
-          "id": 2505
-        },
-        "level": 75,
-        "display_string": "Requires Outland Engineering (75)"
-      }
+    "name": "Schematic: Powerheal 9000 Lens",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to make Powerheal 9000 Lens.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "3 Armor"
+          },
+          "value": 3
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 100 / 100",
+          "value": 100
+        },
+        "inventory_type": {
+          "name": "Head",
+          "type": "HEAD"
+        },
         "item": {
+          "id": 35181,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/35181?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 35181
-        },
-        "sockets": [
-          {
-            "socket_type": {
-              "type": "META",
-              "name": "Meta Socket"
-            }
-          },
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
           }
-        ],
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Powerheal 9000 Lens",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/35181?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 35181
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cloth",
-          "id": 1
+          "name": "Cloth"
         },
-        "inventory_type": {
-          "type": "HEAD",
-          "name": "Head"
+        "level": {
+          "display_string": "Item Level 34",
+          "value": 34
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 3,
-          "display": {
-            "display_string": "3 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 35181,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/35181?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 5,
-            "display": {
-              "display_string": "+5 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "VERSATILITY",
-              "name": "Versatility"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Versatility",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "socket_bonus": "Socket Bonus: +2 Spell Power",
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/12883?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Longsight",
-              "id": 12883
-            },
-            "description": "Use: Allows you to look far into the distance. (3 Sec Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Powerheal 9000 Lens",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           },
           "skill": {
+            "display_string": "Requires Outland Engineering (1)",
+            "level": 1,
             "profession": {
+              "id": 2505,
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
               },
-              "name": "Outland Engineering",
-              "id": 2505
-            },
-            "level": 1,
-            "display_string": "Requires Outland Engineering (1)"
+              "name": "Outland Engineering"
+            }
           }
         },
-        "level": {
-          "value": 34,
-          "display_string": "Item Level 34"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 100,
-          "display_string": "Durability 100 / 100"
-        }
+        "socket_bonus": "Socket Bonus: +2 Spell Power",
+        "sockets": [
+          {
+            "socket_type": {
+              "name": "Meta Socket",
+              "type": "META"
+            }
+          },
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          }
+        ],
+        "spells": [
+          {
+            "description": "Use: Allows you to look far into the distance. (3 Sec Cooldown)",
+            "spell": {
+              "id": 12883,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/12883?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Longsight"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Versatility"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Versatility",
+              "type": "VERSATILITY"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 32495,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/32495?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Powerheal 4000 Lens",
-            "id": 32495
-          },
-          "quantity": 1
+            "name": "Powerheal 4000 Lens"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 21886,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21886?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Life",
-            "id": 21886
-          },
-          "quantity": 8
+            "name": "Primal Life"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 22457,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/22457?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Mana",
-            "id": 22457
-          },
-          "quantity": 8
+            "name": "Primal Mana"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 23572,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23572?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Nether",
-            "id": 23572
-          },
-          "quantity": 4
+            "name": "Primal Nether"
+          }
         }
       ],
       "reagents_display_string": "Powerheal 4000 Lens, Primal Life (8), Primal Mana (8), Primal Nether (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Engineering (75)",
+        "level": 75,
+        "profession": {
+          "id": 2505,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Engineering"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 37500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 150000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 37500
 }

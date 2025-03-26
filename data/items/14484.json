@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/14484?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew a Brightcloth Cloak.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 14484,
-  "name": "Pattern: Brightcloth Cloak",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/14484?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 14484
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 16000,
-  "sell_price": 4000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew a Brightcloth Cloak.",
+  "media": {
+    "id": 14484,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/14484?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Brightcloth Cloak",
   "preview_item": {
+    "description": "Teaches you how to sew a Brightcloth Cloak.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 14484,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/14484?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14484
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Pattern: Brightcloth Cloak",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/14484?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14484
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 4000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "40",
-        "copper": "0"
+    "media": {
+      "id": 14484,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/14484?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Pattern: Brightcloth Cloak",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Tailoring (275)",
+        "level": 275,
         "profession": {
+          "id": 197,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/197?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Tailoring",
-          "id": 197
-        },
-        "level": 275,
-        "display_string": "Requires Tailoring (275)"
+          "name": "Tailoring"
+        }
       }
     },
-    "description": "Teaches you how to sew a Brightcloth Cloak.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "40"
+      },
+      "value": 4000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 16000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 4000
 }

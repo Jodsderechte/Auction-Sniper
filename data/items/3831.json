@@ -4,204 +4,205 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3831?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Major Troll's Blood Elixir.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 3831,
-  "name": "Recipe: Major Troll's Blood Elixir",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3831?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3831
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2200,
-  "sell_price": 550,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Major Troll's Blood Elixir.",
+  "media": {
+    "id": 3831,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3831?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Major Troll's Blood Elixir",
   "preview_item": {
+    "description": "Teaches you how to make a Major Troll's Blood Elixir.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 3831,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/3831?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3831
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Recipe: Major Troll's Blood Elixir",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3831?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3831
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 550,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "5",
-        "copper": "50"
+    "media": {
+      "id": 3831,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3831?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Alchemy",
-          "id": 2485
-        },
-        "level": 180,
-        "display_string": "Requires Classic Alchemy (180)"
-      }
+    "name": "Recipe: Major Troll's Blood Elixir",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to make a Major Troll's Blood Elixir.",
     "recipe": {
       "item": {
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 3826,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/3826?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3826
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Major Troll's Blood Elixir",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/3826?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3826
+          }
         },
         "item_class": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Consumable",
-          "id": 0
+          "name": "Consumable"
         },
         "item_subclass": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Elixirs",
-          "id": 2
+          "name": "Elixirs"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
+        "media": {
+          "id": 3826,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/3826?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/3223?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Major Troll's Blood Elixir",
-              "id": 3223
-            },
-            "description": "Use: Regenerate 1 health every 5 sec for 1 hour.  Guardian Elixir. (3 Sec Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 105,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "1",
-            "copper": "5"
-          }
+        "name": "Major Troll's Blood Elixir",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
         },
         "requirements": {
           "level": {
-            "value": 12,
-            "display_string": "Requires Level 12"
+            "display_string": "Requires Level 12",
+            "value": 12
           }
         },
-        "is_subclass_hidden": true
+        "sell_price": {
+          "display_strings": {
+            "copper": "5",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
+          },
+          "value": 105
+        },
+        "spells": [
+          {
+            "description": "Use: Regenerate 1 health every 5 sec for 1 hour.  Guardian Elixir. (3 Sec Cooldown)",
+            "spell": {
+              "id": 3223,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/3223?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Major Troll's Blood Elixir"
+            }
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3357,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3357?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Liferoot",
-            "id": 3357
-          },
-          "quantity": 1
+            "name": "Liferoot"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 2453,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2453?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bruiseweed",
-            "id": 2453
-          },
-          "quantity": 1
+            "name": "Bruiseweed"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3371,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3371?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Crystal Vial",
-            "id": 3371
-          },
-          "quantity": 1
+            "name": "Crystal Vial"
+          }
         }
       ],
       "reagents_display_string": "Liferoot, Bruiseweed, Crystal Vial"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Alchemy (180)",
+        "level": 180,
+        "profession": {
+          "id": 2485,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Alchemy"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 550
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2200,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 550
 }

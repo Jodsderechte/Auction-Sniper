@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201707?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon and dismiss this companion.",
+  "icon_path": "data\\icons\\inv_10_inscription2_book1_color1.jpg",
   "id": 201707,
-  "name": "Troubled Tome",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201707?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201707
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon and dismiss this companion.",
+  "media": {
+    "id": 201707,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201707?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Troubled Tome",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 201707,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/201707?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201707
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Troubled Tome",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201707?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201707
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 201707,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201707?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Troubled Tome",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Teaches you how to summon and dismiss this companion.",
         "spell": {
+          "id": 375036,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/375036?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Troubled Tome",
-          "id": 375036
-        },
-        "description": "Use: Teaches you how to summon and dismiss this companion."
+          "name": "Troubled Tome"
+        }
       }
-    ],
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

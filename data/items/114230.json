@@ -4,190 +4,191 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/114230?namespace=static-11.1.0_59095-eu"
     }
   },
-  "id": 114230,
-  "name": "Truesteel Helm",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
-  },
-  "level": 44,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/114230?namespace=static-11.1.0_59095-eu"
+  "appearances": [
+    {
+      "id": 23242,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/23242?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "id": 114230
+    {
+      "id": 23250,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/23250?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    {
+      "id": 22754,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/22754?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_plate_draenorcrafted_d_01helm.jpg",
+  "id": 114230,
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 44,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 114230,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/114230?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Truesteel Helm",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "13 Armor"
+      },
+      "value": 13
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
     "item": {
+      "id": 114230,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/114230?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 114230
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Truesteel Helm",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/114230?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 114230
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "level": {
+      "display_string": "Item Level 44",
+      "value": 44
     },
     "limit_category": "Unique-Equipped: Warlords Crafted (3)",
-    "armor": {
-      "value": 13,
-      "display": {
-        "display_string": "13 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 114230,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/114230?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 5,
-        "is_negated": true,
-        "display": {
-          "display_string": "+5 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 7,
-        "display": {
-          "display_string": "+7 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Truesteel Helm",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       }
     },
-    "level": {
-      "value": 44,
-      "display_string": "Item Level 44"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
+      },
+      "value": 1500
     },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
-    }
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+5 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+7 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 7
+      }
+    ]
   },
+  "purchase_price": 7500,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/23242?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23242
-    },
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/23250?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23250
-    },
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/22754?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 22754
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 35,
+  "sell_price": 1500
 }

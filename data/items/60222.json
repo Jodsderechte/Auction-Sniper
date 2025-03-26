@@ -4,117 +4,118 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/60222?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 14087,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/14087?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_47.jpg",
   "id": 60222,
-  "name": "Authentic Jr. Engineer Goggles",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 3,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/60222?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 60222
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 154,
-  "sell_price": 30,
+  "level": 3,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 60222,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/60222?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Authentic Jr. Engineer Goggles",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 60222,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/60222?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 60222
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Authentic Jr. Engineer Goggles",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/60222?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 60222
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
+      "name": "Cosmetic"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 3",
+      "value": 3
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 60222,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/60222?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Authentic Jr. Engineer Goggles",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "30",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 30
     },
     "spells": [
       {
+        "description": "Equip: Makes you appear more gifted and attractive.",
         "spell": {
+          "id": 82204,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/82204?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Jr. Engineer",
-          "id": 82204
-        },
-        "description": "Equip: Makes you appear more gifted and attractive."
+          "name": "Jr. Engineer"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 30,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "30"
-      }
-    },
-    "level": {
-      "value": 3,
-      "display_string": "Item Level 3"
-    },
-    "is_subclass_hidden": true
+    ]
   },
+  "purchase_price": 154,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/14087?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14087
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 30
 }

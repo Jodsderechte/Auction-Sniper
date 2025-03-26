@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1982?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 606,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/606?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_02.jpg",
   "id": 1982,
-  "name": "Nightblade",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 24,
-  "required_level": 17,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1982?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1982
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 8
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 66602,
-  "sell_price": 13320,
+  "level": 24,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1982,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1982?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Nightblade",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1982?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1982
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 110 / 110",
+      "value": 110
     },
-    "name": "Nightblade",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 1982,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1982?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1982
+        "href": "https://eu.api.blizzard.com/data/wow/item/1982?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 8
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 611,
-        "max_value": 1019,
-        "display_string": "611 - 1,019 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 226.38889,
-        "display_string": "(226.4 damage per second)"
+    "media": {
+      "id": 1982,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1982?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/144250?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shadow Bolt",
-          "id": 144250
-        },
-        "description": "Chance on hit: Sends a shadowy bolt at the enemy causing 1,766 Shadow damage."
-      }
-    ],
-    "sell_price": {
-      "value": 984801,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "98",
-        "silver": "48",
-        "copper": "1"
-      }
+    "name": "Nightblade",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 17,
-        "display_string": "Requires Level 17"
+        "display_string": "Requires Level 17",
+        "value": 17
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "98",
+        "header": "Sell Price:",
+        "silver": "48"
+      },
+      "value": 984801
     },
-    "durability": {
-      "value": 110,
-      "display_string": "Durability 110 / 110"
+    "spells": [
+      {
+        "description": "Chance on hit: Sends a shadowy bolt at the enemy causing 1,766 Shadow damage.",
+        "spell": {
+          "id": 144250,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/144250?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shadow Bolt"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "611 - 1,019 Damage",
+        "max_value": 1019,
+        "min_value": 611
+      },
+      "dps": {
+        "display_string": "(226.4 damage per second)",
+        "value": 226.38889
+      }
     }
   },
+  "purchase_price": 66602,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/606?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 606
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 17,
+  "sell_price": 13320
 }

@@ -4,173 +4,174 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/9424?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2786,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2786?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_42.jpg",
   "id": 9424,
-  "name": "Ginn-Su Sword",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 22,
-  "required_level": 15,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/9424?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 9424
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 500888,
-  "sell_price": 100177,
+  "level": 22,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 9424,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/9424?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ginn-Su Sword",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/9424?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9424
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6710
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Ginn-Su Sword",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 9424,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/9424?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9424
+        "href": "https://eu.api.blizzard.com/data/wow/item/9424?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 346,
-        "max_value": 577,
-        "display_string": "346 - 577 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 177.49998,
-        "display_string": "(177.5 damage per second)"
+    "media": {
+      "id": 9424,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/9424?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 226,
-        "is_negated": true,
-        "display": {
-          "display_string": "+226 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 205,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+205 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 578996,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "57",
-        "silver": "89",
-        "copper": "96"
-      }
+    "name": "Ginn-Su Sword",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 15,
-        "display_string": "Requires Level 15"
+        "display_string": "Requires Level 15",
+        "value": 15
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "96",
+        "gold": "57",
+        "header": "Sell Price:",
+        "silver": "89"
+      },
+      "value": 578996
     },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+226 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 226
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+205 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 205
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "346 - 577 Damage",
+        "max_value": 577,
+        "min_value": 346
+      },
+      "dps": {
+        "display_string": "(177.5 damage per second)",
+        "value": 177.49998
+      }
     }
   },
+  "purchase_price": 500888,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2786?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2786
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 15,
+  "sell_price": 100177
 }

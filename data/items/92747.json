@@ -4,87 +4,88 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/92747?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bag_advanced_refridgeration_unit.jpg",
   "id": 92747,
-  "name": "Advanced Refrigeration Unit",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 33,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/92747?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 92747
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cooking Bag",
-    "id": 10
+    "name": "Cooking Bag"
   },
-  "inventory_type": {
-    "type": "BAG",
-    "name": "Bag"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 33,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 92747,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/92747?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Advanced Refrigeration Unit",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "container_slots": {
+      "display_string": "36 Slot Cooking Bag",
+      "value": 36
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 92747,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/92747?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 92747
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Advanced Refrigeration Unit",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/92747?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 92747
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cooking Bag",
-      "id": 10
+      "name": "Cooking Bag"
     },
-    "inventory_type": {
-      "type": "BAG",
-      "name": "Bag"
+    "media": {
+      "id": 92747,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/92747?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "container_slots": {
-      "value": 36,
-      "display_string": "36 Slot Cooking Bag"
+    "name": "Advanced Refrigeration Unit",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

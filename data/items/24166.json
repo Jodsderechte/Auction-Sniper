@@ -4,241 +4,242 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/24166?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Thick Felsteel Necklace.",
+  "icon_path": "data\\icons\\inv_scroll_05.jpg",
   "id": 24166,
-  "name": "Design: Thick Felsteel Necklace",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/24166?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 24166
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Thick Felsteel Necklace.",
+  "media": {
+    "id": 24166,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/24166?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Thick Felsteel Necklace",
   "preview_item": {
+    "description": "Teaches you how to craft a Thick Felsteel Necklace.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 24166,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/24166?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24166
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Design: Thick Felsteel Necklace",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/24166?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24166
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 30000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 24166,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/24166?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Jewelcrafting",
-          "id": 2523
-        },
-        "level": 55,
-        "display_string": "Requires Outland Jewelcrafting (55)"
-      }
+    "name": "Design: Thick Felsteel Necklace",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to craft a Thick Felsteel Necklace.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "charges": {
+          "display_string": "1 Charge",
+          "value": 1
+        },
+        "inventory_type": {
+          "name": "Neck",
+          "type": "NECK"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 24106,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/24106?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 24106
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Thick Felsteel Necklace",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/24106?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 24106
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "NECK",
-          "name": "Neck"
+        "level": {
+          "display_string": "Item Level 32",
+          "value": 32
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
+        "media": {
+          "id": 24106,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/24106?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "VERSATILITY",
-              "name": "Versatility"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Versatility",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/31023?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Thick Felsteel Necklace",
-              "id": 31023
-            },
-            "description": "Use: Increases Stamina of nearby party members by 4 for 30 min. (1 Hr Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 39122,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "3",
-            "silver": "91",
-            "copper": "22"
-          }
+        "name": "Thick Felsteel Necklace",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           }
         },
-        "level": {
-          "value": 32,
-          "display_string": "Item Level 32"
+        "sell_price": {
+          "display_strings": {
+            "copper": "22",
+            "gold": "3",
+            "header": "Sell Price:",
+            "silver": "91"
+          },
+          "value": 39122
         },
-        "charges": {
-          "value": 1,
-          "display_string": "1 Charge"
-        },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Use: Increases Stamina of nearby party members by 4 for 30 min. (1 Hr Cooldown)",
+            "spell": {
+              "id": 31023,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/31023?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Thick Felsteel Necklace"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Versatility"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Versatility",
+              "type": "VERSATILITY"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 23448,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23448?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Felsteel Bar",
-            "id": 23448
-          },
-          "quantity": 2
+            "name": "Felsteel Bar"
+          }
         },
         {
+          "quantity": 3,
           "reagent": {
+            "id": 31079,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/31079?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mercurial Adamantite",
-            "id": 31079
-          },
-          "quantity": 3
+            "name": "Mercurial Adamantite"
+          }
         }
       ],
       "reagents_display_string": "Felsteel Bar (2), Mercurial Adamantite (3)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Jewelcrafting (55)",
+        "level": 55,
+        "profession": {
+          "id": 2523,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 30000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 30000
 }

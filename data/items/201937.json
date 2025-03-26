@@ -4,205 +4,206 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201937?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 69496,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/69496?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_cloth_dragonquest_b_01_shoulder.jpg",
   "id": 201937,
-  "name": "Surveyor's Seasoned Shoulders",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 270,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201937?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201937
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cloth",
-    "id": 1
+    "name": "Cloth"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 201845,
-  "sell_price": 40369,
+  "level": 270,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 201937,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201937?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Surveyor's Seasoned Shoulders",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/201937?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "128 Armor"
       },
-      "id": 201937
+      "value": 128
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       8851,
       8852
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Surveyor's Seasoned Shoulders",
-    "media": {
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
+    "item": {
+      "id": 201937,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201937?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201937
+        "href": "https://eu.api.blizzard.com/data/wow/item/201937?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cloth",
-      "id": 1
-    },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 128,
-      "display": {
-        "display_string": "128 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 162,
-        "display": {
-          "display_string": "+162 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 243,
-        "display": {
-          "display_string": "+243 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 153,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+153 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 153,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+153 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 40369,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "4",
-        "silver": "3",
-        "copper": "69"
-      }
+      "name": "Cloth"
     },
     "level": {
-      "value": 330,
-      "display_string": "Item Level 330"
+      "display_string": "Item Level 330",
+      "value": 330
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "media": {
+      "id": 201937,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201937?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
+        "name": "Mastery",
+        "type": "MASTERY_RATING"
       },
       {
         "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "name": "Versatility",
+        "type": "VERSATILITY"
+      }
+    ],
+    "name": "Surveyor's Seasoned Shoulders",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "69",
+        "gold": "4",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 40369
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+162 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 162
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+243 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 243
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+153 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 153
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+153 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 153
       }
     ]
   },
+  "purchase_price": 201845,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/69496?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 69496
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 40369
 }

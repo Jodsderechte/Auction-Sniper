@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/870?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 273,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/273?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_axe_02.jpg",
   "id": 870,
-  "name": "Fiery War Axe",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 22,
-  "required_level": 15,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/870?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 870
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 1
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 49451,
-  "sell_price": 9890,
+  "level": 22,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 870,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/870?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fiery War Axe",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/870?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 870
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
     },
-    "name": "Fiery War Axe",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 870,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/870?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 870
+        "href": "https://eu.api.blizzard.com/data/wow/item/870?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 1
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 530,
-        "max_value": 1102,
-        "display_string": "530 - 1,102 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 226.52777,
-        "display_string": "(226.5 damage per second)"
+    "media": {
+      "id": 870,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/870?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/265000?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Fiery War Axe",
-          "id": 265000
-        },
-        "description": "Equip: Hurls a fiery ball that causes 1,689 Fire damage and an additional 230 damage over 6 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 977291,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "97",
-        "silver": "72",
-        "copper": "91"
-      }
+    "name": "Fiery War Axe",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 15,
-        "display_string": "Requires Level 15"
+        "display_string": "Requires Level 15",
+        "value": 15
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "91",
+        "gold": "97",
+        "header": "Sell Price:",
+        "silver": "72"
+      },
+      "value": 977291
     },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
+    "spells": [
+      {
+        "description": "Equip: Hurls a fiery ball that causes 1,689 Fire damage and an additional 230 damage over 6 sec.",
+        "spell": {
+          "id": 265000,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/265000?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Fiery War Axe"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "530 - 1,102 Damage",
+        "max_value": 1102,
+        "min_value": 530
+      },
+      "dps": {
+        "display_string": "(226.5 damage per second)",
+        "value": 226.52777
+      }
     }
   },
+  "purchase_price": 49451,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/273?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 273
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 15,
+  "sell_price": 9890
 }

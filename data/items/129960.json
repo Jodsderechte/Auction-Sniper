@@ -4,103 +4,104 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/129960?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_leatherworking_70_petbed.jpg",
   "id": 129960,
-  "name": "Leather Pet Bed",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/129960?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 129960
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 15000,
-  "sell_price": 3750,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 129960,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/129960?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Leather Pet Bed",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 129960,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/129960?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 129960
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Leather Pet Bed",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/129960?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 129960
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 129960,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/129960?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Leather Pet Bed",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "37"
+      },
+      "value": 3750
+    },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPlace a bed for most Companion Pets. (20 Sec Cooldown)",
         "spell": {
+          "id": 213337,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/213337?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Pet Bed",
-          "id": 213337
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPlace a bed for most Companion Pets. (20 Sec Cooldown)"
+          "name": "Pet Bed"
+        }
       }
     ],
-    "sell_price": {
-      "value": 3750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "37",
-        "copper": "50"
-      }
-    },
-    "is_subclass_hidden": true,
-    "toy": "Toy"
+    "toy": "Toy",
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 15000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 3750
 }

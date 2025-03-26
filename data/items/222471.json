@@ -4,229 +4,230 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/222471?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 91256,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91256?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_boot_plate_undergroundquest_b_01.jpg",
   "id": 222471,
-  "name": "Dredger's Plate Sabatons",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 447,
-  "required_level": 71,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/222471?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 222471
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 149360,
-  "sell_price": 29872,
+  "level": 447,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 222471,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/222471?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Dredger's Plate Sabatons",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/222471?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "2,381 Armor"
       },
-      "id": 222471
+      "value": 2381
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       11295,
       11296,
       4785
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
     },
-    "name": "Dredger's Plate Sabatons",
-    "media": {
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
+    "item": {
+      "id": 222471,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/222471?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222471
+        "href": "https://eu.api.blizzard.com/data/wow/item/222471?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
-    },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 2381,
-      "display": {
-        "display_string": "2,381 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 896,
-        "display": {
-          "display_string": "+896 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 896,
-        "is_negated": true,
-        "display": {
-          "display_string": "+896 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4331,
-        "display": {
-          "display_string": "+4,331 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 441,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+441 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 441,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+441 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 29872,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "98",
-        "copper": "72"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 71,
-        "display_string": "Requires Level 71"
-      }
+      "name": "Plate"
     },
     "level": {
-      "value": 515,
-      "display_string": "Item Level 515"
+      "display_string": "Item Level 515",
+      "value": 515
     },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
+    "media": {
+      "id": 222471,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/222471?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "name": "Versatility",
+        "type": "VERSATILITY"
       },
       {
         "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
+        "name": "Mastery",
+        "type": "MASTERY_RATING"
+      }
+    ],
+    "name": "Dredger's Plate Sabatons",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 71",
+        "value": 71
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "72",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "98"
+      },
+      "value": 29872
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+896 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 896
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+896 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 896
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4,331 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4331
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+441 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 441
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+441 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 441
       }
     ]
   },
+  "purchase_price": 149360,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91256?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 91256
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 71,
+  "sell_price": 29872
 }

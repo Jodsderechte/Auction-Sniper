@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/211937?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_necklace_02.jpg",
   "id": 211937,
-  "name": "Scarlet Pendant",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 70,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/211937?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 211937
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 824936,
-  "sell_price": 412468,
+  "level": 70,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 211937,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/211937?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Scarlet Pendant",
   "preview_item": {
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 211937,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/211937?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 211937
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Scarlet Pendant",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/211937?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 211937
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
-    },
-    "sell_price": {
-      "value": 412468,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "41",
-        "silver": "24",
-        "copper": "68"
-      }
+      "name": "Miscellaneous"
     },
     "level": {
-      "value": 70,
-      "display_string": "Item Level 70"
+      "display_string": "Item Level 70",
+      "value": 70
     },
-    "is_subclass_hidden": true
+    "media": {
+      "id": 211937,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/211937?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Scarlet Pendant",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "68",
+        "gold": "41",
+        "header": "Sell Price:",
+        "silver": "24"
+      },
+      "value": 412468
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 824936,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 412468
 }

@@ -4,205 +4,206 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/67104?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 14938,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/14938?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_wand_1h_cataclysm_c_02.jpg",
   "id": 67104,
-  "name": "Torchlight Wand",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 36,
-  "required_level": 30,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/67104?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 67104
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Wand",
-    "id": 19
+    "name": "Wand"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 5424991,
-  "sell_price": 1084998,
+  "level": 36,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 67104,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/67104?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Torchlight Wand",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/67104?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 67104
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 90 / 90",
+      "value": 90
     },
-    "name": "Torchlight Wand",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 67104,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/67104?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 67104
+        "href": "https://eu.api.blizzard.com/data/wow/item/67104?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Wand",
-      "id": 19
+      "name": "Wand"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 122,
-        "max_value": 204,
-        "display_string": "122 - 204 Fire Damage",
-        "damage_class": {
-          "type": "FIRE",
-          "name": "Fire"
-        }
-      },
-      "attack_speed": {
-        "value": 2000,
-        "display_string": "Speed 2.00"
-      },
-      "dps": {
-        "value": 81.5,
-        "display_string": "(81.5 damage per second)"
+    "media": {
+      "id": 67104,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/67104?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 837,
-        "display": {
-          "display_string": "+837 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 280,
-        "display": {
-          "display_string": "+280 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 132,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+132 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 132,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+132 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 766198,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "76",
-        "silver": "61",
-        "copper": "98"
-      }
+    "name": "Torchlight Wand",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 30,
-        "display_string": "Requires Level 30"
+        "display_string": "Requires Level 30",
+        "value": 30
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "98",
+        "gold": "76",
+        "header": "Sell Price:",
+        "silver": "61"
+      },
+      "value": 766198
     },
-    "durability": {
-      "value": 90,
-      "display_string": "Durability 90 / 90"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+837 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 837
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+280 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 280
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+132 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 132
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+132 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 132
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.00",
+        "value": 2000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Fire",
+          "type": "FIRE"
+        },
+        "display_string": "122 - 204 Fire Damage",
+        "max_value": 204,
+        "min_value": 122
+      },
+      "dps": {
+        "display_string": "(81.5 damage per second)",
+        "value": 81.5
+      }
     }
   },
+  "purchase_price": 5424991,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/14938?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14938
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 30,
+  "sell_price": 1084998
 }

@@ -4,117 +4,118 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/38089?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3285,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3285?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_47.jpg",
   "id": 38089,
-  "name": "Ruby Shades",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/38089?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 38089
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 30,
-  "sell_price": 6,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 38089,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/38089?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ruby Shades",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 38089,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/38089?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38089
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Ruby Shades",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/38089?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38089
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
+      "name": "Cosmetic"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 38089,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/38089?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Ruby Shades",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "4",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 4
     },
     "spells": [
       {
+        "description": "Equip: Increases your chance to be the center of attention.",
         "spell": {
+          "id": 50009,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/50009?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Fancy Sunglasses",
-          "id": 50009
-        },
-        "description": "Equip: Increases your chance to be the center of attention."
+          "name": "Fancy Sunglasses"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 4,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "4"
-      }
-    },
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
-    },
-    "is_subclass_hidden": true
+    ]
   },
+  "purchase_price": 30,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3285?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3285
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 6
 }

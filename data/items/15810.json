@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/15810?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 398,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/398?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_spear_05.jpg",
   "id": 15810,
-  "name": "Short Spear",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 16,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/15810?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 15810
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Polearm",
-    "id": 6
+    "name": "Polearm"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 18463,
-  "sell_price": 3692,
+  "level": 16,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 15810,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/15810?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Short Spear",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 15810,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/15810?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 15810
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Short Spear",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/15810?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 15810
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Polearm",
-      "id": 6
+      "name": "Polearm"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 16",
+      "value": 16
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 4,
-        "max_value": 9,
-        "display_string": "4 - 9 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 1.8055555,
-        "display_string": "(1.8 damage per second)"
+    "media": {
+      "id": 15810,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/15810?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 51,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "51"
-      }
+    "name": "Short Spear",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 10,
-        "display_string": "Requires Level 10"
+        "display_string": "Requires Level 10",
+        "value": 10
       }
     },
-    "level": {
-      "value": 16,
-      "display_string": "Item Level 16"
+    "sell_price": {
+      "display_strings": {
+        "copper": "51",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 51
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "4 - 9 Damage",
+        "max_value": 9,
+        "min_value": 4
+      },
+      "dps": {
+        "display_string": "(1.8 damage per second)",
+        "value": 1.8055555
+      }
     }
   },
+  "purchase_price": 18463,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/398?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 398
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 10,
+  "sell_price": 3692
 }

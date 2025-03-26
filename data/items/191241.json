@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/191241?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_axe_1h_herbalism_b_01.jpg",
   "id": 191241,
-  "name": "Draconium Sickle",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/191241?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 191241
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Herbalism",
-    "id": 3
+    "name": "Herbalism"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 400000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 191241,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/191241?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Draconium Sickle",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/191241?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 191241
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Draconium Sickle",
-    "media": {
+    "item": {
+      "id": 191241,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/191241?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 191241
+        "href": "https://eu.api.blizzard.com/data/wow/item/191241?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Herbalism",
-      "id": 3
+      "name": "Herbalism"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_FINESSE",
-          "name": "Finesse"
-        },
-        "value": 58,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+58 Finesse",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455722?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455722
-        },
-        "description": "Equip: +6 Dragon Isles Herbalism Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 400000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "40",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 191241,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/191241?namespace=static-11.1.0_59095-eu"
       }
     },
     "modified_crafting_stat": [
       {
         "id": 77,
-        "type": "BONUS_STAT_PROFESSION_FINESSE",
-        "name": "Finesse"
+        "name": "Finesse",
+        "type": "BONUS_STAT_PROFESSION_FINESSE"
+      }
+    ],
+    "name": "Draconium Sickle",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "40",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 400000
+    },
+    "spells": [
+      {
+        "description": "Equip: +6 Dragon Isles Herbalism Skill",
+        "spell": {
+          "id": 455722,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455722?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+58 Finesse"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Finesse",
+          "type": "BONUS_STAT_PROFESSION_FINESSE"
+        },
+        "value": 58
       }
     ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 400000
 }

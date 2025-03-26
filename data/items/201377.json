@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201377?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 75657,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/75657?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_2h_dragondungeon_c_02.jpg",
   "id": 201377,
-  "name": "Tuskarr Elder's Staff",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 1,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201377?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201377
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 800000,
-  "sell_price": 200000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 201377,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201377?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Tuskarr Elder's Staff",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 30 / 30",
+      "value": 30
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 201377,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/201377?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201377
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Tuskarr Elder's Staff",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201377?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201377
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
+      "name": "Staff"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 2,
-        "display_string": "1 - 2 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 0.41666666,
-        "display_string": "(0.4 damage per second)"
+    "media": {
+      "id": 201377,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201377?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 200000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Tuskarr Elder's Staff",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
+        "display_string": "Requires Level 60",
+        "value": 60
       }
     },
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 200000
     },
-    "durability": {
-      "value": 30,
-      "display_string": "Durability 30 / 30"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 - 2 Damage",
+        "max_value": 2,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.4 damage per second)",
+        "value": 0.41666666
+      }
     }
   },
+  "purchase_price": 800000,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/75657?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 75657
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 60,
+  "sell_price": 200000
 }

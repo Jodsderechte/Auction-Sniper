@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1265?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 353,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/353?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_12.jpg",
   "id": 1265,
-  "name": "Scorpion Sting",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 22,
-  "required_level": 14,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1265?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1265
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 29211,
-  "sell_price": 5842,
+  "level": 22,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1265,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1265?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Scorpion Sting",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1265?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1265
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Scorpion Sting",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 1265,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1265?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1265
+        "href": "https://eu.api.blizzard.com/data/wow/item/1265?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 318,
-        "max_value": 531,
-        "display_string": "318 - 531 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 163.26923,
-        "display_string": "(163.3 damage per second)"
+    "media": {
+      "id": 1265,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1265?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/18208?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Poison",
-          "id": 18208
-        },
-        "description": "Chance on hit: Poisons target for 123 Nature damage every 5 sec for 25 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 567872,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "56",
-        "silver": "78",
-        "copper": "72"
-      }
+    "name": "Scorpion Sting",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 14,
-        "display_string": "Requires Level 14"
+        "display_string": "Requires Level 14",
+        "value": 14
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "72",
+        "gold": "56",
+        "header": "Sell Price:",
+        "silver": "78"
+      },
+      "value": 567872
     },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "spells": [
+      {
+        "description": "Chance on hit: Poisons target for 123 Nature damage every 5 sec for 25 sec.",
+        "spell": {
+          "id": 18208,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/18208?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Poison"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "318 - 531 Damage",
+        "max_value": 531,
+        "min_value": 318
+      },
+      "dps": {
+        "display_string": "(163.3 damage per second)",
+        "value": 163.26923
+      }
     }
   },
+  "purchase_price": 29211,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/353?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 353
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 14,
+  "sell_price": 5842
 }

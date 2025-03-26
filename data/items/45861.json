@@ -4,127 +4,128 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/45861?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 11567,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/11567?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_wand_07.jpg",
   "id": 45861,
-  "name": "Diamond-Tipped Cane",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 3,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/45861?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 45861
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 232,
-  "sell_price": 46,
+  "level": 3,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 45861,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/45861?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Diamond-Tipped Cane",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 30 / 30",
+      "value": 30
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 45861,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/45861?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45861
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Diamond-Tipped Cane",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/45861?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45861
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
-    },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 2,
-        "display_string": "1 - 2 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2200,
-        "display_string": "Speed 2.20"
-      },
-      "dps": {
-        "value": 0.6818182,
-        "display_string": "(0.7 damage per second)"
-      }
-    },
-    "sell_price": {
-      "value": 16,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "16"
-      }
+      "name": "Staff"
     },
     "level": {
-      "value": 3,
-      "display_string": "Item Level 3"
+      "display_string": "Item Level 3",
+      "value": 3
     },
-    "durability": {
-      "value": 30,
-      "display_string": "Durability 30 / 30"
+    "media": {
+      "id": 45861,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/45861?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Diamond-Tipped Cane",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "16",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 16
+    },
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.20",
+        "value": 2200
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 - 2 Damage",
+        "max_value": 2,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.7 damage per second)",
+        "value": 0.6818182
+      }
     }
   },
+  "purchase_price": 232,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/11567?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11567
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 46
 }

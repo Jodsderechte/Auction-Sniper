@@ -4,189 +4,190 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4292?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew a Green Woolen Bag.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 4292,
-  "name": "Pattern: Green Woolen Bag",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4292?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4292
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 800,
-  "sell_price": 200,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew a Green Woolen Bag.",
+  "media": {
+    "id": 4292,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4292?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Green Woolen Bag",
   "preview_item": {
+    "description": "Teaches you how to sew a Green Woolen Bag.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 4292,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/4292?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4292
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Pattern: Green Woolen Bag",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4292?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4292
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 200,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "0"
+    "media": {
+      "id": 4292,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4292?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 95,
-        "display_string": "Requires Classic Tailoring (95)"
-      }
+    "name": "Pattern: Green Woolen Bag",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to sew a Green Woolen Bag.",
     "recipe": {
       "item": {
+        "container_slots": {
+          "display_string": "8 Slot Bag",
+          "value": 8
+        },
+        "inventory_type": {
+          "name": "Bag",
+          "type": "BAG"
+        },
         "item": {
+          "id": 4241,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/4241?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 4241
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Green Woolen Bag",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/4241?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 4241
+          }
         },
         "item_class": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Container",
-          "id": 1
+          "name": "Container"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Bag",
-          "id": 0
-        },
-        "inventory_type": {
-          "type": "BAG",
           "name": "Bag"
         },
-        "sell_price": {
-          "value": 450,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "4",
-            "copper": "50"
+        "media": {
+          "id": 4241,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/4241?namespace=static-11.1.0_59095-eu"
           }
         },
-        "container_slots": {
-          "value": 8,
-          "display_string": "8 Slot Bag"
+        "name": "Green Woolen Bag",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "50",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "4"
+          },
+          "value": 450
         }
       },
       "reagents": [
         {
+          "quantity": 4,
           "reagent": {
+            "id": 2997,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2997?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Woolen Cloth",
-            "id": 2997
-          },
-          "quantity": 4
+            "name": "Bolt of Woolen Cloth"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 2605,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2605?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Green Dye",
-            "id": 2605
-          },
-          "quantity": 1
+            "name": "Green Dye"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 2321,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2321?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Fine Thread",
-            "id": 2321
-          },
-          "quantity": 1
+            "name": "Fine Thread"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Woolen Cloth (4), Green Dye, Fine Thread"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (95)",
+        "level": 95,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 200
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 800,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 200
 }

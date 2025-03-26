@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/9511?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2825,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2825?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_40.jpg",
   "id": 9511,
-  "name": "Bloodletter Scalpel",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 25,
-  "required_level": 19,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/9511?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 9511
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 47101,
-  "sell_price": 9420,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 9511,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/9511?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bloodletter Scalpel",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/9511?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9511
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6710
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 80 / 80",
+      "value": 80
     },
-    "name": "Bloodletter Scalpel",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 9511,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/9511?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9511
+        "href": "https://eu.api.blizzard.com/data/wow/item/9511?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 346,
-        "max_value": 577,
-        "display_string": "346 - 577 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 177.49998,
-        "display_string": "(177.5 damage per second)"
+    "media": {
+      "id": 9511,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/9511?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/13486?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Wound",
-          "id": 13486
-        },
-        "description": "Chance on hit: Wounds the target for 680 damage."
-      }
-    ],
-    "sell_price": {
-      "value": 610466,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "61",
-        "silver": "4",
-        "copper": "66"
-      }
+    "name": "Bloodletter Scalpel",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 19,
-        "display_string": "Requires Level 19"
+        "display_string": "Requires Level 19",
+        "value": 19
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "66",
+        "gold": "61",
+        "header": "Sell Price:",
+        "silver": "4"
+      },
+      "value": 610466
     },
-    "durability": {
-      "value": 80,
-      "display_string": "Durability 80 / 80"
+    "spells": [
+      {
+        "description": "Chance on hit: Wounds the target for 680 damage.",
+        "spell": {
+          "id": 13486,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/13486?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Wound"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "346 - 577 Damage",
+        "max_value": 577,
+        "min_value": 346
+      },
+      "dps": {
+        "display_string": "(177.5 damage per second)",
+        "value": 177.49998
+      }
     }
   },
+  "purchase_price": 47101,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2825?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2825
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 19,
+  "sell_price": 9420
 }

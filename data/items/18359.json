@@ -4,111 +4,112 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18359?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "-By Uther",
+  "icon_path": "data\\icons\\inv_misc_book_11.jpg",
   "id": 18359,
-  "name": "The Light and How to Swing It",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 25,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18359?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18359
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 25,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "-By Uther",
+  "media": {
+    "id": 18359,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18359?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Light and How to Swing It",
   "preview_item": {
+    "description": "-By Uther",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18359,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18359?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18359
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "The Light and How to Swing It",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18359?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18359
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "requirements": {
-      "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
-      },
-      "playable_classes": {
-        "links": [
-          {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/playable-class/2?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Paladin",
-            "id": 2
-          }
-        ],
-        "display_string": "Classes: Paladin"
-      }
-    },
-    "description": "-By Uther",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 7501,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/7501?namespace=static-11.1.0_59095-eu"
         },
-        "name": "The Light and How To Swing It",
-        "id": 7501
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "The Light and How To Swing It"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 18359,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18359?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "The Light and How to Swing It",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 23",
+        "value": 23
+      },
+      "playable_classes": {
+        "display_string": "Classes: Paladin",
+        "links": [
+          {
+            "id": 2,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/playable-class/2?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Paladin"
+          }
+        ]
+      }
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 23,
+  "sell_price": 0
 }

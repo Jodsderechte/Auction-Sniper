@@ -4,153 +4,154 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/24098?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_necklace_32.jpg",
   "id": 24098,
-  "name": "Pendant of the Null Rune",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/24098?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 24098
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 157880,
-  "sell_price": 39470,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 24098,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/24098?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pendant of the Null Rune",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "charges": {
+      "display_string": "10 Charges",
+      "value": 10
+    },
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 24098,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/24098?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24098
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Pendant of the Null Rune",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/24098?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24098
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 24098,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/24098?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "ARCANE_RESISTANCE",
-          "name": "Arcane Resistance"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Arcane Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/31002?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Arcane Absorption",
-          "id": 31002
-        },
-        "description": "Use: Absorbs 199 arcane damage on all nearby party members.  Lasts 5 min. (1 Hr Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 39470,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "94",
-        "copper": "70"
-      }
+    "name": "Pendant of the Null Rune",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
+    "sell_price": {
+      "display_strings": {
+        "copper": "70",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "94"
+      },
+      "value": 39470
     },
-    "charges": {
-      "value": 10,
-      "display_string": "10 Charges"
-    },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Absorbs 199 arcane damage on all nearby party members.  Lasts 5 min. (1 Hr Cooldown)",
+        "spell": {
+          "id": 31002,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/31002?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Arcane Absorption"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Arcane Resistance"
+        },
+        "type": {
+          "name": "Arcane Resistance",
+          "type": "ARCANE_RESISTANCE"
+        },
+        "value": 3
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 157880,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 39470
 }

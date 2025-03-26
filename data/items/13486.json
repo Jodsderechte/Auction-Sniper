@@ -4,178 +4,179 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13486?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to transmute Essence of Undeath into Essence of Water.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 13486,
-  "name": "Recipe: Transmute Undeath to Water",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13486?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13486
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 15000,
-  "sell_price": 3750,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to transmute Essence of Undeath into Essence of Water.",
+  "media": {
+    "id": 13486,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13486?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Transmute Undeath to Water",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 13486,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/13486?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13486
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Recipe: Transmute Undeath to Water",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13486?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13486
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/17563?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Transmute: Undeath to Water",
-          "id": 17563
-        },
-        "description": "Use: Teaches you how to transmute Essence of Undeath into Essence of Water."
-      }
-    ],
-    "sell_price": {
-      "value": 3750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "37",
-        "copper": "50"
+    "media": {
+      "id": 13486,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13486?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Alchemy",
-          "id": 2485
-        },
-        "level": 275,
-        "display_string": "Requires Classic Alchemy (275)"
-      }
+    "name": "Recipe: Transmute Undeath to Water",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "recipe": {
       "item": {
+        "crafting_reagent": "Crafting Reagent",
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 7080,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/7080?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 7080
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Essence of Water",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/7080?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 7080
+          }
         },
         "item_class": {
+          "id": 7,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Tradeskill",
-          "id": 7
+          "name": "Tradeskill"
         },
         "item_subclass": {
+          "id": 10,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/10?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Elemental",
-          "id": 10
+          "name": "Elemental"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
-        },
-        "sell_price": {
-          "value": 400,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "4",
-            "copper": "0"
+        "media": {
+          "id": 7080,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/7080?namespace=static-11.1.0_59095-eu"
           }
         },
-        "is_subclass_hidden": true,
-        "crafting_reagent": "Crafting Reagent"
+        "name": "Essence of Water",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "4"
+          },
+          "value": 400
+        }
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 12808,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12808?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Essence of Undeath",
-            "id": 12808
-          },
-          "quantity": 1
+            "name": "Essence of Undeath"
+          }
         }
       ],
       "reagents_display_string": "Essence of Undeath"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Alchemy (275)",
+        "level": 275,
+        "profession": {
+          "id": 2485,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Alchemy"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "37"
+      },
+      "value": 3750
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to transmute Essence of Undeath into Essence of Water.",
+        "spell": {
+          "id": 17563,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/17563?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Transmute: Undeath to Water"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 15000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 3750
 }

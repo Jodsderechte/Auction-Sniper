@@ -4,172 +4,173 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/82217?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 17779,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/17779?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mace_2h_pandariaquest_b_01.jpg",
   "id": 82217,
-  "name": "Inlaid Hammer",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 38,
-  "required_level": 33,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/82217?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 82217
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 5
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 4282410,
-  "sell_price": 856482,
+  "level": 38,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 82217,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/82217?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Inlaid Hammer",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/82217?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 82217
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6655
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Inlaid Hammer",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 82217,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/82217?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 82217
+        "href": "https://eu.api.blizzard.com/data/wow/item/82217?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 5
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 650,
-        "max_value": 836,
-        "display_string": "650 - 836 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 206.38889,
-        "display_string": "(206.4 damage per second)"
+    "media": {
+      "id": 82217,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/82217?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 274,
-        "is_negated": true,
-        "display": {
-          "display_string": "+274 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 496,
-        "display": {
-          "display_string": "+496 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 590951,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "59",
-        "silver": "9",
-        "copper": "51"
-      }
+    "name": "Inlaid Hammer",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 33,
-        "display_string": "Requires Level 33"
+        "display_string": "Requires Level 33",
+        "value": 33
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
+    "sell_price": {
+      "display_strings": {
+        "copper": "51",
+        "gold": "59",
+        "header": "Sell Price:",
+        "silver": "9"
+      },
+      "value": 590951
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+274 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 274
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+496 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 496
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "650 - 836 Damage",
+        "max_value": 836,
+        "min_value": 650
+      },
+      "dps": {
+        "display_string": "(206.4 damage per second)",
+        "value": 206.38889
+      }
     }
   },
+  "purchase_price": 4282410,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/17779?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 17779
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 33,
+  "sell_price": 856482
 }

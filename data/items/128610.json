@@ -4,120 +4,121 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/128610?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to perform the Mark of the Claw enchantment much more efficiently.",
+  "icon_path": "data\\icons\\inv_recipe_70_scroll3star.jpg",
   "id": 128610,
-  "name": "Formula: Enchant Neck - Mark of the Claw",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/128610?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 128610
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to perform the Mark of the Claw enchantment much more efficiently.",
+  "media": {
+    "id": 128610,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/128610?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Formula: Enchant Neck - Mark of the Claw",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 128610,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/128610?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 128610
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Formula: Enchant Neck - Mark of the Claw",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/128610?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 128610
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/191023?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Mark of the Claw",
-          "id": 191023
-        },
-        "description": "Use: Teaches you how to perform the Mark of the Claw enchantment much more efficiently."
+    "media": {
+      "id": 128610,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/128610?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Formula: Enchant Neck - Mark of the Claw",
+    "name_description": {
+      "color": {
+        "a": 1.0,
+        "b": 255,
+        "g": 255,
+        "r": 0
+      },
+      "display_string": "Rank 3"
+    },
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
     "requirements": {
       "level": {
-        "value": 10,
-        "display_string": "Requires Level 10"
+        "display_string": "Requires Level 10",
+        "value": 10
       },
       "skill": {
+        "display_string": "Requires Legion Enchanting (1)",
+        "level": 1,
         "profession": {
+          "id": 2487,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2487?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Legion Enchanting",
-          "id": 2487
-        },
-        "level": 1,
-        "display_string": "Requires Legion Enchanting (1)"
+          "name": "Legion Enchanting"
+        }
       }
     },
-    "is_subclass_hidden": true,
-    "name_description": {
-      "display_string": "Rank 3",
-      "color": {
-        "r": 0,
-        "g": 255,
-        "b": 255,
-        "a": 1.0
+    "spells": [
+      {
+        "description": "Use: Teaches you how to perform the Mark of the Claw enchantment much more efficiently.",
+        "spell": {
+          "id": 191023,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/191023?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Mark of the Claw"
+        }
       }
-    }
+    ],
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 10,
+  "sell_price": 0
 }

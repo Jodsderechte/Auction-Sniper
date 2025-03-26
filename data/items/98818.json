@@ -4,237 +4,238 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/98818?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 17217,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/17217?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_bracer_mail_pvphunter_e_01.jpg",
   "id": 98818,
-  "name": "Crafted Malevolent Gladiator's Wristguards of Alacrity",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Wrist",
+    "type": "WRIST"
   },
-  "level": 39,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/98818?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 98818
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "WRIST",
-    "name": "Wrist"
-  },
-  "purchase_price": 122600,
-  "sell_price": 24520,
+  "level": 39,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 98818,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/98818?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Crafted Malevolent Gladiator's Wristguards of Alacrity",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "5 Armor"
+      },
+      "value": 5
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 50 / 50",
+      "value": 50
+    },
+    "inventory_type": {
+      "name": "Wrist",
+      "type": "WRIST"
+    },
     "item": {
+      "id": 98818,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/98818?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 98818
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Crafted Malevolent Gladiator's Wristguards of Alacrity",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/98818?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 98818
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "WRIST",
-      "name": "Wrist"
+    "level": {
+      "display_string": "Item Level 39",
+      "value": 39
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 5,
-      "display": {
-        "display_string": "5 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 98818,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/98818?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 2,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+2 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 2,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+2 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 203,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "3"
-      }
+    "name": "Crafted Malevolent Gladiator's Wristguards of Alacrity",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       },
       "playable_classes": {
+        "display_string": "Classes: Hunter, Shaman, Evoker",
         "links": [
           {
+            "id": 3,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/playable-class/3?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Hunter",
-            "id": 3
+            "name": "Hunter"
           },
           {
+            "id": 7,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/playable-class/7?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Shaman",
-            "id": 7
+            "name": "Shaman"
           },
           {
+            "id": 13,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/playable-class/13?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Evoker",
-            "id": 13
+            "name": "Evoker"
           }
-        ],
-        "display_string": "Classes: Hunter, Shaman, Evoker"
+        ]
       }
     },
-    "level": {
-      "value": 39,
-      "display_string": "Item Level 39"
-    },
-    "durability": {
-      "value": 50,
-      "display_string": "Durability 50 / 50"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/17217?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "3",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
       },
-      "id": 17217
-    }
-  ]
+      "value": 203
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 2
+      }
+    ]
+  },
+  "purchase_price": 122600,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 35,
+  "sell_price": 24520
 }

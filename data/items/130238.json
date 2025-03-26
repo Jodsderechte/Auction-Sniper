@@ -4,153 +4,154 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/130238?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelcrafting_70_maxlvlneck_green.jpg",
   "id": 130238,
-  "name": "Vindictive Pandemonite Choker",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 50,
-  "required_level": 45,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/130238?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 130238
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 130238,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/130238?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Vindictive Pandemonite Choker",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 130238,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/130238?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "id": 130238
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Miscellaneous"
+    },
+    "level": {
+      "display_string": "Item Level 50",
+      "value": 50
+    },
+    "media": {
+      "id": 130238,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/130238?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Vindictive Pandemonite Choker",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 45",
+        "value": 45
+      },
+      "playable_classes": {
+        "display_string": "Classes: Demon Hunter",
+        "links": [
+          {
+            "id": 12,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/playable-class/12?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Demon Hunter"
+          }
+        ]
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
+      },
+      "value": 1500
     },
     "sockets": [
       {
         "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      }
-    ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Vindictive Pandemonite Choker",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/130238?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 130238
-    },
-    "item_class": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Armor",
-      "id": 4
-    },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
         }
       }
     ],
     "spells": [
       {
+        "description": "Use: Reflect 17 Chaos damage back to attackers for 20 sec. (5 Min Cooldown)",
         "spell": {
+          "id": 222271,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/222271?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Vindictiveness",
-          "id": 222271
-        },
-        "description": "Use: Reflect 17 Chaos damage back to attackers for 20 sec. (5 Min Cooldown)"
+          "name": "Vindictiveness"
+        }
       }
     ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
       }
-    },
-    "requirements": {
-      "level": {
-        "value": 45,
-        "display_string": "Requires Level 45"
-      },
-      "playable_classes": {
-        "links": [
-          {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/playable-class/12?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Demon Hunter",
-            "id": 12
-          }
-        ],
-        "display_string": "Classes: Demon Hunter"
-      }
-    },
-    "level": {
-      "value": 50,
-      "display_string": "Item Level 50"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 45,
+  "sell_price": 1500
 }

@@ -4,256 +4,257 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/11612?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Dark Iron Plate.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 11612,
-  "name": "Plans: Dark Iron Plate",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/11612?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 11612
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 12000,
-  "sell_price": 3000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Dark Iron Plate.",
+  "media": {
+    "id": 11612,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/11612?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Dark Iron Plate",
   "preview_item": {
+    "description": "Teaches you how to make Dark Iron Plate.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 11612,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/11612?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11612
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Plans: Dark Iron Plate",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/11612?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11612
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 3000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "30",
-        "copper": "0"
+    "media": {
+      "id": 11612,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/11612?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 285,
-        "display_string": "Requires Classic Blacksmithing (285)"
-      }
+    "name": "Plans: Dark Iron Plate",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to make Dark Iron Plate.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "14 Armor"
+          },
+          "value": 14
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "durability": {
+          "display_string": "Durability 140 / 140",
+          "value": 140
+        },
+        "inventory_type": {
+          "name": "Chest",
+          "type": "CHEST"
+        },
         "item": {
+          "id": 11604,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/11604?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 11604
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Dark Iron Plate",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/11604?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 11604
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Plate",
-          "id": 4
+          "name": "Plate"
         },
-        "inventory_type": {
-          "type": "CHEST",
-          "name": "Chest"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
-        },
-        "armor": {
-          "value": 14,
-          "display": {
-            "display_string": "14 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 11604,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/11604?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 5,
-            "display": {
-              "display_string": "+5 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "VERSATILITY",
-              "name": "Versatility"
-            },
-            "value": 2,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+2 Versatility",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "FIRE_RESISTANCE",
-              "name": "Fire Resistance"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Fire Resistance",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 180,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "1",
-            "copper": "80"
-          }
+        "name": "Dark Iron Plate",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 23,
-            "display_string": "Requires Level 23"
+            "display_string": "Requires Level 23",
+            "value": 23
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "80",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
+          },
+          "value": 180
         },
-        "durability": {
-          "value": 140,
-          "display_string": "Durability 140 / 140"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Versatility"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Versatility",
+              "type": "VERSATILITY"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Fire Resistance"
+            },
+            "type": {
+              "name": "Fire Resistance",
+              "type": "FIRE_RESISTANCE"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 20,
           "reagent": {
+            "id": 11371,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/11371?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Dark Iron Bar",
-            "id": 11371
-          },
-          "quantity": 20
+            "name": "Dark Iron Bar"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 7077,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7077?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heart of Fire",
-            "id": 7077
-          },
-          "quantity": 8
+            "name": "Heart of Fire"
+          }
         }
       ],
       "reagents_display_string": "Dark Iron Bar (20), Heart of Fire (8)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (285)",
+        "level": 285,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "30"
+      },
+      "value": 3000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 12000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 3000
 }

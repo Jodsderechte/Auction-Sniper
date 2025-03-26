@@ -4,331 +4,332 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/35190?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Hyper-Magnified Moon Specs.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 35190,
-  "name": "Schematic: Hyper-Magnified Moon Specs",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/35190?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 35190
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 3
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 150000,
-  "sell_price": 37500,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Hyper-Magnified Moon Specs.",
+  "media": {
+    "id": 35190,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/35190?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Schematic: Hyper-Magnified Moon Specs",
   "preview_item": {
+    "description": "Teaches you how to make Hyper-Magnified Moon Specs.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 35190,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/35190?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 35190
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Schematic: Hyper-Magnified Moon Specs",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/35190?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 35190
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 3
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 37500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "75",
-        "copper": "0"
+    "media": {
+      "id": 35190,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/35190?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Engineering",
-          "id": 2505
-        },
-        "level": 75,
-        "display_string": "Requires Outland Engineering (75)"
-      }
+    "name": "Schematic: Hyper-Magnified Moon Specs",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to make Hyper-Magnified Moon Specs.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "5 Armor"
+          },
+          "value": 5
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 100 / 100",
+          "value": 100
+        },
+        "inventory_type": {
+          "name": "Head",
+          "type": "HEAD"
+        },
         "item": {
+          "id": 35182,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/35182?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 35182
-        },
-        "sockets": [
-          {
-            "socket_type": {
-              "type": "META",
-              "name": "Meta Socket"
-            }
-          },
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
           }
-        ],
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Hyper-Magnified Moon Specs",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/35182?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 35182
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Leather",
-          "id": 2
+          "name": "Leather"
         },
-        "inventory_type": {
-          "type": "HEAD",
-          "name": "Head"
+        "level": {
+          "display_string": "Item Level 34",
+          "value": 34
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 5,
-          "display": {
-            "display_string": "5 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 35182,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/35182?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 5,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+5 Critical Strike",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "socket_bonus": "Socket Bonus: +2 Spell Power",
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/12883?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Longsight",
-              "id": 12883
-            },
-            "description": "Use: Allows you to look far into the distance. (3 Sec Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Hyper-Magnified Moon Specs",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           },
           "skill": {
+            "display_string": "Requires Outland Engineering (1)",
+            "level": 1,
             "profession": {
+              "id": 2505,
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
               },
-              "name": "Outland Engineering",
-              "id": 2505
-            },
-            "level": 1,
-            "display_string": "Requires Outland Engineering (1)"
+              "name": "Outland Engineering"
+            }
           }
         },
-        "level": {
-          "value": 34,
-          "display_string": "Item Level 34"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 100,
-          "display_string": "Durability 100 / 100"
-        }
+        "socket_bonus": "Socket Bonus: +2 Spell Power",
+        "sockets": [
+          {
+            "socket_type": {
+              "name": "Meta Socket",
+              "type": "META"
+            }
+          },
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          }
+        ],
+        "spells": [
+          {
+            "description": "Use: Allows you to look far into the distance. (3 Sec Cooldown)",
+            "spell": {
+              "id": 12883,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/12883?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Longsight"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 5
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 32480,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/32480?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Magnified Moon Specs",
-            "id": 32480
-          },
-          "quantity": 1
+            "name": "Magnified Moon Specs"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 21885,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21885?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Water",
-            "id": 21885
-          },
-          "quantity": 6
+            "name": "Primal Water"
+          }
         },
         {
+          "quantity": 12,
           "reagent": {
+            "id": 21886,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21886?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Life",
-            "id": 21886
-          },
-          "quantity": 12
+            "name": "Primal Life"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 23572,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23572?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Nether",
-            "id": 23572
-          },
-          "quantity": 4
+            "name": "Primal Nether"
+          }
         }
       ],
       "reagents_display_string": "Magnified Moon Specs, Primal Water (6), Primal Life (12), Primal Nether (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Engineering (75)",
+        "level": 75,
+        "profession": {
+          "id": 2505,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Engineering"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 37500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 150000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 37500
 }

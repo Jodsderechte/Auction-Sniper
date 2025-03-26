@@ -4,115 +4,116 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/11226?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to perform the Riding Skill enchantment.",
+  "icon_path": "data\\icons\\inv_misc_note_01.jpg",
   "id": 11226,
-  "name": "Formula: Enchant Gloves - Riding Skill",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/11226?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 11226
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 6200,
-  "sell_price": 1550,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to perform the Riding Skill enchantment.",
+  "media": {
+    "id": 11226,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/11226?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Formula: Enchant Gloves - Riding Skill",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 11226,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/11226?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11226
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Formula: Enchant Gloves - Riding Skill",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/11226?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11226
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 11226,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/11226?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/13947?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Riding Skill",
-          "id": 13947
-        },
-        "description": "Use: Teaches you how to perform the Riding Skill enchantment."
-      }
-    ],
-    "sell_price": {
-      "value": 1550,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "50"
-      }
+    "name": "Formula: Enchant Gloves - Riding Skill",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Classic Enchanting (250)",
+        "level": 250,
         "profession": {
+          "id": 2494,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Enchanting",
-          "id": 2494
-        },
-        "level": 250,
-        "display_string": "Requires Classic Enchanting (250)"
+          "name": "Classic Enchanting"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
+      },
+      "value": 1550
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to perform the Riding Skill enchantment.",
+        "spell": {
+          "id": 13947,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/13947?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Riding Skill"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 6200,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1550
 }

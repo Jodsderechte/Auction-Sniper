@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3783?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1338,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1338?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_24.jpg",
   "id": 3783,
-  "name": "Light Scimitar",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Main Hand",
+    "type": "WEAPONMAINHAND"
   },
-  "level": 21,
-  "required_level": 13,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3783?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3783
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPONMAINHAND",
-    "name": "Main Hand"
-  },
-  "purchase_price": 112868,
-  "sell_price": 22573,
+  "level": 21,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 3783,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3783?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Light Scimitar",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/3783?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3783
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 60 / 60",
+      "value": 60
     },
-    "name": "Light Scimitar",
-    "media": {
+    "inventory_type": {
+      "name": "Main Hand",
+      "type": "WEAPONMAINHAND"
+    },
+    "item": {
+      "id": 3783,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3783?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3783
+        "href": "https://eu.api.blizzard.com/data/wow/item/3783?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPONMAINHAND",
-      "name": "Main Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 132,
-        "max_value": 220,
-        "display_string": "132 - 220 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 67.69231,
-        "display_string": "(67.7 damage per second)"
+    "media": {
+      "id": 3783,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3783?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 154893,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "15",
-        "silver": "48",
-        "copper": "93"
-      }
+    "name": "Light Scimitar",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 13,
-        "display_string": "Requires Level 13"
+        "display_string": "Requires Level 13",
+        "value": 13
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "93",
+        "gold": "15",
+        "header": "Sell Price:",
+        "silver": "48"
+      },
+      "value": 154893
     },
-    "durability": {
-      "value": 60,
-      "display_string": "Durability 60 / 60"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "132 - 220 Damage",
+        "max_value": 220,
+        "min_value": 132
+      },
+      "dps": {
+        "display_string": "(67.7 damage per second)",
+        "value": 67.69231
+      }
     }
   },
+  "purchase_price": 112868,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1338?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1338
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 13,
+  "sell_price": 22573
 }

@@ -4,156 +4,157 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2020?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 285,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/285?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_16.jpg",
   "id": 2020,
-  "name": "Hollowfang Blade",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 11,
-  "required_level": 6,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2020?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2020
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 6037,
-  "sell_price": 1207,
+  "level": 11,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2020,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2020?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Hollowfang Blade",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2020?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2020
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6655
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 30 / 30",
+      "value": 30
     },
-    "name": "Hollowfang Blade",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 2020,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2020?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2020
+        "href": "https://eu.api.blizzard.com/data/wow/item/2020?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 210,
-        "max_value": 351,
-        "display_string": "210 - 351 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 155.83333,
-        "display_string": "(155.8 damage per second)"
+    "media": {
+      "id": 2020,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2020?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 261,
-        "is_negated": true,
-        "display": {
-          "display_string": "+261 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 472761,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "47",
-        "silver": "27",
-        "copper": "61"
-      }
+    "name": "Hollowfang Blade",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 6,
-        "display_string": "Requires Level 6"
+        "display_string": "Requires Level 6",
+        "value": 6
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
+    "sell_price": {
+      "display_strings": {
+        "copper": "61",
+        "gold": "47",
+        "header": "Sell Price:",
+        "silver": "27"
+      },
+      "value": 472761
     },
-    "durability": {
-      "value": 30,
-      "display_string": "Durability 30 / 30"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+261 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 261
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "210 - 351 Damage",
+        "max_value": 351,
+        "min_value": 210
+      },
+      "dps": {
+        "display_string": "(155.8 damage per second)",
+        "value": 155.83333
+      }
     }
   },
+  "purchase_price": 6037,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/285?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 285
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 6,
+  "sell_price": 1207
 }

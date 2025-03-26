@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201968?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Not suitable for cooking.",
+  "icon_path": "data\\icons\\inv_ore_platinum_01.jpg",
   "id": 201968,
-  "name": "Enormous Grain of Salt",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201968?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201968
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 316600,
-  "sell_price": 79150,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Not suitable for cooking.",
+  "media": {
+    "id": 201968,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201968?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Enormous Grain of Salt",
   "preview_item": {
+    "description": "Not suitable for cooking.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 201968,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/201968?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201968
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Enormous Grain of Salt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201968?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201968
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 79150,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "7",
-        "silver": "91",
-        "copper": "50"
+    "media": {
+      "id": 201968,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201968?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Not suitable for cooking.",
-    "is_subclass_hidden": true
+    "name": "Enormous Grain of Salt",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "7",
+        "header": "Sell Price:",
+        "silver": "91"
+      },
+      "value": 79150
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 316600,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 79150
 }

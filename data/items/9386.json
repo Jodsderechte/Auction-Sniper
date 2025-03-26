@@ -4,150 +4,151 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/9386?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2755,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2755?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_torch_lit.jpg",
   "id": 9386,
-  "name": "Excavator's Brand",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 22,
-  "required_level": 15,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/9386?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 9386
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 4
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 31382,
-  "sell_price": 6276,
+  "level": 22,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 9386,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/9386?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Excavator's Brand",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/9386?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9386
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6710
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Excavator's Brand",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 9386,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/9386?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9386
+        "href": "https://eu.api.blizzard.com/data/wow/item/9386?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 4
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "weapon": {
-      "damage": {
-        "min_value": 403,
-        "max_value": 519,
-        "display_string": "403 - 519 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 177.30768,
-        "display_string": "(177.3 damage per second)"
+    "media": {
+      "id": 9386,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/9386?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/13438?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Fireball",
-          "id": 13438
-        },
-        "description": "Chance on hit: Hurls a fiery ball that causes 400 Fire damage and an additional 89 damage over 6 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 628423,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "62",
-        "silver": "84",
-        "copper": "23"
-      }
+    "name": "Excavator's Brand",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 15,
-        "display_string": "Requires Level 15"
+        "display_string": "Requires Level 15",
+        "value": 15
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "23",
+        "gold": "62",
+        "header": "Sell Price:",
+        "silver": "84"
+      },
+      "value": 628423
     },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "spells": [
+      {
+        "description": "Chance on hit: Hurls a fiery ball that causes 400 Fire damage and an additional 89 damage over 6 sec.",
+        "spell": {
+          "id": 13438,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/13438?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Fireball"
+        }
+      }
+    ],
+    "unique_equipped": "Unique-Equipped",
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "403 - 519 Damage",
+        "max_value": 519,
+        "min_value": 403
+      },
+      "dps": {
+        "display_string": "(177.3 damage per second)",
+        "value": 177.30768
+      }
     }
   },
+  "purchase_price": 31382,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2755?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2755
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 15,
+  "sell_price": 6276
 }

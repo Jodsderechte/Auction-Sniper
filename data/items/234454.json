@@ -4,82 +4,83 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/234454?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Configured to teleport short distances. Supposedly used by the Darkfuse to steal precious goods from inhabitants of Khaz Algar.",
+  "icon_path": "data\\icons\\inv_engineering_90_remote.jpg",
   "id": 234454,
-  "name": "Remote Teleporter",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/234454?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 234454
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Configured to teleport short distances. Supposedly used by the Darkfuse to steal precious goods from inhabitants of Khaz Algar.",
+  "media": {
+    "id": 234454,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/234454?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Remote Teleporter",
   "preview_item": {
+    "description": "Configured to teleport short distances. Supposedly used by the Darkfuse to steal precious goods from inhabitants of Khaz Algar.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 234454,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/234454?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 234454
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Remote Teleporter",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/234454?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 234454
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 234454,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/234454?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "description": "Configured to teleport short distances. Supposedly used by the Darkfuse to steal precious goods from inhabitants of Khaz Algar.",
-    "is_subclass_hidden": true
+    "name": "Remote Teleporter",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

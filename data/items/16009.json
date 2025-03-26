@@ -4,109 +4,110 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/16009?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_amulet_07.jpg",
   "id": 16009,
-  "name": "Voice Amplification Modulator",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 28,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/16009?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 16009
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 23720,
-  "sell_price": 5930,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 16009,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/16009?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Voice Amplification Modulator",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 16009,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/16009?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16009
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Voice Amplification Modulator",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/16009?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16009
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 28",
+      "value": 28
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 16009,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/16009?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Voice Amplification Modulator",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "30",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "59"
+      },
+      "value": 5930
     },
     "spells": [
       {
+        "description": "Equip: Reduces the duration of any Silence or Interrupt effects used against the wearer by 10%. This effect does not stack with other similar effects.",
         "spell": {
+          "id": 42184,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/42184?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Silence Resistance 10%",
-          "id": 42184
-        },
-        "description": "Equip: Reduces the duration of any Silence or Interrupt effects used against the wearer by 10%. This effect does not stack with other similar effects."
+          "name": "Silence Resistance 10%"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 5930,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "59",
-        "copper": "30"
-      }
-    },
-    "level": {
-      "value": 28,
-      "display_string": "Item Level 28"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 23720,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 5930
 }

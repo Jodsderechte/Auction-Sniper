@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7955?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2564,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2564?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_21.jpg",
   "id": 7955,
-  "name": "Copper Claymore",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 5,
-  "required_level": 3,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7955?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7955
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 8
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 1220,
-  "sell_price": 244,
+  "level": 5,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 7955,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7955?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Copper Claymore",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 35 / 35",
+      "value": 35
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 7955,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7955?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7955
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Copper Claymore",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7955?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7955
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 8
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 5",
+      "value": 5
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 2,
-        "max_value": 4,
-        "display_string": "2 - 4 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 0.8333333,
-        "display_string": "(0.8 damage per second)"
+    "media": {
+      "id": 7955,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7955?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 20,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "20"
-      }
+    "name": "Copper Claymore",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 3,
-        "display_string": "Requires Level 3"
+        "display_string": "Requires Level 3",
+        "value": 3
       }
     },
-    "level": {
-      "value": 5,
-      "display_string": "Item Level 5"
+    "sell_price": {
+      "display_strings": {
+        "copper": "20",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20
     },
-    "durability": {
-      "value": 35,
-      "display_string": "Durability 35 / 35"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "2 - 4 Damage",
+        "max_value": 4,
+        "min_value": 2
+      },
+      "dps": {
+        "display_string": "(0.8 damage per second)",
+        "value": 0.8333333
+      }
     }
   },
+  "purchase_price": 1220,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2564?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2564
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 3,
+  "sell_price": 244
 }

@@ -4,245 +4,246 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/203832?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Pitchfork of Mojo Madness.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 203832,
-  "name": "Ancient Plans: Pitchfork of Mojo Madness",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/203832?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 203832
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Pitchfork of Mojo Madness.",
+  "media": {
+    "id": 203832,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/203832?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Plans: Pitchfork of Mojo Madness",
   "preview_item": {
+    "description": "Teaches you how to craft Pitchfork of Mojo Madness.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 203832,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/203832?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 203832
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Ancient Plans: Pitchfork of Mojo Madness",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/203832?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 203832
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 300,
-        "display_string": "Requires Classic Blacksmithing (300)"
+    "media": {
+      "id": 203832,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/203832?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Pitchfork of Mojo Madness.",
+    "name": "Ancient Plans: Pitchfork of Mojo Madness",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 100 / 100",
+          "value": 100
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
         "item": {
+          "id": 203811,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/203811?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 203811
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Pitchfork of Mojo Madness",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/203811?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 203811
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 6,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Polearm",
-          "id": 6
+          "name": "Polearm"
         },
-        "inventory_type": {
-          "type": "TWOHWEAPON",
-          "name": "Two-Hand"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 6,
-            "max_value": 13,
-            "display_string": "6 - 13 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3600,
-            "display_string": "Speed 3.60"
-          },
-          "dps": {
-            "value": 2.6388888,
-            "display_string": "(2.6 damage per second)"
+        "media": {
+          "id": 203811,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/203811?namespace=static-11.1.0_59095-eu"
           }
         },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/14098?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Demon Slaying",
-              "id": 14098
-            },
-            "description": "Equip: Increases attack power by 1 when fighting Demons."
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Pitchfork of Mojo Madness",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 25,
-            "display_string": "Requires Level 25"
+            "display_string": "Requires Level 25",
+            "value": 25
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 100,
-          "display_string": "Durability 100 / 100"
+        "spells": [
+          {
+            "description": "Equip: Increases attack power by 1 when fighting Demons.",
+            "spell": {
+              "id": 14098,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/14098?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Demon Slaying"
+            }
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.60",
+            "value": 3600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "6 - 13 Damage",
+            "max_value": 13,
+            "min_value": 6
+          },
+          "dps": {
+            "display_string": "(2.6 damage per second)",
+            "value": 2.6388888
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 12,
           "reagent": {
+            "id": 6037,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/6037?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Truesilver Bar",
-            "id": 6037
-          },
-          "quantity": 12
+            "name": "Truesilver Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12804,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12804?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Powerful Mojo",
-            "id": 12804
-          },
-          "quantity": 4
+            "name": "Powerful Mojo"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 19943,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/19943?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Massive Mojo",
-            "id": 19943
-          },
-          "quantity": 6
+            "name": "Massive Mojo"
+          }
         },
         {
+          "quantity": 3,
           "reagent": {
+            "id": 19931,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/19931?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Gurubashi Mojo Madness",
-            "id": 19931
-          },
-          "quantity": 3
+            "name": "Gurubashi Mojo Madness"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 20004,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/20004?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mighty Troll's Blood Elixir",
-            "id": 20004
-          },
-          "quantity": 1
+            "name": "Mighty Troll's Blood Elixir"
+          }
         }
       ],
       "reagents_display_string": "Truesilver Bar (12), Powerful Mojo (4), Massive Mojo (6), Gurubashi Mojo Madness (3), Mighty Troll's Blood Elixir"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (300)",
+        "level": 300,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

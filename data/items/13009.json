@@ -4,244 +4,245 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13009?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3698,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3698?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_leather_06.jpg",
   "id": 13009,
-  "name": "Cow King's Hide",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "CHEST"
   },
-  "level": 26,
-  "required_level": 20,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13009?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13009
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "CHEST",
-    "name": "Chest"
-  },
-  "purchase_price": 2380672,
-  "sell_price": 476134,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13009,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13009?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Cow King's Hide",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13009?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "409 Armor"
       },
-      "id": 13009
+      "value": 409
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 125 / 125",
+      "value": 125
     },
-    "name": "Cow King's Hide",
-    "media": {
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
+    "item": {
+      "id": 13009,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13009?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13009
+        "href": "https://eu.api.blizzard.com/data/wow/item/13009?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "CHEST",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 409,
-      "display": {
-        "display_string": "409 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 13009,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13009?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 560,
-        "display": {
-          "display_string": "+560 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "display": {
-          "display_string": "+188 to All Resistances",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "FIRE_RESISTANCE",
-          "name": "Fire Resistance"
-        },
-        "value": 188,
-        "is_hidden": true,
-        "display": {
-          "display_string": "+188 Fire Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "FROST_RESISTANCE",
-          "name": "Frost Resistance"
-        },
-        "value": 188,
-        "is_hidden": true,
-        "display": {
-          "display_string": "+188 Frost Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "SHADOW_RESISTANCE",
-          "name": "Shadow Resistance"
-        },
-        "value": 188,
-        "is_hidden": true,
-        "display": {
-          "display_string": "+188 Shadow Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "NATURE_RESISTANCE",
-          "name": "Nature Resistance"
-        },
-        "value": 188,
-        "is_hidden": true,
-        "display": {
-          "display_string": "+188 Nature Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "ARCANE_RESISTANCE",
-          "name": "Arcane Resistance"
-        },
-        "value": 188,
-        "is_hidden": true,
-        "display": {
-          "display_string": "+188 Arcane Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 418192,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "41",
-        "silver": "81",
-        "copper": "92"
-      }
+    "name": "Cow King's Hide",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 20,
-        "display_string": "Requires Level 20"
+        "display_string": "Requires Level 20",
+        "value": 20
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
-    },
-    "durability": {
-      "value": 125,
-      "display_string": "Durability 125 / 125"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3698?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "92",
+        "gold": "41",
+        "header": "Sell Price:",
+        "silver": "81"
       },
-      "id": 3698
-    }
-  ]
+      "value": 418192
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+560 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 560
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+188 to All Resistances"
+        }
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+188 Fire Resistance"
+        },
+        "is_hidden": true,
+        "type": {
+          "name": "Fire Resistance",
+          "type": "FIRE_RESISTANCE"
+        },
+        "value": 188
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+188 Frost Resistance"
+        },
+        "is_hidden": true,
+        "type": {
+          "name": "Frost Resistance",
+          "type": "FROST_RESISTANCE"
+        },
+        "value": 188
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+188 Shadow Resistance"
+        },
+        "is_hidden": true,
+        "type": {
+          "name": "Shadow Resistance",
+          "type": "SHADOW_RESISTANCE"
+        },
+        "value": 188
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+188 Nature Resistance"
+        },
+        "is_hidden": true,
+        "type": {
+          "name": "Nature Resistance",
+          "type": "NATURE_RESISTANCE"
+        },
+        "value": 188
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+188 Arcane Resistance"
+        },
+        "is_hidden": true,
+        "type": {
+          "name": "Arcane Resistance",
+          "type": "ARCANE_RESISTANCE"
+        },
+        "value": 188
+      }
+    ]
+  },
+  "purchase_price": 2380672,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 20,
+  "sell_price": 476134
 }

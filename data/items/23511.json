@@ -4,229 +4,230 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23511?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6219,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6219?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_boots_chain_08.jpg",
   "id": 23511,
-  "name": "Enchanted Adamantite Boots",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23511?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23511
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 70490,
-  "sell_price": 14098,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 23511,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23511?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Enchanted Adamantite Boots",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "9 Armor"
+      },
+      "value": 9
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
+    },
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
     "item": {
+      "id": 23511,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23511?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23511
-    },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
       }
-    ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Enchanted Adamantite Boots",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23511?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23511
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 9,
-      "display": {
-        "display_string": "9 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 23511,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23511?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "ARCANE_RESISTANCE",
-          "name": "Arcane Resistance"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Arcane Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "socket_bonus": "Socket Bonus: +1 Dodge",
-    "sell_price": {
-      "value": 176,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "76"
-      }
+    "name": "Enchanted Adamantite Boots",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/563?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Enchanted Adamantite Armor",
-        "id": 563
+    "sell_price": {
+      "display_strings": {
+        "copper": "76",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23509?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Enchanted Adamantite Breastplate",
-            "id": 23509
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23512?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Enchanted Adamantite Leggings",
-            "id": 23512
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23511?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Enchanted Adamantite Boots",
-            "id": 23511
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23510?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Enchanted Adamantite Belt",
-            "id": 23510
-          }
-        }
-      ],
+      "value": 176
+    },
+    "set": {
+      "display_string": "Enchanted Adamantite Armor (0/4)",
       "effects": [
         {
           "display_string": "(3) Set: Increases your parry by 10.",
           "required_count": 3
         }
       ],
-      "display_string": "Enchanted Adamantite Armor (0/4)"
-    },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6219?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 563,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/563?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Enchanted Adamantite Armor"
       },
-      "id": 6219
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 23509,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23509?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Enchanted Adamantite Breastplate"
+          }
+        },
+        {
+          "item": {
+            "id": 23512,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23512?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Enchanted Adamantite Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 23511,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23511?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Enchanted Adamantite Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 23510,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23510?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Enchanted Adamantite Belt"
+          }
+        }
+      ]
+    },
+    "socket_bonus": "Socket Bonus: +1 Dodge",
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      },
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Arcane Resistance"
+        },
+        "type": {
+          "name": "Arcane Resistance",
+          "type": "ARCANE_RESISTANCE"
+        },
+        "value": 3
+      }
+    ]
+  },
+  "purchase_price": 70490,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 14098
 }

@@ -4,59 +4,42 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/208238?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_10_jewelcrafting_necklace_necklace2_color3.jpg",
   "id": 208238,
-  "name": "Verdant Combatant's Jeweled Amulet",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 330,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/208238?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 208238
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 125000,
-  "sell_price": 25000,
+  "level": 330,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 208238,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/208238?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Verdant Combatant's Jeweled Amulet",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/208238?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 208238
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      }
-    ],
-    "context": 0,
     "bonus_list": [
       9527,
       8840,
@@ -64,112 +47,130 @@
       9528,
       8780
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
     },
-    "name": "Verdant Combatant's Jeweled Amulet",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 208238,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/208238?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 208238
+        "href": "https://eu.api.blizzard.com/data/wow/item/208238?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 626,
-        "display": {
-          "display_string": "+626 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 651,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+651 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 651,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+651 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 25000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "50",
-        "copper": "0"
-      }
+      "name": "Miscellaneous"
     },
     "level": {
-      "value": 399,
-      "display_string": "Item Level 399"
+      "display_string": "Item Level 399",
+      "value": 399
     },
-    "is_subclass_hidden": true,
+    "media": {
+      "id": 208238,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/208238?namespace=static-11.1.0_59095-eu"
+      }
+    },
     "modified_crafting_stat": [
       {
         "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
+        "name": "Critical Strike",
+        "type": "CRIT_RATING"
+      }
+    ],
+    "name": "Verdant Combatant's Jeweled Amulet",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 25000
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+626 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 626
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+651 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 651
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+651 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 651
       }
     ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 125000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 25000
 }

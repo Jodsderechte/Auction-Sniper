@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/11303?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 862,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/862?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_bow_07.jpg",
   "id": 11303,
-  "name": "Fine Shortbow",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGED"
   },
-  "level": 9,
-  "required_level": 5,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/11303?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 11303
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bow",
-    "id": 2
+    "name": "Bow"
   },
-  "inventory_type": {
-    "type": "RANGED",
-    "name": "Ranged"
-  },
-  "purchase_price": 5309,
-  "sell_price": 1061,
+  "level": 9,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 11303,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/11303?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fine Shortbow",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGED"
+    },
     "item": {
+      "id": 11303,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/11303?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11303
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Fine Shortbow",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/11303?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 11303
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bow",
-      "id": 2
+      "name": "Bow"
     },
-    "inventory_type": {
-      "type": "RANGED",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 9",
+      "value": 9
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 3,
-        "max_value": 5,
-        "display_string": "3 - 5 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 1.3333333,
-        "display_string": "(1.3 damage per second)"
+    "media": {
+      "id": 11303,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/11303?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 48,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "48"
-      }
+    "name": "Fine Shortbow",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 5,
-        "display_string": "Requires Level 5"
+        "display_string": "Requires Level 5",
+        "value": 5
       }
     },
-    "level": {
-      "value": 9,
-      "display_string": "Item Level 9"
+    "sell_price": {
+      "display_strings": {
+        "copper": "48",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 48
     },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "3 - 5 Damage",
+        "max_value": 5,
+        "min_value": 3
+      },
+      "dps": {
+        "display_string": "(1.3 damage per second)",
+        "value": 1.3333333
+      }
     }
   },
+  "purchase_price": 5309,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/862?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 862
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 5,
+  "sell_price": 1061
 }

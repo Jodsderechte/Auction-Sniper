@@ -4,96 +4,97 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21843?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bag_24_netherweave_imbued.jpg",
   "id": 21843,
-  "name": "Imbued Netherweave Bag",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 31,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21843?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21843
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bag",
-    "id": 0
-  },
-  "inventory_type": {
-    "type": "BAG",
     "name": "Bag"
   },
-  "purchase_price": 40000,
-  "sell_price": 10000,
+  "level": 31,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 21843,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21843?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Imbued Netherweave Bag",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "container_slots": {
+      "display_string": "18 Slot Bag",
+      "value": 18
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 21843,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21843?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21843
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Imbued Netherweave Bag",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21843?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21843
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bag",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "BAG",
       "name": "Bag"
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 21843,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21843?namespace=static-11.1.0_59095-eu"
       }
     },
-    "container_slots": {
-      "value": 18,
-      "display_string": "18 Slot Bag"
+    "name": "Imbued Netherweave Bag",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 40000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 10000
 }

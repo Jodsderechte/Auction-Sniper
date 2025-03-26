@@ -4,87 +4,88 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/116259?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bag_33.jpg",
   "id": 116259,
-  "name": "Burnished Leather Bag",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 35,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/116259?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 116259
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leatherworking Bag",
-    "id": 7
+    "name": "Leatherworking Bag"
   },
-  "inventory_type": {
-    "type": "BAG",
-    "name": "Bag"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 116259,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/116259?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Burnished Leather Bag",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "container_slots": {
+      "display_string": "36 Slot Leatherworking Bag",
+      "value": 36
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 116259,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/116259?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 116259
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Burnished Leather Bag",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/116259?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 116259
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leatherworking Bag",
-      "id": 7
+      "name": "Leatherworking Bag"
     },
-    "inventory_type": {
-      "type": "BAG",
-      "name": "Bag"
+    "media": {
+      "id": 116259,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/116259?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "container_slots": {
-      "value": 36,
-      "display_string": "36 Slot Leatherworking Bag"
+    "name": "Burnished Leather Bag",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4018?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1458,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1458?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_39.jpg",
   "id": 4018,
-  "name": "Whetted Claymore",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 23,
-  "required_level": 16,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4018?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4018
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 8
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 456933,
-  "sell_price": 91386,
+  "level": 23,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4018,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4018?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Whetted Claymore",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/4018?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4018
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Whetted Claymore",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 4018,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4018?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4018
+        "href": "https://eu.api.blizzard.com/data/wow/item/4018?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 8
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 242,
-        "max_value": 404,
-        "display_string": "242 - 404 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 89.72222,
-        "display_string": "(89.7 damage per second)"
+    "media": {
+      "id": 4018,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4018?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 200307,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "3",
-        "copper": "7"
-      }
+    "name": "Whetted Claymore",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 16,
-        "display_string": "Requires Level 16"
+        "display_string": "Requires Level 16",
+        "value": 16
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "7",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 200307
     },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "242 - 404 Damage",
+        "max_value": 404,
+        "min_value": 242
+      },
+      "dps": {
+        "display_string": "(89.7 damage per second)",
+        "value": 89.72222
+      }
     }
   },
+  "purchase_price": 456933,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1458?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1458
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 16,
+  "sell_price": 91386
 }

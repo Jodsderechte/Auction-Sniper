@@ -4,136 +4,137 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/77530?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_head_dragon_bronze.jpg",
   "id": 77530,
-  "name": "Ghost Iron Dragonling",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 39,
-  "required_level": 33,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/77530?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 77530
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 702585,
-  "sell_price": 175646,
+  "level": 39,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 77530,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/77530?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ghost Iron Dragonling",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 77530,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/77530?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "id": 77530
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Miscellaneous"
+    },
+    "level": {
+      "display_string": "Item Level 39",
+      "value": 39
+    },
+    "media": {
+      "id": 77530,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/77530?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Ghost Iron Dragonling",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 33",
+        "value": 33
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "46",
+        "gold": "17",
+        "header": "Sell Price:",
+        "silver": "56"
+      },
+      "value": 175646
     },
     "sockets": [
       {
         "socket_type": {
-          "type": "COGWHEEL",
-          "name": "Cogwheel Socket"
+          "name": "Cogwheel Socket",
+          "type": "COGWHEEL"
         }
       },
       {
         "socket_type": {
-          "type": "COGWHEEL",
-          "name": "Cogwheel Socket"
+          "name": "Cogwheel Socket",
+          "type": "COGWHEEL"
         }
       },
       {
         "socket_type": {
-          "type": "COGWHEEL",
-          "name": "Cogwheel Socket"
+          "name": "Cogwheel Socket",
+          "type": "COGWHEEL"
         }
       }
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Ghost Iron Dragonling",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/77530?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 77530
-    },
-    "item_class": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Armor",
-      "id": 4
-    },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
     "spells": [
       {
+        "description": "Equip: Your attacks have a chance to summon a Ghost Iron Dragonling to fight with you for 20 sec.",
         "spell": {
+          "id": 109078,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/109078?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Pandaren Dragonling",
-          "id": 109078
-        },
-        "description": "Equip: Your attacks have a chance to summon a Ghost Iron Dragonling to fight with you for 20 sec."
+          "name": "Pandaren Dragonling"
+        }
       }
     ],
-    "sell_price": {
-      "value": 175646,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "17",
-        "silver": "56",
-        "copper": "46"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 33,
-        "display_string": "Requires Level 33"
-      }
-    },
-    "level": {
-      "value": 39,
-      "display_string": "Item Level 39"
-    },
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 702585,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 33,
+  "sell_price": 175646
 }

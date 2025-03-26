@@ -4,134 +4,135 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30804?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_ring_34.jpg",
   "id": 30804,
-  "name": "Bronze Band of Force",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 14,
-  "required_level": 9,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30804?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30804
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 4258,
-  "sell_price": 1064,
+  "level": 14,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 30804,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30804?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bronze Band of Force",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 30804,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30804?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30804
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Bronze Band of Force",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30804?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30804
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 14",
+      "value": 14
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 30804,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30804?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/26596?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Weapon Damage",
-          "id": 26596
-        },
-        "description": "Equip: +1 Weapon Damage."
-      }
-    ],
-    "sell_price": {
-      "value": 1064,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "10",
-        "copper": "64"
-      }
+    "name": "Bronze Band of Force",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 9,
-        "display_string": "Requires Level 9"
+        "display_string": "Requires Level 9",
+        "value": 9
       }
     },
-    "level": {
-      "value": 14,
-      "display_string": "Item Level 14"
+    "sell_price": {
+      "display_strings": {
+        "copper": "64",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "10"
+      },
+      "value": 1064
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: +1 Weapon Damage.",
+        "spell": {
+          "id": 26596,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/26596?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Weapon Damage"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 2
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 4258,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 9,
+  "sell_price": 1064
 }

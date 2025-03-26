@@ -4,107 +4,108 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/44613?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_food_94_garadarsharp.jpg",
   "id": 44613,
-  "name": "Aged Dalaran Sharp Wheel",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 32,
-  "required_level": 28,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/44613?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 44613
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 160000,
-  "sell_price": 4000,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 44613,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/44613?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Aged Dalaran Sharp Wheel",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 44613,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/44613?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44613
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Aged Dalaran Sharp Wheel",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/44613?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44613
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 44613,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/44613?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/61033?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Aged Dalaran Sharp Wheel",
-          "id": 61033
-        },
-        "description": "Use: Set out a wheel of Aged Dalaran Sharp that serves up to five party members. (30 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 4000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "40",
-        "copper": "0"
-      }
+    "name": "Aged Dalaran Sharp Wheel",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 28,
-        "display_string": "Requires Level 28"
+        "display_string": "Requires Level 28",
+        "value": 28
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "40"
+      },
+      "value": 4000
+    },
+    "spells": [
+      {
+        "description": "Use: Set out a wheel of Aged Dalaran Sharp that serves up to five party members. (30 Min Cooldown)",
+        "spell": {
+          "id": 61033,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/61033?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Aged Dalaran Sharp Wheel"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 160000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 28,
+  "sell_price": 4000
 }

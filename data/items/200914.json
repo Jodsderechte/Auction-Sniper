@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/200914?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Illusion: Primal Frost.",
+  "icon_path": "data\\icons\\inv_enchant_formulasuperior_01.jpg",
   "id": 200914,
-  "name": "Formula: Illusion: Primal Frost",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/200914?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 200914
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Illusion: Primal Frost.",
+  "media": {
+    "id": 200914,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/200914?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Formula: Illusion: Primal Frost",
   "preview_item": {
+    "description": "Teaches you how to craft Illusion: Primal Frost.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 200914,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/200914?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200914
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Formula: Illusion: Primal Frost",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/200914?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200914
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 200914,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/200914?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Formula: Illusion: Primal Frost",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Enchanting (50)",
+        "level": 50,
         "profession": {
+          "id": 2825,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2825?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Enchanting",
-          "id": 2825
-        },
-        "level": 50,
-        "display_string": "Requires Dragon Isles Enchanting (50)"
+          "name": "Dragon Isles Enchanting"
+        }
       }
     },
-    "description": "Teaches you how to craft Illusion: Primal Frost.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

@@ -4,162 +4,163 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/173096?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_inscription_darkmooncard_indomitable.jpg",
   "id": 173096,
-  "name": "Darkmoon Deck: Indomitable",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 200,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/173096?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 173096
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 2989227,
-  "sell_price": 597845,
+  "level": 200,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 173096,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/173096?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Darkmoon Deck: Indomitable",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 173096,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/173096?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 173096
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Darkmoon Deck: Indomitable",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/173096?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 173096
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "level": {
+      "display_string": "Item Level 200",
+      "value": 200
     },
     "limit_category": "Unique-Equipped: Darkmoon Deck (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 28,
-        "is_negated": true,
-        "display": {
-          "display_string": "+28 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 28,
-        "is_negated": true,
-        "display": {
-          "display_string": "+28 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 173096,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/173096?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/311444?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Indomitable Deck",
-          "id": 311444
-        },
-        "description": "Use: Surround yourself with a phalanx of 5 shields. Attacks against you destroy one shield, reducing the damage taken from the attack up to 748-1,497. The amount reduced depends on the topmost card in the deck. Lasts 10 sec. (1 Min 30 Sec Cooldown)"
-      },
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/328741?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Darkmoon Deck: Indomitable",
-          "id": 328741
-        },
-        "description": "Equip: Periodically shuffle the deck while in combat."
-      }
-    ],
-    "sell_price": {
-      "value": 597845,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "59",
-        "silver": "78",
-        "copper": "45"
-      }
+    },
+    "name": "Darkmoon Deck: Indomitable",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
+        "display_string": "Requires Level 60",
+        "value": 60
       }
     },
-    "level": {
-      "value": 200,
-      "display_string": "Item Level 200"
+    "sell_price": {
+      "display_strings": {
+        "copper": "45",
+        "gold": "59",
+        "header": "Sell Price:",
+        "silver": "78"
+      },
+      "value": 597845
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Surround yourself with a phalanx of 5 shields. Attacks against you destroy one shield, reducing the damage taken from the attack up to 748-1,497. The amount reduced depends on the topmost card in the deck. Lasts 10 sec. (1 Min 30 Sec Cooldown)",
+        "spell": {
+          "id": 311444,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/311444?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Indomitable Deck"
+        }
+      },
+      {
+        "description": "Equip: Periodically shuffle the deck while in combat.",
+        "spell": {
+          "id": 328741,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/328741?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Darkmoon Deck: Indomitable"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+28 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 28
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+28 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 28
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2989227,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 60,
+  "sell_price": 597845
 }

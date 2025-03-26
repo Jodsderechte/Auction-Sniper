@@ -4,242 +4,243 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/206543?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Gem of the Nerubians.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 206543,
-  "name": "Ancient Design: Gem of the Nerubians",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/206543?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 206543
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Gem of the Nerubians.",
+  "media": {
+    "id": 206543,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/206543?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Design: Gem of the Nerubians",
   "preview_item": {
+    "description": "Teaches you how to craft Gem of the Nerubians.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 206543,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/206543?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206543
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Ancient Design: Gem of the Nerubians",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/206543?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206543
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Jewelcrafting",
-          "id": 2524
-        },
-        "level": 300,
-        "display_string": "Requires Classic Jewelcrafting (300)"
+    "media": {
+      "id": 206543,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/206543?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Gem of the Nerubians.",
+    "name": "Ancient Design: Gem of the Nerubians",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Held In Off-hand",
+          "type": "HOLDABLE"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 206496,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/206496?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 206496
-        },
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Gem of the Nerubians",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/206496?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 206496
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "HOLDABLE",
-          "name": "Held In Off-hand"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 6,
-            "display": {
-              "display_string": "+6 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 2,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+2 Critical Strike",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
+        "media": {
+          "id": 206496,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/206496?namespace=static-11.1.0_59095-eu"
           }
-        ],
-        "sell_price": {
-          "value": 191,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "1",
-            "copper": "91"
-          }
+        },
+        "name": "Gem of the Nerubians",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 25,
-            "display_string": "Requires Level 25"
+            "display_string": "Requires Level 25",
+            "value": 25
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "91",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
+          },
+          "value": 191
         },
-        "is_subclass_hidden": true
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+6 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 6
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 2
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 14,
           "reagent": {
+            "id": 12799,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12799?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Large Opal",
-            "id": 12799
-          },
-          "quantity": 14
+            "name": "Large Opal"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 12360,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcanite Bar",
-            "id": 12360
-          },
-          "quantity": 8
+            "name": "Arcanite Bar"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 3577,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3577?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Gold Bar",
-            "id": 3577
-          },
-          "quantity": 8
+            "name": "Gold Bar"
+          }
         }
       ],
       "reagents_display_string": "Large Opal (14), Arcanite Bar (8), Gold Bar (8)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Jewelcrafting (300)",
+        "level": 300,
+        "profession": {
+          "id": 2524,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Jewelcrafting"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 30000
 }

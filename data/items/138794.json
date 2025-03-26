@@ -4,98 +4,99 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/138794?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\passive_monk_teachingsofmonastery.jpg",
   "id": 138794,
-  "name": "Tome of Illusions: Secrets of the Shado-Pan",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 32,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/138794?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 138794
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 138794,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/138794?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Tome of Illusions: Secrets of the Shado-Pan",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 138794,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/138794?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 138794
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Tome of Illusions: Secrets of the Shado-Pan",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/138794?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 138794
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 138794,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/138794?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Tome of Illusions: Secrets of the Shado-Pan",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 32",
+        "value": 32
+      }
     },
     "spells": [
       {
+        "description": "Use: Collect the weapon enchantment appearances of River's Song and Dancing Steel. (1 Sec Cooldown)",
         "spell": {
+          "id": 217177,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/217177?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Tome of Illusions - Secrets of the Shado-Pan",
-          "id": 217177
-        },
-        "description": "Use: Collect the weapon enchantment appearances of River's Song and Dancing Steel. (1 Sec Cooldown)"
+          "name": "Tome of Illusions - Secrets of the Shado-Pan"
+        }
       }
-    ],
-    "requirements": {
-      "level": {
-        "value": 32,
-        "display_string": "Requires Level 32"
-      }
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 32,
+  "sell_price": 0
 }

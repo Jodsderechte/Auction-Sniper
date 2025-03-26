@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/225482?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Algari Competitor's Rifle.",
+  "icon_path": "data\\icons\\inv_10_inscription2_scroll2_color1.jpg",
   "id": 225482,
-  "name": "Schematic: Algari Competitor's Rifle",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/225482?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 225482
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 3
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 250000,
-  "sell_price": 50000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Algari Competitor's Rifle.",
+  "media": {
+    "id": 225482,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/225482?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Schematic: Algari Competitor's Rifle",
   "preview_item": {
+    "description": "Teaches you how to craft Algari Competitor's Rifle.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 225482,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/225482?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 225482
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Schematic: Algari Competitor's Rifle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/225482?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 225482
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 3
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 50000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 225482,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/225482?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Schematic: Algari Competitor's Rifle",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Khaz Algar Engineering (50)",
+        "level": 50,
         "profession": {
+          "id": 2875,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2875?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Khaz Algar Engineering",
-          "id": 2875
-        },
-        "level": 50,
-        "display_string": "Requires Khaz Algar Engineering (50)"
+          "name": "Khaz Algar Engineering"
+        }
       }
     },
-    "description": "Teaches you how to craft Algari Competitor's Rifle.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 50000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 250000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 50000
 }

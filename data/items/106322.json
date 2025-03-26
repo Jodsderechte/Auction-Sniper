@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/106322?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2645,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2645?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_39.jpg",
   "id": 106322,
-  "name": "Brittle Greatsword",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 35,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/106322?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 106322
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 8
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 1787625,
-  "sell_price": 357525,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 106322,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/106322?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Brittle Greatsword",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/106322?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 106322
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Brittle Greatsword",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 106322,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/106322?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 106322
+        "href": "https://eu.api.blizzard.com/data/wow/item/106322?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 8
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 242,
-        "max_value": 404,
-        "display_string": "242 - 404 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 89.72222,
-        "display_string": "(89.7 damage per second)"
+    "media": {
+      "id": 106322,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/106322?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 207989,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "79",
-        "copper": "89"
-      }
+    "name": "Brittle Greatsword",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "89",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "79"
+      },
+      "value": 207989
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "242 - 404 Damage",
+        "max_value": 404,
+        "min_value": 242
+      },
+      "dps": {
+        "display_string": "(89.7 damage per second)",
+        "value": 89.72222
+      }
     }
   },
+  "purchase_price": 1787625,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2645?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2645
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 35,
+  "sell_price": 357525
 }

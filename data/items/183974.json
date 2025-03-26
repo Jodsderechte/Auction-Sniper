@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/183974?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 42558,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/42558?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_knife_1h_revendrethquest_b_03.jpg",
   "id": 183974,
-  "name": "Ember Court Ceremonial Dagger",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 1,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/183974?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 183974
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 151,
-  "sell_price": 30,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 183974,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/183974?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ember Court Ceremonial Dagger",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 183974,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/183974?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 183974
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Ember Court Ceremonial Dagger",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/183974?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 183974
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 1,
-        "display_string": "1 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 0.5555555,
-        "display_string": "(0.6 damage per second)"
+    "media": {
+      "id": 183974,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/183974?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 30,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "30"
-      }
+    "name": "Ember Court Ceremonial Dagger",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
+        "display_string": "Requires Level 60",
+        "value": 60
       }
     },
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+    "sell_price": {
+      "display_strings": {
+        "copper": "30",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 30
     },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 Damage",
+        "max_value": 1,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.6 damage per second)",
+        "value": 0.5555555
+      }
     }
   },
+  "purchase_price": 151,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/42558?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 42558
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 60,
+  "sell_price": 30
 }

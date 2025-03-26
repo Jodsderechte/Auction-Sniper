@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7338?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "It's blue, wait, it's green!",
+  "icon_path": "data\\icons\\inv_jewelry_ring_12.jpg",
   "id": 7338,
-  "name": "Mood Ring",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 5,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7338?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7338
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 10000,
-  "sell_price": 2500,
+  "level": 5,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "It's blue, wait, it's green!",
+  "media": {
+    "id": 7338,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7338?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Mood Ring",
   "preview_item": {
+    "description": "It's blue, wait, it's green!",
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 7338,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7338?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7338
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Mood Ring",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7338?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7338
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 5",
+      "value": 5
     },
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 7338,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7338?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "It's blue, wait, it's green!",
-    "level": {
-      "value": 5,
-      "display_string": "Item Level 5"
+    "name": "Mood Ring",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2500
 }

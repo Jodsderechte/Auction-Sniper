@@ -4,173 +4,174 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12990?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3691,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3691?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_halberd_08.jpg",
   "id": 12990,
-  "name": "Razor's Edge",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 14,
-  "required_level": 9,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12990?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12990
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 20549,
-  "sell_price": 4109,
+  "level": 14,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 12990,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12990?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Razor's Edge",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/12990?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12990
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
     },
-    "name": "Razor's Edge",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 12990,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12990?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12990
+        "href": "https://eu.api.blizzard.com/data/wow/item/12990?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 275,
-        "max_value": 573,
-        "display_string": "275 - 573 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 163.07692,
-        "display_string": "(163.1 damage per second)"
+    "media": {
+      "id": 12990,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12990?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 218,
-        "is_negated": true,
-        "display": {
-          "display_string": "+218 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 151,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+151 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 599663,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "59",
-        "silver": "96",
-        "copper": "63"
-      }
+    "name": "Razor's Edge",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 9,
-        "display_string": "Requires Level 9"
+        "display_string": "Requires Level 9",
+        "value": 9
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "63",
+        "gold": "59",
+        "header": "Sell Price:",
+        "silver": "96"
+      },
+      "value": 599663
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+218 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 218
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+151 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 151
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "275 - 573 Damage",
+        "max_value": 573,
+        "min_value": 275
+      },
+      "dps": {
+        "display_string": "(163.1 damage per second)",
+        "value": 163.07692
+      }
     }
   },
+  "purchase_price": 20549,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3691?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3691
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 9,
+  "sell_price": 4109
 }

@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/234232?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Glyph of the Ashvane Pistol Shot.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 234232,
-  "name": "Technique: Glyph of the Ashvane Pistol Shot",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 80,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/234232?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 234232
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Inscription",
-    "id": 11
+    "name": "Inscription"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 90000,
-  "sell_price": 22500,
+  "level": 80,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Glyph of the Ashvane Pistol Shot.",
+  "media": {
+    "id": 234232,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/234232?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Technique: Glyph of the Ashvane Pistol Shot",
   "preview_item": {
+    "description": "Teaches you how to craft a Glyph of the Ashvane Pistol Shot.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 234232,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/234232?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 234232
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Technique: Glyph of the Ashvane Pistol Shot",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/234232?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 234232
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Inscription",
-      "id": 11
+      "name": "Inscription"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 22500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 234232,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/234232?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Technique: Glyph of the Ashvane Pistol Shot",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Khaz Algar Inscription (50)",
+        "level": 50,
         "profession": {
+          "id": 2878,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2878?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Khaz Algar Inscription",
-          "id": 2878
-        },
-        "level": 50,
-        "display_string": "Requires Khaz Algar Inscription (50)"
+          "name": "Khaz Algar Inscription"
+        }
       }
     },
-    "description": "Teaches you how to craft a Glyph of the Ashvane Pistol Shot.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 22500
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 90000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 22500
 }

@@ -4,172 +4,173 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/184807?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_trinket_oribos_01_brass.jpg",
   "id": 184807,
-  "name": "Relic of the First Ones",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 207,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/184807?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 184807
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 3809033,
-  "sell_price": 761806,
+  "level": 207,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 184807,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/184807?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Relic of the First Ones",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/184807?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 184807
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       1472,
       6646
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Relic of the First Ones",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 184807,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/184807?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 184807
+        "href": "https://eu.api.blizzard.com/data/wow/item/184807?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 207",
+      "value": 207
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 184807,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/184807?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 31,
-        "display": {
-          "display_string": "+31 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 31,
-        "is_negated": true,
-        "display": {
-          "display_string": "+31 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 31,
-        "is_negated": true,
-        "display": {
-          "display_string": "+31 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/347760?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Relic of the First Ones",
-          "id": 347760
-        },
-        "description": "Equip: The cooldown of your Covenant Signature Ability is reduced by 20%."
-      }
-    ],
-    "sell_price": {
-      "value": 61312,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "6",
-        "silver": "13",
-        "copper": "12"
-      }
+    "name": "Relic of the First Ones",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
+        "display_string": "Requires Level 60",
+        "value": 60
       }
     },
-    "level": {
-      "value": 207,
-      "display_string": "Item Level 207"
+    "sell_price": {
+      "display_strings": {
+        "copper": "12",
+        "gold": "6",
+        "header": "Sell Price:",
+        "silver": "13"
+      },
+      "value": 61312
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: The cooldown of your Covenant Signature Ability is reduced by 20%.",
+        "spell": {
+          "id": 347760,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/347760?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Relic of the First Ones"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+31 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 31
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+31 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 31
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+31 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 31
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 3809033,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 60,
+  "sell_price": 761806
 }

@@ -4,111 +4,112 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18363?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "-By Drek'Thar",
+  "icon_path": "data\\icons\\inv_misc_book_04.jpg",
   "id": 18363,
-  "name": "Frost Shock and You",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 25,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18363?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18363
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 25,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "-By Drek'Thar",
+  "media": {
+    "id": 18363,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18363?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Frost Shock and You",
   "preview_item": {
+    "description": "-By Drek'Thar",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18363,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18363?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18363
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Frost Shock and You",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18363?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18363
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "requirements": {
-      "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
-      },
-      "playable_classes": {
-        "links": [
-          {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/playable-class/7?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Shaman",
-            "id": 7
-          }
-        ],
-        "display_string": "Classes: Shaman"
-      }
-    },
-    "description": "-By Drek'Thar",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 7505,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/7505?namespace=static-11.1.0_59095-eu"
         },
-        "name": "Frost Shock and You",
-        "id": 7505
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "Frost Shock and You"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 18363,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18363?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Frost Shock and You",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 23",
+        "value": 23
+      },
+      "playable_classes": {
+        "display_string": "Classes: Shaman",
+        "links": [
+          {
+            "id": 7,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/playable-class/7?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Shaman"
+          }
+        ]
+      }
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 23,
+  "sell_price": 0
 }

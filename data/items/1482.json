@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1482?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 435,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/435?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_13.jpg",
   "id": 1482,
-  "name": "Shadowfang",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 15,
-  "required_level": 9,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1482?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1482
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 11319,
-  "sell_price": 2263,
+  "level": 15,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1482,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1482?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Shadowfang",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1482?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1482
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6710
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 60 / 60",
+      "value": 60
     },
-    "name": "Shadowfang",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 1482,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1482?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1482
+        "href": "https://eu.api.blizzard.com/data/wow/item/1482?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 346,
-        "max_value": 577,
-        "display_string": "346 - 577 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 177.49998,
-        "display_string": "(177.5 damage per second)"
+    "media": {
+      "id": 1482,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1482?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 297,
-        "is_negated": true,
-        "display": {
-          "display_string": "+297 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/144268?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shadow Bolt",
-          "id": 144268
-        },
-        "description": "Chance on hit: Sends a shadowy bolt at the enemy causing 531 Shadow damage."
-      }
-    ],
-    "sell_price": {
-      "value": 625806,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "62",
-        "silver": "58",
-        "copper": "6"
-      }
+    "name": "Shadowfang",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 9,
-        "display_string": "Requires Level 9"
+        "display_string": "Requires Level 9",
+        "value": 9
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "6",
+        "gold": "62",
+        "header": "Sell Price:",
+        "silver": "58"
+      },
+      "value": 625806
     },
-    "durability": {
-      "value": 60,
-      "display_string": "Durability 60 / 60"
+    "spells": [
+      {
+        "description": "Chance on hit: Sends a shadowy bolt at the enemy causing 531 Shadow damage.",
+        "spell": {
+          "id": 144268,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/144268?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shadow Bolt"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+297 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 297
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "346 - 577 Damage",
+        "max_value": 577,
+        "min_value": 346
+      },
+      "dps": {
+        "display_string": "(177.5 damage per second)",
+        "value": 177.49998
+      }
     }
   },
+  "purchase_price": 11319,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/435?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 435
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 9,
+  "sell_price": 2263
 }

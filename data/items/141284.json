@@ -4,110 +4,111 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/141284?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_potion_04.jpg",
   "id": 141284,
-  "name": "Nor'danil Ampoule",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 40,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/141284?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 141284
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gem",
-    "id": 3
+    "name": "Gem"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/3/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Artifact Relic",
-    "id": 11
+    "name": "Artifact Relic"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1262383,
-  "sell_price": 315595,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 141284,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/141284?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Nor'danil Ampoule",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/141284?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 141284
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6654
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "gem_properties": {
+      "relic_type": "Frost Artifact Relic"
     },
-    "name": "Nor'danil Ampoule",
-    "media": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 141284,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/141284?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 141284
+        "href": "https://eu.api.blizzard.com/data/wow/item/141284?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gem",
-      "id": 3
+      "name": "Gem"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/3/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Artifact Relic",
-      "id": 11
+      "name": "Artifact Relic"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 209153,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "91",
-        "copper": "53"
+    "media": {
+      "id": 141284,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/141284?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Nor'danil Ampoule",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 40,
-        "display_string": "Requires Level 40"
+        "display_string": "Requires Level 40",
+        "value": 40
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
-    },
-    "is_subclass_hidden": true,
-    "gem_properties": {
-      "relic_type": "Frost Artifact Relic"
+    "sell_price": {
+      "display_strings": {
+        "copper": "53",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "91"
+      },
+      "value": 209153
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1262383,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 40,
+  "sell_price": 315595
 }

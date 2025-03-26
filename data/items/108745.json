@@ -4,108 +4,109 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/108745?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Image may react to some emotes.",
+  "icon_path": "data\\icons\\achievement_faction_celestials.jpg",
   "id": 108745,
-  "name": "Personal Hologram",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/108745?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 108745
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1200000,
-  "sell_price": 300000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Image may react to some emotes.",
+  "media": {
+    "id": 108745,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/108745?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Personal Hologram",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "Image may react to some emotes.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 108745,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/108745?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 108745
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Personal Hologram",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/108745?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 108745
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 108745,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/108745?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Personal Hologram",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "30",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 300000
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nCreate a temporary hologram of yourself for 1 min. (5 Min Cooldown)",
         "spell": {
+          "id": 155111,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/155111?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Personal Hologram",
-          "id": 155111
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nCreate a temporary hologram of yourself for 1 min. (5 Min Cooldown)"
+          "name": "Personal Hologram"
+        }
       }
     ],
-    "sell_price": {
-      "value": 300000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "30",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "description": "Image may react to some emotes.",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1200000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 300000
 }

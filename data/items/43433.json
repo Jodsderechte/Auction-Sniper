@@ -4,301 +4,302 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/43433?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 9233,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9233?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_87.jpg",
   "id": 43433,
-  "name": "Eviscerator's Shoulderpads",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 35,
-  "required_level": 29,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/43433?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 43433
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 43433,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/43433?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Eviscerator's Shoulderpads",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "5 Armor"
+      },
+      "value": 5
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
     "item": {
+      "id": 43433,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/43433?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 43433
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Eviscerator's Shoulderpads",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/43433?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 43433
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
+    "level": {
+      "display_string": "Item Level 35",
+      "value": 35
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 5,
-      "display": {
-        "display_string": "5 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 43433,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/43433?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 3,
-        "is_negated": true,
-        "display": {
-          "display_string": "+3 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Eviscerator's Shoulderpads",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 29,
-        "display_string": "Requires Level 29"
+        "display_string": "Requires Level 29",
+        "value": 29
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/813?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Eviscerator's Battlegear",
-        "id": 813
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/43435?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Eviscerator's Bindings",
-            "id": 43435
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/43434?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Eviscerator's Chestguard",
-            "id": 43434
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/43260?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Eviscerator's Facemask",
-            "id": 43260
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/43436?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Eviscerator's Gauntlets",
-            "id": 43436
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/43438?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Eviscerator's Legguards",
-            "id": 43438
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/43433?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Eviscerator's Shoulderpads",
-            "id": 43433
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/43439?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Eviscerator's Treads",
-            "id": 43439
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/43437?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Eviscerator's Waistguard",
-            "id": 43437
-          }
-        }
-      ],
+      "value": 1500
+    },
+    "set": {
+      "display_string": "Eviscerator's Battlegear (0/8)",
       "effects": [
         {
           "display_string": "(4) Set: +29 Stamina.",
           "required_count": 4
         }
       ],
-      "display_string": "Eviscerator's Battlegear (0/8)"
-    },
-    "level": {
-      "value": 35,
-      "display_string": "Item Level 35"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9233?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 813,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/813?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Eviscerator's Battlegear"
       },
-      "id": 9233
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 43435,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/43435?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Eviscerator's Bindings"
+          }
+        },
+        {
+          "item": {
+            "id": 43434,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/43434?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Eviscerator's Chestguard"
+          }
+        },
+        {
+          "item": {
+            "id": 43260,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/43260?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Eviscerator's Facemask"
+          }
+        },
+        {
+          "item": {
+            "id": 43436,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/43436?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Eviscerator's Gauntlets"
+          }
+        },
+        {
+          "item": {
+            "id": 43438,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/43438?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Eviscerator's Legguards"
+          }
+        },
+        {
+          "item": {
+            "id": 43433,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/43433?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Eviscerator's Shoulderpads"
+          }
+        },
+        {
+          "item": {
+            "id": 43439,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/43439?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Eviscerator's Treads"
+          }
+        },
+        {
+          "item": {
+            "id": 43437,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/43437?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Eviscerator's Waistguard"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+3 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 3
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 29,
+  "sell_price": 1500
 }

@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25397?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 645,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/645?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_throwingaxe_03.jpg",
   "id": 25397,
-  "name": "Eroded Axe",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Main Hand",
+    "type": "WEAPONMAINHAND"
   },
-  "level": 29,
-  "required_level": 26,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25397?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25397
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "WEAPONMAINHAND",
-    "name": "Main Hand"
-  },
-  "purchase_price": 1181247,
-  "sell_price": 236249,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25397,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25397?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Eroded Axe",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/25397?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25397
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 75 / 75",
+      "value": 75
     },
-    "name": "Eroded Axe",
-    "media": {
+    "inventory_type": {
+      "name": "Main Hand",
+      "type": "WEAPONMAINHAND"
+    },
+    "item": {
+      "id": 25397,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25397?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25397
+        "href": "https://eu.api.blizzard.com/data/wow/item/25397?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "WEAPONMAINHAND",
-      "name": "Main Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 114,
-        "max_value": 238,
-        "display_string": "114 - 238 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 67.69231,
-        "display_string": "(67.7 damage per second)"
+    "media": {
+      "id": 25397,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25397?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 159000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "15",
-        "silver": "90",
-        "copper": "0"
-      }
+    "name": "Eroded Axe",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 26,
-        "display_string": "Requires Level 26"
+        "display_string": "Requires Level 26",
+        "value": 26
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "15",
+        "header": "Sell Price:",
+        "silver": "90"
+      },
+      "value": 159000
     },
-    "durability": {
-      "value": 75,
-      "display_string": "Durability 75 / 75"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "114 - 238 Damage",
+        "max_value": 238,
+        "min_value": 114
+      },
+      "dps": {
+        "display_string": "(67.7 damage per second)",
+        "value": 67.69231
+      }
     }
   },
+  "purchase_price": 1181247,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/645?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 645
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 26,
+  "sell_price": 236249
 }

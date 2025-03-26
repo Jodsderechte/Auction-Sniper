@@ -4,174 +4,175 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/186989?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Marrow Burst.",
+  "icon_path": "data\\icons\\70_professions_scroll_02.jpg",
   "id": 186989,
-  "name": "Recipe: Marrow Burst",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/186989?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 186989
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 95000,
-  "sell_price": 23750,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Marrow Burst.",
+  "media": {
+    "id": 186989,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/186989?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Marrow Burst",
   "preview_item": {
+    "description": "Teaches you how to craft a Marrow Burst.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 186989,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/186989?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 186989
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Recipe: Marrow Burst",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/186989?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 186989
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 23750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "37",
-        "copper": "50"
+    "media": {
+      "id": 186989,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/186989?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2750?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shadowlands Alchemy",
-          "id": 2750
-        },
-        "level": 95,
-        "display_string": "Requires Shadowlands Alchemy (95)"
-      }
+    "name": "Recipe: Marrow Burst",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to craft a Marrow Burst.",
     "recipe": {
       "item": {
+        "charges": {
+          "display_string": "1 Charge",
+          "value": 1
+        },
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 186700,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/186700?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 186700
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Marrow Burst",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/186700?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 186700
+          }
         },
         "item_class": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Consumable",
-          "id": 0
+          "name": "Consumable"
         },
         "item_subclass": {
+          "id": 8,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Other",
-          "id": 8
+          "name": "Other"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
+        "media": {
+          "id": 186700,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/186700?namespace=static-11.1.0_59095-eu"
+          }
+        },
+        "name": "Marrow Burst",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "spells": [
           {
+            "description": "Use: Douse your friends with a burst of gray color! Fun for all ages! (3 Min Cooldown)",
             "spell": {
+              "id": 354877,
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/spell/354877?namespace=static-11.1.0_59095-eu"
               },
-              "name": "Marrow Burst",
-              "id": 354877
-            },
-            "description": "Use: Douse your friends with a burst of gray color! Fun for all ages! (3 Min Cooldown)"
+              "name": "Marrow Burst"
+            }
           }
-        ],
-        "charges": {
-          "value": 1,
-          "display_string": "1 Charge"
-        },
-        "is_subclass_hidden": true
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 171290,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/171290?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Ground Marrowroot",
-            "id": 171290
-          },
-          "quantity": 2
+            "name": "Ground Marrowroot"
+          }
         }
       ],
       "reagents_display_string": "Ground Marrowroot (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Shadowlands Alchemy (95)",
+        "level": 95,
+        "profession": {
+          "id": 2750,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2750?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shadowlands Alchemy"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "37"
+      },
+      "value": 23750
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 95000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 23750
 }

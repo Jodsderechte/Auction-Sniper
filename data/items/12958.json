@@ -4,188 +4,189 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12958?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to transmute Thorium and Arcane Crystals into Arcanite.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 12958,
-  "name": "Recipe: Transmute Arcanite",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12958?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12958
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000,
-  "sell_price": 12500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to transmute Thorium and Arcane Crystals into Arcanite.",
+  "media": {
+    "id": 12958,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12958?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Transmute Arcanite",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 12958,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12958?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12958
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Recipe: Transmute Arcanite",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12958?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12958
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/17187?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Transmute: Arcanite",
-          "id": 17187
-        },
-        "description": "Use: Teaches you how to transmute Thorium and Arcane Crystals into Arcanite."
-      }
-    ],
-    "sell_price": {
-      "value": 12500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 12958,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12958?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Alchemy",
-          "id": 2485
-        },
-        "level": 275,
-        "display_string": "Requires Classic Alchemy (275)"
-      }
+    "name": "Recipe: Transmute Arcanite",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "recipe": {
       "item": {
+        "crafting_reagent": "Crafting Reagent",
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 12360,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12360
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Arcanite Bar",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/12360?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12360
+          }
         },
         "item_class": {
+          "id": 7,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Tradeskill",
-          "id": 7
+          "name": "Tradeskill"
         },
         "item_subclass": {
+          "id": 7,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/7?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Metal & Stone",
-          "id": 7
+          "name": "Metal & Stone"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
-        },
-        "sell_price": {
-          "value": 5000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "50",
-            "copper": "0"
+        "media": {
+          "id": 12360,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/12360?namespace=static-11.1.0_59095-eu"
           }
         },
-        "is_subclass_hidden": true,
-        "crafting_reagent": "Crafting Reagent"
+        "name": "Arcanite Bar",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "50"
+          },
+          "value": 5000
+        }
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 12359,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12359?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Bar",
-            "id": 12359
-          },
-          "quantity": 1
+            "name": "Thorium Bar"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 12363,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12363?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcane Crystal",
-            "id": 12363
-          },
-          "quantity": 1
+            "name": "Arcane Crystal"
+          }
         }
       ],
       "reagents_display_string": "Thorium Bar, Arcane Crystal"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Alchemy (275)",
+        "level": 275,
+        "profession": {
+          "id": 2485,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Alchemy"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 12500
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to transmute Thorium and Arcane Crystals into Arcanite.",
+        "spell": {
+          "id": 17187,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/17187?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Transmute: Arcanite"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 12500
 }

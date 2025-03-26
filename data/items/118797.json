@@ -4,206 +4,207 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/118797?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 21639,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/21639?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_bow_2h_crossbow_orcclan_b_01.jpg",
   "id": 118797,
-  "name": "Auto-Loading Crossbow of the Sand Emperor",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 41,
-  "required_level": 36,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/118797?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 118797
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 18,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Crossbow",
-    "id": 18
+    "name": "Crossbow"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 5207782,
-  "sell_price": 1041556,
+  "level": 41,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 118797,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/118797?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Auto-Loading Crossbow of the Sand Emperor",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/118797?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 118797
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
     },
-    "name": "Auto-Loading Crossbow of the Sand Emperor",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 118797,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/118797?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 118797
+        "href": "https://eu.api.blizzard.com/data/wow/item/118797?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 18,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Crossbow",
-      "id": 18
+      "name": "Crossbow"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 518,
-        "max_value": 778,
-        "display_string": "518 - 778 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 215.99998,
-        "display_string": "(216.0 damage per second)"
+    "media": {
+      "id": 118797,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/118797?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 287,
-        "is_negated": true,
-        "display": {
-          "display_string": "+287 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 560,
-        "display": {
-          "display_string": "+560 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 277,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+277 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 245,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+245 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 722101,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "72",
-        "silver": "21",
-        "copper": "1"
-      }
+    "name": "Auto-Loading Crossbow of the Sand Emperor",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 36,
-        "display_string": "Requires Level 36"
+        "display_string": "Requires Level 36",
+        "value": 36
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "72",
+        "header": "Sell Price:",
+        "silver": "21"
+      },
+      "value": 722101
     },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+287 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 287
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+560 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 560
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+277 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 277
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+245 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 245
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "518 - 778 Damage",
+        "max_value": 778,
+        "min_value": 518
+      },
+      "dps": {
+        "display_string": "(216.0 damage per second)",
+        "value": 215.99998
+      }
     }
   },
+  "purchase_price": 5207782,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/21639?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21639
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 36,
+  "sell_price": 1041556
 }

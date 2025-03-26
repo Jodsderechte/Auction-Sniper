@@ -4,98 +4,99 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/111364?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "The methods in this book are outdated.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 111364,
-  "name": "First Aid in Draenor",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 40,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/111364?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 111364
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 800,
-  "sell_price": 200,
+  "level": 40,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "The methods in this book are outdated.",
+  "media": {
+    "id": 111364,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/111364?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "First Aid in Draenor",
   "preview_item": {
+    "description": "The methods in this book are outdated.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 111364,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/111364?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 111364
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "First Aid in Draenor",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/111364?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 111364
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 200,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "0"
+    "media": {
+      "id": 111364,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/111364?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "First Aid in Draenor",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 10,
-        "display_string": "Requires Level 10"
+        "display_string": "Requires Level 10",
+        "value": 10
       }
     },
-    "description": "The methods in this book are outdated.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 200
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 800,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 10,
+  "sell_price": 200
 }

@@ -4,96 +4,97 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/51809?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_shadowegg.jpg",
   "id": 51809,
-  "name": "Portable Hole",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 32,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/51809?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 51809
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bag",
-    "id": 0
-  },
-  "inventory_type": {
-    "type": "BAG",
     "name": "Bag"
   },
-  "purchase_price": 30000000,
-  "sell_price": 250000,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 51809,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/51809?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Portable Hole",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "container_slots": {
+      "display_string": "24 Slot Bag",
+      "value": 24
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 51809,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/51809?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 51809
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Portable Hole",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/51809?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 51809
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bag",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "BAG",
       "name": "Bag"
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 250000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "25",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 51809,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/51809?namespace=static-11.1.0_59095-eu"
       }
     },
-    "container_slots": {
-      "value": 24,
-      "display_string": "24 Slot Bag"
+    "name": "Portable Hole",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "25",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 250000
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 30000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 250000
 }

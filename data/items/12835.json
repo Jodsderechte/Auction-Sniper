@@ -4,264 +4,265 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12835?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make an Annihilator.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 12835,
-  "name": "Plans: Annihilator",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12835?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12835
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 80000,
-  "sell_price": 20000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make an Annihilator.",
+  "media": {
+    "id": 12835,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12835?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Annihilator",
   "preview_item": {
+    "description": "Teaches you how to make an Annihilator.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 12835,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12835?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12835
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Plans: Annihilator",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12835?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12835
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 12835,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12835?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 300,
-        "display_string": "Requires Classic Blacksmithing (300)"
-      }
+    "name": "Plans: Annihilator",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to make an Annihilator.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 90 / 90",
+          "value": 90
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 12798,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/12798?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12798
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Annihilator",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/12798?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12798
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Axe",
-          "id": 0
+          "name": "Axe"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 3,
-            "max_value": 7,
-            "display_string": "3 - 7 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 2600,
-            "display_string": "Speed 2.60"
-          },
-          "dps": {
-            "value": 1.9230769,
-            "display_string": "(1.9 damage per second)"
+        "media": {
+          "id": 12798,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/12798?namespace=static-11.1.0_59095-eu"
           }
         },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/16928?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Armor Shatter",
-              "id": 16928
-            },
-            "description": "Chance on hit: Reduces an enemy's armor by 38.  Stacks up to 3 times. (Requires level 49 or below)"
-          }
-        ],
-        "sell_price": {
-          "value": 249,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "49"
-          }
+        "name": "Annihilator",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 24,
-            "display_string": "Requires Level 24"
+            "display_string": "Requires Level 24",
+            "value": 24
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "49",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 249
         },
-        "durability": {
-          "value": 90,
-          "display_string": "Durability 90 / 90"
+        "spells": [
+          {
+            "description": "Chance on hit: Reduces an enemy's armor by 38.  Stacks up to 3 times. (Requires level 49 or below)",
+            "spell": {
+              "id": 16928,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/16928?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Armor Shatter"
+            }
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.60",
+            "value": 2600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "3 - 7 Damage",
+            "max_value": 7,
+            "min_value": 3
+          },
+          "dps": {
+            "display_string": "(1.9 damage per second)",
+            "value": 1.9230769
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 40,
           "reagent": {
+            "id": 12359,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12359?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Bar",
-            "id": 12359
-          },
-          "quantity": 40
+            "name": "Thorium Bar"
+          }
         },
         {
+          "quantity": 12,
           "reagent": {
+            "id": 12360,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcanite Bar",
-            "id": 12360
-          },
-          "quantity": 12
+            "name": "Arcanite Bar"
+          }
         },
         {
+          "quantity": 10,
           "reagent": {
+            "id": 12808,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12808?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Essence of Undeath",
-            "id": 12808
-          },
-          "quantity": 10
+            "name": "Essence of Undeath"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 12364,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12364?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Huge Emerald",
-            "id": 12364
-          },
-          "quantity": 8
+            "name": "Huge Emerald"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12644,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12644?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Dense Grinding Stone",
-            "id": 12644
-          },
-          "quantity": 2
+            "name": "Dense Grinding Stone"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12810,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12810?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Enchanted Leather",
-            "id": 12810
-          },
-          "quantity": 4
+            "name": "Enchanted Leather"
+          }
         }
       ],
       "reagents_display_string": "Thorium Bar (40), Arcanite Bar (12), Essence of Undeath (10), Huge Emerald (8), Dense Grinding Stone (2), Enchanted Leather (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (300)",
+        "level": 300,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 80000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 20000
 }

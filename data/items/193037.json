@@ -4,134 +4,135 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/193037?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_helm_armor_jewelersspecs_b_01.jpg",
   "id": 193037,
-  "name": "Sundered Onyx Loupe",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/193037?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 193037
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 11
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 15000,
-  "sell_price": 3000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 193037,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/193037?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Sundered Onyx Loupe",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/193037?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193037
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Sundered Onyx Loupe",
-    "media": {
+    "item": {
+      "id": 193037,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/193037?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193037
+        "href": "https://eu.api.blizzard.com/data/wow/item/193037?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 11
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Jewelcrafting"
     },
     "limit_category": "Unique-Equipped: Head (1)",
+    "media": {
+      "id": 193037,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/193037?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Sundered Onyx Loupe",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "30"
+      },
+      "value": 3000
+    },
     "stats": [
       {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-          "name": "Multicraft"
-        },
-        "value": 18,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+18 Multicraft",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+18 Multicraft"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Multicraft",
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+        },
+        "value": 18
       },
       {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_INGENUITY",
-          "name": "Ingenuity"
-        },
-        "value": 28,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+28 Ingenuity",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+28 Ingenuity"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Ingenuity",
+          "type": "BONUS_STAT_PROFESSION_INGENUITY"
+        },
+        "value": 28
       }
-    ],
-    "sell_price": {
-      "value": 3000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "30",
-        "copper": "0"
-      }
-    }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 15000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 3000
 }

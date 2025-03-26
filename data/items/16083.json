@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/16083?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_book_08.jpg",
   "id": 16083,
-  "name": "Expert Fishing - The Bass and You",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 13,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/16083?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 16083
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Fishing",
-    "id": 9
+    "name": "Fishing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 10000,
-  "sell_price": 2500,
+  "level": 13,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 16083,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/16083?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Expert Fishing - The Bass and You",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 16083,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/16083?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16083
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Expert Fishing - The Bass and You",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/16083?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16083
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Fishing",
-      "id": 9
+      "name": "Fishing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 16083,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/16083?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Expert Fishing - The Bass and You",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Fishing (125)",
+        "level": 125,
         "profession": {
+          "id": 356,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/356?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Fishing",
-          "id": 356
-        },
-        "level": 125,
-        "display_string": "Requires Fishing (125)"
+          "name": "Fishing"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2500
 }

@@ -4,152 +4,153 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/222487?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_blacksmithing_toolbox_01.jpg",
   "id": 222487,
-  "name": "Proficient Blacksmith's Toolbox",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/222487?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 222487
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 0
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 115750,
-  "sell_price": 23150,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 222487,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/222487?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Proficient Blacksmith's Toolbox",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/222487?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222487
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Proficient Blacksmith's Toolbox",
-    "media": {
+    "item": {
+      "id": 222487,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/222487?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222487
+        "href": "https://eu.api.blizzard.com/data/wow/item/222487?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Blacksmithing"
     },
     "limit_category": "Unique-Equipped: Toolkit (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS",
-          "name": "Resourcefulness"
-        },
-        "value": 69,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+69 Resourcefulness",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED",
-          "name": "Crafting Speed"
-        },
-        "value": 69,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+69 Crafting Speed",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 222487,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/222487?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455727?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455727
-        },
-        "description": "Equip: +5 Khaz Algar Blacksmithing Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 23150,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "31",
-        "copper": "50"
-      }
+    },
+    "name": "Proficient Blacksmith's Toolbox",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "31"
+      },
+      "value": 23150
+    },
+    "spells": [
+      {
+        "description": "Equip: +5 Khaz Algar Blacksmithing Skill",
+        "spell": {
+          "id": 455727,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455727?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+69 Resourcefulness"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Resourcefulness",
+          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS"
+        },
+        "value": 69
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+69 Crafting Speed"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Crafting Speed",
+          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED"
+        },
+        "value": 69
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 115750,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 23150
 }

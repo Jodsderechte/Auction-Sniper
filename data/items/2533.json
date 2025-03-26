@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2533?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 883,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/883?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_hammer_17.jpg",
   "id": 2533,
-  "name": "War Maul",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 24,
-  "required_level": 17,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2533?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2533
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 5
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 983675,
-  "sell_price": 196735,
+  "level": 24,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2533,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2533?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "War Maul",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 75 / 75",
+      "value": 75
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 2533,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/2533?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2533
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "War Maul",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2533?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2533
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 5
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 24",
+      "value": 24
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 7,
-        "max_value": 9,
-        "display_string": "7 - 9 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 2.222222,
-        "display_string": "(2.2 damage per second)"
+    "media": {
+      "id": 2533,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2533?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 102,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "2"
-      }
+    "name": "War Maul",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 17,
-        "display_string": "Requires Level 17"
+        "display_string": "Requires Level 17",
+        "value": 17
       }
     },
-    "level": {
-      "value": 24,
-      "display_string": "Item Level 24"
+    "sell_price": {
+      "display_strings": {
+        "copper": "2",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 102
     },
-    "durability": {
-      "value": 75,
-      "display_string": "Durability 75 / 75"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "7 - 9 Damage",
+        "max_value": 9,
+        "min_value": 7
+      },
+      "dps": {
+        "display_string": "(2.2 damage per second)",
+        "value": 2.222222
+      }
     }
   },
+  "purchase_price": 983675,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/883?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 883
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 17,
+  "sell_price": 196735
 }

@@ -4,221 +4,222 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/172239?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 42166,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/42166?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_leather_oribosquesting_b_01.jpg",
   "id": 172239,
-  "name": "Desolate Leather Pauldrons",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 100,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/172239?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 172239
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 1890322,
-  "sell_price": 378064,
+  "level": 100,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 172239,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/172239?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Desolate Leather Pauldrons",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/172239?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "12 Armor"
       },
-      "id": 172239
+      "value": 12
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6890
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Desolate Leather Pauldrons",
-    "media": {
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
+    "item": {
+      "id": 172239,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/172239?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 172239
+        "href": "https://eu.api.blizzard.com/data/wow/item/172239?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
-    },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 12,
-      "display": {
-        "display_string": "12 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 9,
-        "display": {
-          "display_string": "+9 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 9,
-        "is_negated": true,
-        "display": {
-          "display_string": "+9 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 13,
-        "display": {
-          "display_string": "+13 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 9,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+9 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 9,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+9 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 8835,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "88",
-        "copper": "35"
-      }
+      "name": "Leather"
     },
     "level": {
-      "value": 129,
-      "display_string": "Item Level 129"
+      "display_string": "Item Level 129",
+      "value": 129
     },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "media": {
+      "id": 172239,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/172239?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
+        "name": "Critical Strike",
+        "type": "CRIT_RATING"
       },
       {
         "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "name": "Versatility",
+        "type": "VERSATILITY"
+      }
+    ],
+    "name": "Desolate Leather Pauldrons",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "35",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "88"
+      },
+      "value": 8835
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+9 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 9
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+9 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 9
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+13 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 13
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+9 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 9
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+9 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 9
       }
     ]
   },
+  "purchase_price": 1890322,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/42166?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 42166
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 50,
+  "sell_price": 378064
 }

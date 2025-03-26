@@ -4,164 +4,165 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/24604?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2659,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2659?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_bracer_10.jpg",
   "id": 24604,
-  "name": "Starfire Wristwraps",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Wrist",
+    "type": "WRIST"
   },
-  "level": 30,
-  "required_level": 24,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/24604?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 24604
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cloth",
-    "id": 1
+    "name": "Cloth"
   },
-  "inventory_type": {
-    "type": "WRIST",
-    "name": "Wrist"
-  },
-  "purchase_price": 1204256,
-  "sell_price": 240851,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 24604,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/24604?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Starfire Wristwraps",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/24604?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "113 Armor"
       },
-      "id": 24604
+      "value": 113
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6654
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
     },
-    "name": "Starfire Wristwraps",
-    "media": {
+    "inventory_type": {
+      "name": "Wrist",
+      "type": "WRIST"
+    },
+    "item": {
+      "id": 24604,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/24604?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24604
+        "href": "https://eu.api.blizzard.com/data/wow/item/24604?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cloth",
-      "id": 1
+      "name": "Cloth"
     },
-    "inventory_type": {
-      "type": "WRIST",
-      "name": "Wrist"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 113,
-      "display": {
-        "display_string": "113 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 24604,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/24604?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 154,
-        "display": {
-          "display_string": "+154 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 279,
-        "display": {
-          "display_string": "+279 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 178943,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "17",
-        "silver": "89",
-        "copper": "43"
-      }
+    "name": "Starfire Wristwraps",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 24,
-        "display_string": "Requires Level 24"
+        "display_string": "Requires Level 24",
+        "value": 24
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
-    },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2659?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "43",
+        "gold": "17",
+        "header": "Sell Price:",
+        "silver": "89"
       },
-      "id": 2659
-    }
-  ]
+      "value": 178943
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+154 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 154
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+279 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 279
+      }
+    ]
+  },
+  "purchase_price": 1204256,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 24,
+  "sell_price": 240851
 }

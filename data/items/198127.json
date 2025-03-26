@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/198127?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to cook Fated Fortune Cookie.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02.jpg",
   "id": 198127,
-  "name": "Recipe: Fated Fortune Cookie",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/198127?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 198127
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cooking",
-    "id": 5
+    "name": "Cooking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 5000,
-  "sell_price": 1250,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to cook Fated Fortune Cookie.",
+  "media": {
+    "id": 198127,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/198127?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Fated Fortune Cookie",
   "preview_item": {
+    "description": "Teaches you how to cook Fated Fortune Cookie.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 198127,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/198127?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198127
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Recipe: Fated Fortune Cookie",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/198127?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198127
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cooking",
-      "id": 5
+      "name": "Cooking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1250,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "12",
-        "copper": "50"
+    "media": {
+      "id": 198127,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/198127?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Recipe: Fated Fortune Cookie",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Cooking (50)",
+        "level": 50,
         "profession": {
+          "id": 2824,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2824?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Cooking",
-          "id": 2824
-        },
-        "level": 50,
-        "display_string": "Requires Dragon Isles Cooking (50)"
+          "name": "Dragon Isles Cooking"
+        }
       }
     },
-    "description": "Teaches you how to cook Fated Fortune Cookie.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "12"
+      },
+      "value": 1250
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 5000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 1250
 }

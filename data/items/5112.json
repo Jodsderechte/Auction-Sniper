@@ -4,156 +4,157 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5112?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1800,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1800?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_02.jpg",
   "id": 5112,
-  "name": "Ritual Blade",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 8,
-  "required_level": 5,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5112?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5112
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 3651,
-  "sell_price": 730,
+  "level": 8,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 5112,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5112?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ritual Blade",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/5112?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5112
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4790
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
     },
-    "name": "Ritual Blade",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 5112,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5112?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5112
+        "href": "https://eu.api.blizzard.com/data/wow/item/5112?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 366",
+      "value": 366
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 228,
-        "max_value": 381,
-        "display_string": "228 - 381 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 169.16666,
-        "display_string": "(169.2 damage per second)"
+    "media": {
+      "id": 5112,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5112?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 283,
-        "is_negated": true,
-        "display": {
-          "display_string": "+283 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 515080,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "51",
-        "silver": "50",
-        "copper": "80"
-      }
+    "name": "Ritual Blade",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 5,
-        "display_string": "Requires Level 5"
+        "display_string": "Requires Level 5",
+        "value": 5
       }
     },
-    "level": {
-      "value": 366,
-      "display_string": "Item Level 366"
+    "sell_price": {
+      "display_strings": {
+        "copper": "80",
+        "gold": "51",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 515080
     },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+283 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 283
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "228 - 381 Damage",
+        "max_value": 381,
+        "min_value": 228
+      },
+      "dps": {
+        "display_string": "(169.2 damage per second)",
+        "value": 169.16666
+      }
     }
   },
+  "purchase_price": 3651,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1800?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1800
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 5,
+  "sell_price": 730
 }

@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3424?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1206,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1206?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_jewelry_talisman_03.jpg",
   "id": 3424,
-  "name": "Bouquet of Black Roses",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Held In Off-hand",
+    "type": "HOLDABLE"
   },
-  "level": 29,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3424?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3424
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "HOLDABLE",
-    "name": "Held In Off-hand"
-  },
-  "purchase_price": 1035874,
-  "sell_price": 207174,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 3424,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3424?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bouquet of Black Roses",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Held In Off-hand",
+      "type": "HOLDABLE"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 3424,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/3424?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3424
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Bouquet of Black Roses",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3424?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3424
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "HOLDABLE",
-      "name": "Held In Off-hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 72,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "72"
-      }
+      "name": "Miscellaneous"
     },
     "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 3424,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1206?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3424?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Bouquet of Black Roses",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "72",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 1206
+      "value": 72
     }
-  ]
+  },
+  "purchase_price": 1035874,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 207174
 }

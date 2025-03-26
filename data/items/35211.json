@@ -4,341 +4,342 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/35211?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Hard Khorium Battleplate.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 35211,
-  "name": "Plans: Hard Khorium Battleplate",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/35211?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 35211
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 80000,
-  "sell_price": 20000,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Hard Khorium Battleplate.",
+  "media": {
+    "id": 35211,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/35211?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Hard Khorium Battleplate",
   "preview_item": {
+    "description": "Teaches you how to make a Hard Khorium Battleplate.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 35211,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/35211?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 35211
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Plans: Hard Khorium Battleplate",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/35211?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 35211
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 35211,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/35211?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Blacksmithing",
-          "id": 2476
-        },
-        "level": 65,
-        "display_string": "Requires Outland Blacksmithing (65)"
-      }
+    "name": "Plans: Hard Khorium Battleplate",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to make a Hard Khorium Battleplate.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "15 Armor"
+          },
+          "value": 15
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "durability": {
+          "display_string": "Durability 165 / 165",
+          "value": 165
+        },
+        "inventory_type": {
+          "name": "Chest",
+          "type": "CHEST"
+        },
         "item": {
+          "id": 34377,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/34377?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 34377
-        },
-        "sockets": [
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
-          },
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
-          },
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
           }
-        ],
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Hard Khorium Battleplate",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/34377?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 34377
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Plate",
-          "id": 4
+          "name": "Plate"
         },
-        "inventory_type": {
-          "type": "CHEST",
-          "name": "Chest"
+        "level": {
+          "display_string": "Item Level 34",
+          "value": 34
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
-        },
-        "armor": {
-          "value": 15,
-          "display": {
-            "display_string": "15 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 34377,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/34377?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 4,
-            "is_negated": true,
-            "display": {
-              "display_string": "+4 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Critical Strike",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "HASTE_RATING",
-              "name": "Haste"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Haste",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "socket_bonus": "Socket Bonus: +2 Critical Strike",
-        "sell_price": {
-          "value": 364,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "3",
-            "copper": "64"
-          }
+        "name": "Hard Khorium Battleplate",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           }
         },
-        "level": {
-          "value": 34,
-          "display_string": "Item Level 34"
+        "sell_price": {
+          "display_strings": {
+            "copper": "64",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "3"
+          },
+          "value": 364
         },
-        "durability": {
-          "value": 165,
-          "display_string": "Durability 165 / 165"
-        }
+        "socket_bonus": "Socket Bonus: +2 Critical Strike",
+        "sockets": [
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          },
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          },
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+4 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Haste"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Haste",
+              "type": "HASTE_RATING"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 20,
           "reagent": {
+            "id": 23449,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23449?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Khorium Bar",
-            "id": 23449
-          },
-          "quantity": 20
+            "name": "Khorium Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 23573,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23573?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Hardened Adamantite Bar",
-            "id": 23573
-          },
-          "quantity": 4
+            "name": "Hardened Adamantite Bar"
+          }
         },
         {
+          "quantity": 10,
           "reagent": {
+            "id": 21884,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21884?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Fire",
-            "id": 21884
-          },
-          "quantity": 10
+            "name": "Primal Fire"
+          }
         },
         {
+          "quantity": 10,
           "reagent": {
+            "id": 22456,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/22456?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Shadow",
-            "id": 22456
-          },
-          "quantity": 10
+            "name": "Primal Shadow"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 23572,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23572?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Nether",
-            "id": 23572
-          },
-          "quantity": 6
+            "name": "Primal Nether"
+          }
         }
       ],
       "reagents_display_string": "Khorium Bar (20), Hardened Adamantite Bar (4), Primal Fire (10), Primal Shadow (10), Primal Nether (6)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Blacksmithing (65)",
+        "level": 65,
+        "profession": {
+          "id": 2476,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 80000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 20000
 }

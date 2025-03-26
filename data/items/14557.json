@@ -4,119 +4,120 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/14557?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_horn_03.jpg",
   "id": 14557,
-  "name": "The Lion Horn of Stormwind",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 29,
-  "required_level": 24,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/14557?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 14557
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 71520,
-  "sell_price": 17880,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 14557,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/14557?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Lion Horn of Stormwind",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/14557?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14557
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6660
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "The Lion Horn of Stormwind",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 14557,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/14557?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14557
+        "href": "https://eu.api.blizzard.com/data/wow/item/14557?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/20847?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "The Lion Horn of Stormwind",
-          "id": 20847
-        },
-        "description": "Equip: When struck in combat has a 1% chance of increasing all party member's armor by 397 for 30 sec."
+    "media": {
+      "id": 14557,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/14557?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 17880,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "78",
-        "copper": "80"
-      }
+    },
+    "name": "The Lion Horn of Stormwind",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 24,
-        "display_string": "Requires Level 24"
+        "display_string": "Requires Level 24",
+        "value": 24
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "80",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "78"
+      },
+      "value": 17880
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: When struck in combat has a 1% chance of increasing all party member's armor by 397 for 30 sec.",
+        "spell": {
+          "id": 20847,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/20847?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "The Lion Horn of Stormwind"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 71520,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 24,
+  "sell_price": 17880
 }

@@ -4,127 +4,128 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4560?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 698,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/698?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_24.jpg",
   "id": 4560,
-  "name": "Fine Scimitar",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 3,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4560?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4560
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 185,
-  "sell_price": 37,
+  "level": 3,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4560,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4560?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fine Scimitar",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 4560,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/4560?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4560
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Fine Scimitar",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4560?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4560
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
-    },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 2,
-        "display_string": "1 - 2 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 0.5769231,
-        "display_string": "(0.6 damage per second)"
-      }
-    },
-    "sell_price": {
-      "value": 13,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "13"
-      }
+      "name": "Sword"
     },
     "level": {
-      "value": 3,
-      "display_string": "Item Level 3"
+      "display_string": "Item Level 3",
+      "value": 3
     },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
+    "media": {
+      "id": 4560,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4560?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Fine Scimitar",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "13",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 13
+    },
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 - 2 Damage",
+        "max_value": 2,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.6 damage per second)",
+        "value": 0.5769231
+      }
     }
   },
+  "purchase_price": 185,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/698?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 698
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 37
 }

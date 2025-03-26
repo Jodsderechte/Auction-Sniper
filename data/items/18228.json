@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18228?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "It's either a signature or someone spilled ink a dramatic fashion.",
+  "icon_path": "data\\icons\\inv_scroll_10.jpg",
   "id": 18228,
-  "name": "Autographed Picture of Tigule",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18228?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18228
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 10000,
-  "sell_price": 2500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "It's either a signature or someone spilled ink a dramatic fashion.",
+  "media": {
+    "id": 18228,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18228?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Autographed Picture of Tigule",
   "preview_item": {
+    "description": "It's either a signature or someone spilled ink a dramatic fashion.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18228,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18228?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18228
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Autographed Picture of Tigule",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18228?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18228
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 18228,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18228?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "It's either a signature or someone spilled ink a dramatic fashion.",
-    "is_subclass_hidden": true
+    "name": "Autographed Picture of Tigule",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 2500
 }

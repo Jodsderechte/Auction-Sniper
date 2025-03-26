@@ -4,225 +4,226 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/211546?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 70231,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70231?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mail_dragonquest_b_01_boots.jpg",
   "id": 211546,
-  "name": "Draconic Combatant's Adamant Treads",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 330,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/211546?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 211546
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 133853,
-  "sell_price": 26770,
+  "level": 330,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 211546,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/211546?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Draconic Combatant's Adamant Treads",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/211546?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "800 Armor"
       },
-      "id": 211546
+      "value": 800
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       10250,
       8840,
       5247,
       10251
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
     },
-    "name": "Draconic Combatant's Adamant Treads",
-    "media": {
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
+    "item": {
+      "id": 211546,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/211546?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 211546
+        "href": "https://eu.api.blizzard.com/data/wow/item/211546?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
-    },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 800,
-      "display": {
-        "display_string": "800 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 437,
-        "display": {
-          "display_string": "+437 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 437,
-        "is_negated": true,
-        "display": {
-          "display_string": "+437 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 1527,
-        "display": {
-          "display_string": "+1,527 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 319,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+319 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 319,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+319 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 26770,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "67",
-        "copper": "70"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
-      }
+      "name": "Mail"
     },
     "level": {
-      "value": 438,
-      "display_string": "Item Level 438"
+      "display_string": "Item Level 438",
+      "value": 438
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "media": {
+      "id": 211546,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/211546?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
+        "name": "Critical Strike",
+        "type": "CRIT_RATING"
+      }
+    ],
+    "name": "Draconic Combatant's Adamant Treads",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 70",
+        "value": 70
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "70",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "67"
+      },
+      "value": 26770
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+437 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 437
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+437 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 437
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+1,527 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 1527
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+319 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 319
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+319 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 319
       }
     ]
   },
+  "purchase_price": 133853,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70231?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 70231
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 26770
 }

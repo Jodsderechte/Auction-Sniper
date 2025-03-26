@@ -4,234 +4,235 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6270?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew a Blue Linen Vest.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 6270,
-  "name": "Pattern: Blue Linen Vest",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6270?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6270
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 200,
-  "sell_price": 50,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew a Blue Linen Vest.",
+  "media": {
+    "id": 6270,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6270?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Blue Linen Vest",
   "preview_item": {
+    "description": "Teaches you how to sew a Blue Linen Vest.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 6270,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6270?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6270
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Pattern: Blue Linen Vest",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6270?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6270
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 50,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "50"
+    "media": {
+      "id": 6270,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6270?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 55,
-        "display_string": "Requires Classic Tailoring (55)"
-      }
+    "name": "Pattern: Blue Linen Vest",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to sew a Blue Linen Vest.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "2 Armor"
+          },
+          "value": 2
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 65 / 65",
+          "value": 65
+        },
+        "inventory_type": {
+          "name": "Chest",
+          "type": "CHEST"
+        },
         "item": {
+          "id": 6240,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/6240?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 6240
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Blue Linen Vest",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/6240?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 6240
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cloth",
-          "id": 1
+          "name": "Cloth"
         },
-        "inventory_type": {
-          "type": "CHEST",
-          "name": "Chest"
+        "level": {
+          "display_string": "Item Level 6",
+          "value": 6
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 2,
-          "display": {
-            "display_string": "2 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 6240,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/6240?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "VERSATILITY",
-              "name": "Versatility"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Versatility",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Blue Linen Vest",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 3,
-            "display_string": "Requires Level 3"
+            "display_string": "Requires Level 3",
+            "value": 3
           }
         },
-        "level": {
-          "value": 6,
-          "display_string": "Item Level 6"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 65,
-          "display_string": "Durability 65 / 65"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Versatility"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Versatility",
+              "type": "VERSATILITY"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 3,
           "reagent": {
+            "id": 2996,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2996?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Linen Cloth",
-            "id": 2996
-          },
-          "quantity": 3
+            "name": "Bolt of Linen Cloth"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 2320,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2320?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Coarse Thread",
-            "id": 2320
-          },
-          "quantity": 1
+            "name": "Coarse Thread"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 6260,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/6260?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Blue Dye",
-            "id": 6260
-          },
-          "quantity": 1
+            "name": "Blue Dye"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Linen Cloth (3), Coarse Thread, Blue Dye"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (55)",
+        "level": 55,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 50
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 200,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 50
 }

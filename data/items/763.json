@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/763?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 219,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/219?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_bracer_08.jpg",
   "id": 763,
-  "name": "Ice-Covered Bracers",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Wrist",
+    "type": "WRIST"
   },
-  "level": 6,
-  "required_level": 3,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/763?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 763
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "WRIST",
-    "name": "Wrist"
-  },
-  "purchase_price": 414,
-  "sell_price": 82,
+  "level": 6,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 763,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/763?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ice-Covered Bracers",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/763?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "11 Armor"
       },
-      "id": 763
+      "value": 11
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6713
     ],
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 20 / 20",
+      "value": 20
     },
-    "name": "Ice-Covered Bracers",
-    "media": {
+    "inventory_type": {
+      "name": "Wrist",
+      "type": "WRIST"
+    },
+    "item": {
+      "id": 763,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/763?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 763
+        "href": "https://eu.api.blizzard.com/data/wow/item/763?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "WRIST",
-      "name": "Wrist"
+    "level": {
+      "display_string": "Item Level 150",
+      "value": 150
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 11,
-      "display": {
-        "display_string": "11 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 763,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/763?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 5348,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "53",
-        "copper": "48"
-      }
+    "name": "Ice-Covered Bracers",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 3,
-        "display_string": "Requires Level 3"
+        "display_string": "Requires Level 3",
+        "value": 3
       }
     },
-    "level": {
-      "value": 150,
-      "display_string": "Item Level 150"
-    },
-    "durability": {
-      "value": 20,
-      "display_string": "Durability 20 / 20"
+    "sell_price": {
+      "display_strings": {
+        "copper": "48",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "53"
+      },
+      "value": 5348
     }
   },
+  "purchase_price": 414,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/219?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 219
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 3,
+  "sell_price": 82
 }

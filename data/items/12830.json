@@ -4,297 +4,298 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12830?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Corruption.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 12830,
-  "name": "Plans: Corruption",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12830?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12830
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 22000,
-  "sell_price": 5500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Corruption.",
+  "media": {
+    "id": 12830,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12830?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Corruption",
   "preview_item": {
+    "description": "Teaches you how to make Corruption.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 12830,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12830?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12830
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Plans: Corruption",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12830?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12830
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 5500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "55",
-        "copper": "0"
+    "media": {
+      "id": 12830,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12830?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 290,
-        "display_string": "Requires Classic Blacksmithing (290)"
-      }
+    "name": "Plans: Corruption",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make Corruption.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "durability": {
+          "display_string": "Durability 95 / 95",
+          "value": 95
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
         "item": {
+          "id": 12782,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/12782?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12782
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Corruption",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/12782?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12782
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 8,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Sword",
-          "id": 8
+          "name": "Sword"
         },
-        "inventory_type": {
-          "type": "TWOHWEAPON",
-          "name": "Two-Hand"
+        "level": {
+          "display_string": "Item Level 28",
+          "value": 28
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 6,
-            "max_value": 11,
-            "display_string": "6 - 11 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3600,
-            "display_string": "Speed 3.60"
-          },
-          "dps": {
-            "value": 2.361111,
-            "display_string": "(2.4 damage per second)"
+        "media": {
+          "id": 12782,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/12782?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 6,
-            "is_negated": true,
-            "display": {
-              "display_string": "+6 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 6,
-            "display": {
-              "display_string": "+6 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 290,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "90"
-          }
+        "name": "Corruption",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 22,
-            "display_string": "Requires Level 22"
+            "display_string": "Requires Level 22",
+            "value": 22
           }
         },
-        "level": {
-          "value": 28,
-          "display_string": "Item Level 28"
+        "sell_price": {
+          "display_strings": {
+            "copper": "90",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 290
         },
-        "durability": {
-          "value": 95,
-          "display_string": "Durability 95 / 95"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+6 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 6
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+6 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 6
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.60",
+            "value": 3600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "6 - 11 Damage",
+            "max_value": 11,
+            "min_value": 6
+          },
+          "dps": {
+            "display_string": "(2.4 damage per second)",
+            "value": 2.361111
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 40,
           "reagent": {
+            "id": 12359,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12359?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Bar",
-            "id": 12359
-          },
-          "quantity": 40
+            "name": "Thorium Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12360,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcanite Bar",
-            "id": 12360
-          },
-          "quantity": 2
+            "name": "Arcanite Bar"
+          }
         },
         {
+          "quantity": 16,
           "reagent": {
+            "id": 12662,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12662?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Demonic Rune",
-            "id": 12662
-          },
-          "quantity": 16
+            "name": "Demonic Rune"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 12808,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12808?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Essence of Undeath",
-            "id": 12808
-          },
-          "quantity": 8
+            "name": "Essence of Undeath"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12361,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12361?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Blue Sapphire",
-            "id": 12361
-          },
-          "quantity": 2
+            "name": "Blue Sapphire"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12644,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12644?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Dense Grinding Stone",
-            "id": 12644
-          },
-          "quantity": 2
+            "name": "Dense Grinding Stone"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 8170,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/8170?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Rugged Leather",
-            "id": 8170
-          },
-          "quantity": 4
+            "name": "Rugged Leather"
+          }
         }
       ],
       "reagents_display_string": "Thorium Bar (40), Arcanite Bar (2), Demonic Rune (16), Essence of Undeath (8), Blue Sapphire (2), Dense Grinding Stone (2), Rugged Leather (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (290)",
+        "level": 290,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "55"
+      },
+      "value": 5500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 22000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 5500
 }

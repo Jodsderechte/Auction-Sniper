@@ -4,236 +4,237 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/222469?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 91719,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91719?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_axe_1h_undergroundquest_b_03.jpg",
   "id": 222469,
-  "name": "Ironclaw Axe",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 447,
-  "required_level": 80,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/222469?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 222469
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 188630,
-  "sell_price": 37726,
+  "level": 447,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 222469,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/222469?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ironclaw Axe",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/222469?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222469
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       11297,
       11298
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 90 / 90",
+      "value": 90
     },
-    "name": "Ironclaw Axe",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 222469,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/222469?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222469
+        "href": "https://eu.api.blizzard.com/data/wow/item/222469?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1518,
-        "max_value": 3154,
-        "display_string": "1,518 - 3,154 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 898.26917,
-        "display_string": "(898.3 damage per second)"
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 790,
-        "is_negated": true,
-        "display": {
-          "display_string": "+790 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 790,
-        "is_negated": true,
-        "display": {
-          "display_string": "+790 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3942,
-        "display": {
-          "display_string": "+3,942 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 324,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+324 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 324,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+324 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 37726,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "77",
-        "copper": "26"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
-      }
+      "name": "Axe"
     },
     "level": {
-      "value": 545,
-      "display_string": "Item Level 545"
+      "display_string": "Item Level 545",
+      "value": 545
     },
-    "durability": {
-      "value": 90,
-      "display_string": "Durability 90 / 90"
+    "media": {
+      "id": 222469,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/222469?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "name": "Versatility",
+        "type": "VERSATILITY"
       },
       {
         "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
+        "name": "Critical Strike",
+        "type": "CRIT_RATING"
       }
-    ]
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91719?namespace=static-11.1.0_59095-eu"
+    ],
+    "name": "Ironclaw Axe",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 80",
+        "value": 80
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "26",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "77"
       },
-      "id": 91719
+      "value": 37726
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+790 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 790
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+790 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 790
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3,942 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3942
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+324 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 324
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+324 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 324
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1,518 - 3,154 Damage",
+        "max_value": 3154,
+        "min_value": 1518
+      },
+      "dps": {
+        "display_string": "(898.3 damage per second)",
+        "value": 898.26917
+      }
     }
-  ]
+  },
+  "purchase_price": 188630,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 80,
+  "sell_price": 37726
 }

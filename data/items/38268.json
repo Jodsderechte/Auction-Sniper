@@ -4,113 +4,114 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/38268?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6117,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6117?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Give to a Friend",
+  "icon_path": "data\\icons\\inv_gauntlets_09.jpg",
   "id": 38268,
-  "name": "Spare Hand",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Held In Off-hand",
+    "type": "HOLDABLE"
   },
-  "level": 1,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/38268?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 38268
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "HOLDABLE",
-    "name": "Held In Off-hand"
-  },
-  "purchase_price": 12,
-  "sell_price": 2,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Give to a Friend",
+  "media": {
+    "id": 38268,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/38268?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Spare Hand",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "Give to a Friend",
+    "inventory_type": {
+      "name": "Held In Off-hand",
+      "type": "HOLDABLE"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 38268,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/38268?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38268
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Spare Hand",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/38268?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38268
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "HOLDABLE",
-      "name": "Held In Off-hand"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 4,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "4"
+    "media": {
+      "id": 38268,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/38268?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Spare Hand",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "description": "Give to a Friend",
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6117?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "4",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 6117
+      "value": 4
     }
-  ]
+  },
+  "purchase_price": 12,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 27,
+  "sell_price": 2
 }

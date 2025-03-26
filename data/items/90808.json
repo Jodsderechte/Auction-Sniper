@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/90808?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8658,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8658?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_rifle_07.jpg",
   "id": 90808,
-  "name": "Bent-Barrel Rifle",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 35,
-  "required_level": 29,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/90808?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 90808
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 1819594,
-  "sell_price": 363918,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 90808,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/90808?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bent-Barrel Rifle",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/90808?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 90808
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Bent-Barrel Rifle",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 90808,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/90808?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 90808
+        "href": "https://eu.api.blizzard.com/data/wow/item/90808?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 188,
-        "max_value": 350,
-        "display_string": "188 - 350 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 89.66666,
-        "display_string": "(89.7 damage per second)"
+    "media": {
+      "id": 90808,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/90808?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 211708,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "21",
-        "silver": "17",
-        "copper": "8"
-      }
+    "name": "Bent-Barrel Rifle",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 29,
-        "display_string": "Requires Level 29"
+        "display_string": "Requires Level 29",
+        "value": 29
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "8",
+        "gold": "21",
+        "header": "Sell Price:",
+        "silver": "17"
+      },
+      "value": 211708
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "188 - 350 Damage",
+        "max_value": 350,
+        "min_value": 188
+      },
+      "dps": {
+        "display_string": "(89.7 damage per second)",
+        "value": 89.66666
+      }
     }
   },
+  "purchase_price": 1819594,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8658?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8658
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 29,
+  "sell_price": 363918
 }

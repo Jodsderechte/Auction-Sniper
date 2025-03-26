@@ -4,147 +4,148 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/153683?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelcrafting_80_maxlvlring_blue.jpg",
   "id": 153683,
-  "name": "Royal Quartz Loop",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 59,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/153683?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 153683
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 1729328,
-  "sell_price": 345865,
+  "level": 59,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 153683,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/153683?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Royal Quartz Loop",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 153683,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/153683?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "id": 153683
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Miscellaneous"
+    },
+    "level": {
+      "display_string": "Item Level 59",
+      "value": 59
+    },
+    "media": {
+      "id": 153683,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/153683?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Royal Quartz Loop",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 50",
+        "value": 50
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "61",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "9"
+      },
+      "value": 961
     },
     "sockets": [
       {
         "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
         }
       }
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Royal Quartz Loop",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/153683?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153683
-    },
-    "item_class": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Armor",
-      "id": 4
-    },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
     "stats": [
       {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5,
         "display": {
-          "display_string": "+5 Stamina",
           "color": {
-            "r": 255,
-            "g": 255,
+            "a": 1.0,
             "b": 255,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5
       },
       {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 10,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+10 Versatility",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+10 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 10
       }
     ],
-    "sell_price": {
-      "value": 961,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "9",
-        "copper": "61"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
-      }
-    },
-    "level": {
-      "value": 59,
-      "display_string": "Item Level 59"
-    },
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1729328,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 50,
+  "sell_price": 345865
 }

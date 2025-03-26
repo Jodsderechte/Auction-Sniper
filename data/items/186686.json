@@ -4,99 +4,100 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/186686?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "A set of small bones with symbols carved into them that allow the user to learn about their future.",
+  "icon_path": "data\\icons\\inv_misc_rune_07.jpg",
   "id": 186686,
-  "name": "Pallid Oracle Bones",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/186686?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 186686
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "A set of small bones with symbols carved into them that allow the user to learn about their future.",
+  "media": {
+    "id": 186686,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/186686?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pallid Oracle Bones",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "A set of small bones with symbols carved into them that allow the user to learn about their future.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 186686,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/186686?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 186686
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Pallid Oracle Bones",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/186686?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 186686
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 186686,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/186686?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Pallid Oracle Bones",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nConsult the bones to learn your future. (15 Min Cooldown)",
         "spell": {
+          "id": 354603,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/354603?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Consult the Bones",
-          "id": 354603
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nConsult the bones to learn your future. (15 Min Cooldown)"
+          "name": "Consult the Bones"
+        }
       }
     ],
-    "description": "A set of small bones with symbols carved into them that allow the user to learn about their future.",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

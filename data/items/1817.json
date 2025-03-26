@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1817?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 546,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/546?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_04.jpg",
   "id": 1817,
-  "name": "Stock Shortsword",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Main Hand",
+    "type": "WEAPONMAINHAND"
   },
-  "level": 11,
-  "required_level": 7,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1817?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1817
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPONMAINHAND",
-    "name": "Main Hand"
-  },
-  "purchase_price": 2884,
-  "sell_price": 576,
+  "level": 11,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1817,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1817?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Stock Shortsword",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1817?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1817
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
     },
-    "name": "Stock Shortsword",
-    "media": {
+    "inventory_type": {
+      "name": "Main Hand",
+      "type": "WEAPONMAINHAND"
+    },
+    "item": {
+      "id": 1817,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1817?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1817
+        "href": "https://eu.api.blizzard.com/data/wow/item/1817?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPONMAINHAND",
-      "name": "Main Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 132,
-        "max_value": 220,
-        "display_string": "132 - 220 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 67.69231,
-        "display_string": "(67.7 damage per second)"
+    "media": {
+      "id": 1817,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1817?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 163884,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "16",
-        "silver": "38",
-        "copper": "84"
-      }
+    "name": "Stock Shortsword",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 7,
-        "display_string": "Requires Level 7"
+        "display_string": "Requires Level 7",
+        "value": 7
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "84",
+        "gold": "16",
+        "header": "Sell Price:",
+        "silver": "38"
+      },
+      "value": 163884
     },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "132 - 220 Damage",
+        "max_value": 220,
+        "min_value": 132
+      },
+      "dps": {
+        "display_string": "(67.7 damage per second)",
+        "value": 67.69231
+      }
     }
   },
+  "purchase_price": 2884,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/546?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 546
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 7,
+  "sell_price": 576
 }

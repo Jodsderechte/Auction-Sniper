@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25399?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1374,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1374?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_27.jpg",
   "id": 25399,
-  "name": "Deteriorating Blade",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Main Hand",
+    "type": "WEAPONMAINHAND"
   },
-  "level": 29,
-  "required_level": 26,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25399?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25399
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPONMAINHAND",
-    "name": "Main Hand"
-  },
-  "purchase_price": 1190138,
-  "sell_price": 238027,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25399,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25399?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Deteriorating Blade",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/25399?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25399
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 75 / 75",
+      "value": 75
     },
-    "name": "Deteriorating Blade",
-    "media": {
+    "inventory_type": {
+      "name": "Main Hand",
+      "type": "WEAPONMAINHAND"
+    },
+    "item": {
+      "id": 25399,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25399?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25399
+        "href": "https://eu.api.blizzard.com/data/wow/item/25399?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPONMAINHAND",
-      "name": "Main Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 132,
-        "max_value": 220,
-        "display_string": "132 - 220 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 67.69231,
-        "display_string": "(67.7 damage per second)"
+    "media": {
+      "id": 25399,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25399?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 160197,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "16",
-        "silver": "1",
-        "copper": "97"
-      }
+    "name": "Deteriorating Blade",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 26,
-        "display_string": "Requires Level 26"
+        "display_string": "Requires Level 26",
+        "value": 26
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "97",
+        "gold": "16",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 160197
     },
-    "durability": {
-      "value": 75,
-      "display_string": "Durability 75 / 75"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "132 - 220 Damage",
+        "max_value": 220,
+        "min_value": 132
+      },
+      "dps": {
+        "display_string": "(67.7 damage per second)",
+        "value": 67.69231
+      }
     }
   },
+  "purchase_price": 1190138,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1374?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1374
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 26,
+  "sell_price": 238027
 }

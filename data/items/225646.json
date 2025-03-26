@@ -4,221 +4,222 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/225646?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 78221,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/78221?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Subtlety is not this gun's specialty.",
+  "icon_path": "data\\icons\\inv_firearm_2h_engineering_c_01_blue.jpg",
   "id": 225646,
-  "name": "4UT0-41M3R",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 447,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/225646?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 225646
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 1032210,
-  "sell_price": 206442,
+  "level": 447,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Subtlety is not this gun's specialty.",
+  "media": {
+    "id": 225646,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/225646?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "4UT0-41M3R",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/225646?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 225646
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       11297,
       11298
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "description": "Subtlety is not this gun's specialty.",
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
     },
-    "name": "4UT0-41M3R",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 225646,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/225646?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 225646
+        "href": "https://eu.api.blizzard.com/data/wow/item/225646?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 2498,
-        "max_value": 4640,
-        "display_string": "2,498 - 4,640 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 1189.4999,
-        "display_string": "(1,189 damage per second)"
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 1580,
-        "is_negated": true,
-        "display": {
-          "display_string": "+1,580 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 7884,
-        "display": {
-          "display_string": "+7,884 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 649,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+649 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 649,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+649 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 206442,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "64",
-        "copper": "42"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
-      }
-    },
-    "description": "Subtlety is not this gun's specialty.",
     "level": {
-      "value": 545,
-      "display_string": "Item Level 545"
+      "display_string": "Item Level 545",
+      "value": 545
     },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
+    "media": {
+      "id": 225646,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/225646?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
+        "name": "Critical Strike",
+        "type": "CRIT_RATING"
       },
       {
         "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "name": "Versatility",
+        "type": "VERSATILITY"
       }
-    ]
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/78221?namespace=static-11.1.0_59095-eu"
+    ],
+    "name": "4UT0-41M3R",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 70",
+        "value": 70
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "42",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "64"
       },
-      "id": 78221
+      "value": 206442
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+1,580 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 1580
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+7,884 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 7884
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+649 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 649
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+649 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 649
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "2,498 - 4,640 Damage",
+        "max_value": 4640,
+        "min_value": 2498
+      },
+      "dps": {
+        "display_string": "(1,189 damage per second)",
+        "value": 1189.4999
+      }
     }
-  ]
+  },
+  "purchase_price": 1032210,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 70,
+  "sell_price": 206442
 }

@@ -4,103 +4,104 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/9327?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_ingot_04.jpg",
   "id": 9327,
-  "name": "Security DELTA Data Access Card",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/9327?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 9327
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2500,
-  "sell_price": 625,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 9327,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/9327?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Security DELTA Data Access Card",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 9327,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/9327?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9327
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Security DELTA Data Access Card",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/9327?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9327
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 625,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "6",
-        "copper": "25"
+    "media": {
+      "id": 9327,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/9327?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Security DELTA Data Access Card",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Classic Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2506,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 1,
-        "display_string": "Requires Classic Engineering (1)"
+          "name": "Classic Engineering"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "6"
+      },
+      "value": 625
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 2500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 625
 }

@@ -4,106 +4,107 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/198206?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_10_engineering_device_gadget2_color1.jpg",
   "id": 198206,
-  "name": "Environmental Emulator",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/198206?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 198206
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 750000,
-  "sell_price": 150000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 198206,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/198206?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Environmental Emulator",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 198206,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/198206?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198206
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Environmental Emulator",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/198206?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198206
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 198206,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/198206?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Environmental Emulator",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "15",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 150000
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPlace down an Environmental Emulator for up to 2 hrs that allows you to view the world from a different perspective.\r\n\r\nA cloaking device attached to this machine ensures that only members of your party or raid can see the machine and its effects.\r\n\r\nCan only be used outside. (2 Hr Cooldown)",
         "spell": {
+          "id": 385085,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/385085?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Summon Environmental Emulator",
-          "id": 385085
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPlace down an Environmental Emulator for up to 2 hrs that allows you to view the world from a different perspective.\r\n\r\nA cloaking device attached to this machine ensures that only members of your party or raid can see the machine and its effects.\r\n\r\nCan only be used outside. (2 Hr Cooldown)"
+          "name": "Summon Environmental Emulator"
+        }
       }
     ],
-    "sell_price": {
-      "value": 150000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "15",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 750000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 150000
 }

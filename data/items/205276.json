@@ -4,156 +4,157 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/205276?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_cooking_90_aetherealmeat_color04.jpg",
   "id": 205276,
-  "name": "Deepflayer Lure",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 350,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/205276?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 205276
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 350,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 205276,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/205276?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Deepflayer Lure",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/205276?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 205276
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
     },
-    "context": 0,
     "bonus_list": [
       8902
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Deepflayer Lure",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 205276,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/205276?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 205276
+        "href": "https://eu.api.blizzard.com/data/wow/item/205276?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 350",
+      "value": 350
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
+    "media": {
+      "id": 205276,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/205276?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 244,
-        "is_negated": true,
-        "display": {
-          "display_string": "+244 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 244,
-        "is_negated": true,
-        "display": {
-          "display_string": "+244 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/409309?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Deepflayer Lure",
-          "id": 409309
-        },
-        "description": "Use: Lure out a deepflayer to pounce on your target dealing 13,156 Physical damage and granting you 70,165 bonus maximum health for 10 sec. (2 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 273611,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "27",
-        "silver": "36",
-        "copper": "11"
-      }
+    "name": "Deepflayer Lure",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
+        "display_string": "Requires Level 60",
+        "value": 60
       }
     },
-    "level": {
-      "value": 350,
-      "display_string": "Item Level 350"
+    "sell_price": {
+      "display_strings": {
+        "copper": "11",
+        "gold": "27",
+        "header": "Sell Price:",
+        "silver": "36"
+      },
+      "value": 273611
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Lure out a deepflayer to pounce on your target dealing 13,156 Physical damage and granting you 70,165 bonus maximum health for 10 sec. (2 Min Cooldown)",
+        "spell": {
+          "id": 409309,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/409309?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Deepflayer Lure"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+244 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 244
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+244 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 244
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 60,
+  "sell_price": 0
 }

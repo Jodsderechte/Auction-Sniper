@@ -4,243 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/38424?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 9483,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9483?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_76.jpg",
   "id": 38424,
-  "name": "Frostscale Shoulders",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/38424?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 38424
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 38424,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/38424?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Frostscale Shoulders",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "7 Armor"
+      },
+      "value": 7
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
+    },
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
     "item": {
+      "id": 38424,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/38424?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38424
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Frostscale Shoulders",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/38424?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38424
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 7,
-      "display": {
-        "display_string": "7 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 38424,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/38424?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 4,
-        "is_negated": true,
-        "display": {
-          "display_string": "+4 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 6,
-        "display": {
-          "display_string": "+6 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Frostscale Shoulders",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/756?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Frostscale Binding",
-        "id": 756
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38412?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Belt",
-            "id": 38412
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38413?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Boots",
-            "id": 38413
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38414?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Chestguard",
-            "id": 38414
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38415?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Gloves",
-            "id": 38415
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38416?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Leggings",
-            "id": 38416
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38424?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Shoulders",
-            "id": 38424
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38436?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Bracers",
-            "id": 38436
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/38440?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Frostscale Helm",
-            "id": 38440
-          }
-        }
-      ],
+      "value": 1500
+    },
+    "set": {
+      "display_string": "Frostscale Binding (0/8)",
       "effects": [
         {
           "display_string": "(2) Set: Increases your critical strike by 5.",
@@ -251,24 +130,146 @@
           "required_count": 4
         }
       ],
-      "display_string": "Frostscale Binding (0/8)"
-    },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9483?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 756,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/756?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Frostscale Binding"
       },
-      "id": 9483
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 38412,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38412?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Belt"
+          }
+        },
+        {
+          "item": {
+            "id": 38413,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38413?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 38414,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38414?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Chestguard"
+          }
+        },
+        {
+          "item": {
+            "id": 38415,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38415?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Gloves"
+          }
+        },
+        {
+          "item": {
+            "id": 38416,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38416?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 38424,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38424?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Shoulders"
+          }
+        },
+        {
+          "item": {
+            "id": 38436,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38436?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Bracers"
+          }
+        },
+        {
+          "item": {
+            "id": 38440,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/38440?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Frostscale Helm"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+4 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+6 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 6
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 27,
+  "sell_price": 1500
 }

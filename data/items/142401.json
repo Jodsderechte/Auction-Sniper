@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/142401?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "A squad of withered, delivered in an instant.",
+  "icon_path": "data\\icons\\spell_mage_arcaneorb_nightborne.jpg",
   "id": 142401,
-  "name": "Telemancy Orbs",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/142401?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 142401
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "A squad of withered, delivered in an instant.",
+  "media": {
+    "id": 142401,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/142401?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Telemancy Orbs",
   "preview_item": {
+    "description": "A squad of withered, delivered in an instant.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 142401,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/142401?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 142401
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Telemancy Orbs",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/142401?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 142401
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 142401,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/142401?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Telemancy Orbs",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
     "spells": [
       {
+        "description": "Use: Hurl a Telemancy Orb at target location, spawning Hungering Withered. Only works in the Noble District of Suramar City. (45 Sec Cooldown)",
         "spell": {
+          "id": 230839,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/230839?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Throw Telemancy Orb",
-          "id": 230839
-        },
-        "description": "Use: Hurl a Telemancy Orb at target location, spawning Hungering Withered. Only works in the Noble District of Suramar City. (45 Sec Cooldown)"
+          "name": "Throw Telemancy Orb"
+        }
       }
     ],
-    "description": "A squad of withered, delivered in an instant.",
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

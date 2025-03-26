@@ -4,111 +4,112 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18361?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "A Tale of a Female Troll and Her Tiger",
+  "icon_path": "data\\icons\\inv_misc_book_02.jpg",
   "id": 18361,
-  "name": "The Greatest Race of Hunters",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 25,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18361?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18361
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 25,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "A Tale of a Female Troll and Her Tiger",
+  "media": {
+    "id": 18361,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18361?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Greatest Race of Hunters",
   "preview_item": {
+    "description": "A Tale of a Female Troll and Her Tiger",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18361,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18361?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18361
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "The Greatest Race of Hunters",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18361?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18361
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "requirements": {
-      "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
-      },
-      "playable_classes": {
-        "links": [
-          {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/playable-class/3?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Hunter",
-            "id": 3
-          }
-        ],
-        "display_string": "Classes: Hunter"
-      }
-    },
-    "description": "A Tale of a Female Troll and Her Tiger",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 7503,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/7503?namespace=static-11.1.0_59095-eu"
         },
-        "name": "The Greatest Race of Hunters",
-        "id": 7503
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "The Greatest Race of Hunters"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 18361,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18361?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "The Greatest Race of Hunters",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 23",
+        "value": 23
+      },
+      "playable_classes": {
+        "display_string": "Classes: Hunter",
+        "links": [
+          {
+            "id": 3,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/playable-class/3?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Hunter"
+          }
+        ]
+      }
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 23,
+  "sell_price": 0
 }

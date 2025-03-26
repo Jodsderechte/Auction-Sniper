@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/186985?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bone_01.jpg",
   "id": 186985,
-  "name": "Elusive Pet Treat",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/186985?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 186985
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 186985,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/186985?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Elusive Pet Treat",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 186985,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/186985?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 186985
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Elusive Pet Treat",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/186985?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 186985
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 186985,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/186985?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Elusive Pet Treat",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nDrop a tiny bone wielding golem for your companion pet to chase around for 30 sec. (10 Min Cooldown)",
         "spell": {
+          "id": 355215,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/355215?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Elusive Pet Treat",
-          "id": 355215
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nDrop a tiny bone wielding golem for your companion pet to chase around for 30 sec. (10 Min Cooldown)"
+          "name": "Elusive Pet Treat"
+        }
       }
     ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
-    },
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 1
 }

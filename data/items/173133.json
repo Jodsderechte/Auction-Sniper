@@ -4,171 +4,172 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/173133?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelcrafting_90_maxlvlring_yellow.jpg",
   "id": 173133,
-  "name": "Quick Oxxein Ring",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 151,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/173133?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 173133
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 1857872,
-  "sell_price": 371574,
+  "level": 151,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 173133,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/173133?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Quick Oxxein Ring",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 173133,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/173133?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "id": 173133
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Miscellaneous"
+    },
+    "level": {
+      "display_string": "Item Level 151",
+      "value": 151
+    },
+    "media": {
+      "id": 173133,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/173133?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "modified_crafting_stat": [
+      {
+        "id": 40,
+        "name": "Versatility",
+        "type": "VERSATILITY"
+      }
+    ],
+    "name": "Quick Oxxein Ring",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 60",
+        "value": 60
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "37",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "30"
+      },
+      "value": 13037
     },
     "sockets": [
       {
         "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
         }
       }
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Quick Oxxein Ring",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/173133?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 173133
-    },
-    "item_class": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Armor",
-      "id": 4
-    },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
     "stats": [
       {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 13,
         "display": {
-          "display_string": "+13 Stamina",
           "color": {
-            "r": 255,
-            "g": 255,
+            "a": 1.0,
             "b": 255,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+13 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 13
       },
       {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 30,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+30 Haste",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+30 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 30
       },
       {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 12,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+12 Versatility",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+12 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 12
       }
     ],
-    "sell_price": {
-      "value": 13037,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "30",
-        "copper": "37"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
-      }
-    },
-    "level": {
-      "value": 151,
-      "display_string": "Item Level 151"
-    },
-    "is_subclass_hidden": true,
-    "modified_crafting_stat": [
-      {
-        "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
-      }
-    ]
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1857872,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 60,
+  "sell_price": 371574
 }

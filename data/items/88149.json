@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/88149?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8173,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8173?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_26.jpg",
   "id": 88149,
-  "name": "The Gloaming Blade",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 39,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/88149?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 88149
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 486897,
-  "sell_price": 97379,
+  "level": 39,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 88149,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/88149?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Gloaming Blade",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/88149?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 88149
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 80 / 80",
+      "value": 80
     },
-    "name": "The Gloaming Blade",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 88149,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/88149?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 88149
+        "href": "https://eu.api.blizzard.com/data/wow/item/88149?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 230,
-        "max_value": 385,
-        "display_string": "230 - 385 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 170.83333,
-        "display_string": "(170.8 damage per second)"
+    "media": {
+      "id": 88149,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/88149?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/127890?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "The Deepest Night",
-          "id": 127890
-        },
-        "description": "Chance on hit: You gain an additional 152 critical strike for 10 sec. This effect stacks up to 3 times."
-      }
-    ],
-    "sell_price": {
-      "value": 818197,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "81",
-        "silver": "81",
-        "copper": "97"
-      }
+    "name": "The Gloaming Blade",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "97",
+        "gold": "81",
+        "header": "Sell Price:",
+        "silver": "81"
+      },
+      "value": 818197
     },
-    "durability": {
-      "value": 80,
-      "display_string": "Durability 80 / 80"
+    "spells": [
+      {
+        "description": "Chance on hit: You gain an additional 152 critical strike for 10 sec. This effect stacks up to 3 times.",
+        "spell": {
+          "id": 127890,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/127890?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "The Deepest Night"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "230 - 385 Damage",
+        "max_value": 385,
+        "min_value": 230
+      },
+      "dps": {
+        "display_string": "(170.8 damage per second)",
+        "value": 170.83333
+      }
     }
   },
+  "purchase_price": 486897,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8173?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8173
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 35,
+  "sell_price": 97379
 }

@@ -4,124 +4,125 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/60223?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Nearly as complicated to operate as it is to make.",
+  "icon_path": "data\\icons\\inv_musket_02.jpg",
   "id": 60223,
-  "name": "High-Powered Bolt Gun",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 32,
-  "required_level": 29,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/60223?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 60223
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 90000,
-  "sell_price": 22500,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Nearly as complicated to operate as it is to make.",
+  "media": {
+    "id": 60223,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/60223?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "High-Powered Bolt Gun",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "Nearly as complicated to operate as it is to make.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 60223,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/60223?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 60223
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "High-Powered Bolt Gun",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/60223?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 60223
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/82207?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Explosive Bolts",
-          "id": 82207
-        },
-        "description": "Use: Fires several charged bolts at an enemy for 108 damage and briefly interrupts casting.  Consumes a Handful of Obsidium Bolts each time it's fired. (2 Min Cooldown)"
+    "media": {
+      "id": 60223,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/60223?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 22500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "25",
-        "copper": "0"
-      }
+    },
+    "name": "High-Powered Bolt Gun",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 29,
-        "display_string": "Requires Level 29"
+        "display_string": "Requires Level 29",
+        "value": 29
       },
       "skill": {
+        "display_string": "Requires Cataclysm Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2503,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2503?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cataclysm Engineering",
-          "id": 2503
-        },
-        "level": 1,
-        "display_string": "Requires Cataclysm Engineering (1)"
+          "name": "Cataclysm Engineering"
+        }
       }
     },
-    "description": "Nearly as complicated to operate as it is to make.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 22500
+    },
+    "spells": [
+      {
+        "description": "Use: Fires several charged bolts at an enemy for 108 damage and briefly interrupts casting.  Consumes a Handful of Obsidium Bolts each time it's fired. (2 Min Cooldown)",
+        "spell": {
+          "id": 82207,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/82207?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Explosive Bolts"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 90000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 29,
+  "sell_price": 22500
 }

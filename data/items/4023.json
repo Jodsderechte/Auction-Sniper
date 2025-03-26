@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4023?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1461,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1461?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_05.jpg",
   "id": 4023,
-  "name": "Fine Pointed Dagger",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 24,
-  "required_level": 17,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4023?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4023
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 484783,
-  "sell_price": 96956,
+  "level": 24,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4023,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4023?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fine Pointed Dagger",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/4023?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4023
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 45 / 45",
+      "value": 45
     },
-    "name": "Fine Pointed Dagger",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 4023,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4023?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4023
+        "href": "https://eu.api.blizzard.com/data/wow/item/4023?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 91,
-        "max_value": 152,
-        "display_string": "91 - 152 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 67.5,
-        "display_string": "(67.5 damage per second)"
+    "media": {
+      "id": 4023,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4023?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 167507,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "16",
-        "silver": "75",
-        "copper": "7"
-      }
+    "name": "Fine Pointed Dagger",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 17,
-        "display_string": "Requires Level 17"
+        "display_string": "Requires Level 17",
+        "value": 17
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "7",
+        "gold": "16",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 167507
     },
-    "durability": {
-      "value": 45,
-      "display_string": "Durability 45 / 45"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "91 - 152 Damage",
+        "max_value": 152,
+        "min_value": 91
+      },
+      "dps": {
+        "display_string": "(67.5 damage per second)",
+        "value": 67.5
+      }
     }
   },
+  "purchase_price": 484783,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1461?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1461
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 17,
+  "sell_price": 96956
 }

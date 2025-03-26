@@ -4,119 +4,120 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/87213?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3283,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3283?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "While these goggles are very fashionable, they don't need to be worn to receive their special benefit.",
+  "icon_path": "data\\icons\\inv_helmet_47.jpg",
   "id": 87213,
-  "name": "Mist-Piercing Goggles",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 30,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/87213?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 87213
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 40264,
-  "sell_price": 8052,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "While these goggles are very fashionable, they don't need to be worn to receive their special benefit.",
+  "media": {
+    "id": 87213,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/87213?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Mist-Piercing Goggles",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "While these goggles are very fashionable, they don't need to be worn to receive their special benefit.",
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 87213,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/87213?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 87213
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Mist-Piercing Goggles",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/87213?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 87213
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 30",
+      "value": 30
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 87213,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/87213?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Mist-Piercing Goggles",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "13",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 113
     },
     "spells": [
       {
+        "description": "Equip: Allows you to see additional mining nodes and herbs while in Pandaria.",
         "spell": {
+          "id": 126457,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/126457?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mist-Piercing",
-          "id": 126457
-        },
-        "description": "Equip: Allows you to see additional mining nodes and herbs while in Pandaria."
+          "name": "Mist-Piercing"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 113,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "13"
-      }
-    },
-    "description": "While these goggles are very fashionable, they don't need to be worn to receive their special benefit.",
-    "level": {
-      "value": 30,
-      "display_string": "Item Level 30"
-    },
-    "is_subclass_hidden": true
+    ]
   },
+  "purchase_price": 40264,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3283?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3283
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 8052
 }

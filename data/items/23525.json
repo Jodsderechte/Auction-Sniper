@@ -4,252 +4,253 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23525?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3263,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3263?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_boots_chain_01.jpg",
   "id": 23525,
-  "name": "Khorium Boots",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23525?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23525
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 68982,
-  "sell_price": 13796,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 23525,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23525?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Khorium Boots",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "9 Armor"
+      },
+      "value": 9
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
+    },
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
     "item": {
+      "id": 23525,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23525?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23525
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Khorium Boots",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23525?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23525
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 9,
-      "display": {
-        "display_string": "9 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 23525,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23525?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 172,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "72"
-      }
+    "name": "Khorium Boots",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/565?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Khorium Ward",
-        "id": 565
+    "sell_price": {
+      "display_strings": {
+        "copper": "72",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23523?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Khorium Pants",
-            "id": 23523
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23525?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Khorium Boots",
-            "id": 23525
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23524?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Khorium Belt",
-            "id": 23524
-          }
-        }
-      ],
+      "value": 172
+    },
+    "set": {
+      "display_string": "Khorium Ward (0/3)",
       "effects": [
         {
           "display_string": "(3) Set: Increases Intellect by 13.",
           "required_count": 3
         }
       ],
-      "display_string": "Khorium Ward (0/3)",
+      "item_set": {
+        "id": 565,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/565?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Khorium Ward"
+      },
+      "items": [
+        {
+          "item": {
+            "id": 23523,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23523?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Khorium Pants"
+          }
+        },
+        {
+          "item": {
+            "id": 23525,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23525?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Khorium Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 23524,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23524?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Khorium Belt"
+          }
+        }
+      ],
       "requirements": {
         "skill": {
+          "display_string": "Requires Outland Blacksmithing (50)",
+          "level": 50,
           "profession": {
+            "id": 2476,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Outland Blacksmithing",
-            "id": 2476
-          },
-          "level": 50,
-          "display_string": "Requires Outland Blacksmithing (50)"
+            "name": "Outland Blacksmithing"
+          }
         }
       }
     },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3263?namespace=static-11.1.0_59095-eu"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 2
       },
-      "id": 3263
-    }
-  ]
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 3
+      }
+    ]
+  },
+  "purchase_price": 68982,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 13796
 }

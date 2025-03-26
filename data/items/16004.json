@@ -4,145 +4,146 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/16004?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 4725,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/4725?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_rifle_08.jpg",
   "id": 16004,
-  "name": "Dark Iron Rifle",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 28,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/16004?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 16004
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 93060,
-  "sell_price": 18612,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 16004,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/16004?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Dark Iron Rifle",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 95 / 95",
+      "value": 95
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
     "item": {
+      "id": 16004,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/16004?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16004
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Dark Iron Rifle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/16004?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16004
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 28",
+      "value": 28
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 5,
-        "max_value": 10,
-        "display_string": "5 - 10 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 2.4999998,
-        "display_string": "(2.5 damage per second)"
+    "media": {
+      "id": 16004,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/16004?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/29632?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shadow Shot",
-          "id": 29632
-        },
-        "description": "Equip: Chance to strike your ranged target with Shadow Shot for 2 Shadow damage."
-      }
-    ],
-    "sell_price": {
-      "value": 295,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "95"
-      }
+    "name": "Dark Iron Rifle",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+        "display_string": "Requires Level 21",
+        "value": 21
       }
     },
-    "level": {
-      "value": 28,
-      "display_string": "Item Level 28"
+    "sell_price": {
+      "display_strings": {
+        "copper": "95",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 295
     },
-    "durability": {
-      "value": 95,
-      "display_string": "Durability 95 / 95"
+    "spells": [
+      {
+        "description": "Equip: Chance to strike your ranged target with Shadow Shot for 2 Shadow damage.",
+        "spell": {
+          "id": 29632,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/29632?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shadow Shot"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "5 - 10 Damage",
+        "max_value": 10,
+        "min_value": 5
+      },
+      "dps": {
+        "display_string": "(2.5 damage per second)",
+        "value": 2.4999998
+      }
     }
   },
+  "purchase_price": 93060,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/4725?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4725
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 21,
+  "sell_price": 18612
 }

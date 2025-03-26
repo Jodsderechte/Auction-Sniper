@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/8006?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2572,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2572?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_25.jpg",
   "id": 8006,
-  "name": "The Ziggler",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 22,
-  "required_level": 14,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/8006?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 8006
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 30941,
-  "sell_price": 6188,
+  "level": 22,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 8006,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/8006?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Ziggler",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/8006?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8006
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
     },
-    "name": "The Ziggler",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 8006,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/8006?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8006
+        "href": "https://eu.api.blizzard.com/data/wow/item/8006?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 220,
-        "max_value": 367,
-        "display_string": "220 - 367 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 163.05554,
-        "display_string": "(163.1 damage per second)"
+    "media": {
+      "id": 8006,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/8006?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/265072?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "The Ziggler",
-          "id": 265072
-        },
-        "description": "Equip: Blasts a target for 142 Nature damage."
-      }
-    ],
-    "sell_price": {
-      "value": 601495,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "60",
-        "silver": "14",
-        "copper": "95"
-      }
+    "name": "The Ziggler",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 14,
-        "display_string": "Requires Level 14"
+        "display_string": "Requires Level 14",
+        "value": 14
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "95",
+        "gold": "60",
+        "header": "Sell Price:",
+        "silver": "14"
+      },
+      "value": 601495
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "spells": [
+      {
+        "description": "Equip: Blasts a target for 142 Nature damage.",
+        "spell": {
+          "id": 265072,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/265072?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "The Ziggler"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "220 - 367 Damage",
+        "max_value": 367,
+        "min_value": 220
+      },
+      "dps": {
+        "display_string": "(163.1 damage per second)",
+        "value": 163.05554
+      }
     }
   },
+  "purchase_price": 30941,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2572?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2572
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 14,
+  "sell_price": 6188
 }

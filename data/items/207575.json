@@ -4,231 +4,232 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/207575?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Wanderer's Guide.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 207575,
-  "name": "Ancient Technique: Wanderer's Guide",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/207575?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 207575
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Inscription",
-    "id": 11
+    "name": "Inscription"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Wanderer's Guide.",
+  "media": {
+    "id": 207575,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/207575?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Technique: Wanderer's Guide",
   "preview_item": {
+    "description": "Teaches you how to craft Wanderer's Guide.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 207575,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/207575?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207575
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Ancient Technique: Wanderer's Guide",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/207575?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207575
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Inscription",
-      "id": 11
+      "name": "Inscription"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2514?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Inscription",
-          "id": 2514
-        },
-        "level": 300,
-        "display_string": "Requires Classic Inscription (300)"
+    "media": {
+      "id": 207575,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/207575?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Wanderer's Guide.",
+    "name": "Ancient Technique: Wanderer's Guide",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 85 / 85",
+          "value": 85
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
         "item": {
+          "id": 207563,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/207563?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 207563
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Wanderer's Guide",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/207563?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 207563
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 10,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Staff",
-          "id": 10
+          "name": "Staff"
         },
-        "inventory_type": {
-          "type": "TWOHWEAPON",
-          "name": "Two-Hand"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 4,
-            "max_value": 6,
-            "display_string": "4 - 6 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3600,
-            "display_string": "Speed 3.60"
-          },
-          "dps": {
-            "value": 1.3888888,
-            "display_string": "(1.4 damage per second)"
+        "media": {
+          "id": 207563,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/207563?namespace=static-11.1.0_59095-eu"
           }
+        },
+        "name": "Wanderer's Guide",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "65",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 265
         },
         "stats": [
           {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 16,
             "display": {
-              "display_string": "+16 Intellect",
               "color": {
-                "r": 255,
-                "g": 255,
+                "a": 1.0,
                 "b": 255,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+16 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 16
           },
           {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 5,
             "display": {
-              "display_string": "+5 Stamina",
               "color": {
-                "r": 255,
-                "g": 255,
+                "a": 1.0,
                 "b": 255,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
           }
         ],
-        "sell_price": {
-          "value": 265,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "65"
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.60",
+            "value": 3600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "4 - 6 Damage",
+            "max_value": 6,
+            "min_value": 4
+          },
+          "dps": {
+            "display_string": "(1.4 damage per second)",
+            "value": 1.3888888
           }
-        },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
-        },
-        "durability": {
-          "value": 85,
-          "display_string": "Durability 85 / 85"
         }
       },
       "reagents": [
         {
+          "quantity": 30,
           "reagent": {
+            "id": 2841,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2841?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bronze Bar",
-            "id": 2841
-          },
-          "quantity": 30
+            "name": "Bronze Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12799,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12799?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Large Opal",
-            "id": 12799
-          },
-          "quantity": 2
+            "name": "Large Opal"
+          }
         }
       ],
       "reagents_display_string": "Bronze Bar (30), Large Opal (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Inscription (300)",
+        "level": 300,
+        "profession": {
+          "id": 2514,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2514?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Inscription"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 30000
 }

@@ -4,182 +4,183 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/231497?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3567,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3567?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_03.jpg",
   "id": 231497,
-  "name": "Searing Needle",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 584,
-  "required_level": 80,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/231497?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 231497
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 6936470,
-  "sell_price": 1387294,
+  "level": 584,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 231497,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/231497?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Searing Needle",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 80 / 80",
+      "value": 80
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 231497,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/231497?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 231497
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Searing Needle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/231497?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 231497
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 584",
+      "value": 584
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "weapon": {
-      "damage": {
-        "min_value": 1743,
-        "max_value": 2908,
-        "display_string": "1,743 - 2,908 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 1291.6666,
-        "display_string": "(1,291 damage per second)"
+    "media": {
+      "id": 231497,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/231497?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 337,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+337 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 423,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+423 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/470634?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Searing Dagger",
-          "id": 470634
-        },
-        "description": "Equip: Your attacks have a low chance to blast your target for 271,750 Fire damage as well as granting you Searing Dagger adding a very high chance for your attacks to deal 27,174 Fire damage for 30 sec. "
-      }
-    ],
-    "sell_price": {
-      "value": 1387294,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "138",
-        "silver": "72",
-        "copper": "94"
-      }
+    "name": "Searing Needle",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
+        "display_string": "Requires Level 80",
+        "value": 80
       }
     },
-    "level": {
-      "value": 584,
-      "display_string": "Item Level 584"
+    "sell_price": {
+      "display_strings": {
+        "copper": "94",
+        "gold": "138",
+        "header": "Sell Price:",
+        "silver": "72"
+      },
+      "value": 1387294
     },
-    "durability": {
-      "value": 80,
-      "display_string": "Durability 80 / 80"
+    "spells": [
+      {
+        "description": "Equip: Your attacks have a low chance to blast your target for 271,750 Fire damage as well as granting you Searing Dagger adding a very high chance for your attacks to deal 27,174 Fire damage for 30 sec. ",
+        "spell": {
+          "id": 470634,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/470634?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Searing Dagger"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+337 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 337
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+423 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 423
+      }
+    ],
+    "unique_equipped": "Unique-Equipped",
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1,743 - 2,908 Damage",
+        "max_value": 2908,
+        "min_value": 1743
+      },
+      "dps": {
+        "display_string": "(1,291 damage per second)",
+        "value": 1291.6666
+      }
     }
   },
+  "purchase_price": 6936470,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3567?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3567
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 80,
+  "sell_price": 1387294
 }

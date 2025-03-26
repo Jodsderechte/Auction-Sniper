@@ -4,139 +4,140 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/207561?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 5100,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5100?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_halberd_05.jpg",
   "id": 207561,
-  "name": "Ichor Slicer",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 29,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/207561?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 207561
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 71983,
-  "sell_price": 14396,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 207561,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/207561?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ichor Slicer",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 75 / 75",
+      "value": 75
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 207561,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/207561?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207561
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Ichor Slicer",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/207561?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207561
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 3,
-        "max_value": 7,
-        "display_string": "3 - 7 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 1.9230769,
-        "display_string": "(1.9 damage per second)"
+    "media": {
+      "id": 207561,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/207561?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Ichor Slicer",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "10",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 210
     },
     "spells": [
       {
+        "description": "Equip: Poisons target for 1 Nature damage every 2 sec for 20 sec.",
         "spell": {
+          "id": 265238,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/265238?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Ichor Spitter",
-          "id": 265238
-        },
-        "description": "Equip: Poisons target for 1 Nature damage every 2 sec for 20 sec."
+          "name": "Ichor Spitter"
+        }
       }
     ],
-    "sell_price": {
-      "value": 210,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "10"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "3 - 7 Damage",
+        "max_value": 7,
+        "min_value": 3
+      },
+      "dps": {
+        "display_string": "(1.9 damage per second)",
+        "value": 1.9230769
       }
-    },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
-    },
-    "durability": {
-      "value": 75,
-      "display_string": "Durability 75 / 75"
     }
   },
+  "purchase_price": 71983,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/5100?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5100
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 14396
 }

@@ -4,223 +4,224 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25725?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Riding Crop.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 25725,
-  "name": "Pattern: Riding Crop",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25725?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25725
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leatherworking",
-    "id": 1
+    "name": "Leatherworking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000,
-  "sell_price": 12500,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Riding Crop.",
+  "media": {
+    "id": 25725,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25725?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Riding Crop",
   "preview_item": {
+    "description": "Teaches you how to make a Riding Crop.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 25725,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/25725?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25725
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Pattern: Riding Crop",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25725?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25725
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leatherworking",
-      "id": 1
+      "name": "Leatherworking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 12500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 25725,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25725?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2531?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Leatherworking",
-          "id": 2531
-        },
-        "level": 50,
-        "display_string": "Requires Outland Leatherworking (50)"
-      }
+    "name": "Pattern: Riding Crop",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make a Riding Crop.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Trinket",
+          "type": "TRINKET"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 25653,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/25653?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 25653
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Riding Crop",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/25653?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 25653
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "TRINKET",
-          "name": "Trinket"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "unique_equipped": "Unique-Equipped",
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/48776?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Mount Speed",
-              "id": 48776
-            },
-            "description": "Equip: Increases mount speed by 10%.  Does not work for players above level 49. (Requires level 49 or below)"
+        "media": {
+          "id": 25653,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/25653?namespace=static-11.1.0_59095-eu"
           }
-        ],
-        "sell_price": {
-          "value": 17500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "1",
-            "silver": "75",
-            "copper": "0"
-          }
+        },
+        "name": "Riding Crop",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "1",
+            "header": "Sell Price:",
+            "silver": "75"
+          },
+          "value": 17500
         },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Equip: Increases mount speed by 10%.  Does not work for players above level 49. (Requires level 49 or below)",
+            "spell": {
+              "id": 48776,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/48776?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Mount Speed"
+            }
+          }
+        ],
+        "unique_equipped": "Unique-Equipped"
       },
       "reagents": [
         {
+          "quantity": 4,
           "reagent": {
+            "id": 23793,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23793?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Knothide Leather",
-            "id": 23793
-          },
-          "quantity": 4
+            "name": "Heavy Knothide Leather"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 23571,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23571?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Might",
-            "id": 23571
-          },
-          "quantity": 1
+            "name": "Primal Might"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 22445,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/22445?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcane Dust",
-            "id": 22445
-          },
-          "quantity": 6
+            "name": "Arcane Dust"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 22448,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/22448?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Small Prismatic Shard",
-            "id": 22448
-          },
-          "quantity": 1
+            "name": "Small Prismatic Shard"
+          }
         }
       ],
       "reagents_display_string": "Heavy Knothide Leather (4), Primal Might, Arcane Dust (6), Small Prismatic Shard"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Leatherworking (50)",
+        "level": 50,
+        "profession": {
+          "id": 2531,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2531?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Leatherworking"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 12500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 12500
 }

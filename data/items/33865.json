@@ -4,103 +4,104 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/33865?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "It be yer trusty anti-hexxor', mon!",
+  "icon_path": "data\\icons\\inv_wand_22.jpg",
   "id": 33865,
-  "name": "Amani Hex Stick",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/33865?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 33865
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1600,
-  "sell_price": 400,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "It be yer trusty anti-hexxor', mon!",
+  "media": {
+    "id": 33865,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/33865?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Amani Hex Stick",
   "preview_item": {
+    "description": "It be yer trusty anti-hexxor', mon!",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 33865,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/33865?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 33865
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Amani Hex Stick",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/33865?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 33865
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 33865,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/33865?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Amani Hex Stick",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "4"
+      },
+      "value": 400
     },
     "spells": [
       {
+        "description": "Use: Removes the Amani hex from a forest frog in Zul'Aman.",
         "spell": {
+          "id": 43732,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/43732?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Remove Amani Curse",
-          "id": 43732
-        },
-        "description": "Use: Removes the Amani hex from a forest frog in Zul'Aman."
+          "name": "Remove Amani Curse"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 400,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "4",
-        "copper": "0"
-      }
-    },
-    "description": "It be yer trusty anti-hexxor', mon!",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 1600,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 400
 }

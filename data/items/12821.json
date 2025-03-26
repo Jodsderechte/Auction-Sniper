@@ -4,304 +4,305 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12821?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Dawn's Edge.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 12821,
-  "name": "Plans: Dawn's Edge",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12821?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12821
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 16000,
-  "sell_price": 4000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Dawn's Edge.",
+  "media": {
+    "id": 12821,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12821?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Dawn's Edge",
   "preview_item": {
+    "description": "Teaches you how to make Dawn's Edge.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 12821,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12821?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12821
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Plans: Dawn's Edge",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12821?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12821
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 4000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "40",
-        "copper": "0"
+    "media": {
+      "id": 12821,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12821?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 275,
-        "display_string": "Requires Classic Blacksmithing (275)"
-      }
+    "name": "Plans: Dawn's Edge",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to make Dawn's Edge.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 85 / 85",
+          "value": 85
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 12774,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/12774?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12774
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Dawn's Edge",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/12774?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12774
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Axe",
-          "id": 0
+          "name": "Axe"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 28",
+          "value": 28
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 3,
-            "max_value": 7,
-            "display_string": "3 - 7 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 2600,
-            "display_string": "Speed 2.60"
-          },
-          "dps": {
-            "value": 1.9230769,
-            "display_string": "(1.9 damage per second)"
+        "media": {
+          "id": 12774,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/12774?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 5,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+5 Critical Strike",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 219,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "19"
-          }
+        "name": "Dawn's Edge",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 21,
-            "display_string": "Requires Level 21"
+            "display_string": "Requires Level 21",
+            "value": 21
           }
         },
-        "level": {
-          "value": 28,
-          "display_string": "Item Level 28"
+        "sell_price": {
+          "display_strings": {
+            "copper": "19",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 219
         },
-        "durability": {
-          "value": 85,
-          "display_string": "Durability 85 / 85"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 5
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.60",
+            "value": 2600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "3 - 7 Damage",
+            "max_value": 7,
+            "min_value": 3
+          },
+          "dps": {
+            "display_string": "(1.9 damage per second)",
+            "value": 1.9230769
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 30,
           "reagent": {
+            "id": 12359,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12359?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Bar",
-            "id": 12359
-          },
-          "quantity": 30
+            "name": "Thorium Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12655,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12655?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Enchanted Thorium Bar",
-            "id": 12655
-          },
-          "quantity": 4
+            "name": "Enchanted Thorium Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 7910,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7910?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Star Ruby",
-            "id": 7910
-          },
-          "quantity": 4
+            "name": "Star Ruby"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12361,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12361?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Blue Sapphire",
-            "id": 12361
-          },
-          "quantity": 4
+            "name": "Blue Sapphire"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12644,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12644?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Dense Grinding Stone",
-            "id": 12644
-          },
-          "quantity": 2
+            "name": "Dense Grinding Stone"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 8170,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/8170?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Rugged Leather",
-            "id": 8170
-          },
-          "quantity": 4
+            "name": "Rugged Leather"
+          }
         }
       ],
       "reagents_display_string": "Thorium Bar (30), Enchanted Thorium Bar (4), Star Ruby (4), Blue Sapphire (4), Dense Grinding Stone (2), Rugged Leather (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (275)",
+        "level": 275,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "40"
+      },
+      "value": 4000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 16000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 4000
 }

@@ -4,134 +4,135 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/193539?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_helm_armor_enchantinghat_b_01.jpg",
   "id": 193539,
-  "name": "Wildercloth Enchanter's Hat",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/193539?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 193539
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 100000,
-  "sell_price": 20000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 193539,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/193539?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wildercloth Enchanter's Hat",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/193539?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193539
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Wildercloth Enchanter's Hat",
-    "media": {
+    "item": {
+      "id": 193539,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/193539?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193539
+        "href": "https://eu.api.blizzard.com/data/wow/item/193539?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Enchanting"
     },
     "limit_category": "Unique-Equipped: Head (1)",
+    "media": {
+      "id": 193539,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/193539?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Wildercloth Enchanter's Hat",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    },
     "stats": [
       {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS",
-          "name": "Resourcefulness"
-        },
-        "value": 14,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+14 Resourcefulness",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+14 Resourcefulness"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Resourcefulness",
+          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS"
+        },
+        "value": 14
       },
       {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_INGENUITY",
-          "name": "Ingenuity"
-        },
-        "value": 32,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+32 Ingenuity",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+32 Ingenuity"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Ingenuity",
+          "type": "BONUS_STAT_PROFESSION_INGENUITY"
+        },
+        "value": 32
       }
-    ],
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
-      }
-    }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 100000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 20000
 }

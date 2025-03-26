@@ -4,101 +4,102 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6256?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_fishingpole_02.jpg",
   "id": 6256,
-  "name": "Fishing Pole",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6256?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6256
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Fishing",
-    "id": 9
+    "name": "Fishing"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 1,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 6256,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6256?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fishing Pole",
   "preview_item": {
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
+    },
     "item": {
+      "id": 6256,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6256?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6256
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Fishing Pole",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6256?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6256
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Fishing",
-      "id": 9
+      "name": "Fishing"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
+    "media": {
+      "id": 6256,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6256?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Fishing Pole",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Fishing (1)",
+        "level": 1,
         "profession": {
+          "id": 356,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/356?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Fishing",
-          "id": 356
-        },
-        "level": 1,
-        "display_string": "Requires Fishing (1)"
+          "name": "Fishing"
+        }
       }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1
 }

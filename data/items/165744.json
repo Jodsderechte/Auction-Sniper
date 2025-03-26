@@ -4,114 +4,115 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/165744?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_alchemy_potion_01.jpg",
   "id": 165744,
-  "name": "Potion of Herb Tracking",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/165744?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 165744
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 323503,
-  "sell_price": 80875,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 165744,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/165744?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Potion of Herb Tracking",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 165744,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/165744?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 165744
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Potion of Herb Tracking",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/165744?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 165744
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 165744,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/165744?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Potion of Herb Tracking",
+    "name_description": {
+      "color": {
+        "a": 1.0,
+        "b": 0,
+        "g": 208,
+        "r": 255
+      },
+      "display_string": "Champion Equipment"
+    },
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "8"
+      },
+      "value": 80875
     },
     "spells": [
       {
+        "description": "Use: Equip a champion with a Potion of Herb Tracking which grants:\r\n\r\nChance to bring back herbs from successful missions.",
         "spell": {
+          "id": 276183,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/276183?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Apply Equipment",
-          "id": 276183
-        },
-        "description": "Use: Equip a champion with a Potion of Herb Tracking which grants:\r\n\r\nChance to bring back herbs from successful missions."
+          "name": "Apply Equipment"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 80875,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "8",
-        "copper": "75"
-      }
-    },
-    "is_subclass_hidden": true,
-    "name_description": {
-      "display_string": "Champion Equipment",
-      "color": {
-        "r": 255,
-        "g": 208,
-        "b": 0,
-        "a": 1.0
-      }
-    }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 323503,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 80875
 }

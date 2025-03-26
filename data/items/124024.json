@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/124024?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\spell_misc_warsongbrutal.jpg",
   "id": 124024,
-  "name": "Leystone Armor Stand",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/124024?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 124024
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000,
-  "sell_price": 12500,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 124024,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/124024?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Leystone Armor Stand",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 124024,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/124024?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 124024
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Leystone Armor Stand",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/124024?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 124024
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 124024,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/124024?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Leystone Armor Stand",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 12500
+    },
     "spells": [
       {
+        "description": "Use: Combine all 8 pieces of leystone armor into a set.",
         "spell": {
+          "id": 183359,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/183359?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Leystone Armor Set",
-          "id": 183359
-        },
-        "description": "Use: Combine all 8 pieces of leystone armor into a set."
+          "name": "Leystone Armor Set"
+        }
       }
     ],
-    "sell_price": {
-      "value": 12500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "25",
-        "copper": "0"
-      }
-    },
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 12500
 }

@@ -4,283 +4,284 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30323?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Boots of the Protector.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 30323,
-  "name": "Plans: Boots of the Protector",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30323?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30323
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 240000,
-  "sell_price": 60000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Boots of the Protector.",
+  "media": {
+    "id": 30323,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30323?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Boots of the Protector",
   "preview_item": {
+    "description": "Teaches you how to make Boots of the Protector.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 30323,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30323?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30323
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Plans: Boots of the Protector",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30323?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30323
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 60000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "6",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 30323,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30323?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Blacksmithing",
-          "id": 2476
-        },
-        "level": 75,
-        "display_string": "Requires Outland Blacksmithing (75)"
-      }
+    "name": "Plans: Boots of the Protector",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to make Boots of the Protector.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "9 Armor"
+          },
+          "value": 9
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "durability": {
+          "display_string": "Durability 80 / 80",
+          "value": 80
+        },
+        "inventory_type": {
+          "name": "Feet",
+          "type": "FEET"
+        },
         "item": {
+          "id": 30033,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/30033?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 30033
-        },
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Boots of the Protector",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/30033?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 30033
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Plate",
-          "id": 4
+          "name": "Plate"
         },
-        "inventory_type": {
-          "type": "FEET",
-          "name": "Feet"
+        "level": {
+          "display_string": "Item Level 32",
+          "value": 32
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
-        },
-        "armor": {
-          "value": 9,
-          "display": {
-            "display_string": "9 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 30033,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/30033?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "DODGE_RATING",
-              "name": "Dodge"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Dodge",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 231,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "31"
-          }
+        "name": "Boots of the Protector",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           }
         },
-        "level": {
-          "value": 32,
-          "display_string": "Item Level 32"
+        "sell_price": {
+          "display_strings": {
+            "copper": "31",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 231
         },
-        "durability": {
-          "value": 80,
-          "display_string": "Durability 80 / 80"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Dodge"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Dodge",
+              "type": "DODGE_RATING"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 23572,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23572?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Nether",
-            "id": 23572
-          },
-          "quantity": 2
+            "name": "Primal Nether"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 23573,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23573?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Hardened Adamantite Bar",
-            "id": 23573
-          },
-          "quantity": 4
+            "name": "Hardened Adamantite Bar"
+          }
         },
         {
+          "quantity": 12,
           "reagent": {
+            "id": 21885,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21885?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Water",
-            "id": 21885
-          },
-          "quantity": 12
+            "name": "Primal Water"
+          }
         }
       ],
       "reagents_display_string": "Primal Nether (2), Hardened Adamantite Bar (4), Primal Water (12)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Blacksmithing (75)",
+        "level": 75,
+        "profession": {
+          "id": 2476,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "6",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 60000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 240000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 60000
 }

@@ -4,132 +4,133 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6833?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2271,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2271?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shirt_08.jpg",
   "id": 6833,
-  "name": "White Tuxedo Shirt",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Shirt",
+    "type": "BODY"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6833?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6833
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "BODY",
-    "name": "Shirt"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 6833,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6833?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "White Tuxedo Shirt",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Shirt",
+      "type": "BODY"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 6833,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6833?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6833
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "White Tuxedo Shirt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6833?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6833
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
+      "name": "Cosmetic"
     },
-    "inventory_type": {
-      "type": "BODY",
-      "name": "Shirt"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 6833,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6833?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "White Tuxedo Shirt",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/812?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Spring Tuxedo",
-        "id": 812
-      },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/151804?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Black Tuxedo Pants",
-            "id": 151804
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/6833?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "White Tuxedo Shirt",
-            "id": 6833
-          }
-        }
-      ],
+      "display_string": "Spring Tuxedo (0/2)",
       "effects": [
         {
           "display_string": "(2) Set: Spring Tuxedo",
           "required_count": 2
         }
       ],
-      "display_string": "Spring Tuxedo (0/2)"
-    },
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2271?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 812,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/812?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Spring Tuxedo"
       },
-      "id": 2271
+      "items": [
+        {
+          "item": {
+            "id": 151804,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/151804?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Black Tuxedo Pants"
+          }
+        },
+        {
+          "item": {
+            "id": 6833,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/6833?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "White Tuxedo Shirt"
+          }
+        }
+      ]
     }
-  ]
+  },
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

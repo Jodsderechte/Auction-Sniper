@@ -4,111 +4,112 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/28979?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_weapon_shortblade_20.jpg",
   "id": 28979,
-  "name": "Light Throwing Knife",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Thrown",
+    "type": "THROWN"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/28979?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 28979
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 16,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/16?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Thrown",
-    "id": 16
-  },
-  "inventory_type": {
-    "type": "THROWN",
     "name": "Thrown"
   },
-  "purchase_price": 15,
-  "sell_price": 3,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 28979,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/28979?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Light Throwing Knife",
   "preview_item": {
+    "inventory_type": {
+      "name": "Thrown",
+      "type": "THROWN"
+    },
     "item": {
+      "id": 28979,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/28979?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 28979
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Light Throwing Knife",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/28979?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 28979
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 16,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/16?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Thrown",
-      "id": 16
-    },
-    "inventory_type": {
-      "type": "THROWN",
       "name": "Thrown"
     },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 1,
-        "display_string": "1 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1600,
-        "display_string": "Speed 1.60"
-      },
-      "dps": {
-        "value": 0.625,
-        "display_string": "(0.6 damage per second)"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
+    },
+    "media": {
+      "id": 28979,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/28979?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Light Throwing Knife",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "sell_price": {
-      "value": 3,
       "display_strings": {
-        "header": "Sell Price:",
+        "copper": "3",
         "gold": "0",
-        "silver": "0",
-        "copper": "3"
-      }
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 3
     },
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.60",
+        "value": 1600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 Damage",
+        "max_value": 1,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.6 damage per second)",
+        "value": 0.625
+      }
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 15,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 3
 }

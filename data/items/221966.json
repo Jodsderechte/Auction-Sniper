@@ -4,119 +4,120 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/221966?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_10_engineering_device_gadget3_color2.jpg",
   "id": 221966,
-  "name": "Wormhole Generator: Khaz Algar",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 80,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/221966?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 221966
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 5000000,
-  "sell_price": 1000000,
+  "level": 80,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 221966,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/221966?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wormhole Generator: Khaz Algar",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 221966,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/221966?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221966
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Wormhole Generator: Khaz Algar",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/221966?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221966
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 221966,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/221966?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/448126?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Generate Wormhole",
-          "id": 448126
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nOpen a wormhole that allows the user to quickly travel to a random location in Khaz Algar. (30 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 1000000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "100",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Wormhole Generator: Khaz Algar",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       },
       "skill": {
+        "display_string": "Requires Khaz Algar Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2875,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2875?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Khaz Algar Engineering",
-          "id": 2875
-        },
-        "level": 1,
-        "display_string": "Requires Khaz Algar Engineering (1)"
+          "name": "Khaz Algar Engineering"
+        }
       }
     },
-    "is_subclass_hidden": true,
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "100",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1000000
+    },
+    "spells": [
+      {
+        "description": "Use: Adds this toy to your Toy Box.\n\nOpen a wormhole that allows the user to quickly travel to a random location in Khaz Algar. (30 Min Cooldown)",
+        "spell": {
+          "id": 448126,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/448126?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Generate Wormhole"
+        }
+      }
+    ],
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 5000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 68,
+  "sell_price": 1000000
 }

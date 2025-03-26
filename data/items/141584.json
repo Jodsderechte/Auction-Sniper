@@ -4,134 +4,135 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/141584?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\item_hearthstone_card.jpg",
   "id": 141584,
-  "name": "Eyasu's Mulligan",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 50,
-  "required_level": 40,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/141584?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 141584
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 1428249,
-  "sell_price": 285649,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 141584,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/141584?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Eyasu's Mulligan",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 141584,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/141584?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 141584
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Eyasu's Mulligan",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/141584?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 141584
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 50",
+      "value": 50
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 141584,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/141584?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/227388?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Opening Hand",
-          "id": 227388
-        },
-        "description": "Use: After 5 sec, gain 31 Critical Strike, Haste, Mastery, or Versatility for 20 sec. You may reactivate this once within 5 sec to change which bonus will be granted. (2 min cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 1187,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "11",
-        "copper": "87"
-      }
+    "name": "Eyasu's Mulligan",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 40,
-        "display_string": "Requires Level 40"
+        "display_string": "Requires Level 40",
+        "value": 40
       }
     },
-    "level": {
-      "value": 50,
-      "display_string": "Item Level 50"
+    "sell_price": {
+      "display_strings": {
+        "copper": "87",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "11"
+      },
+      "value": 1187
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: After 5 sec, gain 31 Critical Strike, Haste, Mastery, or Versatility for 20 sec. You may reactivate this once within 5 sec to change which bonus will be granted. (2 min cooldown)",
+        "spell": {
+          "id": 227388,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/227388?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Opening Hand"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 5
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1428249,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 40,
+  "sell_price": 285649
 }

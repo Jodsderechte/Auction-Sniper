@@ -4,114 +4,115 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7148?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_enggizmos_10.jpg",
   "id": 7148,
-  "name": "Goblin Jumper Cables",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 14,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7148?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7148
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 85,
-  "sell_price": 21,
+  "level": 14,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 7148,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7148?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Goblin Jumper Cables",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 7148,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7148?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7148
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Goblin Jumper Cables",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7148?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7148
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 7148,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7148?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/8342?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Defibrillate",
-          "id": 8342
-        },
-        "description": "Use: Jumper Cables will sometimes be able to shock a dead ally back to life.  Cannot be used when in combat. (30 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 21,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "21"
-      }
+    "name": "Goblin Jumper Cables",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Classic Engineering (165)",
+        "level": 165,
         "profession": {
+          "id": 2506,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 165,
-        "display_string": "Requires Classic Engineering (165)"
+          "name": "Classic Engineering"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "21",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 21
+    },
+    "spells": [
+      {
+        "description": "Use: Jumper Cables will sometimes be able to shock a dead ally back to life.  Cannot be used when in combat. (30 Min Cooldown)",
+        "spell": {
+          "id": 8342,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/8342?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Defibrillate"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 85,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 21
 }

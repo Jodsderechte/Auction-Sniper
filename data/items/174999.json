@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/174999?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Belonged to a soul long-ago cast into the Maw.",
+  "icon_path": "data\\icons\\inv_misc_stonetablet_01.jpg",
   "id": 174999,
-  "name": "Long-Forgotten Sinstone",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/174999?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 174999
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 10000,
-  "sell_price": 2500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Belonged to a soul long-ago cast into the Maw.",
+  "media": {
+    "id": 174999,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/174999?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Long-Forgotten Sinstone",
   "preview_item": {
+    "description": "Belonged to a soul long-ago cast into the Maw.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 174999,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/174999?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 174999
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Long-Forgotten Sinstone",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/174999?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 174999
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 174999,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/174999?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Belonged to a soul long-ago cast into the Maw.",
-    "is_subclass_hidden": true
+    "name": "Long-Forgotten Sinstone",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 2500
 }

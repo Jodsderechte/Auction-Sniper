@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/223093?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Beautification Iris.",
+  "icon_path": "data\\icons\\inv_10_inscription2_scroll2_color1.jpg",
   "id": 223093,
-  "name": "Design: Beautification Iris",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/223093?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 223093
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2500000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Beautification Iris.",
+  "media": {
+    "id": 223093,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/223093?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Beautification Iris",
   "preview_item": {
+    "description": "Teaches you how to craft Beautification Iris.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 223093,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/223093?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 223093
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Design: Beautification Iris",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/223093?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 223093
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 223093,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/223093?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Design: Beautification Iris",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Khaz Algar Jewelcrafting (1)",
+        "level": 1,
         "profession": {
+          "id": 2879,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2879?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Khaz Algar Jewelcrafting",
-          "id": 2879
-        },
-        "level": 1,
-        "display_string": "Requires Khaz Algar Jewelcrafting (1)"
+          "name": "Khaz Algar Jewelcrafting"
+        }
       }
     },
-    "description": "Teaches you how to craft Beautification Iris.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2500000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

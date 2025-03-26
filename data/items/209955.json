@@ -4,139 +4,140 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/209955?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\10_2_raidability_burningroots.jpg",
   "id": 209955,
-  "name": "Root of Fire",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 428,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/209955?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 209955
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 2946918,
-  "sell_price": 589383,
+  "level": 428,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 209955,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/209955?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Root of Fire",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/209955?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 209955
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
     },
-    "context": 0,
     "bonus_list": [
       8902
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Root of Fire",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 209955,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/209955?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 209955
+        "href": "https://eu.api.blizzard.com/data/wow/item/209955?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 428",
+      "value": 428
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
+    "media": {
+      "id": 209955,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/209955?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 577,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+577 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/424105?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Root of Fire",
-          "id": 424105
-        },
-        "description": "Equip: Taking damage and melee attacks can coat yourself in fiery thorns, granting 1,726 Strength and reducing damage taken from enemies by 1,175 for 9 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 381214,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "38",
-        "silver": "12",
-        "copper": "14"
-      }
+    "name": "Root of Fire",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "level": {
-      "value": 428,
-      "display_string": "Item Level 428"
+    "sell_price": {
+      "display_strings": {
+        "copper": "14",
+        "gold": "38",
+        "header": "Sell Price:",
+        "silver": "12"
+      },
+      "value": 381214
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Taking damage and melee attacks can coat yourself in fiery thorns, granting 1,726 Strength and reducing damage taken from enemies by 1,175 for 9 sec.",
+        "spell": {
+          "id": 424105,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/424105?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Root of Fire"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+577 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 577
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 2946918,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 589383
 }

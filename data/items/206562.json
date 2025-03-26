@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/206562?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 24456,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/24456?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_30.jpg",
   "id": 206562,
-  "name": "Shroud of Forbidden Magic",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 26,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/206562?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 206562
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 200000,
-  "sell_price": 50000,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 206562,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/206562?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Shroud of Forbidden Magic",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 206562,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/206562?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206562
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Shroud of Forbidden Magic",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/206562?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206562
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
-    },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 50000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "0",
-        "copper": "0"
-      }
+      "name": "Cosmetic"
     },
     "level": {
-      "value": 26,
-      "display_string": "Item Level 26"
+      "display_string": "Item Level 26",
+      "value": 26
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 206562,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/24456?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/206562?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Shroud of Forbidden Magic",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 24456
+      "value": 50000
     }
-  ]
+  },
+  "purchase_price": 200000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 50000
 }

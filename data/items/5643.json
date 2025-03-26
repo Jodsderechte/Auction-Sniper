@@ -4,223 +4,224 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5643?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Great Rage Potion.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 5643,
-  "name": "Recipe: Great Rage Potion",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5643?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5643
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000,
-  "sell_price": 500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Great Rage Potion.",
+  "media": {
+    "id": 5643,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5643?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Great Rage Potion",
   "preview_item": {
+    "description": "Teaches you how to make a Great Rage Potion.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 5643,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/5643?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5643
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Recipe: Great Rage Potion",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5643?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5643
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "5",
-        "copper": "0"
+    "media": {
+      "id": 5643,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5643?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Alchemy",
-          "id": 2485
-        },
-        "level": 175,
-        "display_string": "Requires Classic Alchemy (175)"
-      }
+    "name": "Recipe: Great Rage Potion",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make a Great Rage Potion.",
     "recipe": {
       "item": {
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 5633,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/5633?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 5633
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Great Rage Potion",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/5633?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 5633
+          }
         },
         "item_class": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Consumable",
-          "id": 0
+          "name": "Consumable"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Potions",
-          "id": 1
+          "name": "Potions"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
+        "media": {
+          "id": 5633,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/5633?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/6613?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Great Rage",
-              "id": 6613
-            },
-            "description": "Use: Instantly generates 23 to 68 rage. (5 Min Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 150,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "1",
-            "copper": "50"
-          }
+        "name": "Great Rage Potion",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
         },
         "requirements": {
           "level": {
-            "value": 11,
-            "display_string": "Requires Level 11"
+            "display_string": "Requires Level 11",
+            "value": 11
           },
           "playable_classes": {
+            "display_string": "Classes: Druid, Warrior",
             "links": [
               {
+                "id": 11,
                 "key": {
                   "href": "https://eu.api.blizzard.com/data/wow/playable-class/11?namespace=static-11.1.0_59095-eu"
                 },
-                "name": "Druid",
-                "id": 11
+                "name": "Druid"
               },
               {
+                "id": 1,
                 "key": {
                   "href": "https://eu.api.blizzard.com/data/wow/playable-class/1?namespace=static-11.1.0_59095-eu"
                 },
-                "name": "Warrior",
-                "id": 1
+                "name": "Warrior"
               }
-            ],
-            "display_string": "Classes: Druid, Warrior"
+            ]
           }
         },
-        "is_subclass_hidden": true
+        "sell_price": {
+          "display_strings": {
+            "copper": "50",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
+          },
+          "value": 150
+        },
+        "spells": [
+          {
+            "description": "Use: Instantly generates 23 to 68 rage. (5 Min Cooldown)",
+            "spell": {
+              "id": 6613,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/6613?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Great Rage"
+            }
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 5637,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/5637?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Large Fang",
-            "id": 5637
-          },
-          "quantity": 1
+            "name": "Large Fang"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3356,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3356?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Kingsblood",
-            "id": 3356
-          },
-          "quantity": 1
+            "name": "Kingsblood"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3371,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3371?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Crystal Vial",
-            "id": 3371
-          },
-          "quantity": 1
+            "name": "Crystal Vial"
+          }
         }
       ],
       "reagents_display_string": "Large Fang, Kingsblood, Crystal Vial"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Alchemy (175)",
+        "level": 175,
+        "profession": {
+          "id": 2485,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Alchemy"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 500
 }

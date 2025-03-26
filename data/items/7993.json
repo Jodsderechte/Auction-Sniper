@@ -4,271 +4,272 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7993?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Dazzling Mithril Rapier.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 7993,
-  "name": "Plans: Dazzling Mithril Rapier",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7993?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7993
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 10000,
-  "sell_price": 2500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Dazzling Mithril Rapier.",
+  "media": {
+    "id": 7993,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7993?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Dazzling Mithril Rapier",
   "preview_item": {
+    "description": "Teaches you how to make a Dazzling Mithril Rapier.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 7993,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7993?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7993
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Plans: Dazzling Mithril Rapier",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7993?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7993
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 7993,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7993?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 240,
-        "display_string": "Requires Classic Blacksmithing (240)"
-      }
+    "name": "Plans: Dazzling Mithril Rapier",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to make a Dazzling Mithril Rapier.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 65 / 65",
+          "value": 65
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 7944,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/7944?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 7944
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Dazzling Mithril Rapier",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/7944?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 7944
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 7,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Sword",
-          "id": 7
+          "name": "Sword"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 25",
+          "value": 25
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 3,
-            "max_value": 6,
-            "display_string": "3 - 6 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 2600,
-            "display_string": "Speed 2.60"
-          },
-          "dps": {
-            "value": 1.7307692,
-            "display_string": "(1.7 damage per second)"
+        "media": {
+          "id": 7944,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/7944?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Dazzling Mithril Rapier",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 19,
-            "display_string": "Requires Level 19"
+            "display_string": "Requires Level 19",
+            "value": 19
           }
         },
-        "level": {
-          "value": 25,
-          "display_string": "Item Level 25"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 65,
-          "display_string": "Durability 65 / 65"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 3
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.60",
+            "value": 2600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "3 - 6 Damage",
+            "max_value": 6,
+            "min_value": 3
+          },
+          "dps": {
+            "display_string": "(1.7 damage per second)",
+            "value": 1.7307692
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 14,
           "reagent": {
+            "id": 3860,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3860?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mithril Bar",
-            "id": 3860
-          },
-          "quantity": 14
+            "name": "Mithril Bar"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 7909,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7909?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Aquamarine",
-            "id": 7909
-          },
-          "quantity": 1
+            "name": "Aquamarine"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 1705,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1705?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Lesser Moonstone",
-            "id": 1705
-          },
-          "quantity": 2
+            "name": "Lesser Moonstone"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 1206,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1206?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Moss Agate",
-            "id": 1206
-          },
-          "quantity": 2
+            "name": "Moss Agate"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 7966,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7966?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Solid Grinding Stone",
-            "id": 7966
-          },
-          "quantity": 1
+            "name": "Solid Grinding Stone"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 4338,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4338?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mageweave Cloth",
-            "id": 4338
-          },
-          "quantity": 2
+            "name": "Mageweave Cloth"
+          }
         }
       ],
       "reagents_display_string": "Mithril Bar (14), Aquamarine, Lesser Moonstone (2), Moss Agate (2), Solid Grinding Stone, Mageweave Cloth (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (240)",
+        "level": 240,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2500
 }

@@ -4,101 +4,102 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/139425?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\70_professions_scroll_03.jpg",
   "id": 139425,
-  "name": "Imp-Binding Contract",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/139425?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 139425
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 4,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 139425,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/139425?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Imp-Binding Contract",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 139425,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/139425?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 139425
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Imp-Binding Contract",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/139425?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 139425
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 139425,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/139425?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Imp-Binding Contract",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
     },
     "spells": [
       {
+        "description": "Use: Summons a large number of imps into the Underbelly.",
         "spell": {
+          "id": 220265,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/220265?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Imp-Binding Contract",
-          "id": 220265
-        },
-        "description": "Use: Summons a large number of imps into the Underbelly."
+          "name": "Imp-Binding Contract"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 4,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 1
 }

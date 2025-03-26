@@ -4,336 +4,337 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23595?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Adamantite Plate Gloves.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 23595,
-  "name": "Plans: Adamantite Plate Gloves",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23595?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23595
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 60000,
-  "sell_price": 15000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Adamantite Plate Gloves.",
+  "media": {
+    "id": 23595,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23595?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Adamantite Plate Gloves",
   "preview_item": {
+    "description": "Teaches you how to make Adamantite Plate Gloves.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 23595,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23595?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23595
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Plans: Adamantite Plate Gloves",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23595?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23595
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 15000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "50",
-        "copper": "0"
+    "media": {
+      "id": 23595,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23595?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Blacksmithing",
-          "id": 2476
-        },
-        "level": 35,
-        "display_string": "Requires Outland Blacksmithing (35)"
-      }
+    "name": "Plans: Adamantite Plate Gloves",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make Adamantite Plate Gloves.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "8 Armor"
+          },
+          "value": 8
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 50 / 50",
+          "value": 50
+        },
+        "inventory_type": {
+          "name": "Hands",
+          "type": "HAND"
+        },
         "item": {
+          "id": 23508,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/23508?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23508
-        },
-        "sockets": [
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
-          },
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
           }
-        ],
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Adamantite Plate Gloves",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/23508?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23508
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Plate",
-          "id": 4
+          "name": "Plate"
         },
-        "inventory_type": {
-          "type": "HAND",
-          "name": "Hands"
+        "level": {
+          "display_string": "Item Level 31",
+          "value": 31
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 8,
-          "display": {
-            "display_string": "8 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 23508,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/23508?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "socket_bonus": "Socket Bonus: +1 Attack Power",
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Adamantite Plate Gloves",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 26,
-            "display_string": "Requires Level 26"
+            "display_string": "Requires Level 26",
+            "value": 26
           }
         },
-        "set": {
-          "item_set": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item-set/562?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Adamantite Battlegear",
-            "id": 562
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
           },
-          "items": [
-            {
-              "item": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/item/23507?namespace=static-11.1.0_59095-eu"
-                },
-                "name": "Adamantite Breastplate",
-                "id": 23507
-              }
-            },
-            {
-              "item": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/item/23508?namespace=static-11.1.0_59095-eu"
-                },
-                "name": "Adamantite Plate Gloves",
-                "id": 23508
-              }
-            },
-            {
-              "item": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/item/23506?namespace=static-11.1.0_59095-eu"
-                },
-                "name": "Adamantite Plate Bracers",
-                "id": 23506
-              }
-            }
-          ],
+          "value": 1500
+        },
+        "set": {
+          "display_string": "Adamantite Battlegear (0/3)",
           "effects": [
             {
               "display_string": "(3) Set: +2 Weapon Damage.",
               "required_count": 3
             }
           ],
-          "display_string": "Adamantite Battlegear (0/3)"
+          "item_set": {
+            "id": 562,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-set/562?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Adamantite Battlegear"
+          },
+          "items": [
+            {
+              "item": {
+                "id": 23507,
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/item/23507?namespace=static-11.1.0_59095-eu"
+                },
+                "name": "Adamantite Breastplate"
+              }
+            },
+            {
+              "item": {
+                "id": 23508,
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/item/23508?namespace=static-11.1.0_59095-eu"
+                },
+                "name": "Adamantite Plate Gloves"
+              }
+            },
+            {
+              "item": {
+                "id": 23506,
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/item/23506?namespace=static-11.1.0_59095-eu"
+                },
+                "name": "Adamantite Plate Bracers"
+              }
+            }
+          ]
         },
-        "level": {
-          "value": 31,
-          "display_string": "Item Level 31"
-        },
-        "durability": {
-          "value": 50,
-          "display_string": "Durability 50 / 50"
-        }
+        "socket_bonus": "Socket Bonus: +1 Attack Power",
+        "sockets": [
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          },
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 8,
           "reagent": {
+            "id": 23446,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23446?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Adamantite Bar",
-            "id": 23446
-          },
-          "quantity": 8
+            "name": "Adamantite Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 21887,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21887?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Knothide Leather",
-            "id": 21887
-          },
-          "quantity": 2
+            "name": "Knothide Leather"
+          }
         },
         {
+          "quantity": 3,
           "reagent": {
+            "id": 22452,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/22452?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Earth",
-            "id": 22452
-          },
-          "quantity": 3
+            "name": "Primal Earth"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 21884,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21884?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Fire",
-            "id": 21884
-          },
-          "quantity": 2
+            "name": "Primal Fire"
+          }
         }
       ],
       "reagents_display_string": "Adamantite Bar (8), Knothide Leather (2), Primal Earth (3), Primal Fire (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Blacksmithing (35)",
+        "level": 35,
+        "profession": {
+          "id": 2476,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 15000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 60000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 15000
 }

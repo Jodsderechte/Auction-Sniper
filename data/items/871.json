@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/871?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 274,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/274?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_axe_17.jpg",
   "id": 871,
-  "name": "Flurry Axe",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 25,
-  "required_level": 18,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/871?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 871
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 61355,
-  "sell_price": 12271,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 871,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/871?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Flurry Axe",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/871?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 871
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 95 / 95",
+      "value": 95
     },
-    "name": "Flurry Axe",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 871,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/871?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 871
+        "href": "https://eu.api.blizzard.com/data/wow/item/871?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 289,
-        "max_value": 600,
-        "display_string": "289 - 600 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 170.96153,
-        "display_string": "(171.0 damage per second)"
+    "media": {
+      "id": 871,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/871?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/182395?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Thrash Blade",
-          "id": 182395
-        },
-        "description": "Equip: Your melee attacks have a chance to trigger an extra attack."
-      }
-    ],
-    "sell_price": {
-      "value": 784797,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "78",
-        "silver": "47",
-        "copper": "97"
-      }
+    "name": "Flurry Axe",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 18,
-        "display_string": "Requires Level 18"
+        "display_string": "Requires Level 18",
+        "value": 18
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "97",
+        "gold": "78",
+        "header": "Sell Price:",
+        "silver": "47"
+      },
+      "value": 784797
     },
-    "durability": {
-      "value": 95,
-      "display_string": "Durability 95 / 95"
+    "spells": [
+      {
+        "description": "Equip: Your melee attacks have a chance to trigger an extra attack.",
+        "spell": {
+          "id": 182395,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/182395?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Thrash Blade"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "289 - 600 Damage",
+        "max_value": 600,
+        "min_value": 289
+      },
+      "dps": {
+        "display_string": "(171.0 damage per second)",
+        "value": 170.96153
+      }
     }
   },
+  "purchase_price": 61355,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/274?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 274
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 18,
+  "sell_price": 12271
 }

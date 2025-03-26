@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/200269?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Wearing this, one might find the greatest of dragon hoards!",
+  "icon_path": "data\\icons\\inv_jewelry_necklace_12.jpg",
   "id": 200269,
-  "name": "Talisman of the Dragon Hoard",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/200269?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 200269
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 350000,
-  "sell_price": 87500,
+  "level": 50,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Wearing this, one might find the greatest of dragon hoards!",
+  "media": {
+    "id": 200269,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/200269?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Talisman of the Dragon Hoard",
   "preview_item": {
+    "description": "Wearing this, one might find the greatest of dragon hoards!",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 200269,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/200269?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200269
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Talisman of the Dragon Hoard",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/200269?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200269
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 87500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "75",
-        "copper": "0"
+    "media": {
+      "id": 200269,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/200269?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Wearing this, one might find the greatest of dragon hoards!",
-    "is_subclass_hidden": true
+    "name": "Talisman of the Dragon Hoard",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 87500
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 350000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 87500
 }

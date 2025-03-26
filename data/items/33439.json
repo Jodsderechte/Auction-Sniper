@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/33439?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8664,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8664?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_12.jpg",
   "id": 33439,
-  "name": "Fur-Lined Leather Helmet",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/33439?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 33439
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 735917,
-  "sell_price": 147183,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 33439,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/33439?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fur-Lined Leather Helmet",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/33439?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "200 Armor"
       },
-      "id": 33439
+      "value": 200
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Fur-Lined Leather Helmet",
-    "media": {
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "item": {
+      "id": 33439,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/33439?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 33439
+        "href": "https://eu.api.blizzard.com/data/wow/item/33439?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 200,
-      "display": {
-        "display_string": "200 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 33439,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/33439?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 87477,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "74",
-        "copper": "77"
-      }
+    "name": "Fur-Lined Leather Helmet",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "sell_price": {
+      "display_strings": {
+        "copper": "77",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "74"
+      },
+      "value": 87477
     }
   },
+  "purchase_price": 735917,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8664?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8664
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 27,
+  "sell_price": 147183
 }

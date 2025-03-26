@@ -4,266 +4,267 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3611?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Green Iron Boots.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 3611,
-  "name": "Plans: Green Iron Boots",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3611?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3611
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000,
-  "sell_price": 500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Green Iron Boots.",
+  "media": {
+    "id": 3611,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3611?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Green Iron Boots",
   "preview_item": {
+    "description": "Teaches you how to make Green Iron Boots.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 3611,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/3611?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3611
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Plans: Green Iron Boots",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3611?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3611
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "5",
-        "copper": "0"
+    "media": {
+      "id": 3611,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3611?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 145,
-        "display_string": "Requires Classic Blacksmithing (145)"
-      }
+    "name": "Plans: Green Iron Boots",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to make Green Iron Boots.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "5 Armor"
+          },
+          "value": 5
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 45 / 45",
+          "value": 45
+        },
+        "inventory_type": {
+          "name": "Feet",
+          "type": "FEET"
+        },
         "item": {
+          "id": 3484,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/3484?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3484
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Green Iron Boots",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/3484?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3484
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mail",
-          "id": 3
+          "name": "Mail"
         },
-        "inventory_type": {
-          "type": "FEET",
-          "name": "Feet"
+        "level": {
+          "display_string": "Item Level 18",
+          "value": 18
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 5,
-          "display": {
-            "display_string": "5 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 3484,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/3484?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Green Iron Boots",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 11,
-            "display_string": "Requires Level 11"
+            "display_string": "Requires Level 11",
+            "value": 11
           }
         },
-        "level": {
-          "value": 18,
-          "display_string": "Item Level 18"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 45,
-          "display_string": "Durability 45 / 45"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 6,
           "reagent": {
+            "id": 3575,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3575?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Iron Bar",
-            "id": 3575
-          },
-          "quantity": 6
+            "name": "Iron Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 3478,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3478?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Coarse Grinding Stone",
-            "id": 3478
-          },
-          "quantity": 2
+            "name": "Coarse Grinding Stone"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 2605,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2605?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Green Dye",
-            "id": 2605
-          },
-          "quantity": 1
+            "name": "Green Dye"
+          }
         }
       ],
       "reagents_display_string": "Iron Bar (6), Coarse Grinding Stone (2), Green Dye"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (145)",
+        "level": 145,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 500
 }

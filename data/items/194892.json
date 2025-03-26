@@ -4,219 +4,220 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/194892?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 70665,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70665?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_2h_dragonquest_b_02.jpg",
   "id": 194892,
-  "name": "Pioneer's Writhebark Stave",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 270,
-  "required_level": 62,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/194892?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 194892
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 172421,
-  "sell_price": 34484,
+  "level": 270,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 194892,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/194892?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pioneer's Writhebark Stave",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/194892?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194892
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8851,
       8852
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
     },
-    "name": "Pioneer's Writhebark Stave",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 194892,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/194892?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194892
+        "href": "https://eu.api.blizzard.com/data/wow/item/194892?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
-    },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 408,
-        "max_value": 759,
-        "display_string": "408 - 759 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 162.08333,
-        "display_string": "(162.1 damage per second)"
-      }
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 216,
-        "is_negated": true,
-        "display": {
-          "display_string": "+216 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 323,
-        "display": {
-          "display_string": "+323 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 204,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+204 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 204,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+204 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 34484,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "44",
-        "copper": "84"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 62,
-        "display_string": "Requires Level 62"
-      }
+      "name": "Staff"
     },
     "level": {
-      "value": 330,
-      "display_string": "Item Level 330"
+      "display_string": "Item Level 330",
+      "value": 330
     },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
+    "media": {
+      "id": 194892,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/194892?namespace=static-11.1.0_59095-eu"
+      }
     },
     "modified_crafting_stat": [
       {
         "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "name": "Versatility",
+        "type": "VERSATILITY"
       },
       {
         "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
+        "name": "Mastery",
+        "type": "MASTERY_RATING"
       }
-    ]
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70665?namespace=static-11.1.0_59095-eu"
+    ],
+    "name": "Pioneer's Writhebark Stave",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 62",
+        "value": 62
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "84",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "44"
       },
-      "id": 70665
+      "value": 34484
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+216 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 216
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+323 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 323
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+204 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 204
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+204 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 204
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "408 - 759 Damage",
+        "max_value": 759,
+        "min_value": 408
+      },
+      "dps": {
+        "display_string": "(162.1 damage per second)",
+        "value": 162.08333
+      }
     }
-  ]
+  },
+  "purchase_price": 172421,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 62,
+  "sell_price": 34484
 }

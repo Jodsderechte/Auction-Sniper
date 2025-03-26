@@ -4,224 +4,225 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21940?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Golden Hare.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 21940,
-  "name": "Design: Golden Hare",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21940?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21940
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 5000,
-  "sell_price": 1250,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Golden Hare.",
+  "media": {
+    "id": 21940,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21940?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Golden Hare",
   "preview_item": {
+    "description": "Teaches you how to craft a Golden Hare.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21940,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21940?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21940
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Design: Golden Hare",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21940?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21940
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1250,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "12",
-        "copper": "50"
+    "media": {
+      "id": 21940,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21940?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Jewelcrafting",
-          "id": 2524
-        },
-        "level": 200,
-        "display_string": "Requires Classic Jewelcrafting (200)"
-      }
+    "name": "Design: Golden Hare",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to craft a Golden Hare.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "inventory_type": {
+          "name": "Trinket",
+          "type": "TRINKET"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 21756,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/21756?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21756
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Figurine - Golden Hare",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/21756?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21756
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "TRINKET",
-          "name": "Trinket"
+        "level": {
+          "display_string": "Item Level 22",
+          "value": 22
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
-        },
-        "unique_equipped": "Unique-Equipped",
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/23990?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Item - Minor Run Speed",
-              "id": 23990
-            },
-            "description": "Equip: Run speed increased slightly."
-          },
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/26571?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Golden Hare",
-              "id": 26571
-            },
-            "description": "Use: Increased speed by 30% and prevents new snares from landing on the user for 6 sec. (20 Min Cooldown)"
+        "media": {
+          "id": 21756,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/21756?namespace=static-11.1.0_59095-eu"
           }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        },
+        "name": "Figurine - Golden Hare",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 15,
-            "display_string": "Requires Level 15"
+            "display_string": "Requires Level 15",
+            "value": 15
           },
           "skill": {
+            "display_string": "Requires Classic Jewelcrafting (200)",
+            "level": 200,
             "profession": {
+              "id": 2524,
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
               },
-              "name": "Classic Jewelcrafting",
-              "id": 2524
-            },
-            "level": 200,
-            "display_string": "Requires Classic Jewelcrafting (200)"
+              "name": "Classic Jewelcrafting"
+            }
           }
         },
-        "level": {
-          "value": 22,
-          "display_string": "Item Level 22"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Equip: Run speed increased slightly.",
+            "spell": {
+              "id": 23990,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/23990?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Item - Minor Run Speed"
+            }
+          },
+          {
+            "description": "Use: Increased speed by 30% and prevents new snares from landing on the user for 6 sec. (20 Min Cooldown)",
+            "spell": {
+              "id": 26571,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/26571?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Golden Hare"
+            }
+          }
+        ],
+        "unique_equipped": "Unique-Equipped"
       },
       "reagents": [
         {
+          "quantity": 6,
           "reagent": {
+            "id": 3577,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3577?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Gold Bar",
-            "id": 3577
-          },
-          "quantity": 6
+            "name": "Gold Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 3864,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3864?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Citrine",
-            "id": 3864
-          },
-          "quantity": 2
+            "name": "Citrine"
+          }
         }
       ],
       "reagents_display_string": "Gold Bar (6), Citrine (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Jewelcrafting (200)",
+        "level": 200,
+        "profession": {
+          "id": 2524,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "12"
+      },
+      "value": 1250
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 5000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1250
 }

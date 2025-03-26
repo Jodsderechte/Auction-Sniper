@@ -4,101 +4,102 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/141884?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Would pair nicely with a sword.",
+  "icon_path": "data\\icons\\ability_vehicle_shellshieldgenerator.jpg",
   "id": 141884,
-  "name": "Krota's Shield",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 45,
-  "required_level": 45,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/141884?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 141884
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 45,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Would pair nicely with a sword.",
+  "media": {
+    "id": 141884,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/141884?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Krota's Shield",
   "preview_item": {
+    "description": "Would pair nicely with a sword.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 141884,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/141884?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 141884
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Krota's Shield",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/141884?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 141884
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 141884,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/141884?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Krota's Shield",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 45",
+        "value": 45
+      }
+    },
     "spells": [
       {
+        "description": "Use: Absorbs up to 1.2 million damage for 15 sec. Only works outdoors in the Broken Isles. (1 Hr Cooldown)",
         "spell": {
+          "id": 228323,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/228323?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Krota's Shield",
-          "id": 228323
-        },
-        "description": "Use: Absorbs up to 1.2 million damage for 15 sec. Only works outdoors in the Broken Isles. (1 Hr Cooldown)"
+          "name": "Krota's Shield"
+        }
       }
     ],
-    "requirements": {
-      "level": {
-        "value": 45,
-        "display_string": "Requires Level 45"
-      }
-    },
-    "description": "Would pair nicely with a sword.",
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 45,
+  "sell_price": 0
 }

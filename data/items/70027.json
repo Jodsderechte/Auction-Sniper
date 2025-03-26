@@ -4,296 +4,297 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/70027?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 13585,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/13585?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_153.jpg",
   "id": 70027,
-  "name": "Bloodthirsty Leather Shoulders",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 37,
-  "required_level": 32,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/70027?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 70027
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 258776,
-  "sell_price": 51755,
+  "level": 37,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 70027,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/70027?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bloodthirsty Leather Shoulders",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "5 Armor"
+      },
+      "value": 5
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
     "item": {
+      "id": 70027,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/70027?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 70027
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Bloodthirsty Leather Shoulders",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/70027?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 70027
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
+    "level": {
+      "display_string": "Item Level 37",
+      "value": 37
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 5,
-      "display": {
-        "display_string": "5 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 70027,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/70027?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 3,
-        "is_negated": true,
-        "display": {
-          "display_string": "+3 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 125,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "25"
-      }
+    "name": "Bloodthirsty Leather Shoulders",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 32,
-        "display_string": "Requires Level 32"
+        "display_string": "Requires Level 32",
+        "value": 32
       }
     },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 125
+    },
     "set": {
+      "display_string": "Bloodthirsty Leather (0/8)",
       "item_set": {
+        "id": 965,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/item-set/965?namespace=static-11.1.0_59095-eu"
         },
-        "name": "Bloodthirsty Leather",
-        "id": 965
+        "name": "Bloodthirsty Leather"
       },
       "items": [
         {
           "item": {
+            "id": 70020,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/70020?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bloodthirsty Leather Belt",
-            "id": 70020
+            "name": "Bloodthirsty Leather Belt"
           }
         },
         {
           "item": {
+            "id": 70021,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/70021?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bloodthirsty Leather Boots",
-            "id": 70021
+            "name": "Bloodthirsty Leather Boots"
           }
         },
         {
           "item": {
+            "id": 70022,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/70022?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bloodthirsty Leather Bracers",
-            "id": 70022
+            "name": "Bloodthirsty Leather Bracers"
           }
         },
         {
           "item": {
+            "id": 70023,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/70023?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bloodthirsty Leather Chest",
-            "id": 70023
+            "name": "Bloodthirsty Leather Chest"
           }
         },
         {
           "item": {
+            "id": 70024,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/70024?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bloodthirsty Leather Gloves",
-            "id": 70024
+            "name": "Bloodthirsty Leather Gloves"
           }
         },
         {
           "item": {
+            "id": 70025,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/70025?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bloodthirsty Leather Helm",
-            "id": 70025
+            "name": "Bloodthirsty Leather Helm"
           }
         },
         {
           "item": {
+            "id": 70026,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/70026?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bloodthirsty Leather Legs",
-            "id": 70026
+            "name": "Bloodthirsty Leather Legs"
           }
         },
         {
           "item": {
+            "id": 70027,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/70027?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bloodthirsty Leather Shoulders",
-            "id": 70027
+            "name": "Bloodthirsty Leather Shoulders"
           }
         }
       ],
-      "legacy": "Legacy Set: Bonus is inactive",
-      "display_string": "Bloodthirsty Leather (0/8)"
+      "legacy": "Legacy Set: Bonus is inactive"
     },
-    "level": {
-      "value": 37,
-      "display_string": "Item Level 37"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/13585?namespace=static-11.1.0_59095-eu"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 3
       },
-      "id": 13585
-    }
-  ]
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+3 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 3
+      }
+    ]
+  },
+  "purchase_price": 258776,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 32,
+  "sell_price": 51755
 }

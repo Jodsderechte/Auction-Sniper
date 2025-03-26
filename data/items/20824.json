@@ -4,89 +4,90 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/20824?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_stone_grindingstone_01.jpg",
   "id": 20824,
-  "name": "Simple Grinder",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 10,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/20824?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 20824
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tradeskill",
-    "id": 7
+    "name": "Tradeskill"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 4
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 25000,
-  "sell_price": 6250,
+  "level": 10,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 20824,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/20824?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Simple Grinder",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 20824,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/20824?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20824
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Simple Grinder",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/20824?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20824
+      }
     },
     "item_class": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tradeskill",
-      "id": 7
+      "name": "Tradeskill"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 4
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 6250,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "62",
-        "copper": "50"
+    "media": {
+      "id": 20824,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/20824?namespace=static-11.1.0_59095-eu"
       }
     },
-    "is_subclass_hidden": true
+    "name": "Simple Grinder",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "62"
+      },
+      "value": 6250
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 25000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 6250
 }

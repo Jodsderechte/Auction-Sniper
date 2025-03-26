@@ -4,107 +4,108 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/46004?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Not really safe for drinking.",
+  "icon_path": "data\\icons\\inv_alchemy_elixir_03.jpg",
   "id": 46004,
-  "name": "Sealed Vial of Poison",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 30,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/46004?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 46004
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 40000,
-  "sell_price": 10000,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Not really safe for drinking.",
+  "media": {
+    "id": 46004,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/46004?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Sealed Vial of Poison",
   "preview_item": {
+    "description": "Not really safe for drinking.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 46004,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/46004?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 46004
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Sealed Vial of Poison",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/46004?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 46004
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 10,
-        "display_string": "Requires Level 10"
-      }
-    },
-    "description": "Not really safe for drinking.",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 13845,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/13845?namespace=static-11.1.0_59095-eu"
         },
-        "name": "Sealed Vial of Poison",
-        "id": 13845
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "Sealed Vial of Poison"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 46004,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/46004?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Sealed Vial of Poison",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 10",
+        "value": 10
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 40000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 10,
+  "sell_price": 10000
 }

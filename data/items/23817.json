@@ -4,194 +4,195 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23817?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Titanium Toolbox.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 23817,
-  "name": "Schematic: Titanium Toolbox",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23817?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23817
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 3
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 80000,
-  "sell_price": 20000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Titanium Toolbox.",
+  "media": {
+    "id": 23817,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23817?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Schematic: Titanium Toolbox",
   "preview_item": {
+    "description": "Teaches you how to make a Titanium Toolbox.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 23817,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23817?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23817
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Schematic: Titanium Toolbox",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23817?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23817
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 3
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 23817,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23817?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2504?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Northrend Engineering",
-          "id": 2504
-        },
-        "level": 30,
-        "display_string": "Requires Northrend Engineering (30)"
-      }
+    "name": "Schematic: Titanium Toolbox",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make a Titanium Toolbox.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "container_slots": {
+          "display_string": "32 Slot Engineering Bag",
+          "value": 32
+        },
+        "description": "Filled with small compartments that are perfect for storing engineering devices.",
+        "inventory_type": {
+          "name": "Bag",
+          "type": "BAG"
+        },
         "item": {
+          "id": 23775,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/23775?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23775
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Titanium Toolbox",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/23775?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23775
+          }
         },
         "item_class": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Container",
-          "id": 1
+          "name": "Container"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Engineering Bag",
-          "id": 4
+          "name": "Engineering Bag"
         },
-        "inventory_type": {
-          "type": "BAG",
-          "name": "Bag"
-        },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "sell_price": {
-          "value": 30000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "3",
-            "silver": "0",
-            "copper": "0"
+        "media": {
+          "id": 23775,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/23775?namespace=static-11.1.0_59095-eu"
           }
         },
-        "description": "Filled with small compartments that are perfect for storing engineering devices.",
-        "container_slots": {
-          "value": 32,
-          "display_string": "32 Slot Engineering Bag"
+        "name": "Titanium Toolbox",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "3",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 30000
         }
       },
       "reagents": [
         {
+          "quantity": 8,
           "reagent": {
+            "id": 36913,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/36913?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Saronite Bar",
-            "id": 36913
-          },
-          "quantity": 8
+            "name": "Saronite Bar"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 41163,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/41163?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Titanium Bar",
-            "id": 41163
-          },
-          "quantity": 8
+            "name": "Titanium Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 39681,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/39681?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Handful of Cobalt Bolts",
-            "id": 39681
-          },
-          "quantity": 4
+            "name": "Handful of Cobalt Bolts"
+          }
         }
       ],
       "reagents_display_string": "Saronite Bar (8), Titanium Bar (8), Handful of Cobalt Bolts (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Northrend Engineering (30)",
+        "level": 30,
+        "profession": {
+          "id": 2504,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2504?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Northrend Engineering"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 80000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 20000
 }

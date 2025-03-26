@@ -4,235 +4,236 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/20855?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Wicked Moonstone Ring.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 20855,
-  "name": "Design: Wicked Moonstone Ring",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/20855?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 20855
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1500,
-  "sell_price": 375,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Wicked Moonstone Ring.",
+  "media": {
+    "id": 20855,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/20855?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Wicked Moonstone Ring",
   "preview_item": {
+    "description": "Teaches you how to craft a Wicked Moonstone Ring.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 20855,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/20855?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20855
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Design: Wicked Moonstone Ring",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/20855?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20855
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 375,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "3",
-        "copper": "75"
+    "media": {
+      "id": 20855,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/20855?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Jewelcrafting",
-          "id": 2524
-        },
-        "level": 125,
-        "display_string": "Requires Classic Jewelcrafting (125)"
-      }
+    "name": "Design: Wicked Moonstone Ring",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to craft a Wicked Moonstone Ring.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Finger",
+          "type": "FINGER"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 20833,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/20833?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 20833
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Wicked Moonstone Ring",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/20833?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 20833
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "FINGER",
-          "name": "Finger"
+        "level": {
+          "display_string": "Item Level 19",
+          "value": 19
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "unique_equipped": "Unique-Equipped",
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
+        "media": {
+          "id": 20833,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/20833?namespace=static-11.1.0_59095-eu"
           }
-        ],
-        "sell_price": {
-          "value": 1540,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "40"
-          }
+        },
+        "name": "Wicked Moonstone Ring",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 12,
-            "display_string": "Requires Level 12"
+            "display_string": "Requires Level 12",
+            "value": 12
           }
         },
-        "level": {
-          "value": 19,
-          "display_string": "Item Level 19"
+        "sell_price": {
+          "display_strings": {
+            "copper": "40",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1540
         },
-        "is_subclass_hidden": true
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 2
+          }
+        ],
+        "unique_equipped": "Unique-Equipped"
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 1705,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1705?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Lesser Moonstone",
-            "id": 1705
-          },
-          "quantity": 1
+            "name": "Lesser Moonstone"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3824,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3824?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Shadow Oil",
-            "id": 3824
-          },
-          "quantity": 1
+            "name": "Shadow Oil"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 3575,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3575?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Iron Bar",
-            "id": 3575
-          },
-          "quantity": 4
+            "name": "Iron Bar"
+          }
         }
       ],
       "reagents_display_string": "Lesser Moonstone, Shadow Oil, Iron Bar (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Jewelcrafting (125)",
+        "level": 125,
+        "profession": {
+          "id": 2524,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 375
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 375
 }

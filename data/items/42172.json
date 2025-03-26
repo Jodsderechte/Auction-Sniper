@@ -4,184 +4,185 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/42172?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew a Red Lumberjack Shirt.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 42172,
-  "name": "Pattern: Red Lumberjack Shirt",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/42172?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 42172
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000,
-  "sell_price": 12500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew a Red Lumberjack Shirt.",
+  "media": {
+    "id": 42172,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/42172?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Red Lumberjack Shirt",
   "preview_item": {
+    "description": "Teaches you how to sew a Red Lumberjack Shirt.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 42172,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/42172?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 42172
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Pattern: Red Lumberjack Shirt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/42172?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 42172
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 12500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 42172,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/42172?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2538?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Northrend Tailoring",
-          "id": 2538
-        },
-        "level": 25,
-        "display_string": "Requires Northrend Tailoring (25)"
-      }
+    "name": "Pattern: Red Lumberjack Shirt",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to sew a Red Lumberjack Shirt.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Shirt",
+          "type": "BODY"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 41248,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/41248?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 41248
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Red Lumberjack Shirt",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/41248?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 41248
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
-        },
-        "inventory_type": {
-          "type": "BODY",
-          "name": "Shirt"
-        },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "sell_price": {
-          "value": 1000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "10",
-            "copper": "0"
-          }
+          "name": "Miscellaneous"
         },
         "level": {
-          "value": 1,
-          "display_string": "Item Level 1"
+          "display_string": "Item Level 1",
+          "value": 1
         },
-        "is_subclass_hidden": true
+        "media": {
+          "id": 41248,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/41248?namespace=static-11.1.0_59095-eu"
+          }
+        },
+        "name": "Red Lumberjack Shirt",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "10"
+          },
+          "value": 1000
+        }
       },
       "reagents": [
         {
+          "quantity": 4,
           "reagent": {
+            "id": 41510,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/41510?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Frostweave",
-            "id": 41510
-          },
-          "quantity": 4
+            "name": "Bolt of Frostweave"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 2604,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2604?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Red Dye",
-            "id": 2604
-          },
-          "quantity": 1
+            "name": "Red Dye"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Frostweave (4), Red Dye"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Northrend Tailoring (25)",
+        "level": 25,
+        "profession": {
+          "id": 2538,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2538?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Northrend Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 12500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 12500
 }

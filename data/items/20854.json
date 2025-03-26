@@ -4,241 +4,242 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/20854?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft an Amulet of the Moon.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 20854,
-  "name": "Design: Amulet of the Moon",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/20854?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 20854
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1800,
-  "sell_price": 450,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft an Amulet of the Moon.",
+  "media": {
+    "id": 20854,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/20854?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Amulet of the Moon",
   "preview_item": {
+    "description": "Teaches you how to craft an Amulet of the Moon.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 20854,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/20854?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20854
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Design: Amulet of the Moon",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/20854?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20854
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 450,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "4",
-        "copper": "50"
+    "media": {
+      "id": 20854,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/20854?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Jewelcrafting",
-          "id": 2524
-        },
-        "level": 110,
-        "display_string": "Requires Classic Jewelcrafting (110)"
-      }
+    "name": "Design: Amulet of the Moon",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to craft an Amulet of the Moon.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "charges": {
+          "display_string": "1 Charge",
+          "value": 1
+        },
+        "inventory_type": {
+          "name": "Neck",
+          "type": "NECK"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 20830,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/20830?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 20830
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Amulet of the Moon",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/20830?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 20830
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "NECK",
-          "name": "Neck"
+        "level": {
+          "display_string": "Item Level 18",
+          "value": 18
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
+        "media": {
+          "id": 20830,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/20830?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "VERSATILITY",
-              "name": "Versatility"
-            },
-            "value": 3,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+3 Versatility",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/25207?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Amulet of the Moon",
-              "id": 25207
-            },
-            "description": "Use: Gives 5.5 additional Versatility to nearby party members for 30 min. (1 Sec Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 1535,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "35"
-          }
+        "name": "Amulet of the Moon",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 11,
-            "display_string": "Requires Level 11"
+            "display_string": "Requires Level 11",
+            "value": 11
           }
         },
-        "level": {
-          "value": 18,
-          "display_string": "Item Level 18"
+        "sell_price": {
+          "display_strings": {
+            "copper": "35",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1535
         },
-        "charges": {
-          "value": 1,
-          "display_string": "1 Charge"
-        },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Use: Gives 5.5 additional Versatility to nearby party members for 30 min. (1 Sec Cooldown)",
+            "spell": {
+              "id": 25207,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/25207?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Amulet of the Moon"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Versatility"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Versatility",
+              "type": "VERSATILITY"
+            },
+            "value": 3
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 1705,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1705?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Lesser Moonstone",
-            "id": 1705
-          },
-          "quantity": 2
+            "name": "Lesser Moonstone"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 20817,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/20817?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bronze Setting",
-            "id": 20817
-          },
-          "quantity": 1
+            "name": "Bronze Setting"
+          }
         }
       ],
       "reagents_display_string": "Lesser Moonstone (2), Bronze Setting"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Jewelcrafting (110)",
+        "level": 110,
+        "profession": {
+          "id": 2524,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "4"
+      },
+      "value": 450
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1800,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 450
 }

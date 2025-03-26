@@ -4,259 +4,260 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12714?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Runic Plate Helm.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 12714,
-  "name": "Plans: Runic Plate Helm",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12714?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12714
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 40000,
-  "sell_price": 10000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Runic Plate Helm.",
+  "media": {
+    "id": 12714,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12714?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Runic Plate Helm",
   "preview_item": {
+    "description": "Teaches you how to make a Runic Plate Helm.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 12714,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12714?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12714
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Plans: Runic Plate Helm",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12714?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12714
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 12714,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12714?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 300,
-        "display_string": "Requires Classic Blacksmithing (300)"
-      }
+    "name": "Plans: Runic Plate Helm",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make a Runic Plate Helm.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "11 Armor"
+          },
+          "value": 11
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 70 / 70",
+          "value": 70
+        },
+        "inventory_type": {
+          "name": "Head",
+          "type": "HEAD"
+        },
         "item": {
+          "id": 12612,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/12612?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12612
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Runic Plate Helm",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/12612?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12612
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Plate",
-          "id": 4
+          "name": "Plate"
         },
-        "inventory_type": {
-          "type": "HEAD",
-          "name": "Head"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 11,
-          "display": {
-            "display_string": "11 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 12612,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/12612?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "FIRE_RESISTANCE",
-              "name": "Fire Resistance"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Fire Resistance",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "NATURE_RESISTANCE",
-              "name": "Nature Resistance"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Nature Resistance",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 108,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "1",
-            "copper": "8"
-          }
+        "name": "Runic Plate Helm",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 23,
-            "display_string": "Requires Level 23"
+            "display_string": "Requires Level 23",
+            "value": 23
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "8",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
+          },
+          "value": 108
         },
-        "durability": {
-          "value": 70,
-          "display_string": "Durability 70 / 70"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Fire Resistance"
+            },
+            "type": {
+              "name": "Fire Resistance",
+              "type": "FIRE_RESISTANCE"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Nature Resistance"
+            },
+            "type": {
+              "name": "Nature Resistance",
+              "type": "NATURE_RESISTANCE"
+            },
+            "value": 3
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 30,
           "reagent": {
+            "id": 12359,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12359?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Bar",
-            "id": 12359
-          },
-          "quantity": 30
+            "name": "Thorium Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12360,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcanite Bar",
-            "id": 12360
-          },
-          "quantity": 2
+            "name": "Arcanite Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 6037,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/6037?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Truesilver Bar",
-            "id": 6037
-          },
-          "quantity": 2
+            "name": "Truesilver Bar"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 12364,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12364?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Huge Emerald",
-            "id": 12364
-          },
-          "quantity": 1
+            "name": "Huge Emerald"
+          }
         }
       ],
       "reagents_display_string": "Thorium Bar (30), Arcanite Bar (2), Truesilver Bar (2), Huge Emerald"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (300)",
+        "level": 300,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 40000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 10000
 }

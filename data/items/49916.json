@@ -4,99 +4,100 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/49916?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "A lovely gift for a lovely friend.",
+  "icon_path": "data\\icons\\inv_jewelry_necklace_43.jpg",
   "id": 49916,
-  "name": "Lovely Charm Bracelet",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Wrist",
+    "type": "WRIST"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/49916?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 49916
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "WRIST",
-    "name": "Wrist"
-  },
-  "purchase_price": 1,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "A lovely gift for a lovely friend.",
+  "media": {
+    "id": 49916,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/49916?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Lovely Charm Bracelet",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "A lovely gift for a lovely friend.",
+    "inventory_type": {
+      "name": "Wrist",
+      "type": "WRIST"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 49916,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/49916?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 49916
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Lovely Charm Bracelet",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/49916?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 49916
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
+      "name": "Cosmetic"
     },
-    "inventory_type": {
-      "type": "WRIST",
-      "name": "Wrist"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
+    "media": {
+      "id": 49916,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/49916?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "A lovely gift for a lovely friend.",
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+    "name": "Lovely Charm Bracelet",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1
 }

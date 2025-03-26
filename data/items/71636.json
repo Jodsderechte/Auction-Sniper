@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/71636?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Who knows what creature lurks inside this egg? It would make a great addition to the Darkmoon Faire's collection of rare and amazing creatures.",
+  "icon_path": "data\\icons\\inv_egg_03.jpg",
   "id": 71636,
-  "name": "Monstrous Egg",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/71636?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 71636
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Who knows what creature lurks inside this egg? It would make a great addition to the Darkmoon Faire's collection of rare and amazing creatures.",
+  "media": {
+    "id": 71636,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/71636?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Monstrous Egg",
   "preview_item": {
+    "description": "Who knows what creature lurks inside this egg? It would make a great addition to the Darkmoon Faire's collection of rare and amazing creatures.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 71636,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/71636?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 71636
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Monstrous Egg",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/71636?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 71636
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "description": "Who knows what creature lurks inside this egg? It would make a great addition to the Darkmoon Faire's collection of rare and amazing creatures.",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 29444,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/29444?namespace=static-11.1.0_59095-eu"
         },
-        "name": "An Exotic Egg",
-        "id": 29444
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "An Exotic Egg"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 71636,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/71636?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Monstrous Egg",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

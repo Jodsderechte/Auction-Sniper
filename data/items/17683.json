@@ -4,109 +4,110 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/17683?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This item appears damaged by the elements and no longer readable.",
+  "icon_path": "data\\icons\\inv_misc_book_11.jpg",
   "id": 17683,
-  "name": "Book: Gift of the Wild",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 25,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/17683?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 17683
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Book",
-    "id": 0
+    "name": "Book"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 59000,
-  "sell_price": 14750,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "This item appears damaged by the elements and no longer readable.",
+  "media": {
+    "id": 17683,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/17683?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Book: Gift of the Wild",
   "preview_item": {
+    "description": "This item appears damaged by the elements and no longer readable.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 17683,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/17683?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 17683
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Book: Gift of the Wild",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/17683?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 17683
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Book",
-      "id": 0
+      "name": "Book"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 14750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "47",
-        "copper": "50"
+    "media": {
+      "id": 17683,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/17683?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Book: Gift of the Wild",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
+        "display_string": "Requires Level 25",
+        "value": 25
       },
       "playable_classes": {
+        "display_string": "Classes: Druid",
         "links": [
           {
+            "id": 11,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/playable-class/11?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Druid",
-            "id": 11
+            "name": "Druid"
           }
-        ],
-        "display_string": "Classes: Druid"
+        ]
       }
     },
-    "description": "This item appears damaged by the elements and no longer readable.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "47"
+      },
+      "value": 14750
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 59000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 25,
+  "sell_price": 14750
 }

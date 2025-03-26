@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6217?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Needed by an Enchanter to make a runed copper rod.",
+  "icon_path": "data\\icons\\inv_misc_flute_01.jpg",
   "id": 6217,
-  "name": "Copper Rod",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6217?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6217
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tradeskill",
-    "id": 7
+    "name": "Tradeskill"
   },
   "item_subclass": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 12
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 124,
-  "sell_price": 24,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Needed by an Enchanter to make a runed copper rod.",
+  "media": {
+    "id": 6217,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6217?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Copper Rod",
   "preview_item": {
+    "description": "Needed by an Enchanter to make a runed copper rod.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 6217,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6217?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6217
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Copper Rod",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6217?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6217
+      }
     },
     "item_class": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tradeskill",
-      "id": 7
+      "name": "Tradeskill"
     },
     "item_subclass": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 12
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 24,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "24"
+    "media": {
+      "id": 6217,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6217?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Needed by an Enchanter to make a runed copper rod.",
-    "is_subclass_hidden": true
+    "name": "Copper Rod",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "24",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 24
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 124,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 24
 }

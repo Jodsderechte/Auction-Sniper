@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204146?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Obsidian Combatant's Jeweled Amulet.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled03b.jpg",
   "id": 204146,
-  "name": "Design: Obsidian Combatant's Jeweled Amulet",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204146?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204146
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Obsidian Combatant's Jeweled Amulet.",
+  "media": {
+    "id": 204146,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204146?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Obsidian Combatant's Jeweled Amulet",
   "preview_item": {
+    "description": "Teaches you how to craft Obsidian Combatant's Jeweled Amulet.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 204146,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/204146?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204146
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Design: Obsidian Combatant's Jeweled Amulet",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204146?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204146
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 204146,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204146?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Design: Obsidian Combatant's Jeweled Amulet",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Jewelcrafting (35)",
+        "level": 35,
         "profession": {
+          "id": 2829,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2829?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Jewelcrafting",
-          "id": 2829
-        },
-        "level": 35,
-        "display_string": "Requires Dragon Isles Jewelcrafting (35)"
+          "name": "Dragon Isles Jewelcrafting"
+        }
       }
     },
-    "description": "Teaches you how to craft Obsidian Combatant's Jeweled Amulet.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

@@ -4,139 +4,140 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/153106?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1783,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1783?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "It's just a dull knife.",
+  "icon_path": "data\\icons\\ability_throw.jpg",
   "id": 153106,
-  "name": "Depleted Phaseblade",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Main Hand",
+    "type": "WEAPONMAINHAND"
   },
-  "level": 37,
-  "required_level": 40,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/153106?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 153106
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPONMAINHAND",
-    "name": "Main Hand"
-  },
-  "purchase_price": 1368990,
-  "sell_price": 273798,
+  "level": 37,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "It's just a dull knife.",
+  "media": {
+    "id": 153106,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/153106?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Depleted Phaseblade",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/153106?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153106
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "description": "It's just a dull knife.",
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
     },
-    "name": "Depleted Phaseblade",
-    "media": {
+    "inventory_type": {
+      "name": "Main Hand",
+      "type": "WEAPONMAINHAND"
+    },
+    "item": {
+      "id": 153106,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/153106?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153106
+        "href": "https://eu.api.blizzard.com/data/wow/item/153106?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPONMAINHAND",
-      "name": "Main Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 91,
-        "max_value": 152,
-        "display_string": "91 - 152 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 67.5,
-        "display_string": "(67.5 damage per second)"
+    "media": {
+      "id": 153106,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/153106?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 158208,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "15",
-        "silver": "82",
-        "copper": "8"
-      }
+    "name": "Depleted Phaseblade",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 40,
-        "display_string": "Requires Level 40"
+        "display_string": "Requires Level 40",
+        "value": 40
       }
     },
-    "description": "It's just a dull knife.",
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "8",
+        "gold": "15",
+        "header": "Sell Price:",
+        "silver": "82"
+      },
+      "value": 158208
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "91 - 152 Damage",
+        "max_value": 152,
+        "min_value": 91
+      },
+      "dps": {
+        "display_string": "(67.5 damage per second)",
+        "value": 67.5
+      }
     }
   },
+  "purchase_price": 1368990,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1783?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1783
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 40,
+  "sell_price": 273798
 }

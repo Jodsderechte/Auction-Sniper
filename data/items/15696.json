@@ -4,82 +4,83 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/15696?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "An old, worthless tome.",
+  "icon_path": "data\\icons\\inv_misc_book_03.jpg",
   "id": 15696,
-  "name": "Ruined Tome",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/15696?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 15696
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "An old, worthless tome.",
+  "media": {
+    "id": 15696,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/15696?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ruined Tome",
   "preview_item": {
+    "description": "An old, worthless tome.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 15696,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/15696?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 15696
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Ruined Tome",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/15696?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 15696
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 15696,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/15696?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "description": "An old, worthless tome.",
-    "is_subclass_hidden": true
+    "name": "Ruined Tome",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

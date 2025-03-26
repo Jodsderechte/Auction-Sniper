@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201376?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 78163,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/78163?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mace_1h_tuskarr_b_01.jpg",
   "id": 201376,
-  "name": "Imbu Tuskarr Mace",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 1,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201376?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201376
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 4
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 800000,
-  "sell_price": 200000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 201376,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201376?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Imbu Tuskarr Mace",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 201376,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/201376?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201376
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Imbu Tuskarr Mace",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201376?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201376
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 4
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 1,
-        "display_string": "1 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 0.38461536,
-        "display_string": "(0.4 damage per second)"
+    "media": {
+      "id": 201376,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201376?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 200000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Imbu Tuskarr Mace",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
+        "display_string": "Requires Level 60",
+        "value": 60
       }
     },
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 200000
     },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 Damage",
+        "max_value": 1,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.4 damage per second)",
+        "value": 0.38461536
+      }
     }
   },
+  "purchase_price": 800000,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/78163?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 78163
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 60,
+  "sell_price": 200000
 }

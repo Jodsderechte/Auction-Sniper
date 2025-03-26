@@ -4,140 +4,141 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201601?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 78157,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/78157?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Serves as a runed enchanting rod.",
+  "icon_path": "data\\icons\\inv_misc_enchantedpyriumrod.jpg",
   "id": 201601,
-  "name": "Runed Serevite Rod",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 270,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201601?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201601
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 100000,
-  "sell_price": 20000,
+  "level": 270,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Serves as a runed enchanting rod.",
+  "media": {
+    "id": 201601,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201601?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Runed Serevite Rod",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "Serves as a runed enchanting rod.",
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
+    },
     "item": {
+      "id": 201601,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/201601?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201601
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Runed Serevite Rod",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201601?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201601
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-          "name": "Multicraft"
-        },
-        "value": 31,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+31 Multicraft",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455748?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455748
-        },
-        "description": "Equip: +2 Dragon Isles Enchanting Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 201601,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201601?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Serves as a runed enchanting rod.",
     "modified_crafting_stat": [
       {
         "id": 81,
-        "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-        "name": "Multicraft"
+        "name": "Multicraft",
+        "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+      }
+    ],
+    "name": "Runed Serevite Rod",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    },
+    "spells": [
+      {
+        "description": "Equip: +2 Dragon Isles Enchanting Skill",
+        "spell": {
+          "id": 455748,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455748?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+31 Multicraft"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Multicraft",
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+        },
+        "value": 31
       }
     ]
   },
+  "purchase_price": 100000,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/78157?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 78157
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 20000
 }

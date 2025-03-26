@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/160936?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1810,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1810?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_wand_07.jpg",
   "id": 160936,
-  "name": "Depleted Arcane Scepter",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 37,
-  "required_level": 45,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/160936?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 160936
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Wand",
-    "id": 19
+    "name": "Wand"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 1758466,
-  "sell_price": 351693,
+  "level": 37,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 160936,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/160936?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Depleted Arcane Scepter",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/160936?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 160936
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 75 / 75",
+      "value": 75
     },
-    "name": "Depleted Arcane Scepter",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 160936,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/160936?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 160936
+        "href": "https://eu.api.blizzard.com/data/wow/item/160936?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Wand",
-      "id": 19
+      "name": "Wand"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 50,
-        "max_value": 85,
-        "display_string": "50 - 85 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2000,
-        "display_string": "Speed 2.00"
-      },
-      "dps": {
-        "value": 33.75,
-        "display_string": "(33.8 damage per second)"
+    "media": {
+      "id": 160936,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/160936?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 203218,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "32",
-        "copper": "18"
-      }
+    "name": "Depleted Arcane Scepter",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 45,
-        "display_string": "Requires Level 45"
+        "display_string": "Requires Level 45",
+        "value": 45
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "18",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "32"
+      },
+      "value": 203218
     },
-    "durability": {
-      "value": 75,
-      "display_string": "Durability 75 / 75"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.00",
+        "value": 2000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "50 - 85 Damage",
+        "max_value": 85,
+        "min_value": 50
+      },
+      "dps": {
+        "display_string": "(33.8 damage per second)",
+        "value": 33.75
+      }
     }
   },
+  "purchase_price": 1758466,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1810?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1810
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 45,
+  "sell_price": 351693
 }

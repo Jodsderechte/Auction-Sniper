@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/194056?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_duckbaby_white.jpg",
   "id": 194056,
-  "name": "Duck-Stuffed Duck Lovie",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/194056?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 194056
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 500000,
-  "sell_price": 100000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 194056,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/194056?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Duck-Stuffed Duck Lovie",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 194056,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/194056?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194056
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Duck-Stuffed Duck Lovie",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/194056?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194056
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 194056,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/194056?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Duck-Stuffed Duck Lovie",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 100000
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nTake a nap with your favorite duckie. (10 Min Cooldown)",
         "spell": {
+          "id": 383065,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/383065?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Snoozing with Duckie",
-          "id": 383065
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nTake a nap with your favorite duckie. (10 Min Cooldown)"
+          "name": "Snoozing with Duckie"
+        }
       }
     ],
-    "sell_price": {
-      "value": 100000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 500000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 100000
 }

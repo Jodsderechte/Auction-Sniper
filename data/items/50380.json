@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/50380?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This scratched and dented hilt once belonged to an ancient sword.",
+  "icon_path": "data\\icons\\inv_qiraj_hiltornate.jpg",
   "id": 50380,
-  "name": "Battered Hilt",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/50380?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 50380
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "This scratched and dented hilt once belonged to an ancient sword.",
+  "media": {
+    "id": 50380,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/50380?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Battered Hilt",
   "preview_item": {
+    "description": "This scratched and dented hilt once belonged to an ancient sword.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 50380,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/50380?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 50380
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Battered Hilt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/50380?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 50380
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
-      },
-      "faction": {
-        "value": {
-          "type": "HORDE",
-          "name": "Horde"
-        },
-        "display_string": "Horde Only"
-      }
-    },
-    "description": "This scratched and dented hilt once belonged to an ancient sword.",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 24554,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/24554?namespace=static-11.1.0_59095-eu"
         },
-        "name": "The Battered Hilt",
-        "id": 24554
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "The Battered Hilt"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 50380,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/50380?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Battered Hilt",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "requirements": {
+      "faction": {
+        "display_string": "Horde Only",
+        "value": {
+          "name": "Horde",
+          "type": "HORDE"
+        }
+      },
+      "level": {
+        "display_string": "Requires Level 25",
+        "value": 25
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 25,
+  "sell_price": 0
 }

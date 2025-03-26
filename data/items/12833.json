@@ -4,273 +4,274 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12833?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Hammer of the Titans.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 12833,
-  "name": "Plans: Hammer of the Titans",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12833?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12833
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 80000,
-  "sell_price": 20000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Hammer of the Titans.",
+  "media": {
+    "id": 12833,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12833?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Hammer of the Titans",
   "preview_item": {
+    "description": "Teaches you how to make a Hammer of the Titans.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 12833,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12833?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12833
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Plans: Hammer of the Titans",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12833?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12833
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 12833,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12833?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 300,
-        "display_string": "Requires Classic Blacksmithing (300)"
-      }
+    "name": "Plans: Hammer of the Titans",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to make a Hammer of the Titans.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 100 / 100",
+          "value": 100
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
         "item": {
+          "id": 12796,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/12796?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12796
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Hammer of the Titans",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/12796?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12796
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 5,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mace",
-          "id": 5
+          "name": "Mace"
         },
-        "inventory_type": {
-          "type": "TWOHWEAPON",
-          "name": "Two-Hand"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 8,
-            "max_value": 11,
-            "display_string": "8 - 11 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3600,
-            "display_string": "Speed 3.60"
-          },
-          "dps": {
-            "value": 2.6388888,
-            "display_string": "(2.6 damage per second)"
+        "media": {
+          "id": 12796,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/12796?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/56?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Stun",
-              "id": 56
-            },
-            "description": "Chance on hit: Stuns target for 3 sec. (Requires level 49 or below)"
-          }
-        ],
-        "sell_price": {
-          "value": 309,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "3",
-            "copper": "9"
-          }
+        "name": "Hammer of the Titans",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 24,
-            "display_string": "Requires Level 24"
+            "display_string": "Requires Level 24",
+            "value": 24
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "9",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "3"
+          },
+          "value": 309
         },
-        "durability": {
-          "value": 100,
-          "display_string": "Durability 100 / 100"
+        "spells": [
+          {
+            "description": "Chance on hit: Stuns target for 3 sec. (Requires level 49 or below)",
+            "spell": {
+              "id": 56,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/56?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Stun"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 3
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.60",
+            "value": 3600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "8 - 11 Damage",
+            "max_value": 11,
+            "min_value": 8
+          },
+          "dps": {
+            "display_string": "(2.6 damage per second)",
+            "value": 2.6388888
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 50,
           "reagent": {
+            "id": 12359,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12359?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Bar",
-            "id": 12359
-          },
-          "quantity": 50
+            "name": "Thorium Bar"
+          }
         },
         {
+          "quantity": 15,
           "reagent": {
+            "id": 12360,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcanite Bar",
-            "id": 12360
-          },
-          "quantity": 15
+            "name": "Arcanite Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12809,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12809?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Guardian Stone",
-            "id": 12809
-          },
-          "quantity": 4
+            "name": "Guardian Stone"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 12810,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12810?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Enchanted Leather",
-            "id": 12810
-          },
-          "quantity": 6
+            "name": "Enchanted Leather"
+          }
         },
         {
+          "quantity": 10,
           "reagent": {
+            "id": 7076,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7076?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Essence of Earth",
-            "id": 7076
-          },
-          "quantity": 10
+            "name": "Essence of Earth"
+          }
         }
       ],
       "reagents_display_string": "Thorium Bar (50), Arcanite Bar (15), Guardian Stone (4), Enchanted Leather (6), Essence of Earth (10)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (300)",
+        "level": 300,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 80000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 20000
 }

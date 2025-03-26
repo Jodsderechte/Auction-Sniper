@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/153108?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 388,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/388?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_pick_01.jpg",
   "id": 153108,
-  "name": "Krokul Drudge Pickaxe",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Main Hand",
+    "type": "WEAPONMAINHAND"
   },
-  "level": 37,
-  "required_level": 40,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/153108?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 153108
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "WEAPONMAINHAND",
-    "name": "Main Hand"
-  },
-  "purchase_price": 1379345,
-  "sell_price": 275869,
+  "level": 37,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 153108,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/153108?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Krokul Drudge Pickaxe",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/153108?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153108
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 75 / 75",
+      "value": 75
     },
-    "name": "Krokul Drudge Pickaxe",
-    "media": {
+    "inventory_type": {
+      "name": "Main Hand",
+      "type": "WEAPONMAINHAND"
+    },
+    "item": {
+      "id": 153108,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/153108?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153108
+        "href": "https://eu.api.blizzard.com/data/wow/item/153108?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "WEAPONMAINHAND",
-      "name": "Main Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 114,
-        "max_value": 238,
-        "display_string": "114 - 238 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 67.69231,
-        "display_string": "(67.7 damage per second)"
+    "media": {
+      "id": 153108,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/153108?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 159405,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "15",
-        "silver": "94",
-        "copper": "5"
-      }
+    "name": "Krokul Drudge Pickaxe",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 40,
-        "display_string": "Requires Level 40"
+        "display_string": "Requires Level 40",
+        "value": 40
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "5",
+        "gold": "15",
+        "header": "Sell Price:",
+        "silver": "94"
+      },
+      "value": 159405
     },
-    "durability": {
-      "value": 75,
-      "display_string": "Durability 75 / 75"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "114 - 238 Damage",
+        "max_value": 238,
+        "min_value": 114
+      },
+      "dps": {
+        "display_string": "(67.7 damage per second)",
+        "value": 67.69231
+      }
     }
   },
+  "purchase_price": 1379345,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/388?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 388
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 40,
+  "sell_price": 275869
 }

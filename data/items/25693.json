@@ -4,267 +4,268 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25693?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6747,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6747?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_boots_chain_06.jpg",
   "id": 25693,
-  "name": "Netherfury Boots",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 31,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25693?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25693
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 31,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25693,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25693?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Netherfury Boots",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "6 Armor"
+      },
+      "value": 6
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
+    },
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
     "item": {
+      "id": 25693,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/25693?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25693
-    },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
       }
-    ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Netherfury Boots",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25693?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25693
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
+    "level": {
+      "display_string": "Item Level 31",
+      "value": 31
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 6,
-      "display": {
-        "display_string": "6 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 25693,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25693?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "socket_bonus": "Socket Bonus: +1 Critical Strike",
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Netherfury Boots",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/576?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Fury of the Nether",
-        "id": 576
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/25694?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Netherfury Belt",
-            "id": 25694
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/25693?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Netherfury Boots",
-            "id": 25693
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/25692?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Netherfury Leggings",
-            "id": 25692
-          }
-        }
-      ],
+      "value": 1500
+    },
+    "set": {
+      "display_string": "Fury of the Nether (0/3)",
       "effects": [
         {
           "display_string": "(3) Set: +10 Intellect.",
           "required_count": 3
         }
       ],
-      "display_string": "Fury of the Nether (0/3)",
+      "item_set": {
+        "id": 576,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/576?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Fury of the Nether"
+      },
+      "items": [
+        {
+          "item": {
+            "id": 25694,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/25694?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Netherfury Belt"
+          }
+        },
+        {
+          "item": {
+            "id": 25693,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/25693?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Netherfury Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 25692,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/25692?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Netherfury Leggings"
+          }
+        }
+      ],
       "requirements": {
         "skill": {
+          "display_string": "Requires Leatherworking (350)",
+          "level": 350,
           "profession": {
+            "id": 165,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/profession/165?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Leatherworking",
-            "id": 165
-          },
-          "level": 350,
-          "display_string": "Requires Leatherworking (350)"
+            "name": "Leatherworking"
+          }
         }
       }
     },
-    "level": {
-      "value": 31,
-      "display_string": "Item Level 31"
-    },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6747?namespace=static-11.1.0_59095-eu"
+    "socket_bonus": "Socket Bonus: +1 Critical Strike",
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
       },
-      "id": 6747
-    }
-  ]
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 3
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 1500
 }

@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4240?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bag_10.jpg",
   "id": 4240,
-  "name": "Woolen Bag",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 8,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4240?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4240
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bag",
-    "id": 0
-  },
-  "inventory_type": {
-    "type": "BAG",
     "name": "Bag"
   },
-  "purchase_price": 1200,
-  "sell_price": 300,
+  "level": 8,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4240,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4240?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Woolen Bag",
   "preview_item": {
+    "container_slots": {
+      "display_string": "8 Slot Bag",
+      "value": 8
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 4240,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/4240?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4240
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Woolen Bag",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4240?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4240
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bag",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "BAG",
       "name": "Bag"
     },
-    "sell_price": {
-      "value": 300,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "3",
-        "copper": "0"
+    "media": {
+      "id": 4240,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4240?namespace=static-11.1.0_59095-eu"
       }
     },
-    "container_slots": {
-      "value": 8,
-      "display_string": "8 Slot Bag"
+    "name": "Woolen Bag",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 300
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1200,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 300
 }

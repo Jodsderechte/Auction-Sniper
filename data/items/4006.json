@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4006?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1131,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1131?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_15.jpg",
   "id": 4006,
-  "name": "Overlinked Chain Shoulderpads",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 23,
-  "required_level": 16,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4006?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4006
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 202371,
-  "sell_price": 40474,
+  "level": 23,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4006,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4006?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Overlinked Chain Shoulderpads",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/4006?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "271 Armor"
       },
-      "id": 4006
+      "value": 271
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 60 / 60",
+      "value": 60
     },
-    "name": "Overlinked Chain Shoulderpads",
-    "media": {
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
+    "item": {
+      "id": 4006,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4006?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4006
+        "href": "https://eu.api.blizzard.com/data/wow/item/4006?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 271,
-      "display": {
-        "display_string": "271 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 4006,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4006?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 88714,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "87",
-        "copper": "14"
-      }
+    "name": "Overlinked Chain Shoulderpads",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 16,
-        "display_string": "Requires Level 16"
+        "display_string": "Requires Level 16",
+        "value": 16
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 60,
-      "display_string": "Durability 60 / 60"
+    "sell_price": {
+      "display_strings": {
+        "copper": "14",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "87"
+      },
+      "value": 88714
     }
   },
+  "purchase_price": 202371,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1131?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1131
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 16,
+  "sell_price": 40474
 }

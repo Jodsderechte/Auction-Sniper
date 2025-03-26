@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/899?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 285,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/285?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_misc_monsterfang_01.jpg",
   "id": 899,
-  "name": "Venom Web Fang",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 11,
-  "required_level": 7,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/899?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 899
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 5177,
-  "sell_price": 1035,
+  "level": 11,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 899,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/899?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Venom Web Fang",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/899?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 899
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6655
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 30 / 30",
+      "value": 30
     },
-    "name": "Venom Web Fang",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 899,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/899?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 899
+        "href": "https://eu.api.blizzard.com/data/wow/item/899?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 357",
+      "value": 357
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 210,
-        "max_value": 351,
-        "display_string": "210 - 351 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 155.83333,
-        "display_string": "(155.8 damage per second)"
+    "media": {
+      "id": 899,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/899?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/18077?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Poison",
-          "id": 18077
-        },
-        "description": "Chance on hit: Poisons target for 54 Nature damage every 3 sec for 15 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 488745,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "48",
-        "silver": "87",
-        "copper": "45"
-      }
+    "name": "Venom Web Fang",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 7,
-        "display_string": "Requires Level 7"
+        "display_string": "Requires Level 7",
+        "value": 7
       }
     },
-    "level": {
-      "value": 357,
-      "display_string": "Item Level 357"
+    "sell_price": {
+      "display_strings": {
+        "copper": "45",
+        "gold": "48",
+        "header": "Sell Price:",
+        "silver": "87"
+      },
+      "value": 488745
     },
-    "durability": {
-      "value": 30,
-      "display_string": "Durability 30 / 30"
+    "spells": [
+      {
+        "description": "Chance on hit: Poisons target for 54 Nature damage every 3 sec for 15 sec.",
+        "spell": {
+          "id": 18077,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/18077?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Poison"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "210 - 351 Damage",
+        "max_value": 351,
+        "min_value": 210
+      },
+      "dps": {
+        "display_string": "(155.8 damage per second)",
+        "value": 155.83333
+      }
     }
   },
+  "purchase_price": 5177,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/285?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 285
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 7,
+  "sell_price": 1035
 }

@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/152634?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_trinket_80_alchemy01.jpg",
   "id": 152634,
-  "name": "Endless Tincture of Renewed Combat",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 52,
-  "required_level": 45,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/152634?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 152634
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 52,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 152634,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/152634?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Endless Tincture of Renewed Combat",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 152634,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/152634?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 152634
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Endless Tincture of Renewed Combat",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/152634?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 152634
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 52",
+      "value": 52
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 152634,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/152634?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 9,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+9 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/265477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Endless Tincture of Renewed Combat",
-          "id": 265477
-        },
-        "description": "Equip: Restores 826 health whenever you kill a target that yields experience or honor."
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Endless Tincture of Renewed Combat",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 45,
-        "display_string": "Requires Level 45"
+        "display_string": "Requires Level 45",
+        "value": 45
       }
     },
-    "level": {
-      "value": 52,
-      "display_string": "Item Level 52"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
+      },
+      "value": 1500
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Restores 826 health whenever you kill a target that yields experience or honor.",
+        "spell": {
+          "id": 265477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/265477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Endless Tincture of Renewed Combat"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+9 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 9
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 45,
+  "sell_price": 1500
 }

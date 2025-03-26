@@ -4,206 +4,207 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/210131?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 81803,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/81803?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_bow_1h_emeralddreamoutdoor_d_01.jpg",
   "id": 210131,
-  "name": "Wildleaf Longbow",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGED"
   },
-  "level": 415,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/210131?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 210131
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bow",
-    "id": 2
+    "name": "Bow"
   },
-  "inventory_type": {
-    "type": "RANGED",
-    "name": "Ranged"
-  },
-  "purchase_price": 4765755,
-  "sell_price": 953151,
+  "level": 415,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 210131,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/210131?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wildleaf Longbow",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/210131?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 210131
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
     },
-    "context": 0,
     "bonus_list": [
       8902
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Wildleaf Longbow",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGED"
+    },
+    "item": {
+      "id": 210131,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/210131?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 210131
+        "href": "https://eu.api.blizzard.com/data/wow/item/210131?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bow",
-      "id": 2
+      "name": "Bow"
     },
-    "inventory_type": {
-      "type": "RANGED",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 415",
+      "value": 415
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 903,
-        "max_value": 1223,
-        "display_string": "903 - 1,223 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 354.16663,
-        "display_string": "(354.2 damage per second)"
+    "media": {
+      "id": 210131,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/210131?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 471,
-        "is_negated": true,
-        "display": {
-          "display_string": "+471 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 1442,
-        "display": {
-          "display_string": "+1,442 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 301,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+301 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 452,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+452 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 714796,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "71",
-        "silver": "47",
-        "copper": "96"
-      }
+    "name": "Wildleaf Longbow",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "level": {
-      "value": 415,
-      "display_string": "Item Level 415"
+    "sell_price": {
+      "display_strings": {
+        "copper": "96",
+        "gold": "71",
+        "header": "Sell Price:",
+        "silver": "47"
+      },
+      "value": 714796
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+471 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 471
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+1,442 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 1442
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+301 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 301
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+452 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 452
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "903 - 1,223 Damage",
+        "max_value": 1223,
+        "min_value": 903
+      },
+      "dps": {
+        "display_string": "(354.2 damage per second)",
+        "value": 354.16663
+      }
     }
   },
+  "purchase_price": 4765755,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/81803?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 81803
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 953151
 }

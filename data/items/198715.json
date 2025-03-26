@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/198715?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Serves as a runed enchanting rod.",
+  "icon_path": "data\\icons\\inv_misc_1h_enchantingrod_b_01.jpg",
   "id": 198715,
-  "name": "Runed Draconium Rod",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/198715?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 198715
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 300000,
-  "sell_price": 60000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Serves as a runed enchanting rod.",
+  "media": {
+    "id": 198715,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/198715?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Runed Draconium Rod",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/198715?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198715
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "description": "Serves as a runed enchanting rod.",
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Runed Draconium Rod",
-    "media": {
+    "item": {
+      "id": 198715,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/198715?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198715
+        "href": "https://eu.api.blizzard.com/data/wow/item/198715?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_INGENUITY",
-          "name": "Ingenuity"
-        },
-        "value": 58,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+58 Ingenuity",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455769?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455769
-        },
-        "description": "Equip: +6 Dragon Isles Enchanting Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 60000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "6",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 198715,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/198715?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Serves as a runed enchanting rod.",
     "modified_crafting_stat": [
       {
         "id": 82,
-        "type": "BONUS_STAT_PROFESSION_INGENUITY",
-        "name": "Ingenuity"
+        "name": "Ingenuity",
+        "type": "BONUS_STAT_PROFESSION_INGENUITY"
+      }
+    ],
+    "name": "Runed Draconium Rod",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "6",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 60000
+    },
+    "spells": [
+      {
+        "description": "Equip: +6 Dragon Isles Enchanting Skill",
+        "spell": {
+          "id": 455769,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455769?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+58 Ingenuity"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Ingenuity",
+          "type": "BONUS_STAT_PROFESSION_INGENUITY"
+        },
+        "value": 58
       }
     ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 300000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 60000
 }

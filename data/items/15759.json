@@ -4,268 +4,154 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/15759?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Black Dragonscale Breastplate.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 15759,
-  "name": "Pattern: Black Dragonscale Breastplate",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/15759?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 15759
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leatherworking",
-    "id": 1
+    "name": "Leatherworking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 22000,
-  "sell_price": 5500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Black Dragonscale Breastplate.",
+  "media": {
+    "id": 15759,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/15759?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Black Dragonscale Breastplate",
   "preview_item": {
+    "description": "Teaches you how to craft a Black Dragonscale Breastplate.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 15759,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/15759?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 15759
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Pattern: Black Dragonscale Breastplate",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/15759?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 15759
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leatherworking",
-      "id": 1
+      "name": "Leatherworking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 5500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "55",
-        "copper": "0"
+    "media": {
+      "id": 15759,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/15759?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2532?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Leatherworking",
-          "id": 2532
-        },
-        "level": 290,
-        "display_string": "Requires Classic Leatherworking (290)"
-      }
+    "name": "Pattern: Black Dragonscale Breastplate",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to craft a Black Dragonscale Breastplate.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "9 Armor"
+          },
+          "value": 9
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 130 / 130",
+          "value": 130
+        },
+        "inventory_type": {
+          "name": "Chest",
+          "type": "CHEST"
+        },
         "item": {
+          "id": 15050,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/15050?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 15050
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Black Dragonscale Breastplate",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/15050?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 15050
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mail",
-          "id": 3
+          "name": "Mail"
         },
-        "inventory_type": {
-          "type": "CHEST",
-          "name": "Chest"
+        "level": {
+          "display_string": "Item Level 28",
+          "value": 28
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 9,
-          "display": {
-            "display_string": "9 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 15050,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/15050?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 5,
-            "display": {
-              "display_string": "+5 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 5,
-            "is_negated": true,
-            "display": {
-              "display_string": "+5 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 5,
-            "display": {
-              "display_string": "+5 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 155,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "1",
-            "copper": "55"
-          }
+        "name": "Black Dragonscale Breastplate",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 22,
-            "display_string": "Requires Level 22"
+            "display_string": "Requires Level 22",
+            "value": 22
           }
         },
-        "set": {
-          "item_set": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item-set/489?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Black Dragon Mail",
-            "id": 489
+        "sell_price": {
+          "display_strings": {
+            "copper": "55",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
           },
-          "items": [
-            {
-              "item": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/item/16984?namespace=static-11.1.0_59095-eu"
-                },
-                "name": "Black Dragonscale Boots",
-                "id": 16984
-              }
-            },
-            {
-              "item": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/item/15050?namespace=static-11.1.0_59095-eu"
-                },
-                "name": "Black Dragonscale Breastplate",
-                "id": 15050
-              }
-            },
-            {
-              "item": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/item/15052?namespace=static-11.1.0_59095-eu"
-                },
-                "name": "Black Dragonscale Leggings",
-                "id": 15052
-              }
-            },
-            {
-              "item": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/item/15051?namespace=static-11.1.0_59095-eu"
-                },
-                "name": "Black Dragonscale Shoulders",
-                "id": 15051
-              }
-            }
-          ],
+          "value": 155
+        },
+        "set": {
+          "display_string": "Black Dragon Mail (0/4)",
           "effects": [
             {
               "display_string": "(2) Set: Increases your haste by 5.",
@@ -280,62 +166,177 @@
               "required_count": 4
             }
           ],
-          "display_string": "Black Dragon Mail (0/4)"
+          "item_set": {
+            "id": 489,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-set/489?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Black Dragon Mail"
+          },
+          "items": [
+            {
+              "item": {
+                "id": 16984,
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/item/16984?namespace=static-11.1.0_59095-eu"
+                },
+                "name": "Black Dragonscale Boots"
+              }
+            },
+            {
+              "item": {
+                "id": 15050,
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/item/15050?namespace=static-11.1.0_59095-eu"
+                },
+                "name": "Black Dragonscale Breastplate"
+              }
+            },
+            {
+              "item": {
+                "id": 15052,
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/item/15052?namespace=static-11.1.0_59095-eu"
+                },
+                "name": "Black Dragonscale Leggings"
+              }
+            },
+            {
+              "item": {
+                "id": 15051,
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/item/15051?namespace=static-11.1.0_59095-eu"
+                },
+                "name": "Black Dragonscale Shoulders"
+              }
+            }
+          ]
         },
-        "level": {
-          "value": 28,
-          "display_string": "Item Level 28"
-        },
-        "durability": {
-          "value": 130,
-          "display_string": "Durability 130 / 130"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+5 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 25,
           "reagent": {
+            "id": 8170,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/8170?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Rugged Leather",
-            "id": 8170
-          },
-          "quantity": 25
+            "name": "Rugged Leather"
+          }
         },
         {
+          "quantity": 25,
           "reagent": {
+            "id": 15416,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/15416?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Black Dragonscale",
-            "id": 15416
-          },
-          "quantity": 25
+            "name": "Black Dragonscale"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 15407,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/15407?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Cured Rugged Hide",
-            "id": 15407
-          },
-          "quantity": 1
+            "name": "Cured Rugged Hide"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 14341,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14341?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Rune Thread",
-            "id": 14341
-          },
-          "quantity": 2
+            "name": "Rune Thread"
+          }
         }
       ],
       "reagents_display_string": "Rugged Leather (25), Black Dragonscale (25), Cured Rugged Hide, Rune Thread (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Leatherworking (290)",
+        "level": 290,
+        "profession": {
+          "id": 2532,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2532?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Leatherworking"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "55"
+      },
+      "value": 5500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 22000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 5500
 }

@@ -4,168 +4,169 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/222653?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_10_inscription_darkmooncards_spore_blank.jpg",
   "id": 222653,
-  "name": "Darkmoon Deck: Symbiosis",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 577,
-  "required_level": 80,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/222653?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 222653
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 3965064,
-  "sell_price": 793012,
+  "level": 577,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 222653,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/222653?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Darkmoon Deck: Symbiosis",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 222653,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/222653?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222653
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Darkmoon Deck: Symbiosis",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/222653?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222653
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 577",
+      "value": 577
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 222653,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/222653?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 2024,
-        "display": {
-          "display_string": "+2,024 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 2024,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2,024 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 2024,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2,024 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/463610?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Symbiosis",
-          "id": 463610
-        },
-        "description": "Equip: Every 10 sec in combat take 1% of your maximum Health as Nature damage and gain a stack of Symbiosis, granting 16 Versatility for 20 sec  stacking up to 5 times."
-      }
-    ],
-    "sell_price": {
-      "value": 793012,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "79",
-        "silver": "30",
-        "copper": "12"
-      }
+    "name": "Darkmoon Deck: Symbiosis",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
+        "display_string": "Requires Level 80",
+        "value": 80
       }
     },
-    "level": {
-      "value": 577,
-      "display_string": "Item Level 577"
+    "sell_price": {
+      "display_strings": {
+        "copper": "12",
+        "gold": "79",
+        "header": "Sell Price:",
+        "silver": "30"
+      },
+      "value": 793012
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Every 10 sec in combat take 1% of your maximum Health as Nature damage and gain a stack of Symbiosis, granting 16 Versatility for 20 sec  stacking up to 5 times.",
+        "spell": {
+          "id": 463610,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/463610?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Symbiosis"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2,024 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 2024
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2,024 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 2024
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2,024 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 2024
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 3965064,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 80,
+  "sell_price": 793012
 }

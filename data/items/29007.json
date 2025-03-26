@@ -4,117 +4,118 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/29007?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_axe_20.jpg",
   "id": 29007,
-  "name": "Weighted Throwing Axe",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Thrown",
+    "type": "THROWN"
   },
-  "level": 4,
-  "required_level": 2,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/29007?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 29007
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 16,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/16?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Thrown",
-    "id": 16
-  },
-  "inventory_type": {
-    "type": "THROWN",
     "name": "Thrown"
   },
-  "purchase_price": 30,
-  "sell_price": 7,
+  "level": 4,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 29007,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/29007?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Weighted Throwing Axe",
   "preview_item": {
+    "inventory_type": {
+      "name": "Thrown",
+      "type": "THROWN"
+    },
     "item": {
+      "id": 29007,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/29007?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 29007
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Weighted Throwing Axe",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/29007?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 29007
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 16,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/16?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Thrown",
-      "id": 16
-    },
-    "inventory_type": {
-      "type": "THROWN",
       "name": "Thrown"
     },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 1,
-        "display_string": "1 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1900,
-        "display_string": "Speed 1.90"
-      },
-      "dps": {
-        "value": 0.52631575,
-        "display_string": "(0.5 damage per second)"
+    "level": {
+      "display_string": "Item Level 4",
+      "value": 4
+    },
+    "media": {
+      "id": 29007,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/29007?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 7,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "7"
-      }
+    "name": "Weighted Throwing Axe",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 2,
-        "display_string": "Requires Level 2"
+        "display_string": "Requires Level 2",
+        "value": 2
       }
     },
-    "level": {
-      "value": 4,
-      "display_string": "Item Level 4"
+    "sell_price": {
+      "display_strings": {
+        "copper": "7",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 7
+    },
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.90",
+        "value": 1900
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 Damage",
+        "max_value": 1,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.5 damage per second)",
+        "value": 0.52631575
+      }
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 30,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 2,
+  "sell_price": 7
 }

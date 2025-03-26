@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1515?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 460,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/460?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_09.jpg",
   "id": 1515,
-  "name": "Rough Wooden Staff",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 6,
-  "required_level": 3,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1515?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1515
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 984,
-  "sell_price": 196,
+  "level": 6,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1515,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1515?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Rough Wooden Staff",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1515?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1515
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 35 / 35",
+      "value": 35
     },
-    "name": "Rough Wooden Staff",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 1515,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1515?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1515
+        "href": "https://eu.api.blizzard.com/data/wow/item/1515?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
+      "name": "Staff"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 274,
-        "max_value": 372,
-        "display_string": "274 - 372 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 89.72222,
-        "display_string": "(89.7 damage per second)"
+    "media": {
+      "id": 1515,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1515?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 202571,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "25",
-        "copper": "71"
-      }
+    "name": "Rough Wooden Staff",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 3,
-        "display_string": "Requires Level 3"
+        "display_string": "Requires Level 3",
+        "value": 3
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "71",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 202571
     },
-    "durability": {
-      "value": 35,
-      "display_string": "Durability 35 / 35"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "274 - 372 Damage",
+        "max_value": 372,
+        "min_value": 274
+      },
+      "dps": {
+        "display_string": "(89.7 damage per second)",
+        "value": 89.72222
+      }
     }
   },
+  "purchase_price": 984,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/460?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 460
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 3,
+  "sell_price": 196
 }

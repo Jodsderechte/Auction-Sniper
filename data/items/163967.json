@@ -4,204 +4,205 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/163967?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 26269,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/26269?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "You have been measured and found wanting.",
+  "icon_path": "data\\icons\\inv_polearm_2h_felfireraid_d_01.jpg",
   "id": 163967,
-  "name": "Shtuf's Ruler",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 60,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/163967?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 163967
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Polearm",
-    "id": 6
+    "name": "Polearm"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 6593890,
-  "sell_price": 1318778,
+  "level": 60,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "You have been measured and found wanting.",
+  "media": {
+    "id": 163967,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/163967?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Shtuf's Ruler",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "You have been measured and found wanting.",
+    "durability": {
+      "display_string": "Durability 120 / 120",
+      "value": 120
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 163967,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/163967?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 163967
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Shtuf's Ruler",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/163967?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 163967
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Polearm",
-      "id": 6
+      "name": "Polearm"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 60",
+      "value": 60
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 11,
-        "max_value": 22,
-        "display_string": "11 - 22 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 4.583333,
-        "display_string": "(4.6 damage per second)"
+    "media": {
+      "id": 163967,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/163967?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 6,
-        "is_negated": true,
-        "display": {
-          "display_string": "+6 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 9,
-        "display": {
-          "display_string": "+9 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 8,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+8 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 5,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+5 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 3728,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "37",
-        "copper": "28"
-      }
+    "name": "Shtuf's Ruler",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
+        "display_string": "Requires Level 50",
+        "value": 50
       }
     },
-    "description": "You have been measured and found wanting.",
-    "level": {
-      "value": 60,
-      "display_string": "Item Level 60"
+    "sell_price": {
+      "display_strings": {
+        "copper": "28",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "37"
+      },
+      "value": 3728
     },
-    "durability": {
-      "value": 120,
-      "display_string": "Durability 120 / 120"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+6 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 6
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+9 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 9
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+8 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 8
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+5 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 5
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "11 - 22 Damage",
+        "max_value": 22,
+        "min_value": 11
+      },
+      "dps": {
+        "display_string": "(4.6 damage per second)",
+        "value": 4.583333
+      }
     }
   },
+  "purchase_price": 6593890,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/26269?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 26269
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 50,
+  "sell_price": 1318778
 }

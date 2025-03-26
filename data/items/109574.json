@@ -4,112 +4,113 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/109574?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Normally too complicated for the common person, this particular mailbox has extra-large buttons and instructions on it.",
+  "icon_path": "data\\icons\\inv_misc_molle.jpg",
   "id": 109574,
-  "name": "GUMM-E",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/109574?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 109574
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 16000,
-  "sell_price": 4000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Normally too complicated for the common person, this particular mailbox has extra-large buttons and instructions on it.",
+  "media": {
+    "id": 109574,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/109574?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "GUMM-E",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "charges": {
+      "display_string": "3 Charges",
+      "value": 3
+    },
+    "description": "Normally too complicated for the common person, this particular mailbox has extra-large buttons and instructions on it.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 109574,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/109574?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 109574
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "GUMM-E",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/109574?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 109574
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+      "name": "Explosives and Devices"
     },
     "limit_category": "Unique: Engineering Workshop Item (1)",
+    "media": {
+      "id": 109574,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/109574?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "GUMM-E",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "40"
+      },
+      "value": 4000
+    },
     "spells": [
       {
+        "description": "Use: Creates a portable mailbox for 5 min. (3 Hr Cooldown)",
         "spell": {
+          "id": 156756,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/156756?namespace=static-11.1.0_59095-eu"
           },
-          "name": "GUMM-E",
-          "id": 156756
-        },
-        "description": "Use: Creates a portable mailbox for 5 min. (3 Hr Cooldown)"
+          "name": "GUMM-E"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 4000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "40",
-        "copper": "0"
-      }
-    },
-    "description": "Normally too complicated for the common person, this particular mailbox has extra-large buttons and instructions on it.",
-    "charges": {
-      "value": 3,
-      "display_string": "3 Charges"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 16000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 4000
 }

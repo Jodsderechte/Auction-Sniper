@@ -4,99 +4,100 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1357?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "The waterlogged parchment is about to disintegrate.",
+  "icon_path": "data\\icons\\inv_misc_map_01.jpg",
   "id": 1357,
-  "name": "Captain Sanders' Treasure Map",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 6,
-  "required_level": 5,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1357?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1357
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 6,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "The waterlogged parchment is about to disintegrate.",
+  "media": {
+    "id": 1357,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1357?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Captain Sanders' Treasure Map",
   "preview_item": {
+    "description": "The waterlogged parchment is about to disintegrate.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 1357,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/1357?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1357
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Captain Sanders' Treasure Map",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1357?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1357
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "requirements": {
-      "level": {
-        "value": 5,
-        "display_string": "Requires Level 5"
-      }
-    },
-    "description": "The waterlogged parchment is about to disintegrate.",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 26353,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/26353?namespace=static-11.1.0_59095-eu"
         },
-        "name": "Captain Sanders' Hidden Treasure",
-        "id": 26353
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "Captain Sanders' Hidden Treasure"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 1357,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1357?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Captain Sanders' Treasure Map",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 5",
+        "value": 5
+      }
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 5,
+  "sell_price": 0
 }

@@ -4,213 +4,214 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/5640?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Rage Potion.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 5640,
-  "name": "Recipe: Rage Potion",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/5640?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 5640
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 100,
-  "sell_price": 25,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Rage Potion.",
+  "media": {
+    "id": 5640,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/5640?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Rage Potion",
   "preview_item": {
+    "description": "Teaches you how to make a Rage Potion.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 5640,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/5640?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5640
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Recipe: Rage Potion",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/5640?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 5640
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 25,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "25"
+    "media": {
+      "id": 5640,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/5640?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Alchemy",
-          "id": 2485
-        },
-        "level": 60,
-        "display_string": "Requires Classic Alchemy (60)"
-      }
+    "name": "Recipe: Rage Potion",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make a Rage Potion.",
     "recipe": {
       "item": {
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 5631,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/5631?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 5631
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Rage Potion",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/5631?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 5631
+          }
         },
         "item_class": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Consumable",
-          "id": 0
+          "name": "Consumable"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Potions",
-          "id": 1
+          "name": "Potions"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
+        "media": {
+          "id": 5631,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/5631?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/6612?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Rage",
-              "id": 6612
-            },
-            "description": "Use: Instantly generates 15 to 45 rage. (5 Min Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 30,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "0",
-            "copper": "30"
-          }
+        "name": "Rage Potion",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
         },
         "requirements": {
           "level": {
-            "value": 2,
-            "display_string": "Requires Level 2"
+            "display_string": "Requires Level 2",
+            "value": 2
           },
           "playable_classes": {
+            "display_string": "Classes: Druid, Warrior",
             "links": [
               {
+                "id": 11,
                 "key": {
                   "href": "https://eu.api.blizzard.com/data/wow/playable-class/11?namespace=static-11.1.0_59095-eu"
                 },
-                "name": "Druid",
-                "id": 11
+                "name": "Druid"
               },
               {
+                "id": 1,
                 "key": {
                   "href": "https://eu.api.blizzard.com/data/wow/playable-class/1?namespace=static-11.1.0_59095-eu"
                 },
-                "name": "Warrior",
-                "id": 1
+                "name": "Warrior"
               }
-            ],
-            "display_string": "Classes: Druid, Warrior"
+            ]
           }
         },
-        "is_subclass_hidden": true
+        "sell_price": {
+          "display_strings": {
+            "copper": "30",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 30
+        },
+        "spells": [
+          {
+            "description": "Use: Instantly generates 15 to 45 rage. (5 Min Cooldown)",
+            "spell": {
+              "id": 6612,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/6612?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Rage"
+            }
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 5635,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/5635?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Sharp Claw",
-            "id": 5635
-          },
-          "quantity": 2
+            "name": "Sharp Claw"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3371,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3371?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Crystal Vial",
-            "id": 3371
-          },
-          "quantity": 1
+            "name": "Crystal Vial"
+          }
         }
       ],
       "reagents_display_string": "Sharp Claw (2), Crystal Vial"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Alchemy (60)",
+        "level": 60,
+        "profession": {
+          "id": 2485,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Alchemy"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 25
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 100,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 25
 }

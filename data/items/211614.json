@@ -4,220 +4,221 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/211614?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 77889,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/77889?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helm_armor_engineering_b_02_gnome.jpg",
   "id": 211614,
-  "name": "Draconic Combatant's Mail Goggles",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 330,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/211614?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 211614
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 141260,
-  "sell_price": 28252,
+  "level": 330,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 211614,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/211614?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Draconic Combatant's Mail Goggles",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/211614?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "960 Armor"
       },
-      "id": 211614
+      "value": 960
     },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "TINKER",
-          "name": "Tinker Socket"
-        }
-      }
-    ],
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       10250,
       8840,
       5247,
       10251
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Draconic Combatant's Mail Goggles",
-    "media": {
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "item": {
+      "id": 211614,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/211614?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 211614
+        "href": "https://eu.api.blizzard.com/data/wow/item/211614?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 438",
+      "value": 438
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 960,
-      "display": {
-        "display_string": "960 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 211614,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/211614?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 583,
-        "display": {
-          "display_string": "+583 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 583,
-        "is_negated": true,
-        "display": {
-          "display_string": "+583 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 2037,
-        "display": {
-          "display_string": "+2,037 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 850,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+850 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 28252,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "82",
-        "copper": "52"
-      }
+    "name": "Draconic Combatant's Mail Goggles",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       },
       "skill": {
+        "display_string": "Requires Dragon Isles Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2827,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2827?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Engineering",
-          "id": 2827
-        },
-        "level": 1,
-        "display_string": "Requires Dragon Isles Engineering (1)"
+          "name": "Dragon Isles Engineering"
+        }
       }
     },
-    "level": {
-      "value": 438,
-      "display_string": "Item Level 438"
-    },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/77889?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "52",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "82"
       },
-      "id": 77889
-    }
-  ]
+      "value": 28252
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Tinker Socket",
+          "type": "TINKER"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+583 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 583
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+583 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 583
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2,037 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 2037
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+850 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 850
+      }
+    ]
+  },
+  "purchase_price": 141260,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 28252
 }

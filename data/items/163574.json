@@ -4,114 +4,115 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/163574?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon a Terrified Pack Mule.",
+  "icon_path": "data\\icons\\ability_mount_ridinghorse.jpg",
   "id": 163574,
-  "name": "Chewed-On Reins of the Terrified Pack Mule",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 10,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/163574?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 163574
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mount",
-    "id": 5
+    "name": "Mount"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1,
-  "sell_price": 1,
+  "level": 10,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon a Terrified Pack Mule.",
+  "media": {
+    "id": 163574,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/163574?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Chewed-On Reins of the Terrified Pack Mule",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
     "item": {
+      "id": 163574,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/163574?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 163574
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Chewed-On Reins of the Terrified Pack Mule",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/163574?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 163574
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mount",
-      "id": 5
+      "name": "Mount"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 163574,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/163574?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/260174?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Terrified Pack Mule",
-          "id": 260174
-        },
-        "description": "Use: Teaches you how to summon a Terrified Pack Mule."
-      }
-    ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
+    "name": "Chewed-On Reins of the Terrified Pack Mule",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "ability": {
+        "display_string": "Requires Apprentice Riding",
         "spell": {
+          "id": 33388,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/33388?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Apprentice Riding",
-          "id": 33388
-        },
-        "display_string": "Requires Apprentice Riding"
+          "name": "Apprentice Riding"
+        }
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to summon a Terrified Pack Mule.",
+        "spell": {
+          "id": 260174,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/260174?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Terrified Pack Mule"
+        }
+      }
+    ],
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 10,
+  "sell_price": 1
 }

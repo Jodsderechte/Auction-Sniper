@@ -4,126 +4,127 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/849?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 258,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/258?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_boots_01.jpg",
   "id": 849,
-  "name": "Chainmail Boots",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 10,
-  "required_level": 6,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/849?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 849
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 1538,
-  "sell_price": 307,
+  "level": 10,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 849,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/849?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Chainmail Boots",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "3 Armor"
+      },
+      "value": 3
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 35 / 35",
+      "value": 35
+    },
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
     "item": {
+      "id": 849,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/849?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 849
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Chainmail Boots",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/849?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 849
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
+    "level": {
+      "display_string": "Item Level 10",
+      "value": 10
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 3,
-      "display": {
-        "display_string": "3 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 849,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/849?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 13,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "13"
-      }
+    "name": "Chainmail Boots",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 6,
-        "display_string": "Requires Level 6"
+        "display_string": "Requires Level 6",
+        "value": 6
       }
     },
-    "level": {
-      "value": 10,
-      "display_string": "Item Level 10"
-    },
-    "durability": {
-      "value": 35,
-      "display_string": "Durability 35 / 35"
+    "sell_price": {
+      "display_strings": {
+        "copper": "13",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 13
     }
   },
+  "purchase_price": 1538,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/258?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 258
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 6,
+  "sell_price": 307
 }

@@ -4,155 +4,156 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21755?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_necklace_16.jpg",
   "id": 21755,
-  "name": "Aquamarine Pendant of the Warrior",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 24,
-  "required_level": 17,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21755?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21755
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 17230,
-  "sell_price": 4307,
+  "level": 24,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 21755,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21755?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Aquamarine Pendant of the Warrior",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "charges": {
+      "display_string": "10 Charges",
+      "value": 10
+    },
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21755,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21755?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21755
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Aquamarine Pendant of the Warrior",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21755?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21755
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 24",
+      "value": 24
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 21755,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21755?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/26562?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Aquamarine Pendant of the Warrior",
-          "id": 26562
-        },
-        "description": "Use: Gives 3.9 additional stamina to party members within 40 yards.  Lasts 30 min. (1 Sec Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 4307,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "43",
-        "copper": "7"
-      }
+    "name": "Aquamarine Pendant of the Warrior",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 17,
-        "display_string": "Requires Level 17"
+        "display_string": "Requires Level 17",
+        "value": 17
       }
     },
-    "level": {
-      "value": 24,
-      "display_string": "Item Level 24"
+    "sell_price": {
+      "display_strings": {
+        "copper": "7",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "43"
+      },
+      "value": 4307
     },
-    "charges": {
-      "value": 10,
-      "display_string": "10 Charges"
-    },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Gives 3.9 additional stamina to party members within 40 yards.  Lasts 30 min. (1 Sec Cooldown)",
+        "spell": {
+          "id": 26562,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/26562?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Aquamarine Pendant of the Warrior"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 2
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 17230,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 17,
+  "sell_price": 4307
 }

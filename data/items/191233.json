@@ -4,158 +4,159 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/191233?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_1h_mixingspoon_b_01.jpg",
   "id": 191233,
-  "name": "Chef's Smooth Rolling Pin",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/191233?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 191233
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cooking",
-    "id": 4
+    "name": "Cooking"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 50000,
-  "sell_price": 10000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 191233,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/191233?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Chef's Smooth Rolling Pin",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/191233?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 191233
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Chef's Smooth Rolling Pin",
-    "media": {
+    "item": {
+      "id": 191233,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/191233?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 191233
+        "href": "https://eu.api.blizzard.com/data/wow/item/191233?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cooking",
-      "id": 4
+      "name": "Cooking"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
+    "media": {
+      "id": 191233,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/191233?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS",
-          "name": "Resourcefulness"
-        },
-        "value": 23,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+23 Resourcefulness",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED",
-          "name": "Crafting Speed"
-        },
-        "value": 35,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+35 Crafting Speed",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455697?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455697
-        },
-        "description": "Equip: +6 Dragon Isles Cooking Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Chef's Smooth Rolling Pin",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Cooking (1)",
+        "level": 1,
         "profession": {
+          "id": 185,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/185?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cooking",
-          "id": 185
-        },
-        "level": 1,
-        "display_string": "Requires Cooking (1)"
+          "name": "Cooking"
+        }
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
+    },
+    "spells": [
+      {
+        "description": "Equip: +6 Dragon Isles Cooking Skill",
+        "spell": {
+          "id": 455697,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455697?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+23 Resourcefulness"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Resourcefulness",
+          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS"
+        },
+        "value": 23
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+35 Crafting Speed"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Crafting Speed",
+          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED"
+        },
+        "value": 35
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 10000
 }

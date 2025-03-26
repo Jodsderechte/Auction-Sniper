@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/153002?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This looks like it used to be attached to a small pet's collar.",
+  "icon_path": "data\\icons\\inv_misc_trinket6oog_stonefist1.jpg",
   "id": 153002,
-  "name": "Small Charm",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/153002?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 153002
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 200000,
-  "sell_price": 50000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "This looks like it used to be attached to a small pet's collar.",
+  "media": {
+    "id": 153002,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/153002?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Small Charm",
   "preview_item": {
+    "description": "This looks like it used to be attached to a small pet's collar.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 153002,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/153002?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153002
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Small Charm",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/153002?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153002
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 50000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 153002,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/153002?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "This looks like it used to be attached to a small pet's collar.",
-    "is_subclass_hidden": true
+    "name": "Small Charm",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 50000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 200000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 50000
 }

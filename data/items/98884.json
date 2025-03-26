@@ -4,277 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/98884?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 18359,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/18359?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_leather_pvprogue_e_01.jpg",
   "id": 98884,
-  "name": "Crafted Malevolent Gladiator's Leather Tunic",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "CHEST"
   },
-  "level": 39,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/98884?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 98884
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "CHEST",
-    "name": "Chest"
-  },
-  "purchase_price": 261424,
-  "sell_price": 52284,
+  "level": 39,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 98884,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/98884?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Crafted Malevolent Gladiator's Leather Tunic",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "7 Armor"
+      },
+      "value": 7
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 140 / 140",
+      "value": 140
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
     "item": {
+      "id": 98884,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/98884?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 98884
-    },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      },
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
       }
-    ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Crafted Malevolent Gladiator's Leather Tunic",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/98884?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 98884
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "CHEST",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 39",
+      "value": 39
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 7,
-      "display": {
-        "display_string": "7 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 98884,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/98884?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 2,
-        "display": {
-          "display_string": "+2 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 2,
-        "is_negated": true,
-        "display": {
-          "display_string": "+2 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 7,
-        "display": {
-          "display_string": "+7 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 1,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+1 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 4,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+4 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "socket_bonus": "Socket Bonus: +4 Versatility",
-    "sell_price": {
-      "value": 434,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "4",
-        "copper": "34"
-      }
+    "name": "Crafted Malevolent Gladiator's Leather Tunic",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       },
       "playable_classes": {
+        "display_string": "Classes: Rogue",
         "links": [
           {
+            "id": 4,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/playable-class/4?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Rogue",
-            "id": 4
+            "name": "Rogue"
           }
-        ],
-        "display_string": "Classes: Rogue"
+        ]
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/1113?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Gladiator's Vestments",
-        "id": 1113
+    "sell_price": {
+      "display_strings": {
+        "copper": "34",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "4"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88210?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Gladiator's Leather Tunic",
-            "id": 88210
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88206?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Gladiator's Leather Gloves",
-            "id": 88206
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88207?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Gladiator's Leather Helm",
-            "id": 88207
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88208?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Gladiator's Leather Legguards",
-            "id": 88208
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88209?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Gladiator's Leather Spaulders",
-            "id": 88209
-          }
-        }
-      ],
+      "value": 434
+    },
+    "set": {
+      "display_string": "Gladiator's Vestments (0/5)",
       "effects": [
         {
           "display_string": "(2) Set: Increases all damage you deal by 4%.",
@@ -285,25 +142,169 @@
           "required_count": 4
         }
       ],
-      "legacy": "Legacy Set: Bonus is inactive",
-      "display_string": "Gladiator's Vestments (0/5)"
-    },
-    "level": {
-      "value": 39,
-      "display_string": "Item Level 39"
-    },
-    "durability": {
-      "value": 140,
-      "display_string": "Durability 140 / 140"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/18359?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 1113,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/1113?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Gladiator's Vestments"
       },
-      "id": 18359
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 88210,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88210?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Gladiator's Leather Tunic"
+          }
+        },
+        {
+          "item": {
+            "id": 88206,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88206?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Gladiator's Leather Gloves"
+          }
+        },
+        {
+          "item": {
+            "id": 88207,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88207?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Gladiator's Leather Helm"
+          }
+        },
+        {
+          "item": {
+            "id": 88208,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88208?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Gladiator's Leather Legguards"
+          }
+        },
+        {
+          "item": {
+            "id": 88209,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88209?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Gladiator's Leather Spaulders"
+          }
+        }
+      ],
+      "legacy": "Legacy Set: Bonus is inactive"
+    },
+    "socket_bonus": "Socket Bonus: +4 Versatility",
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      },
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+2 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+2 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 2
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+7 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 7
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+1 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 1
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+4 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 4
+      }
+    ]
+  },
+  "purchase_price": 261424,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 35,
+  "sell_price": 52284
 }

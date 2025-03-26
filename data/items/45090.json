@@ -4,305 +4,306 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/45090?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to forge a Plate Girdle of Righteousness.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 45090,
-  "name": "Plans: Plate Girdle of Righteousness",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 32,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/45090?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 45090
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1000000,
-  "sell_price": 25000,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to forge a Plate Girdle of Righteousness.",
+  "media": {
+    "id": 45090,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/45090?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Plate Girdle of Righteousness",
   "preview_item": {
+    "description": "Teaches you how to forge a Plate Girdle of Righteousness.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 45090,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/45090?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45090
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Plans: Plate Girdle of Righteousness",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/45090?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45090
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 25000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "50",
-        "copper": "0"
+    "media": {
+      "id": 45090,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/45090?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2475?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Northrend Blacksmithing",
-          "id": 2475
-        },
-        "level": 75,
-        "display_string": "Requires Northrend Blacksmithing (75)"
-      }
+    "name": "Plans: Plate Girdle of Righteousness",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to forge a Plate Girdle of Righteousness.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "9 Armor"
+          },
+          "value": 9
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 55 / 55",
+          "value": 55
+        },
+        "inventory_type": {
+          "name": "Waist",
+          "type": "WAIST"
+        },
         "item": {
+          "id": 45552,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/45552?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 45552
-        },
-        "sockets": [
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
-          },
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
           }
-        ],
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Plate Girdle of Righteousness",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/45552?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 45552
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Plate",
-          "id": 4
+          "name": "Plate"
         },
-        "inventory_type": {
-          "type": "WAIST",
-          "name": "Waist"
+        "level": {
+          "display_string": "Item Level 35",
+          "value": 35
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 9,
-          "display": {
-            "display_string": "9 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 45552,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/45552?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "HASTE_RATING",
-              "name": "Haste"
-            },
-            "value": 2,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+2 Haste",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "VERSATILITY",
-              "name": "Versatility"
-            },
-            "value": 3,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+3 Versatility",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "socket_bonus": "Socket Bonus: +1 Spell Power",
-        "sell_price": {
-          "value": 206,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "6"
-          }
+        "name": "Plate Girdle of Righteousness",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 30,
-            "display_string": "Requires Level 30"
+            "display_string": "Requires Level 30",
+            "value": 30
           }
         },
-        "level": {
-          "value": 35,
-          "display_string": "Item Level 35"
+        "sell_price": {
+          "display_strings": {
+            "copper": "6",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 206
         },
-        "durability": {
-          "value": 55,
-          "display_string": "Durability 55 / 55"
-        }
+        "socket_bonus": "Socket Bonus: +1 Spell Power",
+        "sockets": [
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          },
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Haste"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Haste",
+              "type": "HASTE_RATING"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Versatility"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Versatility",
+              "type": "VERSATILITY"
+            },
+            "value": 3
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 5,
           "reagent": {
+            "id": 37663,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/37663?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Titansteel Bar",
-            "id": 37663
-          },
-          "quantity": 5
+            "name": "Titansteel Bar"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 45087,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/45087?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Runed Orb",
-            "id": 45087
-          },
-          "quantity": 6
+            "name": "Runed Orb"
+          }
         }
       ],
       "reagents_display_string": "Titansteel Bar (5), Runed Orb (6)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Northrend Blacksmithing (75)",
+        "level": 75,
+        "profession": {
+          "id": 2475,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2475?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Northrend Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 25000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 25000
 }

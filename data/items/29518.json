@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/29518?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 556,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/556?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_33.jpg",
   "id": 29518,
-  "name": "Amani Scimitar",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 13,
-  "required_level": 8,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/29518?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 29518
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 4828,
-  "sell_price": 965,
+  "level": 13,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 29518,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/29518?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Amani Scimitar",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 45 / 45",
+      "value": 45
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 29518,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/29518?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 29518
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Amani Scimitar",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/29518?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 29518
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 13",
+      "value": 13
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 2,
-        "max_value": 4,
-        "display_string": "2 - 4 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 1.1538461,
-        "display_string": "(1.2 damage per second)"
+    "media": {
+      "id": 29518,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/29518?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 30,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "30"
-      }
+    "name": "Amani Scimitar",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 8,
-        "display_string": "Requires Level 8"
+        "display_string": "Requires Level 8",
+        "value": 8
       }
     },
-    "level": {
-      "value": 13,
-      "display_string": "Item Level 13"
+    "sell_price": {
+      "display_strings": {
+        "copper": "30",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 30
     },
-    "durability": {
-      "value": 45,
-      "display_string": "Durability 45 / 45"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "2 - 4 Damage",
+        "max_value": 4,
+        "min_value": 2
+      },
+      "dps": {
+        "display_string": "(1.2 damage per second)",
+        "value": 1.1538461
+      }
     }
   },
+  "purchase_price": 4828,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/556?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 556
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 8,
+  "sell_price": 965
 }

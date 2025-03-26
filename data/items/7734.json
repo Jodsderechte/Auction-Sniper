@@ -4,120 +4,121 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7734?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bag_01.jpg",
   "id": 7734,
-  "name": "Six Demon Bag",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 26,
-  "required_level": 20,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7734?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7734
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 61980,
-  "sell_price": 15495,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 7734,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7734?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Six Demon Bag",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/7734?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7734
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Six Demon Bag",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 7734,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7734?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7734
+        "href": "https://eu.api.blizzard.com/data/wow/item/7734?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/14537?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Six Demon Bag",
-          "id": 14537
-        },
-        "description": "Use: Blasts enemies in front of you with the power of wind, fire, all that kind of thing! (3 Min Cooldown)"
+    "media": {
+      "id": 7734,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7734?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 15495,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "54",
-        "copper": "95"
-      }
+    },
+    "name": "Six Demon Bag",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 20,
-        "display_string": "Requires Level 20"
+        "display_string": "Requires Level 20",
+        "value": 20
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "95",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "54"
+      },
+      "value": 15495
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Blasts enemies in front of you with the power of wind, fire, all that kind of thing! (3 Min Cooldown)",
+        "spell": {
+          "id": 14537,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/14537?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Six Demon Bag"
+        }
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 61980,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 20,
+  "sell_price": 15495
 }

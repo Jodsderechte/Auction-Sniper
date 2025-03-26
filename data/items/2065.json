@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2065?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 650,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/650?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_47.jpg",
   "id": 2065,
-  "name": "Rockjaw Blade",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 4,
-  "required_level": 2,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2065?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2065
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 569,
-  "sell_price": 113,
+  "level": 4,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2065,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2065?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Rockjaw Blade",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2065?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2065
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6713
     ],
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
     },
-    "name": "Rockjaw Blade",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 2065,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2065?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2065
+        "href": "https://eu.api.blizzard.com/data/wow/item/2065?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 150",
+      "value": 150
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 14,
-        "max_value": 27,
-        "display_string": "14 - 27 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 7.884615,
-        "display_string": "(7.9 damage per second)"
+    "media": {
+      "id": 2065,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2065?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 15536,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "55",
-        "copper": "36"
-      }
+    "name": "Rockjaw Blade",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 2,
-        "display_string": "Requires Level 2"
+        "display_string": "Requires Level 2",
+        "value": 2
       }
     },
-    "level": {
-      "value": 150,
-      "display_string": "Item Level 150"
+    "sell_price": {
+      "display_strings": {
+        "copper": "36",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "55"
+      },
+      "value": 15536
     },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "14 - 27 Damage",
+        "max_value": 27,
+        "min_value": 14
+      },
+      "dps": {
+        "display_string": "(7.9 damage per second)",
+        "value": 7.884615
+      }
     }
   },
+  "purchase_price": 569,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/650?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 650
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 2,
+  "sell_price": 113
 }

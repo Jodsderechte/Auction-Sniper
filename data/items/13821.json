@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13821?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3903,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3903?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_hammer_16.jpg",
   "id": 13821,
-  "name": "Bulky Maul",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13821?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13821
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 5
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 1511762,
-  "sell_price": 302352,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13821,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13821?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bulky Maul",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/13821?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13821
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 80 / 80",
+      "value": 80
     },
-    "name": "Bulky Maul",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 13821,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13821?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13821
+        "href": "https://eu.api.blizzard.com/data/wow/item/13821?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 5
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 282,
-        "max_value": 363,
-        "display_string": "282 - 363 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 89.58333,
-        "display_string": "(89.6 damage per second)"
+    "media": {
+      "id": 13821,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13821?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 205098,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "50",
-        "copper": "98"
-      }
+    "name": "Bulky Maul",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "98",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 205098
     },
-    "durability": {
-      "value": 80,
-      "display_string": "Durability 80 / 80"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "282 - 363 Damage",
+        "max_value": 363,
+        "min_value": 282
+      },
+      "dps": {
+        "display_string": "(89.6 damage per second)",
+        "value": 89.58333
+      }
     }
   },
+  "purchase_price": 1511762,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3903?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3903
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 22,
+  "sell_price": 302352
 }

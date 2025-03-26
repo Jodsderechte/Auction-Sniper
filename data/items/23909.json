@@ -4,115 +4,116 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23909?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6268,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6268?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_31.jpg",
   "id": 23909,
-  "name": "Blood Elf Bandit Mask",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 2,
-  "required_level": 3,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23909?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23909
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 64,
-  "sell_price": 12,
+  "level": 2,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 23909,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23909?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blood Elf Bandit Mask",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/23909?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23909
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6713
     ],
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
+    "context": 0,
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
     },
-    "name": "Blood Elf Bandit Mask",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 23909,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23909?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23909
+        "href": "https://eu.api.blizzard.com/data/wow/item/23909?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
+      "name": "Cosmetic"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 150",
+      "value": 150
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 5848,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "58",
-        "copper": "48"
+    "media": {
+      "id": 23909,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23909?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Blood Elf Bandit Mask",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 3,
-        "display_string": "Requires Level 3"
+        "display_string": "Requires Level 3",
+        "value": 3
       }
     },
-    "level": {
-      "value": 150,
-      "display_string": "Item Level 150"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6268?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "48",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "58"
       },
-      "id": 6268
+      "value": 5848
     }
-  ]
+  },
+  "purchase_price": 64,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 3,
+  "sell_price": 12
 }

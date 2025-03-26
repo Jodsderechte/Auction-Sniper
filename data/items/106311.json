@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/106311?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6509,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6509?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_chain_05.jpg",
   "id": 106311,
-  "name": "Ripped Mail Armor",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "CHEST"
   },
-  "level": 35,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/106311?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 106311
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "CHEST",
-    "name": "Chest"
-  },
-  "purchase_price": 975773,
-  "sell_price": 195154,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 106311,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/106311?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ripped Mail Armor",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/106311?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "394 Armor"
       },
-      "id": 106311
+      "value": 394
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 115 / 115",
+      "value": 115
     },
-    "name": "Ripped Mail Armor",
-    "media": {
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
+    "item": {
+      "id": 106311,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/106311?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 106311
+        "href": "https://eu.api.blizzard.com/data/wow/item/106311?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "CHEST",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 394,
-      "display": {
-        "display_string": "394 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 106311,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/106311?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 113530,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "11",
-        "silver": "35",
-        "copper": "30"
-      }
+    "name": "Ripped Mail Armor",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 115,
-      "display_string": "Durability 115 / 115"
+    "sell_price": {
+      "display_strings": {
+        "copper": "30",
+        "gold": "11",
+        "header": "Sell Price:",
+        "silver": "35"
+      },
+      "value": 113530
     }
   },
+  "purchase_price": 975773,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6509?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6509
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 35,
+  "sell_price": 195154
 }

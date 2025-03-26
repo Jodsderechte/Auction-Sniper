@@ -4,108 +4,109 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/161138?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_holiday_tow_spicepotion03.jpg",
   "id": 161138,
-  "name": "Azerite Inspir-A-Geneering Elixir",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 45,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/161138?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 161138
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1200,
-  "sell_price": 300,
+  "level": 45,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 161138,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/161138?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Azerite Inspir-A-Geneering Elixir",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 161138,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/161138?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 161138
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Azerite Inspir-A-Geneering Elixir",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/161138?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 161138
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 161138,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/161138?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/274644?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Inspir-A-Geneering",
-          "id": 274644
-        },
-        "description": "Use: Increase your Kul'Tiran Engineering skill by 25. Only works within The Motherlode. (1 Sec Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 300,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "3",
-        "copper": "0"
-      }
+    "name": "Azerite Inspir-A-Geneering Elixir",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
+        "display_string": "Requires Level 50",
+        "value": 50
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 300
+    },
+    "spells": [
+      {
+        "description": "Use: Increase your Kul'Tiran Engineering skill by 25. Only works within The Motherlode. (1 Sec Cooldown)",
+        "spell": {
+          "id": 274644,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/274644?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Inspir-A-Geneering"
+        }
+      }
+    ],
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1200,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 50,
+  "sell_price": 300
 }

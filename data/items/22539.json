@@ -4,115 +4,116 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/22539?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to perform the Intellect enchantment.",
+  "icon_path": "data\\icons\\inv_misc_note_01.jpg",
   "id": 22539,
-  "name": "Formula: Enchant Shield - Intellect",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/22539?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 22539
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 60000,
-  "sell_price": 15000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to perform the Intellect enchantment.",
+  "media": {
+    "id": 22539,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/22539?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Formula: Enchant Shield - Intellect",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 22539,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/22539?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 22539
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Formula: Enchant Shield - Intellect",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/22539?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 22539
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 22539,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/22539?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/27945?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Intellect",
-          "id": 27945
-        },
-        "description": "Use: Teaches you how to perform the Intellect enchantment."
-      }
-    ],
-    "sell_price": {
-      "value": 15000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "50",
-        "copper": "0"
-      }
+    "name": "Formula: Enchant Shield - Intellect",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Outland Enchanting (25)",
+        "level": 25,
         "profession": {
+          "id": 2493,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2493?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Outland Enchanting",
-          "id": 2493
-        },
-        "level": 25,
-        "display_string": "Requires Outland Enchanting (25)"
+          "name": "Outland Enchanting"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 15000
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to perform the Intellect enchantment.",
+        "spell": {
+          "id": 27945,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/27945?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Intellect"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 60000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 15000
 }

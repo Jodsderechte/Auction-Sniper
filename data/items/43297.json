@@ -4,107 +4,108 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/43297?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_amulet_02.jpg",
   "id": 43297,
-  "name": "Damaged Necklace",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 30,
-  "required_level": 10,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/43297?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 43297
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 43297,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/43297?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Damaged Necklace",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 43297,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/43297?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 43297
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Damaged Necklace",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/43297?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 43297
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
-    },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "level": {
-        "value": 10,
-        "display_string": "Requires Level 10"
-      },
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2522?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Northrend Jewelcrafting",
-          "id": 2522
-        },
-        "level": 1,
-        "display_string": "Requires Northrend Jewelcrafting (1)"
-      }
+      "name": "Quest"
     },
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 13148,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/13148?namespace=static-11.1.0_59095-eu"
         },
-        "name": "Necklace Repair",
-        "id": 13148
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "Necklace Repair"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 43297,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/43297?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Damaged Necklace",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 10",
+        "value": 10
+      },
+      "skill": {
+        "display_string": "Requires Northrend Jewelcrafting (1)",
+        "level": 1,
+        "profession": {
+          "id": 2522,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2522?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Northrend Jewelcrafting"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 10,
+  "sell_price": 0
 }

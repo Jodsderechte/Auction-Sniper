@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/198245?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "A needlessly complicated omnitool coveted by any Engineer worth their bolts.",
+  "icon_path": "data\\icons\\inv_misc_1h_engineeringmultitool_b_01_orange.jpg",
   "id": 198245,
-  "name": "Draconium Encased Samophlange",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/198245?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 198245
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 7
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 50000,
-  "sell_price": 10000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "A needlessly complicated omnitool coveted by any Engineer worth their bolts.",
+  "media": {
+    "id": 198245,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/198245?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Draconium Encased Samophlange",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/198245?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198245
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "description": "A needlessly complicated omnitool coveted by any Engineer worth their bolts.",
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Draconium Encased Samophlange",
-    "media": {
+    "item": {
+      "id": 198245,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/198245?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198245
+        "href": "https://eu.api.blizzard.com/data/wow/item/198245?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 7
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS",
-          "name": "Resourcefulness"
-        },
-        "value": 58,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+58 Resourcefulness",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455701?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455701
-        },
-        "description": "Equip: +6 Dragon Isles Engineering Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 198245,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/198245?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "A needlessly complicated omnitool coveted by any Engineer worth their bolts.",
     "modified_crafting_stat": [
       {
         "id": 76,
-        "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS",
-        "name": "Resourcefulness"
+        "name": "Resourcefulness",
+        "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS"
+      }
+    ],
+    "name": "Draconium Encased Samophlange",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
+    },
+    "spells": [
+      {
+        "description": "Equip: +6 Dragon Isles Engineering Skill",
+        "spell": {
+          "id": 455701,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455701?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+58 Resourcefulness"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Resourcefulness",
+          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS"
+        },
+        "value": 58
       }
     ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 10000
 }

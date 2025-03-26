@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4090?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1510,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1510?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_drink_03.jpg",
   "id": 4090,
-  "name": "Mug O' Hurt",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 24,
-  "required_level": 18,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4090?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4090
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 4
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 40119,
-  "sell_price": 8023,
+  "level": 24,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4090,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4090?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Mug O' Hurt",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/4090?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4090
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 80 / 80",
+      "value": 80
     },
-    "name": "Mug O' Hurt",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 4090,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4090?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4090
+        "href": "https://eu.api.blizzard.com/data/wow/item/4090?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 4
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 371,
-        "max_value": 478,
-        "display_string": "371 - 478 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 163.26923,
-        "display_string": "(163.3 damage per second)"
+    "media": {
+      "id": 4090,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4090?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/13496?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Dazed",
-          "id": 13496
-        },
-        "description": "Chance on hit: Slows the target's movement by 50% for 10 sec. (Requires level 49 or below)"
-      }
-    ],
-    "sell_price": {
-      "value": 583531,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "58",
-        "silver": "35",
-        "copper": "31"
-      }
+    "name": "Mug O' Hurt",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 18,
-        "display_string": "Requires Level 18"
+        "display_string": "Requires Level 18",
+        "value": 18
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "31",
+        "gold": "58",
+        "header": "Sell Price:",
+        "silver": "35"
+      },
+      "value": 583531
     },
-    "durability": {
-      "value": 80,
-      "display_string": "Durability 80 / 80"
+    "spells": [
+      {
+        "description": "Chance on hit: Slows the target's movement by 50% for 10 sec. (Requires level 49 or below)",
+        "spell": {
+          "id": 13496,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/13496?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Dazed"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "371 - 478 Damage",
+        "max_value": 478,
+        "min_value": 371
+      },
+      "dps": {
+        "display_string": "(163.3 damage per second)",
+        "value": 163.26923
+      }
     }
   },
+  "purchase_price": 40119,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1510?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1510
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 18,
+  "sell_price": 8023
 }

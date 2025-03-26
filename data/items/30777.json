@@ -4,128 +4,129 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30777?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 7965,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7965?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Tough and unyielding like their owners",
+  "icon_path": "data\\icons\\inv_belt_27.jpg",
   "id": 30777,
-  "name": "Aldor Heavy Belt",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Waist",
+    "type": "WAIST"
   },
-  "level": 30,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30777?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30777
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
-  },
-  "purchase_price": 669937,
-  "sell_price": 133987,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Tough and unyielding like their owners",
+  "media": {
+    "id": 30777,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30777?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Aldor Heavy Belt",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "8 Armor"
+      },
+      "value": 8
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "Tough and unyielding like their owners",
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
+    },
+    "inventory_type": {
+      "name": "Waist",
+      "type": "WAIST"
+    },
     "item": {
+      "id": 30777,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30777?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30777
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Aldor Heavy Belt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30777?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30777
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+    "level": {
+      "display_string": "Item Level 30",
+      "value": 30
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 8,
-      "display": {
-        "display_string": "8 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 30777,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30777?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 46,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "46"
-      }
+    "name": "Aldor Heavy Belt",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "description": "Tough and unyielding like their owners",
-    "level": {
-      "value": 30,
-      "display_string": "Item Level 30"
-    },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
+    "sell_price": {
+      "display_strings": {
+        "copper": "46",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 46
     }
   },
+  "purchase_price": 669937,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7965?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7965
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 27,
+  "sell_price": 133987
 }

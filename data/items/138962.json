@@ -4,108 +4,109 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/138962?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\creatureportrait_saltwater_star.jpg",
   "id": 138962,
-  "name": "Starfish on a String",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 40,
-  "required_level": 39,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/138962?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 138962
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 60000,
-  "sell_price": 15000,
+  "level": 40,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 138962,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/138962?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Starfish on a String",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 138962,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/138962?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 138962
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Starfish on a String",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/138962?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 138962
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 138962,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/138962?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/217842?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Starfish on a String",
-          "id": 217842
-        },
-        "description": "Use: Tie the starfish onto your fishing pole. The starfish may help you fish certain coins out of the Dalaran fountain by picking them up with its little suckers. (1 Sec Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 15000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "50",
-        "copper": "0"
-      }
+    "name": "Starfish on a String",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 39,
-        "display_string": "Requires Level 39"
+        "display_string": "Requires Level 39",
+        "value": 39
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 15000
+    },
+    "spells": [
+      {
+        "description": "Use: Tie the starfish onto your fishing pole. The starfish may help you fish certain coins out of the Dalaran fountain by picking them up with its little suckers. (1 Sec Cooldown)",
+        "spell": {
+          "id": 217842,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/217842?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Starfish on a String"
+        }
+      }
+    ],
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 60000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 39,
+  "sell_price": 15000
 }

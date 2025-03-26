@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/197719?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "For sale! Discount prices! Act now!",
+  "icon_path": "data\\icons\\inv_misc_clipboard01.jpg",
   "id": 197719,
-  "name": "Artisan's Sign",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/197719?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 197719
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1500000,
-  "sell_price": 300000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "For sale! Discount prices! Act now!",
+  "media": {
+    "id": 197719,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/197719?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Artisan's Sign",
   "preview_item": {
+    "description": "For sale! Discount prices! Act now!",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 197719,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/197719?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 197719
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Artisan's Sign",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/197719?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 197719
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 197719,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/197719?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Artisan's Sign",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPlace a sign so everyone can know where the best goods are sold. (1 Hr Cooldown)",
         "spell": {
+          "id": 381262,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/381262?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Artisan's Sign",
-          "id": 381262
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPlace a sign so everyone can know where the best goods are sold. (1 Hr Cooldown)"
+          "name": "Artisan's Sign"
+        }
       }
     ],
-    "description": "For sale! Discount prices! Act now!",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1500000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 300000
 }

@@ -4,257 +4,258 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12695?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Radiant Gloves.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 12695,
-  "name": "Plans: Radiant Gloves",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12695?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12695
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 20000,
-  "sell_price": 5000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Radiant Gloves.",
+  "media": {
+    "id": 12695,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12695?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Radiant Gloves",
   "preview_item": {
+    "description": "Teaches you how to make Radiant Gloves.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 12695,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12695?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12695
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Plans: Radiant Gloves",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12695?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12695
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 5000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "50",
-        "copper": "0"
+    "media": {
+      "id": 12695,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12695?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 285,
-        "display_string": "Requires Classic Blacksmithing (285)"
-      }
+    "name": "Plans: Radiant Gloves",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to make Radiant Gloves.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "5 Armor"
+          },
+          "value": 5
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 40 / 40",
+          "value": 40
+        },
+        "inventory_type": {
+          "name": "Hands",
+          "type": "HAND"
+        },
         "item": {
+          "id": 12418,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/12418?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12418
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Radiant Gloves",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/12418?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12418
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mail",
-          "id": 3
+          "name": "Mail"
         },
-        "inventory_type": {
-          "type": "HAND",
-          "name": "Hands"
+        "level": {
+          "display_string": "Item Level 28",
+          "value": 28
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 5,
-          "display": {
-            "display_string": "5 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 12418,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/12418?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "VERSATILITY",
-              "name": "Versatility"
-            },
-            "value": 5,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+5 Versatility",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 65,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "0",
-            "copper": "65"
-          }
+        "name": "Radiant Gloves",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 22,
-            "display_string": "Requires Level 22"
+            "display_string": "Requires Level 22",
+            "value": 22
           }
         },
-        "level": {
-          "value": 28,
-          "display_string": "Item Level 28"
+        "sell_price": {
+          "display_strings": {
+            "copper": "65",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 65
         },
-        "durability": {
-          "value": 40,
-          "display_string": "Durability 40 / 40"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Versatility"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Versatility",
+              "type": "VERSATILITY"
+            },
+            "value": 5
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 18,
           "reagent": {
+            "id": 12359,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12359?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Bar",
-            "id": 12359
-          },
-          "quantity": 18
+            "name": "Thorium Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 7077,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7077?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heart of Fire",
-            "id": 7077
-          },
-          "quantity": 4
+            "name": "Heart of Fire"
+          }
         }
       ],
       "reagents_display_string": "Thorium Bar (18), Heart of Fire (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (285)",
+        "level": 285,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 5000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 20000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 5000
 }

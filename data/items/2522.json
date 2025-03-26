@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2522?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 873,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/873?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_throwingaxe_01.jpg",
   "id": 2522,
-  "name": "Crescent Axe",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Main Hand",
+    "type": "WEAPONMAINHAND"
   },
-  "level": 20,
-  "required_level": 13,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2522?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2522
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "WEAPONMAINHAND",
-    "name": "Main Hand"
-  },
-  "purchase_price": 170975,
-  "sell_price": 34195,
+  "level": 20,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2522,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2522?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Crescent Axe",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
+    },
+    "inventory_type": {
+      "name": "Main Hand",
+      "type": "WEAPONMAINHAND"
+    },
     "item": {
+      "id": 2522,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/2522?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2522
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Crescent Axe",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2522?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2522
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "WEAPONMAINHAND",
-      "name": "Main Hand"
+    "level": {
+      "display_string": "Item Level 20",
+      "value": 20
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 2,
-        "max_value": 5,
-        "display_string": "2 - 5 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 1.3461537,
-        "display_string": "(1.3 damage per second)"
+    "media": {
+      "id": 2522,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2522?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 59,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "59"
-      }
+    "name": "Crescent Axe",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 13,
-        "display_string": "Requires Level 13"
+        "display_string": "Requires Level 13",
+        "value": 13
       }
     },
-    "level": {
-      "value": 20,
-      "display_string": "Item Level 20"
+    "sell_price": {
+      "display_strings": {
+        "copper": "59",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 59
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "2 - 5 Damage",
+        "max_value": 5,
+        "min_value": 2
+      },
+      "dps": {
+        "display_string": "(1.3 damage per second)",
+        "value": 1.3461537
+      }
     }
   },
+  "purchase_price": 170975,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/873?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 873
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 13,
+  "sell_price": 34195
 }

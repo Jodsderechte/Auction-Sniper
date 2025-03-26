@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/22235?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon Peddlefeet.",
+  "icon_path": "data\\icons\\inv_ammo_arrow_02.jpg",
   "id": 22235,
-  "name": "Truesilver Shafted Arrow",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/22235?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 22235
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon Peddlefeet.",
+  "media": {
+    "id": 22235,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/22235?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Truesilver Shafted Arrow",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 22235,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/22235?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 22235
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Truesilver Shafted Arrow",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/22235?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 22235
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 22235,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/22235?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Truesilver Shafted Arrow",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "spells": [
       {
+        "description": "Use: Teaches you how to summon Peddlefeet.",
         "spell": {
+          "id": 27570,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/27570?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Peddlefeet",
-          "id": 27570
-        },
-        "description": "Use: Teaches you how to summon Peddlefeet."
+          "name": "Peddlefeet"
+        }
       }
-    ],
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

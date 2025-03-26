@@ -4,146 +4,147 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/136712?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelcrafting_70_lvlupneck_purple.jpg",
   "id": 136712,
-  "name": "Queen's Opal Pendant",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 48,
-  "required_level": 43,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/136712?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 136712
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 48,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 136712,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/136712?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Queen's Opal Pendant",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 136712,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/136712?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "id": 136712
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Miscellaneous"
+    },
+    "level": {
+      "display_string": "Item Level 48",
+      "value": 48
+    },
+    "media": {
+      "id": 136712,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/136712?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Queen's Opal Pendant",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 43",
+        "value": 43
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
+      },
+      "value": 1500
     },
     "sockets": [
       {
         "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
         }
       }
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Queen's Opal Pendant",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/136712?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 136712
-    },
-    "item_class": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Armor",
-      "id": 4
-    },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
     "stats": [
       {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
         "display": {
-          "display_string": "+4 Stamina",
           "color": {
-            "r": 255,
-            "g": 255,
+            "a": 1.0,
             "b": 255,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
       },
       {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 8,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+8 Mastery",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+8 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 8
       }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 43,
-        "display_string": "Requires Level 43"
-      }
-    },
-    "level": {
-      "value": 48,
-      "display_string": "Item Level 48"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 43,
+  "sell_price": 1500
 }

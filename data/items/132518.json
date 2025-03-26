@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/132518?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_engineering_blingtronscircuitdesigntutorial.jpg",
   "id": 132518,
-  "name": "Blingtron's Circuit Design Tutorial",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 42,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/132518?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 132518
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 3500,
-  "sell_price": 875,
+  "level": 42,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 132518,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/132518?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blingtron's Circuit Design Tutorial",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 132518,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/132518?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 132518
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Blingtron's Circuit Design Tutorial",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/132518?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 132518
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 132518,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/132518?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Blingtron's Circuit Design Tutorial",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "8"
+      },
+      "value": 875
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPlay a circuit-uncrossing game. (1 Sec Cooldown)",
         "spell": {
+          "id": 200015,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/200015?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Blingtron's Circuit Design Tutorial",
-          "id": 200015
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPlay a circuit-uncrossing game. (1 Sec Cooldown)"
+          "name": "Blingtron's Circuit Design Tutorial"
+        }
       }
     ],
-    "sell_price": {
-      "value": 875,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "8",
-        "copper": "75"
-      }
-    },
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 3500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 875
 }

@@ -4,126 +4,127 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/10577?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_musket_01.jpg",
   "id": 10577,
-  "name": "Goblin Mortar",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 22,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/10577?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 10577
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 8000,
-  "sell_price": 2000,
+  "level": 22,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 10577,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/10577?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Goblin Mortar",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "charges": {
+      "display_string": "6 Charges",
+      "value": 6
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 10577,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/10577?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10577
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Goblin Mortar",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/10577?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10577
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 22",
+      "value": 22
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/13237?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Goblin Mortar",
-          "id": 13237
-        },
-        "description": "Use: Inflicts 8 Fire damage and stuns the targets in a 5 yard radius for 3 sec. (10 Min Cooldown)"
+    "media": {
+      "id": 10577,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/10577?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 2000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "20",
-        "copper": "0"
-      }
+    },
+    "name": "Goblin Mortar",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Classic Engineering (205)",
+        "level": 205,
         "profession": {
+          "id": 2506,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 205,
-        "display_string": "Requires Classic Engineering (205)"
+          "name": "Classic Engineering"
+        }
       }
     },
-    "level": {
-      "value": 22,
-      "display_string": "Item Level 22"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "20"
+      },
+      "value": 2000
     },
-    "charges": {
-      "value": 6,
-      "display_string": "6 Charges"
-    },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Inflicts 8 Fire damage and stuns the targets in a 5 yard radius for 3 sec. (10 Min Cooldown)",
+        "spell": {
+          "id": 13237,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/13237?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Goblin Mortar"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 8000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2000
 }

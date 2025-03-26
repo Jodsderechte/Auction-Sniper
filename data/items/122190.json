@@ -4,98 +4,99 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/122190?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "It's leaking what is hopefully not real blood.",
+  "icon_path": "data\\icons\\inv_letter_16.jpg",
   "id": 122190,
-  "name": "Ring of Blood Invitation",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/122190?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 122190
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "It's leaking what is hopefully not real blood.",
+  "media": {
+    "id": 122190,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/122190?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ring of Blood Invitation",
   "preview_item": {
+    "description": "It's leaking what is hopefully not real blood.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 122190,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/122190?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 122190
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Ring of Blood Invitation",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/122190?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 122190
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
-      }
-    },
-    "description": "It's leaking what is hopefully not real blood.",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 37981,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/37981?namespace=static-11.1.0_59095-eu"
         },
-        "name": "The World Famous Ring of Blood!",
-        "id": 37981
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "The World Famous Ring of Blood!"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 122190,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/122190?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Ring of Blood Invitation",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 35",
+        "value": 35
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 35,
+  "sell_price": 0
 }

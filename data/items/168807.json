@@ -4,125 +4,126 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/168807?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "The user is responsible for final destinations teleported to, and may not take any legal action against the maker of this device.",
+  "icon_path": "data\\icons\\inv_trinket_80_kultiras02b.jpg",
   "id": 168807,
-  "name": "Wormhole Generator: Kul Tiras",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 45,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/168807?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 168807
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 20000,
-  "sell_price": 5000,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "The user is responsible for final destinations teleported to, and may not take any legal action against the maker of this device.",
+  "media": {
+    "id": 168807,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/168807?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wormhole Generator: Kul Tiras",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "The user is responsible for final destinations teleported to, and may not take any legal action against the maker of this device.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 168807,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/168807?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 168807
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Wormhole Generator: Kul Tiras",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/168807?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 168807
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/299083?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Wormhole Teleport",
-          "id": 299083
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nTeleports the player to a random location on Kul Tiras. (15 Min Cooldown)"
+    "media": {
+      "id": 168807,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/168807?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 5000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "50",
-        "copper": "0"
-      }
+    },
+    "name": "Wormhole Generator: Kul Tiras",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 45,
-        "display_string": "Requires Level 45"
+        "display_string": "Requires Level 45",
+        "value": 45
       },
       "skill": {
+        "display_string": "Requires Kul Tiran Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2499,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2499?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Kul Tiran Engineering",
-          "id": 2499
-        },
-        "level": 1,
-        "display_string": "Requires Kul Tiran Engineering (1)"
+          "name": "Kul Tiran Engineering"
+        }
       }
     },
-    "description": "The user is responsible for final destinations teleported to, and may not take any legal action against the maker of this device.",
-    "is_subclass_hidden": true,
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 5000
+    },
+    "spells": [
+      {
+        "description": "Use: Adds this toy to your Toy Box.\n\nTeleports the player to a random location on Kul Tiras. (15 Min Cooldown)",
+        "spell": {
+          "id": 299083,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/299083?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Wormhole Teleport"
+        }
+      }
+    ],
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 20000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 45,
+  "sell_price": 5000
 }

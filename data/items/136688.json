@@ -4,107 +4,108 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/136688?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\spell_nature_stormreach.jpg",
   "id": 136688,
-  "name": "Shockinator",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 45,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/136688?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 136688
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gem",
-    "id": 3
+    "name": "Gem"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/3/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Artifact Relic",
-    "id": 11
+    "name": "Artifact Relic"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 186345,
-  "sell_price": 46586,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 136688,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/136688?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Shockinator",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "gem_properties": {
+      "relic_type": "Storm Artifact Relic"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 136688,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/136688?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 136688
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Shockinator",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/136688?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 136688
+      }
     },
     "item_class": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gem",
-      "id": 3
+      "name": "Gem"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/3/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Artifact Relic",
-      "id": 11
+      "name": "Artifact Relic"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "level": {
+      "display_string": "Item Level 50",
+      "value": 50
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "sell_price": {
-      "value": 609,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "6",
-        "copper": "9"
+    "media": {
+      "id": 136688,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/136688?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Shockinator",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 45,
-        "display_string": "Requires Level 45"
+        "display_string": "Requires Level 45",
+        "value": 45
       }
     },
-    "level": {
-      "value": 50,
-      "display_string": "Item Level 50"
+    "sell_price": {
+      "display_strings": {
+        "copper": "9",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "6"
+      },
+      "value": 609
     },
-    "is_subclass_hidden": true,
-    "gem_properties": {
-      "relic_type": "Storm Artifact Relic"
-    }
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 186345,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 45,
+  "sell_price": 46586
 }

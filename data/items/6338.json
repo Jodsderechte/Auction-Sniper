@@ -4,89 +4,90 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6338?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_staff_01.jpg",
   "id": 6338,
-  "name": "Silver Rod",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 10,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6338?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6338
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tradeskill",
-    "id": 7
+    "name": "Tradeskill"
   },
   "item_subclass": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 12
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 500,
-  "sell_price": 125,
+  "level": 10,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 6338,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6338?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Silver Rod",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 6338,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6338?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6338
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Silver Rod",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6338?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6338
+      }
     },
     "item_class": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tradeskill",
-      "id": 7
+      "name": "Tradeskill"
     },
     "item_subclass": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 12
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 125,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "25"
+    "media": {
+      "id": 6338,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6338?namespace=static-11.1.0_59095-eu"
       }
     },
-    "is_subclass_hidden": true
+    "name": "Silver Rod",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 125
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 125
 }

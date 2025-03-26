@@ -4,267 +4,268 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/8028?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Runed Mithril Hammer.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 8028,
-  "name": "Plans: Runed Mithril Hammer",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/8028?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 8028
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 10000,
-  "sell_price": 2500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Runed Mithril Hammer.",
+  "media": {
+    "id": 8028,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/8028?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Runed Mithril Hammer",
   "preview_item": {
+    "description": "Teaches you how to make a Runed Mithril Hammer.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 8028,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/8028?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8028
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Plans: Runed Mithril Hammer",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/8028?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8028
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 8028,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/8028?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 245,
-        "display_string": "Requires Classic Blacksmithing (245)"
-      }
+    "name": "Plans: Runed Mithril Hammer",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to make a Runed Mithril Hammer.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 65 / 65",
+          "value": 65
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 7946,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/7946?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 7946
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Runed Mithril Hammer",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/7946?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 7946
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mace",
-          "id": 4
+          "name": "Mace"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 25",
+          "value": 25
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 4,
-            "max_value": 5,
-            "display_string": "4 - 5 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 2600,
-            "display_string": "Speed 2.60"
-          },
-          "dps": {
-            "value": 1.7307692,
-            "display_string": "(1.7 damage per second)"
+        "media": {
+          "id": 7946,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/7946?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 1,
-            "display": {
-              "display_string": "+1 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Runed Mithril Hammer",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 19,
-            "display_string": "Requires Level 19"
+            "display_string": "Requires Level 19",
+            "value": 19
           }
         },
-        "level": {
-          "value": 25,
-          "display_string": "Item Level 25"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 65,
-          "display_string": "Durability 65 / 65"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+1 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 1
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.60",
+            "value": 2600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "4 - 5 Damage",
+            "max_value": 5,
+            "min_value": 4
+          },
+          "dps": {
+            "display_string": "(1.7 damage per second)",
+            "value": 1.7307692
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 18,
           "reagent": {
+            "id": 3860,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3860?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mithril Bar",
-            "id": 3860
-          },
-          "quantity": 18
+            "name": "Mithril Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 7075,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7075?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Core of Earth",
-            "id": 7075
-          },
-          "quantity": 2
+            "name": "Core of Earth"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 7966,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7966?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Solid Grinding Stone",
-            "id": 7966
-          },
-          "quantity": 1
+            "name": "Solid Grinding Stone"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 4304,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4304?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thick Leather",
-            "id": 4304
-          },
-          "quantity": 4
+            "name": "Thick Leather"
+          }
         }
       ],
       "reagents_display_string": "Mithril Bar (18), Core of Earth (2), Solid Grinding Stone, Thick Leather (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (245)",
+        "level": 245,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 2500
 }

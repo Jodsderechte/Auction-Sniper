@@ -4,124 +4,125 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2108?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 670,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/670?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_wolf.jpg",
   "id": 2108,
-  "name": "Frostmane Leather Vest",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "CHEST"
   },
-  "level": 2,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2108?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2108
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "CHEST",
-    "name": "Chest"
-  },
-  "purchase_price": 56,
-  "sell_price": 11,
+  "level": 2,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2108,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2108?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Frostmane Leather Vest",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2108?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "21 Armor"
       },
-      "id": 2108
+      "value": 21
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6713
     ],
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
     },
-    "name": "Frostmane Leather Vest",
-    "media": {
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
+    "item": {
+      "id": 2108,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2108?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2108
+        "href": "https://eu.api.blizzard.com/data/wow/item/2108?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
-    },
-    "inventory_type": {
-      "type": "CHEST",
-      "name": "Chest"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 21,
-      "display": {
-        "display_string": "21 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "sell_price": {
-      "value": 10204,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "2",
-        "copper": "4"
-      }
+      "name": "Leather"
     },
     "level": {
-      "value": 150,
-      "display_string": "Item Level 150"
+      "display_string": "Item Level 150",
+      "value": 150
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "media": {
+      "id": 2108,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2108?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Frostmane Leather Vest",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "4",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 10204
     }
   },
+  "purchase_price": 56,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/670?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 670
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 11
 }

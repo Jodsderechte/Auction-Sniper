@@ -4,155 +4,156 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/207557?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 4689,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/4689?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_staff_11.jpg",
   "id": 207557,
-  "name": "Magebane Nexus",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Held In Off-hand",
+    "type": "HOLDABLE"
   },
-  "level": 29,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/207557?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 207557
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "HOLDABLE",
-    "name": "Held In Off-hand"
-  },
-  "purchase_price": 156449,
-  "sell_price": 31289,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 207557,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/207557?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Magebane Nexus",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Held In Off-hand",
+      "type": "HOLDABLE"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 207557,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/207557?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207557
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Magebane Nexus",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/207557?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 207557
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "HOLDABLE",
-      "name": "Held In Off-hand"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 207557,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/207557?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Magebane Nexus",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "49",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 149
     },
     "stats": [
       {
-        "type": {
-          "type": "FIRE_RESISTANCE",
-          "name": "Fire Resistance"
-        },
-        "value": 2,
         "display": {
-          "display_string": "+2 Fire Resistance",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Fire Resistance"
+        },
+        "type": {
+          "name": "Fire Resistance",
+          "type": "FIRE_RESISTANCE"
+        },
+        "value": 2
       },
       {
-        "type": {
-          "type": "FROST_RESISTANCE",
-          "name": "Frost Resistance"
-        },
-        "value": 2,
         "display": {
-          "display_string": "+2 Frost Resistance",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Frost Resistance"
+        },
+        "type": {
+          "name": "Frost Resistance",
+          "type": "FROST_RESISTANCE"
+        },
+        "value": 2
       },
       {
-        "type": {
-          "type": "ARCANE_RESISTANCE",
-          "name": "Arcane Resistance"
-        },
-        "value": 2,
         "display": {
-          "display_string": "+2 Arcane Resistance",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+2 Arcane Resistance"
+        },
+        "type": {
+          "name": "Arcane Resistance",
+          "type": "ARCANE_RESISTANCE"
+        },
+        "value": 2
       }
-    ],
-    "sell_price": {
-      "value": 149,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "49"
-      }
-    },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
-    },
-    "is_subclass_hidden": true
+    ]
   },
+  "purchase_price": 156449,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/4689?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4689
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 31289
 }

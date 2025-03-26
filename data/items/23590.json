@@ -4,221 +4,222 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23590?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make an Adamantite Maul.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 23590,
-  "name": "Plans: Adamantite Maul",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23590?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23590
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 40000,
-  "sell_price": 10000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make an Adamantite Maul.",
+  "media": {
+    "id": 23590,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23590?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Adamantite Maul",
   "preview_item": {
+    "description": "Teaches you how to make an Adamantite Maul.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 23590,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23590?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23590
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Plans: Adamantite Maul",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23590?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23590
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 23590,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23590?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Blacksmithing",
-          "id": 2476
-        },
-        "level": 25,
-        "display_string": "Requires Outland Blacksmithing (25)"
-      }
+    "name": "Plans: Adamantite Maul",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make an Adamantite Maul.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 85 / 85",
+          "value": 85
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
         "item": {
+          "id": 23502,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/23502?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23502
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Adamantite Maul",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/23502?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 23502
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 5,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mace",
-          "id": 5
+          "name": "Mace"
         },
-        "inventory_type": {
-          "type": "TWOHWEAPON",
-          "name": "Two-Hand"
+        "level": {
+          "display_string": "Item Level 31",
+          "value": 31
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 8,
-            "max_value": 11,
-            "display_string": "8 - 11 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3600,
-            "display_string": "Speed 3.60"
-          },
-          "dps": {
-            "value": 2.6388888,
-            "display_string": "(2.6 damage per second)"
+        "media": {
+          "id": 23502,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/23502?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 7,
-            "is_negated": true,
-            "display": {
-              "display_string": "+7 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Adamantite Maul",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 26,
-            "display_string": "Requires Level 26"
+            "display_string": "Requires Level 26",
+            "value": 26
           }
         },
-        "level": {
-          "value": 31,
-          "display_string": "Item Level 31"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 85,
-          "display_string": "Durability 85 / 85"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+7 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 7
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.60",
+            "value": 3600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "8 - 11 Damage",
+            "max_value": 11,
+            "min_value": 8
+          },
+          "dps": {
+            "display_string": "(2.6 damage per second)",
+            "value": 2.6388888
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 8,
           "reagent": {
+            "id": 23446,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23446?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Adamantite Bar",
-            "id": 23446
-          },
-          "quantity": 8
+            "name": "Adamantite Bar"
+          }
         }
       ],
       "reagents_display_string": "Adamantite Bar (8)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Blacksmithing (25)",
+        "level": 25,
+        "profession": {
+          "id": 2476,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2476?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 40000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 10000
 }

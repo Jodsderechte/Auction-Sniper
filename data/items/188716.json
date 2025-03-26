@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/188716?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 70211,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70211?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helm_plate_dragonquest_b_01.jpg",
   "id": 188716,
-  "name": "Corroded Plate Faceguard",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 200,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/188716?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 188716
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 768461,
-  "sell_price": 153692,
+  "level": 200,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 188716,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/188716?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Corroded Plate Faceguard",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/188716?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "444 Armor"
       },
-      "id": 188716
+      "value": 444
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       7966
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Corroded Plate Faceguard",
-    "media": {
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "item": {
+      "id": 188716,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/188716?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 188716
+        "href": "https://eu.api.blizzard.com/data/wow/item/188716?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 444,
-      "display": {
-        "display_string": "444 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 188716,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/188716?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 86799,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "67",
-        "copper": "99"
-      }
+    "name": "Corroded Plate Faceguard",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
+        "display_string": "Requires Level 50",
+        "value": 50
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "sell_price": {
+      "display_strings": {
+        "copper": "99",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "67"
+      },
+      "value": 86799
     }
   },
+  "purchase_price": 768461,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70211?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 70211
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 50,
+  "sell_price": 153692
 }

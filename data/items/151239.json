@@ -4,94 +4,95 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/151239?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Jam-packed with enough weight to send a kraken to the ocean floor!",
+  "icon_path": "data\\icons\\ability_rogue_grapplinghook.jpg",
   "id": 151239,
-  "name": "Felslate Anchor",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/151239?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 151239
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Jam-packed with enough weight to send a kraken to the ocean floor!",
+  "media": {
+    "id": 151239,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/151239?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Felslate Anchor",
   "preview_item": {
+    "description": "Jam-packed with enough weight to send a kraken to the ocean floor!",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 151239,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/151239?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 151239
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Felslate Anchor",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/151239?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 151239
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 151239,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/151239?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Felslate Anchor",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "spells": [
       {
+        "description": "Use: Attach an anchor to your legs which sends you plummeting towards the ocean floor. Only usable in water. (30 Sec Cooldown)",
         "spell": {
+          "id": 246098,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/246098?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Felslate Anchor",
-          "id": 246098
-        },
-        "description": "Use: Attach an anchor to your legs which sends you plummeting towards the ocean floor. Only usable in water. (30 Sec Cooldown)"
+          "name": "Felslate Anchor"
+        }
       }
-    ],
-    "description": "Jam-packed with enough weight to send a kraken to the ocean floor!",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

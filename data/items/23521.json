@@ -4,245 +4,246 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/23521?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2511,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2511?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_22.jpg",
   "id": 23521,
-  "name": "Ragesteel Helm",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 32,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/23521?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 23521
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 67984,
-  "sell_price": 13596,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 23521,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/23521?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ragesteel Helm",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "11 Armor"
+      },
+      "value": 11
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
     "item": {
+      "id": 23521,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/23521?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23521
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Ragesteel Helm",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/23521?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 23521
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 11,
-      "display": {
-        "display_string": "11 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 23521,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/23521?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 5,
-        "is_negated": true,
-        "display": {
-          "display_string": "+5 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 6,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+6 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 170,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "70"
-      }
+    "name": "Ragesteel Helm",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/566?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Burning Rage",
-        "id": 566
+    "sell_price": {
+      "display_strings": {
+        "copper": "70",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23522?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Ragesteel Breastplate",
-            "id": 23522
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23521?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Ragesteel Helm",
-            "id": 23521
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/23520?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Ragesteel Gloves",
-            "id": 23520
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/33173?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Ragesteel Shoulders",
-            "id": 33173
-          }
-        }
-      ],
+      "value": 170
+    },
+    "set": {
+      "display_string": "Burning Rage (0/4)",
       "effects": [
         {
           "display_string": "(2) Set: Increases your critical strike by 10.",
           "required_count": 2
         }
       ],
-      "display_string": "Burning Rage (0/4)",
+      "item_set": {
+        "id": 566,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/566?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Burning Rage"
+      },
+      "items": [
+        {
+          "item": {
+            "id": 23522,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23522?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Ragesteel Breastplate"
+          }
+        },
+        {
+          "item": {
+            "id": 23521,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23521?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Ragesteel Helm"
+          }
+        },
+        {
+          "item": {
+            "id": 23520,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/23520?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Ragesteel Gloves"
+          }
+        },
+        {
+          "item": {
+            "id": 33173,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/33173?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Ragesteel Shoulders"
+          }
+        }
+      ],
       "requirements": {
         "skill": {
+          "display_string": "Requires Blacksmithing (350)",
+          "level": 350,
           "profession": {
+            "id": 164,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/profession/164?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Blacksmithing",
-            "id": 164
-          },
-          "level": 350,
-          "display_string": "Requires Blacksmithing (350)"
+            "name": "Blacksmithing"
+          }
         }
       }
     },
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2511?namespace=static-11.1.0_59095-eu"
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 5
       },
-      "id": 2511
-    }
-  ]
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+5 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+6 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 6
+      }
+    ]
+  },
+  "purchase_price": 67984,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 13596
 }

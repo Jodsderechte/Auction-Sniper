@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/8224?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2654,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2654?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_26.jpg",
   "id": 8224,
-  "name": "Silithid Ripper",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 21,
-  "required_level": 13,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/8224?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 8224
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 21079,
-  "sell_price": 4215,
+  "level": 21,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 8224,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/8224?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Silithid Ripper",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/8224?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8224
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       4790
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 60 / 60",
+      "value": 60
     },
-    "name": "Silithid Ripper",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 8224,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/8224?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8224
+        "href": "https://eu.api.blizzard.com/data/wow/item/8224?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 366",
+      "value": 366
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 330,
-        "max_value": 551,
-        "display_string": "330 - 551 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 169.42307,
-        "display_string": "(169.4 damage per second)"
+    "media": {
+      "id": 8224,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/8224?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/265073?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Silithid Ripper",
-          "id": 265073
-        },
-        "description": "Equip: Wounds the target causing them to bleed for 491 damage over 30 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 480003,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "48",
-        "silver": "0",
-        "copper": "3"
-      }
+    "name": "Silithid Ripper",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 13,
-        "display_string": "Requires Level 13"
+        "display_string": "Requires Level 13",
+        "value": 13
       }
     },
-    "level": {
-      "value": 366,
-      "display_string": "Item Level 366"
+    "sell_price": {
+      "display_strings": {
+        "copper": "3",
+        "gold": "48",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 480003
     },
-    "durability": {
-      "value": 60,
-      "display_string": "Durability 60 / 60"
+    "spells": [
+      {
+        "description": "Equip: Wounds the target causing them to bleed for 491 damage over 30 sec.",
+        "spell": {
+          "id": 265073,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/265073?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Silithid Ripper"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "330 - 551 Damage",
+        "max_value": 551,
+        "min_value": 330
+      },
+      "dps": {
+        "display_string": "(169.4 damage per second)",
+        "value": 169.42307
+      }
     }
   },
+  "purchase_price": 21079,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2654?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2654
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 13,
+  "sell_price": 4215
 }

@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3962?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1413,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1413?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_boots_03.jpg",
   "id": 3962,
-  "name": "Thick Leather Boots",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 25,
-  "required_level": 19,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3962?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3962
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 476824,
-  "sell_price": 95364,
+  "level": 25,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 3962,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3962?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Thick Leather Boots",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/3962?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "167 Armor"
       },
-      "id": 3962
+      "value": 167
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 50 / 50",
+      "value": 50
     },
-    "name": "Thick Leather Boots",
-    "media": {
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
+    "item": {
+      "id": 3962,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3962?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3962
+        "href": "https://eu.api.blizzard.com/data/wow/item/3962?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 167,
-      "display": {
-        "display_string": "167 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 3962,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3962?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 85248,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "52",
-        "copper": "48"
-      }
+    "name": "Thick Leather Boots",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 19,
-        "display_string": "Requires Level 19"
+        "display_string": "Requires Level 19",
+        "value": 19
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 50,
-      "display_string": "Durability 50 / 50"
+    "sell_price": {
+      "display_strings": {
+        "copper": "48",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "52"
+      },
+      "value": 85248
     }
   },
+  "purchase_price": 476824,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1413?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1413
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 19,
+  "sell_price": 95364
 }

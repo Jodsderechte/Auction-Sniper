@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/53852?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 13006,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/13006?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shirt_14.jpg",
   "id": 53852,
-  "name": "Embroidered Shirt",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Shirt",
+    "type": "BODY"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/53852?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 53852
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "BODY",
-    "name": "Shirt"
-  },
-  "purchase_price": 10000000,
-  "sell_price": 200000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 53852,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/53852?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Embroidered Shirt",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Shirt",
+      "type": "BODY"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 53852,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/53852?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 53852
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Embroidered Shirt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/53852?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 53852
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "BODY",
-      "name": "Shirt"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 200000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "0",
-        "copper": "0"
-      }
+      "name": "Miscellaneous"
     },
     "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 53852,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/13006?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/53852?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Embroidered Shirt",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 13006
+      "value": 200000
     }
-  ]
+  },
+  "purchase_price": 10000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 200000
 }

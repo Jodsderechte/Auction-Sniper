@@ -4,245 +4,246 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/203825?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Gurubashi Carver.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 203825,
-  "name": "Ancient Plans: Gurubashi Carver",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/203825?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 203825
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Gurubashi Carver.",
+  "media": {
+    "id": 203825,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/203825?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Plans: Gurubashi Carver",
   "preview_item": {
+    "description": "Teaches you how to craft Gurubashi Carver.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 203825,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/203825?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 203825
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Ancient Plans: Gurubashi Carver",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/203825?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 203825
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 300,
-        "display_string": "Requires Classic Blacksmithing (300)"
+    "media": {
+      "id": 203825,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/203825?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Gurubashi Carver.",
+    "name": "Ancient Plans: Gurubashi Carver",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 100 / 100",
+          "value": 100
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
         "item": {
+          "id": 203810,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/203810?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 203810
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Gurubashi Carver",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/203810?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 203810
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Axe",
-          "id": 1
+          "name": "Axe"
         },
-        "inventory_type": {
-          "type": "TWOHWEAPON",
-          "name": "Two-Hand"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 6,
-            "max_value": 13,
-            "display_string": "6 - 13 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3600,
-            "display_string": "Speed 3.60"
-          },
-          "dps": {
-            "value": 2.6388888,
-            "display_string": "(2.6 damage per second)"
+        "media": {
+          "id": 203810,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/203810?namespace=static-11.1.0_59095-eu"
           }
         },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/24292?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Dragon Slaying 117",
-              "id": 24292
-            },
-            "description": "Equip: Increases attack power by 1 when fighting Dragonkin."
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Gurubashi Carver",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 25,
-            "display_string": "Requires Level 25"
+            "display_string": "Requires Level 25",
+            "value": 25
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 100,
-          "display_string": "Durability 100 / 100"
+        "spells": [
+          {
+            "description": "Equip: Increases attack power by 1 when fighting Dragonkin.",
+            "spell": {
+              "id": 24292,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/24292?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Dragon Slaying 117"
+            }
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.60",
+            "value": 3600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "6 - 13 Damage",
+            "max_value": 13,
+            "min_value": 6
+          },
+          "dps": {
+            "display_string": "(2.6 damage per second)",
+            "value": 2.6388888
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 60,
           "reagent": {
+            "id": 12359,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12359?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Bar",
-            "id": 12359
-          },
-          "quantity": 60
+            "name": "Thorium Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12360,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcanite Bar",
-            "id": 12360
-          },
-          "quantity": 4
+            "name": "Arcanite Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12364,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12364?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Huge Emerald",
-            "id": 12364
-          },
-          "quantity": 2
+            "name": "Huge Emerald"
+          }
         },
         {
+          "quantity": 5,
           "reagent": {
+            "id": 12804,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12804?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Powerful Mojo",
-            "id": 12804
-          },
-          "quantity": 5
+            "name": "Powerful Mojo"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 12644,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12644?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Dense Grinding Stone",
-            "id": 12644
-          },
-          "quantity": 8
+            "name": "Dense Grinding Stone"
+          }
         }
       ],
       "reagents_display_string": "Thorium Bar (60), Arcanite Bar (4), Huge Emerald (2), Powerful Mojo (5), Dense Grinding Stone (8)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (300)",
+        "level": 300,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3233?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bag_01.jpg",
   "id": 3233,
-  "name": "Gnoll Hide Sack",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 8,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3233?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3233
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bag",
-    "id": 0
-  },
-  "inventory_type": {
-    "type": "BAG",
     "name": "Bag"
   },
-  "purchase_price": 850,
-  "sell_price": 212,
+  "level": 8,
   "max_count": 1,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 3233,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3233?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Gnoll Hide Sack",
   "preview_item": {
+    "container_slots": {
+      "display_string": "8 Slot Bag",
+      "value": 8
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 3233,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/3233?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3233
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Gnoll Hide Sack",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3233?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3233
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bag",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "BAG",
       "name": "Bag"
     },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 212,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "12"
+    "media": {
+      "id": 3233,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3233?namespace=static-11.1.0_59095-eu"
       }
     },
-    "container_slots": {
-      "value": 8,
-      "display_string": "8 Slot Bag"
-    }
+    "name": "Gnoll Hide Sack",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "12",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 212
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 850,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 212
 }

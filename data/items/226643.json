@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/226643?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Beledar's Bulwark.",
+  "icon_path": "data\\icons\\inv_10_inscription2_scroll2_color1.jpg",
   "id": 226643,
-  "name": "Plans: Beledar's Bulwark",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 70,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/226643?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 226643
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 250000,
-  "sell_price": 50000,
+  "level": 70,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Beledar's Bulwark.",
+  "media": {
+    "id": 226643,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/226643?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Beledar's Bulwark",
   "preview_item": {
+    "description": "Teaches you how to craft Beledar's Bulwark.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 226643,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/226643?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 226643
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Plans: Beledar's Bulwark",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/226643?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 226643
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 50000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 226643,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/226643?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Plans: Beledar's Bulwark",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Khaz Algar Blacksmithing (35)",
+        "level": 35,
         "profession": {
+          "id": 2872,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2872?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Khaz Algar Blacksmithing",
-          "id": 2872
-        },
-        "level": 35,
-        "display_string": "Requires Khaz Algar Blacksmithing (35)"
+          "name": "Khaz Algar Blacksmithing"
+        }
       }
     },
-    "description": "Teaches you how to craft Beledar's Bulwark.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 50000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 250000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 50000
 }

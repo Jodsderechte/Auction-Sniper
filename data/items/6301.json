@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6301?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Looks like someone didn't like this guy.",
+  "icon_path": "data\\icons\\inv_misc_bone_dwarfskull_01.jpg",
   "id": 6301,
-  "name": "Old Teamster's Skull",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6301?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6301
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 80,
-  "sell_price": 20,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Looks like someone didn't like this guy.",
+  "media": {
+    "id": 6301,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6301?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Old Teamster's Skull",
   "preview_item": {
+    "description": "Looks like someone didn't like this guy.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 6301,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6301?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6301
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Old Teamster's Skull",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6301?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6301
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 20,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "20"
+    "media": {
+      "id": 6301,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6301?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Looks like someone didn't like this guy.",
-    "is_subclass_hidden": true
+    "name": "Old Teamster's Skull",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "20",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 80,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 20
 }

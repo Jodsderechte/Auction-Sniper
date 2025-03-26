@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/188735?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 70253,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70253?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mail_dragonquest_b_01_belt.jpg",
   "id": 188735,
-  "name": "Timeworn Chain Clasp",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Waist",
+    "type": "WAIST"
   },
-  "level": 200,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/188735?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 188735
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
-  },
-  "purchase_price": 514271,
-  "sell_price": 102854,
+  "level": 200,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 188735,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/188735?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Timeworn Chain Clasp",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/188735?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "221 Armor"
       },
-      "id": 188735
+      "value": 221
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       7966
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
     },
-    "name": "Timeworn Chain Clasp",
-    "media": {
+    "inventory_type": {
+      "name": "Waist",
+      "type": "WAIST"
+    },
+    "item": {
+      "id": 188735,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/188735?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 188735
+        "href": "https://eu.api.blizzard.com/data/wow/item/188735?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 221,
-      "display": {
-        "display_string": "221 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 188735,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/188735?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 58091,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "80",
-        "copper": "91"
-      }
+    "name": "Timeworn Chain Clasp",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
+        "display_string": "Requires Level 50",
+        "value": 50
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
+    "sell_price": {
+      "display_strings": {
+        "copper": "91",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "80"
+      },
+      "value": 58091
     }
   },
+  "purchase_price": 514271,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70253?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 70253
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 50,
+  "sell_price": 102854
 }

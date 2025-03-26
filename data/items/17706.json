@@ -4,272 +4,273 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/17706?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make the Edge of Winter.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 17706,
-  "name": "Plans: Edge of Winter",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/17706?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 17706
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 3800,
-  "sell_price": 950,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make the Edge of Winter.",
+  "media": {
+    "id": 17706,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/17706?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Edge of Winter",
   "preview_item": {
+    "description": "Teaches you how to make the Edge of Winter.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 17706,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/17706?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 17706
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Plans: Edge of Winter",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/17706?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 17706
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 950,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "9",
-        "copper": "50"
+    "media": {
+      "id": 17706,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/17706?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 190,
-        "display_string": "Requires Classic Blacksmithing (190)"
-      }
+    "name": "Plans: Edge of Winter",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to make the Edge of Winter.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 60 / 60",
+          "value": 60
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 17704,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/17704?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 17704
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Edge of Winter",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/17704?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 17704
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Axe",
-          "id": 0
+          "name": "Axe"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 21",
+          "value": 21
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 2,
-            "max_value": 6,
-            "display_string": "2 - 6 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 2600,
-            "display_string": "Speed 2.60"
-          },
-          "dps": {
-            "value": 1.5384614,
-            "display_string": "(1.5 damage per second)"
+        "media": {
+          "id": 17704,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/17704?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 1,
-            "display": {
-              "display_string": "+1 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/16407?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Frost Blast",
-              "id": 16407
-            },
-            "description": "Chance on hit: Blasts a target for 1 Frost damage."
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Edge of Winter",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 14,
-            "display_string": "Requires Level 14"
+            "display_string": "Requires Level 14",
+            "value": 14
           }
         },
-        "level": {
-          "value": 21,
-          "display_string": "Item Level 21"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 60,
-          "display_string": "Durability 60 / 60"
+        "spells": [
+          {
+            "description": "Chance on hit: Blasts a target for 1 Frost damage.",
+            "spell": {
+              "id": 16407,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/16407?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Frost Blast"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+1 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 1
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.60",
+            "value": 2600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "2 - 6 Damage",
+            "max_value": 6,
+            "min_value": 2
+          },
+          "dps": {
+            "display_string": "(1.5 damage per second)",
+            "value": 1.5384614
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 10,
           "reagent": {
+            "id": 3859,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3859?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Steel Bar",
-            "id": 3859
-          },
-          "quantity": 10
+            "name": "Steel Bar"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3829,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3829?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Frost Oil",
-            "id": 3829
-          },
-          "quantity": 1
+            "name": "Frost Oil"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 7070,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7070?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Elemental Water",
-            "id": 7070
-          },
-          "quantity": 2
+            "name": "Elemental Water"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 7069,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7069?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Elemental Air",
-            "id": 7069
-          },
-          "quantity": 2
+            "name": "Elemental Air"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 4234,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4234?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Leather",
-            "id": 4234
-          },
-          "quantity": 2
+            "name": "Heavy Leather"
+          }
         }
       ],
       "reagents_display_string": "Steel Bar (10), Frost Oil, Elemental Water (2), Elemental Air (2), Heavy Leather (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (190)",
+        "level": 190,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "9"
+      },
+      "value": 950
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 3800,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 950
 }

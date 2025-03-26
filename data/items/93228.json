@@ -4,114 +4,115 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/93228?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_scroll_16.jpg",
   "id": 93228,
-  "name": "Brawler's Pass",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/93228?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 93228
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 4,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 93228,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/93228?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Brawler's Pass",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 93228,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/93228?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 93228
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Brawler's Pass",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/93228?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 93228
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 93228,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/93228?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Brawler's Pass",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "requirements": {
+      "faction": {
+        "display_string": "Horde Only",
+        "value": {
+          "name": "Horde",
+          "type": "HORDE"
+        }
+      },
+      "level": {
+        "display_string": "Requires Level 50",
+        "value": 50
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
     },
     "spells": [
       {
+        "description": "Use: Gain access to the Brawler's Guild for all characters for your Warband.",
         "spell": {
+          "id": 136149,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/136149?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Blood-Soaked Invitation",
-          "id": 136149
-        },
-        "description": "Use: Gain access to the Brawler's Guild for all characters for your Warband."
+          "name": "Blood-Soaked Invitation"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
-      },
-      "faction": {
-        "value": {
-          "type": "HORDE",
-          "name": "Horde"
-        },
-        "display_string": "Horde Only"
-      }
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 4,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 50,
+  "sell_price": 1
 }

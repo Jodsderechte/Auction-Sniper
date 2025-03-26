@@ -4,115 +4,116 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/153093?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8662,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8662?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_87.jpg",
   "id": 153093,
-  "name": "Netherworn Cowl",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 37,
-  "required_level": 40,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/153093?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 153093
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 755773,
-  "sell_price": 151154,
+  "level": 37,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 153093,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/153093?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Netherworn Cowl",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/153093?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153093
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
     },
-    "name": "Netherworn Cowl",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 153093,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/153093?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 153093
+        "href": "https://eu.api.blizzard.com/data/wow/item/153093?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
+      "name": "Cosmetic"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 66672,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "6",
-        "silver": "66",
-        "copper": "72"
+    "media": {
+      "id": 153093,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/153093?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Netherworn Cowl",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 40,
-        "display_string": "Requires Level 40"
+        "display_string": "Requires Level 40",
+        "value": 40
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8662?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "72",
+        "gold": "6",
+        "header": "Sell Price:",
+        "silver": "66"
       },
-      "id": 8662
+      "value": 66672
     }
-  ]
+  },
+  "purchase_price": 755773,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 40,
+  "sell_price": 151154
 }

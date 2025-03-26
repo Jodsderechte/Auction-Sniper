@@ -4,194 +4,195 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/10314?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew a Lavender Mageweave Shirt.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 10314,
-  "name": "Pattern: Lavender Mageweave Shirt",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/10314?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 10314
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 4000,
-  "sell_price": 1000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew a Lavender Mageweave Shirt.",
+  "media": {
+    "id": 10314,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/10314?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Lavender Mageweave Shirt",
   "preview_item": {
+    "description": "Teaches you how to sew a Lavender Mageweave Shirt.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 10314,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/10314?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10314
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Pattern: Lavender Mageweave Shirt",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/10314?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10314
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "10",
-        "copper": "0"
+    "media": {
+      "id": 10314,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/10314?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 230,
-        "display_string": "Requires Classic Tailoring (230)"
-      }
+    "name": "Pattern: Lavender Mageweave Shirt",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to sew a Lavender Mageweave Shirt.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Shirt",
+          "type": "BODY"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 10054,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/10054?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 10054
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Lavender Mageweave Shirt",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/10054?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 10054
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
-        },
-        "inventory_type": {
-          "type": "BODY",
-          "name": "Shirt"
-        },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "sell_price": {
-          "value": 3000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "30",
-            "copper": "0"
-          }
+          "name": "Miscellaneous"
         },
         "level": {
-          "value": 1,
-          "display_string": "Item Level 1"
+          "display_string": "Item Level 1",
+          "value": 1
         },
-        "is_subclass_hidden": true
+        "media": {
+          "id": 10054,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/10054?namespace=static-11.1.0_59095-eu"
+          }
+        },
+        "name": "Lavender Mageweave Shirt",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "30"
+          },
+          "value": 3000
+        }
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 4339,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4339?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Mageweave",
-            "id": 4339
-          },
-          "quantity": 2
+            "name": "Bolt of Mageweave"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 4342,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4342?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Purple Dye",
-            "id": 4342
-          },
-          "quantity": 2
+            "name": "Purple Dye"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 8343,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/8343?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Silken Thread",
-            "id": 8343
-          },
-          "quantity": 2
+            "name": "Heavy Silken Thread"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Mageweave (2), Purple Dye (2), Heavy Silken Thread (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (230)",
+        "level": 230,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "10"
+      },
+      "value": 1000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 4000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1000
 }

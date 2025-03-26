@@ -4,121 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/29201?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_spear_05.jpg",
   "id": 29201,
-  "name": "Thick Bronze Darts",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Thrown",
+    "type": "THROWN"
   },
-  "level": 12,
-  "required_level": 7,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/29201?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 29201
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 16,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/16?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Thrown",
-    "id": 16
-  },
-  "inventory_type": {
-    "type": "THROWN",
     "name": "Thrown"
   },
-  "purchase_price": 600,
-  "sell_price": 150,
+  "level": 12,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 29201,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/29201?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Thick Bronze Darts",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Thrown",
+      "type": "THROWN"
+    },
     "item": {
+      "id": 29201,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/29201?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 29201
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Thick Bronze Darts",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/29201?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 29201
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 16,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/16?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Thrown",
-      "id": 16
-    },
-    "inventory_type": {
-      "type": "THROWN",
       "name": "Thrown"
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "level": {
+      "display_string": "Item Level 12",
+      "value": 12
     },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 1,
-        "display_string": "1 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2200,
-        "display_string": "Speed 2.20"
-      },
-      "dps": {
-        "value": 0.45454544,
-        "display_string": "(0.5 damage per second)"
+    "media": {
+      "id": 29201,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/29201?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 150,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "50"
-      }
+    "name": "Thick Bronze Darts",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 7,
-        "display_string": "Requires Level 7"
+        "display_string": "Requires Level 7",
+        "value": 7
       }
     },
-    "level": {
-      "value": 12,
-      "display_string": "Item Level 12"
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 150
+    },
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.20",
+        "value": 2200
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 Damage",
+        "max_value": 1,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.5 damage per second)",
+        "value": 0.45454544
+      }
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 600,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 7,
+  "sell_price": 150
 }

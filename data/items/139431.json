@@ -4,101 +4,102 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/139431?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_crate_02.jpg",
   "id": 139431,
-  "name": "Crate of Ratstallion Harnesses",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/139431?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 139431
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 4,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 139431,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/139431?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Crate of Ratstallion Harnesses",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 139431,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/139431?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 139431
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Crate of Ratstallion Harnesses",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/139431?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 139431
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 139431,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/139431?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Crate of Ratstallion Harnesses",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
     },
     "spells": [
       {
+        "description": "Use: Place a crate of Ratstallion Harnesses that you and other players can use to mount while in the Underbelly.\r\n\r\nContains 25 mounts.",
         "spell": {
+          "id": 220229,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/220229?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Ratstallion Harnesses",
-          "id": 220229
-        },
-        "description": "Use: Place a crate of Ratstallion Harnesses that you and other players can use to mount while in the Underbelly.\r\n\r\nContains 25 mounts."
+          "name": "Ratstallion Harnesses"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 4,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 1
 }

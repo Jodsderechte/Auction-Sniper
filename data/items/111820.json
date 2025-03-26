@@ -4,107 +4,108 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/111820?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Warning: Swapping with someone using a Neural Silencer is highly dangerous.",
+  "icon_path": "data\\icons\\inv_weapon_rifle_38.jpg",
   "id": 111820,
-  "name": "Swapblaster",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/111820?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 111820
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 300000,
-  "sell_price": 75000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Warning: Swapping with someone using a Neural Silencer is highly dangerous.",
+  "media": {
+    "id": 111820,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/111820?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Swapblaster",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "Warning: Swapping with someone using a Neural Silencer is highly dangerous.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 111820,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/111820?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 111820
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Swapblaster",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/111820?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 111820
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 111820,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/111820?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Swapblaster",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "7",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 75000
     },
     "spells": [
       {
+        "description": "Use: Swaps your location with another party member.  Cannot be used in combat. (1 Min Cooldown)",
         "spell": {
+          "id": 161399,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/161399?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Swap",
-          "id": 161399
-        },
-        "description": "Use: Swaps your location with another party member.  Cannot be used in combat. (1 Min Cooldown)"
+          "name": "Swap"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 75000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "7",
-        "silver": "50",
-        "copper": "0"
-      }
-    },
-    "description": "Warning: Swapping with someone using a Neural Silencer is highly dangerous.",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 300000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 75000
 }

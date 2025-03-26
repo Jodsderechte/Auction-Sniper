@@ -4,109 +4,110 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/31501?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This item appears damaged by the elements and is no longer readable.",
+  "icon_path": "data\\icons\\inv_misc_book_07.jpg",
   "id": 31501,
-  "name": "Tome of Conjure Food",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/31501?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 31501
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Book",
-    "id": 0
+    "name": "Book"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 400000,
-  "sell_price": 100000,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "This item appears damaged by the elements and is no longer readable.",
+  "media": {
+    "id": 31501,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/31501?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Tome of Conjure Food",
   "preview_item": {
+    "description": "This item appears damaged by the elements and is no longer readable.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 31501,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/31501?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31501
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Tome of Conjure Food",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/31501?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31501
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Book",
-      "id": 0
+      "name": "Book"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 100000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 31501,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/31501?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Tome of Conjure Food",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       },
       "playable_classes": {
+        "display_string": "Classes: Mage",
         "links": [
           {
+            "id": 8,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/playable-class/8?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mage",
-            "id": 8
+            "name": "Mage"
           }
-        ],
-        "display_string": "Classes: Mage"
+        ]
       }
     },
-    "description": "This item appears damaged by the elements and is no longer readable.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 100000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 400000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 27,
+  "sell_price": 100000
 }

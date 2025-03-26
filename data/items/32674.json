@@ -4,99 +4,100 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/32674?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_sword_20.jpg",
   "id": 32674,
-  "name": "Depleted Sword",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 30,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/32674?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 32674
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 30,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 32674,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/32674?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Depleted Sword",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 32674,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/32674?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32674
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Depleted Sword",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/32674?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32674
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 32674,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/32674?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Depleted Sword",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 27",
+        "value": 27
+      }
+    },
     "spells": [
       {
+        "description": "Use: Infuse this item with the power of 50 Apexis Shards to activate its true power.",
         "spell": {
+          "id": 40756,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/40756?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Apexis Crystal Infusion",
-          "id": 40756
-        },
-        "description": "Use: Infuse this item with the power of 50 Apexis Shards to activate its true power."
+          "name": "Apexis Crystal Infusion"
+        }
       }
     ],
-    "requirements": {
-      "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
-      }
-    },
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 0
 }

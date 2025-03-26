@@ -4,131 +4,132 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3296?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 665,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/665?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_05.jpg",
   "id": 3296,
-  "name": "Deadman Dagger",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 2,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3296?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3296
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 54,
-  "sell_price": 10,
+  "level": 2,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 3296,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3296?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Deadman Dagger",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/3296?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3296
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6713
     ],
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 16 / 16",
+      "value": 16
     },
-    "name": "Deadman Dagger",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 3296,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3296?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3296
+        "href": "https://eu.api.blizzard.com/data/wow/item/3296?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
-    },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 10,
-        "max_value": 18,
-        "display_string": "10 - 18 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 7.7777777,
-        "display_string": "(7.8 damage per second)"
-      }
-    },
-    "sell_price": {
-      "value": 14864,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "48",
-        "copper": "64"
-      }
+      "name": "Dagger"
     },
     "level": {
-      "value": 150,
-      "display_string": "Item Level 150"
+      "display_string": "Item Level 150",
+      "value": 150
     },
-    "durability": {
-      "value": 16,
-      "display_string": "Durability 16 / 16"
+    "media": {
+      "id": 3296,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3296?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Deadman Dagger",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "64",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "48"
+      },
+      "value": 14864
+    },
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "10 - 18 Damage",
+        "max_value": 18,
+        "min_value": 10
+      },
+      "dps": {
+        "display_string": "(7.8 damage per second)",
+        "value": 7.7777777
+      }
     }
   },
+  "purchase_price": 54,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/665?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 665
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 10
 }

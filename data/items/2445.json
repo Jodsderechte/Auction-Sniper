@@ -4,138 +4,139 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2445?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 839,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/839?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shield_03.jpg",
   "id": 2445,
-  "name": "Large Metal Shield",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Off Hand",
+    "type": "SHIELD"
   },
-  "level": 14,
-  "required_level": 8,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2445?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2445
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Shield",
-    "id": 6
+    "name": "Shield"
   },
-  "inventory_type": {
-    "type": "SHIELD",
-    "name": "Off Hand"
-  },
-  "purchase_price": 4954,
-  "sell_price": 990,
+  "level": 14,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2445,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2445?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Large Metal Shield",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "28 Armor"
+      },
+      "value": 28
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 50 / 50",
+      "value": 50
+    },
+    "inventory_type": {
+      "name": "Off Hand",
+      "type": "SHIELD"
+    },
     "item": {
+      "id": 2445,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/2445?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2445
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Large Metal Shield",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2445?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2445
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Shield",
-      "id": 6
+      "name": "Shield"
     },
-    "inventory_type": {
-      "type": "SHIELD",
-      "name": "Off Hand"
+    "level": {
+      "display_string": "Item Level 14",
+      "value": 14
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 28,
-      "display": {
-        "display_string": "28 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 2445,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2445?namespace=static-11.1.0_59095-eu"
       }
     },
-    "shield_block": {
-      "value": 70,
-      "display": {
-        "display_string": "70 Block",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "sell_price": {
-      "value": 20,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "20"
-      }
+    "name": "Large Metal Shield",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 8,
-        "display_string": "Requires Level 8"
+        "display_string": "Requires Level 8",
+        "value": 8
       }
     },
-    "level": {
-      "value": 14,
-      "display_string": "Item Level 14"
+    "sell_price": {
+      "display_strings": {
+        "copper": "20",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20
     },
-    "durability": {
-      "value": 50,
-      "display_string": "Durability 50 / 50"
+    "shield_block": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "70 Block"
+      },
+      "value": 70
     }
   },
+  "purchase_price": 4954,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/839?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 839
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 8,
+  "sell_price": 990
 }

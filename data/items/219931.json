@@ -4,208 +4,209 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/219931?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\ability_pvp_gladiatormedallion.jpg",
   "id": 219931,
-  "name": "Algari Competitor's Medallion",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 577,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/219931?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 219931
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 2252540,
-  "sell_price": 450508,
+  "level": 577,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 219931,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/219931?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Algari Competitor's Medallion",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/219931?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 219931
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       11318
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Algari Competitor's Medallion",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 219931,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/219931?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 219931
+        "href": "https://eu.api.blizzard.com/data/wow/item/219931?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "level": {
+      "display_string": "Item Level 545",
+      "value": 545
     },
     "limit_category": "Unique-Equipped: Gladiator's Medallions (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 1502,
-        "display": {
-          "display_string": "+1,502 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 1502,
-        "is_negated": true,
-        "display": {
-          "display_string": "+1,502 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 1502,
-        "is_negated": true,
-        "display": {
-          "display_string": "+1,502 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 219931,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/219931?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/336126?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Gladiator's Medallion",
-          "id": 336126
-        },
-        "description": "Use: Removes all movement impairing effects and all effects which cause loss of control of your character. (2 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 450508,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "45",
-        "silver": "5",
-        "copper": "8"
-      }
+    },
+    "name": "Algari Competitor's Medallion",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/1458?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Gladiator's Distinction",
-        "id": 1458
+    "sell_price": {
+      "display_strings": {
+        "copper": "8",
+        "gold": "45",
+        "header": "Sell Price:",
+        "silver": "5"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/184268?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Gladiator's Emblem",
-            "id": 184268
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/184269?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Gladiator's Medallion",
-            "id": 184269
-          }
-        }
-      ],
+      "value": 450508
+    },
+    "set": {
+      "display_string": "Gladiator's Distinction (0/2)",
       "effects": [
         {
           "display_string": "(2) Set: Increases your Intellect by 12% and your Stamina by 10% when in Arenas, Battlegrounds, and War Mode.",
           "required_count": 2
         }
       ],
-      "display_string": "Gladiator's Distinction (0/2)"
+      "item_set": {
+        "id": 1458,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/1458?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Gladiator's Distinction"
+      },
+      "items": [
+        {
+          "item": {
+            "id": 184268,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/184268?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Gladiator's Emblem"
+          }
+        },
+        {
+          "item": {
+            "id": 184269,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/184269?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Gladiator's Medallion"
+          }
+        }
+      ]
     },
-    "level": {
-      "value": 545,
-      "display_string": "Item Level 545"
-    },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Removes all movement impairing effects and all effects which cause loss of control of your character. (2 Min Cooldown)",
+        "spell": {
+          "id": 336126,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/336126?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Gladiator's Medallion"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+1,502 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 1502
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+1,502 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 1502
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+1,502 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 1502
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2252540,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 70,
+  "sell_price": 450508
 }

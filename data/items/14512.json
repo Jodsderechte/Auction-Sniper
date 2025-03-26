@@ -4,320 +4,321 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/14512?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew Truefaith Vestments.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 14512,
-  "name": "Pattern: Truefaith Vestments",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/14512?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 14512
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 60000,
-  "sell_price": 15000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew Truefaith Vestments.",
+  "media": {
+    "id": 14512,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/14512?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Truefaith Vestments",
   "preview_item": {
+    "description": "Teaches you how to sew Truefaith Vestments.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 14512,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/14512?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14512
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Pattern: Truefaith Vestments",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/14512?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14512
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 15000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "50",
-        "copper": "0"
+    "media": {
+      "id": 14512,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/14512?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 300,
-        "display_string": "Requires Classic Tailoring (300)"
-      }
+    "name": "Pattern: Truefaith Vestments",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to sew Truefaith Vestments.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "4 Armor"
+          },
+          "value": 4
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "durability": {
+          "display_string": "Durability 165 / 165",
+          "value": 165
+        },
+        "inventory_type": {
+          "name": "Chest",
+          "type": "ROBE"
+        },
         "item": {
+          "id": 14154,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/14154?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 14154
-        },
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Truefaith Vestments",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/14154?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 14154
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cloth",
-          "id": 1
+          "name": "Cloth"
         },
-        "inventory_type": {
-          "type": "ROBE",
-          "name": "Chest"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
-        },
-        "armor": {
-          "value": 4,
-          "display": {
-            "display_string": "4 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 14154,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/14154?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 5,
-            "display": {
-              "display_string": "+5 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 5,
-            "display": {
-              "display_string": "+5 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "VERSATILITY",
-              "name": "Versatility"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Versatility",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/18388?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Quick Fade",
-              "id": 18388
-            },
-            "description": "Equip: Reduces the cooldown of your Fade ability by 2 sec."
-          }
-        ],
-        "sell_price": {
-          "value": 232,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "32"
-          }
+        "name": "Truefaith Vestments",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 24,
-            "display_string": "Requires Level 24"
+            "display_string": "Requires Level 24",
+            "value": 24
           },
           "playable_classes": {
+            "display_string": "Classes: Priest",
             "links": [
               {
+                "id": 5,
                 "key": {
                   "href": "https://eu.api.blizzard.com/data/wow/playable-class/5?namespace=static-11.1.0_59095-eu"
                 },
-                "name": "Priest",
-                "id": 5
+                "name": "Priest"
               }
-            ],
-            "display_string": "Classes: Priest"
+            ]
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "32",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 232
         },
-        "durability": {
-          "value": 165,
-          "display_string": "Durability 165 / 165"
-        }
+        "spells": [
+          {
+            "description": "Equip: Reduces the cooldown of your Fade ability by 2 sec.",
+            "spell": {
+              "id": 18388,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/18388?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Quick Fade"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Versatility"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Versatility",
+              "type": "VERSATILITY"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 12,
           "reagent": {
+            "id": 14048,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14048?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Runecloth",
-            "id": 14048
-          },
-          "quantity": 12
+            "name": "Bolt of Runecloth"
+          }
         },
         {
+          "quantity": 10,
           "reagent": {
+            "id": 14342,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14342?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mooncloth",
-            "id": 14342
-          },
-          "quantity": 10
+            "name": "Mooncloth"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12811,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12811?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Righteous Orb",
-            "id": 12811
-          },
-          "quantity": 4
+            "name": "Righteous Orb"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 13926,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/13926?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Golden Pearl",
-            "id": 13926
-          },
-          "quantity": 4
+            "name": "Golden Pearl"
+          }
         },
         {
+          "quantity": 10,
           "reagent": {
+            "id": 9210,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/9210?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Ghost Dye",
-            "id": 9210
-          },
-          "quantity": 10
+            "name": "Ghost Dye"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 14341,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14341?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Rune Thread",
-            "id": 14341
-          },
-          "quantity": 2
+            "name": "Rune Thread"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Runecloth (12), Mooncloth (10), Righteous Orb (4), Golden Pearl (4), Ghost Dye (10), Rune Thread (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (300)",
+        "level": 300,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 15000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 60000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 15000
 }

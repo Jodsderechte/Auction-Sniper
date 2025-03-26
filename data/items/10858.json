@@ -4,277 +4,278 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/10858?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Solid Iron Maul.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 10858,
-  "name": "Plans: Solid Iron Maul",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/10858?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 10858
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 3000,
-  "sell_price": 750,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Solid Iron Maul.",
+  "media": {
+    "id": 10858,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/10858?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Solid Iron Maul",
   "preview_item": {
+    "description": "Teaches you how to make a Solid Iron Maul.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 10858,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/10858?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10858
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Plans: Solid Iron Maul",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/10858?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10858
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "7",
-        "copper": "50"
+    "media": {
+      "id": 10858,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/10858?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 155,
-        "display_string": "Requires Classic Blacksmithing (155)"
-      }
+    "name": "Plans: Solid Iron Maul",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make a Solid Iron Maul.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 65 / 65",
+          "value": 65
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
         "item": {
+          "id": 3851,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/3851?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3851
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Solid Iron Maul",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/3851?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3851
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 5,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mace",
-          "id": 5
+          "name": "Mace"
         },
-        "inventory_type": {
-          "type": "TWOHWEAPON",
-          "name": "Two-Hand"
+        "level": {
+          "display_string": "Item Level 19",
+          "value": 19
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 6,
-            "max_value": 9,
-            "display_string": "6 - 9 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3600,
-            "display_string": "Speed 3.60"
-          },
-          "dps": {
-            "value": 2.0833333,
-            "display_string": "(2.1 damage per second)"
+        "media": {
+          "id": 3851,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/3851?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 6,
-            "display": {
-              "display_string": "+6 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Solid Iron Maul",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 12,
-            "display_string": "Requires Level 12"
+            "display_string": "Requires Level 12",
+            "value": 12
           }
         },
-        "level": {
-          "value": 19,
-          "display_string": "Item Level 19"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 65,
-          "display_string": "Durability 65 / 65"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+6 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 6
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.60",
+            "value": 3600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "6 - 9 Damage",
+            "max_value": 9,
+            "min_value": 6
+          },
+          "dps": {
+            "display_string": "(2.1 damage per second)",
+            "value": 2.0833333
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 8,
           "reagent": {
+            "id": 3575,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3575?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Iron Bar",
-            "id": 3575
-          },
-          "quantity": 8
+            "name": "Iron Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 3466,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3466?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Strong Flux",
-            "id": 3466
-          },
-          "quantity": 2
+            "name": "Strong Flux"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3486,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3486?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Grinding Stone",
-            "id": 3486
-          },
-          "quantity": 1
+            "name": "Heavy Grinding Stone"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 2842,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2842?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Silver Bar",
-            "id": 2842
-          },
-          "quantity": 4
+            "name": "Silver Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 4234,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4234?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Leather",
-            "id": 4234
-          },
-          "quantity": 2
+            "name": "Heavy Leather"
+          }
         }
       ],
       "reagents_display_string": "Iron Bar (8), Strong Flux (2), Heavy Grinding Stone, Silver Bar (4), Heavy Leather (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (155)",
+        "level": 155,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "7"
+      },
+      "value": 750
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 3000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 750
 }

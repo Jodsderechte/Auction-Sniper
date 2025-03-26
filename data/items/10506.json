@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/10506?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3287,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3287?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_49.jpg",
   "id": 10506,
-  "name": "Deepdive Helmet",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 24,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/10506?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 10506
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 13483,
-  "sell_price": 2696,
+  "level": 24,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 10506,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/10506?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Deepdive Helmet",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 10506,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/10506?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10506
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Deepdive Helmet",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/10506?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10506
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
+      "name": "Cosmetic"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 24",
+      "value": 24
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/11789?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Water Breathing",
-          "id": 11789
-        },
-        "description": "Equip: Allows underwater breathing."
+    "media": {
+      "id": 10506,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/10506?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 54,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "54"
-      }
+    },
+    "name": "Deepdive Helmet",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Classic Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2506,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 1,
-        "display_string": "Requires Classic Engineering (1)"
+          "name": "Classic Engineering"
+        }
       }
     },
-    "level": {
-      "value": 24,
-      "display_string": "Item Level 24"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3287?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "54",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 3287
-    }
-  ]
+      "value": 54
+    },
+    "spells": [
+      {
+        "description": "Equip: Allows underwater breathing.",
+        "spell": {
+          "id": 11789,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/11789?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Water Breathing"
+        }
+      }
+    ]
+  },
+  "purchase_price": 13483,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2696
 }

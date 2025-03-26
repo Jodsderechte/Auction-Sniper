@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/34249?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "The head bobs when shaken.",
+  "icon_path": "data\\icons\\inv_misc_toy_07.jpg",
   "id": 34249,
-  "name": "Hula Girl Doll",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 29,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/34249?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 34249
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 1000000,
-  "sell_price": 250000,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "The head bobs when shaken.",
+  "media": {
+    "id": 34249,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/34249?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Hula Girl Doll",
   "preview_item": {
+    "description": "The head bobs when shaken.",
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 34249,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/34249?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 34249
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Hula Girl Doll",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/34249?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 34249
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "sell_price": {
-      "value": 250000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "25",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 34249,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/34249?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "The head bobs when shaken.",
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+    "name": "Hula Girl Doll",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "25",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 250000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 250000
 }

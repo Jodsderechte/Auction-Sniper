@@ -4,220 +4,126 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/132743?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 28516,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/28516?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_gauntlets_18.jpg",
   "id": 132743,
-  "name": "Slither-Scale Gauntlets",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Hands",
+    "type": "HAND"
   },
-  "level": 13,
-  "required_level": 8,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/132743?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 132743
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "HAND",
-    "name": "Hands"
-  },
-  "purchase_price": 4530,
-  "sell_price": 906,
+  "level": 13,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 132743,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/132743?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Slither-Scale Gauntlets",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/132743?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "382 Armor"
       },
-      "id": 132743
+      "value": 382
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6710
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 35 / 35",
+      "value": 35
     },
-    "name": "Slither-Scale Gauntlets",
-    "media": {
+    "inventory_type": {
+      "name": "Hands",
+      "type": "HAND"
+    },
+    "item": {
+      "id": 132743,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/132743?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 132743
+        "href": "https://eu.api.blizzard.com/data/wow/item/132743?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "HAND",
-      "name": "Hands"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 382,
-      "display": {
-        "display_string": "382 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 132743,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/132743?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 339,
-        "display": {
-          "display_string": "+339 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 339,
-        "is_negated": true,
-        "display": {
-          "display_string": "+339 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 502,
-        "display": {
-          "display_string": "+502 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 216148,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "21",
-        "silver": "61",
-        "copper": "48"
-      }
+    "name": "Slither-Scale Gauntlets",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 8,
-        "display_string": "Requires Level 8"
+        "display_string": "Requires Level 8",
+        "value": 8
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/1268?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "The Scale's Embrace",
-        "id": 1268
+    "sell_price": {
+      "display_strings": {
+        "copper": "48",
+        "gold": "21",
+        "header": "Sell Price:",
+        "silver": "61"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/132741?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Slither-Scale Boots",
-            "id": 132741
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/132739?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Slither-Scale Hauberk",
-            "id": 132739
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/132743?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Slither-Scale Gauntlets",
-            "id": 132743
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/132742?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Slither-Scale Britches",
-            "id": 132742
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/132740?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Slither-Scale Cord",
-            "id": 132740
-          }
-        }
-      ],
+      "value": 216148
+    },
+    "set": {
+      "display_string": "The Scale's Embrace (0/5)",
       "effects": [
         {
           "display_string": "(2) Set: Increases Intellect by 1.",
@@ -236,24 +142,119 @@
           "required_count": 5
         }
       ],
-      "display_string": "The Scale's Embrace (0/5)"
-    },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
-    },
-    "durability": {
-      "value": 35,
-      "display_string": "Durability 35 / 35"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/28516?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 1268,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/1268?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "The Scale's Embrace"
       },
-      "id": 28516
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 132741,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/132741?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Slither-Scale Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 132739,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/132739?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Slither-Scale Hauberk"
+          }
+        },
+        {
+          "item": {
+            "id": 132743,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/132743?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Slither-Scale Gauntlets"
+          }
+        },
+        {
+          "item": {
+            "id": 132742,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/132742?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Slither-Scale Britches"
+          }
+        },
+        {
+          "item": {
+            "id": 132740,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/132740?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Slither-Scale Cord"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+339 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 339
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+339 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 339
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+502 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 502
+      }
+    ]
+  },
+  "purchase_price": 4530,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 8,
+  "sell_price": 906
 }

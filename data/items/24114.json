@@ -4,148 +4,149 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/24114?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_necklace_07.jpg",
   "id": 24114,
-  "name": "Braided Eternium Chain",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 31,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/24114?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 24114
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 157880,
-  "sell_price": 39470,
+  "level": 31,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 24114,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/24114?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Braided Eternium Chain",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "charges": {
+      "display_string": "10 Charges",
+      "value": 10
+    },
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 24114,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/24114?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24114
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Braided Eternium Chain",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/24114?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24114
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 31",
+      "value": 31
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 24114,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/24114?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 4,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+4 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/33488?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Weapon Damage",
-          "id": 33488
-        },
-        "description": "Equip: +1 Weapon Damage."
-      },
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/31025?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Braided Eternium Chain",
-          "id": 31025
-        },
-        "description": "Use: Increases the critical strike of nearby party members by 8 for 30 min. (1 Hr Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 39470,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "94",
-        "copper": "70"
-      }
+    "name": "Braided Eternium Chain",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 31,
-      "display_string": "Item Level 31"
+    "sell_price": {
+      "display_strings": {
+        "copper": "70",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "94"
+      },
+      "value": 39470
     },
-    "charges": {
-      "value": 10,
-      "display_string": "10 Charges"
-    },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: +1 Weapon Damage.",
+        "spell": {
+          "id": 33488,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/33488?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Weapon Damage"
+        }
+      },
+      {
+        "description": "Use: Increases the critical strike of nearby party members by 8 for 30 min. (1 Hr Cooldown)",
+        "spell": {
+          "id": 31025,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/31025?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Braided Eternium Chain"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+4 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 4
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 157880,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 39470
 }

@@ -4,145 +4,146 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/206512?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6154,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6154?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mace_28.jpg",
   "id": 206512,
-  "name": "Replaced Servo Arm",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 29,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/206512?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 206512
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 4
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 2243,
-  "sell_price": 448,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 206512,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/206512?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Replaced Servo Arm",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 110 / 110",
+      "value": 110
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 206512,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/206512?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206512
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Replaced Servo Arm",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/206512?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206512
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 4
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 4,
-        "max_value": 6,
-        "display_string": "4 - 6 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 1.9230769,
-        "display_string": "(1.9 damage per second)"
+    "media": {
+      "id": 206512,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/206512?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/29150?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Electric Discharge",
-          "id": 29150
-        },
-        "description": "Equip: Chance to discharge electricity causing 1 Nature damage to your target."
-      }
-    ],
-    "sell_price": {
-      "value": 347,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "3",
-        "copper": "47"
-      }
+    "name": "Replaced Servo Arm",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
+        "display_string": "Requires Level 25",
+        "value": 25
       }
     },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+    "sell_price": {
+      "display_strings": {
+        "copper": "47",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 347
     },
-    "durability": {
-      "value": 110,
-      "display_string": "Durability 110 / 110"
+    "spells": [
+      {
+        "description": "Equip: Chance to discharge electricity causing 1 Nature damage to your target.",
+        "spell": {
+          "id": 29150,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/29150?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Electric Discharge"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "4 - 6 Damage",
+        "max_value": 6,
+        "min_value": 4
+      },
+      "dps": {
+        "display_string": "(1.9 damage per second)",
+        "value": 1.9230769
+      }
     }
   },
+  "purchase_price": 2243,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6154?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6154
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 25,
+  "sell_price": 448
 }

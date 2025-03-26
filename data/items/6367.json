@@ -4,117 +4,118 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6367?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_fishingpole_01.jpg",
   "id": 6367,
-  "name": "Big Iron Fishing Pole",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 18,
-  "required_level": 11,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6367?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6367
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Fishing",
-    "id": 9
+    "name": "Fishing"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 10665,
-  "sell_price": 2133,
+  "level": 18,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 6367,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6367?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Big Iron Fishing Pole",
   "preview_item": {
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
+    },
     "item": {
+      "id": 6367,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6367?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6367
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Big Iron Fishing Pole",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6367?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6367
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Fishing",
-      "id": 9
+      "name": "Fishing"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
+    "media": {
+      "id": 6367,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6367?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/71435?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "+10 Fishing",
-          "id": 71435
-        },
-        "description": "Equip: +10 Fishing Skill."
-      }
-    ],
-    "sell_price": {
-      "value": 2133,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "21",
-        "copper": "33"
-      }
+    "name": "Big Iron Fishing Pole",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 11,
-        "display_string": "Requires Level 11"
+        "display_string": "Requires Level 11",
+        "value": 11
       },
       "skill": {
+        "display_string": "Requires Classic Fishing (100)",
+        "level": 100,
         "profession": {
+          "id": 2592,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2592?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Fishing",
-          "id": 2592
-        },
-        "level": 100,
-        "display_string": "Requires Classic Fishing (100)"
+          "name": "Classic Fishing"
+        }
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "33",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "21"
+      },
+      "value": 2133
+    },
+    "spells": [
+      {
+        "description": "Equip: +10 Fishing Skill.",
+        "spell": {
+          "id": 71435,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/71435?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "+10 Fishing"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 10665,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 11,
+  "sell_price": 2133
 }

@@ -4,97 +4,98 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18665?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Seething darkness engulfs the eye.",
+  "icon_path": "data\\icons\\spell_shadow_unholyfrenzy.jpg",
   "id": 18665,
-  "name": "The Eye of Shadow",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 29,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18665?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18665
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Seething darkness engulfs the eye.",
+  "media": {
+    "id": 18665,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18665?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Eye of Shadow",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "Seething darkness engulfs the eye.",
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18665,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18665?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18665
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "The Eye of Shadow",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18665?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18665
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "requirements": {
-      "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
+    "media": {
+      "id": 18665,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18665?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Seething darkness engulfs the eye.",
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+    "name": "The Eye of Shadow",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 25",
+        "value": 25
+      }
+    },
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 25,
+  "sell_price": 0
 }

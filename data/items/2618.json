@@ -4,126 +4,127 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2618?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 919,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/919?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_cloth_32.jpg",
   "id": 2618,
-  "name": "Silver Dress Robes",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "ROBE"
   },
-  "level": 26,
-  "required_level": 20,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2618?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2618
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cloth",
-    "id": 1
+    "name": "Cloth"
   },
-  "inventory_type": {
-    "type": "ROBE",
-    "name": "Chest"
-  },
-  "purchase_price": 1099712,
-  "sell_price": 219942,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2618,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2618?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Silver Dress Robes",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "3 Armor"
+      },
+      "value": 3
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 105 / 105",
+      "value": 105
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "ROBE"
+    },
     "item": {
+      "id": 2618,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/2618?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2618
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Silver Dress Robes",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2618?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2618
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cloth",
-      "id": 1
+      "name": "Cloth"
     },
-    "inventory_type": {
-      "type": "ROBE",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 26",
+      "value": 26
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 3,
-      "display": {
-        "display_string": "3 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 2618,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2618?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 64,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "64"
-      }
+    "name": "Silver Dress Robes",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 20,
-        "display_string": "Requires Level 20"
+        "display_string": "Requires Level 20",
+        "value": 20
       }
     },
-    "level": {
-      "value": 26,
-      "display_string": "Item Level 26"
-    },
-    "durability": {
-      "value": 105,
-      "display_string": "Durability 105 / 105"
+    "sell_price": {
+      "display_strings": {
+        "copper": "64",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 64
     }
   },
+  "purchase_price": 1099712,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/919?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 919
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 20,
+  "sell_price": 219942
 }

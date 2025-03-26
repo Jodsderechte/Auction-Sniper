@@ -4,145 +4,146 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12777?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3630,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3630?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_30.jpg",
   "id": 12777,
-  "name": "Blazing Rapier",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12777?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12777
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 69834,
-  "sell_price": 13966,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 12777,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12777?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blazing Rapier",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
     "item": {
+      "id": 12777,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12777?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12777
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Blazing Rapier",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12777?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12777
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 28",
+      "value": 28
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 3,
-        "max_value": 6,
-        "display_string": "3 - 6 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 1.7307692,
-        "display_string": "(1.7 damage per second)"
+    "media": {
+      "id": 12777,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12777?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/16898?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Blaze",
-          "id": 16898
-        },
-        "description": "Chance on hit: Burns the enemy for 10 damage over 30 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 221,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "21"
-      }
+    "name": "Blazing Rapier",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 28,
-      "display_string": "Item Level 28"
+    "sell_price": {
+      "display_strings": {
+        "copper": "21",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 221
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "spells": [
+      {
+        "description": "Chance on hit: Burns the enemy for 10 damage over 30 sec.",
+        "spell": {
+          "id": 16898,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/16898?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Blaze"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "3 - 6 Damage",
+        "max_value": 6,
+        "min_value": 3
+      },
+      "dps": {
+        "display_string": "(1.7 damage per second)",
+        "value": 1.7307692
+      }
     }
   },
+  "purchase_price": 69834,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3630?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3630
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 22,
+  "sell_price": 13966
 }

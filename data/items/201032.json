@@ -4,121 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/201032?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 70441,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70441?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mail_dragondungeon_c_01_bracer.jpg",
   "id": 201032,
-  "name": "Nokhudon Wraps",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Wrist",
+    "type": "WRIST"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/201032?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 201032
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "WRIST",
-    "name": "Wrist"
-  },
-  "purchase_price": 800000,
-  "sell_price": 200000,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 201032,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/201032?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Nokhudon Wraps",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "2 Armor"
+      },
+      "value": 2
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 20 / 20",
+      "value": 20
+    },
+    "inventory_type": {
+      "name": "Wrist",
+      "type": "WRIST"
+    },
     "item": {
+      "id": 201032,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/201032?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201032
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Nokhudon Wraps",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/201032?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 201032
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
-    },
-    "inventory_type": {
-      "type": "WRIST",
-      "name": "Wrist"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique",
-    "armor": {
-      "value": 2,
-      "display": {
-        "display_string": "2 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "sell_price": {
-      "value": 200000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "0",
-        "copper": "0"
-      }
+      "name": "Mail"
     },
     "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "durability": {
-      "value": 20,
-      "display_string": "Durability 20 / 20"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 201032,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70441?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/201032?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Nokhudon Wraps",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 70441
-    }
-  ]
+      "value": 200000
+    },
+    "unique_equipped": "Unique"
+  },
+  "purchase_price": 800000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 200000
 }

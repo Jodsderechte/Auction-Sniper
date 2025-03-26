@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21939?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Fel and Elemental, two great tastes...",
+  "icon_path": "data\\icons\\inv_staff_18.jpg",
   "id": 21939,
-  "name": "Fel Elemental Rod",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21939?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21939
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 400000,
-  "sell_price": 100000,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Fel and Elemental, two great tastes...",
+  "media": {
+    "id": 21939,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21939?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Fel Elemental Rod",
   "preview_item": {
+    "description": "Fel and Elemental, two great tastes...",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21939,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21939?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21939
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Fel Elemental Rod",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21939?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21939
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 100000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 21939,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21939?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Fel and Elemental, two great tastes...",
-    "is_subclass_hidden": true
+    "name": "Fel Elemental Rod",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 100000
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 400000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 100000
 }

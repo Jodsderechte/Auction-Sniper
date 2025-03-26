@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1414?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 402,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/402?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_hammer_09.jpg",
   "id": 1414,
-  "name": "Cracked Sledge",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 4,
-  "required_level": 2,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1414?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1414
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 5
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 486,
-  "sell_price": 97,
+  "level": 4,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1414,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1414?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Cracked Sledge",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1414?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1414
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 30 / 30",
+      "value": 30
     },
-    "name": "Cracked Sledge",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 1414,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1414?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1414
+        "href": "https://eu.api.blizzard.com/data/wow/item/1414?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 5
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 282,
-        "max_value": 363,
-        "display_string": "282 - 363 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 89.58333,
-        "display_string": "(89.6 damage per second)"
+    "media": {
+      "id": 1414,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1414?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 211486,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "21",
-        "silver": "14",
-        "copper": "86"
-      }
+    "name": "Cracked Sledge",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 2,
-        "display_string": "Requires Level 2"
+        "display_string": "Requires Level 2",
+        "value": 2
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "86",
+        "gold": "21",
+        "header": "Sell Price:",
+        "silver": "14"
+      },
+      "value": 211486
     },
-    "durability": {
-      "value": 30,
-      "display_string": "Durability 30 / 30"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "282 - 363 Damage",
+        "max_value": 363,
+        "min_value": 282
+      },
+      "dps": {
+        "display_string": "(89.6 damage per second)",
+        "value": 89.58333
+      }
     }
   },
+  "purchase_price": 486,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/402?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 402
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 2,
+  "sell_price": 97
 }

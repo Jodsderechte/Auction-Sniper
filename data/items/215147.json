@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/215147?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "The world is cruel. It does not have to be ugly.",
+  "icon_path": "data\\icons\\inv_misc_gem_variety_02.jpg",
   "id": 215147,
-  "name": "Beautification Iris",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/215147?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 215147
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1500000,
-  "sell_price": 300000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "The world is cruel. It does not have to be ugly.",
+  "media": {
+    "id": 215147,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/215147?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Beautification Iris",
   "preview_item": {
+    "description": "The world is cruel. It does not have to be ugly.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 215147,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/215147?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 215147
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Beautification Iris",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/215147?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 215147
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 215147,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/215147?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Beautification Iris",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nFocus a colored beam of light through a gemstone toward a helpless critter. (10 Min Cooldown)",
         "spell": {
+          "id": 435608,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/435608?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Beautification Iris",
-          "id": 435608
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nFocus a colored beam of light through a gemstone toward a helpless critter. (10 Min Cooldown)"
+          "name": "Beautification Iris"
+        }
       }
     ],
-    "description": "The world is cruel. It does not have to be ugly.",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1500000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 300000
 }

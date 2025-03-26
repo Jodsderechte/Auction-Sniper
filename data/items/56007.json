@@ -4,83 +4,84 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/56007?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This doesn't seem to be magical at all...",
+  "icon_path": "data\\icons\\inv_jewelry_amulet_04.jpg",
   "id": 56007,
-  "name": "Broken Amulet",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/56007?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 56007
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "This doesn't seem to be magical at all...",
+  "media": {
+    "id": 56007,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/56007?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Broken Amulet",
   "preview_item": {
+    "description": "This doesn't seem to be magical at all...",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 56007,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/56007?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 56007
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Broken Amulet",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/56007?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 56007
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 56007,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/56007?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
-    "description": "This doesn't seem to be magical at all...",
-    "is_subclass_hidden": true
+    "name": "Broken Amulet",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

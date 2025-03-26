@@ -4,193 +4,194 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21893?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew an Imbued Netherweave Bag.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 21893,
-  "name": "Pattern: Imbued Netherweave Bag",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21893?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21893
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 40000,
-  "sell_price": 10000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew an Imbued Netherweave Bag.",
+  "media": {
+    "id": 21893,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21893?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Imbued Netherweave Bag",
   "preview_item": {
+    "description": "Teaches you how to sew an Imbued Netherweave Bag.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21893,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21893?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21893
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Pattern: Imbued Netherweave Bag",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21893?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21893
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 21893,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21893?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2539?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Tailoring",
-          "id": 2539
-        },
-        "level": 40,
-        "display_string": "Requires Outland Tailoring (40)"
-      }
+    "name": "Pattern: Imbued Netherweave Bag",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to sew an Imbued Netherweave Bag.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "container_slots": {
+          "display_string": "18 Slot Bag",
+          "value": 18
+        },
+        "inventory_type": {
+          "name": "Bag",
+          "type": "BAG"
+        },
         "item": {
+          "id": 21843,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/21843?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21843
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Imbued Netherweave Bag",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/21843?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21843
+          }
         },
         "item_class": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Container",
-          "id": 1
+          "name": "Container"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Bag",
-          "id": 0
-        },
-        "inventory_type": {
-          "type": "BAG",
           "name": "Bag"
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "sell_price": {
-          "value": 10000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "1",
-            "silver": "0",
-            "copper": "0"
+        "media": {
+          "id": 21843,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/21843?namespace=static-11.1.0_59095-eu"
           }
         },
-        "container_slots": {
-          "value": 18,
-          "display_string": "18 Slot Bag"
+        "name": "Imbued Netherweave Bag",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "1",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 10000
         }
       },
       "reagents": [
         {
+          "quantity": 4,
           "reagent": {
+            "id": 21842,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21842?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Imbued Netherweave",
-            "id": 21842
-          },
-          "quantity": 4
+            "name": "Bolt of Imbued Netherweave"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 21881,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21881?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Netherweb Spider Silk",
-            "id": 21881
-          },
-          "quantity": 2
+            "name": "Netherweb Spider Silk"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 22446,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/22446?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Greater Planar Essence",
-            "id": 22446
-          },
-          "quantity": 1
+            "name": "Greater Planar Essence"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Imbued Netherweave (4), Netherweb Spider Silk (2), Greater Planar Essence"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Tailoring (40)",
+        "level": 40,
+        "profession": {
+          "id": 2539,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2539?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 40000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 10000
 }

@@ -4,210 +4,211 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21945?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft The Aquamarine Ward.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 21945,
-  "name": "Design: The Aquamarine Ward",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21945?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21945
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1875,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft The Aquamarine Ward.",
+  "media": {
+    "id": 21945,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21945?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: The Aquamarine Ward",
   "preview_item": {
+    "description": "Teaches you how to craft The Aquamarine Ward.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21945,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21945?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21945
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Design: The Aquamarine Ward",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21945?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21945
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1875,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "18",
-        "copper": "75"
+    "media": {
+      "id": 21945,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21945?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Jewelcrafting",
-          "id": 2524
-        },
-        "level": 245,
-        "display_string": "Requires Classic Jewelcrafting (245)"
-      }
+    "name": "Design: The Aquamarine Ward",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to craft The Aquamarine Ward.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Finger",
+          "type": "FINGER"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 21754,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/21754?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21754
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "The Aquamarine Ward",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/21754?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21754
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "FINGER",
-          "name": "Finger"
+        "level": {
+          "display_string": "Item Level 25",
+          "value": 25
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "unique_equipped": "Unique-Equipped",
-        "stats": [
-          {
-            "type": {
-              "type": "DODGE_RATING",
-              "name": "Dodge"
-            },
-            "value": 5,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+5 Dodge",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
+        "media": {
+          "id": 21754,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/21754?namespace=static-11.1.0_59095-eu"
           }
-        ],
-        "sell_price": {
-          "value": 4307,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "43",
-            "copper": "7"
-          }
+        },
+        "name": "The Aquamarine Ward",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 19,
-            "display_string": "Requires Level 19"
+            "display_string": "Requires Level 19",
+            "value": 19
           }
         },
-        "level": {
-          "value": 25,
-          "display_string": "Item Level 25"
+        "sell_price": {
+          "display_strings": {
+            "copper": "7",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "43"
+          },
+          "value": 4307
         },
-        "is_subclass_hidden": true
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Dodge"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Dodge",
+              "type": "DODGE_RATING"
+            },
+            "value": 5
+          }
+        ],
+        "unique_equipped": "Unique-Equipped"
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 7909,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7909?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Aquamarine",
-            "id": 7909
-          },
-          "quantity": 1
+            "name": "Aquamarine"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 21752,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21752?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Setting",
-            "id": 21752
-          },
-          "quantity": 1
+            "name": "Thorium Setting"
+          }
         }
       ],
       "reagents_display_string": "Aquamarine, Thorium Setting"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Jewelcrafting (245)",
+        "level": 245,
+        "profession": {
+          "id": 2524,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "18"
+      },
+      "value": 1875
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1875
 }

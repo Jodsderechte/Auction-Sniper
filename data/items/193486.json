@@ -4,134 +4,135 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/193486?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_armor_leatherworking_b_01.jpg",
   "id": 193486,
-  "name": "Resilient Smock",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/193486?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 193486
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leatherworking",
-    "id": 1
+    "name": "Leatherworking"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 100000,
-  "sell_price": 20000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 193486,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/193486?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Resilient Smock",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/193486?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193486
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Resilient Smock",
-    "media": {
+    "item": {
+      "id": 193486,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/193486?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193486
+        "href": "https://eu.api.blizzard.com/data/wow/item/193486?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leatherworking",
-      "id": 1
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Leatherworking"
     },
     "limit_category": "Unique-Equipped: Chest (1)",
+    "media": {
+      "id": 193486,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/193486?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Resilient Smock",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    },
     "stats": [
       {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-          "name": "Multicraft"
-        },
-        "value": 18,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+18 Multicraft",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+18 Multicraft"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Multicraft",
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+        },
+        "value": 18
       },
       {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_INGENUITY",
-          "name": "Ingenuity"
-        },
-        "value": 28,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+28 Ingenuity",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+28 Ingenuity"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Ingenuity",
+          "type": "BONUS_STAT_PROFESSION_INGENUITY"
+        },
+        "value": 28
       }
-    ],
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
-      }
-    }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 100000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 20000
 }

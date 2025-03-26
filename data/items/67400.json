@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/67400?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Unfortunately, this is just a map to a local bar where sailors like to drink when they're in town.",
+  "icon_path": "data\\icons\\inv_misc_map02.jpg",
   "id": 67400,
-  "name": "Old \"Pirate\" Map",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/67400?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 67400
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 404,
-  "sell_price": 101,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Unfortunately, this is just a map to a local bar where sailors like to drink when they're in town.",
+  "media": {
+    "id": 67400,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/67400?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Old \"Pirate\" Map",
   "preview_item": {
+    "description": "Unfortunately, this is just a map to a local bar where sailors like to drink when they're in town.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 67400,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/67400?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 67400
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Old \"Pirate\" Map",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/67400?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 67400
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 101,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "1"
+    "media": {
+      "id": 67400,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/67400?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Unfortunately, this is just a map to a local bar where sailors like to drink when they're in town.",
-    "is_subclass_hidden": true
+    "name": "Old \"Pirate\" Map",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 101
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 404,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 101
 }

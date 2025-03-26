@@ -4,106 +4,107 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/138810?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon this companion.",
+  "icon_path": "data\\icons\\inv_fish_stormraygreen.jpg",
   "id": 138810,
-  "name": "Sting Ray Pup",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/138810?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 138810
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon this companion.",
+  "media": {
+    "id": 138810,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/138810?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Sting Ray Pup",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 138810,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/138810?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 138810
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Sting Ray Pup",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/138810?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 138810
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/217218?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Sting Ray Pup",
-          "id": 217218
-        },
-        "description": "Use: Teaches you how to summon this companion."
+    "media": {
+      "id": 138810,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/138810?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Sting Ray Pup",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
     "requirements": {
       "reputation": {
+        "display_string": "Requires Conjurer Margoss - Good Friend",
         "faction": {
+          "id": 1975,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/reputation-faction/1975?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Conjurer Margoss",
-          "id": 1975
+          "name": "Conjurer Margoss"
         },
-        "min_reputation_level": 4,
-        "display_string": "Requires Conjurer Margoss - Good Friend"
+        "min_reputation_level": 4
       }
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Teaches you how to summon this companion.",
+        "spell": {
+          "id": 217218,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/217218?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Sting Ray Pup"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

@@ -4,170 +4,171 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/24205?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to cut a Rigid Star of Elune.",
+  "icon_path": "data\\icons\\inv_scroll_05.jpg",
   "id": 24205,
-  "name": "Design: Rigid Star of Elune",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/24205?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 24205
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to cut a Rigid Star of Elune.",
+  "media": {
+    "id": 24205,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/24205?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Rigid Star of Elune",
   "preview_item": {
+    "description": "Teaches you how to cut a Rigid Star of Elune.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 24205,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/24205?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24205
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Design: Rigid Star of Elune",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/24205?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 24205
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 30000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 24205,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/24205?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Jewelcrafting",
-          "id": 2523
-        },
-        "level": 50,
-        "display_string": "Requires Outland Jewelcrafting (50)"
-      }
+    "name": "Design: Rigid Star of Elune",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to cut a Rigid Star of Elune.",
     "recipe": {
       "item": {
+        "description": "Matches any socket.",
+        "gem_properties": {
+          "effect": "+3 Critical Strike"
+        },
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 24051,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/24051?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 24051
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Rigid Star of Elune",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/24051?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 24051
+          }
         },
         "item_class": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Gem",
-          "id": 3
+          "name": "Gem"
         },
         "item_subclass": {
+          "id": 5,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/3/item-subclass/5?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Critical Strike",
-          "id": 5
+          "name": "Critical Strike"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
-        },
-        "sell_price": {
-          "value": 7000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "70",
-            "copper": "0"
+        "media": {
+          "id": 24051,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/24051?namespace=static-11.1.0_59095-eu"
           }
         },
-        "description": "Matches any socket.",
-        "is_subclass_hidden": true,
-        "gem_properties": {
-          "effect": "+3 Critical Strike"
+        "name": "Rigid Star of Elune",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "70"
+          },
+          "value": 7000
         }
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 23438,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23438?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Star of Elune",
-            "id": 23438
-          },
-          "quantity": 1
+            "name": "Star of Elune"
+          }
         }
       ],
       "reagents_display_string": "Star of Elune"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Jewelcrafting (50)",
+        "level": 50,
+        "profession": {
+          "id": 2523,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 30000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 30000
 }

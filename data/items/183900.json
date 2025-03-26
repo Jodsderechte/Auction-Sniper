@@ -4,114 +4,115 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/183900?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\archaeology_5_0_pandarenteaset.jpg",
   "id": 183900,
-  "name": "Sinvyr Tea Set",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 48,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/183900?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 183900
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 183900,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/183900?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Sinvyr Tea Set",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 183900,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/183900?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 183900
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Sinvyr Tea Set",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/183900?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 183900
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/343403?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Sinvyr Tea Set",
-          "id": 343403
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nServe tea with your Sinvyr Tea Set. (1 Hr Cooldown)"
+    "media": {
+      "id": 183900,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/183900?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Sinvyr Tea Set",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
     "requirements": {
       "level": {
-        "value": 48,
-        "display_string": "Requires Level 48"
+        "display_string": "Requires Level 48",
+        "value": 48
       },
       "reputation": {
+        "display_string": "Requires Court of Harvesters - Honored",
         "faction": {
+          "id": 2413,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/reputation-faction/2413?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Court of Harvesters",
-          "id": 2413
+          "name": "Court of Harvesters"
         },
-        "min_reputation_level": 5,
-        "display_string": "Requires Court of Harvesters - Honored"
+        "min_reputation_level": 5
       }
     },
-    "is_subclass_hidden": true,
+    "spells": [
+      {
+        "description": "Use: Adds this toy to your Toy Box.\n\nServe tea with your Sinvyr Tea Set. (1 Hr Cooldown)",
+        "spell": {
+          "id": 343403,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/343403?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Sinvyr Tea Set"
+        }
+      }
+    ],
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 48,
+  "sell_price": 0
 }

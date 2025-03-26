@@ -4,107 +4,108 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/92426?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "The book seems unusually normal, aside from the chains and socket binding it.",
+  "icon_path": "data\\icons\\inv_misc_codexofxerrath_chains.jpg",
   "id": 92426,
-  "name": "Sealed Tome of the Lost Legion",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 35,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/92426?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 92426
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 35,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "The book seems unusually normal, aside from the chains and socket binding it.",
+  "media": {
+    "id": 92426,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/92426?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Sealed Tome of the Lost Legion",
   "preview_item": {
+    "description": "The book seems unusually normal, aside from the chains and socket binding it.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 92426,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/92426?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 92426
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Sealed Tome of the Lost Legion",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/92426?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 92426
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/133806?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Unlock Tome",
-          "id": 133806
-        },
-        "description": "Use: Combine with a Healthstone to bind the tome to yourself."
+    "media": {
+      "id": 92426,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/92426?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Sealed Tome of the Lost Legion",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
     "requirements": {
       "skill": {
+        "display_string": "Requires Warlock",
         "profession": {
+          "id": 849,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/849?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Warlock",
-          "id": 849
-        },
-        "display_string": "Requires Warlock"
+          "name": "Warlock"
+        }
       }
     },
-    "description": "The book seems unusually normal, aside from the chains and socket binding it.",
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Combine with a Healthstone to bind the tome to yourself.",
+        "spell": {
+          "id": 133806,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/133806?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Unlock Tome"
+        }
+      }
+    ],
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

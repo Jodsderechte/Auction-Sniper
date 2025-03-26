@@ -4,111 +4,112 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/132511?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_engineering_pumpactionbandagegun.jpg",
   "id": 132511,
-  "name": "Pump-Action Bandage Gun",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 45,
-  "required_level": 39,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/132511?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 132511
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 3000,
-  "sell_price": 750,
+  "level": 45,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 132511,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/132511?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pump-Action Bandage Gun",
   "preview_item": {
+    "charges": {
+      "display_string": "20 Charges",
+      "value": 20
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 132511,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/132511?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 132511
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Pump-Action Bandage Gun",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/132511?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 132511
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 132511,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/132511?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/200287?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Pump-Action Bandage Gun",
-          "id": 200287
-        },
-        "description": "Use: Heals an ally up to 40 yards away by 1,200. (1 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "7",
-        "copper": "50"
-      }
+    "name": "Pump-Action Bandage Gun",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 39,
-        "display_string": "Requires Level 39"
+        "display_string": "Requires Level 39",
+        "value": 39
       }
     },
-    "charges": {
-      "value": 20,
-      "display_string": "20 Charges"
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "7"
+      },
+      "value": 750
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Heals an ally up to 40 yards away by 1,200. (1 Min Cooldown)",
+        "spell": {
+          "id": 200287,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/200287?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Pump-Action Bandage Gun"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 3000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 39,
+  "sell_price": 750
 }

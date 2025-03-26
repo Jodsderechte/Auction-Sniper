@@ -4,196 +4,197 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204406?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Square Holders.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 204406,
-  "name": "Ancient Design: Square Holders",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204406?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204406
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Square Holders.",
+  "media": {
+    "id": 204406,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204406?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Design: Square Holders",
   "preview_item": {
+    "description": "Teaches you how to craft Square Holders.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 204406,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/204406?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204406
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Ancient Design: Square Holders",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204406?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204406
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Jewelcrafting",
-          "id": 2524
-        },
-        "level": 300,
-        "display_string": "Requires Classic Jewelcrafting (300)"
+    "media": {
+      "id": 204406,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204406?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Square Holders.",
+    "name": "Ancient Design: Square Holders",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "description": "Fits lenses of any shape!",
+        "inventory_type": {
+          "name": "Head",
+          "type": "HEAD"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 204404,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/204404?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 204404
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Square Holders",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/204404?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 204404
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 5,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cosmetic",
-          "id": 5
+          "name": "Cosmetic"
         },
-        "inventory_type": {
-          "type": "HEAD",
-          "name": "Head"
+        "level": {
+          "display_string": "Item Level 26",
+          "value": 26
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "sell_price": {
-          "value": 50000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "5",
-            "silver": "0",
-            "copper": "0"
+        "media": {
+          "id": 204404,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/204404?namespace=static-11.1.0_59095-eu"
           }
         },
-        "description": "Fits lenses of any shape!",
-        "level": {
-          "value": 26,
-          "display_string": "Item Level 26"
+        "name": "Square Holders",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
-        "is_subclass_hidden": true
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "5",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 50000
+        }
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12800,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12800?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Azerothian Diamond",
-            "id": 12800
-          },
-          "quantity": 2
+            "name": "Azerothian Diamond"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 6037,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/6037?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Truesilver Bar",
-            "id": 6037
-          },
-          "quantity": 6
+            "name": "Truesilver Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 21752,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21752?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Setting",
-            "id": 21752
-          },
-          "quantity": 2
+            "name": "Thorium Setting"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 19943,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/19943?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Massive Mojo",
-            "id": 19943
-          },
-          "quantity": 1
+            "name": "Massive Mojo"
+          }
         }
       ],
       "reagents_display_string": "Azerothian Diamond (2), Truesilver Bar (6), Thorium Setting (2), Massive Mojo"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Jewelcrafting (300)",
+        "level": 300,
+        "profession": {
+          "id": 2524,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Jewelcrafting"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

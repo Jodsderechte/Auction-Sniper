@@ -4,103 +4,104 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/147315?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Still unrecognizable, even when assembled.",
+  "icon_path": "data\\icons\\trade_archaeology_spinedquillboarscepter.jpg",
   "id": 147315,
-  "name": "Smelly's Luckydo",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/147315?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 147315
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 520000,
-  "sell_price": 130000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Still unrecognizable, even when assembled.",
+  "media": {
+    "id": 147315,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/147315?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Smelly's Luckydo",
   "preview_item": {
+    "description": "Still unrecognizable, even when assembled.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 147315,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/147315?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 147315
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Smelly's Luckydo",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/147315?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 147315
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 147315,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/147315?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Smelly's Luckydo",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "13",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 130000
     },
     "spells": [
       {
+        "description": "Luck +5.",
         "spell": {
+          "id": 240713,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/240713?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Smelly's Luckydo",
-          "id": 240713
-        },
-        "description": "Luck +5."
+          "name": "Smelly's Luckydo"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 130000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "13",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "description": "Still unrecognizable, even when assembled.",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 520000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 130000
 }

@@ -4,91 +4,92 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/141027?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Her twins Lyl and Flyn gave her these flowers as she embarked on her latest adventure.",
+  "icon_path": "data\\icons\\inv_misc_herb_rainpoppy.jpg",
   "id": 141027,
-  "name": "Twin Poppies",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 45,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/141027?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 141027
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 15,
-  "sell_price": 3,
+  "level": 45,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Her twins Lyl and Flyn gave her these flowers as she embarked on her latest adventure.",
+  "media": {
+    "id": 141027,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/141027?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Twin Poppies",
   "preview_item": {
+    "description": "Her twins Lyl and Flyn gave her these flowers as she embarked on her latest adventure.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 141027,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/141027?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 141027
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Twin Poppies",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/141027?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 141027
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 3,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "3"
+    "media": {
+      "id": 141027,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/141027?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Her twins Lyl and Flyn gave her these flowers as she embarked on her latest adventure.",
-    "is_subclass_hidden": true
+    "name": "Twin Poppies",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "3",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 3
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 15,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 3
 }

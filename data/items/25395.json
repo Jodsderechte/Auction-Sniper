@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25395?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 6686,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6686?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_pants_04.jpg",
   "id": 25395,
-  "name": "Deteriorating Plate Pants",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
-  "level": 29,
-  "required_level": 26,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25395?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25395
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 820733,
-  "sell_price": 164146,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25395,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25395?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Deteriorating Plate Pants",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/25395?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "518 Armor"
       },
-      "id": 25395
+      "value": 518
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
     },
-    "name": "Deteriorating Plate Pants",
-    "media": {
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
+    "item": {
+      "id": 25395,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25395?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25395
+        "href": "https://eu.api.blizzard.com/data/wow/item/25395?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 518,
-      "display": {
-        "display_string": "518 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 25395,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25395?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 110474,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "11",
-        "silver": "4",
-        "copper": "74"
-      }
+    "name": "Deteriorating Plate Pants",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 26,
-        "display_string": "Requires Level 26"
+        "display_string": "Requires Level 26",
+        "value": 26
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "sell_price": {
+      "display_strings": {
+        "copper": "74",
+        "gold": "11",
+        "header": "Sell Price:",
+        "silver": "4"
+      },
+      "value": 110474
     }
   },
+  "purchase_price": 820733,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/6686?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6686
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 26,
+  "sell_price": 164146
 }

@@ -4,204 +4,205 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13480?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Major Healing Potion.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 13480,
-  "name": "Recipe: Major Healing Potion",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13480?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13480
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 15000,
-  "sell_price": 3750,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Major Healing Potion.",
+  "media": {
+    "id": 13480,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13480?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Major Healing Potion",
   "preview_item": {
+    "description": "Teaches you how to make a Major Healing Potion.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 13480,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/13480?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13480
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Recipe: Major Healing Potion",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13480?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13480
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 3750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "37",
-        "copper": "50"
+    "media": {
+      "id": 13480,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13480?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Alchemy",
-          "id": 2485
-        },
-        "level": 275,
-        "display_string": "Requires Classic Alchemy (275)"
-      }
+    "name": "Recipe: Major Healing Potion",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make a Major Healing Potion.",
     "recipe": {
       "item": {
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 13446,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/13446?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 13446
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Major Healing Potion",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/13446?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 13446
+          }
         },
         "item_class": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Consumable",
-          "id": 0
+          "name": "Consumable"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Potions",
-          "id": 1
+          "name": "Potions"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
+        "media": {
+          "id": 13446,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/13446?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/17534?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Healing Potion",
-              "id": 17534
-            },
-            "description": "Use: Restores 750 health. (5 Min Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 1000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "10",
-            "copper": "0"
-          }
+        "name": "Major Healing Potion",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
         },
         "requirements": {
           "level": {
-            "value": 20,
-            "display_string": "Requires Level 20"
+            "display_string": "Requires Level 20",
+            "value": 20
           }
         },
-        "is_subclass_hidden": true
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "10"
+          },
+          "value": 1000
+        },
+        "spells": [
+          {
+            "description": "Use: Restores 750 health. (5 Min Cooldown)",
+            "spell": {
+              "id": 17534,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/17534?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Healing Potion"
+            }
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 13464,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/13464?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Golden Sansam",
-            "id": 13464
-          },
-          "quantity": 2
+            "name": "Golden Sansam"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 13465,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/13465?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mountain Silversage",
-            "id": 13465
-          },
-          "quantity": 1
+            "name": "Mountain Silversage"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3371,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3371?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Crystal Vial",
-            "id": 3371
-          },
-          "quantity": 1
+            "name": "Crystal Vial"
+          }
         }
       ],
       "reagents_display_string": "Golden Sansam (2), Mountain Silversage, Crystal Vial"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Alchemy (275)",
+        "level": 275,
+        "profession": {
+          "id": 2485,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2485?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Alchemy"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "37"
+      },
+      "value": 3750
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 15000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 3750
 }

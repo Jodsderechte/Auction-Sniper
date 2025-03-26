@@ -4,243 +4,244 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3874?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Polished Steel Boots.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 3874,
-  "name": "Plans: Polished Steel Boots",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3874?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3874
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 4400,
-  "sell_price": 1100,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Polished Steel Boots.",
+  "media": {
+    "id": 3874,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3874?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Polished Steel Boots",
   "preview_item": {
+    "description": "Teaches you how to make Polished Steel Boots.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 3874,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/3874?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3874
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Plans: Polished Steel Boots",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3874?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3874
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1100,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "11",
-        "copper": "0"
+    "media": {
+      "id": 3874,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3874?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 185,
-        "display_string": "Requires Classic Blacksmithing (185)"
-      }
+    "name": "Plans: Polished Steel Boots",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to make Polished Steel Boots.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "5 Armor"
+          },
+          "value": 5
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 50 / 50",
+          "value": 50
+        },
+        "inventory_type": {
+          "name": "Feet",
+          "type": "FEET"
+        },
         "item": {
+          "id": 3846,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/3846?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3846
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Polished Steel Boots",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/3846?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3846
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mail",
-          "id": 3
+          "name": "Mail"
         },
-        "inventory_type": {
-          "type": "FEET",
-          "name": "Feet"
+        "level": {
+          "display_string": "Item Level 21",
+          "value": 21
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 5,
-          "display": {
-            "display_string": "5 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 3846,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/3846?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Polished Steel Boots",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 14,
-            "display_string": "Requires Level 14"
+            "display_string": "Requires Level 14",
+            "value": 14
           }
         },
-        "level": {
-          "value": 21,
-          "display_string": "Item Level 21"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 50,
-          "display_string": "Durability 50 / 50"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 8,
           "reagent": {
+            "id": 3859,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3859?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Steel Bar",
-            "id": 3859
-          },
-          "quantity": 8
+            "name": "Steel Bar"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3864,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3864?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Citrine",
-            "id": 3864
-          },
-          "quantity": 1
+            "name": "Citrine"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 1705,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1705?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Lesser Moonstone",
-            "id": 1705
-          },
-          "quantity": 1
+            "name": "Lesser Moonstone"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 3486,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3486?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Grinding Stone",
-            "id": 3486
-          },
-          "quantity": 2
+            "name": "Heavy Grinding Stone"
+          }
         }
       ],
       "reagents_display_string": "Steel Bar (8), Citrine, Lesser Moonstone, Heavy Grinding Stone (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (185)",
+        "level": 185,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "11"
+      },
+      "value": 1100
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 4400,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1100
 }

@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/163567?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Brutosaurs in Vol'dun are rare. Rarer still are carnivorous brutosaurs. Rarest of all are carnivorous brutosaurs that like their meat cooked.",
+  "icon_path": "data\\icons\\inv_misc_food_163_fish_91.jpg",
   "id": 163567,
-  "name": "Snake on a Stick",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/163567?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 163567
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 25000,
-  "sell_price": 6250,
+  "level": 50,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Brutosaurs in Vol'dun are rare. Rarer still are carnivorous brutosaurs. Rarest of all are carnivorous brutosaurs that like their meat cooked.",
+  "media": {
+    "id": 163567,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/163567?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Snake on a Stick",
   "preview_item": {
+    "description": "Brutosaurs in Vol'dun are rare. Rarer still are carnivorous brutosaurs. Rarest of all are carnivorous brutosaurs that like their meat cooked.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 163567,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/163567?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 163567
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Snake on a Stick",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/163567?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 163567
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 163567,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/163567?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Snake on a Stick",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "62"
+      },
+      "value": 6250
+    },
     "spells": [
       {
+        "description": "Use: offers this food to a nearby brutosaur.",
         "spell": {
+          "id": 280051,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/280051?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Feed Brutosaur Snake on a Stick",
-          "id": 280051
-        },
-        "description": "Use: offers this food to a nearby brutosaur."
+          "name": "Feed Brutosaur Snake on a Stick"
+        }
       }
     ],
-    "sell_price": {
-      "value": 6250,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "62",
-        "copper": "50"
-      }
-    },
-    "description": "Brutosaurs in Vol'dun are rare. Rarer still are carnivorous brutosaurs. Rarest of all are carnivorous brutosaurs that like their meat cooked.",
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 25000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 6250
 }

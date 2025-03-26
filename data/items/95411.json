@@ -4,89 +4,90 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/95411?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_book_09.jpg",
   "id": 95411,
-  "name": "Torn Zandalari Journal",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/95411?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 95411
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 81608,
-  "sell_price": 20402,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 95411,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/95411?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Torn Zandalari Journal",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 95411,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/95411?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 95411
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Torn Zandalari Journal",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/95411?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 95411
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 20402,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "4",
-        "copper": "2"
+    "media": {
+      "id": 95411,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/95411?namespace=static-11.1.0_59095-eu"
       }
     },
-    "is_subclass_hidden": true
+    "name": "Torn Zandalari Journal",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "2",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "4"
+      },
+      "value": 20402
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 81608,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 20402
 }

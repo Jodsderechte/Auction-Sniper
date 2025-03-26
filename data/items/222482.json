@@ -4,141 +4,142 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/222482?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_knife_1h_skinning_a_01.jpg",
   "id": 222482,
-  "name": "Proficient Skinning Knife",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/222482?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 222482
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Skinning",
-    "id": 10
+    "name": "Skinning"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 162750,
-  "sell_price": 32550,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 222482,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/222482?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Proficient Skinning Knife",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/222482?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222482
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Proficient Skinning Knife",
-    "media": {
+    "item": {
+      "id": 222482,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/222482?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222482
+        "href": "https://eu.api.blizzard.com/data/wow/item/222482?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Skinning",
-      "id": 10
+      "name": "Skinning"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_DEFTNESS",
-          "name": "Deftness"
-        },
-        "value": 173,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+173 Deftness",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455740?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455740
-        },
-        "description": "Equip: +8 Khaz Algar Skinning Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 32550,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "25",
-        "copper": "50"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+    "media": {
+      "id": 222482,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/222482?namespace=static-11.1.0_59095-eu"
       }
     },
     "modified_crafting_stat": [
       {
         "id": 78,
-        "type": "BONUS_STAT_PROFESSION_DEFTNESS",
-        "name": "Deftness"
+        "name": "Deftness",
+        "type": "BONUS_STAT_PROFESSION_DEFTNESS"
+      }
+    ],
+    "name": "Proficient Skinning Knife",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 68",
+        "value": 68
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 32550
+    },
+    "spells": [
+      {
+        "description": "Equip: +8 Khaz Algar Skinning Skill",
+        "spell": {
+          "id": 455740,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455740?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+173 Deftness"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Deftness",
+          "type": "BONUS_STAT_PROFESSION_DEFTNESS"
+        },
+        "value": 173
       }
     ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 162750,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 32550
 }

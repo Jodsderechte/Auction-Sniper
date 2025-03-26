@@ -4,158 +4,159 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/151607?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Can be used for transmutations in place of a Philosopher's Stone.",
+  "icon_path": "data\\icons\\inv_alchemy_astralalchemiststone.jpg",
   "id": 151607,
-  "name": "Astral Alchemist Stone",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 50,
-  "required_level": 45,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/151607?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 151607
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 229998,
-  "sell_price": 45999,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Can be used for transmutations in place of a Philosopher's Stone.",
+  "media": {
+    "id": 151607,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/151607?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Astral Alchemist Stone",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "Can be used for transmutations in place of a Philosopher's Stone.",
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 151607,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/151607?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 151607
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Astral Alchemist Stone",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/151607?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 151607
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 50",
+      "value": 50
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 151607,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/151607?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 7,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+7 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/188026?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Infernal Alchemist Stone",
-          "id": 188026
-        },
-        "description": "Equip: When you heal or deal damage you have a chance to increase your Strength, Agility, or Intellect by 18 for 15 sec.  Your highest stat is always chosen."
-      },
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/17619?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Alchemist Stone",
-          "id": 17619
-        },
-        "description": "Equip: Increases the effect that healing and mana potions have on the wearer by 40%.  This effect does not stack."
-      }
-    ],
-    "sell_price": {
-      "value": 594,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "5",
-        "copper": "94"
-      }
+    "name": "Astral Alchemist Stone",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 45,
-        "display_string": "Requires Level 45"
+        "display_string": "Requires Level 45",
+        "value": 45
       },
       "skill": {
+        "display_string": "Requires Legion Alchemy (1)",
+        "level": 1,
         "profession": {
+          "id": 2479,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2479?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Legion Alchemy",
-          "id": 2479
-        },
-        "level": 1,
-        "display_string": "Requires Legion Alchemy (1)"
+          "name": "Legion Alchemy"
+        }
       }
     },
-    "description": "Can be used for transmutations in place of a Philosopher's Stone.",
-    "level": {
-      "value": 50,
-      "display_string": "Item Level 50"
+    "sell_price": {
+      "display_strings": {
+        "copper": "94",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 594
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: When you heal or deal damage you have a chance to increase your Strength, Agility, or Intellect by 18 for 15 sec.  Your highest stat is always chosen.",
+        "spell": {
+          "id": 188026,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/188026?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Infernal Alchemist Stone"
+        }
+      },
+      {
+        "description": "Equip: Increases the effect that healing and mana potions have on the wearer by 40%.  This effect does not stack.",
+        "spell": {
+          "id": 17619,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/17619?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Alchemist Stone"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+7 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 7
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 229998,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 45,
+  "sell_price": 45999
 }

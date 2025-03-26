@@ -4,304 +4,305 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/35206?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew Sunfire Robe.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 35206,
-  "name": "Pattern: Sunfire Robe",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/35206?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 35206
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 80000,
-  "sell_price": 20000,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew Sunfire Robe.",
+  "media": {
+    "id": 35206,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/35206?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Sunfire Robe",
   "preview_item": {
+    "description": "Teaches you how to sew Sunfire Robe.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 35206,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/35206?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 35206
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Pattern: Sunfire Robe",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/35206?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 35206
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 35206,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/35206?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2539?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Tailoring",
-          "id": 2539
-        },
-        "level": 65,
-        "display_string": "Requires Outland Tailoring (65)"
-      }
+    "name": "Pattern: Sunfire Robe",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to sew Sunfire Robe.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "4 Armor"
+          },
+          "value": 4
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "durability": {
+          "display_string": "Durability 165 / 165",
+          "value": 165
+        },
+        "inventory_type": {
+          "name": "Chest",
+          "type": "ROBE"
+        },
         "item": {
+          "id": 34364,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/34364?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 34364
-        },
-        "sockets": [
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
-          },
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
-          },
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
           }
-        ],
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Sunfire Robe",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/34364?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 34364
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cloth",
-          "id": 1
+          "name": "Cloth"
         },
-        "inventory_type": {
-          "type": "ROBE",
-          "name": "Chest"
+        "level": {
+          "display_string": "Item Level 34",
+          "value": 34
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
-        },
-        "armor": {
-          "value": 4,
-          "display": {
-            "display_string": "4 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 34364,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/34364?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Critical Strike",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "HASTE_RATING",
-              "name": "Haste"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Haste",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "socket_bonus": "Socket Bonus: +2 Spell Power",
-        "sell_price": {
-          "value": 60849,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "6",
-            "silver": "8",
-            "copper": "49"
-          }
+        "name": "Sunfire Robe",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           }
         },
-        "level": {
-          "value": 34,
-          "display_string": "Item Level 34"
+        "sell_price": {
+          "display_strings": {
+            "copper": "49",
+            "gold": "6",
+            "header": "Sell Price:",
+            "silver": "8"
+          },
+          "value": 60849
         },
-        "durability": {
-          "value": 165,
-          "display_string": "Durability 165 / 165"
-        }
+        "socket_bonus": "Socket Bonus: +2 Spell Power",
+        "sockets": [
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          },
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          },
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Haste"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Haste",
+              "type": "HASTE_RATING"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 12,
           "reagent": {
+            "id": 24271,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/24271?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Spellcloth",
-            "id": 24271
-          },
-          "quantity": 12
+            "name": "Spellcloth"
+          }
         },
         {
+          "quantity": 12,
           "reagent": {
+            "id": 24272,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/24272?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Shadowcloth",
-            "id": 24272
-          },
-          "quantity": 12
+            "name": "Shadowcloth"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 23572,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23572?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Nether",
-            "id": 23572
-          },
-          "quantity": 2
+            "name": "Primal Nether"
+          }
         }
       ],
       "reagents_display_string": "Spellcloth (12), Shadowcloth (12), Primal Nether (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Tailoring (65)",
+        "level": 65,
+        "profession": {
+          "id": 2539,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2539?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 80000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 20000
 }

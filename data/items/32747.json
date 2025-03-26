@@ -4,283 +4,284 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/32747?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Swiftstrike Shoulders.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 32747,
-  "name": "Pattern: Swiftstrike Shoulders",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/32747?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 32747
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leatherworking",
-    "id": 1
+    "name": "Leatherworking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000,
-  "sell_price": 12500,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Swiftstrike Shoulders.",
+  "media": {
+    "id": 32747,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/32747?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Swiftstrike Shoulders",
   "preview_item": {
+    "description": "Teaches you how to craft Swiftstrike Shoulders.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 32747,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/32747?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32747
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Pattern: Swiftstrike Shoulders",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/32747?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32747
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leatherworking",
-      "id": 1
+      "name": "Leatherworking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 12500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 32747,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/32747?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2531?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Leatherworking",
-          "id": 2531
-        },
-        "level": 75,
-        "display_string": "Requires Outland Leatherworking (75)"
-      }
+    "name": "Pattern: Swiftstrike Shoulders",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to craft Swiftstrike Shoulders.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "5 Armor"
+          },
+          "value": 5
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "durability": {
+          "display_string": "Durability 100 / 100",
+          "value": 100
+        },
+        "inventory_type": {
+          "name": "Shoulder",
+          "type": "SHOULDER"
+        },
         "item": {
+          "id": 32581,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/32581?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 32581
-        },
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Swiftstrike Shoulders",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/32581?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 32581
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Leather",
-          "id": 2
+          "name": "Leather"
         },
-        "inventory_type": {
-          "type": "SHOULDER",
-          "name": "Shoulder"
+        "level": {
+          "display_string": "Item Level 32",
+          "value": 32
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
-        },
-        "armor": {
-          "value": 5,
-          "display": {
-            "display_string": "5 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 32581,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/32581?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "HASTE_RATING",
-              "name": "Haste"
-            },
-            "value": 4,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+4 Haste",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 222,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "22"
-          }
+        "name": "Swiftstrike Shoulders",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           }
         },
-        "level": {
-          "value": 32,
-          "display_string": "Item Level 32"
+        "sell_price": {
+          "display_strings": {
+            "copper": "22",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 222
         },
-        "durability": {
-          "value": 100,
-          "display_string": "Durability 100 / 100"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Haste"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Haste",
+              "type": "HASTE_RATING"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 6,
           "reagent": {
+            "id": 23793,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23793?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Knothide Leather",
-            "id": 23793
-          },
-          "quantity": 6
+            "name": "Heavy Knothide Leather"
+          }
         },
         {
+          "quantity": 12,
           "reagent": {
+            "id": 22451,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/22451?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Air",
-            "id": 22451
-          },
-          "quantity": 12
+            "name": "Primal Air"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 32428,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/32428?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heart of Darkness",
-            "id": 32428
-          },
-          "quantity": 2
+            "name": "Heart of Darkness"
+          }
         }
       ],
       "reagents_display_string": "Heavy Knothide Leather (6), Primal Air (12), Heart of Darkness (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Leatherworking (75)",
+        "level": 75,
+        "profession": {
+          "id": 2531,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2531?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Leatherworking"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 12500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 12500
 }

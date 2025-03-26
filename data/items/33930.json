@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/33930?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_idol_03.jpg",
   "id": 33930,
-  "name": "Amani Charm of the Bloodletter",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/33930?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 33930
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 27,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 33930,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/33930?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Amani Charm of the Bloodletter",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 33930,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/33930?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 33930
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Amani Charm of the Bloodletter",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/33930?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 33930
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 33930,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/33930?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Amani Charm of the Bloodletter",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
     "spells": [
       {
+        "description": "Use: Increases melee and ranged critical strike by 159.",
         "spell": {
+          "id": 43816,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/43816?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Charm of the Bloodletter",
-          "id": 43816
-        },
-        "description": "Use: Increases melee and ranged critical strike by 159."
+          "name": "Charm of the Bloodletter"
+        }
       }
     ],
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

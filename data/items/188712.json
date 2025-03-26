@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/188712?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 70217,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70217?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_bracer_plate_dragonquest_b_01.jpg",
   "id": 188712,
-  "name": "Corroded Plate Vambraces",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Wrist",
+    "type": "WRIST"
   },
-  "level": 200,
-  "required_level": 50,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/188712?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 188712
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Plate"
   },
-  "inventory_type": {
-    "type": "WRIST",
-    "name": "Wrist"
-  },
-  "purchase_price": 508687,
-  "sell_price": 101737,
+  "level": 200,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 188712,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/188712?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Corroded Plate Vambraces",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/188712?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "296 Armor"
       },
-      "id": 188712
+      "value": 296
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       7966
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
     },
-    "name": "Corroded Plate Vambraces",
-    "media": {
+    "inventory_type": {
+      "name": "Wrist",
+      "type": "WRIST"
+    },
+    "item": {
+      "id": 188712,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/188712?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 188712
+        "href": "https://eu.api.blizzard.com/data/wow/item/188712?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Plate"
     },
-    "inventory_type": {
-      "type": "WRIST",
-      "name": "Wrist"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 296,
-      "display": {
-        "display_string": "296 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 188712,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/188712?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 57471,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "74",
-        "copper": "71"
-      }
+    "name": "Corroded Plate Vambraces",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 50,
-        "display_string": "Requires Level 50"
+        "display_string": "Requires Level 50",
+        "value": 50
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
+    "sell_price": {
+      "display_strings": {
+        "copper": "71",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "74"
+      },
+      "value": 57471
     }
   },
+  "purchase_price": 508687,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/70217?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 70217
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 50,
+  "sell_price": 101737
 }

@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/10626?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3311,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3311?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_hammer_06.jpg",
   "id": 10626,
-  "name": "Ragehammer",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 28,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/10626?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 10626
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 5
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 95037,
-  "sell_price": 19007,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 10626,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/10626?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ragehammer",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/10626?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10626
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6710
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 95 / 95",
+      "value": 95
     },
-    "name": "Ragehammer",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 10626,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/10626?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10626
+        "href": "https://eu.api.blizzard.com/data/wow/item/10626?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 5
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 740,
-        "max_value": 952,
-        "display_string": "740 - 952 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 234.99998,
-        "display_string": "(235.0 damage per second)"
+    "media": {
+      "id": 10626,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/10626?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/12686?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Enrage",
-          "id": 12686
-        },
-        "description": "Chance on hit: Increases damage done by 9 and haste by 23 for 15 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 797322,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "79",
-        "silver": "73",
-        "copper": "22"
-      }
+    "name": "Ragehammer",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+        "display_string": "Requires Level 21",
+        "value": 21
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "22",
+        "gold": "79",
+        "header": "Sell Price:",
+        "silver": "73"
+      },
+      "value": 797322
     },
-    "durability": {
-      "value": 95,
-      "display_string": "Durability 95 / 95"
+    "spells": [
+      {
+        "description": "Chance on hit: Increases damage done by 9 and haste by 23 for 15 sec.",
+        "spell": {
+          "id": 12686,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/12686?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Enrage"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "740 - 952 Damage",
+        "max_value": 952,
+        "min_value": 740
+      },
+      "dps": {
+        "display_string": "(235.0 damage per second)",
+        "value": 234.99998
+      }
     }
   },
+  "purchase_price": 95037,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3311?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3311
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 21,
+  "sell_price": 19007
 }

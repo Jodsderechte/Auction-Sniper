@@ -4,114 +4,115 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/45673?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 11534,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/11534?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shirt_grey_01.jpg",
   "id": 45673,
-  "name": "Thunder Bluff Doublet",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Shirt",
+    "type": "BODY"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/45673?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 45673
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "BODY",
-    "name": "Shirt"
-  },
-  "purchase_price": 250000,
-  "sell_price": 62500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 45673,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/45673?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Thunder Bluff Doublet",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Shirt",
+      "type": "BODY"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 45673,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/45673?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45673
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Thunder Bluff Doublet",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/45673?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45673
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "BODY",
-      "name": "Shirt"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 62500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "6",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 45673,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/45673?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Thunder Bluff Doublet",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "faction": {
+        "display_string": "Horde Only",
         "value": {
-          "type": "HORDE",
-          "name": "Horde"
-        },
-        "display_string": "Horde Only"
+          "name": "Horde",
+          "type": "HORDE"
+        }
       }
     },
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
-    },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/11534?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "6",
+        "header": "Sell Price:",
+        "silver": "25"
       },
-      "id": 11534
+      "value": 62500
     }
-  ]
+  },
+  "purchase_price": 250000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 62500
 }

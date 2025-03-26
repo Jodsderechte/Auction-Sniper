@@ -4,94 +4,95 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/143717?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This fragile teacup somehow avoided destruction after years living at the bottom of a toy chest.",
+  "icon_path": "data\\icons\\inv_drink_15.jpg",
   "id": 143717,
-  "name": "Chipped Tea Cup",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 7,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/143717?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 143717
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 7,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "This fragile teacup somehow avoided destruction after years living at the bottom of a toy chest.",
+  "media": {
+    "id": 143717,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/143717?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Chipped Tea Cup",
   "preview_item": {
+    "description": "This fragile teacup somehow avoided destruction after years living at the bottom of a toy chest.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 143717,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/143717?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 143717
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Chipped Tea Cup",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/143717?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 143717
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 143717,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/143717?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Chipped Tea Cup",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "spells": [
       {
+        "description": "Use: Take a sip! (10 Sec Cooldown)",
         "spell": {
+          "id": 233027,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/233027?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Pinky Out",
-          "id": 233027
-        },
-        "description": "Use: Take a sip! (10 Sec Cooldown)"
+          "name": "Pinky Out"
+        }
       }
-    ],
-    "description": "This fragile teacup somehow avoided destruction after years living at the bottom of a toy chest.",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

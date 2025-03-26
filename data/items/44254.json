@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/44254?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_inscription_tarotgreatness.jpg",
   "id": 44254,
-  "name": "Darkmoon Card: Greatness",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 35,
-  "required_level": 30,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/44254?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 44254
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 429375,
-  "sell_price": 107343,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 44254,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/44254?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Darkmoon Card: Greatness",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 44254,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/44254?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44254
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Darkmoon Card: Greatness",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/44254?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 44254
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 35",
+      "value": 35
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 44254,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/44254?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 6,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+6 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/57345?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Darkmoon Card: Greatness",
-          "id": 57345
-        },
-        "description": "Equip: When you heal or deal damage you have a chance to gain Greatness, increasing your Strength, Agility, or Intellect by 15 for 15 sec.  Your highest stat is always chosen."
-      }
-    ],
-    "sell_price": {
-      "value": 107343,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "73",
-        "copper": "43"
-      }
+    "name": "Darkmoon Card: Greatness",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 30,
-        "display_string": "Requires Level 30"
+        "display_string": "Requires Level 30",
+        "value": 30
       }
     },
-    "level": {
-      "value": 35,
-      "display_string": "Item Level 35"
+    "sell_price": {
+      "display_strings": {
+        "copper": "43",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "73"
+      },
+      "value": 107343
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: When you heal or deal damage you have a chance to gain Greatness, increasing your Strength, Agility, or Intellect by 15 for 15 sec.  Your highest stat is always chosen.",
+        "spell": {
+          "id": 57345,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/57345?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Darkmoon Card: Greatness"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+6 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 6
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 429375,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 30,
+  "sell_price": 107343
 }

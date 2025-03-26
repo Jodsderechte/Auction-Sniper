@@ -4,121 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/85663?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 332,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/332?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_misc_shovel_01.jpg",
   "id": 85663,
-  "name": "Herbalist's Spade",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 2,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/85663?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 85663
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Herbalism",
-    "id": 3
+    "name": "Herbalism"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 158,
-  "sell_price": 31,
+  "level": 2,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 85663,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/85663?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Herbalist's Spade",
   "preview_item": {
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
+    },
     "item": {
+      "id": 85663,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/85663?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 85663
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Herbalist's Spade",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/85663?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 85663
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Herbalism",
-      "id": 3
+      "name": "Herbalism"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
+    "media": {
+      "id": 85663,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/85663?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/124353?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "+4 Herbalism",
-          "id": 124353
-        },
-        "description": "Equip: +4 Herbalism Skill."
-      }
-    ],
-    "sell_price": {
-      "value": 31,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "31"
-      }
+    "name": "Herbalist's Spade",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Classic Herbalism (1)",
+        "level": 1,
         "profession": {
+          "id": 2556,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2556?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Herbalism",
-          "id": 2556
-        },
-        "level": 1,
-        "display_string": "Requires Classic Herbalism (1)"
+          "name": "Classic Herbalism"
+        }
       }
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/332?namespace=static-11.1.0_59095-eu"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "31",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 332
-    }
-  ]
+      "value": 31
+    },
+    "spells": [
+      {
+        "description": "Equip: +4 Herbalism Skill.",
+        "spell": {
+          "id": 124353,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/124353?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "+4 Herbalism"
+        }
+      }
+    ]
+  },
+  "purchase_price": 158,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 31
 }

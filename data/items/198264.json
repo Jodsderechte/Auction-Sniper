@@ -4,106 +4,107 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/198264?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_10_engineering_device_gadget3_color1.jpg",
   "id": 198264,
-  "name": "Centralized Precipitation Emitter",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/198264?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 198264
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 750000,
-  "sell_price": 150000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 198264,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/198264?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Centralized Precipitation Emitter",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 198264,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/198264?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198264
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Centralized Precipitation Emitter",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/198264?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 198264
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 198264,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/198264?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Centralized Precipitation Emitter",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "15",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 150000
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPlace down a Centralized Precipitation Emitter for up to 2 hrs that allows you to experience the fury of nature, by choice!\r\n\r\nA cloaking device attached to this machine ensures that only members of your party or raid can see the machine and its effects.\r\n\r\nCan only be used outside. (2 Hr Cooldown)",
         "spell": {
+          "id": 385792,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/385792?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Summon Centralized Precipitation Emitter",
-          "id": 385792
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPlace down a Centralized Precipitation Emitter for up to 2 hrs that allows you to experience the fury of nature, by choice!\r\n\r\nA cloaking device attached to this machine ensures that only members of your party or raid can see the machine and its effects.\r\n\r\nCan only be used outside. (2 Hr Cooldown)"
+          "name": "Summon Centralized Precipitation Emitter"
+        }
       }
     ],
-    "sell_price": {
-      "value": 150000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "15",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 750000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 150000
 }

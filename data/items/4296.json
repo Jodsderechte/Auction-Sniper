@@ -4,260 +4,261 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4296?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Dark Leather Shoulders.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 4296,
-  "name": "Pattern: Dark Leather Shoulders",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4296?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4296
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leatherworking",
-    "id": 1
+    "name": "Leatherworking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2100,
-  "sell_price": 525,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Dark Leather Shoulders.",
+  "media": {
+    "id": 4296,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4296?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Dark Leather Shoulders",
   "preview_item": {
+    "description": "Teaches you how to craft Dark Leather Shoulders.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 4296,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/4296?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4296
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Pattern: Dark Leather Shoulders",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4296?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4296
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leatherworking",
-      "id": 1
+      "name": "Leatherworking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 525,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "5",
-        "copper": "25"
+    "media": {
+      "id": 4296,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4296?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2532?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Leatherworking",
-          "id": 2532
-        },
-        "level": 140,
-        "display_string": "Requires Classic Leatherworking (140)"
-      }
+    "name": "Pattern: Dark Leather Shoulders",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to craft Dark Leather Shoulders.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "4 Armor"
+          },
+          "value": 4
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 55 / 55",
+          "value": 55
+        },
+        "inventory_type": {
+          "name": "Shoulder",
+          "type": "SHOULDER"
+        },
         "item": {
+          "id": 4252,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/4252?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 4252
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Dark Leather Shoulders",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/4252?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 4252
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Leather",
-          "id": 2
+          "name": "Leather"
         },
-        "inventory_type": {
-          "type": "SHOULDER",
-          "name": "Shoulder"
+        "level": {
+          "display_string": "Item Level 18",
+          "value": 18
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 4,
-          "display": {
-            "display_string": "4 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 4252,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/4252?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 4,
-            "is_negated": true,
-            "display": {
-              "display_string": "+4 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Dark Leather Shoulders",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 11,
-            "display_string": "Requires Level 11"
+            "display_string": "Requires Level 11",
+            "value": 11
           }
         },
-        "level": {
-          "value": 18,
-          "display_string": "Item Level 18"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 55,
-          "display_string": "Durability 55 / 55"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+4 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 4
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 12,
           "reagent": {
+            "id": 2319,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2319?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Medium Leather",
-            "id": 2319
-          },
-          "quantity": 12
+            "name": "Medium Leather"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3390,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3390?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Elixir of Lesser Agility",
-            "id": 3390
-          },
-          "quantity": 1
+            "name": "Elixir of Lesser Agility"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 4340,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4340?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Gray Dye",
-            "id": 4340
-          },
-          "quantity": 1
+            "name": "Gray Dye"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 2321,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2321?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Fine Thread",
-            "id": 2321
-          },
-          "quantity": 2
+            "name": "Fine Thread"
+          }
         }
       ],
       "reagents_display_string": "Medium Leather (12), Elixir of Lesser Agility, Gray Dye, Fine Thread (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Leatherworking (140)",
+        "level": 140,
+        "profession": {
+          "id": 2532,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2532?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Leatherworking"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 525
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2100,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 525
 }

@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/159678?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Smell the pungency of one hundred years.",
+  "icon_path": "data\\icons\\inv_misc_food_legion_gooamberblue_bottle.jpg",
   "id": 159678,
-  "name": "Century Sauce",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/159678?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 159678
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1000000,
-  "sell_price": 250000,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Smell the pungency of one hundred years.",
+  "media": {
+    "id": 159678,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/159678?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Century Sauce",
   "preview_item": {
+    "description": "Smell the pungency of one hundred years.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 159678,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/159678?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 159678
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Century Sauce",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/159678?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 159678
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 250000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "25",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 159678,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/159678?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Smell the pungency of one hundred years.",
-    "is_subclass_hidden": true
+    "name": "Century Sauce",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "25",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 250000
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 250000
 }

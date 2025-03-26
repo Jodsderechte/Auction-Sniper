@@ -4,296 +4,297 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/35203?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Hard Khorium Choker.",
+  "icon_path": "data\\icons\\inv_scroll_04.jpg",
   "id": 35203,
-  "name": "Design: Hard Khorium Choker",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/35203?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 35203
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 140000,
-  "sell_price": 35000,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Hard Khorium Choker.",
+  "media": {
+    "id": 35203,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/35203?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Hard Khorium Choker",
   "preview_item": {
+    "description": "Teaches you how to craft a Hard Khorium Choker.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 35203,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/35203?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 35203
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Design: Hard Khorium Choker",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/35203?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 35203
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 35000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "50",
-        "copper": "0"
+    "media": {
+      "id": 35203,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/35203?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Jewelcrafting",
-          "id": 2523
-        },
-        "level": 65,
-        "display_string": "Requires Outland Jewelcrafting (65)"
-      }
+    "name": "Design: Hard Khorium Choker",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
-    "description": "Teaches you how to craft a Hard Khorium Choker.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "inventory_type": {
+          "name": "Neck",
+          "type": "NECK"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 34358,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/34358?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 34358
-        },
-        "sockets": [
-          {
-            "socket_type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            }
           }
-        ],
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Hard Khorium Choker",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/34358?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 34358
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "NECK",
-          "name": "Neck"
+        "level": {
+          "display_string": "Item Level 34",
+          "value": 34
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
-        },
-        "stats": [
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 2,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+2 Critical Strike",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "HASTE_RATING",
-              "name": "Haste"
-            },
-            "value": 3,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+3 Haste",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
+        "media": {
+          "id": 34358,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/34358?namespace=static-11.1.0_59095-eu"
           }
-        ],
-        "socket_bonus": "Socket Bonus: +1 Attack Power",
-        "sell_price": {
-          "value": 88355,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "8",
-            "silver": "83",
-            "copper": "55"
-          }
+        },
+        "name": "Hard Khorium Choker",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 27,
-            "display_string": "Requires Level 27"
+            "display_string": "Requires Level 27",
+            "value": 27
           },
           "skill": {
+            "display_string": "Requires Outland Jewelcrafting (50)",
+            "level": 50,
             "profession": {
+              "id": 2523,
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
               },
-              "name": "Outland Jewelcrafting",
-              "id": 2523
-            },
-            "level": 50,
-            "display_string": "Requires Outland Jewelcrafting (50)"
+              "name": "Outland Jewelcrafting"
+            }
           }
         },
-        "level": {
-          "value": 34,
-          "display_string": "Item Level 34"
+        "sell_price": {
+          "display_strings": {
+            "copper": "55",
+            "gold": "8",
+            "header": "Sell Price:",
+            "silver": "83"
+          },
+          "value": 88355
         },
-        "is_subclass_hidden": true
+        "socket_bonus": "Socket Bonus: +1 Attack Power",
+        "sockets": [
+          {
+            "socket_type": {
+              "name": "Prismatic Socket",
+              "type": "PRISMATIC"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Haste"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Haste",
+              "type": "HASTE_RATING"
+            },
+            "value": 3
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 6,
           "reagent": {
+            "id": 35128,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/35128?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Hardened Khorium",
-            "id": 35128
-          },
-          "quantity": 6
+            "name": "Hardened Khorium"
+          }
         },
         {
+          "quantity": 9,
           "reagent": {
+            "id": 23572,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/23572?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Primal Nether",
-            "id": 23572
-          },
-          "quantity": 9
+            "name": "Primal Nether"
+          }
         }
       ],
       "reagents_display_string": "Hardened Khorium (6), Primal Nether (9)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Jewelcrafting (65)",
+        "level": 65,
+        "profession": {
+          "id": 2523,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 35000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 140000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 35000
 }

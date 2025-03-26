@@ -4,94 +4,95 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/119209?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "WARNING: Once an angry letter is sent, you will never be able to join the Club again!",
+  "icon_path": "data\\icons\\inv_letter_16.jpg",
   "id": 119209,
-  "name": "Angry Brewfest Letter",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/119209?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 119209
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "WARNING: Once an angry letter is sent, you will never be able to join the Club again!",
+  "media": {
+    "id": 119209,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/119209?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Angry Brewfest Letter",
   "preview_item": {
+    "description": "WARNING: Once an angry letter is sent, you will never be able to join the Club again!",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 119209,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/119209?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 119209
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Angry Brewfest Letter",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/119209?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 119209
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 119209,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/119209?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Angry Brewfest Letter",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "spells": [
       {
+        "description": "Use: Cancel your Brew-of-the-Month Club membership. (1 Sec Cooldown)",
         "spell": {
+          "id": 176887,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/176887?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Angry Brewfest Letter",
-          "id": 176887
-        },
-        "description": "Use: Cancel your Brew-of-the-Month Club membership. (1 Sec Cooldown)"
+          "name": "Angry Brewfest Letter"
+        }
       }
-    ],
-    "description": "WARNING: Once an angry letter is sent, you will never be able to join the Club again!",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

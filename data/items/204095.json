@@ -4,59 +4,42 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204095?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_10_jewelcrafting_necklace_necklace2_color3.jpg",
   "id": 204095,
-  "name": "Obsidian Combatant's Jeweled Amulet",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 330,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204095?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204095
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 125000,
-  "sell_price": 25000,
+  "level": 330,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 204095,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204095?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Obsidian Combatant's Jeweled Amulet",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/204095?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204095
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "sockets": [
-      {
-        "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
-        }
-      }
-    ],
-    "context": 0,
     "bonus_list": [
       9311,
       8840,
@@ -64,112 +47,130 @@
       9312,
       8780
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
     },
-    "name": "Obsidian Combatant's Jeweled Amulet",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 204095,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204095?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204095
+        "href": "https://eu.api.blizzard.com/data/wow/item/204095?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 341,
-        "display": {
-          "display_string": "+341 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 455,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+455 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 455,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+455 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 25000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "50",
-        "copper": "0"
-      }
+      "name": "Miscellaneous"
     },
     "level": {
-      "value": 366,
-      "display_string": "Item Level 366"
+      "display_string": "Item Level 366",
+      "value": 366
     },
-    "is_subclass_hidden": true,
+    "media": {
+      "id": 204095,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204095?namespace=static-11.1.0_59095-eu"
+      }
+    },
     "modified_crafting_stat": [
       {
         "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
+        "name": "Haste",
+        "type": "HASTE_RATING"
+      }
+    ],
+    "name": "Obsidian Combatant's Jeweled Amulet",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 25000
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+341 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 341
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+455 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 455
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+455 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 455
       }
     ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 125000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 25000
 }

@@ -4,177 +4,178 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/16050?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Delicate Arcanite Converter.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 16050,
-  "name": "Schematic: Delicate Arcanite Converter",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/16050?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 16050
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 3
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 20000,
-  "sell_price": 5000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Delicate Arcanite Converter.",
+  "media": {
+    "id": 16050,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/16050?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Schematic: Delicate Arcanite Converter",
   "preview_item": {
+    "description": "Teaches you how to make a Delicate Arcanite Converter.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 16050,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/16050?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16050
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Schematic: Delicate Arcanite Converter",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/16050?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16050
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 3
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 5000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "50",
-        "copper": "0"
+    "media": {
+      "id": 16050,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/16050?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 285,
-        "display_string": "Requires Classic Engineering (285)"
-      }
+    "name": "Schematic: Delicate Arcanite Converter",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to make a Delicate Arcanite Converter.",
     "recipe": {
       "item": {
+        "crafting_reagent": "Crafting Reagent",
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 16006,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/16006?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 16006
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Delicate Arcanite Converter",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/16006?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 16006
+          }
         },
         "item_class": {
+          "id": 7,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Tradeskill",
-          "id": 7
+          "name": "Tradeskill"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Parts",
-          "id": 1
+          "name": "Parts"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
-        },
-        "sell_price": {
-          "value": 10000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "1",
-            "silver": "0",
-            "copper": "0"
+        "media": {
+          "id": 16006,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/16006?namespace=static-11.1.0_59095-eu"
           }
         },
-        "is_subclass_hidden": true,
-        "crafting_reagent": "Crafting Reagent"
+        "name": "Delicate Arcanite Converter",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "1",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 10000
+        }
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 12360,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcanite Bar",
-            "id": 12360
-          },
-          "quantity": 1
+            "name": "Arcanite Bar"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 14227,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14227?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Ironweb Spider Silk",
-            "id": 14227
-          },
-          "quantity": 1
+            "name": "Ironweb Spider Silk"
+          }
         }
       ],
       "reagents_display_string": "Arcanite Bar, Ironweb Spider Silk"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Engineering (285)",
+        "level": 285,
+        "profession": {
+          "id": 2506,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Engineering"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 5000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 20000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 5000
 }

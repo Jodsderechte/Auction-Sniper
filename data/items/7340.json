@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7340?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Will you marry me?",
+  "icon_path": "data\\icons\\inv_jewelry_ring_10.jpg",
   "id": 7340,
-  "name": "Flawless Diamond Solitaire",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 26,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7340?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7340
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 500000,
-  "sell_price": 125000,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Will you marry me?",
+  "media": {
+    "id": 7340,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7340?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Flawless Diamond Solitaire",
   "preview_item": {
+    "description": "Will you marry me?",
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 7340,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7340?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7340
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Flawless Diamond Solitaire",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7340?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7340
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 26",
+      "value": 26
     },
-    "sell_price": {
-      "value": 125000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "12",
-        "silver": "50",
-        "copper": "0"
+    "media": {
+      "id": 7340,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7340?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Will you marry me?",
-    "level": {
-      "value": 26,
-      "display_string": "Item Level 26"
+    "name": "Flawless Diamond Solitaire",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "12",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 125000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 500000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 125000
 }

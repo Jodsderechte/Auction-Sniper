@@ -4,93 +4,94 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12286?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_gizmo_09.jpg",
   "id": 12286,
-  "name": "Eggscilloscope Prototype",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12286?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12286
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 12286,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12286?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Eggscilloscope Prototype",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 12286,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12286?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12286
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Eggscilloscope Prototype",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12286?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12286
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 12286,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12286?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Eggscilloscope Prototype",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
     "spells": [
       {
+        "description": "Use: Use on a Rookery Egg, then return to Tinkee. (3 Sec Cooldown)",
         "spell": {
+          "id": 16028,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/16028?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Freeze Rookery Egg - Prototype",
-          "id": 16028
-        },
-        "description": "Use: Use on a Rookery Egg, then return to Tinkee. (3 Sec Cooldown)"
+          "name": "Freeze Rookery Egg - Prototype"
+        }
       }
     ],
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

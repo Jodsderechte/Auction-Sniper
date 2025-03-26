@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2824?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 971,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/971?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_bow_12.jpg",
   "id": 2824,
-  "name": "Hurricane",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGED"
   },
-  "level": 27,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2824?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2824
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bow",
-    "id": 2
+    "name": "Bow"
   },
-  "inventory_type": {
-    "type": "RANGED",
-    "name": "Ranged"
-  },
-  "purchase_price": 99380,
-  "sell_price": 19876,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2824,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2824?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Hurricane",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2824?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2824
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 115 / 115",
+      "value": 115
     },
-    "name": "Hurricane",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGED"
+    },
+    "item": {
+      "id": 2824,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2824?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2824
+        "href": "https://eu.api.blizzard.com/data/wow/item/2824?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bow",
-      "id": 2
+      "name": "Bow"
     },
-    "inventory_type": {
-      "type": "RANGED",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 577,
-        "max_value": 782,
-        "display_string": "577 - 782 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 226.49998,
-        "display_string": "(226.5 damage per second)"
+    "media": {
+      "id": 2824,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2824?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/29501?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Frost Arrow",
-          "id": 29501
-        },
-        "description": "Equip: Chance to strike your target with a Frost Arrow for 279 Frost damage."
-      }
-    ],
-    "sell_price": {
-      "value": 951260,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "95",
-        "silver": "12",
-        "copper": "60"
-      }
+    "name": "Hurricane",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+        "display_string": "Requires Level 21",
+        "value": 21
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "60",
+        "gold": "95",
+        "header": "Sell Price:",
+        "silver": "12"
+      },
+      "value": 951260
     },
-    "durability": {
-      "value": 115,
-      "display_string": "Durability 115 / 115"
+    "spells": [
+      {
+        "description": "Equip: Chance to strike your target with a Frost Arrow for 279 Frost damage.",
+        "spell": {
+          "id": 29501,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/29501?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Frost Arrow"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "577 - 782 Damage",
+        "max_value": 782,
+        "min_value": 577
+      },
+      "dps": {
+        "display_string": "(226.5 damage per second)",
+        "value": 226.49998
+      }
     }
   },
+  "purchase_price": 99380,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/971?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 971
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 21,
+  "sell_price": 19876
 }

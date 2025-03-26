@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4007?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1452,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1452?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_chain_13.jpg",
   "id": 4007,
-  "name": "Overlinked Chain Armor",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "CHEST"
   },
-  "level": 24,
-  "required_level": 17,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4007?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4007
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "CHEST",
-    "name": "Chest"
-  },
-  "purchase_price": 347082,
-  "sell_price": 69416,
+  "level": 24,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4007,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4007?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Overlinked Chain Armor",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/4007?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "394 Armor"
       },
-      "id": 4007
+      "value": 394
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 105 / 105",
+      "value": 105
     },
-    "name": "Overlinked Chain Armor",
-    "media": {
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
+    "item": {
+      "id": 4007,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4007?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4007
+        "href": "https://eu.api.blizzard.com/data/wow/item/4007?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "CHEST",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 394,
-      "display": {
-        "display_string": "394 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 4007,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4007?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 107598,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "75",
-        "copper": "98"
-      }
+    "name": "Overlinked Chain Armor",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 17,
-        "display_string": "Requires Level 17"
+        "display_string": "Requires Level 17",
+        "value": 17
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 105,
-      "display_string": "Durability 105 / 105"
+    "sell_price": {
+      "display_strings": {
+        "copper": "98",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 107598
     }
   },
+  "purchase_price": 347082,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1452?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1452
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 17,
+  "sell_price": 69416
 }

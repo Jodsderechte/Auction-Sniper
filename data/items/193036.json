@@ -4,136 +4,137 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/193036?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "In the jeweler's quest to make the mundane seem luxurious, they somehow designed a magnifying glass that can only be held by the left hand.",
+  "icon_path": "data\\icons\\inv_professions_inscription_scribesmagnifyingglass_silver.jpg",
   "id": 193036,
-  "name": "Left-Handed Magnifying Glass",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/193036?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 193036
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Inscription",
-    "id": 12
+    "name": "Inscription"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 15000,
-  "sell_price": 3000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "In the jeweler's quest to make the mundane seem luxurious, they somehow designed a magnifying glass that can only be held by the left hand.",
+  "media": {
+    "id": 193036,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/193036?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Left-Handed Magnifying Glass",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/193036?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193036
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "description": "In the jeweler's quest to make the mundane seem luxurious, they somehow designed a magnifying glass that can only be held by the left hand.",
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Left-Handed Magnifying Glass",
-    "media": {
+    "item": {
+      "id": 193036,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/193036?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193036
+        "href": "https://eu.api.blizzard.com/data/wow/item/193036?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Inscription",
-      "id": 12
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Inscription"
     },
     "limit_category": "Unique-Equipped: Magnifying Glass (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS",
-          "name": "Resourcefulness"
-        },
-        "value": 18,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+18 Resourcefulness",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED",
-          "name": "Crafting Speed"
-        },
-        "value": 28,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+28 Crafting Speed",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 3000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "30",
-        "copper": "0"
+    "media": {
+      "id": 193036,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/193036?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "In the jeweler's quest to make the mundane seem luxurious, they somehow designed a magnifying glass that can only be held by the left hand."
+    "name": "Left-Handed Magnifying Glass",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "30"
+      },
+      "value": 3000
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+18 Resourcefulness"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Resourcefulness",
+          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS"
+        },
+        "value": 18
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+28 Crafting Speed"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Crafting Speed",
+          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED"
+        },
+        "value": 28
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 15000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 3000
 }

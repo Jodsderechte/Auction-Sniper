@@ -4,174 +4,175 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/186990?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Blossom Burst.",
+  "icon_path": "data\\icons\\70_professions_scroll_02.jpg",
   "id": 186990,
-  "name": "Recipe: Blossom Burst",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/186990?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 186990
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 6
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 95000,
-  "sell_price": 23750,
+  "level": 1,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Blossom Burst.",
+  "media": {
+    "id": 186990,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/186990?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Recipe: Blossom Burst",
   "preview_item": {
+    "description": "Teaches you how to craft a Blossom Burst.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 186990,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/186990?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 186990
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Recipe: Blossom Burst",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/186990?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 186990
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 6
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "sell_price": {
-      "value": 23750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "37",
-        "copper": "50"
+    "media": {
+      "id": 186990,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/186990?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2750?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shadowlands Alchemy",
-          "id": 2750
-        },
-        "level": 95,
-        "display_string": "Requires Shadowlands Alchemy (95)"
-      }
+    "name": "Recipe: Blossom Burst",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to craft a Blossom Burst.",
     "recipe": {
       "item": {
+        "charges": {
+          "display_string": "1 Charge",
+          "value": 1
+        },
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 186697,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/186697?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 186697
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Blossom Burst",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/186697?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 186697
+          }
         },
         "item_class": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Consumable",
-          "id": 0
+          "name": "Consumable"
         },
         "item_subclass": {
+          "id": 8,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Other",
-          "id": 8
+          "name": "Other"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
+        "media": {
+          "id": 186697,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/186697?namespace=static-11.1.0_59095-eu"
+          }
+        },
+        "name": "Blossom Burst",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "spells": [
           {
+            "description": "Use: Douse your friends with a burst of green color! Fun for all ages! (3 Min Cooldown)",
             "spell": {
+              "id": 354681,
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/spell/354681?namespace=static-11.1.0_59095-eu"
               },
-              "name": "Blossom Burst",
-              "id": 354681
-            },
-            "description": "Use: Douse your friends with a burst of green color! Fun for all ages! (3 Min Cooldown)"
+              "name": "Blossom Burst"
+            }
           }
-        ],
-        "charges": {
-          "value": 1,
-          "display_string": "1 Charge"
-        },
-        "is_subclass_hidden": true
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 171287,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/171287?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Ground Death Blossom",
-            "id": 171287
-          },
-          "quantity": 2
+            "name": "Ground Death Blossom"
+          }
         }
       ],
       "reagents_display_string": "Ground Death Blossom (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Shadowlands Alchemy (95)",
+        "level": 95,
+        "profession": {
+          "id": 2750,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2750?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shadowlands Alchemy"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "37"
+      },
+      "value": 23750
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 95000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 23750
 }

@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/9719?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_sword_10.jpg",
   "id": 9719,
-  "name": "Broken Blade of Heroes",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 16,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/9719?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 9719
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tradeskill",
-    "id": 7
+    "name": "Tradeskill"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 11
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 16,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 9719,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/9719?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Broken Blade of Heroes",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 9719,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/9719?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9719
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Broken Blade of Heroes",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/9719?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 9719
+      }
     },
     "item_class": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tradeskill",
-      "id": 7
+      "name": "Tradeskill"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 11
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/11923?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Repair the Blade of Heroes",
-          "id": 11923
-        },
-        "description": "Use: The sword must be reforged before it can be used.  Reforging the sword requires 4 Steel Bars, 4 Strong Flux , 2 Elemental Fire and 2 Heavy Grinding Stones."
+    "media": {
+      "id": 9719,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/9719?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Broken Blade of Heroes",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
     "requirements": {
       "skill": {
+        "display_string": "Requires Classic Blacksmithing (190)",
+        "level": 190,
         "profession": {
+          "id": 2477,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 190,
-        "display_string": "Requires Classic Blacksmithing (190)"
+          "name": "Classic Blacksmithing"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: The sword must be reforged before it can be used.  Reforging the sword requires 4 Steel Bars, 4 Strong Flux , 2 Elemental Fire and 2 Heavy Grinding Stones.",
+        "spell": {
+          "id": 11923,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/11923?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Repair the Blade of Heroes"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

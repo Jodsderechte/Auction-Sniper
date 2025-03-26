@@ -4,94 +4,95 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/184759?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "One of the Stewards' favorite foods.",
+  "icon_path": "data\\icons\\inv_misc_food_106_fjordpeach.jpg",
   "id": 184759,
-  "name": "Tasty Purian",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/184759?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 184759
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "One of the Stewards' favorite foods.",
+  "media": {
+    "id": 184759,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/184759?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Tasty Purian",
   "preview_item": {
+    "description": "One of the Stewards' favorite foods.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 184759,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/184759?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 184759
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Tasty Purian",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/184759?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 184759
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 184759,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/184759?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Tasty Purian",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "spells": [
       {
+        "description": "Use: Place the offering on the ground to attract a nearby steward.",
         "spell": {
+          "id": 325786,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/325786?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Leave Offering",
-          "id": 325786
-        },
-        "description": "Use: Place the offering on the ground to attract a nearby steward."
+          "name": "Leave Offering"
+        }
       }
-    ],
-    "description": "One of the Stewards' favorite foods.",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

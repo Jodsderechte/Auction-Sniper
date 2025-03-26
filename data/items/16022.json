@@ -4,127 +4,128 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/16022?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_head_dragon_bronze.jpg",
   "id": 16022,
-  "name": "Arcanite Dragonling",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 29,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/16022?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 16022
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 160000,
-  "sell_price": 40000,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 16022,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/16022?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Arcanite Dragonling",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 16022,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/16022?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16022
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Arcanite Dragonling",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/16022?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16022
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/19804?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Arcanite Dragonling",
-          "id": 19804
-        },
-        "description": "Use: Activates your Arcanite Dragonling to fight for you for 1 min. (5 Min Cooldown)"
+    "media": {
+      "id": 16022,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/16022?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 40000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "4",
-        "silver": "0",
-        "copper": "0"
-      }
+    },
+    "name": "Arcanite Dragonling",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+        "display_string": "Requires Level 21",
+        "value": 21
       },
       "skill": {
+        "display_string": "Requires Classic Engineering (300)",
+        "level": 300,
         "profession": {
+          "id": 2506,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 300,
-        "display_string": "Requires Classic Engineering (300)"
+          "name": "Classic Engineering"
+        }
       }
     },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "4",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 40000
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Activates your Arcanite Dragonling to fight for you for 1 min. (5 Min Cooldown)",
+        "spell": {
+          "id": 19804,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/19804?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Arcanite Dragonling"
+        }
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 160000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 21,
+  "sell_price": 40000
 }

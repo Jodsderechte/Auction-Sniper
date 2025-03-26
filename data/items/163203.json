@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/163203?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This sensor, when integrated into a device, is capable of detecting even trace amounts of Azerite several yards beneath the ground. Can be bought and sold at vendors.",
+  "icon_path": "data\\icons\\inv_offhand_1h_draenorchallenge_d_01.jpg",
   "id": 163203,
-  "name": "Hypersensitive Azeritometer Sensor",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 45,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/163203?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 163203
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tradeskill",
-    "id": 7
+    "name": "Tradeskill"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Elemental",
-    "id": 10
+    "name": "Elemental"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000000,
-  "sell_price": 100,
+  "level": 45,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "This sensor, when integrated into a device, is capable of detecting even trace amounts of Azerite several yards beneath the ground. Can be bought and sold at vendors.",
+  "media": {
+    "id": 163203,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/163203?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Hypersensitive Azeritometer Sensor",
   "preview_item": {
+    "crafting_reagent": "Crafting Reagent",
+    "description": "This sensor, when integrated into a device, is capable of detecting even trace amounts of Azerite several yards beneath the ground. Can be bought and sold at vendors.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 163203,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/163203?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 163203
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Hypersensitive Azeritometer Sensor",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/163203?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 163203
+      }
     },
     "item_class": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tradeskill",
-      "id": 7
+      "name": "Tradeskill"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/7/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Elemental",
-      "id": 10
+      "name": "Elemental"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 100,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "0"
+    "media": {
+      "id": 163203,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/163203?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "This sensor, when integrated into a device, is capable of detecting even trace amounts of Azerite several yards beneath the ground. Can be bought and sold at vendors.",
-    "is_subclass_hidden": true,
-    "crafting_reagent": "Crafting Reagent"
+    "name": "Hypersensitive Azeritometer Sensor",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 100
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 100
 }

@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204968?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Shadowflame-Tempered Armor Patches.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled03b.jpg",
   "id": 204968,
-  "name": "Pattern: Shadowflame-Tempered Armor Patch",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204968?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204968
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leatherworking",
-    "id": 1
+    "name": "Leatherworking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Shadowflame-Tempered Armor Patches.",
+  "media": {
+    "id": 204968,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204968?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Shadowflame-Tempered Armor Patch",
   "preview_item": {
+    "description": "Teaches you how to craft Shadowflame-Tempered Armor Patches.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 204968,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/204968?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204968
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Pattern: Shadowflame-Tempered Armor Patch",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204968?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204968
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leatherworking",
-      "id": 1
+      "name": "Leatherworking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 204968,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204968?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Pattern: Shadowflame-Tempered Armor Patch",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Leatherworking (50)",
+        "level": 50,
         "profession": {
+          "id": 2830,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2830?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Leatherworking",
-          "id": 2830
-        },
-        "level": 50,
-        "display_string": "Requires Dragon Isles Leatherworking (50)"
+          "name": "Dragon Isles Leatherworking"
+        }
       }
     },
-    "description": "Teaches you how to craft Shadowflame-Tempered Armor Patches.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

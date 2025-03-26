@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/221799?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_cape_special_mining_c_01.jpg",
   "id": 221799,
-  "name": "Miner's Bismuth Hoard",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/221799?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 221799
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mining",
-    "id": 5
+    "name": "Mining"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 1305250,
-  "sell_price": 261050,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 221799,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/221799?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Miner's Bismuth Hoard",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/221799?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221799
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Miner's Bismuth Hoard",
-    "media": {
+    "item": {
+      "id": 221799,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/221799?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221799
+        "href": "https://eu.api.blizzard.com/data/wow/item/221799?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mining",
-      "id": 5
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Mining"
     },
     "limit_category": "Unique-Equipped: Back (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_FINESSE",
-          "name": "Finesse"
-        },
-        "value": 138,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+138 Finesse",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 221799,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/221799?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455743?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455743
-        },
-        "description": "Equip: +5 Khaz Algar Mining Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 261050,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "26",
-        "silver": "10",
-        "copper": "50"
-      }
+    },
+    "name": "Miner's Bismuth Hoard",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "26",
+        "header": "Sell Price:",
+        "silver": "10"
+      },
+      "value": 261050
+    },
+    "spells": [
+      {
+        "description": "Equip: +5 Khaz Algar Mining Skill",
+        "spell": {
+          "id": 455743,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455743?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+138 Finesse"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Finesse",
+          "type": "BONUS_STAT_PROFESSION_FINESSE"
+        },
+        "value": 138
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 1305250,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 261050
 }

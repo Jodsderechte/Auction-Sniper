@@ -4,196 +4,197 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/194877?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 76536,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/76536?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_10_inscription2_book2_color3.jpg",
   "id": 194877,
-  "name": "Core Explorer's Compendium",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Held In Off-hand",
+    "type": "HOLDABLE"
   },
-  "level": 270,
-  "required_level": 62,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/194877?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 194877
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "HOLDABLE",
-    "name": "Held In Off-hand"
-  },
-  "purchase_price": 1024444,
-  "sell_price": 204888,
+  "level": 270,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 194877,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/194877?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Core Explorer's Compendium",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/194877?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194877
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8851,
       8852
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Held In Off-hand",
+      "type": "HOLDABLE"
     },
-    "name": "Core Explorer's Compendium",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 194877,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/194877?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194877
+        "href": "https://eu.api.blizzard.com/data/wow/item/194877?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "HOLDABLE",
-      "name": "Held In Off-hand"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 331,
-        "display": {
-          "display_string": "+331 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 162,
-        "display": {
-          "display_string": "+162 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 102,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+102 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 102,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+102 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 204888,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "20",
-        "silver": "48",
-        "copper": "88"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 62,
-        "display_string": "Requires Level 62"
-      }
+      "name": "Miscellaneous"
     },
     "level": {
-      "value": 330,
-      "display_string": "Item Level 330"
+      "display_string": "Item Level 330",
+      "value": 330
     },
-    "is_subclass_hidden": true,
+    "media": {
+      "id": 194877,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/194877?namespace=static-11.1.0_59095-eu"
+      }
+    },
     "modified_crafting_stat": [
       {
         "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "name": "Versatility",
+        "type": "VERSATILITY"
       },
       {
         "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
+        "name": "Mastery",
+        "type": "MASTERY_RATING"
+      }
+    ],
+    "name": "Core Explorer's Compendium",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 62",
+        "value": 62
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "88",
+        "gold": "20",
+        "header": "Sell Price:",
+        "silver": "48"
+      },
+      "value": 204888
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+331 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 331
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+162 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 162
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+102 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 102
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+102 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 102
       }
     ]
   },
+  "purchase_price": 1024444,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/76536?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 76536
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 62,
+  "sell_price": 204888
 }

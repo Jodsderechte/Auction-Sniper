@@ -4,125 +4,126 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/87215?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "There is a tiny note on the side: Wheeeeeeeeeee!",
+  "icon_path": "data\\icons\\sha_spell_fire_felfirenova.jpg",
   "id": 87215,
-  "name": "Wormhole Generator: Pandaria",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 35,
-  "required_level": 29,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/87215?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 87215
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 20000,
-  "sell_price": 5000,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "There is a tiny note on the side: Wheeeeeeeeeee!",
+  "media": {
+    "id": 87215,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/87215?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wormhole Generator: Pandaria",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "There is a tiny note on the side: Wheeeeeeeeeee!",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 87215,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/87215?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 87215
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Wormhole Generator: Pandaria",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/87215?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 87215
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/126755?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Wormhole: Pandaria",
-          "id": 126755
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nTeleports you to somewhere in Pandaria.  The exact location is difficult to predict, but will likely be far away. (15 Min Cooldown)"
+    "media": {
+      "id": 87215,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/87215?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 5000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "50",
-        "copper": "0"
-      }
+    },
+    "name": "Wormhole Generator: Pandaria",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 29,
-        "display_string": "Requires Level 29"
+        "display_string": "Requires Level 29",
+        "value": 29
       },
       "skill": {
+        "display_string": "Requires Pandaria Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2502,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2502?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Pandaria Engineering",
-          "id": 2502
-        },
-        "level": 1,
-        "display_string": "Requires Pandaria Engineering (1)"
+          "name": "Pandaria Engineering"
+        }
       }
     },
-    "description": "There is a tiny note on the side: Wheeeeeeeeeee!",
-    "is_subclass_hidden": true,
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 5000
+    },
+    "spells": [
+      {
+        "description": "Use: Adds this toy to your Toy Box.\n\nTeleports you to somewhere in Pandaria.  The exact location is difficult to predict, but will likely be far away. (15 Min Cooldown)",
+        "spell": {
+          "id": 126755,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/126755?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Wormhole: Pandaria"
+        }
+      }
+    ],
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 20000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 29,
+  "sell_price": 5000
 }

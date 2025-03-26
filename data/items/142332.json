@@ -4,111 +4,112 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/142332?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_fabric_wool_01.jpg",
   "id": 142332,
-  "name": "Feathered Luffa",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 45,
-  "required_level": 40,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/142332?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 142332
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bandages",
-    "id": 7
+    "name": "Bandages"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 3456,
-  "sell_price": 172,
+  "level": 45,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 142332,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/142332?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Feathered Luffa",
   "preview_item": {
+    "charges": {
+      "display_string": "10 Charges",
+      "value": 10
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 142332,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/142332?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 142332
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Feathered Luffa",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/142332?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 142332
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bandages",
-      "id": 7
+      "name": "Bandages"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 142332,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/142332?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/230048?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Luffa Scrub",
-          "id": 230048
-        },
-        "description": "Use: Heals 1,575 damage and removes bleeds. Only usable in the Broken Isles. (1 Sec Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 172,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "72"
-      }
+    "name": "Feathered Luffa",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 40,
-        "display_string": "Requires Level 40"
+        "display_string": "Requires Level 40",
+        "value": 40
       }
     },
-    "charges": {
-      "value": 10,
-      "display_string": "10 Charges"
+    "sell_price": {
+      "display_strings": {
+        "copper": "72",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 172
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Heals 1,575 damage and removes bleeds. Only usable in the Broken Isles. (1 Sec Cooldown)",
+        "spell": {
+          "id": 230048,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/230048?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Luffa Scrub"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 5
+  "purchase_price": 3456,
+  "purchase_quantity": 5,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 40,
+  "sell_price": 172
 }

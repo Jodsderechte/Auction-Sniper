@@ -4,120 +4,121 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/172914?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Sometimes called a \"Black Hole Gun\", which is inaccurate. It's really more of an artillery piece.",
+  "icon_path": "data\\icons\\inv_engineering_90_blackhole.jpg",
   "id": 172914,
-  "name": "Gravimetric Scrambler Cannon",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 120,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/172914?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 172914
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 10000,
-  "sell_price": 1,
+  "level": 120,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Sometimes called a \"Black Hole Gun\", which is inaccurate. It's really more of an artillery piece.",
+  "media": {
+    "id": 172914,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/172914?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Gravimetric Scrambler Cannon",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "Sometimes called a \"Black Hole Gun\", which is inaccurate. It's really more of an artillery piece.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 172914,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/172914?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 172914
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Gravimetric Scrambler Cannon",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/172914?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 172914
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/330744?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Gravimetric Scrambler",
-          "id": 330744
-        },
-        "description": "Use: Destabilizes gravity around a target location, hindering nearby enemies' movement for 10 sec, launching them in random directions, or throwing them up in the air.\r\n\r\n... Unless it backfires. (3 Sec Cooldown)"
+    "media": {
+      "id": 172914,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/172914?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
+    },
+    "name": "Gravimetric Scrambler Cannon",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Shadowlands Engineering (1)",
+        "level": 1,
         "profession": {
+          "id": 2755,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2755?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Shadowlands Engineering",
-          "id": 2755
-        },
-        "level": 1,
-        "display_string": "Requires Shadowlands Engineering (1)"
+          "name": "Shadowlands Engineering"
+        }
       }
     },
-    "description": "Sometimes called a \"Black Hole Gun\", which is inaccurate. It's really more of an artillery piece.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
+    },
+    "spells": [
+      {
+        "description": "Use: Destabilizes gravity around a target location, hindering nearby enemies' movement for 10 sec, launching them in random directions, or throwing them up in the air.\r\n\r\n... Unless it backfires. (3 Sec Cooldown)",
+        "spell": {
+          "id": 330744,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/330744?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Gravimetric Scrambler"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 1
 }

@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/104202?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon and dismiss this companion.",
+  "icon_path": "data\\icons\\inv_pet_monkey.jpg",
   "id": 104202,
-  "name": "Bonkers",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/104202?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 104202
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1000000,
-  "sell_price": 250000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon and dismiss this companion.",
+  "media": {
+    "id": 104202,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/104202?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bonkers",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 104202,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/104202?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 104202
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Bonkers",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/104202?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 104202
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 104202,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/104202?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Bonkers",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "25",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 250000
     },
     "spells": [
       {
+        "description": "Use: Teaches you how to summon and dismiss this companion.",
         "spell": {
+          "id": 148373,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/148373?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Bonkers",
-          "id": 148373
-        },
-        "description": "Use: Teaches you how to summon and dismiss this companion."
+          "name": "Bonkers"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 250000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "25",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 1000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 250000
 }

@@ -4,315 +4,316 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21957?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Necklace of the Diamond Tower.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 21957,
-  "name": "Design: Necklace of the Diamond Tower",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21957?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21957
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 13500,
-  "sell_price": 3375,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Necklace of the Diamond Tower.",
+  "media": {
+    "id": 21957,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21957?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Necklace of the Diamond Tower",
   "preview_item": {
+    "description": "Teaches you how to craft a Necklace of the Diamond Tower.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21957,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21957?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21957
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Design: Necklace of the Diamond Tower",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21957?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21957
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 3375,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "33",
-        "copper": "75"
+    "media": {
+      "id": 21957,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21957?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Jewelcrafting",
-          "id": 2523
-        },
-        "level": 5,
-        "display_string": "Requires Outland Jewelcrafting (5)"
-      }
+    "name": "Design: Necklace of the Diamond Tower",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to craft a Necklace of the Diamond Tower.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Neck",
+          "type": "NECK"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 21792,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/21792?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21792
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Necklace of the Diamond Tower",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/21792?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21792
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "NECK",
-          "name": "Neck"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "stats": [
-          {
-            "type": {
-              "type": "DODGE_RATING",
-              "name": "Dodge"
-            },
-            "value": 5,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+5 Dodge",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "display": {
-              "display_string": "+1 to All Resistances",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "FIRE_RESISTANCE",
-              "name": "Fire Resistance"
-            },
-            "value": 1,
-            "is_hidden": true,
-            "display": {
-              "display_string": "+1 Fire Resistance",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "FROST_RESISTANCE",
-              "name": "Frost Resistance"
-            },
-            "value": 1,
-            "is_hidden": true,
-            "display": {
-              "display_string": "+1 Frost Resistance",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "SHADOW_RESISTANCE",
-              "name": "Shadow Resistance"
-            },
-            "value": 1,
-            "is_hidden": true,
-            "display": {
-              "display_string": "+1 Shadow Resistance",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "NATURE_RESISTANCE",
-              "name": "Nature Resistance"
-            },
-            "value": 1,
-            "is_hidden": true,
-            "display": {
-              "display_string": "+1 Nature Resistance",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "ARCANE_RESISTANCE",
-              "name": "Arcane Resistance"
-            },
-            "value": 1,
-            "is_hidden": true,
-            "display": {
-              "display_string": "+1 Arcane Resistance",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
+        "media": {
+          "id": 21792,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/21792?namespace=static-11.1.0_59095-eu"
           }
-        ],
-        "sell_price": {
-          "value": 25218,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "2",
-            "silver": "52",
-            "copper": "18"
-          }
+        },
+        "name": "Necklace of the Diamond Tower",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 23,
-            "display_string": "Requires Level 23"
+            "display_string": "Requires Level 23",
+            "value": 23
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "18",
+            "gold": "2",
+            "header": "Sell Price:",
+            "silver": "52"
+          },
+          "value": 25218
         },
-        "is_subclass_hidden": true
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Dodge"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Dodge",
+              "type": "DODGE_RATING"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 to All Resistances"
+            }
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Fire Resistance"
+            },
+            "is_hidden": true,
+            "type": {
+              "name": "Fire Resistance",
+              "type": "FIRE_RESISTANCE"
+            },
+            "value": 1
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Frost Resistance"
+            },
+            "is_hidden": true,
+            "type": {
+              "name": "Frost Resistance",
+              "type": "FROST_RESISTANCE"
+            },
+            "value": 1
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Shadow Resistance"
+            },
+            "is_hidden": true,
+            "type": {
+              "name": "Shadow Resistance",
+              "type": "SHADOW_RESISTANCE"
+            },
+            "value": 1
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Nature Resistance"
+            },
+            "is_hidden": true,
+            "type": {
+              "name": "Nature Resistance",
+              "type": "NATURE_RESISTANCE"
+            },
+            "value": 1
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Arcane Resistance"
+            },
+            "is_hidden": true,
+            "type": {
+              "name": "Arcane Resistance",
+              "type": "ARCANE_RESISTANCE"
+            },
+            "value": 1
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12800,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12800?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Azerothian Diamond",
-            "id": 12800
-          },
-          "quantity": 2
+            "name": "Azerothian Diamond"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 21752,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21752?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Setting",
-            "id": 21752
-          },
-          "quantity": 2
+            "name": "Thorium Setting"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12360,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcanite Bar",
-            "id": 12360
-          },
-          "quantity": 2
+            "name": "Arcanite Bar"
+          }
         }
       ],
       "reagents_display_string": "Azerothian Diamond (2), Thorium Setting (2), Arcanite Bar (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Jewelcrafting (5)",
+        "level": 5,
+        "profession": {
+          "id": 2523,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "33"
+      },
+      "value": 3375
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 13500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 3375
 }

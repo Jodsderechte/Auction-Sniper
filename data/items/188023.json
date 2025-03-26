@@ -4,217 +4,218 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/188023?namespace=static-11.1.0_59095-eu"
     }
   },
-  "id": 188023,
-  "name": "Anthemic Legguards",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
-  },
-  "level": 226,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/188023?namespace=static-11.1.0_59095-eu"
+  "appearances": [
+    {
+      "id": 57210,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/57210?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "id": 188023
+    {
+      "id": 57228,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/57228?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mail_broker_c_01_pants.jpg",
+  "id": 188023,
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 2799214,
-  "sell_price": 559842,
+  "level": 226,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 188023,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/188023?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Anthemic Legguards",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "84 Armor"
+      },
+      "value": 84
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
     "item": {
+      "id": 188023,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/188023?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 188023
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Anthemic Legguards",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/188023?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 188023
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
+    "level": {
+      "display_string": "Item Level 226",
+      "value": 226
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 84,
-      "display": {
-        "display_string": "84 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 188023,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/188023?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 44,
-        "display": {
-          "display_string": "+44 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 44,
-        "is_negated": true,
-        "display": {
-          "display_string": "+44 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 66,
-        "display": {
-          "display_string": "+66 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 40,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+40 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 48,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+48 Haste",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 64924,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "6",
-        "silver": "49",
-        "copper": "24"
-      }
+    "name": "Anthemic Legguards",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
+        "display_string": "Requires Level 60",
+        "value": 60
       }
     },
-    "level": {
-      "value": 226,
-      "display_string": "Item Level 226"
+    "sell_price": {
+      "display_strings": {
+        "copper": "24",
+        "gold": "6",
+        "header": "Sell Price:",
+        "silver": "49"
+      },
+      "value": 64924
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
-    }
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+44 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 44
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+44 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 44
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+66 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 66
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+40 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 40
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+48 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 48
+      }
+    ]
   },
+  "purchase_price": 2799214,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/57210?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 57210
-    },
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/57228?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 57228
-    }
-  ]
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 60,
+  "sell_price": 559842
 }

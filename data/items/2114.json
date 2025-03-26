@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2114?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 673,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/673?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_cloth_33.jpg",
   "id": 2114,
-  "name": "Snowy Robe",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "ROBE"
   },
-  "level": 4,
-  "required_level": 2,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2114?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2114
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cloth",
-    "id": 1
+    "name": "Cloth"
   },
-  "inventory_type": {
-    "type": "ROBE",
-    "name": "Chest"
-  },
-  "purchase_price": 273,
-  "sell_price": 54,
+  "level": 4,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2114,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2114?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Snowy Robe",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2114?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "12 Armor"
       },
-      "id": 2114
+      "value": 12
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6713
     ],
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 60 / 60",
+      "value": 60
     },
-    "name": "Snowy Robe",
-    "media": {
+    "inventory_type": {
+      "name": "Chest",
+      "type": "ROBE"
+    },
+    "item": {
+      "id": 2114,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2114?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2114
+        "href": "https://eu.api.blizzard.com/data/wow/item/2114?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cloth",
-      "id": 1
+      "name": "Cloth"
     },
-    "inventory_type": {
-      "type": "ROBE",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 150",
+      "value": 150
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 12,
-      "display": {
-        "display_string": "12 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 2114,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2114?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 10440,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "4",
-        "copper": "40"
-      }
+    "name": "Snowy Robe",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 2,
-        "display_string": "Requires Level 2"
+        "display_string": "Requires Level 2",
+        "value": 2
       }
     },
-    "level": {
-      "value": 150,
-      "display_string": "Item Level 150"
-    },
-    "durability": {
-      "value": 60,
-      "display_string": "Durability 60 / 60"
+    "sell_price": {
+      "display_strings": {
+        "copper": "40",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "4"
+      },
+      "value": 10440
     }
   },
+  "purchase_price": 273,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/673?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 673
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 2,
+  "sell_price": 54
 }

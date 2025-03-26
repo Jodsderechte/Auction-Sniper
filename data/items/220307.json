@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/220307?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 91121,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91121?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_robe_cloth_undergroundquest_b_01.jpg",
   "id": 220307,
-  "name": "Moth-Ridden Robe",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "ROBE"
   },
-  "level": 400,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/220307?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 220307
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cloth",
-    "id": 1
+    "name": "Cloth"
   },
-  "inventory_type": {
-    "type": "ROBE",
-    "name": "Chest"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 400,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 220307,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/220307?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Moth-Ridden Robe",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/220307?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "214 Armor"
       },
-      "id": 220307
+      "value": 214
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       10350
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 115 / 115",
+      "value": 115
     },
-    "name": "Moth-Ridden Robe",
-    "media": {
+    "inventory_type": {
+      "name": "Chest",
+      "type": "ROBE"
+    },
+    "item": {
+      "id": 220307,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/220307?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 220307
+        "href": "https://eu.api.blizzard.com/data/wow/item/220307?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cloth",
-      "id": 1
+      "name": "Cloth"
     },
-    "inventory_type": {
-      "type": "ROBE",
-      "name": "Chest"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 214,
-      "display": {
-        "display_string": "214 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 220307,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/220307?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 134640,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "13",
-        "silver": "46",
-        "copper": "40"
-      }
+    "name": "Moth-Ridden Robe",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
-    },
-    "durability": {
-      "value": 115,
-      "display_string": "Durability 115 / 115"
+    "sell_price": {
+      "display_strings": {
+        "copper": "40",
+        "gold": "13",
+        "header": "Sell Price:",
+        "silver": "46"
+      },
+      "value": 134640
     }
   },
+  "purchase_price": 0,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91121?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 91121
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 68,
+  "sell_price": 0
 }

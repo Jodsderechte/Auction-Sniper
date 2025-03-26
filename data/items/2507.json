@@ -4,133 +4,134 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2507?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 865,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/865?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_bow_01.jpg",
   "id": 2507,
-  "name": "Laminated Recurve Bow",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGED"
   },
-  "level": 9,
-  "required_level": 5,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2507?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2507
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bow",
-    "id": 2
+    "name": "Bow"
   },
-  "inventory_type": {
-    "type": "RANGED",
-    "name": "Ranged"
-  },
-  "purchase_price": 2920,
-  "sell_price": 584,
+  "level": 9,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2507,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2507?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Laminated Recurve Bow",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 40 / 40",
+      "value": 40
+    },
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGED"
+    },
     "item": {
+      "id": 2507,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/2507?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2507
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Laminated Recurve Bow",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2507?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2507
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bow",
-      "id": 2
+      "name": "Bow"
     },
-    "inventory_type": {
-      "type": "RANGED",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 9",
+      "value": 9
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 3,
-        "max_value": 5,
-        "display_string": "3 - 5 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 1.3333333,
-        "display_string": "(1.3 damage per second)"
+    "media": {
+      "id": 2507,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2507?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 26,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "26"
-      }
+    "name": "Laminated Recurve Bow",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 5,
-        "display_string": "Requires Level 5"
+        "display_string": "Requires Level 5",
+        "value": 5
       }
     },
-    "level": {
-      "value": 9,
-      "display_string": "Item Level 9"
+    "sell_price": {
+      "display_strings": {
+        "copper": "26",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 26
     },
-    "durability": {
-      "value": 40,
-      "display_string": "Durability 40 / 40"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "3 - 5 Damage",
+        "max_value": 5,
+        "min_value": 3
+      },
+      "dps": {
+        "display_string": "(1.3 damage per second)",
+        "value": 1.3333333
+      }
     }
   },
+  "purchase_price": 2920,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/865?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 865
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 5,
+  "sell_price": 584
 }

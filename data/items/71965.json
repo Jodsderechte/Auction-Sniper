@@ -4,195 +4,196 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/71965?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to create Rhinestone Sunglasses.",
+  "icon_path": "data\\icons\\inv_scroll_05.jpg",
   "id": 71965,
-  "name": "Design: Rhinestone Sunglasses",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 32,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/71965?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 71965
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 32,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to create Rhinestone Sunglasses.",
+  "media": {
+    "id": 71965,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/71965?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Rhinestone Sunglasses",
   "preview_item": {
+    "description": "Teaches you how to create Rhinestone Sunglasses.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 71965,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/71965?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 71965
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Design: Rhinestone Sunglasses",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/71965?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 71965
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2521?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Cataclysm Jewelcrafting",
-          "id": 2521
-        },
-        "level": 75,
-        "display_string": "Requires Cataclysm Jewelcrafting (75)"
+    "media": {
+      "id": 71965,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/71965?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to create Rhinestone Sunglasses.",
+    "name": "Design: Rhinestone Sunglasses",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Head",
+          "type": "HEAD"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 52489,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/52489?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 52489
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Rhinestone Sunglasses",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/52489?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 52489
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 5,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cosmetic",
-          "id": 5
-        },
-        "inventory_type": {
-          "type": "HEAD",
-          "name": "Head"
-        },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "sell_price": {
-          "value": 9,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "0",
-            "copper": "9"
-          }
+          "name": "Cosmetic"
         },
         "level": {
-          "value": 1,
-          "display_string": "Item Level 1"
+          "display_string": "Item Level 1",
+          "value": 1
         },
-        "is_subclass_hidden": true
+        "media": {
+          "id": 52489,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/52489?namespace=static-11.1.0_59095-eu"
+          }
+        },
+        "name": "Rhinestone Sunglasses",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "9",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 9
+        }
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 58480,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/58480?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Truegold",
-            "id": 58480
-          },
-          "quantity": 2
+            "name": "Truegold"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 52196,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/52196?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Chimera's Eye",
-            "id": 52196
-          },
-          "quantity": 2
+            "name": "Chimera's Eye"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 52555,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/52555?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Hypnotic Dust",
-            "id": 52555
-          },
-          "quantity": 8
+            "name": "Hypnotic Dust"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 52192,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/52192?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Dream Emerald",
-            "id": 52192
-          },
-          "quantity": 2
+            "name": "Dream Emerald"
+          }
         }
       ],
       "reagents_display_string": "Truegold (2), Chimera's Eye (2), Hypnotic Dust (8), Dream Emerald (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Cataclysm Jewelcrafting (75)",
+        "level": 75,
+        "profession": {
+          "id": 2521,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2521?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Cataclysm Jewelcrafting"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

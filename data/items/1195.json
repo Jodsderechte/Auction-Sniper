@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1195?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 332,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/332?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_misc_shovel_01.jpg",
   "id": 1195,
-  "name": "Kobold Mining Shovel",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 3,
-  "required_level": 2,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1195?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1195
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 5
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 236,
-  "sell_price": 47,
+  "level": 3,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1195,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1195?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Kobold Mining Shovel",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1195?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1195
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6713
     ],
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 30 / 30",
+      "value": 30
     },
-    "name": "Kobold Mining Shovel",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 1195,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1195?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1195
+        "href": "https://eu.api.blizzard.com/data/wow/item/1195?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 5
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 150",
+      "value": 150
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 33,
-        "max_value": 43,
-        "display_string": "33 - 43 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 10.555555,
-        "display_string": "(10.6 damage per second)"
+    "media": {
+      "id": 1195,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1195?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 18995,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "89",
-        "copper": "95"
-      }
+    "name": "Kobold Mining Shovel",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 2,
-        "display_string": "Requires Level 2"
+        "display_string": "Requires Level 2",
+        "value": 2
       }
     },
-    "level": {
-      "value": 150,
-      "display_string": "Item Level 150"
+    "sell_price": {
+      "display_strings": {
+        "copper": "95",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "89"
+      },
+      "value": 18995
     },
-    "durability": {
-      "value": 30,
-      "display_string": "Durability 30 / 30"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "33 - 43 Damage",
+        "max_value": 43,
+        "min_value": 33
+      },
+      "dps": {
+        "display_string": "(10.6 damage per second)",
+        "value": 10.555555
+      }
     }
   },
+  "purchase_price": 236,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/332?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 332
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 2,
+  "sell_price": 47
 }

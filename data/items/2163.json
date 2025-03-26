@@ -4,150 +4,151 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2163?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 708,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/708?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_12.jpg",
   "id": 2163,
-  "name": "Shadowblade",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 27,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2163?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2163
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 86951,
-  "sell_price": 17390,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2163,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2163?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Shadowblade",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2163?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2163
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Shadowblade",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 2163,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2163?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2163
+        "href": "https://eu.api.blizzard.com/data/wow/item/2163?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "weapon": {
-      "damage": {
-        "min_value": 230,
-        "max_value": 385,
-        "display_string": "230 - 385 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 170.83333,
-        "display_string": "(170.8 damage per second)"
+    "media": {
+      "id": 2163,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2163?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/144246?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shadow Bolt",
-          "id": 144246
-        },
-        "description": "Chance on hit: Sends a shadowy bolt at the enemy causing 919 Shadow damage."
-      }
-    ],
-    "sell_price": {
-      "value": 832295,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "83",
-        "silver": "22",
-        "copper": "95"
-      }
+    "name": "Shadowblade",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+        "display_string": "Requires Level 21",
+        "value": 21
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "95",
+        "gold": "83",
+        "header": "Sell Price:",
+        "silver": "22"
+      },
+      "value": 832295
     },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "spells": [
+      {
+        "description": "Chance on hit: Sends a shadowy bolt at the enemy causing 919 Shadow damage.",
+        "spell": {
+          "id": 144246,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/144246?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shadow Bolt"
+        }
+      }
+    ],
+    "unique_equipped": "Unique-Equipped",
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "230 - 385 Damage",
+        "max_value": 385,
+        "min_value": 230
+      },
+      "dps": {
+        "display_string": "(170.8 damage per second)",
+        "value": 170.83333
+      }
     }
   },
+  "purchase_price": 86951,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/708?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 708
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 21,
+  "sell_price": 17390
 }

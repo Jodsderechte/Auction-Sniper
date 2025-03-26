@@ -4,99 +4,100 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/63269?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Always seem to roll 7s...",
+  "icon_path": "data\\icons\\inv_misc_dice_02.jpg",
   "id": 63269,
-  "name": "Loaded Gnomish Dice",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/63269?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 63269
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Always seem to roll 7s...",
+  "media": {
+    "id": 63269,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/63269?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Loaded Gnomish Dice",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "description": "Always seem to roll 7s...",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 63269,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/63269?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 63269
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Loaded Gnomish Dice",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/63269?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 63269
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 63269,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/63269?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Loaded Gnomish Dice",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nRolls a pair of dice. You know you'll get lucky! (10 Sec Cooldown)",
         "spell": {
+          "id": 95214,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/95214?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Roll 'dem Bones",
-          "id": 95214
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nRolls a pair of dice. You know you'll get lucky! (10 Sec Cooldown)"
+          "name": "Roll 'dem Bones"
+        }
       }
     ],
-    "description": "Always seem to roll 7s...",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

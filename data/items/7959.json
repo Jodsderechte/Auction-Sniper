@@ -4,145 +4,146 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7959?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2568,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2568?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_spear_07.jpg",
   "id": 7959,
-  "name": "Blight",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 26,
-  "required_level": 20,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7959?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7959
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Polearm",
-    "id": 6
+    "name": "Polearm"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 7959,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7959?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blight",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 95 / 95",
+      "value": 95
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 7959,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7959?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7959
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Blight",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7959?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7959
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Polearm",
-      "id": 6
+      "name": "Polearm"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 26",
+      "value": 26
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 6,
-        "max_value": 11,
-        "display_string": "6 - 11 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 2.361111,
-        "display_string": "(2.4 damage per second)"
+    "media": {
+      "id": 7959,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7959?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/9796?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Blight",
-          "id": 9796
-        },
-        "description": "Chance on hit: Diseases a target for 1 Nature damage and an additional 5 damage over 10 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Blight",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 20,
-        "display_string": "Requires Level 20"
+        "display_string": "Requires Level 20",
+        "value": 20
       }
     },
-    "level": {
-      "value": 26,
-      "display_string": "Item Level 26"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
+      },
+      "value": 1500
     },
-    "durability": {
-      "value": 95,
-      "display_string": "Durability 95 / 95"
+    "spells": [
+      {
+        "description": "Chance on hit: Diseases a target for 1 Nature damage and an additional 5 damage over 10 sec.",
+        "spell": {
+          "id": 9796,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/9796?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Blight"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "6 - 11 Damage",
+        "max_value": 11,
+        "min_value": 6
+      },
+      "dps": {
+        "display_string": "(2.4 damage per second)",
+        "value": 2.361111
+      }
     }
   },
+  "purchase_price": 7500,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2568?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2568
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 20,
+  "sell_price": 1500
 }

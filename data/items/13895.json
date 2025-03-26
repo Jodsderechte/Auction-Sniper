@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13895?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3914,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3914?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_cloth_29.jpg",
   "id": 13895,
-  "name": "Formal Dangui",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "ROBE"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13895?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13895
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "ROBE",
-    "name": "Chest"
-  },
-  "purchase_price": 730000,
-  "sell_price": 14250,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13895,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13895?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Formal Dangui",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "ROBE"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 13895,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/13895?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13895
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Formal Dangui",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13895?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13895
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
-    },
-    "inventory_type": {
-      "type": "ROBE",
-      "name": "Chest"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 14250,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "42",
-        "copper": "50"
-      }
+      "name": "Cosmetic"
     },
     "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 13895,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3914?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13895?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Formal Dangui",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "42"
       },
-      "id": 3914
+      "value": 14250
     }
-  ]
+  },
+  "purchase_price": 730000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 14250
 }

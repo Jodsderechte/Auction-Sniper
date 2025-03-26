@@ -4,111 +4,112 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/18356?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "The tome is magically sealed.",
+  "icon_path": "data\\icons\\inv_misc_book_06.jpg",
   "id": 18356,
-  "name": "Garona: A Study on Stealth and Treachery",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 25,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/18356?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 18356
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 25,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "The tome is magically sealed.",
+  "media": {
+    "id": 18356,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/18356?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Garona: A Study on Stealth and Treachery",
   "preview_item": {
+    "description": "The tome is magically sealed.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 18356,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/18356?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18356
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Garona: A Study on Stealth and Treachery",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/18356?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 18356
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "unique_equipped": "Unique",
-    "requirements": {
-      "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
-      },
-      "playable_classes": {
-        "links": [
-          {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/playable-class/4?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Rogue",
-            "id": 4
-          }
-        ],
-        "display_string": "Classes: Rogue"
-      }
-    },
-    "description": "The tome is magically sealed.",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 7498,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/7498?namespace=static-11.1.0_59095-eu"
         },
-        "name": "Garona: A Study on Stealth and Treachery",
-        "id": 7498
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "Garona: A Study on Stealth and Treachery"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 18356,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/18356?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Garona: A Study on Stealth and Treachery",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 23",
+        "value": 23
+      },
+      "playable_classes": {
+        "display_string": "Classes: Rogue",
+        "links": [
+          {
+            "id": 4,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/playable-class/4?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Rogue"
+          }
+        ]
+      }
+    },
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 23,
+  "sell_price": 0
 }

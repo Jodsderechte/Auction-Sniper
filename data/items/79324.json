@@ -4,101 +4,102 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/79324?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Property of the Darkmoon Faire.",
+  "icon_path": "data\\icons\\inv_inscription_deck_blackox.jpg",
   "id": 79324,
-  "name": "Ox Deck",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 35,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/79324?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 79324
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 969254,
-  "sell_price": 242313,
+  "level": 35,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Property of the Darkmoon Faire.",
+  "media": {
+    "id": 79324,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/79324?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ox Deck",
   "preview_item": {
+    "description": "Property of the Darkmoon Faire.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 79324,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/79324?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 79324
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Ox Deck",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/79324?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 79324
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 242313,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "24",
-        "silver": "23",
-        "copper": "13"
-      }
-    },
-    "description": "Property of the Darkmoon Faire.",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 30450,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/30450?namespace=static-11.1.0_59095-eu"
         },
-        "name": "Darkmoon Ox Deck",
-        "id": 30450
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "Darkmoon Ox Deck"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 79324,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/79324?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Ox Deck",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "13",
+        "gold": "24",
+        "header": "Sell Price:",
+        "silver": "23"
+      },
+      "value": 242313
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 969254,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 242313
 }

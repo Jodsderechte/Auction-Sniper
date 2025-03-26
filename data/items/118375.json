@@ -4,100 +4,101 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/118375?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Parts to construct this module are found in Draenor invasions, raids, or sold on the auction house.",
+  "icon_path": "data\\icons\\spell_mage_focusingcrystal.jpg",
   "id": 118375,
-  "name": "Arcane Crystal Module",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/118375?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 118375
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 742348,
-  "sell_price": 185587,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Parts to construct this module are found in Draenor invasions, raids, or sold on the auction house.",
+  "media": {
+    "id": 118375,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/118375?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Arcane Crystal Module",
   "preview_item": {
+    "description": "Parts to construct this module are found in Draenor invasions, raids, or sold on the auction house.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 118375,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/118375?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 118375
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Arcane Crystal Module",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/118375?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 118375
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 118375,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/118375?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Arcane Crystal Module",
+    "name_description": {
+      "color": {
+        "a": 1.0,
+        "b": 255,
+        "g": 204,
+        "r": 0
+      },
+      "display_string": "Trading Post Module"
+    },
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "sell_price": {
-      "value": 185587,
       "display_strings": {
-        "header": "Sell Price:",
+        "copper": "87",
         "gold": "18",
-        "silver": "55",
-        "copper": "87"
-      }
-    },
-    "description": "Parts to construct this module are found in Draenor invasions, raids, or sold on the auction house.",
-    "is_subclass_hidden": true,
-    "name_description": {
-      "display_string": "Trading Post Module",
-      "color": {
-        "r": 0,
-        "g": 204,
-        "b": 255,
-        "a": 1.0
-      }
+        "header": "Sell Price:",
+        "silver": "55"
+      },
+      "value": 185587
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 742348,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 185587
 }

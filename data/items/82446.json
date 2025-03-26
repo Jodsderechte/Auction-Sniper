@@ -4,96 +4,97 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/82446?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_bag_31.jpg",
   "id": 82446,
-  "name": "Royal Satchel",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Bag",
+    "type": "BAG"
   },
-  "level": 33,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/82446?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 82446
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Container",
-    "id": 1
+    "name": "Container"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bag",
-    "id": 0
-  },
-  "inventory_type": {
-    "type": "BAG",
     "name": "Bag"
   },
-  "purchase_price": 61550,
-  "sell_price": 15387,
+  "level": 33,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 82446,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/82446?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Royal Satchel",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "container_slots": {
+      "display_string": "28 Slot Bag",
+      "value": 28
+    },
+    "inventory_type": {
+      "name": "Bag",
+      "type": "BAG"
+    },
     "item": {
+      "id": 82446,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/82446?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 82446
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Royal Satchel",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/82446?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 82446
+      }
     },
     "item_class": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Container",
-      "id": 1
+      "name": "Container"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bag",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "BAG",
       "name": "Bag"
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 15387,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "53",
-        "copper": "87"
+    "media": {
+      "id": 82446,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/82446?namespace=static-11.1.0_59095-eu"
       }
     },
-    "container_slots": {
-      "value": 28,
-      "display_string": "28 Slot Bag"
+    "name": "Royal Satchel",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "87",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "53"
+      },
+      "value": 15387
     }
   },
-  "purchase_quantity": 1
+  "purchase_price": 61550,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 0,
+  "sell_price": 15387
 }

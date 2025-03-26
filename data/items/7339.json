@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/7339?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Hey, it's still a diamond.",
+  "icon_path": "data\\icons\\inv_jewelry_ring_07.jpg",
   "id": 7339,
-  "name": "Miniscule Diamond Ring",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 22,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/7339?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 7339
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 250000,
-  "sell_price": 62500,
+  "level": 22,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Hey, it's still a diamond.",
+  "media": {
+    "id": 7339,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/7339?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Miniscule Diamond Ring",
   "preview_item": {
+    "description": "Hey, it's still a diamond.",
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 7339,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/7339?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7339
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Miniscule Diamond Ring",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/7339?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7339
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 22",
+      "value": 22
     },
-    "sell_price": {
-      "value": 62500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "6",
-        "silver": "25",
-        "copper": "0"
+    "media": {
+      "id": 7339,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/7339?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Hey, it's still a diamond.",
-    "level": {
-      "value": 22,
-      "display_string": "Item Level 22"
+    "name": "Miniscule Diamond Ring",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "6",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 62500
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 250000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 62500
 }

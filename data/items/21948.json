@@ -4,232 +4,233 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21948?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft an Opal Necklace of Impact.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 21948,
-  "name": "Design: Opal Necklace of Impact",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21948?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21948
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1875,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft an Opal Necklace of Impact.",
+  "media": {
+    "id": 21948,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21948?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Opal Necklace of Impact",
   "preview_item": {
+    "description": "Teaches you how to craft an Opal Necklace of Impact.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21948,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21948?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21948
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Design: Opal Necklace of Impact",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21948?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21948
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1875,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "18",
-        "copper": "75"
+    "media": {
+      "id": 21948,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21948?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Jewelcrafting",
-          "id": 2524
-        },
-        "level": 250,
-        "display_string": "Requires Classic Jewelcrafting (250)"
-      }
+    "name": "Design: Opal Necklace of Impact",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to craft an Opal Necklace of Impact.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "inventory_type": {
+          "name": "Neck",
+          "type": "NECK"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 21766,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/21766?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21766
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Opal Necklace of Impact",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/21766?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21766
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "NECK",
-          "name": "Neck"
+        "level": {
+          "display_string": "Item Level 26",
+          "value": 26
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/26598?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Weapon Damage",
-              "id": 26598
-            },
-            "description": "Equip: +1 Weapon Damage."
+        "media": {
+          "id": 21766,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/21766?namespace=static-11.1.0_59095-eu"
           }
-        ],
-        "sell_price": {
-          "value": 7500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "75",
-            "copper": "0"
-          }
+        },
+        "name": "Opal Necklace of Impact",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 20,
-            "display_string": "Requires Level 20"
+            "display_string": "Requires Level 20",
+            "value": 20
           }
         },
-        "level": {
-          "value": 26,
-          "display_string": "Item Level 26"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "75"
+          },
+          "value": 7500
         },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Equip: +1 Weapon Damage.",
+            "spell": {
+              "id": 26598,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/26598?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Weapon Damage"
+            }
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12799,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12799?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Large Opal",
-            "id": 12799
-          },
-          "quantity": 2
+            "name": "Large Opal"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 21752,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/21752?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Setting",
-            "id": 21752
-          },
-          "quantity": 2
+            "name": "Thorium Setting"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 6037,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/6037?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Truesilver Bar",
-            "id": 6037
-          },
-          "quantity": 4
+            "name": "Truesilver Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 14344,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14344?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Large Brilliant Shard",
-            "id": 14344
-          },
-          "quantity": 2
+            "name": "Large Brilliant Shard"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 20963,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/20963?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mithril Filigree",
-            "id": 20963
-          },
-          "quantity": 2
+            "name": "Mithril Filigree"
+          }
         }
       ],
       "reagents_display_string": "Large Opal (2), Thorium Setting (2), Truesilver Bar (4), Large Brilliant Shard (2), Mithril Filigree (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Jewelcrafting (250)",
+        "level": 250,
+        "profession": {
+          "id": 2524,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "18"
+      },
+      "value": 1875
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1875
 }

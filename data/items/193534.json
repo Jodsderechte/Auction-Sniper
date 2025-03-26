@@ -4,147 +4,148 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/193534?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_helm_armor_chefhat_b_01.jpg",
   "id": 193534,
-  "name": "Wildercloth Chef's Hat",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/193534?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 193534
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cooking",
-    "id": 4
+    "name": "Cooking"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 100000,
-  "sell_price": 20000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 193534,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/193534?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wildercloth Chef's Hat",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/193534?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193534
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Wildercloth Chef's Hat",
-    "media": {
+    "item": {
+      "id": 193534,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/193534?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 193534
+        "href": "https://eu.api.blizzard.com/data/wow/item/193534?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cooking",
-      "id": 4
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Cooking"
     },
     "limit_category": "Unique-Equipped: Head (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED",
-          "name": "Crafting Speed"
-        },
-        "value": 28,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+28 Crafting Speed",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-          "name": "Multicraft"
-        },
-        "value": 18,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+18 Multicraft",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 193534,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/193534?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
-      }
+    },
+    "name": "Wildercloth Chef's Hat",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Cooking (1)",
+        "level": 1,
         "profession": {
+          "id": 185,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/185?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cooking",
-          "id": 185
-        },
-        "level": 1,
-        "display_string": "Requires Cooking (1)"
+          "name": "Cooking"
+        }
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+28 Crafting Speed"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Crafting Speed",
+          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED"
+        },
+        "value": 28
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+18 Multicraft"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Multicraft",
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+        },
+        "value": 18
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 100000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 20000
 }

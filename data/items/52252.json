@@ -4,117 +4,118 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/52252?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 12810,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/12810?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "May you always bring light into dark places.",
+  "icon_path": "data\\icons\\inv_shirt_guildtabard_01.jpg",
   "id": 52252,
-  "name": "Tabard of the Lightbringer",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Tabard",
+    "type": "TABARD"
   },
-  "level": 32,
-  "required_level": 30,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/52252?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 52252
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TABARD",
-    "name": "Tabard"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 32,
   "max_count": 1,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "May you always bring light into dark places.",
+  "media": {
+    "id": 52252,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/52252?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Tabard of the Lightbringer",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "May you always bring light into dark places.",
+    "inventory_type": {
+      "name": "Tabard",
+      "type": "TABARD"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 52252,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/52252?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 52252
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Tabard of the Lightbringer",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/52252?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 52252
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TABARD",
-      "name": "Tabard"
+    "level": {
+      "display_string": "Item Level 32",
+      "value": 32
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 52252,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/52252?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
+    "name": "Tabard of the Lightbringer",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 30",
+        "value": 30
+      }
+    },
     "spells": [
       {
+        "description": "Use: Suffuses the wearer with the Light. (30 Min Cooldown)",
         "spell": {
+          "id": 73326,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/73326?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Tabard of the Lightbringer",
-          "id": 73326
-        },
-        "description": "Use: Suffuses the wearer with the Light. (30 Min Cooldown)"
+          "name": "Tabard of the Lightbringer"
+        }
       }
     ],
-    "requirements": {
-      "level": {
-        "value": 30,
-        "display_string": "Requires Level 30"
-      }
-    },
-    "description": "May you always bring light into dark places.",
-    "level": {
-      "value": 32,
-      "display_string": "Item Level 32"
-    },
-    "is_subclass_hidden": true
+    "unique_equipped": "Unique"
   },
+  "purchase_price": 0,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/12810?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12810
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 30,
+  "sell_price": 0
 }

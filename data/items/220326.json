@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/220326?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 91218,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91218?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helm_mail_undergroundquest_b_01.jpg",
   "id": 220326,
-  "name": "Pierced Helm",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 400,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/220326?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 220326
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 400,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 220326,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/220326?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pierced Helm",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/220326?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "407 Armor"
       },
-      "id": 220326
+      "value": 407
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       10350
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Pierced Helm",
-    "media": {
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "item": {
+      "id": 220326,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/220326?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 220326
+        "href": "https://eu.api.blizzard.com/data/wow/item/220326?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 407,
-      "display": {
-        "display_string": "407 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 220326,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/220326?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 103131,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "31",
-        "copper": "31"
-      }
+    "name": "Pierced Helm",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
-    },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "sell_price": {
+      "display_strings": {
+        "copper": "31",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "31"
+      },
+      "value": 103131
     }
   },
+  "purchase_price": 0,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/91218?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 91218
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 68,
+  "sell_price": 0
 }

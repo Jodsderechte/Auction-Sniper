@@ -4,201 +4,202 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2243?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 766,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/766?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_mace_14.jpg",
   "id": 2243,
-  "name": "Hand of Edward the Odd",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 29,
-  "required_level": 24,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2243?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2243
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mace",
-    "id": 4
+    "name": "Mace"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 107904,
-  "sell_price": 21580,
+  "level": 29,
   "max_count": 1,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2243,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2243?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Hand of Edward the Odd",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2243?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2243
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 110 / 110",
+      "value": 110
     },
-    "name": "Hand of Edward the Odd",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 2243,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2243?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2243
+        "href": "https://eu.api.blizzard.com/data/wow/item/2243?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mace",
-      "id": 4
+      "name": "Mace"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique",
-    "weapon": {
-      "damage": {
-        "min_value": 194,
-        "max_value": 250,
-        "display_string": "194 - 250 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 85.38461,
-        "display_string": "(85.4 damage per second)"
+    "media": {
+      "id": 2243,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2243?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 876,
-        "display": {
-          "display_string": "+876 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 309,
-        "display": {
-          "display_string": "+309 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 207,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+207 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/193841?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Odd Feeling",
-          "id": 193841
-        },
-        "description": "Equip: Your attacks have a chance to increase Haste by 6,984 for 4 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 772862,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "77",
-        "silver": "28",
-        "copper": "62"
-      }
+    "name": "Hand of Edward the Odd",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 24,
-        "display_string": "Requires Level 24"
+        "display_string": "Requires Level 24",
+        "value": 24
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "62",
+        "gold": "77",
+        "header": "Sell Price:",
+        "silver": "28"
+      },
+      "value": 772862
     },
-    "durability": {
-      "value": 110,
-      "display_string": "Durability 110 / 110"
+    "spells": [
+      {
+        "description": "Equip: Your attacks have a chance to increase Haste by 6,984 for 4 sec.",
+        "spell": {
+          "id": 193841,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/193841?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Odd Feeling"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+876 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 876
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+309 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 309
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+207 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 207
+      }
+    ],
+    "unique_equipped": "Unique",
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "194 - 250 Damage",
+        "max_value": 250,
+        "min_value": 194
+      },
+      "dps": {
+        "display_string": "(85.4 damage per second)",
+        "value": 85.38461
+      }
     }
   },
+  "purchase_price": 107904,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/766?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 766
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 24,
+  "sell_price": 21580
 }

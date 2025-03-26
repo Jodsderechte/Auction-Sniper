@@ -4,287 +4,288 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/3867?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Golden Iron Destroyer.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 3867,
-  "name": "Plans: Golden Iron Destroyer",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/3867?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 3867
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 3800,
-  "sell_price": 950,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Golden Iron Destroyer.",
+  "media": {
+    "id": 3867,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/3867?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Golden Iron Destroyer",
   "preview_item": {
+    "description": "Teaches you how to make a Golden Iron Destroyer.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 3867,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/3867?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3867
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Plans: Golden Iron Destroyer",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/3867?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3867
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 950,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "9",
-        "copper": "50"
+    "media": {
+      "id": 3867,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/3867?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 170,
-        "display_string": "Requires Classic Blacksmithing (170)"
-      }
+    "name": "Plans: Golden Iron Destroyer",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to make a Golden Iron Destroyer.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 65 / 65",
+          "value": 65
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
         "item": {
+          "id": 3852,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/3852?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3852
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Golden Iron Destroyer",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/3852?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3852
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 5,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mace",
-          "id": 5
+          "name": "Mace"
         },
-        "inventory_type": {
-          "type": "TWOHWEAPON",
-          "name": "Two-Hand"
+        "level": {
+          "display_string": "Item Level 20",
+          "value": 20
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 6,
-            "max_value": 9,
-            "display_string": "6 - 9 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3600,
-            "display_string": "Speed 3.60"
-          },
-          "dps": {
-            "value": 2.0833333,
-            "display_string": "(2.1 damage per second)"
+        "media": {
+          "id": 3852,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/3852?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 5,
-            "is_negated": true,
-            "display": {
-              "display_string": "+5 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Golden Iron Destroyer",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 13,
-            "display_string": "Requires Level 13"
+            "display_string": "Requires Level 13",
+            "value": 13
           }
         },
-        "level": {
-          "value": 20,
-          "display_string": "Item Level 20"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 65,
-          "display_string": "Durability 65 / 65"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+5 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 2
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.60",
+            "value": 3600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "6 - 9 Damage",
+            "max_value": 9,
+            "min_value": 6
+          },
+          "dps": {
+            "display_string": "(2.1 damage per second)",
+            "value": 2.0833333
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 10,
           "reagent": {
+            "id": 3575,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3575?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Iron Bar",
-            "id": 3575
-          },
-          "quantity": 10
+            "name": "Iron Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 3577,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3577?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Gold Bar",
-            "id": 3577
-          },
-          "quantity": 4
+            "name": "Gold Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 1705,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1705?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Lesser Moonstone",
-            "id": 1705
-          },
-          "quantity": 2
+            "name": "Lesser Moonstone"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 3466,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3466?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Strong Flux",
-            "id": 3466
-          },
-          "quantity": 2
+            "name": "Strong Flux"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 4234,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4234?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Leather",
-            "id": 4234
-          },
-          "quantity": 2
+            "name": "Heavy Leather"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 3486,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3486?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Grinding Stone",
-            "id": 3486
-          },
-          "quantity": 2
+            "name": "Heavy Grinding Stone"
+          }
         }
       ],
       "reagents_display_string": "Iron Bar (10), Gold Bar (4), Lesser Moonstone (2), Strong Flux (2), Heavy Leather (2), Heavy Grinding Stone (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (170)",
+        "level": 170,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "9"
+      },
+      "value": 950
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 3800,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 950
 }

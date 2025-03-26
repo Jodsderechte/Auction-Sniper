@@ -4,95 +4,96 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/27941?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This amulet keeps dangerous critters at bay.  Its powerful warding magic is broken temporarily if you harm a critter.",
+  "icon_path": "data\\icons\\inv_jewelry_amulet_03.jpg",
   "id": 27941,
-  "name": "Compassionate Critter's Friend",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Neck",
+    "type": "NECK"
   },
-  "level": 18,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/27941?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 27941
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "NECK",
-    "name": "Neck"
-  },
-  "purchase_price": 200000,
-  "sell_price": 50000,
+  "level": 18,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "This amulet keeps dangerous critters at bay.  Its powerful warding magic is broken temporarily if you harm a critter.",
+  "media": {
+    "id": 27941,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/27941?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Compassionate Critter's Friend",
   "preview_item": {
+    "description": "This amulet keeps dangerous critters at bay.  Its powerful warding magic is broken temporarily if you harm a critter.",
+    "inventory_type": {
+      "name": "Neck",
+      "type": "NECK"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 27941,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/27941?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 27941
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Compassionate Critter's Friend",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/27941?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 27941
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "NECK",
-      "name": "Neck"
+    "level": {
+      "display_string": "Item Level 18",
+      "value": 18
     },
-    "sell_price": {
-      "value": 50000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 27941,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/27941?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "This amulet keeps dangerous critters at bay.  Its powerful warding magic is broken temporarily if you harm a critter.",
-    "level": {
-      "value": 18,
-      "display_string": "Item Level 18"
+    "name": "Compassionate Critter's Friend",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 50000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 200000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 50000
 }

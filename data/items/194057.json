@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/194057?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "It only goes forward. Slowly.",
+  "icon_path": "data\\icons\\inv_10_tailoring2_pillow_yellow.jpg",
   "id": 194057,
-  "name": "Cushion of Time Travel",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/194057?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 194057
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 500000,
-  "sell_price": 100000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "It only goes forward. Slowly.",
+  "media": {
+    "id": 194057,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/194057?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Cushion of Time Travel",
   "preview_item": {
+    "description": "It only goes forward. Slowly.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 194057,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/194057?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194057
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Cushion of Time Travel",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/194057?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 194057
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 194057,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/194057?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Cushion of Time Travel",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 100000
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPlace a time-traveling cushion that can be sat on and moves through time for 5 min. (6 Hr Cooldown)",
         "spell": {
+          "id": 387288,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/387288?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cushion of Time Travel",
-          "id": 387288
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPlace a time-traveling cushion that can be sat on and moves through time for 5 min. (6 Hr Cooldown)"
+          "name": "Cushion of Time Travel"
+        }
       }
     ],
-    "sell_price": {
-      "value": 100000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "0",
-        "copper": "0"
-      }
-    },
-    "description": "It only goes forward. Slowly.",
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 500000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 100000
 }

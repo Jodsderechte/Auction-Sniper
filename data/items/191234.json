@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/191234?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_staff_2h_alchemy_b_01.jpg",
   "id": 191234,
-  "name": "Alchemist's Sturdy Mixing Rod",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 317,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/191234?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 191234
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Alchemy",
-    "id": 2
+    "name": "Alchemy"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 50000,
-  "sell_price": 10000,
+  "level": 317,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 191234,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/191234?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Alchemist's Sturdy Mixing Rod",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/191234?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 191234
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       8841,
       8842
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Alchemist's Sturdy Mixing Rod",
-    "media": {
+    "item": {
+      "id": 191234,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/191234?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 191234
+        "href": "https://eu.api.blizzard.com/data/wow/item/191234?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Alchemy",
-      "id": 2
+      "name": "Alchemy"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-          "name": "Multicraft"
-        },
-        "value": 58,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+58 Multicraft",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455760?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455760
-        },
-        "description": "Equip: +6 Dragon Isles Alchemy Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 191234,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/191234?namespace=static-11.1.0_59095-eu"
       }
     },
     "modified_crafting_stat": [
       {
         "id": 81,
-        "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-        "name": "Multicraft"
+        "name": "Multicraft",
+        "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+      }
+    ],
+    "name": "Alchemist's Sturdy Mixing Rod",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
+    },
+    "spells": [
+      {
+        "description": "Equip: +6 Dragon Isles Alchemy Skill",
+        "spell": {
+          "id": 455760,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455760?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+58 Multicraft"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Multicraft",
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+        },
+        "value": 58
       }
     ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 10000
 }

@@ -4,277 +4,278 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/206533?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Midnight's Graze.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 206533,
-  "name": "Ancient Plans: Midnight's Graze",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/206533?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 206533
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Midnight's Graze.",
+  "media": {
+    "id": 206533,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/206533?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Plans: Midnight's Graze",
   "preview_item": {
+    "description": "Teaches you how to craft Midnight's Graze.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 206533,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/206533?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206533
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Ancient Plans: Midnight's Graze",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/206533?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206533
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 300,
-        "display_string": "Requires Classic Blacksmithing (300)"
+    "media": {
+      "id": 206533,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/206533?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Midnight's Graze.",
+    "name": "Ancient Plans: Midnight's Graze",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 80 / 80",
+          "value": 80
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 206486,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/206486?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 206486
-        },
-        "quality": {
-          "type": "EPIC",
-          "name": "Epic"
-        },
-        "name": "Midnight's Graze",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/206486?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 206486
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 15,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dagger",
-          "id": 15
+          "name": "Dagger"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 1,
-            "max_value": 2,
-            "display_string": "1 - 2 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 1800,
-            "display_string": "Speed 1.80"
-          },
-          "dps": {
-            "value": 0.8333333,
-            "display_string": "(0.8 damage per second)"
+        "media": {
+          "id": 206486,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/206486?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 11,
-            "display": {
-              "display_string": "+11 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 331,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "3",
-            "copper": "31"
-          }
+        "name": "Midnight's Graze",
+        "quality": {
+          "name": "Epic",
+          "type": "EPIC"
         },
         "requirements": {
           "level": {
-            "value": 25,
-            "display_string": "Requires Level 25"
+            "display_string": "Requires Level 25",
+            "value": 25
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "31",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "3"
+          },
+          "value": 331
         },
-        "durability": {
-          "value": 80,
-          "display_string": "Durability 80 / 80"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+11 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 11
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 1.80",
+            "value": 1800
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "1 - 2 Damage",
+            "max_value": 2,
+            "min_value": 1
+          },
+          "dps": {
+            "display_string": "(0.8 damage per second)",
+            "value": 0.8333333
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 40,
           "reagent": {
+            "id": 207702,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/207702?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Wartorn Scrap",
-            "id": 207702
-          },
-          "quantity": 40
+            "name": "Wartorn Scrap"
+          }
         },
         {
+          "quantity": 36,
           "reagent": {
+            "id": 12655,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12655?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Enchanted Thorium Bar",
-            "id": 12655
-          },
-          "quantity": 36
+            "name": "Enchanted Thorium Bar"
+          }
         },
         {
+          "quantity": 12,
           "reagent": {
+            "id": 14344,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14344?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Large Brilliant Shard",
-            "id": 14344
-          },
-          "quantity": 12
+            "name": "Large Brilliant Shard"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 12809,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12809?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Guardian Stone",
-            "id": 12809
-          },
-          "quantity": 6
+            "name": "Guardian Stone"
+          }
         },
         {
+          "quantity": 12,
           "reagent": {
+            "id": 7910,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7910?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Star Ruby",
-            "id": 7910
-          },
-          "quantity": 12
+            "name": "Star Ruby"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 12360,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcanite Bar",
-            "id": 12360
-          },
-          "quantity": 6
+            "name": "Arcanite Bar"
+          }
         }
       ],
       "reagents_display_string": "Wartorn Scrap (40), Enchanted Thorium Bar (36), Large Brilliant Shard (12), Guardian Stone (6), Star Ruby (12), Arcanite Bar (6)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (300)",
+        "level": 300,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 30000
 }

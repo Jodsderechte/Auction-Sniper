@@ -4,124 +4,125 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1380?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 386,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/386?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_cloth_21.jpg",
   "id": 1380,
-  "name": "Frayed Robe",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "ROBE"
   },
-  "level": 2,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1380?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1380
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cloth",
-    "id": 1
+    "name": "Cloth"
   },
-  "inventory_type": {
-    "type": "ROBE",
-    "name": "Chest"
-  },
-  "purchase_price": 38,
-  "sell_price": 7,
+  "level": 2,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1380,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1380?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Frayed Robe",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1380?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "155 Armor"
       },
-      "id": 1380
+      "value": 155
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
     },
-    "name": "Frayed Robe",
-    "media": {
+    "inventory_type": {
+      "name": "Chest",
+      "type": "ROBE"
+    },
+    "item": {
+      "id": 1380,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1380?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1380
+        "href": "https://eu.api.blizzard.com/data/wow/item/1380?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cloth",
-      "id": 1
-    },
-    "inventory_type": {
-      "type": "ROBE",
-      "name": "Chest"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 155,
-      "display": {
-        "display_string": "155 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
-    "sell_price": {
-      "value": 109625,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "10",
-        "silver": "96",
-        "copper": "25"
-      }
+      "name": "Cloth"
     },
     "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "media": {
+      "id": 1380,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1380?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Frayed Robe",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "10",
+        "header": "Sell Price:",
+        "silver": "96"
+      },
+      "value": 109625
     }
   },
+  "purchase_price": 38,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/386?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 386
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 1,
+  "sell_price": 7
 }

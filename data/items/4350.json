@@ -4,250 +4,251 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4350?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew Spider Silk Slippers.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 4350,
-  "name": "Pattern: Spider Silk Slippers",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4350?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4350
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 800,
-  "sell_price": 200,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew Spider Silk Slippers.",
+  "media": {
+    "id": 4350,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4350?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Spider Silk Slippers",
   "preview_item": {
+    "description": "Teaches you how to sew Spider Silk Slippers.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 4350,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/4350?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4350
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Pattern: Spider Silk Slippers",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4350?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4350
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 200,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "0"
+    "media": {
+      "id": 4350,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4350?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 140,
-        "display_string": "Requires Classic Tailoring (140)"
-      }
+    "name": "Pattern: Spider Silk Slippers",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to sew Spider Silk Slippers.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "2 Armor"
+          },
+          "value": 2
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 45 / 45",
+          "value": 45
+        },
+        "inventory_type": {
+          "name": "Feet",
+          "type": "FEET"
+        },
         "item": {
+          "id": 4321,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/4321?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 4321
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Spider Silk Slippers",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/4321?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 4321
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cloth",
-          "id": 1
+          "name": "Cloth"
         },
-        "inventory_type": {
-          "type": "FEET",
-          "name": "Feet"
+        "level": {
+          "display_string": "Item Level 18",
+          "value": 18
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 2,
-          "display": {
-            "display_string": "2 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 4321,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/4321?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "VERSATILITY",
-              "name": "Versatility"
-            },
-            "value": 5,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+5 Versatility",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Spider Silk Slippers",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 11,
-            "display_string": "Requires Level 11"
+            "display_string": "Requires Level 11",
+            "value": 11
           }
         },
-        "level": {
-          "value": 18,
-          "display_string": "Item Level 18"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 45,
-          "display_string": "Durability 45 / 45"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Versatility"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Versatility",
+              "type": "VERSATILITY"
+            },
+            "value": 5
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 3,
           "reagent": {
+            "id": 4305,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4305?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Silk Cloth",
-            "id": 4305
-          },
-          "quantity": 3
+            "name": "Bolt of Silk Cloth"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3182,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3182?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Spider's Silk",
-            "id": 3182
-          },
-          "quantity": 1
+            "name": "Spider's Silk"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 2321,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2321?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Fine Thread",
-            "id": 2321
-          },
-          "quantity": 2
+            "name": "Fine Thread"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Silk Cloth (3), Spider's Silk, Fine Thread (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (140)",
+        "level": 140,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 200
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 800,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 200
 }

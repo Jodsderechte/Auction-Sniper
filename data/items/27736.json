@@ -4,114 +4,115 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/27736?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_book_10.jpg",
   "id": 27736,
-  "name": "Master Cookbook",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 23,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/27736?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 27736
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cooking",
-    "id": 5
+    "name": "Cooking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 20000,
-  "sell_price": 5000,
+  "level": 23,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 27736,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/27736?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Master Cookbook",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 27736,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/27736?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 27736
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Master Cookbook",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/27736?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 27736
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cooking",
-      "id": 5
+      "name": "Cooking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 27736,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/27736?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/33361?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Master Cook",
-          "id": 33361
-        },
-        "description": "Use: Teaches you how to be a Master Cook, allowing a maximum of 375 cooking skill."
-      }
-    ],
-    "sell_price": {
-      "value": 5000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "50",
-        "copper": "0"
-      }
+    "name": "Master Cookbook",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Classic Cooking (300)",
+        "level": 300,
         "profession": {
+          "id": 2548,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2548?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Classic Cooking",
-          "id": 2548
-        },
-        "level": 300,
-        "display_string": "Requires Classic Cooking (300)"
+          "name": "Classic Cooking"
+        }
       }
     },
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "50"
+      },
+      "value": 5000
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to be a Master Cook, allowing a maximum of 375 cooking skill.",
+        "spell": {
+          "id": 33361,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/33361?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Master Cook"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 20000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 5000
 }

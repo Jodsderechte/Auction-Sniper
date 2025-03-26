@@ -4,304 +4,305 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12703?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Storm Gauntlets.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 12703,
-  "name": "Plans: Storm Gauntlets",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12703?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12703
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 40000,
-  "sell_price": 10000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Storm Gauntlets.",
+  "media": {
+    "id": 12703,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12703?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Storm Gauntlets",
   "preview_item": {
+    "description": "Teaches you how to make Storm Gauntlets.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 12703,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12703?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12703
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Plans: Storm Gauntlets",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12703?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12703
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 10000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 12703,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12703?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 295,
-        "display_string": "Requires Classic Blacksmithing (295)"
-      }
+    "name": "Plans: Storm Gauntlets",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to make Storm Gauntlets.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "5 Armor"
+          },
+          "value": 5
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 50 / 50",
+          "value": 50
+        },
+        "inventory_type": {
+          "name": "Hands",
+          "type": "HAND"
+        },
         "item": {
+          "id": 12632,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/12632?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12632
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Storm Gauntlets",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/12632?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12632
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Mail",
-          "id": 3
+          "name": "Mail"
         },
-        "inventory_type": {
-          "type": "HAND",
-          "name": "Hands"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 5,
-          "display": {
-            "display_string": "5 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 12632,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/12632?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 3,
-            "display": {
-              "display_string": "+3 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 4,
-            "display": {
-              "display_string": "+4 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "FIRE_RESISTANCE",
-              "name": "Fire Resistance"
-            },
-            "value": 2,
-            "display": {
-              "display_string": "+2 Fire Resistance",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/16615?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Add Lightning Dam - Weap 03",
-              "id": 16615
-            },
-            "description": "Equip: Adds 3 Lightning damage to your melee attacks."
-          }
-        ],
-        "sell_price": {
-          "value": 87,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "0",
-            "copper": "87"
-          }
+        "name": "Storm Gauntlets",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 23,
-            "display_string": "Requires Level 23"
+            "display_string": "Requires Level 23",
+            "value": 23
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "87",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 87
         },
-        "durability": {
-          "value": 50,
-          "display_string": "Durability 50 / 50"
-        }
+        "spells": [
+          {
+            "description": "Equip: Adds 3 Lightning damage to your melee attacks.",
+            "spell": {
+              "id": 16615,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/16615?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Add Lightning Dam - Weap 03"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Fire Resistance"
+            },
+            "type": {
+              "name": "Fire Resistance",
+              "type": "FIRE_RESISTANCE"
+            },
+            "value": 2
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 20,
           "reagent": {
+            "id": 12359,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12359?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Bar",
-            "id": 12359
-          },
-          "quantity": 20
+            "name": "Thorium Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12655,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12655?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Enchanted Thorium Bar",
-            "id": 12655
-          },
-          "quantity": 4
+            "name": "Enchanted Thorium Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 7080,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7080?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Essence of Water",
-            "id": 7080
-          },
-          "quantity": 4
+            "name": "Essence of Water"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12361,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12361?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Blue Sapphire",
-            "id": 12361
-          },
-          "quantity": 4
+            "name": "Blue Sapphire"
+          }
         }
       ],
       "reagents_display_string": "Thorium Bar (20), Enchanted Thorium Bar (4), Essence of Water (4), Blue Sapphire (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (295)",
+        "level": 295,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 40000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 10000
 }

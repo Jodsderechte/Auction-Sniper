@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/71638?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This weapon seems as beautiful as it is deadly. Someone at the Darkmoon Faire would probably be interested in acquiring it.",
+  "icon_path": "data\\icons\\inv_weapon_shortblade_96.jpg",
   "id": 71638,
-  "name": "Ornate Weapon",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/71638?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 71638
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "This weapon seems as beautiful as it is deadly. Someone at the Darkmoon Faire would probably be interested in acquiring it.",
+  "media": {
+    "id": 71638,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/71638?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ornate Weapon",
   "preview_item": {
+    "description": "This weapon seems as beautiful as it is deadly. Someone at the Darkmoon Faire would probably be interested in acquiring it.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 71638,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/71638?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 71638
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Ornate Weapon",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/71638?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 71638
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Quest",
-      "id": 0
-    },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "description": "This weapon seems as beautiful as it is deadly. Someone at the Darkmoon Faire would probably be interested in acquiring it.",
     "item_starts_quest": {
+      "display_string": "This Item Begins a Quest",
       "quest": {
+        "id": 29446,
         "key": {
           "href": "https://eu.api.blizzard.com/data/wow/quest/29446?namespace=static-11.1.0_59095-eu"
         },
-        "name": "A Wondrous Weapon",
-        "id": 29446
-      },
-      "display_string": "This Item Begins a Quest"
+        "name": "A Wondrous Weapon"
+      }
     },
-    "is_subclass_hidden": true
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Quest"
+    },
+    "media": {
+      "id": 71638,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/71638?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Ornate Weapon",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

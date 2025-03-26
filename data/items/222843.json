@@ -4,152 +4,153 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/222843?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_helm_armor_enchantinghat_b_01.jpg",
   "id": 222843,
-  "name": "Weavercloth Enchanter's Hat",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/222843?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 222843
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 195375,
-  "sell_price": 39075,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 222843,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/222843?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Weavercloth Enchanter's Hat",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/222843?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222843
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Weavercloth Enchanter's Hat",
-    "media": {
+    "item": {
+      "id": 222843,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/222843?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 222843
+        "href": "https://eu.api.blizzard.com/data/wow/item/222843?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Enchanting"
     },
     "limit_category": "Unique-Equipped: Head (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS",
-          "name": "Resourcefulness"
-        },
-        "value": 41,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+41 Resourcefulness",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_INGENUITY",
-          "name": "Ingenuity"
-        },
-        "value": 97,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+97 Ingenuity",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 222843,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/222843?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455770?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455770
-        },
-        "description": "Equip: +5 Khaz Algar Enchanting Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 39075,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "90",
-        "copper": "75"
-      }
+    },
+    "name": "Weavercloth Enchanter's Hat",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "90"
+      },
+      "value": 39075
+    },
+    "spells": [
+      {
+        "description": "Equip: +5 Khaz Algar Enchanting Skill",
+        "spell": {
+          "id": 455770,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455770?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+41 Resourcefulness"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Resourcefulness",
+          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS"
+        },
+        "value": 41
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+97 Ingenuity"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Ingenuity",
+          "type": "BONUS_STAT_PROFESSION_INGENUITY"
+        },
+        "value": 97
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 195375,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 39075
 }

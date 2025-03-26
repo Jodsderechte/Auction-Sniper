@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/112384?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelcrafting_prism.jpg",
   "id": 112384,
-  "name": "Reflecting Prism",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/112384?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 112384
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 10000,
-  "sell_price": 2500,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 112384,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/112384?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Reflecting Prism",
   "preview_item": {
+    "charges": {
+      "display_string": "50 Charges",
+      "value": 50
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 112384,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/112384?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 112384
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Reflecting Prism",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/112384?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 112384
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 112384,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/112384?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Reflecting Prism",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
     },
     "spells": [
       {
+        "description": "Use: Swap appearances with a party member.",
         "spell": {
+          "id": 163219,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/163219?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Reflecting Prism",
-          "id": 163219
-        },
-        "description": "Use: Swap appearances with a party member."
+          "name": "Reflecting Prism"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
-      }
-    },
-    "charges": {
-      "value": 50,
-      "display_string": "50 Charges"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 2500
 }

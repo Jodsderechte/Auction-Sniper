@@ -4,130 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25377?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2737,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2737?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_crown_01.jpg",
   "id": 25377,
-  "name": "Corroded Mail Circlet",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 29,
-  "required_level": 26,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25377?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25377
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 602416,
-  "sell_price": 120483,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25377,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25377?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Corroded Mail Circlet",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/25377?namespace=static-11.1.0_59095-eu"
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "295 Armor"
       },
-      "id": 25377
+      "value": 295
     },
-    "context": 0,
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
     "bonus_list": [
       6656
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
     },
-    "name": "Corroded Mail Circlet",
-    "media": {
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "item": {
+      "id": 25377,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25377?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25377
+        "href": "https://eu.api.blizzard.com/data/wow/item/25377?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 295,
-      "display": {
-        "display_string": "295 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 25377,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25377?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 81087,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "10",
-        "copper": "87"
-      }
+    "name": "Corroded Mail Circlet",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 26,
-        "display_string": "Requires Level 26"
+        "display_string": "Requires Level 26",
+        "value": 26
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
-    },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
+    "sell_price": {
+      "display_strings": {
+        "copper": "87",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "10"
+      },
+      "value": 81087
     }
   },
+  "purchase_price": 602416,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2737?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2737
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 26,
+  "sell_price": 120483
 }

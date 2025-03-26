@@ -4,116 +4,117 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/25653?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_crop_02.jpg",
   "id": 25653,
-  "name": "Riding Crop",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 29,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/25653?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 25653
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 70000,
-  "sell_price": 17500,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 25653,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/25653?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Riding Crop",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 25653,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/25653?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25653
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Riding Crop",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/25653?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 25653
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/48776?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Mount Speed",
-          "id": 48776
-        },
-        "description": "Equip: Increases mount speed by 10%.  Does not work for players above level 49. (Requires level 49 or below)"
+    "media": {
+      "id": 25653,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/25653?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "sell_price": {
-      "value": 17500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "1",
-        "silver": "75",
-        "copper": "0"
-      }
+    },
+    "name": "Riding Crop",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "1",
+        "header": "Sell Price:",
+        "silver": "75"
+      },
+      "value": 17500
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Increases mount speed by 10%.  Does not work for players above level 49. (Requires level 49 or below)",
+        "spell": {
+          "id": 48776,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/48776?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Mount Speed"
+        }
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 70000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 27,
+  "sell_price": 17500
 }

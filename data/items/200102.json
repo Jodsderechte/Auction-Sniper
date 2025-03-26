@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/200102?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Infurious Alloy.",
+  "icon_path": "data\\icons\\inv_10_inscription2_repcontracts_80_warscroll_fortitude_uprez.jpg",
   "id": 200102,
-  "name": "Plans: Infurious Alloy",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/200102?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 200102
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Infurious Alloy.",
+  "media": {
+    "id": 200102,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/200102?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Infurious Alloy",
   "preview_item": {
+    "description": "Teaches you how to craft Infurious Alloy.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 200102,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/200102?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200102
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Plans: Infurious Alloy",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/200102?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200102
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 200102,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/200102?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Plans: Infurious Alloy",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Blacksmithing (25)",
+        "level": 25,
         "profession": {
+          "id": 2822,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2822?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Blacksmithing",
-          "id": 2822
-        },
-        "level": 25,
-        "display_string": "Requires Dragon Isles Blacksmithing (25)"
+          "name": "Dragon Isles Blacksmithing"
+        }
       }
     },
-    "description": "Teaches you how to craft Infurious Alloy.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

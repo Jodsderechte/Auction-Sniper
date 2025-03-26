@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2802?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_talisman_01.jpg",
   "id": 2802,
-  "name": "Blazing Emblem",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 23,
-  "required_level": 16,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2802?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2802
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 6500,
-  "sell_price": 1625,
+  "level": 23,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2802,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2802?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Blazing Emblem",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2802?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2802
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Blazing Emblem",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 2802,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2802?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2802
+        "href": "https://eu.api.blizzard.com/data/wow/item/2802?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 2802,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2802?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "FIRE_RESISTANCE",
-          "name": "Fire Resistance"
-        },
-        "value": 341,
-        "display": {
-          "display_string": "+341 Fire Resistance",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/13744?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Blazing Emblem",
-          "id": 13744
-        },
-        "description": "Use: Increases Fire resistance by 436 and reduces all Fire damage taken by up to 218 for 15 sec. (10 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 1625,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "16",
-        "copper": "25"
-      }
+    "name": "Blazing Emblem",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 16,
-        "display_string": "Requires Level 16"
+        "display_string": "Requires Level 16",
+        "value": 16
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "16"
+      },
+      "value": 1625
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Increases Fire resistance by 436 and reduces all Fire damage taken by up to 218 for 15 sec. (10 Min Cooldown)",
+        "spell": {
+          "id": 13744,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/13744?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Blazing Emblem"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+341 Fire Resistance"
+        },
+        "type": {
+          "name": "Fire Resistance",
+          "type": "FIRE_RESISTANCE"
+        },
+        "value": 341
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 6500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 16,
+  "sell_price": 1625
 }

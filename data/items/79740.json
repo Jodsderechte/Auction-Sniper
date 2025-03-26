@@ -4,129 +4,130 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/79740?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 319,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/319?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "A plain wooden staff, used by scribes as a receptacle for inscriptions of great power.",
+  "icon_path": "data\\icons\\inv_staff_08.jpg",
   "id": 79740,
-  "name": "Plain Wooden Staff",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/79740?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 79740
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Staff",
-    "id": 10
+    "name": "Staff"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 71,
-  "sell_price": 14,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "A plain wooden staff, used by scribes as a receptacle for inscriptions of great power.",
+  "media": {
+    "id": 79740,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/79740?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plain Wooden Staff",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "A plain wooden staff, used by scribes as a receptacle for inscriptions of great power.",
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 79740,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/79740?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 79740
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Plain Wooden Staff",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/79740?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 79740
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Staff",
-      "id": 10
+      "name": "Staff"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 1,
-        "max_value": 2,
-        "display_string": "1 - 2 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 0.41666666,
-        "display_string": "(0.4 damage per second)"
+    "media": {
+      "id": 79740,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/79740?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Plain Wooden Staff",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "sell_price": {
-      "value": 14,
       "display_strings": {
-        "header": "Sell Price:",
+        "copper": "14",
         "gold": "0",
-        "silver": "0",
-        "copper": "14"
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 14
+    },
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "1 - 2 Damage",
+        "max_value": 2,
+        "min_value": 1
+      },
+      "dps": {
+        "display_string": "(0.4 damage per second)",
+        "value": 0.41666666
       }
-    },
-    "description": "A plain wooden staff, used by scribes as a receptacle for inscriptions of great power.",
-    "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
-    },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
     }
   },
+  "purchase_price": 71,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/319?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 319
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 14
 }

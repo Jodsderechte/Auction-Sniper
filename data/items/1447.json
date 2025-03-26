@@ -4,155 +4,156 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/1447?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_belt_27.jpg",
   "id": 1447,
-  "name": "Ring of Saviors",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Finger",
+    "type": "FINGER"
   },
-  "level": 24,
-  "required_level": 18,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/1447?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 1447
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
-  },
-  "purchase_price": 91100,
-  "sell_price": 22775,
+  "level": 24,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 1447,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/1447?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ring of Saviors",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/1447?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1447
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6660
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
     },
-    "name": "Ring of Saviors",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 1447,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/1447?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1447
+        "href": "https://eu.api.blizzard.com/data/wow/item/1447?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 1447,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/1447?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 348,
-        "display": {
-          "display_string": "+348 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 222,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+222 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/18826?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Savior's Sacrifice",
-          "id": 18826
-        },
-        "description": "Use: Increases armor by 16 for 10 sec. (30 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 22775,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "27",
-        "copper": "75"
-      }
+    "name": "Ring of Saviors",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 18,
-        "display_string": "Requires Level 18"
+        "display_string": "Requires Level 18",
+        "value": 18
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "27"
+      },
+      "value": 22775
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Increases armor by 16 for 10 sec. (30 Min Cooldown)",
+        "spell": {
+          "id": 18826,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/18826?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Savior's Sacrifice"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+348 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 348
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+222 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 222
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 91100,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 18,
+  "sell_price": 22775
 }

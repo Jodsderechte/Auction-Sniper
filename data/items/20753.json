@@ -4,209 +4,210 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/20753?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to create Lesser Wizard Oil.",
+  "icon_path": "data\\icons\\inv_misc_note_01.jpg",
   "id": 20753,
-  "name": "Formula: Lesser Wizard Oil",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/20753?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 20753
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Enchanting",
-    "id": 8
+    "name": "Enchanting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 4000,
-  "sell_price": 1000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to create Lesser Wizard Oil.",
+  "media": {
+    "id": 20753,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/20753?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Formula: Lesser Wizard Oil",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 20753,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/20753?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20753
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Formula: Lesser Wizard Oil",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/20753?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 20753
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Enchanting",
-      "id": 8
+      "name": "Enchanting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/25126?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Lesser Wizard Oil",
-          "id": 25126
-        },
-        "description": "Use: Teaches you how to create Lesser Wizard Oil."
-      }
-    ],
-    "sell_price": {
-      "value": 1000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "10",
-        "copper": "0"
+    "media": {
+      "id": 20753,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/20753?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Enchanting",
-          "id": 2494
-        },
-        "level": 200,
-        "display_string": "Requires Classic Enchanting (200)"
-      }
+    "name": "Formula: Lesser Wizard Oil",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "recipe": {
       "item": {
+        "charges": {
+          "display_string": "1 Charge",
+          "value": 1
+        },
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 20746,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/20746?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 20746
-        },
-        "quality": {
-          "type": "COMMON",
-          "name": "Common"
-        },
-        "name": "Lesser Wizard Oil",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/20746?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 20746
+          }
         },
         "item_class": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Consumable",
-          "id": 0
+          "name": "Consumable"
         },
         "item_subclass": {
+          "id": 8,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Other",
-          "id": 8
+          "name": "Other"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
+        "media": {
+          "id": 20746,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/20746?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/25119?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Lesser Wizard Oil",
-              "id": 25119
-            },
-            "description": "Use: Applies lesser wizard oil to your weapon, increasing Intellect by 6.  Effect lasts for 1 hour.  Cannot be applied to items higher than level 320. (1 Sec Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 1000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "10",
-            "copper": "0"
-          }
+        "name": "Lesser Wizard Oil",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
         },
         "requirements": {
           "level": {
-            "value": 13,
-            "display_string": "Requires Level 13"
+            "display_string": "Requires Level 13",
+            "value": 13
           }
         },
-        "charges": {
-          "value": 1,
-          "display_string": "1 Charge"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "10"
+          },
+          "value": 1000
         },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Use: Applies lesser wizard oil to your weapon, increasing Intellect by 6.  Effect lasts for 1 hour.  Cannot be applied to items higher than level 320. (1 Sec Cooldown)",
+            "spell": {
+              "id": 25119,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/25119?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Lesser Wizard Oil"
+            }
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 5,
           "reagent": {
+            "id": 16204,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/16204?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Light Illusion Dust",
-            "id": 16204
-          },
-          "quantity": 5
+            "name": "Light Illusion Dust"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3371,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3371?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Crystal Vial",
-            "id": 3371
-          },
-          "quantity": 1
+            "name": "Crystal Vial"
+          }
         }
       ],
       "reagents_display_string": "Light Illusion Dust (5), Crystal Vial"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Enchanting (200)",
+        "level": 200,
+        "profession": {
+          "id": 2494,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Enchanting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "10"
+      },
+      "value": 1000
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to create Lesser Wizard Oil.",
+        "spell": {
+          "id": 25126,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/25126?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Lesser Wizard Oil"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 4000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1000
 }

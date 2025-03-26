@@ -4,126 +4,127 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/4678?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 1658,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1658?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_belt_05.jpg",
   "id": 4678,
-  "name": "Veteran Girdle",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Waist",
+    "type": "WAIST"
   },
-  "level": 7,
-  "required_level": 4,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/4678?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 4678
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
-  },
-  "purchase_price": 637,
-  "sell_price": 127,
+  "level": 7,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 4678,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/4678?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Veteran Girdle",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "3 Armor"
+      },
+      "value": 3
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 25 / 25",
+      "value": 25
+    },
+    "inventory_type": {
+      "name": "Waist",
+      "type": "WAIST"
+    },
     "item": {
+      "id": 4678,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/4678?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4678
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Veteran Girdle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/4678?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 4678
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+    "level": {
+      "display_string": "Item Level 7",
+      "value": 7
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 3,
-      "display": {
-        "display_string": "3 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 4678,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/4678?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 6,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "6"
-      }
+    "name": "Veteran Girdle",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 4,
-        "display_string": "Requires Level 4"
+        "display_string": "Requires Level 4",
+        "value": 4
       }
     },
-    "level": {
-      "value": 7,
-      "display_string": "Item Level 7"
-    },
-    "durability": {
-      "value": 25,
-      "display_string": "Durability 25 / 25"
+    "sell_price": {
+      "display_strings": {
+        "copper": "6",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 6
     }
   },
+  "purchase_price": 637,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/1658?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 1658
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 4,
+  "sell_price": 127
 }

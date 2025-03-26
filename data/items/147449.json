@@ -4,94 +4,95 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/147449?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "This ancient tome is preserved by powerful magic. It emanates tiny magical filaments that hungrily seek knowledge.",
+  "icon_path": "data\\icons\\inv_offhand_hyjal_d_01.jpg",
   "id": 147449,
-  "name": "Enchanted Elven Tome",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/147449?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 147449
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 12
+    "name": "Quest"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Quest",
-    "id": 0
+    "name": "Quest"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "This ancient tome is preserved by powerful magic. It emanates tiny magical filaments that hungrily seek knowledge.",
+  "media": {
+    "id": 147449,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/147449?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Enchanted Elven Tome",
   "preview_item": {
+    "description": "This ancient tome is preserved by powerful magic. It emanates tiny magical filaments that hungrily seek knowledge.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 147449,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/147449?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 147449
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Enchanted Elven Tome",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/147449?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 147449
+      }
     },
     "item_class": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 12
+      "name": "Quest"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Quest",
-      "id": 0
+      "name": "Quest"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 147449,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/147449?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Enchanted Elven Tome",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "spells": [
       {
+        "description": "Use: Empower the book to find the lost knowledge of the ancients. (10 Sec Cooldown)",
         "spell": {
+          "id": 241567,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/241567?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Absorb Ancient Knowledge",
-          "id": 241567
-        },
-        "description": "Use: Empower the book to find the lost knowledge of the ancients. (10 Sec Cooldown)"
+          "name": "Absorb Ancient Knowledge"
+        }
       }
-    ],
-    "description": "This ancient tome is preserved by powerful magic. It emanates tiny magical filaments that hungrily seek knowledge.",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 0
 }

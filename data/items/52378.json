@@ -4,164 +4,165 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/52378?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to cut a Regal Jasper.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 52378,
-  "name": "Design: Regal Jasper",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/52378?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 52378
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to cut a Regal Jasper.",
+  "media": {
+    "id": 52378,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/52378?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Regal Jasper",
   "preview_item": {
+    "description": "Teaches you how to cut a Regal Jasper.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 52378,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/52378?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 52378
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Design: Regal Jasper",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/52378?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 52378
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2521?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Cataclysm Jewelcrafting",
-          "id": 2521
-        },
-        "level": 1,
-        "display_string": "Requires Cataclysm Jewelcrafting (1)"
+    "media": {
+      "id": 52378,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/52378?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to cut a Regal Jasper.",
+    "name": "Design: Regal Jasper",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
     "recipe": {
       "item": {
+        "description": "Matches any socket.",
+        "gem_properties": {
+          "effect": "+2 Dodge and +2 Stamina",
+          "min_item_level": {
+            "display_string": "Requires Item Level: 10",
+            "value": 10
+          }
+        },
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
         "item": {
+          "id": 52119,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/52119?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 52119
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Regal Jasper",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/52119?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 52119
+          }
         },
         "item_class": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Gem",
-          "id": 3
+          "name": "Gem"
         },
         "item_subclass": {
+          "id": 10,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/3/item-subclass/10?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Multiple Stats",
-          "id": 10
+          "name": "Multiple Stats"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
-        },
-        "sell_price": {
-          "value": 8250,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "82",
-            "copper": "50"
+        "media": {
+          "id": 52119,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/52119?namespace=static-11.1.0_59095-eu"
           }
         },
-        "description": "Matches any socket.",
-        "gem_properties": {
-          "min_item_level": {
-            "value": 10,
-            "display_string": "Requires Item Level: 10"
+        "name": "Regal Jasper",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "50",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "82"
           },
-          "effect": "+2 Dodge and +2 Stamina"
+          "value": 8250
         }
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 52182,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/52182?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Jasper",
-            "id": 52182
-          },
-          "quantity": 1
+            "name": "Jasper"
+          }
         }
       ],
       "reagents_display_string": "Jasper"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Cataclysm Jewelcrafting (1)",
+        "level": 1,
+        "profession": {
+          "id": 2521,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2521?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Cataclysm Jewelcrafting"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

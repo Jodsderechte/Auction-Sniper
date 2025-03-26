@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/10628?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3313,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3313?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_31.jpg",
   "id": 10628,
-  "name": "Deathblow",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 28,
-  "required_level": 21,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/10628?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 10628
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 8
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 86630,
-  "sell_price": 17326,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 10628,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/10628?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Deathblow",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/10628?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10628
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6710
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 95 / 95",
+      "value": 95
     },
-    "name": "Deathblow",
-    "media": {
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
+    "item": {
+      "id": 10628,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/10628?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10628
+        "href": "https://eu.api.blizzard.com/data/wow/item/10628?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 8
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 634,
-        "max_value": 1059,
-        "display_string": "634 - 1,059 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 234.99998,
-        "display_string": "(235.0 damage per second)"
+    "media": {
+      "id": 10628,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/10628?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/16411?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Fatal Wound",
-          "id": 16411
-        },
-        "description": "Chance on hit: Delivers a fatal wound for 1,315 damage."
-      }
-    ],
-    "sell_price": {
-      "value": 726789,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "72",
-        "silver": "67",
-        "copper": "89"
-      }
+    "name": "Deathblow",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 21,
-        "display_string": "Requires Level 21"
+        "display_string": "Requires Level 21",
+        "value": 21
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "89",
+        "gold": "72",
+        "header": "Sell Price:",
+        "silver": "67"
+      },
+      "value": 726789
     },
-    "durability": {
-      "value": 95,
-      "display_string": "Durability 95 / 95"
+    "spells": [
+      {
+        "description": "Chance on hit: Delivers a fatal wound for 1,315 damage.",
+        "spell": {
+          "id": 16411,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/16411?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Fatal Wound"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "634 - 1,059 Damage",
+        "max_value": 1059,
+        "min_value": 634
+      },
+      "dps": {
+        "display_string": "(235.0 damage per second)",
+        "value": 234.99998
+      }
     }
   },
+  "purchase_price": 86630,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3313?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3313
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 21,
+  "sell_price": 17326
 }

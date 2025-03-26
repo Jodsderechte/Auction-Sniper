@@ -4,203 +4,204 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21358?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew a Soul Pouch.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 21358,
-  "name": "Pattern: Soul Pouch",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21358?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21358
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 12000,
-  "sell_price": 3000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew a Soul Pouch.",
+  "media": {
+    "id": 21358,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21358?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Soul Pouch",
   "preview_item": {
+    "description": "Teaches you how to sew a Soul Pouch.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21358,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21358?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21358
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Pattern: Soul Pouch",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21358?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21358
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 3000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "30",
-        "copper": "0"
+    "media": {
+      "id": 21358,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21358?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 260,
-        "display_string": "Requires Classic Tailoring (260)"
-      }
+    "name": "Pattern: Soul Pouch",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
-    "description": "Teaches you how to sew a Soul Pouch.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "container_slots": {
+          "display_string": "14 Slot Bag",
+          "value": 14
+        },
+        "inventory_type": {
+          "name": "Bag",
+          "type": "BAG"
+        },
         "item": {
+          "id": 21340,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/21340?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21340
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Soul Pouch",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/21340?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21340
+          }
         },
         "item_class": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Container",
-          "id": 1
+          "name": "Container"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Bag",
-          "id": 0
-        },
-        "inventory_type": {
-          "type": "BAG",
           "name": "Bag"
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "sell_price": {
-          "value": 5000,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "50",
-            "copper": "0"
+        "media": {
+          "id": 21340,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/21340?namespace=static-11.1.0_59095-eu"
           }
         },
-        "container_slots": {
-          "value": 14,
-          "display_string": "14 Slot Bag"
+        "name": "Soul Pouch",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "50"
+          },
+          "value": 5000
         }
       },
       "reagents": [
         {
+          "quantity": 6,
           "reagent": {
+            "id": 14048,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14048?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Runecloth",
-            "id": 14048
-          },
-          "quantity": 6
+            "name": "Bolt of Runecloth"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 8170,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/8170?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Rugged Leather",
-            "id": 8170
-          },
-          "quantity": 4
+            "name": "Rugged Leather"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 7972,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7972?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Ichor of Undeath",
-            "id": 7972
-          },
-          "quantity": 2
+            "name": "Ichor of Undeath"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 14341,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/14341?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Rune Thread",
-            "id": 14341
-          },
-          "quantity": 1
+            "name": "Rune Thread"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Runecloth (6), Rugged Leather (4), Ichor of Undeath (2), Rune Thread"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (260)",
+        "level": 260,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "30"
+      },
+      "value": 3000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 12000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 3000
 }

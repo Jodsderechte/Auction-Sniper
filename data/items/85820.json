@@ -4,277 +4,131 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/85820?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 18112,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/18112?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_shoulder_leather_dungeonleather_c_06.jpg",
   "id": 85820,
-  "name": "Contender's Wyrmhide Shoulders",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Shoulder",
+    "type": "SHOULDER"
   },
-  "level": 39,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/85820?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 85820
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "SHOULDER",
-    "name": "Shoulder"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 39,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 85820,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/85820?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Contender's Wyrmhide Shoulders",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "5 Armor"
+      },
+      "value": 5
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Shoulder",
+      "type": "SHOULDER"
+    },
     "item": {
+      "id": 85820,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/85820?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 85820
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Contender's Wyrmhide Shoulders",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/85820?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 85820
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "SHOULDER",
-      "name": "Shoulder"
+    "level": {
+      "display_string": "Item Level 39",
+      "value": 39
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 5,
-      "display": {
-        "display_string": "5 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 85820,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/85820?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
+    "name": "Contender's Wyrmhide Shoulders",
+    "name_description": {
+      "color": {
+        "a": 1.0,
+        "b": 0,
+        "g": 255,
+        "r": 0
       },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 3,
-        "is_negated": true,
-        "display": {
-          "display_string": "+3 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 3,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+3 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+      "display_string": "Season 12"
+    },
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/1121?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Contender's Defense",
-        "id": 1121
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88575?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Contender's Shoulders",
-            "id": 88575
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88574?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Contender's Leggings",
-            "id": 88574
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88573?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Contender's Helm",
-            "id": 88573
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88572?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Contender's Gloves",
-            "id": 88572
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88571?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Contender's Chestguard",
-            "id": 88571
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88570?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Contender's Bracers",
-            "id": 88570
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88569?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Contender's Boots",
-            "id": 88569
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/88568?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Contender's Belt",
-            "id": 88568
-          }
-        }
-      ],
+      "value": 1500
+    },
+    "set": {
+      "display_string": "Contender's Defense (0/8)",
       "effects": [
         {
           "display_string": "(2) Set: +0 PvP Resilience",
@@ -285,34 +139,181 @@
           "required_count": 4
         }
       ],
-      "legacy": "Legacy Set: Bonus is inactive",
-      "display_string": "Contender's Defense (0/8)"
-    },
-    "level": {
-      "value": 39,
-      "display_string": "Item Level 39"
-    },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
-    },
-    "name_description": {
-      "display_string": "Season 12",
-      "color": {
-        "r": 0,
-        "g": 255,
-        "b": 0,
-        "a": 1.0
-      }
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/18112?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 1121,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/1121?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Contender's Defense"
       },
-      "id": 18112
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 88575,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88575?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Contender's Shoulders"
+          }
+        },
+        {
+          "item": {
+            "id": 88574,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88574?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Contender's Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 88573,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88573?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Contender's Helm"
+          }
+        },
+        {
+          "item": {
+            "id": 88572,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88572?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Contender's Gloves"
+          }
+        },
+        {
+          "item": {
+            "id": 88571,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88571?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Contender's Chestguard"
+          }
+        },
+        {
+          "item": {
+            "id": 88570,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88570?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Contender's Bracers"
+          }
+        },
+        {
+          "item": {
+            "id": 88569,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88569?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Contender's Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 88568,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/88568?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Contender's Belt"
+          }
+        }
+      ],
+      "legacy": "Legacy Set: Bonus is inactive"
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+3 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 5
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+3 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 3
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 35,
+  "sell_price": 1500
 }

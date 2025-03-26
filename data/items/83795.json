@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/83795?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_gem_diamond_06.jpg",
   "id": 83795,
-  "name": "Scrying Roguestone",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 33,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/83795?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 83795
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 10000,
-  "sell_price": 2500,
+  "level": 33,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 83795,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/83795?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Scrying Roguestone",
   "preview_item": {
+    "charges": {
+      "display_string": "10 Charges",
+      "value": 10
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 83795,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/83795?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 83795
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Scrying Roguestone",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/83795?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 83795
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 83795,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/83795?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Scrying Roguestone",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "25"
+      },
+      "value": 2500
     },
     "spells": [
       {
+        "description": "Use: Changes your viewpoint to the targeted location for 1 min.",
         "spell": {
+          "id": 6196,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/6196?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Far Sight",
-          "id": 6196
-        },
-        "description": "Use: Changes your viewpoint to the targeted location for 1 min."
+          "name": "Far Sight"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 2500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "25",
-        "copper": "0"
-      }
-    },
-    "charges": {
-      "value": 10,
-      "display_string": "10 Charges"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 10000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2500
 }

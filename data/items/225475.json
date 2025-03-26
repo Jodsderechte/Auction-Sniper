@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/225475?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Algari Competitor's Medallion.",
+  "icon_path": "data\\icons\\inv_10_inscription2_scroll2_color4.jpg",
   "id": 225475,
-  "name": "Technique: Algari Competitor's Medallion",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/225475?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 225475
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 11,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Inscription",
-    "id": 11
+    "name": "Inscription"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 250000,
-  "sell_price": 50000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Algari Competitor's Medallion.",
+  "media": {
+    "id": 225475,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/225475?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Technique: Algari Competitor's Medallion",
   "preview_item": {
+    "description": "Teaches you how to craft Algari Competitor's Medallion.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 225475,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/225475?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 225475
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Technique: Algari Competitor's Medallion",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/225475?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 225475
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 11,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Inscription",
-      "id": 11
+      "name": "Inscription"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 50000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 225475,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/225475?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Technique: Algari Competitor's Medallion",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Khaz Algar Inscription (50)",
+        "level": 50,
         "profession": {
+          "id": 2878,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2878?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Khaz Algar Inscription",
-          "id": 2878
-        },
-        "level": 50,
-        "display_string": "Requires Khaz Algar Inscription (50)"
+          "name": "Khaz Algar Inscription"
+        }
       }
     },
-    "description": "Teaches you how to craft Algari Competitor's Medallion.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 50000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 250000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 1,
+  "sell_price": 50000
 }

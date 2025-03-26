@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/221967?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon the Crowd Pummeler 2-30.",
+  "icon_path": "data\\icons\\inv_dwarvenmechboss_gold.jpg",
   "id": 221967,
-  "name": "Crowd Pummeler 2-30",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 80,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/221967?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 221967
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mount",
-    "id": 5
+    "name": "Mount"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2500000,
-  "sell_price": 500000,
+  "level": 80,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon the Crowd Pummeler 2-30.",
+  "media": {
+    "id": 221967,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/221967?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Crowd Pummeler 2-30",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
     "item": {
+      "id": 221967,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/221967?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221967
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Crowd Pummeler 2-30",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/221967?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221967
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mount",
-      "id": 5
+      "name": "Mount"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/448186?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Crowd Pummeler 2-30",
-          "id": 448186
-        },
-        "description": "Use: Teaches you how to summon the Crowd Pummeler 2-30."
+    "media": {
+      "id": 221967,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/221967?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Crowd Pummeler 2-30",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
     "requirements": {
       "ability": {
+        "display_string": "Requires Apprentice Riding",
         "spell": {
+          "id": 33388,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/33388?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Apprentice Riding",
-          "id": 33388
-        },
-        "display_string": "Requires Apprentice Riding"
+          "name": "Apprentice Riding"
+        }
       }
-    }
+    },
+    "spells": [
+      {
+        "description": "Use: Teaches you how to summon the Crowd Pummeler 2-30.",
+        "spell": {
+          "id": 448186,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/448186?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Crowd Pummeler 2-30"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 2500000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

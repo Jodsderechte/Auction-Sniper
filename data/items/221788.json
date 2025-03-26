@@ -4,152 +4,153 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/221788?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_helm_armor_engineering_b_01_orange.jpg",
   "id": 221788,
-  "name": "Bismuth Brainwave Projector",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/221788?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 221788
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 7
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 1207625,
-  "sell_price": 241525,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 221788,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/221788?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Bismuth Brainwave Projector",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/221788?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221788
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Bismuth Brainwave Projector",
-    "media": {
+    "item": {
+      "id": 221788,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/221788?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221788
+        "href": "https://eu.api.blizzard.com/data/wow/item/221788?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 7
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Engineering"
     },
     "limit_category": "Unique-Equipped: Head (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-          "name": "Multicraft"
-        },
-        "value": 55,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+55 Multicraft",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_INGENUITY",
-          "name": "Ingenuity"
-        },
-        "value": 83,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+83 Ingenuity",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 221788,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/221788?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455691?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455691
-        },
-        "description": "Equip: +5 Khaz Algar Engineering Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 241525,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "24",
-        "silver": "15",
-        "copper": "25"
-      }
+    },
+    "name": "Bismuth Brainwave Projector",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "24",
+        "header": "Sell Price:",
+        "silver": "15"
+      },
+      "value": 241525
+    },
+    "spells": [
+      {
+        "description": "Equip: +5 Khaz Algar Engineering Skill",
+        "spell": {
+          "id": 455691,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455691?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+55 Multicraft"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Multicraft",
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+        },
+        "value": 55
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+83 Ingenuity"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Ingenuity",
+          "type": "BONUS_STAT_PROFESSION_INGENUITY"
+        },
+        "value": 83
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 1207625,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 241525
 }

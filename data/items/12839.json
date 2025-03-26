@@ -4,315 +4,316 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12839?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make Heartseeker.",
+  "icon_path": "data\\icons\\inv_scroll_03.jpg",
   "id": 12839,
-  "name": "Plans: Heartseeker",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12839?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12839
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 80000,
-  "sell_price": 20000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make Heartseeker.",
+  "media": {
+    "id": 12839,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12839?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Heartseeker",
   "preview_item": {
+    "description": "Teaches you how to make Heartseeker.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 12839,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/12839?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12839
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Plans: Heartseeker",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12839?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12839
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 12839,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12839?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 300,
-        "display_string": "Requires Classic Blacksmithing (300)"
-      }
+    "name": "Plans: Heartseeker",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to make Heartseeker.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 65 / 65",
+          "value": 65
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 12783,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/12783?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12783
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Heartseeker",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/12783?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 12783
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 15,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dagger",
-          "id": 15
+          "name": "Dagger"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 2,
-            "max_value": 5,
-            "display_string": "2 - 5 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 1800,
-            "display_string": "Speed 1.80"
-          },
-          "dps": {
-            "value": 1.9444444,
-            "display_string": "(1.9 damage per second)"
+        "media": {
+          "id": 12783,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/12783?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 2,
-            "is_negated": true,
-            "display": {
-              "display_string": "+2 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 5,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+5 Critical Strike",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "HASTE_RATING",
-              "name": "Haste"
-            },
-            "value": 1,
-            "is_equip_bonus": true,
-            "display": {
-              "display_string": "+1 Haste",
-              "color": {
-                "r": 0,
-                "g": 255,
-                "b": 0,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 253,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "2",
-            "copper": "53"
-          }
+        "name": "Heartseeker",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
         },
         "requirements": {
           "level": {
-            "value": 24,
-            "display_string": "Requires Level 24"
+            "display_string": "Requires Level 24",
+            "value": 24
           }
         },
-        "level": {
-          "value": 29,
-          "display_string": "Item Level 29"
+        "sell_price": {
+          "display_strings": {
+            "copper": "53",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 253
         },
-        "durability": {
-          "value": 65,
-          "display_string": "Durability 65 / 65"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+2 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Haste"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Haste",
+              "type": "HASTE_RATING"
+            },
+            "value": 1
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 1.80",
+            "value": 1800
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "2 - 5 Damage",
+            "max_value": 5,
+            "min_value": 2
+          },
+          "dps": {
+            "display_string": "(1.9 damage per second)",
+            "value": 1.9444444
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 10,
           "reagent": {
+            "id": 12360,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12360?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Arcanite Bar",
-            "id": 12360
-          },
-          "quantity": 10
+            "name": "Arcanite Bar"
+          }
         },
         {
+          "quantity": 10,
           "reagent": {
+            "id": 12655,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12655?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Enchanted Thorium Bar",
-            "id": 12655
-          },
-          "quantity": 10
+            "name": "Enchanted Thorium Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 12810,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12810?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Enchanted Leather",
-            "id": 12810
-          },
-          "quantity": 2
+            "name": "Enchanted Leather"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 7910,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7910?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Star Ruby",
-            "id": 7910
-          },
-          "quantity": 6
+            "name": "Star Ruby"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 12800,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12800?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Azerothian Diamond",
-            "id": 12800
-          },
-          "quantity": 6
+            "name": "Azerothian Diamond"
+          }
         },
         {
+          "quantity": 6,
           "reagent": {
+            "id": 12799,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12799?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Large Opal",
-            "id": 12799
-          },
-          "quantity": 6
+            "name": "Large Opal"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12644,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12644?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Dense Grinding Stone",
-            "id": 12644
-          },
-          "quantity": 4
+            "name": "Dense Grinding Stone"
+          }
         }
       ],
       "reagents_display_string": "Arcanite Bar (10), Enchanted Thorium Bar (10), Enchanted Leather (2), Star Ruby (6), Azerothian Diamond (6), Large Opal (6), Dense Grinding Stone (4)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (300)",
+        "level": 300,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 80000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 20000
 }

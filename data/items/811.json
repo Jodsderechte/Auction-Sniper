@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/811?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 240,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/240?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_axe_07.jpg",
   "id": 811,
-  "name": "Axe of the Deep Woods",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/811?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 811
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 92260,
-  "sell_price": 18452,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 811,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/811?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Axe of the Deep Woods",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/811?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 811
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 100 / 100",
+      "value": 100
     },
-    "name": "Axe of the Deep Woods",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 811,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/811?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 811
+        "href": "https://eu.api.blizzard.com/data/wow/item/811?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 289,
-        "max_value": 600,
-        "display_string": "289 - 600 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 170.96153,
-        "display_string": "(171.0 damage per second)"
+    "media": {
+      "id": 811,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/811?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/18104?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Wrath",
-          "id": 18104
-        },
-        "description": "Chance on hit: Blasts a target for 723 Nature damage."
-      }
-    ],
-    "sell_price": {
-      "value": 763891,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "76",
-        "silver": "38",
-        "copper": "91"
-      }
+    "name": "Axe of the Deep Woods",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "91",
+        "gold": "76",
+        "header": "Sell Price:",
+        "silver": "38"
+      },
+      "value": 763891
     },
-    "durability": {
-      "value": 100,
-      "display_string": "Durability 100 / 100"
+    "spells": [
+      {
+        "description": "Chance on hit: Blasts a target for 723 Nature damage.",
+        "spell": {
+          "id": 18104,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/18104?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Wrath"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "289 - 600 Damage",
+        "max_value": 600,
+        "min_value": 289
+      },
+      "dps": {
+        "display_string": "(171.0 damage per second)",
+        "value": 170.96153
+      }
     }
   },
+  "purchase_price": 92260,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/240?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 240
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 22,
+  "sell_price": 18452
 }

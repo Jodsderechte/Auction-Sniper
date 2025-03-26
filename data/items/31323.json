@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/31323?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 8170,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8170?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_rifle_21.jpg",
   "id": 31323,
-  "name": "Don Santos' Famous Hunting Rifle",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGEDRIGHT"
   },
-  "level": 31,
-  "required_level": 27,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/31323?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 31323
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Gun",
-    "id": 3
+    "name": "Gun"
   },
-  "inventory_type": {
-    "type": "RANGEDRIGHT",
-    "name": "Ranged"
-  },
-  "purchase_price": 181675,
-  "sell_price": 36335,
+  "level": 31,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 31323,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/31323?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Don Santos' Famous Hunting Rifle",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/31323?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31323
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6661
     ],
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 120 / 120",
+      "value": 120
     },
-    "name": "Don Santos' Famous Hunting Rifle",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGEDRIGHT"
+    },
+    "item": {
+      "id": 31323,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/31323?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 31323
+        "href": "https://eu.api.blizzard.com/data/wow/item/31323?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Gun",
-      "id": 3
+      "name": "Gun"
     },
-    "inventory_type": {
-      "type": "RANGEDRIGHT",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 367",
+      "value": 367
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 475,
-        "max_value": 883,
-        "display_string": "475 - 883 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 226.33331,
-        "display_string": "(226.3 damage per second)"
+    "media": {
+      "id": 31323,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/31323?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/38290?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Santos' Blessing",
-          "id": 38290
-        },
-        "description": "Equip: Your ranged attacks have a chance to increase your attack power by 1,254 for 10 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 973687,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "97",
-        "silver": "36",
-        "copper": "87"
-      }
+    "name": "Don Santos' Famous Hunting Rifle",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 27,
-        "display_string": "Requires Level 27"
+        "display_string": "Requires Level 27",
+        "value": 27
       }
     },
-    "level": {
-      "value": 367,
-      "display_string": "Item Level 367"
+    "sell_price": {
+      "display_strings": {
+        "copper": "87",
+        "gold": "97",
+        "header": "Sell Price:",
+        "silver": "36"
+      },
+      "value": 973687
     },
-    "durability": {
-      "value": 120,
-      "display_string": "Durability 120 / 120"
+    "spells": [
+      {
+        "description": "Equip: Your ranged attacks have a chance to increase your attack power by 1,254 for 10 sec.",
+        "spell": {
+          "id": 38290,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/38290?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Santos' Blessing"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "475 - 883 Damage",
+        "max_value": 883,
+        "min_value": 475
+      },
+      "dps": {
+        "display_string": "(226.3 damage per second)",
+        "value": 226.33331
+      }
     }
   },
+  "purchase_price": 181675,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/8170?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 8170
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 27,
+  "sell_price": 36335
 }

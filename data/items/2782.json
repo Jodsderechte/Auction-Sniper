@@ -4,137 +4,138 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2782?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 952,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/952?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_bow_03.jpg",
   "id": 2782,
-  "name": "Mishandled Recurve Bow",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Ranged",
+    "type": "RANGED"
   },
-  "level": 15,
-  "required_level": 9,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2782?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2782
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Bow",
-    "id": 2
+    "name": "Bow"
   },
-  "inventory_type": {
-    "type": "RANGED",
-    "name": "Ranged"
-  },
-  "purchase_price": 10649,
-  "sell_price": 2129,
+  "level": 15,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 2782,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2782?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Mishandled Recurve Bow",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/2782?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2782
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6657
     ],
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 55 / 55",
+      "value": 55
     },
-    "name": "Mishandled Recurve Bow",
-    "media": {
+    "inventory_type": {
+      "name": "Ranged",
+      "type": "RANGED"
+    },
+    "item": {
+      "id": 2782,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2782?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2782
+        "href": "https://eu.api.blizzard.com/data/wow/item/2782?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Bow",
-      "id": 2
+      "name": "Bow"
     },
-    "inventory_type": {
-      "type": "RANGED",
-      "name": "Ranged"
+    "level": {
+      "display_string": "Item Level 322",
+      "value": 322
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 228,
-        "max_value": 310,
-        "display_string": "228 - 310 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3000,
-        "display_string": "Speed 3.00"
-      },
-      "dps": {
-        "value": 89.66666,
-        "display_string": "(89.7 damage per second)"
+    "media": {
+      "id": 2782,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2782?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 210859,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "21",
-        "silver": "8",
-        "copper": "59"
-      }
+    "name": "Mishandled Recurve Bow",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
     },
     "requirements": {
       "level": {
-        "value": 9,
-        "display_string": "Requires Level 9"
+        "display_string": "Requires Level 9",
+        "value": 9
       }
     },
-    "level": {
-      "value": 322,
-      "display_string": "Item Level 322"
+    "sell_price": {
+      "display_strings": {
+        "copper": "59",
+        "gold": "21",
+        "header": "Sell Price:",
+        "silver": "8"
+      },
+      "value": 210859
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.00",
+        "value": 3000
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "228 - 310 Damage",
+        "max_value": 310,
+        "min_value": 228
+      },
+      "dps": {
+        "display_string": "(89.7 damage per second)",
+        "value": 89.66666
+      }
     }
   },
+  "purchase_price": 10649,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/952?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 952
-    }
-  ]
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 9,
+  "sell_price": 2129
 }

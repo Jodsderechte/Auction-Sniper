@@ -4,192 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/10333?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3240,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3240?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_bracer_03.jpg",
   "id": 10333,
-  "name": "Scarlet Wristguards",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Wrist",
+    "type": "WRIST"
   },
-  "level": 21,
-  "required_level": 13,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/10333?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 10333
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Mail",
-    "id": 3
+    "name": "Mail"
   },
-  "inventory_type": {
-    "type": "WRIST",
-    "name": "Wrist"
-  },
-  "purchase_price": 13580,
-  "sell_price": 2716,
+  "level": 21,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 10333,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/10333?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Scarlet Wristguards",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "4 Armor"
+      },
+      "value": 4
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 35 / 35",
+      "value": 35
+    },
+    "inventory_type": {
+      "name": "Wrist",
+      "type": "WRIST"
+    },
     "item": {
+      "id": 10333,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/10333?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10333
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Scarlet Wristguards",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/10333?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10333
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Mail",
-      "id": 3
+      "name": "Mail"
     },
-    "inventory_type": {
-      "type": "WRIST",
-      "name": "Wrist"
+    "level": {
+      "display_string": "Item Level 21",
+      "value": 21
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 4,
-      "display": {
-        "display_string": "4 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 10333,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/10333?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 35,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "35"
-      }
+    "name": "Scarlet Wristguards",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 13,
-        "display_string": "Requires Level 13"
+        "display_string": "Requires Level 13",
+        "value": 13
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/163?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Chain of the Scarlet Crusade",
-        "id": 163
+    "sell_price": {
+      "display_strings": {
+        "copper": "35",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/10329?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Scarlet Belt",
-            "id": 10329
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/10332?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Scarlet Boots",
-            "id": 10332
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/10328?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Scarlet Chestpiece",
-            "id": 10328
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/10331?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Scarlet Gauntlets",
-            "id": 10331
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/10330?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Scarlet Leggings",
-            "id": 10330
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/10333?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Scarlet Wristguards",
-            "id": 10333
-          }
-        }
-      ],
+      "value": 35
+    },
+    "set": {
+      "display_string": "Chain of the Scarlet Crusade (0/6)",
       "effects": [
         {
           "display_string": "(2) Set: +5 Armor.",
@@ -212,24 +142,95 @@
           "required_count": 6
         }
       ],
-      "display_string": "Chain of the Scarlet Crusade (0/6)"
-    },
-    "level": {
-      "value": 21,
-      "display_string": "Item Level 21"
-    },
-    "durability": {
-      "value": 35,
-      "display_string": "Durability 35 / 35"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3240?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 163,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/163?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Chain of the Scarlet Crusade"
       },
-      "id": 3240
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 10329,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/10329?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Scarlet Belt"
+          }
+        },
+        {
+          "item": {
+            "id": 10332,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/10332?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Scarlet Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 10328,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/10328?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Scarlet Chestpiece"
+          }
+        },
+        {
+          "item": {
+            "id": 10331,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/10331?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Scarlet Gauntlets"
+          }
+        },
+        {
+          "item": {
+            "id": 10330,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/10330?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Scarlet Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 10333,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/10333?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Scarlet Wristguards"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 3
+      }
+    ]
+  },
+  "purchase_price": 13580,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 13,
+  "sell_price": 2716
 }

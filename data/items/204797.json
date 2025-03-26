@@ -4,158 +4,159 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204797?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "I have faced many stronger foes than you, weakling!",
+  "icon_path": "data\\icons\\inv_misc_stonetablet_02.jpg",
   "id": 204797,
-  "name": "Djaradin Boasting Tablets",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 250,
-  "required_level": 70,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204797?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204797
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 137962,
-  "sell_price": 68981,
+  "level": 250,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "I have faced many stronger foes than you, weakling!",
+  "media": {
+    "id": 204797,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204797?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Djaradin Boasting Tablets",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/204797?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204797
+    "binding": {
+      "name": "Binds when picked up",
+      "type": "ON_ACQUIRE"
     },
-    "context": 0,
     "bonus_list": [
       8902
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "description": "I have faced many stronger foes than you, weakling!",
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Djaradin Boasting Tablets",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 204797,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204797?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204797
+        "href": "https://eu.api.blizzard.com/data/wow/item/204797?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 250",
+      "value": 250
     },
-    "binding": {
-      "type": "ON_ACQUIRE",
-      "name": "Binds when picked up"
+    "media": {
+      "id": 204797,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204797?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 64,
-        "is_negated": true,
-        "display": {
-          "display_string": "+64 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 64,
-        "is_negated": true,
-        "display": {
-          "display_string": "+64 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/406610?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Djaradin Boasting Tablets",
-          "id": 406610
-        },
-        "description": "Equip: Whenever you attack a new enemy for the first time, you demoralize it, reducing its damage done by 20% up to 5,985 for 8 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 68981,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "6",
-        "silver": "89",
-        "copper": "81"
-      }
+    "name": "Djaradin Boasting Tablets",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 70,
-        "display_string": "Requires Level 70"
+        "display_string": "Requires Level 70",
+        "value": 70
       }
     },
-    "description": "I have faced many stronger foes than you, weakling!",
-    "level": {
-      "value": 250,
-      "display_string": "Item Level 250"
+    "sell_price": {
+      "display_strings": {
+        "copper": "81",
+        "gold": "6",
+        "header": "Sell Price:",
+        "silver": "89"
+      },
+      "value": 68981
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Whenever you attack a new enemy for the first time, you demoralize it, reducing its damage done by 20% up to 5,985 for 8 sec.",
+        "spell": {
+          "id": 406610,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/406610?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Djaradin Boasting Tablets"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+64 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 64
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+64 Strength"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Strength",
+          "type": "STRENGTH"
+        },
+        "value": 64
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 137962,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 70,
+  "sell_price": 68981
 }

@@ -4,200 +4,201 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/117371?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 14919,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/14919?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_knife_1h_common_b_01green.jpg",
   "id": 117371,
-  "name": "Miniature Winter Veil Tree",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 44,
-  "required_level": 40,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/117371?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 117371
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 2239406,
-  "sell_price": 447881,
+  "level": 44,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 117371,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/117371?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Miniature Winter Veil Tree",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/117371?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 117371
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       12068
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
     },
-    "name": "Miniature Winter Veil Tree",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 117371,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/117371?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 117371
+        "href": "https://eu.api.blizzard.com/data/wow/item/117371?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 467",
+      "value": 467
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 586,
-        "max_value": 977,
-        "display_string": "586 - 977 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 434.16666,
-        "display_string": "(434.2 damage per second)"
+    "media": {
+      "id": 117371,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/117371?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Miniature Winter Veil Tree",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "58",
+        "gold": "82",
+        "header": "Sell Price:",
+        "silver": "54"
+      },
+      "value": 825458
     },
     "stats": [
       {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 381,
-        "is_negated": true,
         "display": {
-          "display_string": "+381 Agility",
           "color": {
-            "r": 128,
-            "g": 128,
+            "a": 1.0,
             "b": 128,
-            "a": 1.0
-          }
-        }
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+381 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 381
       },
       {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 1531,
         "display": {
-          "display_string": "+1,531 Stamina",
           "color": {
-            "r": 255,
-            "g": 255,
+            "a": 1.0,
             "b": 255,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+1,531 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 1531
       },
       {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 244,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+244 Critical Strike",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+244 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 244
       },
       {
-        "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
-        },
-        "value": 244,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+244 Haste",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+244 Haste"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Haste",
+          "type": "HASTE_RATING"
+        },
+        "value": 244
       }
     ],
-    "sell_price": {
-      "value": 825458,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "82",
-        "silver": "54",
-        "copper": "58"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "586 - 977 Damage",
+        "max_value": 977,
+        "min_value": 586
+      },
+      "dps": {
+        "display_string": "(434.2 damage per second)",
+        "value": 434.16666
       }
-    },
-    "level": {
-      "value": 467,
-      "display_string": "Item Level 467"
-    },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
     }
   },
+  "purchase_price": 2239406,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/14919?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 14919
-    }
-  ]
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 40,
+  "sell_price": 447881
 }

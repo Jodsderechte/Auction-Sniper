@@ -4,106 +4,107 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/46820?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to summon this companion.",
+  "icon_path": "data\\icons\\inv_elemental_primal_mana.jpg",
   "id": 46820,
-  "name": "Shimmering Wyrmling",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/46820?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 46820
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Companion Pets",
-    "id": 2
+    "name": "Companion Pets"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 0,
-  "sell_price": 0,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to summon this companion.",
+  "media": {
+    "id": 46820,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/46820?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Shimmering Wyrmling",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 46820,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/46820?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 46820
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Shimmering Wyrmling",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/46820?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 46820
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Companion Pets",
-      "id": 2
+      "name": "Companion Pets"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/66096?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shimmering Wyrmling",
-          "id": 66096
-        },
-        "description": "Use: Teaches you how to summon this companion."
+    "media": {
+      "id": 46820,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/46820?namespace=static-11.1.0_59095-eu"
       }
-    ],
+    },
+    "name": "Shimmering Wyrmling",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
     "requirements": {
       "reputation": {
+        "display_string": "Requires The Silver Covenant - Exalted",
         "faction": {
+          "id": 1094,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/reputation-faction/1094?namespace=static-11.1.0_59095-eu"
           },
-          "name": "The Silver Covenant",
-          "id": 1094
+          "name": "The Silver Covenant"
         },
-        "min_reputation_level": 7,
-        "display_string": "Requires The Silver Covenant - Exalted"
+        "min_reputation_level": 7
       }
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Teaches you how to summon this companion.",
+        "spell": {
+          "id": 66096,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/66096?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shimmering Wyrmling"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 0,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 0
 }

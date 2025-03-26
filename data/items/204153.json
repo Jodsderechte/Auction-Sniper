@@ -4,104 +4,105 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204153?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Obsidian Combatant's Resilient Gloves.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled03b.jpg",
   "id": 204153,
-  "name": "Pattern: Obsidian Combatant's Resilient Gloves",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204153?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204153
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leatherworking",
-    "id": 1
+    "name": "Leatherworking"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 2000000,
-  "sell_price": 500000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Obsidian Combatant's Resilient Gloves.",
+  "media": {
+    "id": 204153,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204153?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Obsidian Combatant's Resilient Gloves",
   "preview_item": {
+    "description": "Teaches you how to craft Obsidian Combatant's Resilient Gloves.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 204153,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/204153?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204153
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Pattern: Obsidian Combatant's Resilient Gloves",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204153?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204153
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leatherworking",
-      "id": 1
+      "name": "Leatherworking"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 500000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "50",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 204153,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204153?namespace=static-11.1.0_59095-eu"
       }
+    },
+    "name": "Pattern: Obsidian Combatant's Resilient Gloves",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "skill": {
+        "display_string": "Requires Dragon Isles Leatherworking (35)",
+        "level": 35,
         "profession": {
+          "id": 2830,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/2830?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dragon Isles Leatherworking",
-          "id": 2830
-        },
-        "level": 35,
-        "display_string": "Requires Dragon Isles Leatherworking (35)"
+          "name": "Dragon Isles Leatherworking"
+        }
       }
     },
-    "description": "Teaches you how to craft Obsidian Combatant's Resilient Gloves.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "50",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 500000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 2000000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 500000
 }

@@ -4,103 +4,104 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/140750?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Put it up to your ear...",
+  "icon_path": "data\\icons\\inv_misc_coin_14.jpg",
   "id": 140750,
-  "name": "Conch",
-  "quality": {
-    "type": "POOR",
-    "name": "Poor"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/140750?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 140750
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Junk",
-    "id": 0
+    "name": "Junk"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 6321,
-  "sell_price": 1580,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Put it up to your ear...",
+  "media": {
+    "id": 140750,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/140750?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Conch",
   "preview_item": {
+    "description": "Put it up to your ear...",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 140750,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/140750?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 140750
-    },
-    "quality": {
-      "type": "POOR",
-      "name": "Poor"
-    },
-    "name": "Conch",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/140750?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 140750
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Junk",
-      "id": 0
+      "name": "Junk"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 140750,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/140750?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Conch",
+    "quality": {
+      "name": "Poor",
+      "type": "POOR"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "80",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
+      },
+      "value": 1580
     },
     "spells": [
       {
+        "description": "Use: You can hear the Ocean! (5 Min Cooldown)",
         "spell": {
+          "id": 224753,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/224753?namespace=static-11.1.0_59095-eu"
           },
-          "name": "The Sea!",
-          "id": 224753
-        },
-        "description": "Use: You can hear the Ocean! (5 Min Cooldown)"
+          "name": "The Sea!"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 1580,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "80"
-      }
-    },
-    "description": "Put it up to your ear...",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 6321,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Poor",
+    "type": "POOR"
+  },
+  "required_level": 0,
+  "sell_price": 1580
 }

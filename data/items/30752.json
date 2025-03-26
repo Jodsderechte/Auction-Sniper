@@ -4,135 +4,136 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/30752?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 7956,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7956?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Countless more Mag'har have fallen than remain",
+  "icon_path": "data\\icons\\inv_axe_20.jpg",
   "id": 30752,
-  "name": "Mag'hari Battleaxe",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Two-Hand",
+    "type": "TWOHWEAPON"
   },
-  "level": 29,
-  "required_level": 25,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/30752?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 30752
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 1,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Axe",
-    "id": 1
+    "name": "Axe"
   },
-  "inventory_type": {
-    "type": "TWOHWEAPON",
-    "name": "Two-Hand"
-  },
-  "purchase_price": 2141176,
-  "sell_price": 428235,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Countless more Mag'har have fallen than remain",
+  "media": {
+    "id": 30752,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/30752?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Mag'hari Battleaxe",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "Countless more Mag'har have fallen than remain",
+    "durability": {
+      "display_string": "Durability 85 / 85",
+      "value": 85
+    },
+    "inventory_type": {
+      "name": "Two-Hand",
+      "type": "TWOHWEAPON"
+    },
     "item": {
+      "id": 30752,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/30752?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30752
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Mag'hari Battleaxe",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/30752?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 30752
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 1,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Axe",
-      "id": 1
+      "name": "Axe"
     },
-    "inventory_type": {
-      "type": "TWOHWEAPON",
-      "name": "Two-Hand"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 6,
-        "max_value": 13,
-        "display_string": "6 - 13 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 3600,
-        "display_string": "Speed 3.60"
-      },
-      "dps": {
-        "value": 2.6388888,
-        "display_string": "(2.6 damage per second)"
+    "media": {
+      "id": 30752,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/30752?namespace=static-11.1.0_59095-eu"
       }
     },
-    "sell_price": {
-      "value": 149,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "1",
-        "copper": "49"
-      }
+    "name": "Mag'hari Battleaxe",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 25,
-        "display_string": "Requires Level 25"
+        "display_string": "Requires Level 25",
+        "value": 25
       }
     },
-    "description": "Countless more Mag'har have fallen than remain",
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
+    "sell_price": {
+      "display_strings": {
+        "copper": "49",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "1"
+      },
+      "value": 149
     },
-    "durability": {
-      "value": 85,
-      "display_string": "Durability 85 / 85"
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 3.60",
+        "value": 3600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "6 - 13 Damage",
+        "max_value": 13,
+        "min_value": 6
+      },
+      "dps": {
+        "display_string": "(2.6 damage per second)",
+        "value": 2.6388888
+      }
     }
   },
+  "purchase_price": 2141176,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/7956?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 7956
-    }
-  ]
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 25,
+  "sell_price": 428235
 }

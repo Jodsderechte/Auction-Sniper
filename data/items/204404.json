@@ -4,107 +4,108 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/204404?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 2865,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2865?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Fits lenses of any shape!",
+  "icon_path": "data\\icons\\inv_helmet_47.jpg",
   "id": 204404,
-  "name": "Square Holders",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 26,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/204404?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 204404
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 200000,
-  "sell_price": 50000,
+  "level": 26,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Fits lenses of any shape!",
+  "media": {
+    "id": 204404,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/204404?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Square Holders",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "description": "Fits lenses of any shape!",
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 204404,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/204404?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204404
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Square Holders",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/204404?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 204404
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
+      "name": "Cosmetic"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 26",
+      "value": 26
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 50000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 204404,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/204404?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Fits lenses of any shape!",
-    "level": {
-      "value": 26,
-      "display_string": "Item Level 26"
+    "name": "Square Holders",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/2865?namespace=static-11.1.0_59095-eu"
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 2865
+      "value": 50000
     }
-  ]
+  },
+  "purchase_price": 200000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 50000
 }

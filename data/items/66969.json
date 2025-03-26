@@ -4,139 +4,140 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/66969?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_organ_02.jpg",
   "id": 66969,
-  "name": "Heart of the Vile",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 37,
-  "required_level": 32,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/66969?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 66969
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 322031,
-  "sell_price": 80507,
+  "level": 37,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 66969,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/66969?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Heart of the Vile",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/66969?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 66969
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Heart of the Vile",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 66969,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/66969?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 66969
+        "href": "https://eu.api.blizzard.com/data/wow/item/66969?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 66969,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/66969?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 273,
-        "is_negated": true,
-        "display": {
-          "display_string": "+273 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/92054?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Item - Proc Crit Rating",
-          "id": 92054
-        },
-        "description": "Equip: Your melee and ranged attacks have a chance to grant 1,475 critical strike for 10 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 80507,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "5",
-        "copper": "7"
-      }
+    "name": "Heart of the Vile",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 32,
-        "display_string": "Requires Level 32"
+        "display_string": "Requires Level 32",
+        "value": 32
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "7",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "5"
+      },
+      "value": 80507
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Your melee and ranged attacks have a chance to grant 1,475 critical strike for 10 sec.",
+        "spell": {
+          "id": 92054,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/92054?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Item - Proc Crit Rating"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+273 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 273
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 322031,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 32,
+  "sell_price": 80507
 }

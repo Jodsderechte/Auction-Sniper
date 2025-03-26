@@ -4,102 +4,103 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/45984?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_idol_05.jpg",
   "id": 45984,
-  "name": "Unusual Compass",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 30,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/45984?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 45984
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 40,
-  "sell_price": 10,
+  "level": 30,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 45984,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/45984?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Unusual Compass",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 45984,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/45984?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45984
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Unusual Compass",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/45984?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 45984
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 45984,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/45984?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Unusual Compass",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "10",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 10
     },
     "spells": [
       {
+        "description": "Use: Adds this toy to your Toy Box.\n\nPoint the compass! (10 Sec Cooldown)",
         "spell": {
+          "id": 64385,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/64385?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Spinning",
-          "id": 64385
-        },
-        "description": "Use: Adds this toy to your Toy Box.\n\nPoint the compass! (10 Sec Cooldown)"
+          "name": "Spinning"
+        }
       }
     ],
-    "sell_price": {
-      "value": 10,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "10"
-      }
-    },
-    "is_subclass_hidden": true,
     "toy": "Toy"
   },
-  "purchase_quantity": 1
+  "purchase_price": 40,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 10
 }

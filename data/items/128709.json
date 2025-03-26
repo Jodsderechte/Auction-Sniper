@@ -4,144 +4,145 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/128709?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\70_inscription_deck_hellfire.jpg",
   "id": 128709,
-  "name": "Darkmoon Deck: Hellfire",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 50,
-  "required_level": 45,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/128709?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 128709
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 1,
-  "sell_price": 1,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 128709,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/128709?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Darkmoon Deck: Hellfire",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 128709,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/128709?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 128709
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Darkmoon Deck: Hellfire",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/128709?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 128709
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 50",
+      "value": 50
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 128709,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/128709?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 5,
-        "display": {
-          "display_string": "+5 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/191611?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Hellfire Deck",
-          "id": 191611
-        },
-        "description": "Equip: Increase Critical Strike by 5-10. The amount of Critical Strike depends on the topmost card in the deck."
-      },
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/191661?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shuffle Aura",
-          "id": 191661
-        },
-        "description": "Equip: Periodically shuffle the deck while in combat."
-      }
-    ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
+    "name": "Darkmoon Deck: Hellfire",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 45,
-        "display_string": "Requires Level 45"
+        "display_string": "Requires Level 45",
+        "value": 45
       }
     },
-    "level": {
-      "value": 50,
-      "display_string": "Item Level 50"
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Equip: Increase Critical Strike by 5-10. The amount of Critical Strike depends on the topmost card in the deck.",
+        "spell": {
+          "id": 191611,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/191611?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Hellfire Deck"
+        }
+      },
+      {
+        "description": "Equip: Periodically shuffle the deck while in combat.",
+        "spell": {
+          "id": 191661,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/191661?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shuffle Aura"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+5 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 5
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 1,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 45,
+  "sell_price": 1
 }

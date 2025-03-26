@@ -4,113 +4,114 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/40772?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Includes Gyromatic Micro-Adjustor, Arclight Spanner, Jeweler's Toolset, Blacksmithing Hammer, Back Scratcher, and Whirly Thing.",
+  "icon_path": "data\\icons\\inv_misc_enggizmos_swissarmy.jpg",
   "id": 40772,
-  "name": "Gnomish Army Knife",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 27,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/40772?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 40772
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Explosives and Devices",
-    "id": 0
+    "name": "Explosives and Devices"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 9027,
-  "sell_price": 2256,
+  "level": 27,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Includes Gyromatic Micro-Adjustor, Arclight Spanner, Jeweler's Toolset, Blacksmithing Hammer, Back Scratcher, and Whirly Thing.",
+  "media": {
+    "id": 40772,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/40772?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Gnomish Army Knife",
   "preview_item": {
+    "description": "Includes Gyromatic Micro-Adjustor, Arclight Spanner, Jeweler's Toolset, Blacksmithing Hammer, Back Scratcher, and Whirly Thing.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 40772,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/40772?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 40772
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Gnomish Army Knife",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/40772?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 40772
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Explosives and Devices",
-      "id": 0
+      "name": "Explosives and Devices"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 40772,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/40772?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Gnomish Army Knife",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "56",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "22"
+      },
+      "value": 2256
     },
     "spells": [
       {
+        "description": "Use: An engineer with at least 1 skill in Northrend Engineering can overload the knife's battery and attempt to shock a dead ally back to life.  Cannot be used in combat. (30 Min Cooldown)",
         "spell": {
+          "id": 54732,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/54732?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Defibrillate",
-          "id": 54732
-        },
-        "description": "Use: An engineer with at least 1 skill in Northrend Engineering can overload the knife's battery and attempt to shock a dead ally back to life.  Cannot be used in combat. (30 Min Cooldown)"
+          "name": "Defibrillate"
+        }
       },
       {
+        "description": "+10 Northrend Mining Skill.\r\n+10 Northrend Herbalism Skill.\r\n+10 Northrend Skinning Skill.",
         "spell": {
+          "id": 398432,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/398432?namespace=static-11.1.0_59095-eu"
           },
-          "name": "+10 Northrend Gathering",
-          "id": 398432
-        },
-        "description": "+10 Northrend Mining Skill.\r\n+10 Northrend Herbalism Skill.\r\n+10 Northrend Skinning Skill."
+          "name": "+10 Northrend Gathering"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 2256,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "22",
-        "copper": "56"
-      }
-    },
-    "description": "Includes Gyromatic Micro-Adjustor, Arclight Spanner, Jeweler's Toolset, Blacksmithing Hammer, Back Scratcher, and Whirly Thing.",
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 9027,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 2256
 }

@@ -4,271 +4,272 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/2883?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Deadly Bronze Poniard.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 2883,
-  "name": "Plans: Deadly Bronze Poniard",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/2883?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 2883
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 1500,
-  "sell_price": 375,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Deadly Bronze Poniard.",
+  "media": {
+    "id": 2883,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/2883?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Plans: Deadly Bronze Poniard",
   "preview_item": {
+    "description": "Teaches you how to make a Deadly Bronze Poniard.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 2883,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/2883?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2883
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Plans: Deadly Bronze Poniard",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/2883?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 2883
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 375,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "3",
-        "copper": "75"
+    "media": {
+      "id": 2883,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/2883?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 125,
-        "display_string": "Requires Classic Blacksmithing (125)"
-      }
+    "name": "Plans: Deadly Bronze Poniard",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to make a Deadly Bronze Poniard.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 35 / 35",
+          "value": 35
+        },
+        "inventory_type": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        },
         "item": {
+          "id": 3490,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/3490?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3490
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Deadly Bronze Poniard",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/3490?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 3490
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 15,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Dagger",
-          "id": 15
+          "name": "Dagger"
         },
-        "inventory_type": {
-          "type": "WEAPON",
-          "name": "One-Hand"
+        "level": {
+          "display_string": "Item Level 16",
+          "value": 16
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 1,
-            "max_value": 3,
-            "display_string": "1 - 3 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 1800,
-            "display_string": "Speed 1.80"
-          },
-          "dps": {
-            "value": 1.111111,
-            "display_string": "(1.1 damage per second)"
+        "media": {
+          "id": 3490,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/3490?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Deadly Bronze Poniard",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 10,
-            "display_string": "Requires Level 10"
+            "display_string": "Requires Level 10",
+            "value": 10
           }
         },
-        "level": {
-          "value": 16,
-          "display_string": "Item Level 16"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 35,
-          "display_string": "Durability 35 / 35"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 3
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 1.80",
+            "value": 1800
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "1 - 3 Damage",
+            "max_value": 3,
+            "min_value": 1
+          },
+          "dps": {
+            "display_string": "(1.1 damage per second)",
+            "value": 1.111111
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 4,
           "reagent": {
+            "id": 2841,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2841?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bronze Bar",
-            "id": 2841
-          },
-          "quantity": 4
+            "name": "Bronze Bar"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 3466,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3466?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Strong Flux",
-            "id": 3466
-          },
-          "quantity": 1
+            "name": "Strong Flux"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 2459,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2459?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Swiftness Potion",
-            "id": 2459
-          },
-          "quantity": 1
+            "name": "Swiftness Potion"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 1210,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/1210?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Shadowgem",
-            "id": 1210
-          },
-          "quantity": 2
+            "name": "Shadowgem"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 3478,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/3478?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Coarse Grinding Stone",
-            "id": 3478
-          },
-          "quantity": 2
+            "name": "Coarse Grinding Stone"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 2319,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2319?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Medium Leather",
-            "id": 2319
-          },
-          "quantity": 2
+            "name": "Medium Leather"
+          }
         }
       ],
       "reagents_display_string": "Bronze Bar (4), Strong Flux, Swiftness Potion, Shadowgem (2), Coarse Grinding Stone (2), Medium Leather (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (125)",
+        "level": 125,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "3"
+      },
+      "value": 375
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 1500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 375
 }

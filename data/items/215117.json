@@ -4,152 +4,153 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/215117?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_helm_armor_scribesspecs_b_01_gold.jpg",
   "id": 215117,
-  "name": "Storyteller's Glasses",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Equipment",
+    "type": "PROFESSION_GEAR"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/215117?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 215117
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 12,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/12?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Inscription",
-    "id": 12
+    "name": "Inscription"
   },
-  "inventory_type": {
-    "type": "PROFESSION_GEAR",
-    "name": "Profession Equipment"
-  },
-  "purchase_price": 266625,
-  "sell_price": 53325,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 215117,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/215117?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Storyteller's Glasses",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/215117?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 215117
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Equipment",
+      "type": "PROFESSION_GEAR"
     },
-    "name": "Storyteller's Glasses",
-    "media": {
+    "item": {
+      "id": 215117,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/215117?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 215117
+        "href": "https://eu.api.blizzard.com/data/wow/item/215117?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 12,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/12?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Inscription",
-      "id": 12
-    },
-    "inventory_type": {
-      "type": "PROFESSION_GEAR",
-      "name": "Profession Equipment"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+      "name": "Inscription"
     },
     "limit_category": "Unique-Equipped: Head (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
-          "name": "Multicraft"
-        },
-        "value": 55,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+55 Multicraft",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_INGENUITY",
-          "name": "Ingenuity"
-        },
-        "value": 83,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+83 Ingenuity",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 215117,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/215117?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455718?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455718
-        },
-        "description": "Equip: +5 Khaz Algar Inscription Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 53325,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "5",
-        "silver": "33",
-        "copper": "25"
-      }
+    },
+    "name": "Storyteller's Glasses",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+        "display_string": "Requires Level 68",
+        "value": 68
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "25",
+        "gold": "5",
+        "header": "Sell Price:",
+        "silver": "33"
+      },
+      "value": 53325
+    },
+    "spells": [
+      {
+        "description": "Equip: +5 Khaz Algar Inscription Skill",
+        "spell": {
+          "id": 455718,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455718?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+55 Multicraft"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Multicraft",
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT"
+        },
+        "value": 55
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+83 Ingenuity"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Ingenuity",
+          "type": "BONUS_STAT_PROFESSION_INGENUITY"
+        },
+        "value": 83
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 266625,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 53325
 }

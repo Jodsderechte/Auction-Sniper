@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/184505?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_helm_leather_bastion_d_01.jpg",
   "id": 184505,
-  "name": "\"Adorable Ascended\" Costume",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/184505?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 184505
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 15
+    "name": "Miscellaneous"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 4
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 25,
-  "sell_price": 1,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 184505,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/184505?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "\"Adorable Ascended\" Costume",
   "preview_item": {
+    "charges": {
+      "display_string": "5 Charges",
+      "value": 5
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 184505,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/184505?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 184505
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "\"Adorable Ascended\" Costume",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/184505?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 184505
+      }
     },
     "item_class": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 15
+      "name": "Miscellaneous"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 4
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 184505,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/184505?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "\"Adorable Ascended\" Costume",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "1",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 1
     },
     "spells": [
       {
+        "description": "Use: Dress up your Perky Pug.",
         "spell": {
+          "id": 346181,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/346181?namespace=static-11.1.0_59095-eu"
           },
-          "name": "\"Adorable Ascended\"",
-          "id": 346181
-        },
-        "description": "Use: Dress up your Perky Pug."
+          "name": "\"Adorable Ascended\""
+        }
       }
-    ],
-    "sell_price": {
-      "value": 1,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "1"
-      }
-    },
-    "charges": {
-      "value": 5,
-      "display_string": "5 Charges"
-    },
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 5
+  "purchase_price": 25,
+  "purchase_quantity": 5,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 1,
+  "sell_price": 1
 }

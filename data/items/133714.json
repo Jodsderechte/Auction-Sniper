@@ -4,110 +4,111 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/133714?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Too small to eat, but can be used as bait. Useful when fishing in Stormheim.",
+  "icon_path": "data\\icons\\inv_fishing_f_saberfish1.jpg",
   "id": 133714,
-  "name": "Silverscale Minnow",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 40,
-  "required_level": 39,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/133714?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 133714
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 80000,
-  "sell_price": 20000,
+  "level": 40,
   "max_count": 1,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Too small to eat, but can be used as bait. Useful when fishing in Stormheim.",
+  "media": {
+    "id": 133714,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/133714?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Silverscale Minnow",
   "preview_item": {
+    "description": "Too small to eat, but can be used as bait. Useful when fishing in Stormheim.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 133714,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/133714?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 133714
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Silverscale Minnow",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/133714?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 133714
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 133714,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/133714?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique",
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/201817?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Silverscale Minnow",
-          "id": 201817
-        },
-        "description": "Use: Apply the bait to your fishing pole to attract rare fish. (1 Sec Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 20000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "2",
-        "silver": "0",
-        "copper": "0"
-      }
+    "name": "Silverscale Minnow",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 39,
-        "display_string": "Requires Level 39"
+        "display_string": "Requires Level 39",
+        "value": 39
       }
     },
-    "description": "Too small to eat, but can be used as bait. Useful when fishing in Stormheim.",
-    "is_subclass_hidden": true
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "2",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 20000
+    },
+    "spells": [
+      {
+        "description": "Use: Apply the bait to your fishing pole to attract rare fish. (1 Sec Cooldown)",
+        "spell": {
+          "id": 201817,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/201817?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Silverscale Minnow"
+        }
+      }
+    ],
+    "unique_equipped": "Unique"
   },
-  "purchase_quantity": 1
+  "purchase_price": 80000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 39,
+  "sell_price": 20000
 }

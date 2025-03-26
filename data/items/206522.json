@@ -4,276 +4,277 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/206522?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft Warsword of Caer Darrow.",
+  "icon_path": "data\\icons\\inv_misc_scrollrolled02c.jpg",
   "id": 206522,
-  "name": "Ancient Plans: Warsword of Caer Darrow",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/206522?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 206522
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Blacksmithing",
-    "id": 4
+    "name": "Blacksmithing"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft Warsword of Caer Darrow.",
+  "media": {
+    "id": 206522,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/206522?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Ancient Plans: Warsword of Caer Darrow",
   "preview_item": {
+    "description": "Teaches you how to craft Warsword of Caer Darrow.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 206522,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/206522?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206522
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Ancient Plans: Warsword of Caer Darrow",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/206522?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 206522
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Blacksmithing",
-      "id": 4
+      "name": "Blacksmithing"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Blacksmithing",
-          "id": 2477
-        },
-        "level": 300,
-        "display_string": "Requires Classic Blacksmithing (300)"
+    "media": {
+      "id": 206522,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/206522?namespace=static-11.1.0_59095-eu"
       }
     },
-    "description": "Teaches you how to craft Warsword of Caer Darrow.",
+    "name": "Ancient Plans: Warsword of Caer Darrow",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 90 / 90",
+          "value": 90
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
         "item": {
+          "id": 206477,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/206477?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 206477
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Warsword of Caer Darrow",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/206477?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 206477
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 8,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Sword",
-          "id": 8
+          "name": "Sword"
         },
-        "inventory_type": {
-          "type": "TWOHWEAPON",
-          "name": "Two-Hand"
+        "level": {
+          "display_string": "Item Level 24",
+          "value": 24
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 6,
-            "max_value": 11,
-            "display_string": "6 - 11 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3600,
-            "display_string": "Speed 3.60"
-          },
-          "dps": {
-            "value": 2.361111,
-            "display_string": "(2.4 damage per second)"
+        "media": {
+          "id": 206477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/206477?namespace=static-11.1.0_59095-eu"
           }
+        },
+        "name": "Warsword of Caer Darrow",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "95",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
+          },
+          "value": 195
         },
         "stats": [
           {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 3,
-            "is_negated": true,
             "display": {
-              "display_string": "+3 Strength",
               "color": {
-                "r": 128,
-                "g": 128,
+                "a": 1.0,
                 "b": 128,
-                "a": 1.0
-              }
-            }
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 3
           },
           {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 5,
             "display": {
-              "display_string": "+5 Stamina",
               "color": {
-                "r": 255,
-                "g": 255,
+                "a": 1.0,
                 "b": 255,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
           },
           {
-            "type": {
-              "type": "CRIT_RATING",
-              "name": "Critical Strike"
-            },
-            "value": 3,
-            "is_equip_bonus": true,
             "display": {
-              "display_string": "+3 Critical Strike",
               "color": {
-                "r": 0,
-                "g": 255,
+                "a": 1.0,
                 "b": 0,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Critical Strike"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Critical Strike",
+              "type": "CRIT_RATING"
+            },
+            "value": 3
           },
           {
-            "type": {
-              "type": "HASTE_RATING",
-              "name": "Haste"
-            },
-            "value": 3,
-            "is_equip_bonus": true,
             "display": {
-              "display_string": "+3 Haste",
               "color": {
-                "r": 0,
-                "g": 255,
+                "a": 1.0,
                 "b": 0,
-                "a": 1.0
-              }
-            }
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Haste"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Haste",
+              "type": "HASTE_RATING"
+            },
+            "value": 3
           }
         ],
-        "sell_price": {
-          "value": 195,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "1",
-            "copper": "95"
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.60",
+            "value": 3600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "6 - 11 Damage",
+            "max_value": 11,
+            "min_value": 6
+          },
+          "dps": {
+            "display_string": "(2.4 damage per second)",
+            "value": 2.361111
           }
-        },
-        "level": {
-          "value": 24,
-          "display_string": "Item Level 24"
-        },
-        "durability": {
-          "value": 90,
-          "display_string": "Durability 90 / 90"
         }
       },
       "reagents": [
         {
+          "quantity": 60,
           "reagent": {
+            "id": 6037,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/6037?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Truesilver Bar",
-            "id": 6037
-          },
-          "quantity": 60
+            "name": "Truesilver Bar"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12811,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12811?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Righteous Orb",
-            "id": 12811
-          },
-          "quantity": 4
+            "name": "Righteous Orb"
+          }
         },
         {
+          "quantity": 8,
           "reagent": {
+            "id": 12644,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12644?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Dense Grinding Stone",
-            "id": 12644
-          },
-          "quantity": 8
+            "name": "Dense Grinding Stone"
+          }
         }
       ],
       "reagents_display_string": "Truesilver Bar (60), Righteous Orb (4), Dense Grinding Stone (8)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Blacksmithing (300)",
+        "level": 300,
+        "profession": {
+          "id": 2477,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Blacksmithing"
+        }
+      }
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 30000
 }

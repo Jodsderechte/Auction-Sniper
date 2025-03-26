@@ -4,114 +4,115 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/165745?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_misc_fireink.jpg",
   "id": 165745,
-  "name": "Crimson Ink Well",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 50,
-  "required_level": 1,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/165745?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 165745
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 323503,
-  "sell_price": 80875,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 165745,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/165745?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Crimson Ink Well",
   "preview_item": {
+    "binding": {
+      "name": "Binds when used",
+      "type": "ON_USE"
+    },
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 165745,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/165745?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 165745
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Crimson Ink Well",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/165745?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 165745
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 165745,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/165745?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "binding": {
-      "type": "ON_USE",
-      "name": "Binds when used"
+    "name": "Crimson Ink Well",
+    "name_description": {
+      "color": {
+        "a": 1.0,
+        "b": 0,
+        "g": 208,
+        "r": 255
+      },
+      "display_string": "Champion Equipment"
+    },
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "8",
+        "header": "Sell Price:",
+        "silver": "8"
+      },
+      "value": 80875
     },
     "spells": [
       {
+        "description": "Use: Equip a champion with a Crimson Ink Well which grants:\r\n\r\nChance to bring back ink from successful missions.",
         "spell": {
+          "id": 276184,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/276184?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Apply Equipment",
-          "id": 276184
-        },
-        "description": "Use: Equip a champion with a Crimson Ink Well which grants:\r\n\r\nChance to bring back ink from successful missions."
+          "name": "Apply Equipment"
+        }
       }
-    ],
-    "sell_price": {
-      "value": 80875,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "8",
-        "silver": "8",
-        "copper": "75"
-      }
-    },
-    "is_subclass_hidden": true,
-    "name_description": {
-      "display_string": "Champion Equipment",
-      "color": {
-        "r": 255,
-        "g": 208,
-        "b": 0,
-        "a": 1.0
-      }
-    }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 323503,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 1,
+  "sell_price": 80875
 }

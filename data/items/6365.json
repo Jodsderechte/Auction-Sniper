@@ -4,117 +4,118 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6365?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_fishingpole_02.jpg",
   "id": 6365,
-  "name": "Strong Fishing Pole",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 5,
-  "required_level": 3,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6365?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6365
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Fishing",
-    "id": 9
+    "name": "Fishing"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 1185,
-  "sell_price": 237,
+  "level": 5,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 6365,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6365?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Strong Fishing Pole",
   "preview_item": {
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
+    },
     "item": {
+      "id": 6365,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6365?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6365
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Strong Fishing Pole",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6365?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6365
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Fishing",
-      "id": 9
+      "name": "Fishing"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
+    "media": {
+      "id": 6365,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6365?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/7823?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "+5 Fishing",
-          "id": 7823
-        },
-        "description": "Equip: On Equip: +5 Fishing Skill."
-      }
-    ],
-    "sell_price": {
-      "value": 237,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "2",
-        "copper": "37"
-      }
+    "name": "Strong Fishing Pole",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 3,
-        "display_string": "Requires Level 3"
+        "display_string": "Requires Level 3",
+        "value": 3
       },
       "skill": {
+        "display_string": "Requires Fishing (10)",
+        "level": 10,
         "profession": {
+          "id": 356,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/356?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Fishing",
-          "id": 356
-        },
-        "level": 10,
-        "display_string": "Requires Fishing (10)"
+          "name": "Fishing"
+        }
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "37",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "2"
+      },
+      "value": 237
+    },
+    "spells": [
+      {
+        "description": "Equip: On Equip: +5 Fishing Skill.",
+        "spell": {
+          "id": 7823,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/7823?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "+5 Fishing"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 1185,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 3,
+  "sell_price": 237
 }

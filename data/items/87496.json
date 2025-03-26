@@ -4,139 +4,140 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/87496?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_jewelry_trinket_17.jpg",
   "id": 87496,
-  "name": "Daelo's Final Words",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 39,
-  "required_level": 32,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/87496?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 87496
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 702585,
-  "sell_price": 175646,
+  "level": 39,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 87496,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/87496?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Daelo's Final Words",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/87496?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 87496
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6658
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
     },
-    "name": "Daelo's Final Words",
-    "media": {
+    "is_subclass_hidden": true,
+    "item": {
+      "id": 87496,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/87496?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 87496
+        "href": "https://eu.api.blizzard.com/data/wow/item/87496?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "media": {
+      "id": 87496,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/87496?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "unique_equipped": "Unique-Equipped",
-    "stats": [
-      {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 378,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+378 Critical Strike",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/127577?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Final Word",
-          "id": 127577
-        },
-        "description": "Use: Increases your Strength by 2,030 for 10 sec. (1 Min 30 Sec Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 175646,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "17",
-        "silver": "56",
-        "copper": "46"
-      }
+    "name": "Daelo's Final Words",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 32,
-        "display_string": "Requires Level 32"
+        "display_string": "Requires Level 32",
+        "value": 32
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "46",
+        "gold": "17",
+        "header": "Sell Price:",
+        "silver": "56"
+      },
+      "value": 175646
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Increases your Strength by 2,030 for 10 sec. (1 Min 30 Sec Cooldown)",
+        "spell": {
+          "id": 127577,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/127577?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Final Word"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+378 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 378
+      }
+    ],
+    "unique_equipped": "Unique-Equipped"
   },
-  "purchase_quantity": 1
+  "purchase_price": 702585,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 32,
+  "sell_price": 175646
 }

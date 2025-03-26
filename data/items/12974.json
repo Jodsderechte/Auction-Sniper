@@ -4,149 +4,150 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12974?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3683,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3683?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_sword_13.jpg",
   "id": 12974,
-  "name": "The Black Knight",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 19,
-  "required_level": 12,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12974?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12974
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 7,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Sword",
-    "id": 7
+    "name": "Sword"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 20254,
-  "sell_price": 4050,
+  "level": 19,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 12974,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12974?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Black Knight",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/12974?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12974
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6659
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 65 / 65",
+      "value": 65
     },
-    "name": "The Black Knight",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 12974,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12974?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12974
+        "href": "https://eu.api.blizzard.com/data/wow/item/12974?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 7,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Sword",
-      "id": 7
+      "name": "Sword"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 362",
+      "value": 362
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "weapon": {
-      "damage": {
-        "min_value": 318,
-        "max_value": 531,
-        "display_string": "318 - 531 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
-      },
-      "dps": {
-        "value": 163.26923,
-        "display_string": "(163.3 damage per second)"
+    "media": {
+      "id": 12974,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12974?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/14106?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Shadow Bolt",
-          "id": 14106
-        },
-        "description": "Chance on hit: Sends a shadowy bolt at the enemy causing 493 Shadow damage."
-      }
-    ],
-    "sell_price": {
-      "value": 608409,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "60",
-        "silver": "84",
-        "copper": "9"
-      }
+    "name": "The Black Knight",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 12,
-        "display_string": "Requires Level 12"
+        "display_string": "Requires Level 12",
+        "value": 12
       }
     },
-    "level": {
-      "value": 362,
-      "display_string": "Item Level 362"
+    "sell_price": {
+      "display_strings": {
+        "copper": "9",
+        "gold": "60",
+        "header": "Sell Price:",
+        "silver": "84"
+      },
+      "value": 608409
     },
-    "durability": {
-      "value": 65,
-      "display_string": "Durability 65 / 65"
+    "spells": [
+      {
+        "description": "Chance on hit: Sends a shadowy bolt at the enemy causing 493 Shadow damage.",
+        "spell": {
+          "id": 14106,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/14106?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Shadow Bolt"
+        }
+      }
+    ],
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 2.60",
+        "value": 2600
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "318 - 531 Damage",
+        "max_value": 531,
+        "min_value": 318
+      },
+      "dps": {
+        "display_string": "(163.3 damage per second)",
+        "value": 163.26923
+      }
     }
   },
+  "purchase_price": 20254,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3683?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3683
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 12,
+  "sell_price": 4050
 }

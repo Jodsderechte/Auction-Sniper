@@ -4,260 +4,122 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/16717?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 4917,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/4917?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_gauntlets_17.jpg",
   "id": 16717,
-  "name": "Wildheart Gloves",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Hands",
+    "type": "HAND"
   },
-  "level": 29,
-  "required_level": 23,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/16717?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 16717
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "HAND",
-    "name": "Hands"
-  },
-  "purchase_price": 86202,
-  "sell_price": 17240,
+  "level": 29,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 16717,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/16717?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Wildheart Gloves",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "4 Armor"
+      },
+      "value": 4
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 50 / 50",
+      "value": 50
+    },
+    "inventory_type": {
+      "name": "Hands",
+      "type": "HAND"
+    },
     "item": {
+      "id": 16717,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/16717?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16717
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Wildheart Gloves",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/16717?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16717
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "HAND",
-      "name": "Hands"
+    "level": {
+      "display_string": "Item Level 29",
+      "value": 29
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 4,
-      "display": {
-        "display_string": "4 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 16717,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/16717?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 3,
-        "display": {
-          "display_string": "+3 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 3,
-        "is_negated": true,
-        "display": {
-          "display_string": "+3 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
-        },
-        "value": 6,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+6 Versatility",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 91,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "91"
-      }
+    "name": "Wildheart Gloves",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 23,
-        "display_string": "Requires Level 23"
+        "display_string": "Requires Level 23",
+        "value": 23
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/185?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "Wildheart Raiment",
-        "id": 185
+    "sell_price": {
+      "display_strings": {
+        "copper": "91",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/16716?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Wildheart Belt",
-            "id": 16716
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/16715?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Wildheart Boots",
-            "id": 16715
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/16714?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Wildheart Bracers",
-            "id": 16714
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/16720?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Wildheart Cowl",
-            "id": 16720
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/16706?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Wildheart Vest",
-            "id": 16706
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/16718?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Wildheart Spaulders",
-            "id": 16718
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/16719?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Wildheart Kilt",
-            "id": 16719
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/16717?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Wildheart Gloves",
-            "id": 16717
-          }
-        }
-      ],
+      "value": 91
+    },
+    "set": {
+      "display_string": "Wildheart Raiment (0/8)",
       "effects": [
         {
           "display_string": "(2) Set: +15 Armor.",
@@ -280,24 +142,163 @@
           "required_count": 8
         }
       ],
-      "display_string": "Wildheart Raiment (0/8)"
-    },
-    "level": {
-      "value": 29,
-      "display_string": "Item Level 29"
-    },
-    "durability": {
-      "value": 50,
-      "display_string": "Durability 50 / 50"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/4917?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 185,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/185?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "Wildheart Raiment"
       },
-      "id": 4917
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 16716,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/16716?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Wildheart Belt"
+          }
+        },
+        {
+          "item": {
+            "id": 16715,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/16715?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Wildheart Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 16714,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/16714?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Wildheart Bracers"
+          }
+        },
+        {
+          "item": {
+            "id": 16720,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/16720?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Wildheart Cowl"
+          }
+        },
+        {
+          "item": {
+            "id": 16706,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/16706?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Wildheart Vest"
+          }
+        },
+        {
+          "item": {
+            "id": 16718,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/16718?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Wildheart Spaulders"
+          }
+        },
+        {
+          "item": {
+            "id": 16719,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/16719?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Wildheart Kilt"
+          }
+        },
+        {
+          "item": {
+            "id": 16717,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/16717?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Wildheart Gloves"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+3 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+3 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 3
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+6 Versatility"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Versatility",
+          "type": "VERSATILITY"
+        },
+        "value": 6
+      }
+    ]
+  },
+  "purchase_price": 86202,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 23,
+  "sell_price": 17240
 }

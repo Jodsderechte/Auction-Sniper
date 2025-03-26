@@ -4,170 +4,171 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/32411?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to cut a Thundering Skyfire Diamond.",
+  "icon_path": "data\\icons\\inv_scroll_05.jpg",
   "id": 32411,
-  "name": "Design: Thundering Skyfire Diamond",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/32411?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 32411
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 120000,
-  "sell_price": 30000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to cut a Thundering Skyfire Diamond.",
+  "media": {
+    "id": 32411,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/32411?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Thundering Skyfire Diamond",
   "preview_item": {
+    "description": "Teaches you how to cut a Thundering Skyfire Diamond.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 32411,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/32411?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32411
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Design: Thundering Skyfire Diamond",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/32411?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 32411
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 30000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "3",
-        "silver": "0",
-        "copper": "0"
+    "media": {
+      "id": 32411,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/32411?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Outland Jewelcrafting",
-          "id": 2523
-        },
-        "level": 65,
-        "display_string": "Requires Outland Jewelcrafting (65)"
-      }
+    "name": "Design: Thundering Skyfire Diamond",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
-    "description": "Teaches you how to cut a Thundering Skyfire Diamond.",
     "recipe": {
       "item": {
+        "description": "Only fits in a meta gem slot.",
+        "gem_properties": {
+          "effect": "Chance to Increase Melee/Ranged Attack Speed"
+        },
+        "inventory_type": {
+          "name": "Non-equippable",
+          "type": "NON_EQUIP"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 32410,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/32410?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 32410
-        },
-        "quality": {
-          "type": "RARE",
-          "name": "Rare"
-        },
-        "name": "Thundering Skyfire Diamond",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/32410?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 32410
+          }
         },
         "item_class": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Gem",
-          "id": 3
+          "name": "Gem"
         },
         "item_subclass": {
+          "id": 9,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/3/item-subclass/9?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Other",
-          "id": 9
+          "name": "Other"
         },
-        "inventory_type": {
-          "type": "NON_EQUIP",
-          "name": "Non-equippable"
-        },
-        "sell_price": {
-          "value": 6250,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "62",
-            "copper": "50"
+        "media": {
+          "id": 32410,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/32410?namespace=static-11.1.0_59095-eu"
           }
         },
-        "description": "Only fits in a meta gem slot.",
-        "is_subclass_hidden": true,
-        "gem_properties": {
-          "effect": "Chance to Increase Melee/Ranged Attack Speed"
+        "name": "Thundering Skyfire Diamond",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "50",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "62"
+          },
+          "value": 6250
         }
       },
       "reagents": [
         {
+          "quantity": 1,
           "reagent": {
+            "id": 25868,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/25868?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Skyfire Diamond",
-            "id": 25868
-          },
-          "quantity": 1
+            "name": "Skyfire Diamond"
+          }
         }
       ],
       "reagents_display_string": "Skyfire Diamond"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Outland Jewelcrafting (65)",
+        "level": 65,
+        "profession": {
+          "id": 2523,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2523?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Outland Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "3",
+        "header": "Sell Price:",
+        "silver": "0"
+      },
+      "value": 30000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 120000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 30000
 }

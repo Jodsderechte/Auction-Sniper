@@ -4,144 +4,145 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/173069?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_inscription_darkmooncard_putrescence.jpg",
   "id": 173069,
-  "name": "Darkmoon Deck: Putrescence",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 200,
-  "required_level": 60,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/173069?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 173069
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 3137440,
-  "sell_price": 627488,
+  "level": 200,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 173069,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/173069?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Darkmoon Deck: Putrescence",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 173069,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/173069?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 173069
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Darkmoon Deck: Putrescence",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/173069?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 173069
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "level": {
+      "display_string": "Item Level 200",
+      "value": 200
     },
     "limit_category": "Unique-Equipped: Darkmoon Deck (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 28,
-        "display": {
-          "display_string": "+28 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 173069,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/173069?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/347047?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Putrid Burst",
-          "id": 347047
-        },
-        "description": "Use: Cause the target to explode with energy, dealing 950 Shadow damage split evenly to all enemies within 10 yards. Enemies hit are 6% to 13% more likely to be critically hit by you. The critical strike chance amount depends on the topmost card of the deck. Lasts 10 sec. (1 Min 30 Sec Cooldown)"
-      },
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/333885?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Darkmoon Deck: Putrescence",
-          "id": 333885
-        },
-        "description": "Equip: Periodically shuffle the deck while in combat."
-      }
-    ],
-    "sell_price": {
-      "value": 627488,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "62",
-        "silver": "74",
-        "copper": "88"
-      }
+    },
+    "name": "Darkmoon Deck: Putrescence",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 60,
-        "display_string": "Requires Level 60"
+        "display_string": "Requires Level 60",
+        "value": 60
       }
     },
-    "level": {
-      "value": 200,
-      "display_string": "Item Level 200"
+    "sell_price": {
+      "display_strings": {
+        "copper": "88",
+        "gold": "62",
+        "header": "Sell Price:",
+        "silver": "74"
+      },
+      "value": 627488
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Cause the target to explode with energy, dealing 950 Shadow damage split evenly to all enemies within 10 yards. Enemies hit are 6% to 13% more likely to be critically hit by you. The critical strike chance amount depends on the topmost card of the deck. Lasts 10 sec. (1 Min 30 Sec Cooldown)",
+        "spell": {
+          "id": 347047,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/347047?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Putrid Burst"
+        }
+      },
+      {
+        "description": "Equip: Periodically shuffle the deck while in combat.",
+        "spell": {
+          "id": 333885,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/333885?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Darkmoon Deck: Putrescence"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+28 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 28
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 3137440,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 60,
+  "sell_price": 627488
 }

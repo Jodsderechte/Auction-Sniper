@@ -4,141 +4,142 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/221786?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_sword_1h_tailoring_b_01.jpg",
   "id": 221786,
-  "name": "Spring-Loaded Bismuth Fabric Cutters",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 486,
-  "required_level": 68,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/221786?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 221786
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 6,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/6?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 6
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 1182750,
-  "sell_price": 236550,
+  "level": 486,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 221786,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/221786?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Spring-Loaded Bismuth Fabric Cutters",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/221786?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221786
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       10827,
       10830
     ],
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
+    "context": 0,
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
     },
-    "name": "Spring-Loaded Bismuth Fabric Cutters",
-    "media": {
+    "item": {
+      "id": 221786,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/221786?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 221786
+        "href": "https://eu.api.blizzard.com/data/wow/item/221786?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 6,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/6?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 6
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "stats": [
-      {
-        "type": {
-          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED",
-          "name": "Crafting Speed"
-        },
-        "value": 173,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+173 Crafting Speed",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/455730?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Prof Gear Skill Bonus (DNT)",
-          "id": 455730
-        },
-        "description": "Equip: +8 Khaz Algar Tailoring Skill"
-      }
-    ],
-    "sell_price": {
-      "value": 236550,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "23",
-        "silver": "65",
-        "copper": "50"
-      }
-    },
-    "requirements": {
-      "level": {
-        "value": 68,
-        "display_string": "Requires Level 68"
+    "media": {
+      "id": 221786,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/221786?namespace=static-11.1.0_59095-eu"
       }
     },
     "modified_crafting_stat": [
       {
         "id": 80,
-        "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED",
-        "name": "Crafting Speed"
+        "name": "Crafting Speed",
+        "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED"
+      }
+    ],
+    "name": "Spring-Loaded Bismuth Fabric Cutters",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 68",
+        "value": 68
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "23",
+        "header": "Sell Price:",
+        "silver": "65"
+      },
+      "value": 236550
+    },
+    "spells": [
+      {
+        "description": "Equip: +8 Khaz Algar Tailoring Skill",
+        "spell": {
+          "id": 455730,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/455730?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Prof Gear Skill Bonus (DNT)"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 0,
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+173 Crafting Speed"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Crafting Speed",
+          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED"
+        },
+        "value": 173
       }
     ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 1182750,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 68,
+  "sell_price": 236550
 }

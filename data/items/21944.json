@@ -4,270 +4,271 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/21944?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to craft a Truesilver Boar.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 21944,
-  "name": "Design: Truesilver Boar",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/21944?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 21944
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 10,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Jewelcrafting",
-    "id": 10
+    "name": "Jewelcrafting"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1875,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to craft a Truesilver Boar.",
+  "media": {
+    "id": 21944,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/21944?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Design: Truesilver Boar",
   "preview_item": {
+    "description": "Teaches you how to craft a Truesilver Boar.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 21944,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/21944?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21944
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Design: Truesilver Boar",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/21944?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 21944
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 10,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Jewelcrafting",
-      "id": 10
+      "name": "Jewelcrafting"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1875,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "18",
-        "copper": "75"
+    "media": {
+      "id": 21944,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/21944?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Jewelcrafting",
-          "id": 2524
-        },
-        "level": 235,
-        "display_string": "Requires Classic Jewelcrafting (235)"
-      }
+    "name": "Design: Truesilver Boar",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to craft a Truesilver Boar.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "inventory_type": {
+          "name": "Trinket",
+          "type": "TRINKET"
+        },
+        "is_subclass_hidden": true,
         "item": {
+          "id": 21763,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/21763?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21763
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Figurine - Truesilver Boar",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/21763?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 21763
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 0,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Miscellaneous",
-          "id": 0
+          "name": "Miscellaneous"
         },
-        "inventory_type": {
-          "type": "TRINKET",
-          "name": "Trinket"
+        "level": {
+          "display_string": "Item Level 25",
+          "value": 25
         },
-        "binding": {
-          "type": "ON_ACQUIRE",
-          "name": "Binds when picked up"
+        "media": {
+          "id": 21763,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/21763?namespace=static-11.1.0_59095-eu"
+          }
         },
-        "unique_equipped": "Unique-Equipped",
-        "stats": [
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STRENGTH",
-              "name": "Strength"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Strength",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "spells": [
-          {
-            "spell": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/spell/26593?namespace=static-11.1.0_59095-eu"
-              },
-              "name": "Truesilver Boar",
-              "id": 26593
-            },
-            "description": "Use: Summons the Truesilver Boar to fight for you for 30 seconds. (15 Min Cooldown)"
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Figurine - Truesilver Boar",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 18,
-            "display_string": "Requires Level 18"
+            "display_string": "Requires Level 18",
+            "value": 18
           },
           "skill": {
+            "display_string": "Requires Classic Jewelcrafting (235)",
+            "level": 235,
             "profession": {
+              "id": 2524,
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
               },
-              "name": "Classic Jewelcrafting",
-              "id": 2524
-            },
-            "level": 235,
-            "display_string": "Requires Classic Jewelcrafting (235)"
+              "name": "Classic Jewelcrafting"
+            }
           }
         },
-        "level": {
-          "value": 25,
-          "display_string": "Item Level 25"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "is_subclass_hidden": true
+        "spells": [
+          {
+            "description": "Use: Summons the Truesilver Boar to fight for you for 30 seconds. (15 Min Cooldown)",
+            "spell": {
+              "id": 26593,
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/spell/26593?namespace=static-11.1.0_59095-eu"
+              },
+              "name": "Truesilver Boar"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Strength"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Strength",
+              "type": "STRENGTH"
+            },
+            "value": 3
+          }
+        ],
+        "unique_equipped": "Unique-Equipped"
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 7910,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7910?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Star Ruby",
-            "id": 7910
-          },
-          "quantity": 2
+            "name": "Star Ruby"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 6037,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/6037?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Truesilver Bar",
-            "id": 6037
-          },
-          "quantity": 4
+            "name": "Truesilver Bar"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 7077,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7077?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heart of Fire",
-            "id": 7077
-          },
-          "quantity": 2
+            "name": "Heart of Fire"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 7081,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/7081?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Breath of Wind",
-            "id": 7081
-          },
-          "quantity": 2
+            "name": "Breath of Wind"
+          }
         }
       ],
       "reagents_display_string": "Star Ruby (2), Truesilver Bar (4), Heart of Fire (2), Breath of Wind (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Jewelcrafting (235)",
+        "level": 235,
+        "profession": {
+          "id": 2524,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2524?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Jewelcrafting"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "18"
+      },
+      "value": 1875
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1875
 }

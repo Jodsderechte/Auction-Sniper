@@ -4,233 +4,234 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/10320?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to sew a Red Mageweave Headband.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 10320,
-  "name": "Pattern: Red Mageweave Headband",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/10320?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 10320
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Tailoring",
-    "id": 2
+    "name": "Tailoring"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 7000,
-  "sell_price": 1750,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to sew a Red Mageweave Headband.",
+  "media": {
+    "id": 10320,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/10320?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Pattern: Red Mageweave Headband",
   "preview_item": {
+    "description": "Teaches you how to sew a Red Mageweave Headband.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 10320,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/10320?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10320
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Pattern: Red Mageweave Headband",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/10320?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 10320
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Tailoring",
-      "id": 2
+      "name": "Tailoring"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 1750,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "17",
-        "copper": "50"
+    "media": {
+      "id": 10320,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/10320?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Tailoring",
-          "id": 2540
-        },
-        "level": 240,
-        "display_string": "Requires Classic Tailoring (240)"
-      }
+    "name": "Pattern: Red Mageweave Headband",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to sew a Red Mageweave Headband.",
     "recipe": {
       "item": {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "3 Armor"
+          },
+          "value": 3
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 65 / 65",
+          "value": 65
+        },
+        "inventory_type": {
+          "name": "Head",
+          "type": "HEAD"
+        },
         "item": {
+          "id": 10033,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/10033?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 10033
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Red Mageweave Headband",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/10033?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 10033
+          }
         },
         "item_class": {
+          "id": 4,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Armor",
-          "id": 4
+          "name": "Armor"
         },
         "item_subclass": {
+          "id": 1,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Cloth",
-          "id": 1
+          "name": "Cloth"
         },
-        "inventory_type": {
-          "type": "HEAD",
-          "name": "Head"
+        "level": {
+          "display_string": "Item Level 25",
+          "value": 25
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "armor": {
-          "value": 3,
-          "display": {
-            "display_string": "3 Armor",
-            "color": {
-              "r": 255,
-              "g": 255,
-              "b": 255,
-              "a": 1.0
-            }
+        "media": {
+          "id": 10033,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/10033?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "INTELLECT",
-              "name": "Intellect"
-            },
-            "value": 6,
-            "display": {
-              "display_string": "+6 Intellect",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Red Mageweave Headband",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 19,
-            "display_string": "Requires Level 19"
+            "display_string": "Requires Level 19",
+            "value": 19
           }
         },
-        "level": {
-          "value": 25,
-          "display_string": "Item Level 25"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 65,
-          "display_string": "Durability 65 / 65"
-        }
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+6 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 6
+          }
+        ]
       },
       "reagents": [
         {
+          "quantity": 4,
           "reagent": {
+            "id": 4339,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/4339?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Bolt of Mageweave",
-            "id": 4339
-          },
-          "quantity": 4
+            "name": "Bolt of Mageweave"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 2604,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/2604?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Red Dye",
-            "id": 2604
-          },
-          "quantity": 2
+            "name": "Red Dye"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 8343,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/8343?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Heavy Silken Thread",
-            "id": 8343
-          },
-          "quantity": 2
+            "name": "Heavy Silken Thread"
+          }
         }
       ],
       "reagents_display_string": "Bolt of Mageweave (4), Red Dye (2), Heavy Silken Thread (2)"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Tailoring (240)",
+        "level": 240,
+        "profession": {
+          "id": 2540,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Tailoring"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "50",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "17"
+      },
+      "value": 1750
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 7000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1750
 }

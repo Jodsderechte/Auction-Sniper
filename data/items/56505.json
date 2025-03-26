@@ -4,267 +4,268 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/56505?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 13569,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/13569?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_helmet_leather_cataclysm_b_01.jpg",
   "id": 56505,
-  "name": "Darkbrand Helm",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Head",
+    "type": "HEAD"
   },
-  "level": 36,
-  "required_level": 31,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/56505?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 56505
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "HEAD",
-    "name": "Head"
-  },
-  "purchase_price": 7500,
-  "sell_price": 1500,
+  "level": 36,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 56505,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/56505?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Darkbrand Helm",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "5 Armor"
+      },
+      "value": 5
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "durability": {
+      "display_string": "Durability 70 / 70",
+      "value": 70
+    },
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
     "item": {
+      "id": 56505,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/56505?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 56505
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Darkbrand Helm",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/56505?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 56505
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Leather"
     },
-    "inventory_type": {
-      "type": "HEAD",
-      "name": "Head"
+    "level": {
+      "display_string": "Item Level 36",
+      "value": 36
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "armor": {
-      "value": 5,
-      "display": {
-        "display_string": "5 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
+    "media": {
+      "id": 56505,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/56505?namespace=static-11.1.0_59095-eu"
       }
     },
-    "stats": [
-      {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 4,
-        "display": {
-          "display_string": "+4 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 4,
-        "is_negated": true,
-        "display": {
-          "display_string": "+4 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1.0
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 6,
-        "display": {
-          "display_string": "+6 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
-      }
-    ],
-    "sell_price": {
-      "value": 1500,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "15",
-        "copper": "0"
-      }
+    "name": "Darkbrand Helm",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
     "requirements": {
       "level": {
-        "value": 31,
-        "display_string": "Requires Level 31"
+        "display_string": "Requires Level 31",
+        "value": 31
       }
     },
-    "set": {
-      "item_set": {
-        "key": {
-          "href": "https://eu.api.blizzard.com/data/wow/item-set/949?namespace=static-11.1.0_59095-eu"
-        },
-        "name": "The Dark Brand",
-        "id": 949
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "15"
       },
-      "items": [
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/56513?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Darkbrand Leggings",
-            "id": 56513
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/56509?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Darkbrand Chestguard",
-            "id": 56509
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/56505?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Darkbrand Helm",
-            "id": 56505
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/56499?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Darkbrand Belt",
-            "id": 56499
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/56495?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Darkbrand Shoulders",
-            "id": 56495
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/56491?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Darkbrand Boots",
-            "id": 56491
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/56484?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Darkbrand Gloves",
-            "id": 56484
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/56483?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Darkbrand Bracers",
-            "id": 56483
-          }
-        }
-      ],
+      "value": 1500
+    },
+    "set": {
+      "display_string": "The Dark Brand (0/8)",
       "effects": [
         {
           "display_string": "(2) Set: Increases Stamina by 11.",
           "required_count": 2
         }
       ],
-      "display_string": "The Dark Brand (0/8)"
-    },
-    "level": {
-      "value": 36,
-      "display_string": "Item Level 36"
-    },
-    "durability": {
-      "value": 70,
-      "display_string": "Durability 70 / 70"
-    }
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/13569?namespace=static-11.1.0_59095-eu"
+      "item_set": {
+        "id": 949,
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/item-set/949?namespace=static-11.1.0_59095-eu"
+        },
+        "name": "The Dark Brand"
       },
-      "id": 13569
-    }
-  ]
+      "items": [
+        {
+          "item": {
+            "id": 56513,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/56513?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darkbrand Leggings"
+          }
+        },
+        {
+          "item": {
+            "id": 56509,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/56509?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darkbrand Chestguard"
+          }
+        },
+        {
+          "item": {
+            "id": 56505,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/56505?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darkbrand Helm"
+          }
+        },
+        {
+          "item": {
+            "id": 56499,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/56499?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darkbrand Belt"
+          }
+        },
+        {
+          "item": {
+            "id": 56495,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/56495?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darkbrand Shoulders"
+          }
+        },
+        {
+          "item": {
+            "id": 56491,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/56491?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darkbrand Boots"
+          }
+        },
+        {
+          "item": {
+            "id": 56484,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/56484?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darkbrand Gloves"
+          }
+        },
+        {
+          "item": {
+            "id": 56483,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/56483?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Darkbrand Bracers"
+          }
+        }
+      ]
+    },
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+4 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 128,
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+4 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 4
+      },
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+6 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 6
+      }
+    ]
+  },
+  "purchase_price": 7500,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 31,
+  "sell_price": 1500
 }

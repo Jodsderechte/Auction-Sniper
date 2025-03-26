@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/38278?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 9989,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9989?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_pants_11.jpg",
   "id": 38278,
-  "name": "Haliscan Pantaloons",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Legs",
+    "type": "LEGS"
   },
-  "level": 20,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/38278?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 38278
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "LEGS",
-    "name": "Legs"
-  },
-  "purchase_price": 7632,
-  "sell_price": 1526,
+  "level": 20,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 38278,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/38278?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Haliscan Pantaloons",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Legs",
+      "type": "LEGS"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 38278,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/38278?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38278
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Haliscan Pantaloons",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/38278?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 38278
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
-    },
-    "inventory_type": {
-      "type": "LEGS",
-      "name": "Legs"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 22,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "0",
-        "copper": "22"
-      }
+      "name": "Cosmetic"
     },
     "level": {
-      "value": 20,
-      "display_string": "Item Level 20"
+      "display_string": "Item Level 20",
+      "value": 20
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 38278,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/9989?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/38278?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Haliscan Pantaloons",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "22",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "0"
       },
-      "id": 9989
+      "value": 22
     }
-  ]
+  },
+  "purchase_price": 7632,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1526
 }

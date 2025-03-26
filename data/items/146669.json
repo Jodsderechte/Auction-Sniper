@@ -4,263 +4,264 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/146669?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 34045,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/34045?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "description": "Her spirit is bound within the leather of these treads, anchoring her to this world.",
+  "icon_path": "data\\icons\\inv_leather_raiddemonhuntermythic_q_02boots.jpg",
   "id": 146669,
-  "name": "The Sentinel's Eternal Refuge",
-  "quality": {
-    "type": "LEGENDARY",
-    "name": "Legendary"
+  "inventory_type": {
+    "name": "Feet",
+    "type": "FEET"
   },
-  "level": 50,
-  "required_level": 40,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/146669?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 146669
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Leather"
   },
-  "inventory_type": {
-    "type": "FEET",
-    "name": "Feet"
-  },
-  "purchase_price": 1784073,
-  "sell_price": 356814,
+  "level": 50,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
-  "description": "Her spirit is bound within the leather of these treads, anchoring her to this world.",
+  "media": {
+    "id": 146669,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/146669?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "The Sentinel's Eternal Refuge",
   "preview_item": {
+    "armor": {
+      "display": {
+        "color": {
+          "a": 1.0,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "display_string": "64 Armor"
+      },
+      "value": 64
+    },
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "bonus_list": [
+      3630
+    ],
+    "context": 0,
+    "description": "Her spirit is bound within the leather of these treads, anchoring her to this world.",
+    "durability": {
+      "display_string": "Durability 95 / 95",
+      "value": 95
+    },
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
     "item": {
+      "id": 146669,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/146669?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "id": 146669
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 2,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
+      },
+      "name": "Leather"
+    },
+    "legacy": "Legacy Item: Effects are inactive",
+    "level": {
+      "display_string": "Item Level 251",
+      "value": 251
+    },
+    "limit_category": "Unique-Equipped: Legion Legendary (1)",
+    "media": {
+      "id": 146669,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/146669?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "The Sentinel's Eternal Refuge",
+    "quality": {
+      "name": "Legendary",
+      "type": "LEGENDARY"
+    },
+    "requirements": {
+      "level": {
+        "display_string": "Requires Level 45",
+        "value": 45
+      },
+      "playable_classes": {
+        "display_string": "Classes: Druid, Demon Hunter, Monk, Rogue",
+        "links": [
+          {
+            "id": 11,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/playable-class/11?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Druid"
+          },
+          {
+            "id": 12,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/playable-class/12?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Demon Hunter"
+          },
+          {
+            "id": 10,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/playable-class/10?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Monk"
+          },
+          {
+            "id": 4,
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/playable-class/4?namespace=static-11.1.0_59095-eu"
+            },
+            "name": "Rogue"
+          }
+        ]
+      }
     },
     "sockets": [
       {
         "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
         }
       },
       {
         "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
         }
       },
       {
         "socket_type": {
-          "type": "PRISMATIC",
-          "name": "Prismatic Socket"
+          "name": "Prismatic Socket",
+          "type": "PRISMATIC"
         }
       }
     ],
-    "context": 0,
-    "bonus_list": [
-      3630
-    ],
-    "quality": {
-      "type": "LEGENDARY",
-      "name": "Legendary"
-    },
-    "name": "The Sentinel's Eternal Refuge",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/146669?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 146669
-    },
-    "item_class": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Armor",
-      "id": 4
-    },
-    "item_subclass": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-eu"
-      },
-      "name": "Leather",
-      "id": 2
-    },
-    "inventory_type": {
-      "type": "FEET",
-      "name": "Feet"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "limit_category": "Unique-Equipped: Legion Legendary (1)",
-    "armor": {
-      "value": 64,
-      "display": {
-        "display_string": "64 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1.0
-        }
-      }
-    },
     "stats": [
       {
-        "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 51,
         "display": {
-          "display_string": "+51 Intellect",
           "color": {
-            "r": 255,
-            "g": 255,
+            "a": 1.0,
             "b": 255,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+51 Intellect"
+        },
+        "type": {
+          "name": "Intellect",
+          "type": "INTELLECT"
+        },
+        "value": 51
       },
       {
-        "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 51,
-        "is_negated": true,
         "display": {
-          "display_string": "+51 Agility",
           "color": {
-            "r": 128,
-            "g": 128,
+            "a": 1.0,
             "b": 128,
-            "a": 1.0
-          }
-        }
+            "g": 128,
+            "r": 128
+          },
+          "display_string": "+51 Agility"
+        },
+        "is_negated": true,
+        "type": {
+          "name": "Agility",
+          "type": "AGILITY"
+        },
+        "value": 51
       },
       {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 77,
         "display": {
-          "display_string": "+77 Stamina",
           "color": {
-            "r": 255,
-            "g": 255,
+            "a": 1.0,
             "b": 255,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+77 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 77
       },
       {
-        "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
-        },
-        "value": 44,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+44 Critical Strike",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+44 Critical Strike"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Critical Strike",
+          "type": "CRIT_RATING"
+        },
+        "value": 44
       },
       {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 58,
-        "is_equip_bonus": true,
         "display": {
-          "display_string": "+58 Mastery",
           "color": {
-            "r": 0,
-            "g": 255,
+            "a": 1.0,
             "b": 0,
-            "a": 1.0
-          }
-        }
+            "g": 255,
+            "r": 0
+          },
+          "display_string": "+58 Mastery"
+        },
+        "is_equip_bonus": true,
+        "type": {
+          "name": "Mastery",
+          "type": "MASTERY_RATING"
+        },
+        "value": 58
       }
-    ],
-    "legacy": "Legacy Item: Effects are inactive",
-    "requirements": {
-      "level": {
-        "value": 45,
-        "display_string": "Requires Level 45"
-      },
-      "playable_classes": {
-        "links": [
-          {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/playable-class/11?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Druid",
-            "id": 11
-          },
-          {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/playable-class/12?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Demon Hunter",
-            "id": 12
-          },
-          {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/playable-class/10?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Monk",
-            "id": 10
-          },
-          {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/playable-class/4?namespace=static-11.1.0_59095-eu"
-            },
-            "name": "Rogue",
-            "id": 4
-          }
-        ],
-        "display_string": "Classes: Druid, Demon Hunter, Monk, Rogue"
-      }
-    },
-    "description": "Her spirit is bound within the leather of these treads, anchoring her to this world.",
-    "level": {
-      "value": 251,
-      "display_string": "Item Level 251"
-    },
-    "durability": {
-      "value": 95,
-      "display_string": "Durability 95 / 95"
-    }
+    ]
   },
+  "purchase_price": 1784073,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/34045?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 34045
-    }
-  ]
+  "quality": {
+    "name": "Legendary",
+    "type": "LEGENDARY"
+  },
+  "required_level": 40,
+  "sell_price": 356814
 }

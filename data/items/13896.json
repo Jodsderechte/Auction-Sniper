@@ -4,105 +4,106 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/13896?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3915,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3915?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_chest_cloth_23.jpg",
   "id": 13896,
-  "name": "Dark Green Wedding Hanbok",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Chest",
+    "type": "ROBE"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/13896?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 13896
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 5,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Cosmetic",
-    "id": 5
+    "name": "Cosmetic"
   },
-  "inventory_type": {
-    "type": "ROBE",
-    "name": "Chest"
-  },
-  "purchase_price": 75000,
-  "sell_price": 1875,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 13896,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/13896?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Dark Green Wedding Hanbok",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Chest",
+      "type": "ROBE"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 13896,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/13896?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13896
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Dark Green Wedding Hanbok",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/13896?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 13896
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 5,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Cosmetic",
-      "id": 5
-    },
-    "inventory_type": {
-      "type": "ROBE",
-      "name": "Chest"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "sell_price": {
-      "value": 1875,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "18",
-        "copper": "75"
-      }
+      "name": "Cosmetic"
     },
     "level": {
-      "value": 1,
-      "display_string": "Item Level 1"
+      "display_string": "Item Level 1",
+      "value": 1
     },
-    "is_subclass_hidden": true
-  },
-  "purchase_quantity": 1,
-  "appearances": [
-    {
+    "media": {
+      "id": 13896,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3915?namespace=static-11.1.0_59095-eu"
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/13896?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Dark Green Wedding Hanbok",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "75",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "18"
       },
-      "id": 3915
+      "value": 1875
     }
-  ]
+  },
+  "purchase_price": 75000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 0,
+  "sell_price": 1875
 }

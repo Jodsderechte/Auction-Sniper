@@ -4,92 +4,93 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/200905?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_inscription_weaponscroll03.jpg",
   "id": 200905,
-  "name": "Illusion: Primal Earth",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/200905?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 200905
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Consumable",
-    "id": 0
+    "name": "Consumable"
   },
   "item_subclass": {
+    "id": 8,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Other",
-    "id": 8
+    "name": "Other"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 50000,
-  "sell_price": 10000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
+  "media": {
+    "id": 200905,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/200905?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Illusion: Primal Earth",
   "preview_item": {
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 200905,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/200905?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200905
-    },
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
-    },
-    "name": "Illusion: Primal Earth",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/200905?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 200905
+      }
     },
     "item_class": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Consumable",
-      "id": 0
+      "name": "Consumable"
     },
     "item_subclass": {
+      "id": 8,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Other",
-      "id": 8
+      "name": "Other"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
+    "media": {
+      "id": 200905,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/200905?namespace=static-11.1.0_59095-eu"
+      }
+    },
+    "name": "Illusion: Primal Earth",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "spells": [
       {
+        "description": "Use: Collect the weapon enchantment appearance of Primal Earth. (1 Sec Cooldown)",
         "spell": {
+          "id": 392469,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/spell/392469?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Illusion: Primal Earth",
-          "id": 392469
-        },
-        "description": "Use: Collect the weapon enchantment appearance of Primal Earth. (1 Sec Cooldown)"
+          "name": "Illusion: Primal Earth"
+        }
       }
-    ],
-    "is_subclass_hidden": true
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 50000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 0,
+  "sell_price": 10000
 }

@@ -4,277 +4,278 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/16043?namespace=static-11.1.0_59095-eu"
     }
   },
+  "description": "Teaches you how to make a Thorium Rifle.",
+  "icon_path": "data\\icons\\inv_scroll_06.jpg",
   "id": 16043,
-  "name": "Schematic: Thorium Rifle",
-  "quality": {
-    "type": "UNCOMMON",
-    "name": "Uncommon"
+  "inventory_type": {
+    "name": "Non-equippable",
+    "type": "NON_EQUIP"
   },
-  "level": 1,
-  "required_level": 0,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/16043?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 16043
-  },
+  "is_equippable": false,
+  "is_stackable": false,
   "item_class": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Recipe",
-    "id": 9
+    "name": "Recipe"
   },
   "item_subclass": {
+    "id": 3,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Engineering",
-    "id": 3
+    "name": "Engineering"
   },
-  "inventory_type": {
-    "type": "NON_EQUIP",
-    "name": "Non-equippable"
-  },
-  "purchase_price": 12000,
-  "sell_price": 3000,
+  "level": 1,
   "max_count": 0,
-  "is_equippable": false,
-  "is_stackable": false,
-  "description": "Teaches you how to make a Thorium Rifle.",
+  "media": {
+    "id": 16043,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/16043?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Schematic: Thorium Rifle",
   "preview_item": {
+    "description": "Teaches you how to make a Thorium Rifle.",
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 16043,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/16043?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16043
-    },
-    "quality": {
-      "type": "UNCOMMON",
-      "name": "Uncommon"
-    },
-    "name": "Schematic: Thorium Rifle",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/16043?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 16043
+      }
     },
     "item_class": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Recipe",
-      "id": 9
+      "name": "Recipe"
     },
     "item_subclass": {
+      "id": 3,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Engineering",
-      "id": 3
+      "name": "Engineering"
     },
-    "inventory_type": {
-      "type": "NON_EQUIP",
-      "name": "Non-equippable"
-    },
-    "sell_price": {
-      "value": 3000,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "30",
-        "copper": "0"
+    "media": {
+      "id": 16043,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/16043?namespace=static-11.1.0_59095-eu"
       }
     },
-    "requirements": {
-      "skill": {
-        "profession": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Classic Engineering",
-          "id": 2506
-        },
-        "level": 260,
-        "display_string": "Requires Classic Engineering (260)"
-      }
+    "name": "Schematic: Thorium Rifle",
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
     },
-    "description": "Teaches you how to make a Thorium Rifle.",
     "recipe": {
       "item": {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 80 / 80",
+          "value": 80
+        },
+        "inventory_type": {
+          "name": "Ranged",
+          "type": "RANGEDRIGHT"
+        },
         "item": {
+          "id": 15995,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item/15995?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 15995
-        },
-        "quality": {
-          "type": "UNCOMMON",
-          "name": "Uncommon"
-        },
-        "name": "Thorium Rifle",
-        "media": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/media/item/15995?namespace=static-11.1.0_59095-eu"
-          },
-          "id": 15995
+          }
         },
         "item_class": {
+          "id": 2,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Weapon",
-          "id": 2
+          "name": "Weapon"
         },
         "item_subclass": {
+          "id": 3,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Gun",
-          "id": 3
+          "name": "Gun"
         },
-        "inventory_type": {
-          "type": "RANGEDRIGHT",
-          "name": "Ranged"
+        "level": {
+          "display_string": "Item Level 27",
+          "value": 27
         },
-        "binding": {
-          "type": "ON_EQUIP",
-          "name": "Binds when equipped"
-        },
-        "weapon": {
-          "damage": {
-            "min_value": 5,
-            "max_value": 10,
-            "display_string": "5 - 10 Damage",
-            "damage_class": {
-              "type": "PHYSICAL",
-              "name": "Physical"
-            }
-          },
-          "attack_speed": {
-            "value": 3000,
-            "display_string": "Speed 3.00"
-          },
-          "dps": {
-            "value": 2.4999998,
-            "display_string": "(2.5 damage per second)"
+        "media": {
+          "id": 15995,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/media/item/15995?namespace=static-11.1.0_59095-eu"
           }
         },
-        "stats": [
-          {
-            "type": {
-              "type": "AGILITY",
-              "name": "Agility"
-            },
-            "value": 3,
-            "is_negated": true,
-            "display": {
-              "display_string": "+3 Agility",
-              "color": {
-                "r": 128,
-                "g": 128,
-                "b": 128,
-                "a": 1.0
-              }
-            }
-          },
-          {
-            "type": {
-              "type": "STAMINA",
-              "name": "Stamina"
-            },
-            "value": 5,
-            "display": {
-              "display_string": "+5 Stamina",
-              "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 1.0
-              }
-            }
-          }
-        ],
-        "sell_price": {
-          "value": 1500,
-          "display_strings": {
-            "header": "Sell Price:",
-            "gold": "0",
-            "silver": "15",
-            "copper": "0"
-          }
+        "name": "Thorium Rifle",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
         },
         "requirements": {
           "level": {
-            "value": 20,
-            "display_string": "Requires Level 20"
+            "display_string": "Requires Level 20",
+            "value": 20
           }
         },
-        "level": {
-          "value": 27,
-          "display_string": "Item Level 27"
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "15"
+          },
+          "value": 1500
         },
-        "durability": {
-          "value": 80,
-          "display_string": "Durability 80 / 80"
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 128,
+                "g": 128,
+                "r": 128
+              },
+              "display_string": "+3 Agility"
+            },
+            "is_negated": true,
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 3.00",
+            "value": 3000
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "5 - 10 Damage",
+            "max_value": 10,
+            "min_value": 5
+          },
+          "dps": {
+            "display_string": "(2.5 damage per second)",
+            "value": 2.4999998
+          }
         }
       },
       "reagents": [
         {
+          "quantity": 2,
           "reagent": {
+            "id": 10559,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/10559?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mithril Tube",
-            "id": 10559
-          },
-          "quantity": 2
+            "name": "Mithril Tube"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 10561,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/10561?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Mithril Casing",
-            "id": 10561
-          },
-          "quantity": 2
+            "name": "Mithril Casing"
+          }
         },
         {
+          "quantity": 2,
           "reagent": {
+            "id": 15994,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/15994?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Widget",
-            "id": 15994
-          },
-          "quantity": 2
+            "name": "Thorium Widget"
+          }
         },
         {
+          "quantity": 4,
           "reagent": {
+            "id": 12359,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/12359?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Thorium Bar",
-            "id": 12359
-          },
-          "quantity": 4
+            "name": "Thorium Bar"
+          }
         },
         {
+          "quantity": 1,
           "reagent": {
+            "id": 10546,
             "key": {
               "href": "https://eu.api.blizzard.com/data/wow/item/10546?namespace=static-11.1.0_59095-eu"
             },
-            "name": "Deadly Scope",
-            "id": 10546
-          },
-          "quantity": 1
+            "name": "Deadly Scope"
+          }
         }
       ],
       "reagents_display_string": "Mithril Tube (2), Mithril Casing (2), Thorium Widget (2), Thorium Bar (4), Deadly Scope"
     },
-    "is_subclass_hidden": true
+    "requirements": {
+      "skill": {
+        "display_string": "Requires Classic Engineering (260)",
+        "level": 260,
+        "profession": {
+          "id": 2506,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Classic Engineering"
+        }
+      }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "0",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "30"
+      },
+      "value": 3000
+    }
   },
-  "purchase_quantity": 1
+  "purchase_price": 12000,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Uncommon",
+    "type": "UNCOMMON"
+  },
+  "required_level": 0,
+  "sell_price": 3000
 }

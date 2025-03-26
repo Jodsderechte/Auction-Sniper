@@ -4,150 +4,151 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/12531?namespace=static-11.1.0_59095-eu"
     }
   },
+  "appearances": [
+    {
+      "id": 3567,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3567?namespace=static-11.1.0_59095-eu"
+      }
+    }
+  ],
+  "icon_path": "data\\icons\\inv_weapon_shortblade_03.jpg",
   "id": 12531,
-  "name": "Searing Needle",
-  "quality": {
-    "type": "RARE",
-    "name": "Rare"
+  "inventory_type": {
+    "name": "One-Hand",
+    "type": "WEAPON"
   },
-  "level": 28,
-  "required_level": 22,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/12531?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 12531
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 2,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Weapon",
-    "id": 2
+    "name": "Weapon"
   },
   "item_subclass": {
+    "id": 15,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Dagger",
-    "id": 15
+    "name": "Dagger"
   },
-  "inventory_type": {
-    "type": "WEAPON",
-    "name": "One-Hand"
-  },
-  "purchase_price": 69841,
-  "sell_price": 13968,
+  "level": 28,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 12531,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/12531?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Searing Needle",
   "preview_item": {
-    "item": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item/12531?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12531
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
     },
-    "context": 0,
     "bonus_list": [
       6710
     ],
-    "quality": {
-      "type": "RARE",
-      "name": "Rare"
+    "context": 0,
+    "durability": {
+      "display_string": "Durability 60 / 60",
+      "value": 60
     },
-    "name": "Searing Needle",
-    "media": {
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "item": {
+      "id": 12531,
       "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/12531?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 12531
+        "href": "https://eu.api.blizzard.com/data/wow/item/12531?namespace=static-11.1.0_59095-eu"
+      }
     },
     "item_class": {
+      "id": 2,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Weapon",
-      "id": 2
+      "name": "Weapon"
     },
     "item_subclass": {
+      "id": 15,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Dagger",
-      "id": 15
+      "name": "Dagger"
     },
-    "inventory_type": {
-      "type": "WEAPON",
-      "name": "One-Hand"
+    "level": {
+      "display_string": "Item Level 371",
+      "value": 371
     },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
-    },
-    "unique_equipped": "Unique-Equipped",
-    "weapon": {
-      "damage": {
-        "min_value": 239,
-        "max_value": 399,
-        "display_string": "239 - 399 Damage",
-        "damage_class": {
-          "type": "PHYSICAL",
-          "name": "Physical"
-        }
-      },
-      "attack_speed": {
-        "value": 1800,
-        "display_string": "Speed 1.80"
-      },
-      "dps": {
-        "value": 177.22221,
-        "display_string": "(177.2 damage per second)"
+    "media": {
+      "id": 12531,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/12531?namespace=static-11.1.0_59095-eu"
       }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/16454?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Searing Blast",
-          "id": 16454
-        },
-        "description": "Chance on hit: Blasts a target for 431 Fire damage and increases damage done to target by Fire spells by up to 72 for 30 sec."
-      }
-    ],
-    "sell_price": {
-      "value": 585936,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "58",
-        "silver": "59",
-        "copper": "36"
-      }
+    "name": "Searing Needle",
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
     },
     "requirements": {
       "level": {
-        "value": 22,
-        "display_string": "Requires Level 22"
+        "display_string": "Requires Level 22",
+        "value": 22
       }
     },
-    "level": {
-      "value": 371,
-      "display_string": "Item Level 371"
+    "sell_price": {
+      "display_strings": {
+        "copper": "36",
+        "gold": "58",
+        "header": "Sell Price:",
+        "silver": "59"
+      },
+      "value": 585936
     },
-    "durability": {
-      "value": 60,
-      "display_string": "Durability 60 / 60"
+    "spells": [
+      {
+        "description": "Chance on hit: Blasts a target for 431 Fire damage and increases damage done to target by Fire spells by up to 72 for 30 sec.",
+        "spell": {
+          "id": 16454,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/16454?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Searing Blast"
+        }
+      }
+    ],
+    "unique_equipped": "Unique-Equipped",
+    "weapon": {
+      "attack_speed": {
+        "display_string": "Speed 1.80",
+        "value": 1800
+      },
+      "damage": {
+        "damage_class": {
+          "name": "Physical",
+          "type": "PHYSICAL"
+        },
+        "display_string": "239 - 399 Damage",
+        "max_value": 399,
+        "min_value": 239
+      },
+      "dps": {
+        "display_string": "(177.2 damage per second)",
+        "value": 177.22221
+      }
     }
   },
+  "purchase_price": 69841,
   "purchase_quantity": 1,
-  "appearances": [
-    {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/item-appearance/3567?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 3567
-    }
-  ]
+  "quality": {
+    "name": "Rare",
+    "type": "RARE"
+  },
+  "required_level": 22,
+  "sell_price": 13968
 }

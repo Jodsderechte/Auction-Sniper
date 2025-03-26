@@ -4,134 +4,135 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/79329?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_inscription_trinket_ox.jpg",
   "id": 79329,
-  "name": "Relic of Niuzao",
-  "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+  "inventory_type": {
+    "name": "Trinket",
+    "type": "TRINKET"
   },
-  "level": 39,
-  "required_level": 35,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/79329?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 79329
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 4,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Armor"
   },
   "item_subclass": {
+    "id": 0,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Miscellaneous",
-    "id": 0
+    "name": "Miscellaneous"
   },
-  "inventory_type": {
-    "type": "TRINKET",
-    "name": "Trinket"
-  },
-  "purchase_price": 989550,
-  "sell_price": 247387,
+  "level": 39,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 79329,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/79329?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Relic of Niuzao",
   "preview_item": {
+    "binding": {
+      "name": "Binds when equipped",
+      "type": "ON_EQUIP"
+    },
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_subclass_hidden": true,
     "item": {
+      "id": 79329,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/79329?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 79329
-    },
-    "quality": {
-      "type": "EPIC",
-      "name": "Epic"
-    },
-    "name": "Relic of Niuzao",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/79329?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 79329
+      }
     },
     "item_class": {
+      "id": 4,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Armor"
     },
     "item_subclass": {
+      "id": 0,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Miscellaneous",
-      "id": 0
+      "name": "Miscellaneous"
     },
-    "inventory_type": {
-      "type": "TRINKET",
-      "name": "Trinket"
-    },
-    "binding": {
-      "type": "ON_EQUIP",
-      "name": "Binds when equipped"
+    "level": {
+      "display_string": "Item Level 39",
+      "value": 39
     },
     "limit_category": "Unique-Equipped: Darkmoon Card of the Mists (1)",
-    "stats": [
-      {
-        "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
-        },
-        "value": 6,
-        "display": {
-          "display_string": "+6 Stamina",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1.0
-          }
-        }
+    "media": {
+      "id": 79329,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/79329?namespace=static-11.1.0_59095-eu"
       }
-    ],
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/128988?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "Protection of the Celestials",
-          "id": 128988
-        },
-        "description": "Use: Grants 5 armor for 10 sec. (1 Min Cooldown)"
-      }
-    ],
-    "sell_price": {
-      "value": 247387,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "24",
-        "silver": "73",
-        "copper": "87"
-      }
+    },
+    "name": "Relic of Niuzao",
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
     },
     "requirements": {
       "level": {
-        "value": 35,
-        "display_string": "Requires Level 35"
+        "display_string": "Requires Level 35",
+        "value": 35
       }
     },
-    "level": {
-      "value": 39,
-      "display_string": "Item Level 39"
+    "sell_price": {
+      "display_strings": {
+        "copper": "87",
+        "gold": "24",
+        "header": "Sell Price:",
+        "silver": "73"
+      },
+      "value": 247387
     },
-    "is_subclass_hidden": true
+    "spells": [
+      {
+        "description": "Use: Grants 5 armor for 10 sec. (1 Min Cooldown)",
+        "spell": {
+          "id": 128988,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/128988?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "Protection of the Celestials"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "+6 Stamina"
+        },
+        "type": {
+          "name": "Stamina",
+          "type": "STAMINA"
+        },
+        "value": 6
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 989550,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Epic",
+    "type": "EPIC"
+  },
+  "required_level": 35,
+  "sell_price": 247387
 }

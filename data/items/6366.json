@@ -4,117 +4,118 @@
       "href": "https://eu.api.blizzard.com/data/wow/item/6366?namespace=static-11.1.0_59095-eu"
     }
   },
+  "icon_path": "data\\icons\\inv_fishingpole_02.jpg",
   "id": 6366,
-  "name": "Darkwood Fishing Pole",
-  "quality": {
-    "type": "COMMON",
-    "name": "Common"
+  "inventory_type": {
+    "name": "Profession Tool",
+    "type": "PROFESSION_TOOL"
   },
-  "level": 12,
-  "required_level": 7,
-  "media": {
-    "key": {
-      "href": "https://eu.api.blizzard.com/data/wow/media/item/6366?namespace=static-11.1.0_59095-eu"
-    },
-    "id": 6366
-  },
+  "is_equippable": true,
+  "is_stackable": false,
   "item_class": {
+    "id": 19,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Profession",
-    "id": 19
+    "name": "Profession"
   },
   "item_subclass": {
+    "id": 9,
     "key": {
       "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/9?namespace=static-11.1.0_59095-eu"
     },
-    "name": "Fishing",
-    "id": 9
+    "name": "Fishing"
   },
-  "inventory_type": {
-    "type": "PROFESSION_TOOL",
-    "name": "Profession Tool"
-  },
-  "purchase_price": 4449,
-  "sell_price": 889,
+  "level": 12,
   "max_count": 0,
-  "is_equippable": true,
-  "is_stackable": false,
+  "media": {
+    "id": 6366,
+    "key": {
+      "href": "https://eu.api.blizzard.com/data/wow/media/item/6366?namespace=static-11.1.0_59095-eu"
+    }
+  },
+  "name": "Darkwood Fishing Pole",
   "preview_item": {
+    "inventory_type": {
+      "name": "Profession Tool",
+      "type": "PROFESSION_TOOL"
+    },
     "item": {
+      "id": 6366,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item/6366?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6366
-    },
-    "quality": {
-      "type": "COMMON",
-      "name": "Common"
-    },
-    "name": "Darkwood Fishing Pole",
-    "media": {
-      "key": {
-        "href": "https://eu.api.blizzard.com/data/wow/media/item/6366?namespace=static-11.1.0_59095-eu"
-      },
-      "id": 6366
+      }
     },
     "item_class": {
+      "id": 19,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Profession",
-      "id": 19
+      "name": "Profession"
     },
     "item_subclass": {
+      "id": 9,
       "key": {
         "href": "https://eu.api.blizzard.com/data/wow/item-class/19/item-subclass/9?namespace=static-11.1.0_59095-eu"
       },
-      "name": "Fishing",
-      "id": 9
+      "name": "Fishing"
     },
-    "inventory_type": {
-      "type": "PROFESSION_TOOL",
-      "name": "Profession Tool"
+    "media": {
+      "id": 6366,
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/item/6366?namespace=static-11.1.0_59095-eu"
+      }
     },
-    "spells": [
-      {
-        "spell": {
-          "key": {
-            "href": "https://eu.api.blizzard.com/data/wow/spell/124034?namespace=static-11.1.0_59095-eu"
-          },
-          "name": "+8 Fishing",
-          "id": 124034
-        },
-        "description": "Equip: +8 Fishing Skill."
-      }
-    ],
-    "sell_price": {
-      "value": 889,
-      "display_strings": {
-        "header": "Sell Price:",
-        "gold": "0",
-        "silver": "8",
-        "copper": "89"
-      }
+    "name": "Darkwood Fishing Pole",
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
     },
     "requirements": {
       "level": {
-        "value": 7,
-        "display_string": "Requires Level 7"
+        "display_string": "Requires Level 7",
+        "value": 7
       },
       "skill": {
+        "display_string": "Requires Fishing (50)",
+        "level": 50,
         "profession": {
+          "id": 356,
           "key": {
             "href": "https://eu.api.blizzard.com/data/wow/profession/356?namespace=static-11.1.0_59095-eu"
           },
-          "name": "Fishing",
-          "id": 356
-        },
-        "level": 50,
-        "display_string": "Requires Fishing (50)"
+          "name": "Fishing"
+        }
       }
-    }
+    },
+    "sell_price": {
+      "display_strings": {
+        "copper": "89",
+        "gold": "0",
+        "header": "Sell Price:",
+        "silver": "8"
+      },
+      "value": 889
+    },
+    "spells": [
+      {
+        "description": "Equip: +8 Fishing Skill.",
+        "spell": {
+          "id": 124034,
+          "key": {
+            "href": "https://eu.api.blizzard.com/data/wow/spell/124034?namespace=static-11.1.0_59095-eu"
+          },
+          "name": "+8 Fishing"
+        }
+      }
+    ]
   },
-  "purchase_quantity": 1
+  "purchase_price": 4449,
+  "purchase_quantity": 1,
+  "quality": {
+    "name": "Common",
+    "type": "COMMON"
+  },
+  "required_level": 7,
+  "sell_price": 889
 }
