@@ -8,7 +8,7 @@ from glob import glob
 # --- Configuration Constants ---
 REQUESTS_PER_SECOND = 90
 DELAY = 1.0 / REQUESTS_PER_SECOND  # Delay based on rate limit
-HOURLY_LIMIT_STATUS = {429}
+MAX_RETRIES = 5
 
 # Endpoints and namespaces for item requests
 OAUTH_TOKEN_URL = "https://eu.battle.net/oauth/token"
@@ -19,11 +19,11 @@ AUCTIONS_DIR = os.path.join("data", "auctions") # Auctions files named like data
 ENCOUNTERED_ITEMS_FILE = os.path.join("data", "encountered_items.json")
 ITEMS_SAVE_DIR = os.path.join("data", "items")
 MEDIA_SAVE_DIR = os.path.join("data", "media")
-
 def save_json(data, filename):
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     with open(filename, "w") as f:
         json.dump(data, f, indent=2)
+
 
 def load_encountered_items():
     if os.path.exists(ENCOUNTERED_ITEMS_FILE):
@@ -33,6 +33,7 @@ def load_encountered_items():
         print(f"No encountered items file found at {ENCOUNTERED_ITEMS_FILE}.")
         return set()
 
+
 def load_auctions_item_ids():
     """
     Reads all auction data files from the auctions directory and
@@ -40,7 +41,7 @@ def load_auctions_item_ids():
     """
     item_ids = set()
     # Assume auctions files match the pattern "realm_*.json"
-    for filepath in glob(os.path.join(AUCTIONS_DIR, "*.json")):
+    for filepath in glob(os.path.join(AUCTIONS_DIR, "realm_*.json")):
         try:
             with open(filepath, "r") as f:
                 data = json.load(f)
@@ -54,6 +55,7 @@ def load_auctions_item_ids():
             print(f"Error reading {filepath}: {e}")
     return item_ids
 
+
 async def get_oauth_token(session, client_id, client_secret):
     data = {"grant_type": "client_credentials"}
     async with session.post(OAUTH_TOKEN_URL, data=data, auth=aiohttp.BasicAuth(client_id, client_secret)) as resp:
@@ -64,37 +66,62 @@ async def get_oauth_token(session, client_id, client_secret):
             raise Exception("Could not retrieve access token.")
         return token
 
+
+async def fetch_data(session, url, headers, retries=MAX_RETRIES, delay=DELAY):
+    """
+    Fetch JSON data from the URL with retry logic.
+    
+    Blizzard's throttling guidelines state:
+      - Up to 100 requests per second are allowed.
+      - Exceeding the per-second limit results in a 429 error for the remainder of the second.
+    
+    If we get a 429, wait 1 second (to allow the quota to refresh) before retrying.
+    """
+    for attempt in range(1, retries + 1):
+        try:
+            # Wait a base delay before making the request
+            await asyncio.sleep(delay)
+            async with session.get(url, headers=headers) as resp:
+                if resp.status == 429:
+                    # 429: Too many requests for this second
+                    if attempt < retries:
+                        await asyncio.sleep(1)
+                        continue
+                    else:
+                        raise aiohttp.ClientResponseError(
+                            status=resp.status,
+                            request_info=resp.request_info,
+                            history=resp.history,
+                            message=f"Rate limit exceeded on final attempt for {url}"
+                        )
+                resp.raise_for_status()
+                return await resp.json()
+        except aiohttp.ClientResponseError as e:
+            if e.status == 429:
+                if attempt < retries:
+                    await asyncio.sleep(1)
+                    continue
+                else:
+                    print(f"Final attempt reached for {url}. Giving up due to rate limit.")
+                    raise
+            else:
+                raise
+    raise Exception("Failed to fetch data after maximum retries")
+
+
 async def fetch_item_data(session, item_id, headers):
-    await asyncio.sleep(DELAY)
     url = ITEM_API_URL_TEMPLATE.format(item_id=item_id)
-    async with session.get(url, headers=headers) as resp:
-        if resp.status in HOURLY_LIMIT_STATUS:
-            raise aiohttp.ClientResponseError(
-                status=resp.status,
-                request_info=resp.request_info,
-                history=resp.history,
-                message=f"Rate limit hit for item {item_id}"
-            )
-        resp.raise_for_status()
-        return await resp.json()
+    return await fetch_data(session, url, headers)
+
 
 async def fetch_media_data(session, media_url, headers):
-    await asyncio.sleep(DELAY)
-    async with session.get(media_url, headers=headers) as resp:
-        if resp.status in HOURLY_LIMIT_STATUS:
-            raise aiohttp.ClientResponseError(
-                status=resp.status,
-                request_info=resp.request_info,
-                history=resp.history,
-                message="Rate limit hit for media"
-            )
-        resp.raise_for_status()
-        return await resp.json()
+    return await fetch_data(session, media_url, headers)
+
 
 async def process_new_item(session, item_id, headers):
     """
     Process a single new item: fetch item data and its media.
-    Returns True if successful, False if a rate limit error is encountered.
+    Returns True if successful, False if retries are exhausted.
     """
     try:
         item_data = await fetch_item_data(session, item_id, headers)
@@ -114,16 +141,10 @@ async def process_new_item(session, item_id, headers):
             print(f"No media URL for item {item_id}")
         return True
 
-    except aiohttp.ClientResponseError as e:
-        if e.status in HOURLY_LIMIT_STATUS:
-            print(f"Rate limit hit while processing item {item_id}: {e}")
-            return False
-        else:
-            print(f"HTTP error for item {item_id}: {e}")
-            return False
     except Exception as e:
         print(f"Error processing item {item_id}: {e}")
         return False
+
 
 async def process_new_items(new_item_ids, headers, client_id, client_secret):
     async with aiohttp.ClientSession() as session:
@@ -137,6 +158,7 @@ async def process_new_items(new_item_ids, headers, client_id, client_secret):
         results = await asyncio.gather(*tasks)
         processed_items = {item_id for item_id, success in zip(new_item_ids, results) if success}
         return processed_items
+
 
 async def main():
     # Get client credentials from environment
@@ -167,6 +189,7 @@ async def main():
     final_encountered = list(old_items.union(processed_new_items))
     save_json(final_encountered, ENCOUNTERED_ITEMS_FILE)
     print(f"Encountered items file updated with {len(final_encountered)} items.")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
