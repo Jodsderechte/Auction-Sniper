@@ -40,6 +40,9 @@ AUCTIONS_DIR = os.path.join("data", "auctions") # Auctions files named like data
 ENCOUNTERED_ITEMS_FILE = os.path.join("data", "encountered_items.json")
 ITEMS_SAVE_DIR = os.path.join("data", "items")
 MEDIA_SAVE_DIR = os.path.join("data", "media")
+ICONS_DIR = os.path.join("data", "icons")
+
+
 def save_json(data, filename):
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     with open(filename, "w") as f:
@@ -134,6 +137,28 @@ async def fetch_item_data(session, item_id, headers):
     url = ITEM_API_URL_TEMPLATE.format(item_id=item_id)
     return await fetch_data(session, url, headers)
 
+async def fetch_and_save_icon(session, icon_url):
+    """
+    Fetches the icon image from the given URL and saves it to the ICONS_DIR.
+    Returns the relative path to the saved icon.
+    """
+    # Extract the filename from the URL
+    filename = os.path.basename(icon_url)
+    icon_path = os.path.join(ICONS_DIR, filename)
+
+    # Create the icons directory if it doesn't exist
+    os.makedirs(ICONS_DIR, exist_ok=True)
+
+    # Download and save the icon
+    async with session.get(icon_url) as response:
+        if response.status == 200:
+            with open(icon_path, 'wb') as f:
+                f.write(await response.read())
+            return os.path.relpath(icon_path)
+        else:
+            print(f"Failed to download icon from {icon_url}")
+            return None
+
 
 async def fetch_media_data(session, media_url, headers):
     return await fetch_data(session, media_url, headers)
@@ -141,31 +166,50 @@ async def fetch_media_data(session, media_url, headers):
 
 async def process_new_item(session, item_id, headers):
     """
-    Process a single new item: fetch item data and its media.
+    Process a single new item: fetch item data, retrieve associated media,
+    download the icon image, update the item data with icon_path, and save the updated item JSON.
     Returns True if successful, False if retries are exhausted.
     """
     try:
+        # Fetch item data
         item_data = await fetch_item_data(session, item_id, headers)
-        item_file = os.path.join(ITEMS_SAVE_DIR, f"{item_id}.json")
-        save_json(item_data, item_file)
-        print(f"Saved item data for item {item_id}")
+        print(f"Fetched item data for item {item_id}")
 
+        # Get the media URL from the item data
         media_info = item_data.get("media", {})
         media_key = media_info.get("key", {})
         media_url = media_key.get("href")
+
         if media_url:
+            # Fetch media data to get the icon URL from assets
             media_data = await fetch_media_data(session, media_url, headers)
-            media_file = os.path.join(MEDIA_SAVE_DIR, f"{item_id}.json")
-            save_json(media_data, media_file)
-            print(f"Saved media data for item {item_id}")
+            # Find the asset with key "icon"
+            icon_url = None
+            for asset in media_data.get("assets", []):
+                if asset.get("key") == "icon":
+                    icon_url = asset.get("value")
+                    break
+
+            if icon_url:
+                # Download and save the icon image
+                icon_path = await fetch_and_save_icon(session, icon_url)
+                print(f"Saved icon for item {item_id} to {icon_path}")
+                # Update item data with the icon path
+                item_data["icon_path"] = icon_path
+            else:
+                print(f"No icon asset found in media data for item {item_id}")
         else:
-            print(f"No media URL for item {item_id}")
+            print(f"No media URL found for item {item_id}")
+
+        # Save the updated item data to file
+        item_file = os.path.join(ITEMS_SAVE_DIR, f"{item_id}.json")
+        save_json(item_data, item_file)
+        print(f"Saved updated item data for item {item_id} to {item_file}")
         return True
 
     except Exception as e:
         print(f"Error processing item {item_id}: {e}")
         return False
-
 
 async def process_new_items(new_item_ids, headers, client_id, client_secret):
     async with aiohttp.ClientSession() as session:
