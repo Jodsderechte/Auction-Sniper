@@ -62,8 +62,8 @@ def save_json(data, filename):
 
 def main():
     # Get Blizzard client credentials from environment variables
-    client_id = os.environ.get("BLIZZARD_CLIENT_ID")
-    client_secret = os.environ.get("BLIZZARD_CLIENT_SECRET")
+    client_id = os.getenv("BLIZZARD_CLIENT_ID")
+    client_secret = os.getenv("BLIZZARD_CLIENT_SECRET")
     if not client_id or not client_secret:
         raise Exception("Missing BLIZZARD_CLIENT_ID or BLIZZARD_CLIENT_SECRET environment variables.")
     
