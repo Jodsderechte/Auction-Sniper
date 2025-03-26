@@ -45,13 +45,14 @@ def extract_realm_id(href):
         return match.group(1)
     return None
 
+DELAY = 1.0/REQUESTS_PER_SECOND
 async def get_auctions_for_realm(session, realm_id, headers):
     """
     Fetches the auction data for a given realm.
     Adds a small delay to keep the request rate under 100 requests per second.
     """
     # Delay 0.01 seconds before each request to stay within the rate limit.
-    await asyncio.sleep(100/REQUESTS_PER_SECOND)
+    await asyncio.sleep(DELAY)
     url = f"{BASE_URL}/data/wow/connected-realm/{realm_id}/auctions?namespace={NAMESPACE}"
     print(f"Fetching auctions for realm {realm_id} from {url}")
     async with session.get(url, headers=headers) as resp:
