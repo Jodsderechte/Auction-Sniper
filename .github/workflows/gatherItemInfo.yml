@@ -1,12 +1,12 @@
-name: Blizzard Data Gathering
+name: Blizzard Item Data Gathering
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour; adjust as needed.
+    - cron: '0 0 1 * 0'  # Runs Once per Month midnight;
   workflow_dispatch:
 
 jobs:
-  gather:
+  gather-items:
     runs-on: ubuntu-latest
     env:
       BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
@@ -25,9 +25,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install aiohttp
 
-      - name: Run data gathering script
-        run: python auctionDataRequest.py
-
+      - name: Run item data gathering script
+        run: python gather_items_data_async.py
       - name: Commit and push changes
         run: |
           set -e  # Exit script on any command failure
@@ -42,7 +41,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Updated Auction data"
+            git commit -m "updated Item data"
           fi
       
           # Pull latest changes, fail only on actual errors
@@ -55,36 +54,4 @@ jobs:
           if ! git push; then
             echo "Error during git push" >&2
             exit 1
-          fi
-
-      - name: Run data gathering script
-        run: python processAuctionsRequest.py
-
-      - name: Commit and push changes
-        run: |
-          set -e  # Exit script on any command failure
-      
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git config pull.rebase true  # Rebase
-      
-          git add data/
-          
-          # Commit only if there are changes
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Updated Items data from Auctions"
-          fi
-      
-          # Pull latest changes, fail only on actual errors
-          if ! git pull --rebase; then
-            echo "Error during git pull" >&2
-            exit 1
-          fi
-      
-          # Push changes, fail if there's an actual error
-          if ! git push; then
-            echo "Error during git push" >&2
-            exit 1
-          fi
+          fi  
