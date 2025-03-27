@@ -226,7 +226,12 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
         if allowed_qualities != "all" and quality not in allowed_qualities:
             return None
     else:
-        print(f"Item class for item {item_id} is: {item_class} and subclass is {item_data.get('item_subclass', {}).get('name', '')}")
+        item_subclass_name = item_data.get('item_subclass', {}).get('name', '')
+        if isinstance(item_subclass, str):
+            item_subclass = item_subclass_name.lower()
+        else:
+            item_subclass = item_subclass_name.get("en_US", "").lower()
+        print(f"Item class for item {item_id} is: {item_class} and subclass is {}")
         quality = item_data.get("quality", {}).get("type", "").upper()
 
     if "min_buyout_overwrite" in preset:
@@ -249,8 +254,13 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
 
     if not qualifies:
         return None
+    name = item_data.get('name', "Unknown Item")
+    if isinstance(item_subclass, str):
+        item_name = name.lower()
+    else:
+        item_name = name.get("en_US", "").lower()
 
-    item_name = item_data.get("name", "Unknown Item")
+    
     icon = item_data.get("icon_path", "")
     saving_pct = ((avg - buyout) / avg) * 100
     return {
