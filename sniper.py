@@ -231,7 +231,7 @@ def notify_discord(cheap_items, relevant_realms):
     if not cheap_items:
         print("No cheap items to notify.")
         return
-
+    print(f"Notifying about item {cheap_items}")
     message = "**Top Auction Snipes!**\n"
     for item in cheap_items:
         realm_id = item["realm_id"]
@@ -243,6 +243,7 @@ def notify_discord(cheap_items, relevant_realms):
                     f"  - Auction ID: {item['auction_id']}\n")
     payload = {"content": message}
     try:
+        print(f"Payload is: {payload}")
         response = requests.post(DISCORD_WEBHOOK_URL, json=payload)
         if response.status_code == 204:
             print("Notification sent successfully to Discord.")
