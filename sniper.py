@@ -134,8 +134,19 @@ def load_item_data(item_id):
     except Exception as e:
         print(f"Error loading item data for item {item_id}: {e}")
         return None
+def load_special_items():
+    """
+    Load the special items configuration from data/specialItems.json.
+    Returns a dict mapping item_id (as string) to its threshold value.
+    """
+    try:
+        with open("data/specialItems.json", "r") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error loading special items: {e}")
+        return {}
 
-def cross_reference_item(record, avg):
+def cross_reference_item(record, avg, special_items):
     """
     For a given auction record and its historical average, cross reference item data.
     Returns a dict with extended info (name, icon, quality) if the item quality is not COMMON
@@ -145,32 +156,40 @@ def cross_reference_item(record, avg):
     avg: historical average price for this item
     """
     realm, auction_id, item_id, buyout, quantity, time_left, timestamp = record
-    if buyout < (THRESHOLD_RATIO * avg) and buyout >= MIN_BUYOUT:
-        item_data = load_item_data(item_id)
-        if not item_data:
-            return None
-        # Check quality; skip if quality is COMMON
-        quality = item_data.get("quality", {}).get("type", "").upper()
-        if quality == "COMMON":
-            return None
-        # Get item name and icon
-        item_name = item_data.get("name", "Unknown Item")
-        icon = item_data.get("icon_path", "")
-        # Calculate saving percentage
-        saving_pct = ((avg - buyout) / avg) * 100
-        return {
-            "realm_id": realm,
-            "auction_id": auction_id,
-            "item_id": item_id,
-            "buyout": buyout,
-            "quantity": quantity,
-            "time_left": time_left,
-            "timestamp": timestamp,
-            "item_name": item_name,
-            "icon": icon,
-            "saving_pct": saving_pct
-        }
-    return None
+    special_threshold = special_items.get(str(auction_id))
+    if special_threshold is not None and buyout < special_threshold:
+        qualifies = True
+    elif buyout < (THRESHOLD_RATIO * avg) and buyout >= MIN_BUYOUT:
+        qualifies = True
+    else:
+        qualifies = False
+    
+    if not qualifies:
+        return None
+    item_data = load_item_data(item_id)
+    if not item_data:
+        return None
+    # Check quality; skip if quality is COMMON
+    quality = item_data.get("quality", {}).get("type", "").upper()
+    if quality == "COMMON":
+        return None
+    # Get item name and icon
+    item_name = item_data.get("name", "Unknown Item")
+    icon = item_data.get("icon_path", "")
+    # Calculate saving percentage
+    saving_pct = ((avg - buyout) / avg) * 100
+    return {
+        "realm_id": realm,
+        "auction_id": auction_id,
+        "item_id": item_id,
+        "buyout": buyout,
+        "quantity": quantity,
+        "time_left": time_left,
+        "timestamp": timestamp,
+        "item_name": item_name,
+        "icon": icon,
+        "saving_pct": saving_pct
+    }
 
 def find_cheap_items(new_records, averages, relevant_realms):
     """
@@ -182,6 +201,7 @@ def find_cheap_items(new_records, averages, relevant_realms):
     Only the top 5 auctions with the highest saving percentage are returned.
     """
     candidates = []
+    special_items = load_special_items()
     # Process each new record
     for record in new_records:
         realm = record[0]
@@ -191,7 +211,7 @@ def find_cheap_items(new_records, averages, relevant_realms):
         avg = averages.get(record[2])
         if not avg:
             continue
-        extended = cross_reference_item(record, avg)
+        extended = cross_reference_item(record, avg, special_items)
         if extended:
             candidates.append(extended)
     # Sort by saving percentage descending
