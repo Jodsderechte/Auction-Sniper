@@ -204,6 +204,11 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
     else:
         item_class = name_val.get("en_US", "").lower()
     preset = presets.get(item_class)
+    item_subclass_name = item_data.get('item_subclass', {}).get('name', '')
+        if isinstance(item_subclass_name, str):
+            item_subclass = item_subclass_name.lower()
+        else:
+            item_subclass = item_subclass_name.get("en_US", "").lower()
     if preset:
         allowed_expansions = preset.get("allowed_expansions", "all")
         allowed_qualities = preset.get("allowed_qualities", "all")
@@ -218,11 +223,6 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
 
         # Check subclass if needed.
         if allowed_subclasses != "all":
-            item_subclass_name = item_data.get('item_subclass', {}).get('name', '')
-            if isinstance(item_subclass_name, str):
-                item_subclass = item_subclass_name.lower()
-            else:
-                item_subclass = item_subclass_name.get("en_US", "").lower()
             if item_subclass not in allowed_subclasses:
                 return None
 
@@ -230,20 +230,15 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
         if allowed_qualities != "all" and quality not in allowed_qualities:
             return None
     else:
-        item_subclass_name = item_data.get('item_subclass', {}).get('name', '')
-        if isinstance(item_subclass_name, str):
-            item_subclass = item_subclass_name.lower()
-        else:
-            item_subclass = item_subclass_name.get("en_US", "").lower()
         print(f"Item class for item {item_id} is: {item_class} and subclass is {item_subclass}")
         quality = item_data.get("quality", {}).get("type", "").upper()
 
-    if "min_buyout_overwrite" in preset:
+    if preset and "min_buyout_overwrite" in preset:
         threshold = preset["min_buyout_overwrite"]
     else:
         threshold = MIN_BUYOUT
 
-    if "threshold_ratio_overwrite" in preset:
+    if preset and "threshold_ratio_overwrite" in preset:
         ratio = preset["threshold_ratio_overwrite"]
     else:
         ratio = THRESHOLD_RATIO
