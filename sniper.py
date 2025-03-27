@@ -219,7 +219,7 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
         # Check subclass if needed.
         if allowed_subclasses != "all":
             item_subclass_name = item_data.get('item_subclass', {}).get('name', '')
-            if isinstance(item_subclass, str):
+            if isinstance(item_subclass_name, str):
                 item_subclass = item_subclass_name.lower()
             else:
                 item_subclass = item_subclass_name.get("en_US", "").lower()
@@ -231,7 +231,7 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
             return None
     else:
         item_subclass_name = item_data.get('item_subclass', {}).get('name', '')
-        if isinstance(item_subclass, str):
+        if isinstance(item_subclass_name, str):
             item_subclass = item_subclass_name.lower()
         else:
             item_subclass = item_subclass_name.get("en_US", "").lower()
