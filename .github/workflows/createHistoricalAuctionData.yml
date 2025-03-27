@@ -33,7 +33,7 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          python process_auctions.py
+          python sniper.py
 
       - name: Upload updated auctions database
         uses: actions/upload-artifact@v4
