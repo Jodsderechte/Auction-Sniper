@@ -12,11 +12,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Download historical auctions database
-        uses: actions/download-artifact@v4
+      - name: Restore SQLite database cache
+        uses: actions/cache@v3
         with:
-          name: auctions-db
-          path: .
+          path: auctions.db
+          key: auctions-db-cache
+          restore-keys: |
+            auctions-db-cache
         continue-on-error: true
 
       - name: Set up Python
@@ -35,8 +37,8 @@ jobs:
         run: |
           python sniper.py
 
-      - name: Upload updated auctions database
-        uses: actions/upload-artifact@v4
+      - name: Save updated SQLite database to cache
+        uses: actions/cache@v3
         with:
-          name: auctions-db
           path: auctions.db
+          key: auctions-db-cache
