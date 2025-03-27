@@ -1,0 +1,55 @@
+name: Gather Wago tools info
+
+on:
+  schedule:
+    - cron: '0 0 * * WED'
+  workflow_dispatch:
+
+jobs:
+  gather-items:
+    runs-on: ubuntu-latest
+    env:
+      BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+      BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install pandas
+        run: pip install pandas
+
+      - name: Create data directory
+        run: mkdir -p data
+
+      - name: Download CSV files
+        run: |
+          curl -L "https://wago.tools/db2/ItemSearchName/csv?product=wow" -o data/ItemSearchName.csv
+
+
+      - name: Convert CSVs to JSON
+        run: |
+          python - <<'EOF'
+          import pandas as pd
+          import json
+
+          def process_item_search_name():
+              df = pd.read_csv('data/ItemSearchName.csv')
+              df = df.where(pd.notnull(df), None)
+              df.set_index('ID', inplace=True)
+              df.to_json('data/ItemSearchName.json', orient='index', indent=4)
+
+
+          process_item_search_name()
+          EOF
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git config pull.rebase true   # rebase
+          git add data/
+          git commit -m "Updated JournalEncounter" || echo "No changes to commit"
+          git pull || echo "No changes to pull"
+          git push || echo "No changes to push"
