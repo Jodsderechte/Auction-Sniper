@@ -54,6 +54,7 @@ def parse_file(file):
     realm = data.get("connected_realm", {}).get("href", "")
     if realm:
         realm = realm.split("/")[-1]
+        realm = realm.split('?')[0]
     else:
         realm = os.path.basename(file).split(".")[0]
 
