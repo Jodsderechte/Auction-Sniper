@@ -198,7 +198,11 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
     exp_info = expansion_data.get(str(item_id))
     expansion_id = exp_info.get("ExpansionID", 0) if exp_info else 0
 
-    item_class = item_data.get("item_class", {}).get("name", "").lower()
+    name_val = item_data.get("item_class", {}).get("name", "")
+    if isinstance(name_val, str):
+        item_class = name_val.lower()
+    else:
+        item_class = str(name_val).lower()
     preset = presets.get(item_class)
     if preset:
         allowed_expansions = preset.get("allowed_expansions", "all")
