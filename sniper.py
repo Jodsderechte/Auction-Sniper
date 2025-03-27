@@ -231,7 +231,7 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
             item_subclass = item_subclass_name.lower()
         else:
             item_subclass = item_subclass_name.get("en_US", "").lower()
-        print(f"Item class for item {item_id} is: {item_class} and subclass is {}")
+        print(f"Item class for item {item_id} is: {item_class} and subclass is {item_subclass}")
         quality = item_data.get("quality", {}).get("type", "").upper()
 
     if "min_buyout_overwrite" in preset:
