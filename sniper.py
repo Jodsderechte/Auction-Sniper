@@ -5,6 +5,7 @@ import glob
 import sqlite3
 import datetime
 import requests
+import concurrent.futures
 
 # Path to the folder containing auction JSON files.
 AUCTIONS_DIR = "data/auctions"
@@ -34,61 +35,66 @@ def init_db(conn):
     """)
     conn.commit()
 
-def insert_auction(conn, realm, auction):
+def parse_file(file):
     """
-    Insert a single auction record into the database.
+    Parse a single JSON file and return a list of auction records.
+    Each record is a tuple ready for bulk insertion.
     """
+    records = []
+    try:
+        with open(file, "r") as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"Error processing {file}: {e}")
+        return records
+
+    # Determine realm using connected_realm href, or fallback to filename.
+    realm = data.get("connected_realm", {}).get("href", "")
+    if realm:
+        realm = realm.split("/")[-1]
+    else:
+        realm = os.path.basename(file).split(".")[0]
+
+    # Use current UTC timestamp for all records from this file.
     timestamp = datetime.datetime.utcnow().isoformat()
-    item = auction.get("item", {})
-    conn.execute("""
-        INSERT INTO auctions (realm, auction_id, item_id, buyout, quantity, time_left, timestamp)
-        VALUES (?, ?, ?, ?, ?, ?, ?);
-    """, (
-        realm,
-        auction.get("id"),
-        item.get("id"),
-        auction.get("buyout", 0),
-        auction.get("quantity", 1),
-        auction.get("time_left", ""),
-        timestamp
-    ))
-    conn.commit()
+    auctions = data.get("auctions", [])
+    for auction in auctions:
+        item = auction.get("item", {})
+        record = (
+            realm,
+            auction.get("id"),
+            item.get("id"),
+            auction.get("buyout", 0),
+            auction.get("quantity", 1),
+            auction.get("time_left", ""),
+            timestamp
+        )
+        records.append(record)
+    return records
 
 def process_files(conn):
     """
-    Process all JSON files in the AUCTIONS_DIR.
-    Assumes each file is one realm's auctions.
-    Uses the file name or a field from the JSON as the realm identifier.
+    Process all JSON files in AUCTIONS_DIR in parallel.
+    Returns a flat list of new auction records that were inserted.
+    Uses bulk insertion for speed.
     """
     files = glob.glob(os.path.join(AUCTIONS_DIR, "*.json"))
-    new_auctions = []  # keep track of auctions processed in this run
-    for file in files:
-        with open(file, "r") as f:
-            try:
-                data = json.load(f)
-            except json.JSONDecodeError:
-                print(f"Error decoding {file}")
-                continue
+    all_records = []
+    # Use a thread pool to parse files concurrently
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        results = executor.map(parse_file, files)
+        for record_list in results:
+            all_records.extend(record_list)
 
-        # Use the realm id from the connected_realm href or fallback to the file name.
-        realm = data.get("connected_realm", {}).get("href", "")
-        if realm:
-            realm = realm.split("/")[-1]
-        else:
-            realm = os.path.basename(file).split(".")[0]
+    # Perform a bulk insert in a single transaction
+    if all_records:
+        conn.executemany("""
+            INSERT INTO auctions (realm, auction_id, item_id, buyout, quantity, time_left, timestamp)
+            VALUES (?, ?, ?, ?, ?, ?, ?);
+        """, all_records)
+        conn.commit()
 
-        auctions = data.get("auctions", [])
-        for auction in auctions:
-            insert_auction(conn, realm, auction)
-            new_auctions.append({
-                "realm": realm,
-                "auction_id": auction.get("id"),
-                "item_id": auction.get("item", {}).get("id"),
-                "buyout": auction.get("buyout", 0),
-                "quantity": auction.get("quantity", 1),
-                "time_left": auction.get("time_left", "")
-            })
-    return new_auctions
+    return all_records  # Returning the list of records inserted
 
 def get_historical_averages(conn):
     """
@@ -100,23 +106,29 @@ def get_historical_averages(conn):
         FROM auctions
         GROUP BY item_id;
     """)
-    averages = {}
-    for row in cursor.fetchall():
-        averages[row[0]] = row[1]
+    averages = {row[0]: row[1] for row in cursor.fetchall()}
     return averages
 
-def find_cheap_items(new_auctions, averages):
+def find_cheap_items(new_records, averages):
     """
-    From the list of new auctions, return those where the buyout price is less than 20%
+    From the list of new auction records, return those where the buyout price is less than 20%
     of the historical average and at least 10,000.
+    Each record is a tuple with structure:
+      (realm, auction_id, item_id, buyout, quantity, time_left, timestamp)
     """
     cheap_items = []
-    for auction in new_auctions:
-        item_id = auction["item_id"]
-        buyout = auction["buyout"]
+    for record in new_records:
+        realm, auction_id, item_id, buyout, quantity, time_left, timestamp = record
         avg = averages.get(item_id)
         if avg and buyout < (0.20 * avg) and buyout >= 10000:
-            cheap_items.append(auction)
+            cheap_items.append({
+                "realm": realm,
+                "auction_id": auction_id,
+                "item_id": item_id,
+                "buyout": buyout,
+                "quantity": quantity,
+                "time_left": time_left
+            })
     return cheap_items
 
 def notify_discord(cheap_items):
@@ -147,18 +159,18 @@ def main():
     conn = sqlite3.connect(DB_FILE)
     init_db(conn)
 
-    # Process auction JSON files and store new auctions in the DB
-    new_auctions = process_files(conn)
-    print(f"Processed {len(new_auctions)} new auctions.")
+    # Process auction JSON files in parallel and bulk insert new records.
+    new_records = process_files(conn)
+    print(f"Processed {len(new_records)} new auction records.")
 
-    # Calculate historical averages for each item based on all data in the DB.
+    # Calculate historical averages based on the entire database.
     averages = get_historical_averages(conn)
 
     # Identify auctions that are considered cheap.
-    cheap_items = find_cheap_items(new_auctions, averages)
+    cheap_items = find_cheap_items(new_records, averages)
     print(f"Found {len(cheap_items)} cheap items.")
 
-    # If any cheap items found, notify via Discord webhook.
+    # Notify via Discord if cheap items are found.
     if cheap_items:
         notify_discord(cheap_items)
     else:
