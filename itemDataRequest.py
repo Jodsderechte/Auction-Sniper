@@ -26,7 +26,7 @@ rate_limiter = RateLimiter(REQUESTS_PER_SECOND)
 # API Endpoints and Parameters
 OAUTH_TOKEN_URL = "https://eu.battle.net/oauth/token"
 # For items, we use the US domain and static namespace
-ITEM_API_URL_TEMPLATE = "https://us.api.blizzard.com/data/wow/item/{item_id}?namespace=static-eu&locale=en_US"
+ITEM_API_URL_TEMPLATE = "https://us.api.blizzard.com/data/wow/item/{item_id}?namespace=static-eu"
 
 # File paths
 ENCOUNTERED_ITEMS_FILE = "data/encountered_items.json"
