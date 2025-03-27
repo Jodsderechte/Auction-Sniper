@@ -205,10 +205,10 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
         item_class = name_val.get("en_US", "").lower()
     preset = presets.get(item_class)
     item_subclass_name = item_data.get('item_subclass', {}).get('name', '')
-        if isinstance(item_subclass_name, str):
-            item_subclass = item_subclass_name.lower()
-        else:
-            item_subclass = item_subclass_name.get("en_US", "").lower()
+    if isinstance(item_subclass_name, str):
+        item_subclass = item_subclass_name.lower()
+    else:
+        item_subclass = item_subclass_name.get("en_US", "").lower()
     if preset:
         allowed_expansions = preset.get("allowed_expansions", "all")
         allowed_qualities = preset.get("allowed_qualities", "all")
