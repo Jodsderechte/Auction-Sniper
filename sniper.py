@@ -225,11 +225,20 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
         print(f"Item class for item {item_id} is: {item_class} and subclass is {item_data.get('item_subclass', {}).get('name', '')}")
         quality = item_data.get("quality", {}).get("type", "").upper()
 
+    if "min_buyout_overwrite" in preset:
+        threshold = preset["min_buyout_overwrite"]
+    else:
+        threshold = MIN_BUYOUT
+
+    if "threshold_ratio_overwrite" in preset:
+        ratio = preset["threshold_ratio_overwrite"]
+    else:
+        ratio = THRESHOLD_RATIO
     # Existing threshold logic.
     special_threshold = special_items.get(str(auction_id))
     if special_threshold is not None and buyout < special_threshold:
         qualifies = True
-    elif buyout < (THRESHOLD_RATIO * avg) and buyout >= MIN_BUYOUT:
+    elif buyout < (ratio  * avg) and buyout >= threshold:
         qualifies = True
     else:
         qualifies = False
