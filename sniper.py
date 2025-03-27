@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import os
 import json
 import glob
@@ -7,8 +6,10 @@ import datetime
 import requests
 import concurrent.futures
 
-# Path to the folder containing auction JSON files.
+# Directories and files
 AUCTIONS_DIR = "data/auctions"
+ITEMS_DIR = "data/items"
+RELEVANT_REALMS_FILE = "data/relevantRealms.json"
 
 # SQLite database file to store historical auction data.
 DB_FILE = "auctions.db"
@@ -16,11 +17,12 @@ DB_FILE = "auctions.db"
 # Discord webhook URL (set as environment variable in GitHub Actions)
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 
+# Threshold constants
+MIN_BUYOUT = 10000       # Only consider auctions with buyout at least 10k
+THRESHOLD_RATIO = 0.05   # Auction is a "snipe" if buyout is less than 5% of historical average
+
 def init_db(conn):
-    """
-    Initialize the database by creating an auctions table if it doesn't exist.
-    The table stores realm info, auction id, item id, buyout price, quantity, time_left and timestamp.
-    """
+    """Initialize the database by creating the auctions table if it doesn't exist."""
     conn.execute("""
         CREATE TABLE IF NOT EXISTS auctions (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -37,8 +39,8 @@ def init_db(conn):
 
 def parse_file(file):
     """
-    Parse a single JSON file and return a list of auction records.
-    Each record is a tuple ready for bulk insertion.
+    Parse a single JSON file from AUCTIONS_DIR and return a list of auction records.
+    Each record is a tuple (realm, auction_id, item_id, buyout, quantity, time_left, timestamp)
     """
     records = []
     try:
@@ -48,14 +50,13 @@ def parse_file(file):
         print(f"Error processing {file}: {e}")
         return records
 
-    # Determine realm using connected_realm href, or fallback to filename.
+    # Determine realm using connected_realm href; fallback to filename
     realm = data.get("connected_realm", {}).get("href", "")
     if realm:
         realm = realm.split("/")[-1]
     else:
         realm = os.path.basename(file).split(".")[0]
 
-    # Use current UTC timestamp for all records from this file.
     timestamp = datetime.datetime.utcnow().isoformat()
     auctions = data.get("auctions", [])
     for auction in auctions:
@@ -75,18 +76,16 @@ def parse_file(file):
 def process_files(conn):
     """
     Process all JSON files in AUCTIONS_DIR in parallel.
-    Returns a flat list of new auction records that were inserted.
-    Uses bulk insertion for speed.
+    Bulk insert the auction records into the SQLite database.
+    Returns a list of new records (tuples) that were inserted.
     """
     files = glob.glob(os.path.join(AUCTIONS_DIR, "*.json"))
     all_records = []
-    # Use a thread pool to parse files concurrently
     with concurrent.futures.ThreadPoolExecutor() as executor:
         results = executor.map(parse_file, files)
         for record_list in results:
             all_records.extend(record_list)
 
-    # Perform a bulk insert in a single transaction
     if all_records:
         conn.executemany("""
             INSERT INTO auctions (realm, auction_id, item_id, buyout, quantity, time_left, timestamp)
@@ -94,11 +93,11 @@ def process_files(conn):
         """, all_records)
         conn.commit()
 
-    return all_records  # Returning the list of records inserted
+    return all_records
 
 def get_historical_averages(conn):
     """
-    Calculate historical market values for each item by averaging the buyout prices.
+    Calculate historical average buyout per item from the entire database.
     Returns a dictionary mapping item_id to average buyout.
     """
     cursor = conn.execute("""
@@ -109,42 +108,120 @@ def get_historical_averages(conn):
     averages = {row[0]: row[1] for row in cursor.fetchall()}
     return averages
 
-def find_cheap_items(new_records, averages):
+def load_relevant_realms():
     """
-    From the list of new auction records, return those where the buyout price is less than 20%
-    of the historical average and at least 10,000.
-    Each record is a tuple with structure:
-      (realm, auction_id, item_id, buyout, quantity, time_left, timestamp)
+    Load the relevant realms from RELEVANT_REALMS_FILE.
+    Expected JSON format: an object mapping realm_id to a friendly realm name.
+    e.g. { "1923": "Stormwind", "1924": "Orgrimmar", ... }
     """
-    cheap_items = []
-    for record in new_records:
-        realm, auction_id, item_id, buyout, quantity, time_left, timestamp = record
-        avg = averages.get(item_id)
-        if avg and buyout < (0.20 * avg) and buyout >= 10000:
-            cheap_items.append({
-                "realm": realm,
-                "auction_id": auction_id,
-                "item_id": item_id,
-                "buyout": buyout,
-                "quantity": quantity,
-                "time_left": time_left
-            })
-    return cheap_items
+    try:
+        with open(RELEVANT_REALMS_FILE, "r") as f:
+            realms = json.load(f)
+        return realms  # a dict mapping realm id to realm name
+    except Exception as e:
+        print(f"Error loading relevant realms: {e}")
+        return {}
 
-def notify_discord(cheap_items):
+def load_item_data(item_id):
     """
-    Notify via Discord webhook if any cheap items are found.
-    The message includes details of the cheap auctions.
+    Load an item's JSON data from ITEMS_DIR using the item_id.
+    Returns the parsed JSON as a dict, or None if an error occurs.
+    """
+    item_file = os.path.join(ITEMS_DIR, f"{item_id}.json")
+    try:
+        with open(item_file, "r") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error loading item data for item {item_id}: {e}")
+        return None
+
+def cross_reference_item(record, avg):
+    """
+    For a given auction record and its historical average, cross reference item data.
+    Returns a dict with extended info (name, icon, quality) if the item quality is not COMMON
+    and the record qualifies (buyout < THRESHOLD_RATIO * avg and >= MIN_BUYOUT).
+    Otherwise, returns None.
+    record: tuple (realm, auction_id, item_id, buyout, quantity, time_left, timestamp)
+    avg: historical average price for this item
+    """
+    realm, auction_id, item_id, buyout, quantity, time_left, timestamp = record
+    if buyout < (THRESHOLD_RATIO * avg) and buyout >= MIN_BUYOUT:
+        item_data = load_item_data(item_id)
+        if not item_data:
+            return None
+        # Check quality; skip if quality is COMMON
+        quality = item_data.get("quality", {}).get("type", "").upper()
+        if quality == "COMMON":
+            return None
+        # Get item name and icon
+        item_name = item_data.get("name", "Unknown Item")
+        icon = item_data.get("icon_path", "")
+        # Calculate saving percentage
+        saving_pct = ((avg - buyout) / avg) * 100
+        return {
+            "realm_id": realm,
+            "auction_id": auction_id,
+            "item_id": item_id,
+            "buyout": buyout,
+            "quantity": quantity,
+            "time_left": time_left,
+            "timestamp": timestamp,
+            "item_name": item_name,
+            "icon": icon,
+            "saving_pct": saving_pct
+        }
+    return None
+
+def find_cheap_items(new_records, averages, relevant_realms):
+    """
+    From the new auction records, filter for auctions that:
+      - Are from a realm listed in relevant_realms,
+      - Have buyout less than THRESHOLD_RATIO * historical average and at least MIN_BUYOUT,
+      - Are not of "COMMON" quality (based on item JSON data).
+    Returns a list of dictionaries with extended auction/item data.
+    Only the top 5 auctions with the highest saving percentage are returned.
+    """
+    candidates = []
+    # Process each new record
+    for record in new_records:
+        realm = record[0]
+        # Only consider if realm is in our relevant realms list
+        if realm not in relevant_realms:
+            continue
+        avg = averages.get(record[2])
+        if not avg:
+            continue
+        extended = cross_reference_item(record, avg)
+        if extended:
+            candidates.append(extended)
+    # Sort by saving percentage descending
+    candidates.sort(key=lambda x: x["saving_pct"], reverse=True)
+    # Return top 5
+    return candidates[:5]
+
+def notify_discord(cheap_items, relevant_realms):
+    """
+    Send a Discord webhook notification listing the top cheap items.
+    The message includes the item name, icon, realm (friendly name), buyout, and saving percentage.
     """
     if not DISCORD_WEBHOOK_URL:
         print("No Discord webhook URL provided.")
         return
 
-    content = "**Cheap Auction Alert!**\n"
-    for item in cheap_items:
-        content += f"- Realm: {item['realm']}, Item ID: {item['item_id']}, Buyout: {item['buyout']}, Auction ID: {item['auction_id']}\n"
+    if not cheap_items:
+        print("No cheap items to notify.")
+        return
 
-    payload = {"content": content}
+    message = "**Top Auction Snipes!**\n"
+    for item in cheap_items:
+        realm_id = item["realm_id"]
+        realm_name = relevant_realms.get(realm_id, realm_id)
+        message += (f"- **{item['item_name']}** (ID: {item['item_id']})\n"
+                    f"  - Icon: {item['icon']}\n"
+                    f"  - Realm: {realm_name}\n"
+                    f"  - Buyout: {item['buyout']} (Saving: {item['saving_pct']:.1f}%)\n"
+                    f"  - Auction ID: {item['auction_id']}\n")
+    payload = {"content": message}
     try:
         response = requests.post(DISCORD_WEBHOOK_URL, json=payload)
         if response.status_code == 204:
@@ -159,22 +236,27 @@ def main():
     conn = sqlite3.connect(DB_FILE)
     init_db(conn)
 
-    # Process auction JSON files in parallel and bulk insert new records.
+    # Process auction JSON files in parallel and insert new records
     new_records = process_files(conn)
     print(f"Processed {len(new_records)} new auction records.")
 
-    # Calculate historical averages based on the entire database.
+    # Compute historical averages
     averages = get_historical_averages(conn)
+    print(f"Computed historical averages for {len(averages)} items.")
 
-    # Identify auctions that are considered cheap.
-    cheap_items = find_cheap_items(new_records, averages)
-    print(f"Found {len(cheap_items)} cheap items.")
+    # Load relevant realms mapping (realm_id -> friendly realm name)
+    relevant_realms = load_relevant_realms()
+    print(f"Loaded {len(relevant_realms)} relevant realms.")
 
-    # Notify via Discord if cheap items are found.
+    # Identify cheap items using the new threshold (5%) and cross-reference item data
+    cheap_items = find_cheap_items(new_records, averages, relevant_realms)
+    print(f"Found {len(cheap_items)} candidate cheap items after filtering.")
+
+    # Notify Discord if any cheap items are found
     if cheap_items:
-        notify_discord(cheap_items)
+        notify_discord(cheap_items, relevant_realms)
     else:
-        print("No cheap items found.")
+        print("No qualifying cheap items to notify.")
 
     conn.close()
 
