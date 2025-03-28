@@ -28,6 +28,7 @@ jobs:
         run: |
           curl -L "https://wago.tools/db2/ItemSearchName/csv?product=wow" -o data/ItemSearchName.csv
           curl -L "https://www.raidbots.com/static/data/live/bonuses.json" -o data/BonusIds.json
+          curl -L "https://wago.tools/db2/UIExpansionDisplayInfo/csv?product=wow" -o data/ExpansionDisplayInfo.csv
 
 
       - name: Convert CSVs to JSON
