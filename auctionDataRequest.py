@@ -10,6 +10,7 @@ NAMESPACE = "dynamic-eu"
 OAUTH_TOKEN_URL = "https://eu.battle.net/oauth/token"
 SAVE_FOLDER = "data/auctions/"
 REQUESTS_PER_SECOND = 90
+REALMS_PATH = "data/connected-realms.json"
 
 async def get_oauth_token(session, client_id, client_secret):
     """
@@ -33,6 +34,20 @@ async def get_connected_realms(session, headers):
         resp.raise_for_status()
         data = await resp.json()
         return data.get("connected_realms", [])
+
+
+async def get_connected_realm_details(session, realm_id, headers):
+    """
+    Fetches detailed connected realm data for a given realm id.
+    This endpoint returns the main id and a list of realms with their names.
+    """
+    await asyncio.sleep(DELAY)  # Keep rate limiting consistent.
+    url = f"{BASE_URL}/data/wow/connected-realm/{realm_id}?namespace={NAMESPACE}"
+    print(f"Fetching connected realm details for {realm_id} from {url}")
+    async with session.get(url, headers=headers) as resp:
+        resp.raise_for_status()
+        return await resp.json()
+
 
 def extract_realm_id(href):
     """
@@ -107,6 +122,32 @@ async def main():
                 with open(filename, "w") as f:
                     json.dump(auctions_data, f, indent=2)
                 print(f"Saved auctions data for realm {realm_id} to {filename}")
+
+        # Create tasks for connected realm details
+        connected_realm_tasks = [
+            asyncio.create_task(get_connected_realm_details(session, realm_id, headers))
+            for realm_id in realm_ids
+        ]
+        # Gather connected realm details concurrently.
+        connected_realm_results = await asyncio.gather(*connected_realm_tasks, return_exceptions=True)
+        # Build a dictionary mapping each connected realm id to the list of realm names.
+        connected_realms_data = {}
+        for realm_id, result in zip(realm_ids, connected_realm_results):
+            if isinstance(result, Exception):
+                print(f"Error fetching connected realm {realm_id}: {result}")
+            else:
+                # Convert the main realm id to string to use as a JSON key.
+                main_realm_id = str(result.get("id"))
+                realm_names = [realm["name"] for realm in result.get("realms", [])]
+                connected_realms_data[main_realm_id] = realm_names
+
+        # Save the connected realms data to data/connected-realms.json
+
+        os.makedirs(os.path.dirname(REALMS_PATH), exist_ok=True)
+        with open(REALMS_PATH, "w") as f:
+            json.dump(connected_realms_data, f, indent=2)
+        print(f"Saved connected realms data to {REALMS_PATH}")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
