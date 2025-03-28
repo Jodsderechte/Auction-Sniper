@@ -49,14 +49,15 @@ When a qualifying auction is found, the tool sends a notification via Discord, m
 
    ```
    Auction-Sniper/
-   ├── data/
+   ├── config/
+   │   ├── relevantRealms.json
+   │   ├── specialItems.json
+   │   └── itemClasses.json
+   ├── data/ 
    │   ├── auctions/         # Auction JSON files
    │   ├── items/            # Item JSON files
-   │   ├── relevantRealms.json
    │   ├── BonusIds.json
-   │   ├── specialItems.json
-   │   ├── ItemSearchName.json
-   │   └── expansionPresets.json
+   │   └── ItemSearchName.json
    ```
 
 5. **(Optional) Modify the run times:**  
