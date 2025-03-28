@@ -2,7 +2,7 @@ name: Blizzard Data Gathering
 
 on:
   schedule:
-    - cron: '0 8-21 * * *' 
+    - cron: '*/20 8-21 * * *' 
   workflow_dispatch:
 
 jobs:
