@@ -51,7 +51,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Save updated SQLite database to cache
-        uses: actions/cache@v3
+        uses: actions/cache/save@v3
         with:
           path: auctions.db
           key: auctions-db-cache
