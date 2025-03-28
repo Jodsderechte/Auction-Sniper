@@ -100,6 +100,8 @@ async def main():
             if isinstance(auctions_data, Exception):
                 print(f"Error fetching realm {realm_id}: {auctions_data}")
             else:
+                if "auctions" in auctions_data:
+                    auctions_data["auctions"] = sorted(auctions_data["auctions"], key=lambda a: a["item"]["id"])
                 filename = f"{SAVE_FOLDER}{realm_id}.json"
                 os.makedirs(os.path.dirname(filename), exist_ok=True)
                 with open(filename, "w") as f:
