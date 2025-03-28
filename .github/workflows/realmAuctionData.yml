@@ -29,7 +29,8 @@ jobs:
         run: python auctionDataRequest.py
 
       - name: Restore SQLite database cache
-        uses: actions/cache@v3
+        uses: actions/cache/restore@v3
+        id: cache-restore
         with:
           path: auctions.db
           key: auctions-db-cache
@@ -41,6 +42,19 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           python sniper.py
+      - name: Delete Previous Cache
+        if: ${{ steps.cache-restore.outputs.cache-hit }}
+        continue-on-error: true
+        run: |
+          gh extension install actions/gh-actions-cache
+          gh actions-cache delete "auctions-db-cache" --confirm
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save Cache
+        uses: actions/cache/save@v3
+        with:
+          path: ./cache
+          key: ${{ env.cache-key }}
       - name: Save updated SQLite database to cache
         uses: actions/cache@v3
         with:
