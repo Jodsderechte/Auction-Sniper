@@ -9,7 +9,9 @@ from functools import lru_cache
 # Directories and files
 AUCTIONS_DIR = "data/auctions"
 ITEMS_DIR = "data/items"
-RELEVANT_REALMS_FILE = "data/relevantRealms.json"
+RELEVANT_REALMS_FILE = "config/relevantRealms.json"
+SPECIAL_ITEMS_FILE = "config/specialItems.json"
+ITEM_CLASSES_FILE = "config/itemClasses.json"
 RAIDERIO_BONUS_FILE = "data/BonusIds.json"
 
 # SQLite database file to store historical auction data.
@@ -179,7 +181,7 @@ def load_special_items():
     Returns a dict mapping item_id (as string) to its threshold value.
     """
     try:
-        with open("data/specialItems.json", "r") as f:
+        with open(SPECIAL_ITEMS_FILE, "r") as f:
             return json.load(f)
     except Exception as e:
         print(f"Error loading special items: {e}")
@@ -237,7 +239,7 @@ def calculate_effective_ilvl(base_ilvl, bonus_lists):
     return effective_ilvl
 def load_expansion_data():
     try:
-        with open("data/ItemSearchName.json", "r") as f:
+        with open(ITEM_CLASSES_FILE, "r") as f:
             return json.load(f)
     except Exception as e:
         print(f"Error loading expansion data: {e}")

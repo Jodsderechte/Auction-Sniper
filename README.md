@@ -25,7 +25,7 @@ When a qualifying auction is found, the tool sends a notification via Discord, m
 
 - **Configuration:**  
   Allows you to configure multiple settings easily via JSON files.  
-  - `expansionPresets.json` lets you filter item classes for specific expansions or rarities, even allowing for class-specific thresholds.  
+  - `itemClasses.json` lets you filter item classes for specific expansions or rarities, even allowing for class-specific thresholds.  
   - `specialItems.json` lets you configure specific items with price thresholds, ignoring any class or general thresholds set.  
   - `relevantRealms.json` lets you configure specific realms to care about so you can easily filter out realms you do not play (or have characters) on.
 
@@ -43,9 +43,9 @@ When a qualifying auction is found, the tool sends a notification via Discord, m
    - `DISCORD_WEBHOOK_URL`: A Discord webhook URL (see [Discord Docs](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) for more information).
 
 4. **(Optional) Configure the config files:**
-   - `data/expansionPresets.json`: Filter item classes/expansions/rarities.
-   - `data/specialItems.json`: Set specific items with thresholds.
-   - `data/relevantRealms.json`: Set realms to search.
+   - `config/itemClasses.json`: Filter item classes/expansions/rarities.
+   - `config/specialItems.json`: Set specific items with thresholds.
+   - `config/relevantRealms.json`: Set realms to search.
 
    ```
    Auction-Sniper/
