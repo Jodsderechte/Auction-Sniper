@@ -50,11 +50,6 @@ jobs:
           gh actions-cache delete "auctions-db-cache" --confirm
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Save Cache
-        uses: actions/cache/save@v3
-        with:
-          path: ./cache
-          key: ${{ env.cache-key }}
       - name: Save updated SQLite database to cache
         uses: actions/cache@v3
         with:
