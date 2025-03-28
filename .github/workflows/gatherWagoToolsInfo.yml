@@ -42,8 +42,13 @@ jobs:
               df = df.where(pd.notnull(df), None)
               df.set_index('ID', inplace=True)
               df.to_json('data/ItemSearchName.json', orient='index', indent=4)
+          def process_expansion_display_info():
+              df = pd.read_csv('data/ExpansionDisplayInfo.csv')
+              df = df.where(pd.notnull(df), None)
+              df.set_index('ID', inplace=True)
+              df.to_json('data/ExpansionDisplayInfo.json', orient='index', indent=4)
 
-
+          process_expansion_display_info()
           process_item_search_name()
           EOF
       - name: Commit and push changes
