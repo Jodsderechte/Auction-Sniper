@@ -417,17 +417,18 @@ def notify_discord(cheap_items, relevant_realms):
 
         print(f"Processing item : {item}")
         # Get the icon's filename.
-        filename = os.path.basename(item["icon"])
+        filename = os.path.basename(os.path.normpath(item["icon"]))
+        normalized_icon_path = os.path.normpath(item["icon"])
         attachment_url = f"attachment://{filename}"
 
         if filename not in attached_files:
             try:
-                with open(item["icon"], "rb") as f:
+                with open(normalized_icon_path, "rb") as f:
                     file_bytes = f.read()
                     files[filename] = (filename, file_bytes)
                     attached_files[filename] = True
             except Exception as e:
-                print(f"Error opening file {item['icon']}: {e}")
+                print(f"Error opening file {normalized_icon_path}: {e}")
                 attachment_url = ""
         
         embed = {
