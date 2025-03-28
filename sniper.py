@@ -254,7 +254,7 @@ def compute_latest_expansion(expansion_data):
 
 def load_expansion_presets():
     try:
-        with open("data/expansionPresets.json", "r") as f:
+        with open(ITEM_CLASSES_FILE, "r") as f:
             return json.load(f)
     except Exception as e:
         print(f"Error loading expansion presets: {e}")
