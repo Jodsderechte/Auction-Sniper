@@ -37,6 +37,31 @@ def init_db(conn):
     """)
     conn.commit()
 
+def init_announced_db(conn):
+    """Create a table to store auction IDs that have been announced."""
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS announced_auctions (
+            auction_id TEXT PRIMARY KEY
+        );
+    """)
+    conn.commit()
+
+def load_announced_auctions(conn):
+    """Return a set of auction IDs that have already been announced."""
+    cursor = conn.execute("SELECT auction_id FROM announced_auctions;")
+    return {row[0] for row in cursor.fetchall()}    
+
+def save_announced_auctions(conn, items):
+    """Insert the auction IDs of the items that have been announced."""
+    for item in items:
+        auction_id = str(item["auction_id"])
+        try:
+            conn.execute("INSERT INTO announced_auctions (auction_id) VALUES (?);", (auction_id,))
+        except sqlite3.IntegrityError:
+            # Auction ID already exists; skip it.
+            pass
+    conn.commit()
+
 def process_files(conn, relevant_realms):
     """
     Process auction JSON files, filtering by relevant realms.
@@ -190,6 +215,26 @@ def get_bonus_key(bonus_lists):
         return ""
     return "-".join(sorted(relevant_bonuses))
 
+def calculate_effective_ilvl(base_ilvl, bonus_lists):
+    """
+    Calculate the effective item level by adding bonus level adjustments.
+    
+    base_ilvl: the base item level (as an int).
+    bonus_lists: a list of bonus IDs (numbers).
+    
+    The function looks up each bonus ID in the RAIDERIO_BONUSES mapping (loaded from BonusIds.json)
+    and, if the bonus contains a "level" field, adds that value to the base_ilvl.
+    """
+    try:
+        effective_ilvl = int(base_ilvl) if base_ilvl is not None else 0
+    except ValueError:
+        effective_ilvl = 0
+
+    for bid in bonus_lists:
+        bonus_info = RAIDERIO_BONUSES.get(str(bid))
+        if bonus_info and "level" in bonus_info:
+            effective_ilvl += bonus_info["level"]
+    return effective_ilvl
 def load_expansion_data():
     try:
         with open("data/ItemSearchName.json", "r") as f:
@@ -222,9 +267,6 @@ def preprocess_presets(expansion_presets):
     return expansion_presets
 
 def get_localized_value(val, lang="en_US"):
-    print(val)
-    print(isinstance(val, dict))
-    print(isinstance(val, str))
     if isinstance(val, dict):
         return val.get(lang, "")
     elif isinstance(val, str):
@@ -243,7 +285,7 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
 
     item_class_raw = item_data.get("item_class", {}).get("name", "")
     item_class = get_localized_value(item_class_raw).lower()
-    
+
     preset = presets.get(item_class)
     if preset:
         allowed_expansions = preset.get("allowed_expansions", "all")
@@ -267,7 +309,7 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
             return None
     else:
         print(f"Item class for item {item_id} is: {item_class} and subclass is {get_localized_value(item_data.get('item_subclass', ''))}")
-        quality = get_localized_value(item_data.get("quality", "").get("name", ""),).upper()
+        quality = get_localized_value(item_data.get("quality", "").get("name", "")).upper()
 
     threshold = preset.get("min_buyout_overwrite", MIN_BUYOUT) if preset else MIN_BUYOUT
     ratio = preset.get("threshold_ratio_overwrite", THRESHOLD_RATIO) if preset else THRESHOLD_RATIO
@@ -283,6 +325,10 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
     if not qualifies:
         return None
 
+    # Retrieve base ilvl and calculate effective ilvl using bonus modifications.
+    base_ilvl = item_data.get("level") or item_data.get("item_level") or 0
+    effective_ilvl = calculate_effective_ilvl(base_ilvl, bonus_lists)
+
     item_name = get_localized_value(item_data.get("name", "Unknown Item"))
     icon = item_data.get("icon_path", "")
     saving_pct = ((avg - buyout) / avg) * 100
@@ -297,8 +343,10 @@ def cross_reference_item(record, avg, special_items, expansion_data, presets, la
         "item_name": item_name,
         "icon": icon,
         "saving_pct": saving_pct,
-        "avg_price": avg
+        "avg_price": avg,
+        "ilvl": effective_ilvl  # Include the computed effective ilvl
     }
+
 
 def process_record(record, averages, special_items, expansion_data, expansion_presets, latest_expansion):
     realm, auction_id, item_id, buyout, quantity, time_left, bonus_lists, timestamp = record
@@ -313,7 +361,7 @@ def process_record(record, averages, special_items, expansion_data, expansion_pr
     return None
 
 
-def find_cheap_items(new_records, averages, relevant_realms, expansion_data, expansion_presets):
+def find_cheap_items(new_records, averages, relevant_realms, expansion_data, expansion_presets, announced_ids, latest_expansion):
     """
     Filter full auction records (only from relevant realms) to include one entry per (realm, item_id)
     using the minimum buyout. Returns a list of dictionaries with extended auction/item data.
@@ -325,7 +373,7 @@ def find_cheap_items(new_records, averages, relevant_realms, expansion_data, exp
     # Import partial to fix extra arguments for process_record.
     from functools import partial
     process_func = partial(process_record, averages=averages, special_items=special_items,
-                             expansion_data=expansion_data, expansion_presets=expansion_presets)
+                             expansion_data=expansion_data, expansion_presets=expansion_presets, latest_expansion=latest_expansion)
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=None) as executor:
         results = list(executor.map(process_func, new_records))
@@ -340,7 +388,9 @@ def find_cheap_items(new_records, averages, relevant_realms, expansion_data, exp
 
     candidate_list = list(candidates.values())
     candidate_list.sort(key=lambda x: x["buyout"])
-    return candidate_list[:5]
+    filtered_candidates = [item for item in candidate_list if str(item["auction_id"]) not in announced_ids]
+
+    return filtered_candidates[:5]
 
 def notify_discord(cheap_items, relevant_realms):
     """
@@ -385,7 +435,9 @@ def notify_discord(cheap_items, relevant_realms):
             "description": (
                 f"**Item ID:** {item['item_id']}\n"
                 f"**Realm:** {realm_name}\n"
-                f"**Buyout:** {round(item['buyout']/10000)} (Avg Price: { round(item['avg_price']/10000,0)})"
+                f"**Buyout:** {round(item['buyout']/10000)} (Avg Price: { round(item['avg_price']/10000,0)}) \n"
+                f"**Item Level:** {item.get('ilvl', 'N/A')}\n"
+                f"**Bonuses:** {item.get('bonus_key', 'None')}" 
             ),
             "footer": {"text": f"Auction ID: {item['auction_id']}"},
             "timestamp": item["timestamp"]
@@ -416,6 +468,7 @@ print(f"Loaded {len(RAIDERIO_BONUSES)} bonus ids.")
 def main():
     conn = sqlite3.connect(DB_FILE)
     init_db(conn)
+    init_announced_db(conn)  # initialize announced auctions table
     relevant_realms = load_relevant_realms()
     print(f"Loaded {len(relevant_realms)} relevant realms.")
 
@@ -432,33 +485,13 @@ def main():
     averages = get_historical_averages(conn)
     print(f"Computed historical averages for {len(averages)} items.")
 
-    # Use partial to fix extra arguments.
-    from functools import partial
-    process_func = partial(process_record, averages=averages, 
-                           special_items=load_special_items(), 
-                           expansion_data=expansion_data, 
-                           expansion_presets=expansion_presets,
-                           latest_expansion=latest_expansion)
-    
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
-        results = list(executor.map(process_func, new_records))
-    
-    candidates = {}
-    for res in results:
-        if res is None:
-            continue
-        realm, item_id, extended = res
-        key = (realm, item_id)
-        if key not in candidates or extended["buyout"] < candidates[key]["buyout"]:
-            candidates[key] = extended
-
-    candidate_list = list(candidates.values())
-    candidate_list.sort(key=lambda x: x["buyout"])
-    cheap_items = candidate_list[:5]
+    announced_ids = load_announced_auctions(conn)
+    cheap_items = find_cheap_items(new_records, averages, relevant_realms, expansion_data, expansion_presets, announced_ids, latest_expansion)
     print(f"Found {len(cheap_items)} candidate cheap items after filtering.")
 
     if cheap_items:
         notify_discord(cheap_items, relevant_realms)
+        save_announced_auctions(conn, cheap_items)
     else:
         print("No qualifying cheap items to notify.")
     conn.close()
