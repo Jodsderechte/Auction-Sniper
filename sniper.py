@@ -13,6 +13,7 @@ RELEVANT_REALMS_FILE = "config/relevantRealms.json"
 SPECIAL_ITEMS_FILE = "config/specialItems.json"
 ITEM_CLASSES_FILE = "config/itemClasses.json"
 RAIDERIO_BONUS_FILE = "data/BonusIds.json"
+EXPANSION_FILE = "data/ExpansionDisplayInfo.json"
 
 # SQLite database file to store historical auction data.
 DB_FILE = "auctions.db"
@@ -239,7 +240,7 @@ def calculate_effective_ilvl(base_ilvl, bonus_lists):
     return effective_ilvl
 def load_expansion_data():
     try:
-        with open(ITEM_CLASSES_FILE, "r") as f:
+        with open(EXPANSION_FILE, "r") as f:
             return json.load(f)
     except Exception as e:
         print(f"Error loading expansion data: {e}")
@@ -247,7 +248,7 @@ def load_expansion_data():
 
 def compute_latest_expansion(expansion_data):
     try:
-        return max(info.get("ExpansionID", 0) for info in expansion_data.values())
+        return max(info.get("ExpansionLevel", 0) for info in expansion_data.values())
     except ValueError:
         return 0
 
