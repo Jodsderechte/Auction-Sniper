@@ -417,8 +417,9 @@ def notify_discord(cheap_items, relevant_realms):
 
         print(f"Processing item : {item}")
         # Get the icon's filename.
-        filename = os.path.basename(os.path.normpath(item["icon"]))
-        normalized_icon_path = os.path.normpath(item["icon"])
+        icon_path = item["icon"].replace("\\", os.sep)
+        filename = os.path.basename(os.path.normpath(icon_path))
+        normalized_icon_path = os.path.normpath(icon_path)
         attachment_url = f"attachment://{filename}"
 
         if filename not in attached_files:
